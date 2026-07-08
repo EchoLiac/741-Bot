@@ -8,9 +8,8 @@ import email.utils
 WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
 TWITTER_USER = "TrendSpider"
 
-# Mehrere Instanzen als Fallback, da einzelne oeffentliche Nitter-Instanzen
-# haeufig down sind oder kein sauberes RSS mehr liefern.
 RSS_CANDIDATES = [
+    "https://rss.app/feeds/csJtGAfrpHl66jlA.xml",  # primaer: RSS.app, getestet & stabil
     f"https://nitter.privacydev.net/{TWITTER_USER}/rss",
     f"https://nitter.poast.org/{TWITTER_USER}/rss",
     f"https://xcancel.com/{TWITTER_USER}/rss",
@@ -37,7 +36,8 @@ def fetch_rss():
                 print(f"[WARN] {last_error}")
                 continue
 
-            root = ET.fromstring(resp.content)
+            cleaned = resp.content.lstrip(b'\xef\xbb\xbf \t\r\n')
+            root = ET.fromstring(cleaned)
             print(f"[OK] Feed erfolgreich geladen von: {url}")
             return root
 
