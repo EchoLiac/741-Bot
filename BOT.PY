@@ -17,7 +17,8 @@ def fetch_and_post():
         return
 
     try:
-        response = requests.get(FEED_URL, timeout=15)
+        # HIER KORRIGIERT: rss_url statt FEED_URL
+        response = requests.get(rss_url, timeout=15)
         if response.status_code != 200:
             print(f"Feed-Fehler: Status {response.status_code}")
             return
