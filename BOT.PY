@@ -8,7 +8,8 @@ import email.utils
 WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
 TWITTER_USER = "TrendSpider"
 # Nutzt eine öffentlich zugängliche RSS-Bridge für X/Twitter
-FEED_URL = f"https://rsshub.app/twitter/user/{TWITTER_USER}"
+rss_url = f"https://nitter.privacydev.net/{TWITTER_USER}/rss"
+
 
 def fetch_and_post():
     if not WEBHOOK_URL:
