@@ -27,3 +27,12 @@ jobs:
       env:
         DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
       run: python BOT.PY
+
+    - name: Debug-Dateien hochladen
+      if: failure()
+      uses: actions/upload-artifact@v4
+      with:
+        name: debug-files
+        path: |
+          debug_screenshot.png
+          debug_page.html
