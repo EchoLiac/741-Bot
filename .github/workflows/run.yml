@@ -2,8 +2,8 @@ name: TrendSpider Bot Run
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Läuft alle 15 Minuten automatisch
-  workflow_dispatch:        # Ermöglicht es dir, den Bot jederzeit manuell zu starten
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
 
 jobs:
   run-bot:
@@ -18,8 +18,10 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Requests-Bibliothek installieren
-      run: pip install requests
+    - name: Bibliotheken installieren
+      run: |
+        pip install requests playwright
+        playwright install --with-deps chromium
 
     - name: Bot ausführen
       env:
