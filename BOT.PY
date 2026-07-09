@@ -35,6 +35,9 @@ def fetch_latest_tweets():
             page.goto(PROFILE_URL, timeout=30000, wait_until="domcontentloaded")
             page.wait_for_selector('article[data-testid="tweet"]', timeout=15000)
         except Exception as e:
+            page.screenshot(path="debug_screenshot.png", full_page=True)
+            with open("debug_page.html", "w", encoding="utf-8") as f:
+                f.write(page.content())
             browser.close()
             raise RuntimeError(f"Seite konnte nicht geladen werden: {e}")
 
