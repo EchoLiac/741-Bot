@@ -6,7 +6,7 @@ from playwright.sync_api import sync_playwright
 
 ACCOUNTS = [
     {"user": "TrendSpider", "webhook_env": "DISCORD_WEBHOOK_TRENDSPIDER", "state_file": "seen_ids_trendspider.json"},
-    {"user": "earningscorrespondent", "webhook_env": "DISCORD_WEBHOOK_EARNINGS", "state_file": "seen_ids_earnings.json"},
+        {"user": "earnings_guy", "webhook_env": "DISCORD_WEBHOOK_EARNINGS", "state_file": "seen_ids_earnings.json"},
     {"user": "watcherguru", "webhook_env": "DISCORD_WEBHOOK_WATCHERGURU", "state_file": "seen_ids_watcherguru.json"},
 ]
 
