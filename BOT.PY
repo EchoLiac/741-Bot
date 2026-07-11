@@ -6,7 +6,7 @@ from playwright.sync_api import sync_playwright
 
 ACCOUNTS = [
     {"user": "TrendSpider", "webhook_env": "DISCORD_WEBHOOK_TRENDSPIDER", "state_file": "seen_ids_trendspider.json"},
-        {"user": "earnings_guy", "webhook_env": "DISCORD_WEBHOOK_EARNINGS", "state_file": "seen_ids_earnings.json"},
+    {"user": "earnings_guy", "webhook_env": "DISCORD_WEBHOOK_EARNINGS", "state_file": "seen_ids_earnings.json"},
     {"user": "watcherguru", "webhook_env": "DISCORD_WEBHOOK_WATCHERGURU", "state_file": "seen_ids_watcherguru.json"},
 ]
 
@@ -84,7 +84,7 @@ def process_account(page, account):
         if first_run:
             continue
 
-        message = f"Neuer Post von {username}!\n\n{tweet['text']}\n\nLink: {tweet['link']}"
+        message = f"{tweet['text']}\n\nLink: {tweet['link']}"
         resp = requests.post(webhook_url, json={"content": message}, timeout=10)
         if resp.status_code >= 300:
             print(f"[ERROR] {username}: Discord-Post fehlgeschlagen: {resp.status_code} {resp.text}")
