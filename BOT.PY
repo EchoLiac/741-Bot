@@ -8,6 +8,7 @@ ACCOUNTS = [
     {"user": "TrendSpider", "webhook_env": "DISCORD_WEBHOOK_TRENDSPIDER", "state_file": "seen_ids_trendspider.json"},
     {"user": "earnings_guy", "webhook_env": "DISCORD_WEBHOOK_EARNINGS", "state_file": "seen_ids_earnings.json"},
     {"user": "watcherguru", "webhook_env": "DISCORD_WEBHOOK_WATCHERGURU", "state_file": "seen_ids_watcherguru.json"},
+    {"user": "ewhispers", "webhook_env": "DISCORD_WEBHOOK_EWHISPERS", "state_file": "seen_ids_ewhispers.json"},
 ]
 
 USER_AGENT = (
