@@ -2,7 +2,8 @@ name: 741 Bot
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    # Durch die krummen Minuten (alle 14 Min ab Minute 6) umgehen wir den GitHub-Stau
+    - cron: '6,20,34,48 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -35,6 +36,7 @@ jobs:
         DISCORD_WEBHOOK_TRENDSPIDER: ${{ secrets.DISCORD_WEBHOOK_TRENDSPIDER }}
         DISCORD_WEBHOOK_EARNINGS: ${{ secrets.DISCORD_WEBHOOK_EARNINGS }}
         DISCORD_WEBHOOK_WATCHERGURU: ${{ secrets.DISCORD_WEBHOOK_WATCHERGURU }}
+        DISCORD_WEBHOOK_EWHISPERS: ${{ secrets.DISCORD_WEBHOOK_EWHISPERS }}
       run: python BOT.PY
 
     - name: Debug-Dateien hochladen
