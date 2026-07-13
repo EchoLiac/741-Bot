@@ -1,9 +1,7 @@
 name: 741 Bot
 
 on:
-  schedule:
-    # Läuft jede Stunde auf Minute 14 und 41 – via Token Automatischer Start
-    
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -11,7 +9,6 @@ permissions:
 concurrency:
   group: bot-run
   cancel-in-progress: false
-
 
 jobs:
   run-bot:
