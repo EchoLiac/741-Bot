@@ -37,9 +37,16 @@ USER_AGENT = (
 
 def load_seen_ids(state_file):
     if os.path.exists(state_file):
-        with open(state_file, "r") as f:
-            return set(json.load(f))
+        try:
+            with open(state_file, "r") as f:
+                content = f.read().strip()
+                if not content:
+                    return set()
+                return set(json.loads(content))
+        except (json.JSONDecodeError, ValueError):
+            return set()
     return set()
+
 
 
 def save_seen_ids(state_file, ids):
