@@ -8,6 +8,10 @@ on:
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    
+    # NEU: Das zwingt GitHub, dem Bot echte Schreibrechte zu geben
+    permissions:
+      contents: write
 
     steps:
       - name: Code aus Repository auschecken
