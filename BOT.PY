@@ -71,7 +71,7 @@ def fetch_latest_tweets(page, username):
 
     top_level_articles = []
     for article in articles:
-        # Pruefen, ob es ein verschachtelter Tweet (z. B. in einem Thread) is
+        # Pruefen, ob es ein verschachtelter Tweet (z. B. in einem Thread) ist
         is_nested = article.evaluate(
             "el => el.parentElement.closest('article[data-tweet-id]') !== null"
         )
@@ -91,12 +91,11 @@ def fetch_latest_tweets(page, username):
             if not tweet_id:
                 continue
 
-            # SICHERHEITS-FILTER GEGEN WERBUNG & "ZUKUNFTS-IDs":
-            # Da aktuelle IDs bei ~1.9x Milliarden liegen, blockieren wir IDs,
-            # die unrealistisch hoch sind (z. B. Werbe-IDs ab 2.0x Milliarden).
+            # SICHERHEITS-FILTER GEGEN WERBUNG & UNNATÜRLICHE IDs:
+            # Grenze auf 3.0x10^18 erhoeht, da reguläre IDs in 2026 bereits bei ~2.07x10^18 liegen.
             try:
                 id_val = int(tweet_id)
-                if id_val > 2000000000000000000:
+                if id_val > 3000000000000000000:
                     print(f"[INFO] {username}: Ungueltige oder Werbe-ID ({tweet_id}) gefiltert.")
                     continue
             except ValueError:
