@@ -34,7 +34,7 @@ def fetch_latest_tweets(page, username):
     profile_url = f"https://x.com/{username}"
     page.goto(profile_url, timeout=30000, wait_until="domcontentloaded")
     
-    # REPARIERT: Warten auf das moderne Tweet-Element von X
+    # Wartet stabil auf das moderne Tweet-Element (erfordert Login!)
     page.wait_for_selector('article[data-testid="tweet"]', timeout=15000)
 
     tweets = []
@@ -42,7 +42,7 @@ def fetch_latest_tweets(page, username):
 
     for article in articles[:15]:
         try:
-            # REPARIERT: Da das Attribut "data-tweet-id" weg ist, holen wir uns die ID aus dem Status-Link
+            # Holt die Tweet-ID sicher aus dem Status-Link des Posts
             link_el = article.query_selector('a[href*="/status/"]')
             if not link_el:
                 continue
@@ -51,14 +51,10 @@ def fetch_latest_tweets(page, username):
             if not href:
                 continue
                 
-            # Extrahiert die ID aus z.B. "/TrendSpider/status/123456789"
             tweet_id = href.split("/status/")[-1].split("?")[0]
 
-            # REPARIERT: Text-Element über das moderne X-Attribut abgreifen
+            # Text-Inhalt auslesen
             text_el = article.query_selector('div[data-testid="tweetText"]')
-            if not text_el:
-                text_el = article.query_selector('div[dir="auto"]') # Fallback auf alte Struktur
-                
             text = text_el.inner_text() if text_el else ""
 
             link = f"https://x.com/{username}/status/{tweet_id}"
@@ -116,6 +112,8 @@ def process_account(page, account):
 
 
 def main():
+    cookies_json = os.getenv("TWITTER_COOKIES")
+    
     with sync_playwright() as p:
         browser = p.chromium.launch(
             headless=True,
@@ -128,6 +126,18 @@ def main():
         context.add_init_script(
             "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
         )
+        
+        # NEU: Loggt den Bot mit deinen GitHub-Cookies ein, damit X die Profile anzeigt
+        if cookies_json:
+            try:
+                cookies = json.loads(cookies_json)
+                context.add_cookies(cookies)
+                print("[INFO] Twitter-Cookies erfolgreich geladen. Bot laeuft eingeloggt!")
+            except Exception as e:
+                print(f"[WARN] Cookies konnten nicht geladen werden: {e}")
+        else:
+            print("[WARN] Keine TWITTER_COOKIES gefunden! Bot laeuft unangemeldet (Risiko fuer Login-Wall).")
+
         page = context.new_page()
 
         any_error = False
