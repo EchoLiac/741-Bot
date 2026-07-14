@@ -48,7 +48,6 @@ def load_seen_ids(state_file):
     return set()
 
 
-
 def save_seen_ids(state_file, ids):
     trimmed = list(ids)[-200:]
     with open(state_file, "w") as f:
@@ -58,13 +57,21 @@ def save_seen_ids(state_file, ids):
 def fetch_latest_tweets(page, username):
     profile_url = f"https://x.com/{username}"
     page.goto(profile_url, timeout=30000, wait_until="domcontentloaded")
+    
+    # Warte, bis die Tweets geladen sind
     page.wait_for_selector("article[data-tweet-id]", timeout=15000)
+    
+    # Winziges Scrollen simuliert menschliche Interaktion und laedt neuere Tweets nach,
+    # ohne die restriktive Login-Sperre von X zu triggern
+    page.evaluate("window.scrollTo(0, 400)")
+    page.wait_for_timeout(2000)
 
     tweets = []
     articles = page.query_selector_all("article[data-tweet-id]")
 
     top_level_articles = []
     for article in articles:
+        # Pruefen, ob es ein verschachtelter Tweet (z. B. in einem Thread) ist
         is_nested = article.evaluate(
             "el => el.parentElement.closest('article[data-tweet-id]') !== null"
         )
@@ -73,16 +80,30 @@ def fetch_latest_tweets(page, username):
 
     for article in top_level_articles[:15]:
         try:
+            # PRUEFUNG AUF GEPINNTE TWEETS
+            # Verhindert, dass uralte, oben angepinnte Tweets das System blockieren
+            is_pinned = article.query_selector('[data-testid="socialContext"]')
+            if is_pinned and "Pinned" in (is_pinned.inner_text() or ""):
+                print(f"[INFO] {username}: Gepinnten Tweet uebersprungen, um ID-Blockade zu verhindern.")
+                continue
+
             tweet_id = article.get_attribute("data-tweet-id")
             if not tweet_id:
                 continue
 
-            text_el = article.query_selector('div[dir="auto"]')
+            # Sicherer, moderner Selektor fuer den tatsaechlichen Tweet-Text
+            text_el = article.query_selector('[data-testid="tweetText"]')
             text = text_el.inner_text() if text_el else ""
+
+            # Ausweichloesung, falls kein Text vorhanden ist (z. B. nur Medien/Bilder)
+            if not text:
+                text_el_alt = article.query_selector('div[dir="auto"]')
+                text = text_el_alt.inner_text() if text_el_alt else "[Nur Bild/Medium]"
 
             link = f"https://x.com/{username}/status/{tweet_id}"
             tweets.append({"id": tweet_id, "text": text, "link": link})
-        except Exception:
+        except Exception as e:
+            print(f"[DEBUG] Fehler beim Parsen eines Tweets von {username}: {e}")
             continue
 
     return tweets
