@@ -4,8 +4,6 @@ import json
 import requests
 from playwright.sync_api import sync_playwright
 
-# Jeder Account bekommt: X-Username, Name des GitHub-Secrets fuer den Webhook,
-# und eine eigene State-Datei fuer die gesehenen Tweet-IDs.
 ACCOUNTS = [
     {
         "user": "TrendSpider",
@@ -61,8 +59,7 @@ def fetch_latest_tweets(page, username):
     # Warte, bis die Tweets geladen sind
     page.wait_for_selector("article[data-tweet-id]", timeout=15000)
     
-    # Winziges Scrollen simuliert menschliche Interaktion und laedt neuere Tweets nach,
-    # ohne die restriktive Login-Sperre von X zu triggern
+    # Winziges Scrollen simuliert menschliche Interaktion
     page.evaluate("window.scrollTo(0, 400)")
     page.wait_for_timeout(2000)
 
@@ -80,32 +77,34 @@ def fetch_latest_tweets(page, username):
 
     for article in top_level_articles[:15]:
         try:
-            # PRUEFUNG AUF GEPINNTE TWEETS
-            # Verhindert, dass uralte, oben angepinnte Tweets das System blockieren
+            # 1. PRUEFUNG AUF GEPINNTE TWEETS
             is_pinned = article.query_selector('[data-testid="socialContext"]')
             if is_pinned and "Pinned" in (is_pinned.inner_text() or ""):
-                print(f"[INFO] {username}: Gepinnten Tweet uebersprungen, um ID-Blockade zu verhindern.")
+                print(f"[INFO] {username}: Gepinnten Tweet uebersprungen.")
+                continue
+
+            # 2. PRUEFUNG AUF WERBUNG (PROMOTED TWEETS)
+            # Twitter markiert Werbe-Tweets im HTML-Baum strukturell anders.
+            # Wenn der Tweet ein "Ad"-Label enthaelt, sortieren wir ihn sofort aus.
+            is_promoted = article.evaluate(
+                """el => {
+                    const text = el.innerText || "";
+                    return text.includes("Promoted") || text.includes("Gesponsert") || text.includes("Anzeige");
+                }"""
+            )
+            if is_promoted:
+                print(f"[INFO] {username}: Werbe-Tweet (Promoted) im HTML erkannt und blockiert.")
                 continue
 
             tweet_id = article.get_attribute("data-tweet-id")
             if not tweet_id:
                 continue
 
-            # SICHERHEITS-FILTER GEGEN WERBUNG & UNNATÜRLICHE IDs:
-            # Grenze auf 3.0x10^18 erhoeht, da reguläre IDs in 2026 bereits bei ~2.07x10^18 liegen.
-            try:
-                id_val = int(tweet_id)
-                if id_val > 3000000000000000000:
-                    print(f"[INFO] {username}: Ungueltige oder Werbe-ID ({tweet_id}) gefiltert.")
-                    continue
-            except ValueError:
-                continue
-
-            # Sicherer, moderner Selektor fuer den tatsaechlichen Tweet-Text
+            # Text-Selektor
             text_el = article.query_selector('[data-testid="tweetText"]')
             text = text_el.inner_text() if text_el else ""
 
-            # Ausweichloesung, falls kein Text vorhanden ist (z. B. nur Medien/Bilder)
+            # Ausweichloesung, falls kein Text vorhanden ist (nur Medien)
             if not text:
                 text_el_alt = article.query_selector('div[dir="auto"]')
                 text = text_el_alt.inner_text() if text_el_alt else "[Nur Bild/Medium]"
