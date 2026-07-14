@@ -1,109 +1,148 @@
 import os
+import sys
 import json
-import asyncio
-from playwright.async_api import async_playwright
-import urllib.request
+import requests
+from playwright.sync_api import sync_playwright
 
-# Konfiguration aus deinen GitHub Secrets / Environment Variables
-COOKIES_JSON = os.getenv("TWITTER_COOKIES")
+ACCOUNTS = [
+    {"user": "TrendSpider", "webhook_env": "DISCORD_WEBHOOK_TRENDSPIDER", "state_file": "seen_ids_trendspider.json"},
+    {"user": "earnings_guy", "webhook_env": "DISCORD_WEBHOOK_EARNINGS", "state_file": "seen_ids_earnings.json"},
+    {"user": "watcherguru", "webhook_env": "DISCORD_WEBHOOK_WATCHERGURU", "state_file": "seen_ids_watcherguru.json"},
+    {"user": "ewhispers", "webhook_env": "DISCORD_WEBHOOK_EWHISPERS", "state_file": "seen_ids_ewhispers.json"},
+]
 
-# Zuweisung der Accounts zu deinen Discord Webhooks
-TARGETS = {
-    "TrendSpider": {
-        "url": "https://x.com/TrendSpider",
-        "webhook": os.getenv("DISCORD_WEBHOOK_TRENDSPIDER"),
-        "screenshot": "error_TrendSpider.png"
-    },
-    "earnings_guy": {
-        "url": "https://x.com/earnings_guy",
-        "webhook": os.getenv("DISCORD_WEBHOOK_EARNINGS"),
-        "screenshot": "error_earnings_guy.png"
-    },
-    "watcherguru": {
-        "url": "https://x.com/watcherguru",
-        "webhook": os.getenv("DISCORD_WEBHOOK_WATCHERGURU"),
-        "screenshot": "error_watcherguru.png"
-    },
-    "ewhispers": {
-        "url": "https://x.com/ewhispers",
-        "webhook": os.getenv("DISCORD_WEBHOOK_EWHISPERS"),
-        "screenshot": "error_ewhispers.png"
-    }
-}
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+)
 
-def send_to_discord(webhook_url, content, image_url=None):
-    if not webhook_url:
-        print("Webhook URL fehlt in den Umgebungsvariablen!")
-        return
+
+def load_seen_ids(state_file):
+    if os.path.exists(state_file):
+        with open(state_file, "r") as f:
+            return set(json.load(f))
+    return set()
+
+
+def save_seen_ids(state_file, ids):
+    trimmed = list(ids)[-200:]
+    with open(state_file, "w") as f:
+        json.dump(trimmed, f)
+
+
+def fetch_latest_tweets(page, username):
+    profile_url = f"https://x.com/{username}"
+    page.goto(profile_url, timeout=30000, wait_until="domcontentloaded")
     
-    payload = {"content": content}
-    if image_url:
-        payload["embeds"] = [{"image": {"url": image_url}}]
-    
-    headers = {"Content-Type": "application/json"}
-    req = urllib.request.Request(
-        webhook_url, 
-        data=json.dumps(payload).encode("utf-8"), 
-        headers=headers, 
-        method="POST"
-    )
-    try:
-        with urllib.request.urlopen(req) as response:
-            pass
-    except Exception as e:
-        print(f"Fehler beim Senden an Discord: {e}")
+    # REPARIERT: Warten auf das moderne Tweet-Element von X
+    page.wait_for_selector('article[data-testid="tweet"]', timeout=15000)
 
-async def run_bot():
-    if not COOKIES_JSON:
-        print("***ERROR*** TWITTER_COOKIES fehlen in den Umgebungsvariablen!")
-        return
+    tweets = []
+    articles = page.query_selector_all('article[data-testid="tweet"]')
 
-    async with async_playwright() as p:
-        # Browser im Headless-Modus starten
-        browser = await p.chromium.launch(headless=True)
-        context = await browser.new_context()
-        
-        # Cookies einspielen
+    for article in articles[:15]:
         try:
-            cookies = json.loads(COOKIES_JSON)
-            await context.add_cookies(cookies)
-            print("***INFO*** Twitter-Cookies erfolgreich geladen. Bot laeuft eingeloggt!")
-        except Exception as e:
-            print(f"***ERROR*** Cookies konnten nicht geladen werden: {e}")
-            await browser.close()
-            return
-        
-        page = await context.new_page()
-        
-        for name, target in TARGETS.items():
-            print(f"Scrape Target: {name} ({target['url']})")
+            # REPARIERT: Da das Attribut "data-tweet-id" weg ist, holen wir uns die ID aus dem Status-Link
+            link_el = article.query_selector('a[href*="/status/"]')
+            if not link_el:
+                continue
+                
+            href = link_el.get_attribute("href")
+            if not href:
+                continue
+                
+            # Extrahiert die ID aus z.B. "/TrendSpider/status/123456789"
+            tweet_id = href.split("/status/")[-1].split("?")[0]
+
+            # REPARIERT: Text-Element über das moderne X-Attribut abgreifen
+            text_el = article.query_selector('div[data-testid="tweetText"]')
+            if not text_el:
+                text_el = article.query_selector('div[dir="auto"]') # Fallback auf alte Struktur
+                
+            text = text_el.inner_text() if text_el else ""
+
+            link = f"https://x.com/{username}/status/{tweet_id}"
+            tweets.append({"id": tweet_id, "text": text, "link": link})
+        except Exception:
+            continue
+
+    return tweets
+
+
+def process_account(page, account):
+    username = account["user"]
+    webhook_url = os.environ.get(account["webhook_env"])
+
+    if not webhook_url:
+        print(f"[WARN] {username}: Secret {account['webhook_env']} fehlt, ueberspringe.")
+        return
+
+    try:
+        tweets = fetch_latest_tweets(page, username)
+    except Exception as e:
+        print(f"[ERROR] {username}: Seite konnte nicht geladen werden: {e}")
+        return
+
+    if not tweets:
+        print(f"[WARN] {username}: Keine Tweets gefunden.")
+        return
+
+    seen_ids = load_seen_ids(account["state_file"])
+    first_run = len(seen_ids) == 0
+    new_seen = set(seen_ids)
+    posted = 0
+
+    for tweet in reversed(tweets):
+        new_seen.add(tweet["id"])
+        if tweet["id"] in seen_ids:
+            continue
+        if first_run:
+            continue
+
+        message = f"{tweet['text']}\n\nLink: {tweet['link']}"
+        resp = requests.post(webhook_url, json={"content": message}, timeout=10)
+        if resp.status_code >= 300:
+            print(f"[ERROR] {username}: Discord-Post fehlgeschlagen: {resp.status_code} {resp.text}")
+        else:
+            posted += 1
+            print(f"[OK] {username}: An Discord gesendet: {tweet['text'][:40]}...")
+
+    save_seen_ids(account["state_file"], new_seen)
+
+    if first_run:
+        print(f"[INFO] {username}: Erster Lauf, {len(new_seen)} Posts als bekannt markiert, nichts gepostet.")
+    else:
+        print(f"[INFO] {username}: Fertig, {posted} neue Posts gesendet.")
+
+
+def main():
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--disable-blink-features=AutomationControlled"],
+        )
+        context = browser.new_context(
+            user_agent=USER_AGENT,
+            viewport={"width": 1280, "height": 1000},
+        )
+        context.add_init_script(
+            "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+        )
+        page = context.new_page()
+
+        any_error = False
+        for account in ACCOUNTS:
             try:
-                await page.goto(target["url"])
-                
-                # REPARIERTER SELEKTOR: Wartet darauf, dass X das Tweet-Element rendert
-                await page.wait_for_selector('article[data-testid="tweet"]', timeout=15000)
-                
-                # Text des ersten Beitrags auslesen
-                tweet_text = await page.locator('article[data-testid="tweet"] div[data-testid="tweetText"]').first.inner_text()
-                
-                # Versuchen, das erste Bild aus dem Beitrag zu holen
-                image_element = page.locator('article[data-testid="tweet"] div[data-testid="tweetPhoto"] img').first
-                image_url = None
-                if await image_element.count() > 0:
-                    image_url = await image_element.get_attribute("src")
-                
-                # Nachricht zusammenbauen und abschicken
-                msg = f"**{name}** hat gepostet:\n{tweet_text}"
-                send_to_discord(target["webhook"], msg, image_url)
-                print(f"***SUCCESS*** Update fuer {name} erfolgreich an Discord gesendet!")
-                
+                process_account(page, account)
             except Exception as e:
-                # Macht exakt den Screenshot, den du im Log gesehen hast, falls das Laden fehlschlägt
-                await page.screenshot(path=target["screenshot"])
-                print(f"***DEBUG*** Fehler-Screenshot gespeichert als {target['screenshot']}. Aktuelle URL: {target['url']}")
-                print(f"***ERROR*** {name}: Seite konnte nicht geladen werden: {e}")
-                
-        await browser.close()
+                any_error = True
+                print(f"[FATAL] {account['user']}: {e}")
+
+        browser.close()
+
+    if any_error:
+        sys.exit(1)
+
 
 if __name__ == "__main__":
-    asyncio.run(run_bot())
+    main()
