@@ -54,14 +54,22 @@ def save_seen_ids(state_file, ids):
 
 def fetch_latest_tweets(page, username):
     profile_url = f"https://x.com/{username}"
-    page.goto(profile_url, timeout=30000, wait_until="domcontentloaded")
     
-    # Warte, bis die Tweets geladen sind
-    page.wait_for_selector("article[data-tweet-id]", timeout=15000)
-    
-    # Winziges Scrollen simuliert menschliche Interaktion
-    page.evaluate("window.scrollTo(0, 500)")
-    page.wait_for_timeout(2000)
+    try:
+        page.goto(profile_url, timeout=30000, wait_until="domcontentloaded")
+        
+        # Warte, bis die Tweets geladen sind
+        page.wait_for_selector("article[data-tweet-id]", timeout=15000)
+        
+        # Winziges Scrollen simuliert menschliche Interaktion
+        page.evaluate("window.scrollTo(0, 500)")
+        page.wait_for_timeout(2000)
+    except Exception as e:
+        # NEU: Macht bei jedem Fehler automatisch einen Screenshot!
+        screenshot_path = f"error_{username}.png"
+        page.screenshot(path=screenshot_path)
+        print(f"[DEBUG] Fehler-Screenshot gespeichert als {screenshot_path}. Aktuelle URL: {page.url}")
+        raise e
 
     tweets = []
     articles = page.query_selector_all("article[data-tweet-id]")
