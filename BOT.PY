@@ -4,11 +4,29 @@ import json
 import requests
 from playwright.sync_api import sync_playwright
 
+# Jeder Account bekommt: X-Username, Name des GitHub-Secrets fuer den Webhook,
+# und eine eigene State-Datei fuer die gesehenen Tweet-IDs.
 ACCOUNTS = [
-    {"user": "TrendSpider", "webhook_env": "DISCORD_WEBHOOK_TRENDSPIDER", "state_file": "seen_ids_trendspider.json"},
-    {"user": "earnings_guy", "webhook_env": "DISCORD_WEBHOOK_EARNINGS", "state_file": "seen_ids_earnings.json"},
-    {"user": "watcherguru", "webhook_env": "DISCORD_WEBHOOK_WATCHERGURU", "state_file": "seen_ids_watcherguru.json"},
-    {"user": "ewhispers", "webhook_env": "DISCORD_WEBHOOK_EWHISPERS", "state_file": "seen_ids_ewhispers.json"},
+    {
+        "user": "TrendSpider",
+        "webhook_env": "DISCORD_WEBHOOK_TRENDSPIDER",
+        "state_file": "seen_ids_trendspider.json",
+    },
+    {
+        "user": "earnings_guy",
+        "webhook_env": "DISCORD_WEBHOOK_EARNINGS",
+        "state_file": "seen_ids_earnings.json",
+    },
+    {
+        "user": "watcherguru",
+        "webhook_env": "DISCORD_WEBHOOK_WATCHERGURU",
+        "state_file": "seen_ids_watcherguru.json",
+    },
+    {
+        "user": "ewhispers",
+        "webhook_env": "DISCORD_WEBHOOK_EWHISPERS",
+        "state_file": "seen_ids_ewhispers.json",
+    },
 ]
 
 USER_AGENT = (
@@ -38,7 +56,15 @@ def fetch_latest_tweets(page, username):
     tweets = []
     articles = page.query_selector_all("article[data-tweet-id]")
 
-    for article in articles[:15]:
+    top_level_articles = []
+    for article in articles:
+        is_nested = article.evaluate(
+            "el => el.parentElement.closest('article[data-tweet-id]') !== null"
+        )
+        if not is_nested:
+            top_level_articles.append(article)
+
+    for article in top_level_articles[:15]:
         try:
             tweet_id = article.get_attribute("data-tweet-id")
             if not tweet_id:
@@ -66,69 +92,4 @@ def process_account(page, account):
     try:
         tweets = fetch_latest_tweets(page, username)
     except Exception as e:
-        print(f"[ERROR] {username}: Seite konnte nicht geladen werden: {e}")
-        return
-
-    if not tweets:
-        print(f"[WARN] {username}: Keine Tweets gefunden.")
-        return
-
-    seen_ids = load_seen_ids(account["state_file"])
-    first_run = len(seen_ids) == 0
-    new_seen = set(seen_ids)
-    posted = 0
-
-    for tweet in reversed(tweets):
-        new_seen.add(tweet["id"])
-        if tweet["id"] in seen_ids:
-            continue
-        if first_run:
-            continue
-
-        message = f"{tweet['text']}\n\nLink: {tweet['link']}"
-        resp = requests.post(webhook_url, json={"content": message}, timeout=10)
-        if resp.status_code >= 300:
-            print(f"[ERROR] {username}: Discord-Post fehlgeschlagen: {resp.status_code} {resp.text}")
-        else:
-            posted += 1
-            print(f"[OK] {username}: An Discord gesendet: {tweet['text'][:40]}...")
-
-    save_seen_ids(account["state_file"], new_seen)
-
-    if first_run:
-        print(f"[INFO] {username}: Erster Lauf, {len(new_seen)} Posts als bekannt markiert, nichts gepostet.")
-    else:
-        print(f"[INFO] {username}: Fertig, {posted} neue Posts gesendet.")
-
-
-def main():
-    with sync_playwright() as p:
-        browser = p.chromium.launch(
-            headless=True,
-            args=["--disable-blink-features=AutomationControlled"],
-        )
-        context = browser.new_context(
-            user_agent=USER_AGENT,
-            viewport={"width": 1280, "height": 1000},
-        )
-        context.add_init_script(
-            "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
-        )
-        page = context.new_page()
-
-        any_error = False
-        for account in ACCOUNTS:
-            try:
-                process_account(page, account)
-            except Exception as e:
-                any_error = True
-                print(f"[FATAL] {account['user']}: {e}")
-
-        browser.close()
-
-    if any_error:
-        sys.exit(1)
-
-
-if __name__ == "__main__":
-    main()
+        print(f"[ERROR]
