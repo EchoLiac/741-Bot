@@ -60,7 +60,7 @@ def fetch_latest_tweets(page, username):
     page.wait_for_selector("article[data-tweet-id]", timeout=15000)
     
     # Winziges Scrollen simuliert menschliche Interaktion
-    page.evaluate("window.scrollTo(0, 400)")
+    page.evaluate("window.scrollTo(0, 500)")
     page.wait_for_timeout(2000)
 
     tweets = []
@@ -68,7 +68,6 @@ def fetch_latest_tweets(page, username):
 
     top_level_articles = []
     for article in articles:
-        # Pruefen, ob es ein verschachtelter Tweet (z. B. in einem Thread) ist
         is_nested = article.evaluate(
             "el => el.parentElement.closest('article[data-tweet-id]') !== null"
         )
@@ -77,15 +76,12 @@ def fetch_latest_tweets(page, username):
 
     for article in top_level_articles[:15]:
         try:
-            # 1. PRUEFUNG AUF GEPINNTE TWEETS
+            # 1. GEPINNTE TWEETS ÜBERSPRINGEN
             is_pinned = article.query_selector('[data-testid="socialContext"]')
             if is_pinned and "Pinned" in (is_pinned.inner_text() or ""):
-                print(f"[INFO] {username}: Gepinnten Tweet uebersprungen.")
                 continue
 
-            # 2. PRUEFUNG AUF WERBUNG (PROMOTED TWEETS)
-            # Twitter markiert Werbe-Tweets im HTML-Baum strukturell anders.
-            # Wenn der Tweet ein "Ad"-Label enthaelt, sortieren wir ihn sofort aus.
+            # 2. WERBUNG FILTERN
             is_promoted = article.evaluate(
                 """el => {
                     const text = el.innerText || "";
@@ -93,18 +89,15 @@ def fetch_latest_tweets(page, username):
                 }"""
             )
             if is_promoted:
-                print(f"[INFO] {username}: Werbe-Tweet (Promoted) im HTML erkannt und blockiert.")
                 continue
 
             tweet_id = article.get_attribute("data-tweet-id")
             if not tweet_id:
                 continue
 
-            # Text-Selektor
             text_el = article.query_selector('[data-testid="tweetText"]')
             text = text_el.inner_text() if text_el else ""
 
-            # Ausweichloesung, falls kein Text vorhanden ist (nur Medien)
             if not text:
                 text_el_alt = article.query_selector('div[dir="auto"]')
                 text = text_el_alt.inner_text() if text_el_alt else "[Nur Bild/Medium]"
@@ -165,6 +158,8 @@ def process_account(page, account):
 
 
 def main():
+    cookies_json = os.environ.get("TWITTER_COOKIES")
+
     with sync_playwright() as p:
         browser = p.chromium.launch(
             headless=True,
@@ -177,6 +172,21 @@ def main():
         context.add_init_script(
             "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
         )
+
+        # Einloggen via Cookie-Injektion falls vorhanden
+        if cookies_json:
+            try:
+                cookies = json.loads(cookies_json)
+                if isinstance(cookies, list):
+                    context.add_cookies(cookies)
+                    print("[INFO] Twitter-Cookies erfolgreich geladen. Bot laeuft eingeloggt!")
+                else:
+                    print("[WARN] TWITTER_COOKIES Secret hat das falsche Format (muss eine Liste sein).")
+            except Exception as e:
+                print(f"[ERROR] Fehler beim Laden der Cookies: {e}")
+        else:
+            print("[WARN] Keine TWITTER_COOKIES gefunden. Bot laeuft unangemeldet.")
+
         page = context.new_page()
 
         any_error = False
