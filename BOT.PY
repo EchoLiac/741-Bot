@@ -92,4 +92,69 @@ def process_account(page, account):
     try:
         tweets = fetch_latest_tweets(page, username)
     except Exception as e:
-        print(f"[ERROR]
+        print(f"[ERROR] {username}: Seite konnte nicht geladen werden: {e}")
+        return
+
+    if not tweets:
+        print(f"[WARN] {username}: Keine Tweets gefunden.")
+        return
+
+    seen_ids = load_seen_ids(account["state_file"])
+    first_run = len(seen_ids) == 0
+    new_seen = set(seen_ids)
+    posted = 0
+
+    for tweet in reversed(tweets):
+        new_seen.add(tweet["id"])
+        if tweet["id"] in seen_ids:
+            continue
+        if first_run:
+            continue
+
+        message = f"{tweet['text']}\n\nLink: {tweet['link']}"
+        resp = requests.post(webhook_url, json={"content": message}, timeout=10)
+        if resp.status_code >= 300:
+            print(f"[ERROR] {username}: Discord-Post fehlgeschlagen: {resp.status_code} {resp.text}")
+        else:
+            posted += 1
+            print(f"[OK] {username}: An Discord gesendet: {tweet['text'][:40]}...")
+
+    save_seen_ids(account["state_file"], new_seen)
+
+    if first_run:
+        print(f"[INFO] {username}: Erster Lauf, {len(new_seen)} Posts als bekannt markiert, nichts gepostet.")
+    else:
+        print(f"[INFO] {username}: Fertig, {posted} neue Posts gesendet.")
+
+
+def main():
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--disable-blink-features=AutomationControlled"],
+        )
+        context = browser.new_context(
+            user_agent=USER_AGENT,
+            viewport={"width": 1280, "height": 1000},
+        )
+        context.add_init_script(
+            "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+        )
+        page = context.new_page()
+
+        any_error = False
+        for account in ACCOUNTS:
+            try:
+                process_account(page, account)
+            except Exception as e:
+                any_error = True
+                print(f"[FATAL] {account['user']}: {e}")
+
+        browser.close()
+
+    if any_error:
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()
