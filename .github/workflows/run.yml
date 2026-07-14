@@ -1,56 +1,52 @@
-name: 741 Bot
+name: run-bot
 
 on:
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-concurrency:
-  group: bot-run
-  cancel-in-progress: false
+  schedule:
+    - cron: '*/15 * * * *'  # Läuft automatisch alle 15 Minuten
+  workflow_dispatch:        # Erlaubt dir das manuelle Starten über den Button
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Code aus Repository auschecken
-      uses: actions/checkout@v4
+      - name: Code aus Repository auschecken
+        uses: actions/checkout@v4
 
-    - name: Python einrichten
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.x'
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-    - name: Bibliotheken installieren
-      run: |
-        pip install requests playwright
-        playwright install --with-deps chromium
+      - name: Bibliotheken installieren
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright requests
+          playwright install chromium
 
-    - name: Bot ausführen
-      env:
-        DISCORD_WEBHOOK_TRENDSPIDER: ${{ secrets.DISCORD_WEBHOOK_TRENDSPIDER }}
-        DISCORD_WEBHOOK_EARNINGS: ${{ secrets.DISCORD_WEBHOOK_EARNINGS }}
-        DISCORD_WEBHOOK_WATCHERGURU: ${{ secrets.DISCORD_WEBHOOK_WATCHERGURU }}
-        DISCORD_WEBHOOK_EWHISPERS: ${{ secrets.DISCORD_WEBHOOK_EWHISPERS }}
-      run: python BOT.PY
+      - name: Bot ausführen
+        env:
+          DISCORD_WEBHOOK_TRENDSPIDER: ${{ secrets.DISCORD_WEBHOOK_TRENDSPIDER }}
+          DISCORD_WEBHOOK_EARNINGS: ${{ secrets.DISCORD_WEBHOOK_EARNINGS }}
+          DISCORD_WEBHOOK_WATCHERGURU: ${{ secrets.DISCORD_WEBHOOK_WATCHERGURU }}
+          DISCORD_WEBHOOK_EWHISPERS: ${{ secrets.DISCORD_WEBHOOK_EWHISPERS }}
+          TWITTER_COOKIES: ${{ secrets.TWITTER_COOKIES }}
+        run: python BOT.PY
 
-    - name: Debug-Dateien hochladen
-      if: failure()
-      uses: actions/upload-artifact@v4
-      with:
-        name: debug-files
-        path: |
-          debug_screenshot.png
-          debug_page.html
+      - name: Debug-Dateien hochladen
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-logs
+          path: |
+            *.log
+            *.png
+          if-no-files-found: ignore
 
-    - name: Gesehene Tweet-IDs speichern
-      if: success()
-      run: |
-        git config user.name "github-actions[bot]"
-        git config user.email "github-actions[bot]@users.noreply.github.com"
-        git add seen_ids_*.json
-        git diff --staged --quiet || git commit -m "Update seen tweet IDs"
-        git pull --rebase origin main
-        git push
+      - name: Gesehene Tweet-IDs speichern
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seen_ids_*.json || true
+          git commit -m "Update seen tweet IDs" || true
+          git push origin main || true
