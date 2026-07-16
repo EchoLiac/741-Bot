@@ -4,11 +4,17 @@ import json
 import requests
 from playwright.sync_api import sync_playwright
 
+# Alle 9 Kanäle inklusive deiner neu angelegten Webhooks
 ACCOUNTS = [
     {"user": "TrendSpider", "webhook_env": "DISCORD_WEBHOOK_TRENDSPIDER", "state_file": "seen_ids_trendspider.json"},
     {"user": "earnings_guy", "webhook_env": "DISCORD_WEBHOOK_EARNINGS", "state_file": "seen_ids_earnings.json"},
     {"user": "watcherguru", "webhook_env": "DISCORD_WEBHOOK_WATCHERGURU", "state_file": "seen_ids_watcherguru.json"},
     {"user": "ewhispers", "webhook_env": "DISCORD_WEBHOOK_EWHISPERS", "state_file": "seen_ids_ewhispers.json"},
+    {"user": "DeItaone", "webhook_env": "DISCORD_WEBHOOK_BLOOMBERG", "state_file": "seen_ids_bloomberg.json"},
+    {"user": "FirstSquawk", "webhook_env": "DISCORD_WEBHOOK_FIRST_Q", "state_file": "seen_ids_first_q.json"},
+    {"user": "KobeissiLetter", "webhook_env": "DISCORD_WEBHOOK_KOBEISSI", "state_file": "seen_ids_kobeissi.json"},
+    {"user": "unusual_whales", "webhook_env": "DISCORD_WEBHOOK_UNUSUAL_WHALE", "state_file": "seen_ids_unusual_whale.json"},
+    {"user": "jimcramer", "webhook_env": "DISCORD_WEBHOOK_JIM_CRAMER", "state_file": "seen_ids_jim_cramer.json"},
 ]
 
 USER_AGENT = (
@@ -127,7 +133,7 @@ def main():
             "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
         )
         
-        # NEU: Loggt den Bot mit deinen GitHub-Cookies ein, damit X die Profile anzeigt
+        # Loggt den Bot mit deinen GitHub-Cookies ein, damit X die Profile anzeigt
         if cookies_json:
             try:
                 cookies = json.loads(cookies_json)
