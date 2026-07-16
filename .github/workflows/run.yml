@@ -1,164 +1,61 @@
-import os
-import sys
-import json
-import requests
-from playwright.sync_api import sync_playwright
+name: run-bot
 
-# Alle 9 Kanäle inklusive deiner neu angelegten Webhooks
-ACCOUNTS = [
-    {"user": "TrendSpider", "webhook_env": "DISCORD_WEBHOOK_TRENDSPIDER", "state_file": "seen_ids_trendspider.json"},
-    {"user": "earnings_guy", "webhook_env": "DISCORD_WEBHOOK_EARNINGS", "state_file": "seen_ids_earnings.json"},
-    {"user": "watcherguru", "webhook_env": "DISCORD_WEBHOOK_WATCHERGURU", "state_file": "seen_ids_watcherguru.json"},
-    {"user": "ewhispers", "webhook_env": "DISCORD_WEBHOOK_EWHISPERS", "state_file": "seen_ids_ewhispers.json"},
-    {"user": "DeItaone", "webhook_env": "DISCORD_WEBHOOK_BLOOMBERG", "state_file": "seen_ids_bloomberg.json"},
-    {"user": "FirstSquawk", "webhook_env": "DISCORD_WEBHOOK_FIRST_Q", "state_file": "seen_ids_first_q.json"},
-    {"user": "KobeissiLetter", "webhook_env": "DISCORD_WEBHOOK_KOBEISSI", "state_file": "seen_ids_kobeissi.json"},
-    {"user": "unusual_whales", "webhook_env": "DISCORD_WEBHOOK_UNUSUAL_WHALE", "state_file": "seen_ids_unusual_whale.json"},
-    {"user": "jimcramer", "webhook_env": "DISCORD_WEBHOOK_JIM_CRAMER", "state_file": "seen_ids_jim_cramer.json"},
-]
+on:
+  schedule:
+    - cron: '*/15 * * * *'  # Läuft automatisch alle 15 Minuten
+  workflow_dispatch:        # Erlaubt dir das manuelle Starten über den Button
 
-USER_AGENT = (
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-    "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
-)
-
-
-def load_seen_ids(state_file):
-    if os.path.exists(state_file):
-        with open(state_file, "r") as f:
-            return set(json.load(f))
-    return set()
-
-
-def save_seen_ids(state_file, ids):
-    trimmed = list(ids)[-200:]
-    with open(state_file, "w") as f:
-        json.dump(trimmed, f)
-
-
-def fetch_latest_tweets(page, username):
-    profile_url = f"https://x.com/{username}"
-    page.goto(profile_url, timeout=30000, wait_until="domcontentloaded")
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
     
-    # Wartet stabil auf das moderne Tweet-Element (erfordert Login!)
-    page.wait_for_selector('article[data-testid="tweet"]', timeout=15000)
+    # Das zwingt GitHub, dem Bot echte Schreibrechte zu geben
+    permissions:
+      contents: write
 
-    tweets = []
-    articles = page.query_selector_all('article[data-testid="tweet"]')
+    steps:
+      - name: Code aus Repository auschecken
+        uses: actions/checkout@v4
 
-    for article in articles[:15]:
-        try:
-            # Holt die Tweet-ID sicher aus dem Status-Link des Posts
-            link_el = article.query_selector('a[href*="/status/"]')
-            if not link_el:
-                continue
-                
-            href = link_el.get_attribute("href")
-            if not href:
-                continue
-                
-            tweet_id = href.split("/status/")[-1].split("?")[0]
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-            # Text-Inhalt auslesen
-            text_el = article.query_selector('div[data-testid="tweetText"]')
-            text = text_el.inner_text() if text_el else ""
+      - name: Bibliotheken installieren
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright requests
+          playwright install chromium
 
-            link = f"https://x.com/{username}/status/{tweet_id}"
-            tweets.append({"id": tweet_id, "text": text, "link": link})
-        except Exception:
-            continue
+      - name: Bot ausführen
+        env:
+          DISCORD_WEBHOOK_TRENDSPIDER: ${{ secrets.DISCORD_WEBHOOK_TRENDSPIDER }}
+          DISCORD_WEBHOOK_EARNINGS: ${{ secrets.DISCORD_WEBHOOK_EARNINGS }}
+          DISCORD_WEBHOOK_WATCHERGURU: ${{ secrets.DISCORD_WEBHOOK_WATCHERGURU }}
+          DISCORD_WEBHOOK_EWHISPERS: ${{ secrets.DISCORD_WEBHOOK_EWHISPERS }}
+          DISCORD_WEBHOOK_BLOOMBERG: ${{ secrets.DISCORD_WEBHOOK_BLOOMBERG }}
+          DISCORD_WEBHOOK_FIRST_Q: ${{ secrets.DISCORD_WEBHOOK_FIRST_Q }}
+          DISCORD_WEBHOOK_KOBEISSI: ${{ secrets.DISCORD_WEBHOOK_KOBEISSI }}
+          DISCORD_WEBHOOK_UNUSUAL_WHALE: ${{ secrets.DISCORD_WEBHOOK_UNUSUAL_WHALE }}
+          DISCORD_WEBHOOK_JIM_CRAMER: ${{ secrets.DISCORD_WEBHOOK_JIM_CRAMER }}
+          TWITTER_COOKIES: ${{ secrets.TWITTER_COOKIES }}
+        run: python BOT.PY
 
-    return tweets
+      - name: Debug-Dateien hochladen
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-logs
+          path: |
+            *.log
+            *.png
+          if-no-files-found: ignore
 
-
-def process_account(page, account):
-    username = account["user"]
-    webhook_url = os.environ.get(account["webhook_env"])
-
-    if not webhook_url:
-        print(f"[WARN] {username}: Secret {account['webhook_env']} fehlt, ueberspringe.")
-        return
-
-    try:
-        tweets = fetch_latest_tweets(page, username)
-    except Exception as e:
-        print(f"[ERROR] {username}: Seite konnte nicht geladen werden: {e}")
-        return
-
-    if not tweets:
-        print(f"[WARN] {username}: Keine Tweets gefunden.")
-        return
-
-    seen_ids = load_seen_ids(account["state_file"])
-    first_run = len(seen_ids) == 0
-    new_seen = set(seen_ids)
-    posted = 0
-
-    for tweet in reversed(tweets):
-        new_seen.add(tweet["id"])
-        if tweet["id"] in seen_ids:
-            continue
-        if first_run:
-            continue
-
-        message = f"{tweet['text']}\n\nLink: {tweet['link']}"
-        resp = requests.post(webhook_url, json={"content": message}, timeout=10)
-        if resp.status_code >= 300:
-            print(f"[ERROR] {username}: Discord-Post fehlgeschlagen: {resp.status_code} {resp.text}")
-        else:
-            posted += 1
-            print(f"[OK] {username}: An Discord gesendet: {tweet['text'][:40]}...")
-
-    save_seen_ids(account["state_file"], new_seen)
-
-    if first_run:
-        print(f"[INFO] {username}: Erster Lauf, {len(new_seen)} Posts als bekannt markiert, nichts gepostet.")
-    else:
-        print(f"[INFO] {username}: Fertig, {posted} neue Posts gesendet.")
-
-
-def main():
-    cookies_json = os.getenv("TWITTER_COOKIES")
-    
-    with sync_playwright() as p:
-        browser = p.chromium.launch(
-            headless=True,
-            args=["--disable-blink-features=AutomationControlled"],
-        )
-        context = browser.new_context(
-            user_agent=USER_AGENT,
-            viewport={"width": 1280, "height": 1000},
-        )
-        context.add_init_script(
-            "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
-        )
-        
-        # Loggt den Bot mit deinen GitHub-Cookies ein, damit X die Profile anzeigt
-        if cookies_json:
-            try:
-                cookies = json.loads(cookies_json)
-                context.add_cookies(cookies)
-                print("[INFO] Twitter-Cookies erfolgreich geladen. Bot laeuft eingeloggt!")
-            except Exception as e:
-                print(f"[WARN] Cookies konnten nicht geladen werden: {e}")
-        else:
-            print("[WARN] Keine TWITTER_COOKIES gefunden! Bot laeuft unangemeldet (Risiko fuer Login-Wall).")
-
-        page = context.new_page()
-
-        any_error = False
-        for account in ACCOUNTS:
-            try:
-                process_account(page, account)
-            except Exception as e:
-                any_error = True
-                print(f"[FATAL] {account['user']}: {e}")
-
-        browser.close()
-
-    if any_error:
-        sys.exit(1)
-
-
-if __name__ == "__main__":
-    main()
+      - name: Gesehene Tweet-IDs speichern
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add seen_ids_*.json || true
+          git commit -m "Update seen tweet IDs" || true
+          git push origin HEAD || true
