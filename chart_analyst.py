@@ -1,92 +1,106 @@
-import json
 import os
 import discord
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 
 # --- CONFIGURATION ---
-DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+DISCORD_TOKEN = os.environ.get("DISCORD_TOKEN")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 TARGET_CHANNEL_NAME = "ki-chart-check"
-SEEN_FILE = "processed_chart_checks.json"
 
-# Gemini setup
-genai.configure(api_key=GEMINI_API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+if not DISCORD_TOKEN or not GEMINI_API_KEY:
+    raise ValueError("FEHLER: DISCORD_TOKEN oder GEMINI_API_KEY fehlt in den Environment Variables!")
+
+# Gemini Setup (neue Bibliothek)
+gemini_client = genai.Client(api_key=GEMINI_API_KEY)
 
 # Discord Setup
 intents = discord.Intents.default()
 intents.message_content = True
-client = discord.Client(intents=intents)
+discord_client = discord.Client(intents=intents)
 
-def load_seen_ids():
-    if os.path.exists(SEEN_FILE):
-        with open(SEEN_FILE, 'r') as f:
-            return set(json.load(f))
-    return set()
+SYSTEM_PROMPT = """
+Du bist ein hochprofessioneller KI-Chart-Analyst für die Community "Investieren741". 
+Analysiere das hochgeladene Chart-Bild und antworte EXAKT in folgendem strukturierten Schema:
 
-def save_seen_ids(seen_ids):
-    with open(SEEN_FILE, 'w') as f:
-        json.dump(list(seen_ids), f)
+📊 **KI CHART-CHECK | [ASSET / TICKER]**
+*Analysierter Trend & Aufbau*
 
-@client.event
+---
+
+### 1. 📐 Fibonacci & Trendlinien Check
+• **Ankerpunkte:** [Identifizierte Swing Highs / Lows]
+• **Key-Levels:** Golden Pocket (61,8% - 65%) bei [Preis], 0.382 bei [Preis]
+• **Trendlinien:** [Verlauf & Touchpoints der Haupttrendlinie]
+• **Status:** [✅ KORREKT / ⚠️ ANPASSEN] – *[1 Satz Begründung]*
+
+### 2. 💡 Indikatoren & Konfluenz
+• **200 EMA:** Kurs notiert [über/unter] der 200 EMA bei [Preis]
+• **Konfluenz-Zone:** Starker Support/Resistance im Bereich [Preis-Range]
+• **Status:** [✅ KORREKT / ⚠️ ANPASSEN] – *[1 Satz Begründung]*
+
+### 3. 🎯 Trade-Setup ([LONG / SHORT])
+• **Trigger:** [Voraussetzung für Bestätigung]
+• 📥 **Entry:** [Preis-Range]
+• 🛑 **Stop Loss (SL):** [Preis]
+• 🎯 **Take Profit 1:** [Preis]
+• 🎯 **Take Profit 2:** [Preis]
+
+---
+🚦 **GESAMT-RATING:** [✅ APPROVED / ⚠️ REVISION REQUIRED]
+"""
+
+@discord_client.event
 async def on_ready():
-    print(f'Bot eingeloggt als {client.user}')
-    seen_ids = load_seen_ids()
-    
-    # Kanal suchen
-    channel = discord.utils.get(client.guilds[0].channels, name=TARGET_CHANNEL_NAME)
-    if not channel:
-        print(f"Kanal '{TARGET_CHANNEL_NAME}' nicht gefunden!")
-        await client.close()
+    print(f"✅ Bot ist online und eingeloggt als {discord_client.user}")
+
+@discord_client.event
+async def on_message(message):
+    # Ignoriere eigene Nachrichten
+    if message.author == discord_client.user:
         return
 
-    # Letzte 20 Nachrichten durchsuchen
-    async for message in channel.history(limit=20, oldest_first=True):
-        if message.id in seen_ids or message.author == client.user:
-            continue
-            
-        # Prüfen, ob Bild im Beitrag vorhanden ist
-        image_attachments = [
-            att for att in message.attachments 
-            if any(att.filename.lower().endswith(ext) for ext in ['.png', '.jpg', '.jpeg', '.webp'])
-        ]
-        
-        if image_attachments:
-            print(f"Verarbeite Nachricht von {message.author} (ID: {message.id})...")
+    # Prüfen, ob die Nachricht im richtigen Kanal gepostet wurde
+    if message.channel.name != TARGET_CHANNEL_NAME:
+        return
+
+    # Prüfe auf Bilder-Uploads
+    image_attachments = [
+        att for att in message.attachments 
+        if any(att.filename.lower().endswith(ext) for ext in ['.png', '.jpg', '.jpeg', '.webp'])
+    ]
+
+    if not image_attachments:
+        return
+
+    # Nachricht signalisieren, dass der Bot "tippt"
+    async with message.channel.typing():
+        try:
             attachment = image_attachments[0]
             image_bytes = await attachment.read()
-            
             user_text = message.content if message.content else "Keine gesonderte These angegeben."
-            
-            # System-Prompt für Gemini
-            prompt = f"""
-Du bist ein professioneller Trading-Coach mit Schwerpunkt auf Price Action, Fibonacci & Volume Profile.
-Der User hat ein Chart-Bild hochgeladen und folgende These / Text dazu geschrieben:
-"{user_text}"
 
-Analysiere das Bild und antworte kurz und strukturiert:
+            full_prompt = f"{SYSTEM_PROMPT}\n\nUser-Kommentar zum Bild: '{user_text}'"
 
-1. 📏 **Fibo-Check**: Sind die Fibonacci-Level richtig gezogen? (Stimmen Swing Low / Swing High Anchor-Punkte für die Trendrichtung?)
-2. 🎯 **Thesen-Prüfung**: Ist die Idee valide? Liegt der Bereich an einer wichtigen Zone (Golden Pocket 61.8%, POC, Support/Resistance)?
-3. 🚥 **Bewertung**: Gib eine klare Einstufung: [🟢 KORREKT] oder [🔴 KORREKTURBEDARF].
-4. 💡 **Setup-Idee & Tipp**: Gib kurze Vorschläge für Entry-Zone, Stop-Loss-Bereich und nächstes Target oder wie die Fibos korrigiert werden müssen.
-            """
-            
-            try:
-                response = model.generate_content([
-                    prompt, 
-                    {"mime_type": attachment.content_type, "data": image_bytes}
-                ])
-                
-                # Antwort in Discord posten
-                await message.reply(f"🤖 **KI Chart-Analyse:**\n\n{response.text}")
-                seen_ids.add(message.id)
-                
-            except Exception as e:
-                print(f"Fehler bei der Gemini-Analyse: {e}")
-                
-    save_seen_ids(seen_ids)
-    print("Testdurchlauf beendet.")
-    await client.close()
+            # Bild & Prompt an Gemini senden (mit Part-Objekt für Inline-Data)
+            response = gemini_client.models.generate_content(
+                model='gemini-2.5-flash',
+                contents=[
+                    full_prompt,
+                    types.Part.from_bytes(
+                        data=image_bytes,
+                        mime_type=attachment.content_type or 'image/png'
+                    )
+                ]
+            )
 
-client.run(DISCORD_TOKEN)
+            # Antwort als Reply an den User senden
+            await message.reply(response.text)
+            print(f"Chart-Check ausgeführt für {message.author}")
+
+        except Exception as e:
+            print(f"Fehler bei der Chart-Analyse: {e}")
+            await message.reply("⚠️ *Fehler bei der Bildanalyse. Bitte versuche es erneut.*")
+
+if __name__ == "__main__":
+    discord_client.run(DISCORD_TOKEN)
