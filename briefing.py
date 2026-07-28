@@ -4,55 +4,74 @@ import requests
 from google import genai
 from google.genai import types
 
-# API Keys aus den Environment Variables laden
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 DISCORD_WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL")
 
 if not GEMINI_API_KEY or not DISCORD_WEBHOOK_URL:
     raise ValueError("Fehlende API-Keys! Überprüfe die GitHub Secrets.")
 
-# Gemini Client initialisieren
 client = genai.Client(api_key=GEMINI_API_KEY)
 
-# Datum formatieren
-today_str = datetime.datetime.now().strftime("%d.%m.%Y")
+# Datum & Wochentag ermitteln (0 = Montag, 4 = Freitag)
+now = datetime.datetime.now()
+today_str = now.strftime("%d.%m.%Y")
+weekday = now.weekday()
 
-# Prompt für das Tages-Briefing
-SYSTEM_PROMPT = """
+# Dynamischen Prompt je nach Wochentag aufbauen
+if weekday == 0:  # MONTAG
+    day_instructions = """
+    Heute ist MONTAG!
+    • Fasse die wichtigsten Finanz-, Markt- und Krypto-News des vergangenen WOCHENENDES zusammen.
+    • Gib einen klaren Ausblick auf die kommende Trading-Woche und den heutigen Montag.
+    • Fokus: Worauf achten Händler heute nach dem Wochenende?
+    """
+elif weekday == 4:  # FREITAG
+    day_instructions = """
+    Heute ist FREITAG!
+    • Fokus auf den heutigen Wochenabschluss (Weekly Close).
+    • Gib einen kurzen Ausblick auf Risiken und Krypto-Entwicklungen über das bevorstehende WOCHENENDE.
+    • Worauf muss man vor dem Weekend-Close achten?
+    """
+else:  # DIENSTAG BIS DONNERSTAG
+    day_instructions = """
+    Heute ist ein gewöhnlicher Handelstag unter der Woche.
+    • Fokus auf Pre-Market, heutige Makro-Daten/Earnings und den heutigen Tagesausblick.
+    """
+
+SYSTEM_PROMPT = f"""
 Du bist der Markt-Analyst für die Trading-Community 'Investieren741'. 
-Erstelle ein kompaktes, hochprofessionelles Morning-Briefing für den heutigen Trading-Tag.
+Erstelle ein kompaktes, hochprofessionelles Morning-Briefing für den heutigen Tag ({today_str}).
+
+{day_instructions}
 
 Halte dich EXAKT an folgendes Layout (Markdown):
 
-☕ **MORNING BRIEFING | {datum}**
+☕ **MORNING BRIEFING | {today_str}**
 
 ---
 
-### 📈 1. Markt-Overview (Pre-Market)
+### 📈 1. Markt-Overview & Stimmung
 • **US-Märkte (S&P 500 / Nasdaq):** [Einschätzung zur Stimmung & Tendenz]
 • **Krypto (Bitcoin / Ethereum):** [Aktuelle Lage & Key-Levels]
-• **Makro / Zinsen:** [US-Dollar-Index (DXY) & Zins-Umfeld]
+• **Makro / Zinsen:** [DXY, Zins-Umfeld & Markt-Sentiment]
 
-### 📅 2. Wichtige Tagesevents (Makro & Earnings)
-• ⏰ **Makro-Daten:** [Wichtigste Wirtschaftsdaten & Fed-Sprecher heute inkl. Uhrzeiten]
-• 📊 **Earnings:** [Relevanteste Unternehmenszahlen heute]
+### 📅 2. Tagesevents & Termine (Makro & Earnings)
+• ⏰ **Makro-Daten:** [Wichtigste Wirtschaftsdaten/Fed-Sprecher heute inkl. Uhrzeiten]
+• 📊 **Earnings:** [Relevanteste Unternehmenszahlen]
 
 ### 🎯 3. Focus Asset des Tages
-• **Asset / Ticker:** [Ein spannendes Asset für den Tag]
+• **Asset / Ticker:** [Ein spannendes Asset]
 • **Setup / Ausblick:** [1-2 Sätze zur Lage]
 
 ---
 *Guten Start in den Trading-Tag!*
-""".format(datum=today_str)
-
-USER_PROMPT = f"Generiere das Morning-Briefing für heute, den {today_str}. Berücksichtige die aktuellen weltweiten Marktgegebenheiten."
+"""
 
 def generate_briefing():
-    print("Sende Anfrage an Gemini API...")
-    # Nutze das aktuelle gemini-2.5-flash Modell
+    print("Sende dynamische Anfrage an Gemini API...")
     response = client.models.generate_content(
         model='gemini-2.5-flash',
-        contents=USER_PROMPT,
+        contents=f"Generiere das heutige Briefing für den {today_str}.",
         config=types.GenerateContentConfig(
             system_instruction=SYSTEM_PROMPT,
             temperature=0.3
@@ -65,18 +84,18 @@ def send_to_discord(content):
     payload = {
         "content": content,
         "username": "Investieren741 Briefing Bot",
-        "avatar_url": "https://i.imgur.com/4M34hi2.png" # Optionales Avatar-Bild
+        "avatar_url": "https://i.imgur.com/4M34hi2.png"
     }
     response = requests.post(DISCORD_WEBHOOK_URL, json=payload)
     if response.status_code in [200, 204]:
         print("Erfolgreich in Discord gepostet!")
     else:
-        print(f"Fehler beim Senden an Discord: {response.status_code} - {response.text}")
+        print(f"Fehler beim Senden: {response.status_code} - {response.text}")
 
 if __name__ == "__main__":
     try:
         briefing_text = generate_briefing()
         send_to_discord(briefing_text)
     except Exception as e:
-        print(f"Fehler beim Ausführen des Briefings: {e}")
+        print(f"Fehler: {e}")
         exit(1)
