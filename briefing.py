@@ -70,7 +70,7 @@ Halte dich EXAKT an folgendes Layout (Markdown):
 def generate_briefing():
     print("Sende dynamische Anfrage an Gemini API...")
     response = client.models.generate_content(
-        model='gemini-2.5-flash',
+        model='gemini-1.5-flash',
         contents=f"Generiere das heutige Briefing für den {today_str}.",
         config=types.GenerateContentConfig(
             system_instruction=SYSTEM_PROMPT,
