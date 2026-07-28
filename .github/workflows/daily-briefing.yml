@@ -2,7 +2,7 @@ name: Daily Morning Briefing
 
 on:
   schedule:
-    # Bsp: UTC 05:30 = 07:30 CEST (Sommerzeit) Montag bis Freitag
+    # 05:30 UTC = 07:30 Uhr deutsche Zeit (Mo-Fr)
     - cron: '30 5 * * 1-5'
   # Erlaubt das manuelle Starten per Button auf GitHub zum Testen
   workflow_dispatch:
