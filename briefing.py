@@ -55,10 +55,10 @@ Halte dich EXAKT an folgendes Layout (Markdown):
 
 def generate_briefing():
     print("Sende Anfrage an Gemini API...")
-    
-    # Wir testen die aktuellen Modelle durch (inkl. der Universal-Aliase)
-    models_to_try = ['gemini-3.0-flash', 'gemini-flash', 'gemini-2.0-flash']
-    
+
+    # Aktuell gültige Free-Tier-Modelle (Stand: Juli 2026)
+    models_to_try = ['gemini-2.5-flash', 'gemini-2.5-flash-lite']
+
     for model_name in models_to_try:
         try:
             print(f"Versuche Modell: {model_name}...")
@@ -74,7 +74,7 @@ def generate_briefing():
             return response.text
         except Exception as e:
             print(f"❌ Fehlschlag bei {model_name}: {e}")
-            
+
     raise RuntimeError("Keines der Modelle wurde akzeptiert. Bitte überprüfe das Google API Dashboard.")
 
 def send_to_discord(content):
