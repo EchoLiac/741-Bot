@@ -1,106 +1,82 @@
 import os
 import discord
+from discord.ext import commands
 from google import genai
 from google.genai import types
 
-# --- CONFIGURATION ---
-DISCORD_TOKEN = os.environ.get("DISCORD_TOKEN")
+# 1. API-Keys & Tokens aus Umgebungsvariablen laden
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-TARGET_CHANNEL_NAME = "ki-chart-check"
+DISCORD_TOKEN = os.environ.get("DISCORD_TOKEN")
 
-if not DISCORD_TOKEN or not GEMINI_API_KEY:
-    raise ValueError("FEHLER: DISCORD_TOKEN oder GEMINI_API_KEY fehlt in den Environment Variables!")
+if not GEMINI_API_KEY:
+    raise ValueError("GEMINI_API_KEY fehlt in den Umgebungsvariablen!")
 
-# Gemini Setup (neue Bibliothek)
-gemini_client = genai.Client(api_key=GEMINI_API_KEY)
+# 2. Gemini Client initialisieren (neues SDK)
+client = genai.Client(api_key=GEMINI_API_KEY)
 
-# Discord Setup
+# 3. Discord Bot Client aufsetzen
 intents = discord.Intents.default()
-intents.message_content = True
-discord_client = discord.Client(intents=intents)
+intents.message_content = True  # Erlaubt dem Bot, Nachrichten und Bilder zu lesen
+bot = commands.Bot(command_prefix="!", intents=intents)
 
-SYSTEM_PROMPT = """
-Du bist ein hochprofessioneller KI-Chart-Analyst für die Community "Investieren741". 
-Analysiere das hochgeladene Chart-Bild und antworte EXAKT in folgendem strukturierten Schema:
 
-📊 **KI CHART-CHECK | [ASSET / TICKER]**
-*Analysierter Trend & Aufbau*
-
----
-
-### 1. 📐 Fibonacci & Trendlinien Check
-• **Ankerpunkte:** [Identifizierte Swing Highs / Lows]
-• **Key-Levels:** Golden Pocket (61,8% - 65%) bei [Preis], 0.382 bei [Preis]
-• **Trendlinien:** [Verlauf & Touchpoints der Haupttrendlinie]
-• **Status:** [✅ KORREKT / ⚠️ ANPASSEN] – *[1 Satz Begründung]*
-
-### 2. 💡 Indikatoren & Konfluenz
-• **200 EMA:** Kurs notiert [über/unter] der 200 EMA bei [Preis]
-• **Konfluenz-Zone:** Starker Support/Resistance im Bereich [Preis-Range]
-• **Status:** [✅ KORREKT / ⚠️ ANPASSEN] – *[1 Satz Begründung]*
-
-### 3. 🎯 Trade-Setup ([LONG / SHORT])
-• **Trigger:** [Voraussetzung für Bestätigung]
-• 📥 **Entry:** [Preis-Range]
-• 🛑 **Stop Loss (SL):** [Preis]
-• 🎯 **Take Profit 1:** [Preis]
-• 🎯 **Take Profit 2:** [Preis]
-
----
-🚦 **GESAMT-RATING:** [✅ APPROVED / ⚠️ REVISION REQUIRED]
-"""
-
-@discord_client.event
+@bot.event
 async def on_ready():
-    print(f"✅ Bot ist online und eingeloggt als {discord_client.user}")
+    print(f"✅ Chart Analyst Bot ist online als {bot.user}")
 
-@discord_client.event
+
+@bot.event
 async def on_message(message):
-    # Ignoriere eigene Nachrichten
-    if message.author == discord_client.user:
+    # Ignoriere eigene Nachrichten des Bots
+    if message.author == bot.user:
         return
 
-    # Prüfen, ob die Nachricht im richtigen Kanal gepostet wurde
-    if message.channel.name != TARGET_CHANNEL_NAME:
-        return
+    # Reagiere nur, wenn ein Bild angehängt ist
+    if message.attachments:
+        for attachment in message.attachments:
+            if any(
+                attachment.filename.lower().endswith(ext)
+                for ext in [".png", ".jpg", ".jpeg", ".webp"]
+            ):
+                await message.channel.send("🔍 *Chart erhalten! Analysiere mit Gemini 2.5 Flash...*")
 
-    # Prüfe auf Bilder-Uploads
-    image_attachments = [
-        att for att in message.attachments 
-        if any(att.filename.lower().endswith(ext) for ext in ['.png', '.jpg', '.jpeg', '.webp'])
-    ]
+                try:
+                    # Bild herunterladen
+                    image_data = await attachment.read()
 
-    if not image_attachments:
-        return
-
-    # Nachricht signalisieren, dass der Bot "tippt"
-    async with message.channel.typing():
-        try:
-            attachment = image_attachments[0]
-            image_bytes = await attachment.read()
-            user_text = message.content if message.content else "Keine gesonderte These angegeben."
-
-            full_prompt = f"{SYSTEM_PROMPT}\n\nUser-Kommentar zum Bild: '{user_text}'"
-
-            # Bild & Prompt an Gemini senden (mit Part-Objekt für Inline-Data)
-            response = gemini_client.models.generate_content(
-                model='gemini-2.5-flash',
-                contents=[
-                    full_prompt,
-                    types.Part.from_bytes(
-                        data=image_bytes,
-                        mime_type=attachment.content_type or 'image/png'
+                    # System-Prompt für die Chart-Analyse
+                    prompt = (
+                        "Du bist ein erfahrener Trading-Analyst. "
+                        "Analysiere diesen Chart präzise. Bestimme den Trend, wichtige Support/Resistance-Zonen, "
+                        "gleitende Durchschnitte (falls sichtbar) und gebe ein kurzes, sachliches Feedback."
                     )
-                ]
-            )
 
-            # Antwort als Reply an den User senden
-            await message.reply(response.text)
-            print(f"Chart-Check ausgeführt für {message.author}")
+                    # An Gemini schicken (multimodal)
+                    response = client.models.generate_content(
+                        model="gemini-2.5-flash",
+                        contents=[
+                            types.Part.from_bytes(
+                                data=image_data,
+                                mime_type=attachment.content_type
+                                or "image/png",
+                            ),
+                            prompt,
+                        ],
+                    )
 
-        except Exception as e:
-            print(f"Fehler bei der Chart-Analyse: {e}")
-            await message.reply("⚠️ *Fehler bei der Bildanalyse. Bitte versuche es erneut.*")
+                    # Antwort im Discord-Kanal posten
+                    await message.channel.send(f"📊 **Chart-Analyse:**\n\n{response.text}")
+
+                except Exception as e:
+                    await message.channel.send(f"❌ Fehler bei der Analyse: {e}")
+                
+                break  # Nur das erste Bild analysieren
+
+    await bot.process_commands(message)
+
 
 if __name__ == "__main__":
-    discord_client.run(DISCORD_TOKEN)
+    if DISCORD_TOKEN:
+        bot.run(DISCORD_TOKEN)
+    else:
+        print("❌ CRITICAL: Kein DISCORD_TOKEN gefunden!")
