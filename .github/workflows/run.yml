@@ -1,4 +1,5 @@
 name: run-bot
+
 on:
   schedule:
     - cron: '*/15 * * * *'  # Läuft automatisch alle 15 Minuten
@@ -7,7 +8,7 @@ on:
 jobs:
   run-bot:
     runs-on: ubuntu-latest
-
+    
     # Das zwingt GitHub, dem Bot echte Schreibrechte zu geben
     permissions:
       contents: write
@@ -30,12 +31,12 @@ jobs:
       - name: Bot ausführen
         env:
           DISCORD_WEBHOOK_TRENDSPIDER: ${{ secrets.DISCORD_WEBHOOK_TRENDSPIDER }}
+          DISCORD_WEBHOOK_EARNINGS: ${{ secrets.DISCORD_WEBHOOK_EARNINGS }}
           DISCORD_WEBHOOK_WATCHERGURU: ${{ secrets.DISCORD_WEBHOOK_WATCHERGURU }}
+          DISCORD_WEBHOOK_EWHISPERS: ${{ secrets.DISCORD_WEBHOOK_EWHISPERS }}
           DISCORD_WEBHOOK_BLOOMBERG: ${{ secrets.DISCORD_WEBHOOK_BLOOMBERG }}
-          DISCORD_WEBHOOK_FIRST_Q: ${{ secrets.DISCORD_WEBHOOK_FIRST_Q }}
           DISCORD_WEBHOOK_KOBEISSI: ${{ secrets.DISCORD_WEBHOOK_KOBEISSI }}
           DISCORD_WEBHOOK_UNUSUAL_WHALE: ${{ secrets.DISCORD_WEBHOOK_UNUSUAL_WHALE }}
-          DISCORD_WEBHOOK_JIM_CRAMER: ${{ secrets.DISCORD_WEBHOOK_JIM_CRAMER }}
           TWITTER_COOKIES: ${{ secrets.TWITTER_COOKIES }}
         run: python BOT.PY
 
