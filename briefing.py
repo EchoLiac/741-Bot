@@ -1,5 +1,6 @@
 import os
 import datetime
+from zoneinfo import ZoneInfo
 import requests
 from google import genai
 from google.genai import types
@@ -12,8 +13,8 @@ if not GEMINI_API_KEY or not DISCORD_WEBHOOK_URL:
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 
-# Datum & Wochentag ermitteln
-now = datetime.datetime.now()
+# Datum & Wochentag ermitteln (fest auf Berlin/CEST, unabhängig von Server-Zeitzone)
+now = datetime.datetime.now(ZoneInfo("Europe/Berlin"))
 today_str = now.strftime("%d.%m.%Y")
 weekday = now.weekday()
 
@@ -24,39 +25,78 @@ elif weekday == 4:
 else:
     day_instructions = "Gewöhnlicher Handelstag. Fokus auf Pre-Market, heutige Makro-Daten & Earnings."
 
+
+def get_crypto_prices():
+    """Holt exakte, aktuelle BTC/ETH-Kurse von CoinGecko (kein API-Key nötig)."""
+    try:
+        url = "https://api.coingecko.com/api/v3/simple/price"
+        params = {
+            "ids": "bitcoin,ethereum",
+            "vs_currencies": "usd",
+            "include_24hr_change": "true"
+        }
+        resp = requests.get(url, params=params, timeout=10)
+        resp.raise_for_status()
+        data = resp.json()
+
+        btc_price = data["bitcoin"]["usd"]
+        btc_change = data["bitcoin"]["usd_24h_change"]
+        eth_price = data["ethereum"]["usd"]
+        eth_change = data["ethereum"]["usd_24h_change"]
+
+        return (
+            f"Bitcoin (BTC): {btc_price:,.0f} USD ({btc_change:+.2f}% in 24h)\n"
+            f"Ethereum (ETH): {eth_price:,.0f} USD ({eth_change:+.2f}% in 24h)"
+        )
+    except Exception as e:
+        print(f"⚠️ Konnte Krypto-Kurse nicht laden: {e}")
+        return "Krypto-Kurse aktuell nicht verfügbar."
+
+
+crypto_data = get_crypto_prices()
+print(f"Live-Krypto-Daten:\n{crypto_data}")
+
 SYSTEM_PROMPT = f"""
-Du bist der Markt-Analyst für die Trading-Community 'Investieren741'. 
-Erstelle ein kompaktes, hochprofessionelles Morning-Briefing für den heutigen Tag ({today_str}).
+Du bist der präzise Markt-Analyst für die Trading-Community 'Investieren741'. 
+Erstelle ein übersichtliches, extrem hochwertiges Morning-Briefing für den heutigen Tag ({today_str}).
 
 {day_instructions}
 
-Halte dich EXAKT an folgendes Layout (Markdown):
+WICHTIG: Nutze die Google-Suche, um dir aktuelle, verifizierte Informationen zu 
+US-Indizes (S&P 500, Nasdaq), Makrodaten, Zinsen (DXY, US-Anleiherenditen) und 
+den heutigen Earnings-Terminen zu beschaffen. Erfinde KEINE Zahlen. Wenn du für 
+einen Punkt keine verlässliche aktuelle Information findest, formuliere vorsichtiger 
+(z.B. "tendenziell", "laut letzten verfügbaren Daten") statt eine exakte Zahl zu raten.
+
+Für den Krypto-Abschnitt nutze AUSSCHLIESSLICH folgende verifizierte Live-Daten, 
+erfinde hierzu keine eigenen Kurse:
+{crypto_data}
+
+Halte dich EXAKT an folgendes Layout:
 
 ☕ **MORNING BRIEFING | {today_str}**
+───────────────────────────────
 
----
+📊 **1. MARKTLAGE & SENTIMENT**
+• **US-Indizes:** [1-2 Sätze zur Vorbörse S&P 500 / Nasdaq]
+• **Krypto:** [Bitcoin & Ethereum Key-Levels / Zonen, basierend auf den Live-Daten oben]
+• **Makro & Zinsen:** [DXY & Renditen-Einschätzung]
 
-### 📈 1. Markt-Overview & Stimmung
-• **US-Märkte (S&P 500 / Nasdaq):** [Einschätzung zur Stimmung & Tendenz]
-• **Krypto (Bitcoin / Ethereum):** [Aktuelle Lage & Key-Levels]
-• **Makro / Zinsen:** [DXY, Zins-Umfeld & Markt-Sentiment]
+📅 **2. HEUTIGE KEY-EVENTS**
+• ⏰ **Makro-Daten:** [Wichtigste Termine mit Uhrzeit]
+• 📊 **Earnings:** [Relevanteste Q-Zahlen vor-/nachbörslich]
 
-### 📅 2. Tagesevents & Termine (Makro & Earnings)
-• ⏰ **Makro-Daten:** [Wichtigste Wirtschaftsdaten heute inkl. Uhrzeiten]
-• 📊 **Earnings:** [Relevanteste Unternehmenszahlen]
+🎯 **3. FOCUS ASSET DES TAGES**
+• **Ticker:** [Asset-Name / Symbol]
+• **Key-Zone / Setup:** [Prägnantes Level & Ausblick]
 
-### 🎯 3. Focus Asset des Tages
-• **Asset / Ticker:** [Ein spannendes Asset]
-• **Setup / Ausblick:** [1-2 Sätze zur Lage]
-
----
-*Guten Start in den Trading-Tag!*
+───────────────────────────────
+💬 *Welche Setups beobachtet ihr heute? Schreibt es in den Chat!*
 """
 
 def generate_briefing():
     print("Sende Anfrage an Gemini API...")
 
-    # Aktuell gültige Modelle (Stand: 29. Juli 2026)
     models_to_try = ['gemini-3.6-flash', 'gemini-3.5-flash-lite', 'gemini-3.1-flash-lite']
 
     for model_name in models_to_try:
@@ -67,7 +107,8 @@ def generate_briefing():
                 contents=f"Generiere das heutige Briefing für den {today_str}.",
                 config=types.GenerateContentConfig(
                     system_instruction=SYSTEM_PROMPT,
-                    temperature=0.3
+                    temperature=0.3,
+                    tools=[types.Tool(google_search=types.GoogleSearch())]
                 )
             )
             print(f"✅ Erfolg mit {model_name}!")
