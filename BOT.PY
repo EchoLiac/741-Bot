@@ -4,15 +4,15 @@ import json
 import requests
 from playwright.sync_api import sync_playwright
 
-# 7 Kanäle nach Entfernung von earnings_guy und ewhispers
+# Alle 9 Kanäle inklusive deiner neu angelegten Webhooks
 ACCOUNTS = [
     {"user": "TrendSpider", "webhook_env": "DISCORD_WEBHOOK_TRENDSPIDER", "state_file": "seen_ids_trendspider.json"},
+    {"user": "earnings_guy", "webhook_env": "DISCORD_WEBHOOK_EARNINGS", "state_file": "seen_ids_earnings.json"},
     {"user": "watcherguru", "webhook_env": "DISCORD_WEBHOOK_WATCHERGURU", "state_file": "seen_ids_watcherguru.json"},
+    {"user": "ewhispers", "webhook_env": "DISCORD_WEBHOOK_EWHISPERS", "state_file": "seen_ids_ewhispers.json"},
     {"user": "DeItaone", "webhook_env": "DISCORD_WEBHOOK_BLOOMBERG", "state_file": "seen_ids_bloomberg.json"},
-    {"user": "FirstSquawk", "webhook_env": "DISCORD_WEBHOOK_FIRST_Q", "state_file": "seen_ids_first_q.json"},
     {"user": "KobeissiLetter", "webhook_env": "DISCORD_WEBHOOK_KOBEISSI", "state_file": "seen_ids_kobeissi.json"},
     {"user": "unusual_whales", "webhook_env": "DISCORD_WEBHOOK_UNUSUAL_WHALE", "state_file": "seen_ids_unusual_whale.json"},
-    {"user": "jimcramer", "webhook_env": "DISCORD_WEBHOOK_JIM_CRAMER", "state_file": "seen_ids_jim_cramer.json"},
 ]
 
 USER_AGENT = (
@@ -37,7 +37,8 @@ def save_seen_ids(state_file, ids):
 def fetch_latest_tweets(page, username):
     profile_url = f"https://x.com/{username}"
     page.goto(profile_url, timeout=30000, wait_until="domcontentloaded")
-
+    
+    # Wartet stabil auf das moderne Tweet-Element (erfordert Login!)
     page.wait_for_selector('article[data-testid="tweet"]', timeout=15000)
 
     tweets = []
@@ -45,16 +46,18 @@ def fetch_latest_tweets(page, username):
 
     for article in articles[:15]:
         try:
+            # Holt die Tweet-ID sicher aus dem Status-Link des Posts
             link_el = article.query_selector('a[href*="/status/"]')
             if not link_el:
                 continue
-
+                
             href = link_el.get_attribute("href")
             if not href:
                 continue
-
+                
             tweet_id = href.split("/status/")[-1].split("?")[0]
 
+            # Text-Inhalt auslesen
             text_el = article.query_selector('div[data-testid="tweetText"]')
             text = text_el.inner_text() if text_el else ""
 
@@ -114,7 +117,7 @@ def process_account(page, account):
 
 def main():
     cookies_json = os.getenv("TWITTER_COOKIES")
-
+    
     with sync_playwright() as p:
         browser = p.chromium.launch(
             headless=True,
@@ -127,7 +130,8 @@ def main():
         context.add_init_script(
             "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
         )
-
+        
+        # Loggt den Bot mit deinen GitHub-Cookies ein, damit X die Profile anzeigt
         if cookies_json:
             try:
                 cookies = json.loads(cookies_json)
