@@ -1,5 +1,6 @@
-google-genai>=0.1.0
-requests>=2.31.0
-playwright>=1.40.0
-discord.py>=2.3.0
-pillow>=10.0.0
+yfinance
+pandas
+pandas_ta
+requests
+lxml
+google-genai
