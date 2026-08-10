@@ -1,0 +1,30 @@
+name: nasdaq-screener
+
+on:
+  schedule:
+    # UTC-Zeit! 12:00 UTC = 13:00/14:00 MEZ/MESZ - an eure Wunschzeit anpassen
+    - cron: "0 12 * * 1-5"
+  workflow_dispatch: {}
+  repository_dispatch:
+    types: [run-screener]
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run screener
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python screener.py
