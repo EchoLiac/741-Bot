@@ -8,7 +8,7 @@ on:
 jobs:
   run-bot:
     runs-on: ubuntu-latest
-    
+
     # Das zwingt GitHub, dem Bot echte Schreibrechte zu geben
     permissions:
       contents: write
@@ -32,7 +32,9 @@ jobs:
         env:
           DISCORD_WEBHOOK_TRENDSPIDER: ${{ secrets.DISCORD_WEBHOOK_TRENDSPIDER }}
           DISCORD_WEBHOOK_EARNINGS: ${{ secrets.DISCORD_WEBHOOK_EARNINGS }}
+          DISCORD_WEBHOOK_EARNINGS_TEST: ${{ secrets.DISCORD_WEBHOOK_EARNINGS_TEST }}
           DISCORD_WEBHOOK_WATCHERGURU: ${{ secrets.DISCORD_WEBHOOK_WATCHERGURU }}
+          DISCORD_WEBHOOK_WATCHERGURU_TEST: ${{ secrets.DISCORD_WEBHOOK_WATCHERGURU_TEST }}
           DISCORD_WEBHOOK_EWHISPERS: ${{ secrets.DISCORD_WEBHOOK_EWHISPERS }}
           DISCORD_WEBHOOK_BLOOMBERG: ${{ secrets.DISCORD_WEBHOOK_BLOOMBERG }}
           DISCORD_WEBHOOK_KOBEISSI: ${{ secrets.DISCORD_WEBHOOK_KOBEISSI }}
