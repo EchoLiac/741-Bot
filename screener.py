@@ -26,7 +26,7 @@ MIN_PCT_MOVE = 5.0        # Mindest-Tagesbewegung in Prozent (absolut)
 LOOKBACK_DAYS = 30        # Historie fuer Durchschnittsberechnung
 GEMINI_MODEL = "gemini-3.6-flash"  # aktualisiert - 2.5er-Reihe wird Okt. 2026 abgeschaltet
 
-DISCORD_WEBHOOK_URL = os.environ["DISCORD_WEBHOOK_URL"]
+DISCORD_WEBHOOK_screener = os.environ["DISCORD_WEBHOOK_SCREENER"]
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 
 FALLBACK_TICKERS = [
@@ -131,7 +131,7 @@ def summarize_with_gemini(hits: list[dict]) -> str:
 
 
 def post_to_discord(message: str) -> None:
-    resp = requests.post(DISCORD_WEBHOOK_URL, json={"content": message[:2000]})
+    resp = requests.post(DISCORD_WEBHOOK_SCREENER, json={"content": message[:2000]})
     resp.raise_for_status()
 
 
