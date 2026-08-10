@@ -7,8 +7,18 @@ from playwright.sync_api import sync_playwright
 # Alle 9 Kanäle inklusive deiner neu angelegten Webhooks
 ACCOUNTS = [
     {"user": "TrendSpider", "webhook_env": "DISCORD_WEBHOOK_TRENDSPIDER", "state_file": "seen_ids_trendspider.json"},
-    {"user": "earnings_guy", "webhook_env": "DISCORD_WEBHOOK_EARNINGS", "state_file": "seen_ids_earnings.json"},
-    {"user": "watcherguru", "webhook_env": "DISCORD_WEBHOOK_WATCHERGURU", "state_file": "seen_ids_watcherguru.json"},
+    {
+        "user": "earnings_guy",
+        "webhook_env": "DISCORD_WEBHOOK_EARNINGS",
+        "state_file": "seen_ids_earnings.json",
+        "test_webhook_env": "DISCORD_WEBHOOK_EARNINGS_TEST",  # NEU: spiegelt zusaetzlich in den Testserver
+    },
+    {
+        "user": "watcherguru",
+        "webhook_env": "DISCORD_WEBHOOK_WATCHERGURU",
+        "state_file": "seen_ids_watcherguru.json",
+        "test_webhook_env": "DISCORD_WEBHOOK_WATCHERGURU_TEST",  # NEU: spiegelt zusaetzlich in den Testserver
+    },
     {"user": "ewhispers", "webhook_env": "DISCORD_WEBHOOK_EWHISPERS", "state_file": "seen_ids_ewhispers.json"},
     {"user": "DeItaone", "webhook_env": "DISCORD_WEBHOOK_BLOOMBERG", "state_file": "seen_ids_bloomberg.json"},
     {"user": "KobeissiLetter", "webhook_env": "DISCORD_WEBHOOK_KOBEISSI", "state_file": "seen_ids_kobeissi.json"},
@@ -37,7 +47,7 @@ def save_seen_ids(state_file, ids):
 def fetch_latest_tweets(page, username):
     profile_url = f"https://x.com/{username}"
     page.goto(profile_url, timeout=30000, wait_until="domcontentloaded")
-    
+
     # Wartet stabil auf das moderne Tweet-Element (erfordert Login!)
     page.wait_for_selector('article[data-testid="tweet"]', timeout=15000)
 
@@ -50,11 +60,11 @@ def fetch_latest_tweets(page, username):
             link_el = article.query_selector('a[href*="/status/"]')
             if not link_el:
                 continue
-                
+
             href = link_el.get_attribute("href")
             if not href:
                 continue
-                
+
             tweet_id = href.split("/status/")[-1].split("?")[0]
 
             # Text-Inhalt auslesen
@@ -100,12 +110,20 @@ def process_account(page, account):
             continue
 
         message = f"{tweet['text']}\n\nLink: {tweet['link']}"
-        resp = requests.post(webhook_url, json={"content": message}, timeout=10)
-        if resp.status_code >= 300:
-            print(f"[ERROR] {username}: Discord-Post fehlgeschlagen: {resp.status_code} {resp.text}")
-        else:
-            posted += 1
-            print(f"[OK] {username}: An Discord gesendet: {tweet['text'][:40]}...")
+
+        # NEU: Liste der Ziel-Webhooks - Haupt-Webhook + optional Test-Webhook
+        targets = [webhook_url]
+        test_webhook_url = os.environ.get(account.get("test_webhook_env", ""))
+        if test_webhook_url:
+            targets.append(test_webhook_url)
+
+        for target_url in targets:
+            resp = requests.post(target_url, json={"content": message}, timeout=10)
+            if resp.status_code >= 300:
+                print(f"[ERROR] {username}: Discord-Post fehlgeschlagen: {resp.status_code} {resp.text}")
+            else:
+                posted += 1
+                print(f"[OK] {username}: An Discord gesendet: {tweet['text'][:40]}...")
 
     save_seen_ids(account["state_file"], new_seen)
 
@@ -117,7 +135,7 @@ def process_account(page, account):
 
 def main():
     cookies_json = os.getenv("TWITTER_COOKIES")
-    
+
     with sync_playwright() as p:
         browser = p.chromium.launch(
             headless=True,
@@ -130,7 +148,7 @@ def main():
         context.add_init_script(
             "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
         )
-        
+
         # Loggt den Bot mit deinen GitHub-Cookies ein, damit X die Profile anzeigt
         if cookies_json:
             try:
