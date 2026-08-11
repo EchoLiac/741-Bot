@@ -7,8 +7,8 @@ in Discord. Optional formuliert Gemini (Free-Tier) daraus eine
 kurze Zusammenfassung.
 
 Benoetigte Umgebungsvariablen (als GitHub Secrets gesetzt):
-  DISCORD_WEBHOOK_URL   -> Pflicht
-  GEMINI_API_KEY        -> optional (ohne Key: reine Listen-Ausgabe)
+  DISCORD_WEBHOOK_SCREENER   -> Pflicht
+  GEMINI_API_KEY              -> optional (ohne Key: reine Listen-Ausgabe)
 """
 
 import os
@@ -16,7 +16,6 @@ import time
 from datetime import datetime
 
 import pandas as pd
-import pandas_ta as ta
 import requests
 import yfinance as yf
 
@@ -24,7 +23,7 @@ import yfinance as yf
 VOLUME_MULTIPLIER = 2.0   # Volumen heute >= X * 20-Tage-Schnitt
 MIN_PCT_MOVE = 5.0        # Mindest-Tagesbewegung in Prozent (absolut)
 LOOKBACK_DAYS = 30        # Historie fuer Durchschnittsberechnung
-GEMINI_MODEL = "gemini-3.6-flash"  # aktualisiert - 2.5er-Reihe wird Okt. 2026 abgeschaltet
+GEMINI_MODEL = "gemini-3.6-flash"
 
 DISCORD_WEBHOOK_SCREENER = os.environ["DISCORD_WEBHOOK_SCREENER"]
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
@@ -47,6 +46,18 @@ def get_nasdaq100_tickers() -> list[str]:
     return FALLBACK_TICKERS
 
 
+def calculate_rsi(series: pd.Series, period: int = 14) -> float:
+    """Eigene RSI-Berechnung, da pandas_ta nicht mehr auf PyPI verfuegbar ist."""
+    delta = series.diff()
+    gain = delta.where(delta > 0, 0.0)
+    loss = -delta.where(delta < 0, 0.0)
+    avg_gain = gain.rolling(period).mean()
+    avg_loss = loss.rolling(period).mean()
+    rs = avg_gain / avg_loss
+    rsi = 100 - (100 / (1 + rs))
+    return rsi.iloc[-1] if not rsi.empty else None
+
+
 def analyze_ticker(ticker: str) -> dict | None:
     """Prueft einen einzelnen Ticker gegen die Filterkriterien."""
     try:
@@ -57,7 +68,7 @@ def analyze_ticker(ticker: str) -> dict | None:
         if data.empty or len(data) < 21:
             return None
 
-        data["RSI"] = ta.rsi(data["Close"], length=14)
+        rsi_value = calculate_rsi(data["Close"])
 
         avg_volume = data["Volume"].iloc[-21:-1].mean()
         today = data.iloc[-1]
@@ -66,7 +77,6 @@ def analyze_ticker(ticker: str) -> dict | None:
         volume_ratio = today["Volume"] / avg_volume if avg_volume else 0
 
         if volume_ratio >= VOLUME_MULTIPLIER and abs(pct_move) >= MIN_PCT_MOVE:
-            rsi_value = today["RSI"]
             return {
                 "ticker": ticker,
                 "pct_move": round(float(pct_move), 2),
