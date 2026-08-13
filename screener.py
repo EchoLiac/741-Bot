@@ -37,12 +37,23 @@ FALLBACK_TICKERS = [
 def get_nasdaq100_tickers() -> list[str]:
     """Holt die aktuelle Nasdaq-100-Liste von Wikipedia, mit Fallback."""
     try:
-        tables = pd.read_html("https://en.wikipedia.org/wiki/Nasdaq-100")
+        # User-Agent mitsenden, um Error 403 (Forbidden) von Wikipedia zu vermeiden
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+        }
+        url = "https://en.wikipedia.org/wiki/Nasdaq-100"
+        
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        
+        tables = pd.read_html(response.text)
+        
         for t in tables:
             if "Ticker" in t.columns:
                 return t["Ticker"].str.replace(".", "-", regex=False).tolist()
     except Exception as e:
         print(f"Wikipedia-Fetch fehlgeschlagen, nutze Fallback-Liste: {e}")
+        
     return FALLBACK_TICKERS
 
 
