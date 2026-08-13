@@ -61,20 +61,18 @@ def calculate_rsi(series: pd.Series, period: int = 14) -> float:
 def analyze_ticker(ticker: str) -> dict | None:
     """Prueft einen einzelnen Ticker gegen die Filterkriterien."""
     try:
-        data = yf.download(
-            ticker, period=f"{LOOKBACK_DAYS}d", interval="1d",
-            progress=False, auto_adjust=True,
-        )
+        data = yf.Ticker(ticker).history(period=f"{LOOKBACK_DAYS}d", interval="1d")
         if data.empty or len(data) < 21:
             return None
 
         rsi_value = calculate_rsi(data["Close"])
 
         avg_volume = data["Volume"].iloc[-21:-1].mean()
-        today = data.iloc[-1]
+        today_close = data["Close"].iloc[-1]
+        today_volume = data["Volume"].iloc[-1]
         prev_close = data["Close"].iloc[-2]
-        pct_move = (today["Close"] - prev_close) / prev_close * 100
-        volume_ratio = today["Volume"] / avg_volume if avg_volume else 0
+        pct_move = (today_close - prev_close) / prev_close * 100
+        volume_ratio = today_volume / avg_volume if avg_volume else 0
 
         if volume_ratio >= VOLUME_MULTIPLIER and abs(pct_move) >= MIN_PCT_MOVE:
             return {
@@ -82,11 +80,12 @@ def analyze_ticker(ticker: str) -> dict | None:
                 "pct_move": round(float(pct_move), 2),
                 "volume_ratio": round(float(volume_ratio), 2),
                 "rsi": round(float(rsi_value), 1) if pd.notna(rsi_value) else None,
-                "close": round(float(today["Close"]), 2),
+                "close": round(float(today_close), 2),
             }
     except Exception as e:
         print(f"Fehler bei {ticker}: {e}")
     return None
+
 
 
 def screen_market() -> list[dict]:
