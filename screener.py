@@ -4,16 +4,20 @@ Nasdaq-100 Screener & Tages-Update
 - Filtert nach Volumen-Ausreißern (>= 1.3x) & Kursbewegung (>= 1.5%)
 - Prüft EMA 20/50 Trend & MACD-Kaufsignale (Top-Setup)
 - Fallback: Schickt automatisch Top 3 Gewinner & Verlierer, falls keine Ausreißer da sind
+- NEU: Scanned parallel nach PbD-Volumenprofil-Setups (Tom Vorwald / P-b-D-Methode)
 """
 
 import io
 import os
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 
 import pandas as pd
 import requests
 import yfinance as yf
+
+from pbd_addon import screen_pbd_setups, format_pbd_section
 
 # --- Konfiguration ---
 VOLUME_MULTIPLIER = 1.3   # Volumen heute >= 1.3x (30 % über Schnitt)
@@ -39,7 +43,7 @@ FULL_NASDAQ100_TICKERS = [
 
 
 def get_nasdaq100_tickers() -> list[str]:
-    """Holt die Nasdaq-100 Ticker von Wikipedia oder nutzt die Vollback-Liste."""
+    """Holt die Nasdaq-100 Ticker von Wikipedia oder nutzt die Fallback-Liste."""
     try:
         headers = {"User-Agent": "Mozilla/5.0"}
         url = "https://en.wikipedia.org/wiki/Nasdaq-100"
@@ -59,7 +63,6 @@ def calculate_indicators(df: pd.DataFrame) -> dict:
     """Berechnet RSI, EMA 20/50 und MACD."""
     close = df["Close"]
 
-    # RSI (14)
     delta = close.diff()
     gain = delta.where(delta > 0, 0.0)
     loss = -delta.where(delta < 0, 0.0)
@@ -68,11 +71,9 @@ def calculate_indicators(df: pd.DataFrame) -> dict:
     rs = avg_gain / avg_loss
     rsi = 100 - (100 / (1 + rs))
 
-    # EMAs
     ema20 = close.ewm(span=20, adjust=False).mean()
     ema50 = close.ewm(span=50, adjust=False).mean()
 
-    # MACD (12, 26, 9)
     ema12 = close.ewm(span=12, adjust=False).mean()
     ema26 = close.ewm(span=26, adjust=False).mean()
     macd_line = ema12 - ema26
@@ -152,7 +153,6 @@ def screen_market() -> tuple[list[dict], bool]:
     if hits:
         return hits, False
 
-    # FALLBACK: Wenn keine harten Kriterien erfüllt sind -> Top 3 Gewinner & Verlierer
     print("Keine Ausreißer-Hits. Erstelle Top 3 Gewinner/Verlierer Fallback...")
     sorted_by_move = sorted(all_results, key=lambda x: x["pct_move"], reverse=True)
     top_gainers = sorted_by_move[:3]
@@ -182,7 +182,6 @@ def format_plain(items: list[dict], is_fallback: bool) -> str:
 
         return "\n".join(lines)
 
-    # Normale Treffer mit Ausreißern
     lines = [f"📊 **Nasdaq-100 Screener & Indikator-Check - {date_str}**\n"]
     for h in items:
         dir_icon = "🟢" if h['pct_move'] > 0 else "🔴"
@@ -229,12 +228,26 @@ def summarize_with_gemini(items: list[dict], is_fallback: bool) -> str:
 
 
 def post_to_discord(message: str) -> None:
-    resp = requests.post(DISCORD_WEBHOOK_SCREENER, json={"content": message[:2000]})
-    resp.raise_for_status()
+    """Postet eine Nachricht, teilt sie bei Bedarf in mehrere <=2000-Zeichen-Blöcke."""
+    for i in range(0, len(message), 1900):
+        chunk = message[i:i + 1900]
+        resp = requests.post(DISCORD_WEBHOOK_SCREENER, json={"content": chunk})
+        resp.raise_for_status()
 
 
 if __name__ == "__main__":
-    items, is_fallback = screen_market()
+    tickers = get_nasdaq100_tickers()
+
+    # Beide Scans wirklich parallel laufen lassen (spart ca. die Hälfte der Zeit)
+    with ThreadPoolExecutor(max_workers=2) as executor:
+        market_future = executor.submit(screen_market)
+        pbd_future = executor.submit(screen_pbd_setups, tickers)
+
+        items, is_fallback = market_future.result()
+        pbd_setups = pbd_future.result()
+
     nachricht = summarize_with_gemini(items, is_fallback)
+    nachricht += format_pbd_section(pbd_setups)
+
     post_to_discord(nachricht)
     print("Fertig! Nachricht erfolgreich gepostet.")
