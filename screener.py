@@ -6,14 +6,12 @@ Commands: nasdaq | sp500 | pbd
 import io
 import os
 import time
-from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 
 import pandas as pd
 import requests
 import yfinance as yf
 
-# PbD-Modul (bleibt wie bisher)
 try:
     from pbd_addon import screen_pbd_setups, format_pbd_section
 except ImportError:
@@ -28,11 +26,8 @@ GEMINI_MODEL = "gemini-3.6-flash"
 
 DISCORD_WEBHOOK_SCREENER = os.environ["DISCORD_WEBHOOK_SCREENER"]
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-
-# Welcher Command wurde getriggert? (kommt vom Worker)
 COMMAND = os.environ.get("SCREENER_COMMAND", "nasdaq").lower()
 
-# -------------------- Ticker Listen --------------------
 NASDAQ100_TICKERS = [
     "AAPL", "ABNB", "ADBE", "ADI", "ADP", "ADSK", "AEP", "AMAT", "AMD", "AMGN",
     "AMZN", "ANSS", "ASML", "AVGO", "AZN", "BKR", "BKNG", "BIIB", "CDNS", "CEG",
@@ -84,7 +79,6 @@ def calculate_indicators(df: pd.DataFrame) -> dict:
 
     ema20 = close.ewm(span=20, adjust=False).mean()
     ema50 = close.ewm(span=50, adjust=False).mean()
-
     ema12 = close.ewm(span=12, adjust=False).mean()
     ema26 = close.ewm(span=26, adjust=False).mean()
     macd_line = ema12 - ema26
@@ -98,15 +92,11 @@ def calculate_indicators(df: pd.DataFrame) -> dict:
     p_macd = macd_line.iloc[-2]
     p_signal = signal_line.iloc[-2]
 
-    trend_bullish = (c_close > c_ema20) and (c_ema20 > c_ema50)
-    macd_crossover = (p_macd <= p_signal) and (c_macd > c_signal)
-    macd_bullish = c_macd > c_signal
-
     return {
         "rsi": round(float(rsi.iloc[-1]), 1) if pd.notna(rsi.iloc[-1]) else "N/A",
-        "trend_bullish": trend_bullish,
-        "macd_crossover": macd_crossover,
-        "macd_bullish": macd_bullish
+        "trend_bullish": (c_close > c_ema20) and (c_ema20 > c_ema50),
+        "macd_crossover": (p_macd <= p_signal) and (c_macd > c_signal),
+        "macd_bullish": c_macd > c_signal
     }
 
 
@@ -157,20 +147,15 @@ def screen_market(tickers: list[str]) -> tuple[list[dict], bool]:
             print(f"... {i + 1}/{len(tickers)} geprüft")
 
     hits = [r for r in all_results if r["is_hit"]]
-
     if hits:
         return hits, False
 
-    print("Keine Ausreißer → Fallback Top 3 Gewinner/Verlierer")
     sorted_by_move = sorted(all_results, key=lambda x: x["pct_move"], reverse=True)
-    top_gainers = sorted_by_move[:3]
-    top_losers = sorted_by_move[-3:][::-1]
-    return top_gainers + top_losers, True
+    return sorted_by_move[:3] + sorted_by_move[-3:][::-1], True
 
 
 def format_plain(items: list[dict], is_fallback: bool, label: str) -> str:
     date_str = datetime.now().strftime("%d.%m.%Y")
-
     if is_fallback:
         lines = [
             f"📊 **{label} Tages-Update ({date_str})**",
@@ -179,7 +164,6 @@ def format_plain(items: list[dict], is_fallback: bool, label: str) -> str:
         ]
         gainers = [x for x in items if x["pct_move"] >= 0]
         losers = [x for x in items if x["pct_move"] < 0]
-
         for g in gainers:
             lines.append(f"• **{g['ticker']}**: {g['pct_move']:+}% | Vol: {g['volume_ratio']}x | ${g['close']} | RSI: {g['rsi']}")
         lines.append("\n🔴 **Top 3 Verlierer:**")
@@ -190,13 +174,13 @@ def format_plain(items: list[dict], is_fallback: bool, label: str) -> str:
     lines = [f"📊 **{label} Screener – {date_str}**\n"]
     for h in items:
         dir_icon = "🟢" if h['pct_move'] > 0 else "🔴"
-        star_icon = "⭐ **[TOP-SETUP]** " if h['is_top_setup'] else ""
-        macd_icon = " 🔥 (MACD-Cross!)" if h['macd_crossover'] else ""
-        trend_str = "EMA-Trend 🟢" if h['trend_bullish'] else "EMA-Trend 🔴"
+        star = "⭐ **[TOP-SETUP]** " if h['is_top_setup'] else ""
+        macd = " 🔥 (MACD-Cross!)" if h['macd_crossover'] else ""
+        trend = "EMA-Trend 🟢" if h['trend_bullish'] else "EMA-Trend 🔴"
         lines.append(
-            f"{star_icon}{dir_icon} **{h['ticker']}**: {h['pct_move']:+}% | "
+            f"{star}{dir_icon} **{h['ticker']}**: {h['pct_move']:+}% | "
             f"Vol: **{h['volume_ratio']}x** | Kurs: ${h['close']} | "
-            f"RSI: {h['rsi']} | {trend_str}{macd_icon}"
+            f"RSI: {h['rsi']} | {trend}{macd}"
         )
     return "\n".join(lines)
 
@@ -204,26 +188,21 @@ def format_plain(items: list[dict], is_fallback: bool, label: str) -> str:
 def summarize_with_gemini(items: list[dict], is_fallback: bool, label: str) -> str:
     if not GEMINI_API_KEY or not items:
         return format_plain(items, is_fallback, label)
-
     try:
         from google import genai
         client = genai.Client(api_key=GEMINI_API_KEY)
-
         if is_fallback:
             prompt = (
                 f"Es gab heute keine extremen Volumen-Ausreißer im {label}. "
-                "Fasse kurz in 2-3 prägnanten Sätzen auf Deutsch zusammen, welche "
-                "Aktien die Top 3 Gewinner und Verlierer waren. Keine Anlageberatung.\n\n"
+                "Fasse kurz in 2-3 prägnanten Sätzen auf Deutsch zusammen. Keine Anlageberatung.\n\n"
                 f"{items}"
             )
         else:
             prompt = (
-                f"Fasse diese {label}-Screener-Treffer in maximal 4 kurzen, "
-                "prägnanten Sätzen auf Deutsch zusammen. Hebe Aktien mit 'is_top_setup': True "
-                "oder 'macd_crossover': True besonders hervor. Keine Anlageberatung.\n\n"
+                f"Fasse diese {label}-Screener-Treffer in maximal 4 kurzen Sätzen auf Deutsch zusammen. "
+                "Hebe is_top_setup und macd_crossover besonders hervor. Keine Anlageberatung.\n\n"
                 f"{items}"
             )
-
         response = client.models.generate_content(model=GEMINI_MODEL, contents=prompt)
         return response.text
     except Exception as e:
@@ -238,7 +217,6 @@ def post_to_discord(message: str) -> None:
         resp.raise_for_status()
 
 
-# -------------------- Hauptlogik --------------------
 if __name__ == "__main__":
     print(f"Starte Screener für Command: {COMMAND}")
 
@@ -255,9 +233,9 @@ if __name__ == "__main__":
         if screen_pbd_setups is None:
             nachricht = "❌ PbD-Modul (pbd_addon) nicht gefunden."
         else:
-            tickers = get_nasdaq100_tickers()  # oder SP500_CORE – je nach Wunsch
+            tickers = get_nasdaq100_tickers()
             pbd_setups = screen_pbd_setups(tickers)
-            nachricht = "📐 **PbD-Setups (Volumenprofil):**\n"
+            nachricht = "📐 **PbD-Setups (Volumenprofil + VWAP):**\n"
             nachricht += format_pbd_section(pbd_setups) if format_pbd_section else str(pbd_setups)
 
     else:
