@@ -1,0 +1,23 @@
+name: Video Scanner
+
+on:
+  schedule:
+    # Alle 30 Minuten zwischen 12:00 und 23:30 UTC
+    # (entspricht grob 14:00–01:30 MESZ – können wir noch feiner justieren)
+    - cron: "0,30 12-23 * * *"
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Run scanner
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DISCORD_WEBHOOK_VIDEOS: ${{ secrets.DISCORD_WEBHOOK_VIDEOS }}
+        run: python video_scanner.py
