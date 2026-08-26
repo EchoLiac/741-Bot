@@ -1,6 +1,6 @@
 """
 PbD-Volumenprofil-Scanner (Tom Vorwald / Trade The Traders Methode)
-Optimiert + VWAP-Filter
+Optimiert + VWAP-Filter + strengere Kriterien
 """
 
 import time
@@ -39,10 +39,7 @@ def get_volume_profile(data: pd.DataFrame, num_bins: int = 24) -> tuple[np.ndarr
         if high <= low:
             return None
 
-        # Typischer Preis der Kerze
         typical = (data["High"] + data["Low"] + data["Close"]) / 3
-
-        # Bins erstellen
         bins = np.linspace(low, high, num_bins + 1)
         digitized = np.digitize(typical, bins) - 1
         digitized = np.clip(digitized, 0, num_bins - 1)
@@ -51,7 +48,6 @@ def get_volume_profile(data: pd.DataFrame, num_bins: int = 24) -> tuple[np.ndarr
         for i, vol in enumerate(data["Volume"].values):
             volumes[digitized[i]] += vol
 
-        # Bin-Mitten
         centers = (bins[:-1] + bins[1:]) / 2
         return centers, volumes
     except Exception as e:
@@ -62,6 +58,7 @@ def get_volume_profile(data: pd.DataFrame, num_bins: int = 24) -> tuple[np.ndarr
 def classify_pbd_shape(ticker: str) -> dict | None:
     """
     Klassifiziert P / b / D und filtert zusätzlich mit VWAP.
+    Strengere Kriterien als zuvor.
     """
     data = get_intraday_data(ticker)
     if data is None:
@@ -78,6 +75,10 @@ def classify_pbd_shape(ticker: str) -> dict | None:
     if n < 9 or total_vol == 0:
         return None
 
+    # Optional: sehr dünne Tage aussortieren
+    if total_vol < 30000:
+        return None
+
     poc_idx = int(volumes.argmax())
     third = max(1, n // 3)
 
@@ -85,20 +86,21 @@ def classify_pbd_shape(ticker: str) -> dict | None:
     upper_vol = volumes[-third:].sum()
     middle_vol = total_vol - upper_vol - lower_vol
 
-    thin_tail_bottom = (lower_vol / total_vol) < 0.12
-    thin_tail_top = (upper_vol / total_vol) < 0.12
+    # Strengere Tail-Definition
+    thin_tail_bottom = (lower_vol / total_vol) < 0.08
+    thin_tail_top = (upper_vol / total_vol) < 0.08
 
     poc_in_upper = poc_idx >= (n - third)
     poc_in_lower = poc_idx < third
     poc_centered = third <= poc_idx < (n - third)
 
-    # Form bestimmen
+    # Form bestimmen (strenger)
     shape = None
-    if poc_in_upper and thin_tail_bottom and upper_vol >= middle_vol * 0.9:
+    if poc_in_upper and thin_tail_bottom and upper_vol >= middle_vol * 1.1:
         shape = "P"
-    elif poc_in_lower and thin_tail_top and lower_vol >= middle_vol * 0.9:
+    elif poc_in_lower and thin_tail_top and lower_vol >= middle_vol * 1.1:
         shape = "b"
-    elif poc_centered and (middle_vol / total_vol) > 0.38:
+    elif poc_centered and (middle_vol / total_vol) > 0.40:
         shape = "D"
 
     if shape is None:
@@ -108,11 +110,11 @@ def classify_pbd_shape(ticker: str) -> dict | None:
     vwap = calculate_vwap(data)
     last_close = float(data["Close"].iloc[-1])
 
-    # P nur behalten wenn Preis über VWAP (bullische Bestätigung)
+    # P nur behalten wenn Preis über VWAP
     if shape == "P" and last_close < vwap:
         return None
 
-    # b nur behalten wenn Preis unter VWAP (bärische Bestätigung)
+    # b nur behalten wenn Preis unter VWAP
     if shape == "b" and last_close > vwap:
         return None
 
@@ -142,9 +144,12 @@ def screen_pbd_setups(tickers: list[str]) -> list[dict]:
 def format_pbd_section(setups: list[dict]) -> str:
     """Discord-Textblock für die PbD-Setups."""
     if not setups:
-        return "\n\n📐 **PbD-Setups (Volumenprofil + VWAP):** Keine klaren P-/b-Formen heute."
+        return (
+            "\n\n📐 **PbD-Setups (nur Intraday-Volumenprofil + VWAP):**\n"
+            "Keine klaren P-/b-Formen heute."
+        )
 
-    lines = ["\n\n📐 **PbD-Setups (Volumenprofil + VWAP-Filter):**"]
+    lines = ["\n\n📐 **PbD-Setups (nur Intraday-Volumenprofil + VWAP):**"]
     for s in setups:
         icon = "🟢 P-Shape (bullisch)" if s["shape"] == "P" else "🔴 b-Shape (bärisch)"
         vwap_info = f" | VWAP {s['vwap']} | Close {s['close']}"
@@ -153,4 +158,9 @@ def format_pbd_section(setups: list[dict]) -> str:
             f"Vol oben: {s['upper_vol_pct']}% | Vol unten: {s['lower_vol_pct']}% | "
             f"POC @ {s['poc_position']}{vwap_info}"
         )
+
+    lines.append(
+        "\n_Hinweis: Nur der heutige Handelstag wird bewertet. "
+        "Höhere Timeframes bitte manuell prüfen._"
+    )
     return "\n".join(lines)
