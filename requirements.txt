@@ -4,3 +4,4 @@ requests
 lxml
 google-genai
 numpy
+yt-dlp
