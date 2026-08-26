@@ -1,0 +1,32 @@
+name: Video Scanner
+
+on:
+  workflow_dispatch:   # wird von cron-job.org getriggert
+  # optional als Backup:
+  # schedule:
+  #   - cron: "0,30 12-23 * * *"
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run video scanner
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DISCORD_WEBHOOK_VIDEOS: ${{ secrets.DISCORD_WEBHOOK_VIDEOS }}
+        run: python video_scanner.py
