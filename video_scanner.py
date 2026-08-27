@@ -1,8 +1,9 @@
 """
-YouTube Video Scanner (yt-dlp + Gemini)
+YouTube Video Scanner (yt-dlp + Transcript + Gemini)
 - Prüft Kanäle auf neue Videos (inkl. Shorts)
 - Erster Lauf: nur merken, keine Analyse
 - Danach: nur neue Videos analysieren
+- Bevorzugt echte Untertitel, sonst Titel + URL
 - Postet kurze Zusammenfassung in Discord
 - Speichert strukturierte Daten für Second Brain
 """
@@ -17,23 +18,30 @@ import requests
 import yt_dlp
 from google import genai
 
+try:
+    from youtube_transcript_api import YouTubeTranscriptApi
+    HAS_TRANSCRIPT = True
+except ImportError:
+    HAS_TRANSCRIPT = False
+
 # === Konfiguration ===
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 DISCORD_WEBHOOK = os.environ.get("DISCORD_WEBHOOK_VIDEOS")
-GEMINI_MODEL = "gemini-3.6-flash"
+GEMINI_MODEL = "gemini-2.0-flash"
 
 CHANNELS_FILE = "channels.json"
 SEEN_FILE = "seen_videos.json"
 OUTPUT_DIR = Path("video_summaries")
 
 ANALYSIS_PROMPT = """Du bist ein erfahrener Trading-Assistent.
-Analysiere das folgende YouTube-Video vollständig anhand von Titel und Transkript/Beschreibung.
+Analysiere das YouTube-Video so vollständig und konkret wie möglich.
 
 Regeln:
 - Nichts Wichtiges auslassen
 - Alle genannten Kursziele, Support/Resistance, Fibonacci, Volumenprofil-Levels, Zonen etc. explizit aufführen
 - Bei jedem Level kurz sagen, WARUM es relevant ist
-- Die Zusammenfassung muss trotzdem schnell lesbar sein
+- Die Zusammenfassung muss schnell lesbar sein
+- Frage NIEMALS nach einem Transkript oder zusätzlichem Text. Arbeite mit dem, was du hast.
 
 Strukturiere die Antwort exakt so:
 
@@ -72,7 +80,7 @@ def save_json(path, data):
 
 
 def get_recent_videos(handle: str, max_results: int = 2) -> list[dict]:
-    """Holt die neuesten Videos eines Kanals über yt-dlp."""
+    """Holt die neuesten Videos eines Kanals über yt-dlp (nur Metadaten)."""
     url = f"https://www.youtube.com/{handle}/videos"
     ydl_opts = {
         "quiet": True,
@@ -100,31 +108,62 @@ def get_recent_videos(handle: str, max_results: int = 2) -> list[dict]:
     return videos
 
 
-def get_transcript_or_description(video_url: str) -> str:
-    """Versucht Beschreibung zu holen (später erweiterbar um echte Untertitel)."""
-    ydl_opts = {
-        "quiet": True,
-        "skip_download": True,
-    }
+def get_transcript(video_id: str) -> str | None:
+    """Holt automatische/manuelle Untertitel, falls vorhanden."""
+    if not HAS_TRANSCRIPT:
+        return None
     try:
-        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            info = ydl.extract_info(video_url, download=False)
-            desc = info.get("description") or ""
-            return desc[:8000]
-    except Exception as e:
-        print(f"Desc-Fehler: {e}")
-        return ""
+        # Neue API (youtube-transcript-api >= 1.0)
+        ytt = YouTubeTranscriptApi()
+        transcript = ytt.fetch(video_id, languages=["de", "en"])
+        texts = []
+        for snip in transcript:
+            if hasattr(snip, "text"):
+                texts.append(snip.text)
+            elif isinstance(snip, dict):
+                texts.append(snip.get("text", ""))
+        text = " ".join(texts).strip()
+        return text[:12000] if text else None
+    except Exception:
+        try:
+            # Fallback ältere API
+            transcript_list = YouTubeTranscriptApi.get_transcript(
+                video_id, languages=["de", "en"]
+            )
+            text = " ".join(x["text"] for x in transcript_list).strip()
+            return text[:12000] if text else None
+        except Exception as e:
+            print(f"  Kein Transkript für {video_id}: {e}")
+            return None
 
 
-def analyze_with_gemini(title: str, content: str) -> str:
+def analyze_with_gemini(title: str, video_url: str, transcript: str | None = None) -> str:
     if not GEMINI_API_KEY:
         return "❌ Kein GEMINI_API_KEY gesetzt."
     try:
         client = genai.Client(api_key=GEMINI_API_KEY)
-        full_prompt = f"{ANALYSIS_PROMPT}\n\nTitel: {title}\n\nInhalt:\n{content}"
+
+        if transcript:
+            content_block = f"Transkript/Untertitel des Videos:\n{transcript}"
+        else:
+            content_block = (
+                "Kein Transkript verfügbar.\n"
+                f"Analysiere das Video so gut wie möglich anhand von Titel und URL.\n"
+                f"URL: {video_url}\n"
+                "Frage nicht nach zusätzlichem Text."
+            )
+
+        prompt = f"""{ANALYSIS_PROMPT}
+
+Titel: {title}
+YouTube-URL: {video_url}
+
+{content_block}
+"""
+
         response = client.models.generate_content(
             model=GEMINI_MODEL,
-            contents=full_prompt
+            contents=prompt
         )
         return response.text
     except Exception as e:
@@ -148,7 +187,6 @@ def main():
     seen = load_json(SEEN_FILE, {})
     OUTPUT_DIR.mkdir(exist_ok=True)
 
-    # Erster Lauf? → nur merken, nichts analysieren
     first_run = len(seen) == 0
     if first_run:
         print(">>> ERSTER LAUF: Videos werden nur gemerkt, keine Analyse <<<")
@@ -169,7 +207,6 @@ def main():
 
             print(f"  → Neues Video: {v['title']}")
 
-            # Beim ersten Lauf nur in seen speichern
             if first_run:
                 seen[vid] = {
                     "title": v["title"],
@@ -179,14 +216,20 @@ def main():
                 print("    (erster Lauf – nur gemerkt)")
                 continue
 
-            # Normale Analyse nur für wirklich neue Videos
-            content = get_transcript_or_description(v["url"])
-            summary = analyze_with_gemini(v["title"], content)
+            # 1) Transkript versuchen
+            transcript = get_transcript(vid)
+            if transcript:
+                print("    Transkript gefunden")
+            else:
+                print("    Kein Transkript – nutze Titel + URL")
+
+            # 2) Gemini
+            summary = analyze_with_gemini(v["title"], v["url"], transcript)
 
             msg = f"🎬 **{name}**\n**{v['title']}**\n{v['url']}\n\n{summary}"
             post_to_discord(msg)
 
-            # Für Second Brain speichern
+            # 3) Für Second Brain speichern
             out = {
                 "channel": name,
                 "handle": handle,
@@ -194,6 +237,7 @@ def main():
                 "title": v["title"],
                 "url": v["url"],
                 "published": v.get("published"),
+                "has_transcript": bool(transcript),
                 "summary": summary,
                 "scraped_at": datetime.now(timezone.utc).isoformat()
             }
