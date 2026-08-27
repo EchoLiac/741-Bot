@@ -5,7 +5,7 @@ on:
 
 concurrency:
   group: video-scanner
-  cancel-in-progress: false   # laufende Jobs nicht abbrechen, neue warten
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -42,14 +42,19 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Wichtig: erst pullen, dann committen
-          git pull --rebase origin main || true
-          
+
           git add seen_videos.json
+
           if git diff --staged --quiet; then
             echo "Keine Änderungen an seen_videos.json"
-          else
-            git commit -m "Update seen_videos.json"
-            git push
+            exit 0
           fi
+
+          git commit -m "Update seen_videos.json"
+
+          git pull --rebase origin main || {
+            echo "Rebase fehlgeschlagen – versuche normalen Pull"
+            git pull origin main --no-edit || true
+          }
+
+          git push
