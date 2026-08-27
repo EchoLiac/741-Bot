@@ -1,10 +1,7 @@
 name: Video Scanner
 
 on:
-  workflow_dispatch:   # wird von cron-job.org getriggert
-  # optional als Backup:
-  # schedule:
-  #   - cron: "0,30 12-23 * * *"
+  workflow_dispatch:
 
 jobs:
   scan:
@@ -30,3 +27,12 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           DISCORD_WEBHOOK_VIDEOS: ${{ secrets.DISCORD_WEBHOOK_VIDEOS }}
         run: python video_scanner.py
+
+      # Neu: seen_videos.json zurück ins Repo speichern
+      - name: Commit seen_videos.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add seen_videos.json
+          git diff --staged --quiet || git commit -m "Update seen_videos.json"
+          git push
