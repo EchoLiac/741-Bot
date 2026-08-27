@@ -3,19 +3,24 @@ name: Video Scanner
 on:
   workflow_dispatch:
 
+concurrency:
+  group: video-scanner
+  cancel-in-progress: false   # laufende Jobs nicht abbrechen, neue warten
+
 permissions:
-  contents: write   # wichtig: darf committen + pushen
+  contents: write
 
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -37,6 +42,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Wichtig: erst pullen, dann committen
+          git pull --rebase origin main || true
+          
           git add seen_videos.json
-          git diff --staged --quiet || git commit -m "Update seen_videos.json"
-          git push
+          if git diff --staged --quiet; then
+            echo "Keine Änderungen an seen_videos.json"
+          else
+            git commit -m "Update seen_videos.json"
+            git push
+          fi
