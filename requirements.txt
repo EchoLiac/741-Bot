@@ -5,3 +5,4 @@ lxml
 google-genai
 numpy
 yt-dlp
+youtube-transcript-api
