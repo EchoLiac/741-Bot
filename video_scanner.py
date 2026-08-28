@@ -27,7 +27,10 @@ except ImportError:
 # === Konfiguration ===
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 DISCORD_WEBHOOK = os.environ.get("DISCORD_WEBHOOK_VIDEOS")
-GEMINI_MODEL = "gemini-2.0-flash"
+# Modell über Env-Variable steuerbar (Fallback: gemini-3.6-flash)
+# So musst du bei einem erneuten Modellwechsel durch Google nur das
+# GitHub-Secret/die Env-Variable ändern statt den Code neu zu committen.
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.6-flash")
 
 CHANNELS_FILE = "channels.json"
 SEEN_FILE = "seen_videos.json"
