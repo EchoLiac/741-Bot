@@ -4,6 +4,7 @@ YouTube Video Scanner (yt-dlp + Transcript + Gemini)
 - Erster Lauf: nur merken, keine Analyse
 - Danach: nur neue Videos analysieren
 - Bevorzugt echte Untertitel, sonst Titel + URL
+- Strikte Struktur: Ticker, Multi-Aktien getrennt, Markt-Videos klar
 - Postet kurze Zusammenfassung in Discord
 - Speichert strukturierte Daten für Second Brain
 """
@@ -27,9 +28,6 @@ except ImportError:
 # === Konfiguration ===
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 DISCORD_WEBHOOK = os.environ.get("DISCORD_WEBHOOK_VIDEOS")
-# Modell über Env-Variable steuerbar (Fallback: gemini-3.6-flash)
-# So musst du bei einem erneuten Modellwechsel durch Google nur das
-# GitHub-Secret/die Env-Variable ändern statt den Code neu zu committen.
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.6-flash")
 
 CHANNELS_FILE = "channels.json"
@@ -39,31 +37,67 @@ OUTPUT_DIR = Path("video_summaries")
 ANALYSIS_PROMPT = """Du bist ein erfahrener Trading-Assistent.
 Analysiere das YouTube-Video so vollständig und konkret wie möglich.
 
-Regeln:
-- Nichts Wichtiges auslassen
-- Alle genannten Kursziele, Support/Resistance, Fibonacci, Volumenprofil-Levels, Zonen etc. explizit aufführen
-- Bei jedem Level kurz sagen, WARUM es relevant ist
-- Die Zusammenfassung muss schnell lesbar sein
-- Frage NIEMALS nach einem Transkript oder zusätzlichem Text. Arbeite mit dem, was du hast.
+### ZUERST TYP BESTIMMEN
+Wähle genau einen Typ:
+A) Einzelaktie / Einzelsetup
+B) Mehrere Aktien / mehrere Setups
+C) Markt / Makro / Index (keine einzelne Aktie im Fokus)
+D) Bildung / Methode / Psychologie (keine konkreten Trade-Levels)
 
-Strukturiere die Antwort exakt so:
+### PFLICHT – unabhängig vom Typ
+- Alle genannten **Ticker und Firmennamen** explizit nennen (z.B. NVDA, Sony, ServiceNow).
+- Wenn kein Ticker fällt: klar schreiben „kein konkreter Ticker genannt“.
+- Kursziele, Support/Resistance, Fibonacci, Volumenprofil, Zonen **mit Zahl** aufführen, soweit genannt.
+- Bei jedem Level kurz: **warum** es relevant ist (laut Sprecher).
+- Nichts Wichtiges weglassen; trotzdem knapp und scanbar halten.
+- Frage NIEMALS nach einem Transkript oder zusätzlichem Text. Arbeite nur mit dem gegebenen Inhalt.
+
+### STRUKTUR (genau so ausgeben)
+
+📌 **Typ:** A/B/C/D – ein kurzer Satz Begründung
 
 📌 **Kernaussage**
 (1–3 Sätze)
 
-🔍 **Wichtige Levels & Setups**
-- Level / Zone: ...
-  Begründung: ...
-- ...
+🏷️ **Erwähnte Ticker / Themen**
+- Liste aller Ticker ODER „keine konkreten Ticker“ ODER „Markt: Nasdaq/S&P/…“
+
+🔍 **Levels & Setups**
+Wenn Typ A (eine Aktie):
+- **TICKER**
+  - Level/Zone: …
+    Begründung: …
+  - Ziel: …
+    Begründung: …
+
+Wenn Typ B (mehrere Aktien) – PFLICHT: pro Aktie eigener Unterblock, nichts zusammenwerfen:
+- **TICKER1**
+  - Level/Zone: …
+    Begründung: …
+  - Ziel: …
+- **TICKER2**
+  - Level/Zone: …
+    Begründung: …
+  - Ziel: …
+(Wenn das Video 5 Aktien hat → alle 5 separat. Niemals „mehrere Tech-Werte …“ als Ersatz.)
+
+Wenn Typ C (Markt):
+- Index/Markt: …
+- Genannte Zonen/Level: …
+- Begründung: …
+
+Wenn Typ D:
+- Kernmethode / Aussage: …
+- Konkrete Regeln oder Checklisten, falls genannt: …
 
 💡 **Meinung des Sprechers**
-...
+…
 
 ⚠️ **Risiken / Einschränkungen**
-...
+…
 
 📅 **Zeitliche Einordnung**
-(Wann ungefähr gilt die Aussage / für welchen Zeitraum)
+(kurzfristig / swing / mittel- bis langfristig – nur was das Video hergibt)
 
 Am Ende immer:
 ⚠️ Keine Anlageberatung.
@@ -116,7 +150,6 @@ def get_transcript(video_id: str) -> str | None:
     if not HAS_TRANSCRIPT:
         return None
     try:
-        # Neue API (youtube-transcript-api >= 1.0)
         ytt = YouTubeTranscriptApi()
         transcript = ytt.fetch(video_id, languages=["de", "en"])
         texts = []
@@ -129,7 +162,6 @@ def get_transcript(video_id: str) -> str | None:
         return text[:12000] if text else None
     except Exception:
         try:
-            # Fallback ältere API
             transcript_list = YouTubeTranscriptApi.get_transcript(
                 video_id, languages=["de", "en"]
             )
@@ -153,7 +185,8 @@ def analyze_with_gemini(title: str, video_url: str, transcript: str | None = Non
                 "Kein Transkript verfügbar.\n"
                 f"Analysiere das Video so gut wie möglich anhand von Titel und URL.\n"
                 f"URL: {video_url}\n"
-                "Frage nicht nach zusätzlichem Text."
+                "Frage nicht nach zusätzlichem Text.\n"
+                "Wenn Ticker oder Levels unsicher sind: klar als unsicher kennzeichnen."
             )
 
         prompt = f"""{ANALYSIS_PROMPT}
@@ -162,6 +195,10 @@ Titel: {title}
 YouTube-URL: {video_url}
 
 {content_block}
+
+Wichtige Hinweise:
+- Bei mehreren Aktien: JEDEN Ticker einzeln mit eigenen Levels/Zielen – nicht zusammenfassen.
+- Ticker und Firmennamen immer explizit nennen.
 """
 
         response = client.models.generate_content(
@@ -219,20 +256,17 @@ def main():
                 print("    (erster Lauf – nur gemerkt)")
                 continue
 
-            # 1) Transkript versuchen
             transcript = get_transcript(vid)
             if transcript:
                 print("    Transkript gefunden")
             else:
                 print("    Kein Transkript – nutze Titel + URL")
 
-            # 2) Gemini
             summary = analyze_with_gemini(v["title"], v["url"], transcript)
 
             msg = f"🎬 **{name}**\n**{v['title']}**\n{v['url']}\n\n{summary}"
             post_to_discord(msg)
 
-            # 3) Für Second Brain speichern
             out = {
                 "channel": name,
                 "handle": handle,
