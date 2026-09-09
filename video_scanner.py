@@ -2,18 +2,17 @@
 YouTube Video Scanner V2
 ========================
 
-- Prüft YouTube-Kanäle auf neue Videos UND Shorts
+- Prüft YouTube-Kanäle ausschließlich auf normale Videos
+- Shorts werden ignoriert
 - Erster Lauf: nur merken, keine Analyse
 - Danach: nur neue Videos analysieren
-- Holt echte/manuelle/automatische YouTube-Untertitel
+- Holt YouTube-Untertitel
 - Analysiert mit Gemini
-- Gemini Retry-System
+- 3 Gemini-Retries bei Fehlern
 - Discord Retry-System
-- Videos werden erst als "gesehen" markiert,
-  wenn Analyse UND Discord erfolgreich waren
-- Speichert Ergebnisse dauerhaft unter video_summaries/
-- Fehlerhafte Analysen bleiben für einen späteren Versuch offen
-- Strukturierte Ausgabe für Trading Second Brain
+- Erst nach erfolgreicher Analyse + Discord als gesehen markieren
+- Speichert Ergebnisse unter video_summaries/
+- Fehlgeschlagene Videos werden beim nächsten Lauf erneut versucht
 """
 
 import json
@@ -39,19 +38,16 @@ except ImportError:
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 DISCORD_WEBHOOK = os.environ.get("DISCORD_WEBHOOK_VIDEOS")
-
-GEMINI_MODEL = os.environ.get(
-    "GEMINI_MODEL",
-    "gemini-3.6-flash"
-)
+GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3.6-flash")
 
 CHANNELS_FILE = "channels.json"
 SEEN_FILE = "seen_videos.json"
-
 OUTPUT_DIR = Path("video_summaries")
 
-MAX_RESULTS_PER_SECTION = 10
+# Nur die letzten normalen Videos jedes Kanals prüfen
+MAX_RESULTS = 10
 
+# Lange Videos nicht mehr schon bei 12.000 Zeichen abschneiden
 MAX_TRANSCRIPT_CHARS = int(
     os.environ.get("MAX_TRANSCRIPT_CHARS", "60000")
 )
@@ -61,7 +57,7 @@ DISCORD_MAX_RETRIES = 3
 
 
 # ============================================================
-# ANALYSE PROMPT
+# ANALYSE-PROMPT
 # ============================================================
 
 ANALYSIS_PROMPT = """
@@ -72,101 +68,51 @@ konkret und strukturiert.
 
 Deine Aufgabe ist NICHT, selbst Trading-Signale zu erfinden.
 
-Du extrahierst ausschließlich:
-- Aussagen des Sprechers
-- genannte Aktien / Ticker
-- konkrete Levels
-- Bedingungen
-- Ziele
-- Risiken
-- Trading-Setups
-- Methoden
-- zeitliche Aussagen
+Extrahiere ausschließlich Informationen,
+die tatsächlich aus dem gegebenen Inhalt hervorgehen.
 
-Wenn etwas nicht eindeutig aus dem Material hervorgeht,
-schreibe ausdrücklich:
-
-„nicht eindeutig genannt“
-
-Erfinde keine Informationen.
-
-
-==================================================
-ZUERST DEN VIDEO-TYP BESTIMMEN
-==================================================
+### ZUERST TYP BESTIMMEN
 
 Wähle genau einen Typ:
 
 A) Einzelaktie / Einzelsetup
-
 B) Mehrere Aktien / mehrere Setups
-
 C) Markt / Makro / Index
-   Keine einzelne Aktie steht klar im Fokus.
-
-D) Bildung / Trading-Methode / Psychologie
-   Schwerpunkt liegt auf Lernen und nicht auf
-   konkreten aktuellen Trade-Levels.
+D) Bildung / Methode / Psychologie
 
 
-==================================================
-PFLICHT – UNABHÄNGIG VOM TYP
-==================================================
+### PFLICHT – unabhängig vom Typ
 
-- Alle genannten Ticker UND Firmennamen nennen.
-
-Beispiel:
-
-NVDA – Nvidia
-NOW – ServiceNow
-
-Wenn kein konkreter Ticker genannt wird:
-
-„kein konkreter Ticker genannt“
-
-- Unterstützungen
-- Widerstände
-- Kursziele
-- Fibonacci-Level
-- Volumenprofil-Level
-- Breakout-Level
-- Trigger
-- Invalidierungen
-- Zonen
-
-immer mit konkreter Zahl nennen,
-falls sie im Material genannt werden.
-
-Bei jedem Level kurz erklären,
-WARUM es laut Sprecher relevant ist.
-
-Mehrere Aktien niemals zusammenwerfen.
-
-Wenn zehn Aktien behandelt werden,
-müssen zehn getrennte Aktienblöcke erscheinen.
+- Alle genannten Ticker UND Firmennamen explizit nennen.
+- Wenn kein Ticker fällt:
+  „kein konkreter Ticker genannt“
+- Kursziele, Support, Resistance, Fibonacci,
+  Volumenprofil, Zonen und Trigger mit Zahlen nennen,
+  soweit sie tatsächlich genannt werden.
+- Bei jedem Level erklären, warum es laut Sprecher relevant ist.
+- Mehrere Aktien niemals zusammenwerfen.
+- Wenn 10 Aktien behandelt werden,
+  müssen alle 10 separat aufgeführt werden.
+- Keine Ticker oder Levels erfinden.
+- Unsicherheiten ausdrücklich kennzeichnen.
 
 
-==================================================
-AUSGABESTRUKTUR
-==================================================
+### STRUKTUR
 
 📌 **Typ**
 A/B/C/D – kurze Begründung
 
 
 📌 **Kernaussage**
-
 1–3 Sätze.
 
 
 🏷️ **Erwähnte Ticker / Themen**
-
-- Ticker – Unternehmen
 - Ticker – Unternehmen
 
 oder:
 
-- keine konkreten Ticker genannt
+- kein konkreter Ticker genannt
 
 
 🎯 **Handelsrichtung**
@@ -183,44 +129,10 @@ Pro Aktie / Markt:
 
 🔍 **Levels & Setups**
 
-Wenn Typ A:
+Bei Einzelaktie:
 
 ### TICKER – Unternehmen
 
-- Aktuelle Aussage:
-  ...
-
-- Support:
-  ...
-  Begründung:
-  ...
-
-- Resistance:
-  ...
-  Begründung:
-  ...
-
-- Trigger:
-  ...
-
-- Ziel:
-  ...
-
-- Invalidierung:
-  ...
-
-- Setup:
-  ...
-
-
-Wenn Typ B:
-
-Für JEDE Aktie einen eigenen Block.
-
-Beispiel:
-
-### NVDA – Nvidia
-
 - Richtung:
 - Support:
 - Resistance:
@@ -230,7 +142,12 @@ Beispiel:
 - Setup:
 - Begründung:
 
-### PLTR – Palantir
+
+Bei mehreren Aktien:
+
+Für JEDE Aktie einen eigenen Block:
+
+### TICKER – Unternehmen
 
 - Richtung:
 - Support:
@@ -242,11 +159,10 @@ Beispiel:
 - Begründung:
 
 
-Wenn Typ C:
+Bei Markt / Index:
 
 ### Markt / Index
 
-- Markt:
 - Richtung:
 - Support:
 - Resistance:
@@ -256,7 +172,7 @@ Wenn Typ C:
 - Begründung:
 
 
-Wenn Typ D:
+Bei Bildung / Methode:
 
 ### Methode / Learning
 
@@ -270,79 +186,55 @@ Wenn Typ D:
 
 
 💡 **Meinung des Sprechers**
-
-Kurze Zusammenfassung der Einschätzung des Sprechers.
-
-Nicht deine eigene Meinung.
+Nur die Meinung des Sprechers wiedergeben.
 
 
 ⚠️ **Risiken / Einschränkungen**
-
-Welche Risiken oder Unsicherheiten
-werden im Video genannt?
+Genannte Risiken und Unsicherheiten.
 
 
 ⏱️ **Zeithorizont**
-
-Falls genannt:
 
 - Intraday
 - kurzfristig
 - Swing
 - mittelfristig
 - langfristig
-
-Wenn nicht klar:
-
-„nicht eindeutig genannt“
+- nicht eindeutig genannt
 
 
 🔄 **Trigger & Invalidierung**
 
-Für relevante Setups:
-
-- Was muss passieren,
-  damit das Setup aktiv wird?
-
+- Was muss passieren, damit das Setup aktiv wird?
 - Wann wäre die These laut Sprecher ungültig?
 
 
 ⭐ **Relevanz**
 
-Bewerte ausschließlich die Informationsdichte:
-
 - Hoch
 - Mittel
 - Niedrig
 
-Kurze Begründung.
+Kurze Begründung anhand der Informationsdichte.
 
 
 📅 **Zeitliche Einordnung**
-
-Falls Aussagen nur für einen bestimmten Zeitraum gelten,
-klar kennzeichnen.
+Falls die Aussage nur für einen bestimmten Zeitraum gilt.
 
 
-==================================================
-WICHTIG
-==================================================
+WICHTIG:
 
 Keine eigenen Kursziele erfinden.
-
-Keine Ticker ergänzen,
+Keine nicht genannten Ticker ergänzen.
+Keine Aussagen als Tatsache darstellen,
 die nicht im gegebenen Inhalt vorkommen.
-
-Keine Analyse so formulieren,
-als hättest du das Video gesehen,
-wenn nur Titelinformationen vorhanden sind.
 
 ⚠️ Keine Anlageberatung.
 """
 
 
 # ============================================================
-# HILFSFUNKTIONEN
+# JSON
 # ============================================================
 
 def now_iso():
@@ -358,7 +250,6 @@ def load_json(path, default):
     try:
         with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
-
     except Exception as e:
         print(f"Fehler beim Laden von {path}: {e}")
         return default
@@ -366,35 +257,25 @@ def load_json(path, default):
 
 def save_json(path, data):
     path = Path(path)
+    tmp_path = path.with_suffix(path.suffix + ".tmp")
 
-    tmp_path = path.with_suffix(
-        path.suffix + ".tmp"
-    )
-
-    with open(
-        tmp_path,
-        "w",
-        encoding="utf-8"
-    ) as f:
-
-        json.dump(
-            data,
-            f,
-            indent=2,
-            ensure_ascii=False
-        )
+    with open(tmp_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
     tmp_path.replace(path)
 
 
 # ============================================================
-# YOUTUBE
+# YOUTUBE – NUR NORMALE VIDEOS
 # ============================================================
 
-def fetch_section(
-    url: str,
-    max_results: int
-) -> list[dict]:
+def get_recent_videos(handle: str, max_results: int = MAX_RESULTS) -> list[dict]:
+    """
+    Holt ausschließlich normale Videos über /videos.
+    Shorts werden NICHT abgefragt.
+    """
+
+    url = f"https://www.youtube.com/{handle}/videos"
 
     ydl_opts = {
         "quiet": True,
@@ -406,26 +287,13 @@ def fetch_section(
     videos = []
 
     try:
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            info = ydl.extract_info(url, download=False)
 
-        with yt_dlp.YoutubeDL(
-            ydl_opts
-        ) as ydl:
-
-            info = ydl.extract_info(
-                url,
-                download=False
-            )
-
-        if not info:
+        if not info or "entries" not in info:
             return []
 
-        entries = info.get(
-            "entries",
-            []
-        )
-
-        for entry in entries:
-
+        for entry in info["entries"]:
             if not entry:
                 continue
 
@@ -436,165 +304,67 @@ def fetch_section(
 
             videos.append({
                 "id": vid,
-                "title": (
-                    entry.get("title")
-                    or "Ohne Titel"
-                ),
-                "url": (
-                    "https://www.youtube.com/"
-                    f"watch?v={vid}"
-                ),
+                "title": entry.get("title") or "Ohne Titel",
+                "url": f"https://www.youtube.com/watch?v={vid}",
                 "published": (
                     entry.get("upload_date")
                     or entry.get("timestamp")
-                )
+                ),
             })
 
     except Exception as e:
-
-        print(
-            f"YouTube Fehler bei "
-            f"{url}: {e}"
-        )
+        print(f"Fehler bei {handle}: {e}")
 
     return videos
-
-
-def get_recent_videos(
-    handle: str,
-    max_results: int = 10
-) -> list[dict]:
-
-    """
-    Holt sowohl normale Videos
-    als auch Shorts.
-    """
-
-    base = (
-        f"https://www.youtube.com/"
-        f"{handle}"
-    )
-
-    normal_videos = fetch_section(
-        f"{base}/videos",
-        max_results
-    )
-
-    shorts = fetch_section(
-        f"{base}/shorts",
-        max_results
-    )
-
-    combined = {}
-
-    for video in normal_videos + shorts:
-
-        vid = video.get("id")
-
-        if vid:
-            combined[vid] = video
-
-    return list(
-        combined.values()
-    )
 
 
 # ============================================================
 # TRANSKRIPT
 # ============================================================
 
-def get_transcript(
-    video_id: str
-) -> tuple[str | None, bool]:
-
-    """
-    Rückgabe:
-
-    (Transcript, wurde_abgeschnitten)
-    """
+def get_transcript(video_id: str) -> tuple[str | None, bool]:
 
     if not HAS_TRANSCRIPT:
-        print(
-            "youtube-transcript-api "
-            "nicht installiert"
-        )
+        print("youtube-transcript-api nicht installiert")
         return None, False
 
     text = None
 
     try:
-
         api = YouTubeTranscriptApi()
 
         transcript = api.fetch(
             video_id,
-            languages=[
-                "de",
-                "en"
-            ]
+            languages=["de", "en"]
         )
 
         parts = []
 
         for snippet in transcript:
+            if hasattr(snippet, "text"):
+                parts.append(snippet.text)
+            elif isinstance(snippet, dict):
+                parts.append(snippet.get("text", ""))
 
-            if hasattr(
-                snippet,
-                "text"
-            ):
-
-                parts.append(
-                    snippet.text
-                )
-
-            elif isinstance(
-                snippet,
-                dict
-            ):
-
-                parts.append(
-                    snippet.get(
-                        "text",
-                        ""
-                    )
-                )
-
-        text = " ".join(
-            parts
-        ).strip()
+        text = " ".join(parts).strip()
 
     except Exception as first_error:
-
         try:
-
-            transcript_list = (
-                YouTubeTranscriptApi
-                .get_transcript(
-                    video_id,
-                    languages=[
-                        "de",
-                        "en"
-                    ]
-                )
+            transcript_list = YouTubeTranscriptApi.get_transcript(
+                video_id,
+                languages=["de", "en"]
             )
 
             text = " ".join(
-                item.get(
-                    "text",
-                    ""
-                )
-                for item
-                in transcript_list
+                item.get("text", "")
+                for item in transcript_list
             ).strip()
 
         except Exception:
-
             print(
-                f"  Kein Transkript für "
-                f"{video_id}: "
+                f"  Kein Transkript für {video_id}: "
                 f"{first_error}"
             )
-
             return None, False
 
     if not text:
@@ -603,21 +373,12 @@ def get_transcript(
     truncated = False
 
     if len(text) > MAX_TRANSCRIPT_CHARS:
-
         print(
-            "    ⚠️ Transkript sehr lang: "
-            f"{len(text)} Zeichen"
+            f"    ⚠️ Transkript hat {len(text)} Zeichen "
+            f"und wird auf {MAX_TRANSCRIPT_CHARS} gekürzt."
         )
 
-        print(
-            "    Kürze auf "
-            f"{MAX_TRANSCRIPT_CHARS} Zeichen"
-        )
-
-        text = text[
-            :MAX_TRANSCRIPT_CHARS
-        ]
-
+        text = text[:MAX_TRANSCRIPT_CHARS]
         truncated = True
 
     return text, truncated
@@ -635,19 +396,11 @@ def analyze_with_gemini(
 ) -> tuple[bool, str, str | None]:
 
     if not GEMINI_API_KEY:
+        return False, "", "Kein GEMINI_API_KEY gesetzt."
 
-        return (
-            False,
-            "",
-            "Kein GEMINI_API_KEY gesetzt."
-        )
-
-    client = genai.Client(
-        api_key=GEMINI_API_KEY
-    )
+    client = genai.Client(api_key=GEMINI_API_KEY)
 
     if transcript:
-
         content_block = f"""
 TRANSKRIPT / UNTERTITEL:
 
@@ -655,10 +408,8 @@ TRANSKRIPT / UNTERTITEL:
 """
 
     else:
-
         content_block = f"""
-Für dieses Video konnte KEIN
-Transkript geladen werden.
+Für dieses Video konnte KEIN Transkript geladen werden.
 
 Titel:
 {title}
@@ -666,22 +417,17 @@ Titel:
 URL:
 {video_url}
 
-Du hast ausschließlich Titel und URL
-als Text erhalten.
-
+Du hast ausschließlich Titel und URL als Text erhalten.
 Du hast das Video NICHT gesehen.
 
 Erfinde deshalb:
-
 - keine Ticker
 - keine Levels
 - keine Kursziele
 - keine Aussagen
 - keine Trading-Setups
 
-Wenn etwas nicht aus dem Titel
-eindeutig hervorgeht:
-
+Wenn etwas nicht eindeutig aus dem Titel hervorgeht:
 „nicht bestimmbar ohne Transkript“
 """
 
@@ -710,97 +456,56 @@ Bei mehreren Aktien:
 JEDE Aktie separat behandeln.
 
 Keine Aktie auslassen.
-
 Keine Levels erfinden.
-
 Unsicherheit ausdrücklich markieren.
 """
 
-    wait_times = [
-        10,
-        30,
-        60
-    ]
-
+    wait_times = [10, 30, 60]
     last_error = None
 
-    for attempt in range(
-        1,
-        max_retries + 1
-    ):
+    for attempt in range(1, max_retries + 1):
 
         try:
-
             print(
                 f"    Gemini Versuch "
-                f"{attempt}/"
-                f"{max_retries}"
+                f"{attempt}/{max_retries}"
             )
 
-            response = (
-                client.models
-                .generate_content(
-                    model=GEMINI_MODEL,
-                    contents=prompt
-                )
+            response = client.models.generate_content(
+                model=GEMINI_MODEL,
+                contents=prompt
             )
 
-            text = getattr(
-                response,
-                "text",
-                None
-            )
+            text = getattr(response, "text", None)
 
-            if (
-                text
-                and text.strip()
-            ):
-
-                return (
-                    True,
-                    text.strip(),
-                    None
-                )
+            if text and text.strip():
+                return True, text.strip(), None
 
             raise RuntimeError(
-                "Gemini lieferte "
-                "eine leere Antwort."
+                "Gemini lieferte eine leere Antwort."
             )
 
         except Exception as e:
-
             last_error = str(e)
 
-            print(
-                f"    ❌ Gemini Fehler: "
-                f"{e}"
-            )
+            print(f"    ❌ Gemini Fehler: {e}")
 
             if attempt < max_retries:
-
                 wait = wait_times[
-                    min(
-                        attempt - 1,
-                        len(
-                            wait_times
-                        ) - 1
-                    )
+                    min(attempt - 1, len(wait_times) - 1)
                 ]
 
                 print(
-                    f"    Neuer Versuch "
-                    f"in {wait} Sekunden..."
+                    f"    Neuer Versuch in "
+                    f"{wait} Sekunden..."
                 )
 
-                time.sleep(
-                    wait
-                )
+                time.sleep(wait)
 
     return (
         False,
         "",
-        last_error
-        or "Unbekannter Gemini Fehler"
+        last_error or "Unbekannter Gemini-Fehler"
     )
 
 
@@ -814,107 +519,62 @@ def post_to_discord(
 ) -> bool:
 
     if not DISCORD_WEBHOOK:
-
-        print(
-            "❌ Kein "
-            "DISCORD_WEBHOOK_VIDEOS "
-            "gesetzt"
-        )
-
+        print("❌ Kein DISCORD_WEBHOOK_VIDEOS gesetzt")
         return False
 
     chunks = [
-        content[
-            i:i + 1900
-        ]
-
-        for i in range(
-            0,
-            len(content),
-            1900
-        )
+        content[i:i + 1900]
+        for i in range(0, len(content), 1900)
     ]
 
-    for index, chunk in enumerate(
-        chunks,
-        start=1
-    ):
+    for index, chunk in enumerate(chunks, start=1):
 
         sent = False
 
-        for attempt in range(
-            1,
-            max_retries + 1
-        ):
+        for attempt in range(1, max_retries + 1):
 
             try:
-
                 response = requests.post(
                     DISCORD_WEBHOOK,
-                    json={
-                        "content": chunk
-                    },
+                    json={"content": chunk},
                     timeout=20
                 )
 
                 response.raise_for_status()
-
                 sent = True
                 break
 
             except Exception as e:
-
                 print(
                     f"    Discord Fehler "
                     f"Chunk {index}, "
-                    f"Versuch {attempt}: "
-                    f"{e}"
+                    f"Versuch {attempt}: {e}"
                 )
 
-                if (
-                    attempt
-                    < max_retries
-                ):
-
-                    time.sleep(
-                        5 * attempt
-                    )
+                if attempt < max_retries:
+                    time.sleep(5 * attempt)
 
         if not sent:
-
-            print(
-                "    ❌ Discord "
-                "endgültig fehlgeschlagen."
-            )
-
+            print("    ❌ Discord endgültig fehlgeschlagen.")
             return False
 
     return True
 
 
 # ============================================================
-# VIDEO-DATENSATZ
+# VIDEO-ERGEBNIS SPEICHERN
 # ============================================================
 
-def save_video_result(
-    video_id: str,
-    data: dict
-):
+def save_video_result(video_id: str, data: dict):
 
     OUTPUT_DIR.mkdir(
         parents=True,
         exist_ok=True
     )
 
-    path = (
-        OUTPUT_DIR
-        / f"{video_id}.json"
-    )
+    path = OUTPUT_DIR / f"{video_id}.json"
 
-    save_json(
-        path,
-        data
-    )
+    save_json(path, data)
 
 
 # ============================================================
@@ -939,68 +599,40 @@ def main():
     )
 
     if not channels:
-
-        print(
-            "❌ Keine Kanäle "
-            "in channels.json gefunden."
-        )
-
+        print("❌ Keine Kanäle in channels.json gefunden.")
         return
 
-    first_run = (
-        len(seen) == 0
-    )
+    first_run = len(seen) == 0
 
     if first_run:
-
-        print(
-            ">>> ERSTER LAUF <<<"
-        )
-
-        print(
-            "Videos werden nur "
-            "als Ausgangsbestand gemerkt."
-        )
-
-        print(
-            "Keine Analyse."
-        )
+        print(">>> ERSTER LAUF <<<")
+        print("Videos werden nur als Ausgangsbestand gemerkt.")
+        print("Keine Analyse.")
 
     new_count = 0
     failed_count = 0
 
     for channel in channels:
 
-        name = channel[
-            "name"
-        ]
-
-        handle = channel[
-            "handle"
-        ]
+        name = channel["name"]
+        handle = channel["handle"]
 
         print()
-        print(
-            f"Prüfe {name} "
-            f"({handle})..."
-        )
+        print(f"Prüfe {name} ({handle})...")
 
+        # NUR NORMALE VIDEOS
         videos = get_recent_videos(
             handle,
-            max_results=
-            MAX_RESULTS_PER_SECTION
+            max_results=MAX_RESULTS
         )
 
         print(
-            f"  {len(videos)} "
-            f"Videos/Shorts gefunden"
+            f"  {len(videos)} normale Videos gefunden"
         )
 
         for video in videos:
 
-            vid = video.get(
-                "id"
-            )
+            vid = video.get("id")
 
             if not vid:
                 continue
@@ -1014,10 +646,7 @@ def main():
             )
 
             print()
-            print(
-                f"  → Neues Video: "
-                f"{title}"
-            )
+            print(f"  → Neues Video: {title}")
 
             # --------------------------------
             # ERSTER LAUF
@@ -1032,40 +661,25 @@ def main():
                     "baseline": True
                 }
 
-                print(
-                    "    Baseline – "
-                    "nur gemerkt"
-                )
-
+                print("    Baseline – nur gemerkt")
                 continue
 
             # --------------------------------
             # TRANSKRIPT
             # --------------------------------
 
-            transcript, truncated = (
-                get_transcript(
-                    vid
-                )
-            )
+            transcript, truncated = get_transcript(vid)
 
             if transcript:
-
                 print(
-                    "    ✅ Transkript "
-                    f"gefunden "
+                    f"    ✅ Transkript gefunden "
                     f"({len(transcript)} Zeichen)"
                 )
-
             else:
-
-                print(
-                    "    ⚠️ Kein "
-                    "Transkript"
-                )
+                print("    ⚠️ Kein Transkript")
 
             # --------------------------------
-            # ROHDATEN VOR ANALYSE SICHERN
+            # ROHDATEN SICHERN
             # --------------------------------
 
             base_record = {
@@ -1074,17 +688,9 @@ def main():
                 "video_id": vid,
                 "title": title,
                 "url": video["url"],
-                "published": (
-                    video.get(
-                        "published"
-                    )
-                ),
-                "has_transcript": (
-                    bool(transcript)
-                ),
-                "transcript_truncated": (
-                    truncated
-                ),
+                "published": video.get("published"),
+                "has_transcript": bool(transcript),
+                "transcript_truncated": truncated,
                 "transcript_chars": (
                     len(transcript)
                     if transcript
@@ -1104,37 +710,22 @@ def main():
             # GEMINI
             # --------------------------------
 
-            success, summary, error = (
-                analyze_with_gemini(
-                    title,
-                    video["url"],
-                    transcript
-                )
+            success, summary, error = analyze_with_gemini(
+                title,
+                video["url"],
+                transcript
             )
 
             if not success:
 
+                print("    ❌ Analyse fehlgeschlagen.")
                 print(
-                    "    ❌ Analyse "
-                    "fehlgeschlagen."
+                    "    Video wird NICHT als gesehen markiert."
                 )
 
-                print(
-                    "    Video wird NICHT "
-                    "als gesehen markiert."
-                )
-
-                base_record[
-                    "status"
-                ] = "analysis_failed"
-
-                base_record[
-                    "error"
-                ] = error
-
-                base_record[
-                    "last_attempt"
-                ] = now_iso()
+                base_record["status"] = "analysis_failed"
+                base_record["error"] = error
+                base_record["last_attempt"] = now_iso()
 
                 save_video_result(
                     vid,
@@ -1142,24 +733,15 @@ def main():
                 )
 
                 failed_count += 1
-
                 continue
 
             # --------------------------------
             # ANALYSE SICHERN
             # --------------------------------
 
-            base_record[
-                "summary"
-            ] = summary
-
-            base_record[
-                "status"
-            ] = "analyzed"
-
-            base_record[
-                "analyzed_at"
-            ] = now_iso()
+            base_record["summary"] = summary
+            base_record["status"] = "analyzed"
+            base_record["analyzed_at"] = now_iso()
 
             save_video_result(
                 vid,
@@ -1177,31 +759,19 @@ def main():
                 f"{summary}"
             )
 
-            discord_success = (
-                post_to_discord(
-                    message
-                )
+            discord_success = post_to_discord(
+                message
             )
 
             if not discord_success:
 
+                print("    ❌ Discord fehlgeschlagen.")
                 print(
-                    "    ❌ Discord "
-                    "fehlgeschlagen."
+                    "    Video wird NICHT als gesehen markiert."
                 )
 
-                print(
-                    "    Video wird NICHT "
-                    "als gesehen markiert."
-                )
-
-                base_record[
-                    "status"
-                ] = "discord_failed"
-
-                base_record[
-                    "last_attempt"
-                ] = now_iso()
+                base_record["status"] = "discord_failed"
+                base_record["last_attempt"] = now_iso()
 
                 save_video_result(
                     vid,
@@ -1209,20 +779,14 @@ def main():
                 )
 
                 failed_count += 1
-
                 continue
 
             # --------------------------------
             # ERFOLGREICH
             # --------------------------------
 
-            base_record[
-                "status"
-            ] = "complete"
-
-            base_record[
-                "discord_sent_at"
-            ] = now_iso()
+            base_record["status"] = "complete"
+            base_record["discord_sent_at"] = now_iso()
 
             save_video_result(
                 vid,
@@ -1240,16 +804,11 @@ def main():
                 seen
             )
 
-            print(
-                "    ✅ Komplett "
-                "verarbeitet"
-            )
+            print("    ✅ Komplett verarbeitet")
 
             new_count += 1
 
-            time.sleep(
-                3
-            )
+            time.sleep(3)
 
     save_json(
         SEEN_FILE,
@@ -1257,26 +816,11 @@ def main():
     )
 
     print()
-    print(
-        "=============================="
-    )
-
-    print(
-        "VIDEO SCANNER FERTIG"
-    )
-
-    print(
-        f"Erfolgreich: {new_count}"
-    )
-
-    print(
-        f"Fehlgeschlagen/offen: "
-        f"{failed_count}"
-    )
-
-    print(
-        "=============================="
-    )
+    print("==============================")
+    print("VIDEO SCANNER FERTIG")
+    print(f"Erfolgreich: {new_count}")
+    print(f"Fehlgeschlagen/offen: {failed_count}")
+    print("==============================")
 
 
 if __name__ == "__main__":
