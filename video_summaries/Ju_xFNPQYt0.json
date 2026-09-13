@@ -1,0 +1,55 @@
+{
+  "id": "Ju_xFNPQYt0",
+  "title": "🚨 EVERYTHING IS COLLIDING NOW: Iran War, Fed Hike & 5% Interest Rates 💥 Briefing",
+  "url": "https://www.youtube.com/watch?v=Ju_xFNPQYt0",
+  "duration": 1874,
+  "published": null,
+  "channel": "10xTrading",
+  "handle": "@1OxTrading",
+  "status": "complete",
+  "discovered_at": "2026-09-13T20:34:15.374039+00:00",
+  "attempts": 1,
+  "last_attempt": "2026-09-13T20:34:22.264669+00:00",
+  "content_available": true,
+  "summary": "**Kernaussage**: Der US-Aktienmarkt steht vor einer hochvolatilen Handelswoche mit anstehenden Zinsentscheidungen, geopolitischen Risiken und dem großen September-Verfallstag [04:10, 15:07]. Trotz kurzfristig erhöhter Marktrisiken im September bietet das vierte Quartal historisch Chancen auf eine Erholung [18:40].\n\n**Typ**: Markt/Makro und Bildung\n\n### Markt/Makro: S&P 500 / Gesamtmarkt\n* **Sprecherthese**: Eine Kombination aus hoher Fed-Zinswahrscheinlichkeit, steigendem Ölpreis und Renditen nahe 5 % erfordert erhöhte Vorsicht und Kassenhaltung im September [04:35, 12:05].\n* **Richtung**: Kurzfristig neutral bis abwärtsgerichtet; mittelfristig (Q4) potenziell bullisch [14:35, 18:40].\n* **Konkret belegte Levels**: Decision Zone: 7.640–7.777 Punkte [11:22]; CTA-Trigger: < 7.640 Punkte [11:34]; Critical Support: ~7.590 Punkte [11:38]; Untere Korrekturziele: 7.400 Punkte (-4 %) [11:43] und 6.900 Punkte (-10 %) [11:50].\n* **Trigger**: Break über 7.777 Punkte löst Aufwärtskompression aus [11:15]; Unterschreiten von 7.640 Punkten aktiviert automatisierte CTA-Verkäufe [11:34].\n* **Invalidierung**: Nicht genannt.\n* **Zeithorizont**: Aktuelle Handelswoche bis Jahresende (Q4).\n\n### Bildung: Quadruple Witching (Großer Verfallstag)\n* **Methode/Regeln**: Gleichzeitiger Verfall von Aktienoptionen, Indexoptionen, Aktienfutures und Indexfutures am jeweils dritten Freitag der Quartalsmonate März, Juni, September und Dezember [15:07, 15:38].\n* **Effekte/Fehler**: Erhöhtes Handelsvolumen sowie verstärkte Intraday-Volatilität, insbesondere in den Tagen vor dem Verfallstag [16:20].\n\n**Unsicherheiten & lohnenswerte Stellen**:\nUnsicherheiten betreffen die geopolitische Entwicklung im Nahen Osten sowie die genaue Tonlage (Guidance) der Fed [05:20, 14:45]. Sehenswert sind das Hindenburg-Omen-Signalcluster [01:55], die S&P 500 Level-Analyse [11:10] und die Erläuterung zum Verfallstag [15:07].",
+  "evidence": [
+    {
+      "timestamp": "01:55",
+      "basis": "visual",
+      "observation": "Grafik zeigt ein Häufungs-Cluster von Hindenburg-Omen-Warnsignalen an der NYSE seit Juni."
+    },
+    {
+      "timestamp": "04:10",
+      "basis": "visual",
+      "observation": "Übersichtsblatt 'Weekly Briefing' mit Daten zu S&P 500 (7.656,98), Brent (104 $), US 10Y (4,93 %) und Gold (4.350 $)."
+    },
+    {
+      "timestamp": "11:22",
+      "basis": "audio",
+      "observation": "Sprecher nennt die 'Decision Zone' beim S&P 500 zwischen 7.640 und 7.777 Punkten."
+    },
+    {
+      "timestamp": "15:07",
+      "basis": "visual",
+      "observation": "Folie 'Trading Fun Facts: Quadruple Witching' erklärt den Verfall von Optionen und Futures am 3. Freitag im März, Juni, September und Dezember."
+    },
+    {
+      "timestamp": "27:45",
+      "basis": "visual",
+      "observation": "FedWatch Tool zeigt eine Wahrscheinlichkeit von 86,5 % für einen Zinsschritt auf 3,75-4,00 % für das FOMC-Meeting am 16. September 2026."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
+  "video_id": "Ju_xFNPQYt0",
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-13T20:34:55.178411+00:00",
+  "discord_chunks": [
+    "🎬 **10xTrading**\n**🚨 EVERYTHING IS COLLIDING NOW: Iran War, Fed Hike & 5% Interest Rates 💥 Briefing**\nhttps://www.youtube.com/watch?v=Ju_xFNPQYt0\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n**Kernaussage**: Der US-Aktienmarkt steht vor einer hochvolatilen Handelswoche mit anstehenden Zinsentscheidungen, geopolitischen Risiken und dem großen September-Verfallstag [04:10, 15:07]. Trotz kurzfristig erhöhter Marktrisiken im September bietet das vierte Quartal historisch Chancen auf eine Erholung [18:40].\n\n**Typ**: Markt/Makro und Bildung\n\n### Markt/Makro: S&P 500 / Gesamtmarkt\n* **Sprecherthese**: Eine Kombination aus hoher Fed-Zinswahrscheinlichkeit, steigendem Ölpreis und Renditen nahe 5 % erfordert erhöhte Vorsicht und Kassenhaltung im September [04:35, 12:05].\n* **Richtung**: Kurzfristig neutral bis abwärtsgerichtet; mittelfristig (Q4) potenziell bullisch [14:35, 18:40].\n* **Konkret belegte Levels**: Decision Zone: 7.640–7.777 Punkte [11:22]; CTA-Trigger: < 7.640 Punkte [11:34]; Critical Support: ~7.590 Punkte [11:38]; Untere Korrekturziele: 7.400 Punkte (-4 %) [11:43] und 6.900 Punkte (-10 %) [11:50].\n* **Trigger**: Break über 7.777 Punkte löst Aufwärtskompression aus [11:15]; Unterschreiten von 7.640 Punkten aktiviert automatisierte CTA-Verkäufe [11:34].\n* **Invalidierung**: Nicht genannt.\n* **Zeithorizont**: Aktuelle Handelswoche bis Jahresende (Q4).\n\n### Bildung: Quadruple Witching (Großer Verfallstag)\n* **Methode/Regeln**: Gleichzeitiger Verfall von Aktienoptionen, Indexoptionen, Aktienfutures und Indexfutures am jeweils dritten Freitag der Quartalsmonate März, Juni, September und Dezember [15:07, 15:38].\n* **Effekte/Fehler**: Erhöhtes Handelsvolumen sowie verstärkte Intraday-Volatilität, insbesondere in den Tagen vor dem Verfallstag [",
+    "16:20].\n\n**Unsicherheiten & lohnenswerte Stellen**:\nUnsicherheiten betreffen die geopolitische Entwicklung im Nahen Osten sowie die genaue Tonlage (Guidance) der Fed [05:20, 14:45]. Sehenswert sind das Hindenburg-Omen-Signalcluster [01:55], die S&P 500 Level-Analyse [11:10] und die Erläuterung zum Verfallstag [15:07].\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-13T20:34:56.180620+00:00"
+}

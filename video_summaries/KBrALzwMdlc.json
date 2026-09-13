@@ -1,0 +1,60 @@
+{
+  "id": "KBrALzwMdlc",
+  "title": "Why the price reacts EXACTLY HERE – Volume Profile explained simply",
+  "url": "https://www.youtube.com/watch?v=KBrALzwMdlc",
+  "duration": 537,
+  "published": null,
+  "channel": "Chartsekte",
+  "handle": "@chartsekte",
+  "status": "complete",
+  "discovered_at": "2026-09-13T20:34:16.736712+00:00",
+  "attempts": 1,
+  "last_attempt": "2026-09-13T20:36:23.159879+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDas Video erklärt die Funktionsweise und praxisnahe Anwendung des Volumenprofils (Visible Range & Fixed Range Volume Profile) in der technischen Chartanalyse (00:00). Es wird gezeigt, dass Preiszonen mit hohem gehandeltem Volumen als starke Unterstützungen oder Widerstände dienen, während volumenschwache Zonen bei Korrekturen zügig durchquert werden (03:43, 07:10). Anhand von Beispielen wie Salesforce, Rheinmetall und PayPal wird veranschaulicht, wie Trader relevante Niveaus für Trendwenden identifizieren (03:31, 07:22, 08:09).\n\n### Typ\nBildung\n\n### Methodik, Regeln & Fehler\n- **Unterscheidung der Volumenarten (00:41):** Das gewöhnliche Volumen am unteren Chartrand bezieht sich auf die Zeitachse (z. B. Volumen pro Woche im Wochenchart). Das Volumenprofil auf der rechten Seite bezieht sich auf die Preisskala und zeigt an, wie viel Volumen auf bestimmten Preisniveaus gehandelt wurde.\n- **Tools in TradingView (02:14, 05:43):** Nutzung des *Visible Range Volume Profile* (VRVP, passt sich dynamisch an den sichtbaren Ausschnitt an) und des *Fixed Range Volume Profile* (FRVP, analysiert eine konkret ausgewählte Handelsspanne).\n- **High-Volume-Nodes & Point of Control (POC) (02:28, 03:43):** Zonen mit hohem Handelsvolumen markieren Preise, die für Marktteilnehmer besonders relevant sind. Diese Niveaus bieten eine erhöhte Wahrscheinlichkeit für das Ende von Korrekturen oder das Auftreten von Widerstand.\n- **Low-Volume-Nodes / Dünne Volumenbereiche (07:10, 08:23):** Wenn ein Kurs sehr schnell ohne Konsolidierung steigt, entsteht im Profil wenig Volumen. In einer anschließenden Korrektur fehlen dort Haltemarken, weshalb der Kurs häufig genauso schnell wieder abverkauft wird.\n- **Konfluenz beachten (05:01):** Das Volumenprofil sollte nicht isoliert genutzt werden, sondern in Kombination mit Price Action, früheren Unterstützungsebenen und Kurslücken (Gaps).\n- **Häufige Fehler (02:38, 04:52):** Unüberlegtes Handeln rein aufgrund des Volumenprofils ohne Bestätigung durch Price Action; Übersehen, dass sich das VRVP beim Heran- oder Herauszoomen im Chart dynamisch verändert und somit andere Volumenspitzen hervorbringt.\n\n### Unsicherheiten & sehenswerte Stellen\n- **Unsicherheiten:** Ein hohes Volumen auf einem Niveau bietet keine Garantie für eine Trendwende, sondern zeigt lediglich eine statistisch erhöhte Relevanz für Marktteilnehmer (04:00, 06:53).\n- **Sehenswerte Stellen:**\n  - **02:14 - 03:00:** Erklärung der VRVP-Einstellungen in TradingView und Auswirkung des Zoomens auf das sichtbare Volumenprofil.\n  - **05:43 - 06:45:** Praktische Anwendung des *Fixed Range Volume Profile* zur genauen Lokalisierung von Käuferzonen in einer Aufwärtswelle.\n  - **07:22 - 08:34:** Anschaulicher Vergleich steiler Trends bei Rheinmetall und PayPal, bei denen volumenschwache Aufwärtsstrecken zu schnellen Abverkäufen führten.",
+  "evidence": [
+    {
+      "timestamp": "00:41",
+      "basis": "visual",
+      "observation": "Einblenden des Salesforce-Wochencharts (Salesforce, Inc., 1W, NYSE). Der Sprecher zeigt den Unterschied zwischen dem Volumen an der Unterseite (Zeitachse) und dem Volumenprofil an der rechten Seite (Preisskala)."
+    },
+    {
+      "timestamp": "02:18",
+      "basis": "visual",
+      "observation": "Einblendung des Einstellungsfensters für das 'VRVP' (Visible Range Volume Profile) in TradingView inklusive Aktivierungsmöglichkeit des POC (Point of Control)."
+    },
+    {
+      "timestamp": "03:43",
+      "basis": "audio",
+      "observation": "Sprecher erklärt am Salesforce-Chart, wie die langfristige Korrektur im Bereich um ca. 164 $ stützte, da auf diesem Niveau zuvor viel Volumen gehandelt wurde."
+    },
+    {
+      "timestamp": "05:45",
+      "basis": "visual",
+      "observation": "Sprecher wählt in TradingView das Werkzeug 'Fixed Range Volume Profile' aus und zieht eine Spanne über die jüngste Aufwärtsbewegung bei Salesforce."
+    },
+    {
+      "timestamp": "07:22",
+      "basis": "visual",
+      "observation": "Wechsel zum Chart von Rheinmetall AG (TW, XETR). Aufzeigen einer steilen Aufwärtsbewegung mit einem sehr dünnen Volumenprofil im Mittelbereich."
+    },
+    {
+      "timestamp": "08:09",
+      "basis": "visual",
+      "observation": "Wechsel zum Chart von PayPal Holdings, Inc. (1W, NASDAQ). Visualisierung der Rally von 2020/2021 und des anschließenden schnellen Abverkaufs durch den volumenschwachen Korridor."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
+  "video_id": "KBrALzwMdlc",
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-13T20:36:46.894464+00:00",
+  "discord_chunks": [
+    "🎬 **Chartsekte**\n**Why the price reacts EXACTLY HERE – Volume Profile explained simply**\nhttps://www.youtube.com/watch?v=KBrALzwMdlc\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDas Video erklärt die Funktionsweise und praxisnahe Anwendung des Volumenprofils (Visible Range & Fixed Range Volume Profile) in der technischen Chartanalyse (00:00). Es wird gezeigt, dass Preiszonen mit hohem gehandeltem Volumen als starke Unterstützungen oder Widerstände dienen, während volumenschwache Zonen bei Korrekturen zügig durchquert werden (03:43, 07:10). Anhand von Beispielen wie Salesforce, Rheinmetall und PayPal wird veranschaulicht, wie Trader relevante Niveaus für Trendwenden identifizieren (03:31, 07:22, 08:09).\n\n### Typ\nBildung\n\n### Methodik, Regeln & Fehler\n- **Unterscheidung der Volumenarten (00:41):** Das gewöhnliche Volumen am unteren Chartrand bezieht sich auf die Zeitachse (z. B. Volumen pro Woche im Wochenchart). Das Volumenprofil auf der rechten Seite bezieht sich auf die Preisskala und zeigt an, wie viel Volumen auf bestimmten Preisniveaus gehandelt wurde.\n- **Tools in TradingView (02:14, 05:43):** Nutzung des *Visible Range Volume Profile* (VRVP, passt sich dynamisch an den sichtbaren Ausschnitt an) und des *Fixed Range Volume Profile* (FRVP, analysiert eine konkret ausgewählte Handelsspanne).\n- **High-Volume-Nodes & Point of Control (POC) (02:28, 03:43):** Zonen mit hohem Handelsvolumen markieren Preise, die für Marktteilnehmer besonders relevant sind. Diese Niveaus bieten eine erhöhte Wahrscheinlichkeit für das Ende von Korrekturen oder das Auftreten von Widerstand.\n- **Low-Volume-Nodes / Dünne Volumenbereiche (07:10, 08:23):** Wenn ein Kurs sehr schnell ohne Konsolidierung steigt, entsteht im Profil wenig Volumen. In eine",
+    "r anschließenden Korrektur fehlen dort Haltemarken, weshalb der Kurs häufig genauso schnell wieder abverkauft wird.\n- **Konfluenz beachten (05:01):** Das Volumenprofil sollte nicht isoliert genutzt werden, sondern in Kombination mit Price Action, früheren Unterstützungsebenen und Kurslücken (Gaps).\n- **Häufige Fehler (02:38, 04:52):** Unüberlegtes Handeln rein aufgrund des Volumenprofils ohne Bestätigung durch Price Action; Übersehen, dass sich das VRVP beim Heran- oder Herauszoomen im Chart dynamisch verändert und somit andere Volumenspitzen hervorbringt.\n\n### Unsicherheiten & sehenswerte Stellen\n- **Unsicherheiten:** Ein hohes Volumen auf einem Niveau bietet keine Garantie für eine Trendwende, sondern zeigt lediglich eine statistisch erhöhte Relevanz für Marktteilnehmer (04:00, 06:53).\n- **Sehenswerte Stellen:**\n  - **02:14 - 03:00:** Erklärung der VRVP-Einstellungen in TradingView und Auswirkung des Zoomens auf das sichtbare Volumenprofil.\n  - **05:43 - 06:45:** Praktische Anwendung des *Fixed Range Volume Profile* zur genauen Lokalisierung von Käuferzonen in einer Aufwärtswelle.\n  - **07:22 - 08:34:** Anschaulicher Vergleich steiler Trends bei Rheinmetall und PayPal, bei denen volumenschwache Aufwärtsstrecken zu schnellen Abverkäufen führten.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-13T20:36:47.567281+00:00"
+}

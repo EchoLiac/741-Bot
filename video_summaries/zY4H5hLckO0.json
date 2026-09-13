@@ -1,0 +1,60 @@
+{
+  "id": "zY4H5hLckO0",
+  "title": "700% Gain – And Yet I Would Sell This Stock",
+  "url": "https://www.youtube.com/watch?v=zY4H5hLckO0",
+  "duration": 684,
+  "published": null,
+  "channel": "Wir Lieben Aktien",
+  "handle": "@wir-lieben-aktien",
+  "status": "complete",
+  "discovered_at": "2026-09-13T20:34:16.040582+00:00",
+  "attempts": 1,
+  "last_attempt": "2026-09-13T20:34:56.185147+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nIn diesem Video analysiert Jan von „Wir Lieben Aktien“ ein Core-Satellite-Depot eines 25-jährigen Anlegers mit ca. 38.400 € Gesamtwert und stellt ein konkretes Optimierungskonzept vor (00:30, 08:46). Durch die Aufstockung des Welt-ETF-Kerns auf 50 % und die Erweiterung der Satellitenpositionen auf 15 breit streuende Einzelaktien wird das Portfoliorisiko gesenkt (04:10, 05:24). Stark gelaufene oder klumpenbildende Werte wie Siemens Energy, Alphabet und Apple sollen dabei abgebaut oder ersetzt werden (03:53, 04:21, 04:49).\n\n### Typ\nBildung / Depot-Analyse & Portfoliomethode\n\n### Methode, Regeln und Depot-Korrekturen\n- **Core-Satellite-Anpassung**: Der Kerntitel (Vanguard FTSE All-World UCITS ETF) wird von 30 % auf 50 % angehoben, um die Basis-Diversifikation zu stärken (04:10, 05:20).\n- **Verkäufe und Streichungen**:\n  - *Alphabet & Apple*: Abbau bzw. Streichung wegen hoher Überschneidung mit dem Kern-ETF und hoher Bewertung (03:53, 04:49).\n  - *Siemens Energy*: Trotz eines Buchgewinns von über 700 % wird der Verkauf empfohlen, da der Wert langfristig schwer kalkulierbar ist und hohe Korrekturrisiken aufweist (04:21).\n  - *UPS & Deutz*: Streichung aufgrund unsauberer langfristiger Trendstrukturen (05:04).\n- **Erweiterung der Satelliten (15 Aktien)**: Einbindung von Werten wie ServiceNow, DBS Group, Schneider Electric, Hermès und Waste Connections zur besseren regionalen (EMEA, APAC, Americas) und sektoralen Balance (05:24, 06:32).\n- **Effizienz-Optimierung (Efficient Frontier)**: Durch Reduzierung der Korrelationen zwischen den Titeln sinkt die erwartete Portfoliovolatilität von ca. 16,4 % auf 15,2 % bei unverändert hoher Renditeerwartung (08:18).\n- **Positionsgrößen-Berechnung (WLA-Methode)**: Ermittlung der Zielgewichtung anhand von Satellitenkapital, Sparraten und Ausbauzyklen (09:36, 10:15).\n\n### Unsicherheiten & sehenswerte Stellen\n- **Unsicherheiten**: Das genaue zukünftige Sparverhalten sowie mögliche Sondereinzahlungen des Anlegers sind variabel und beeinflussen die spätere Positionsentwicklung (08:35, 10:13).\n- **Sehenswerte Stellen**:\n  - Ist- vs. Ziel-Korrelationsmatrix (02:46, 07:33).\n  - Rendite-Risiko-Profil auf der Efficient Frontier (08:18).\n  - Positionsgrößen-Berechnungsmodell (09:36).",
+  "evidence": [
+    {
+      "timestamp": "00:47",
+      "basis": "visual",
+      "observation": "Anzeige des Ist-Depots 'Max Mustermann' (25 Jahre) mit Vanguard FTSE All-World UCITS ETF (30,19 %) und 10 Einzelaktien wie Siemens Energy (+700 % Performance) und Alphabet."
+    },
+    {
+      "timestamp": "03:53",
+      "basis": "audio",
+      "observation": "Jan erklärt, dass Alphabet abgebaut werden sollte, da die Position im Verhältnis zu groß ist und bereits stark im Kern-ETF gewichtet ist."
+    },
+    {
+      "timestamp": "04:21",
+      "basis": "audio",
+      "observation": "Sprecher empfiehlt den Verkauf von Siemens Energy trotz über 700 % Plus, da die Aktie langfristig schwer einschätzbar ist."
+    },
+    {
+      "timestamp": "05:24",
+      "basis": "visual",
+      "observation": "Einblendung der neuen Ziel-Aufteilung: Kern-ETF auf 50,00 % aufgestockt, ergänzt um 15 gleichgewichtete Satellitenpositionen."
+    },
+    {
+      "timestamp": "08:18",
+      "basis": "visual",
+      "observation": "Grafische Darstellung des Rendite-Risiko-Profils: Die erwartete Volatilität sinkt von 16,40 % auf 15,20 %."
+    },
+    {
+      "timestamp": "09:36",
+      "basis": "visual",
+      "observation": "Berechnungsansicht der WLA-Methode zur Bestimmung von Positionsgrößen auf Basis von Satellitenkapital und jährlicher Sparrate."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
+  "video_id": "zY4H5hLckO0",
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-13T20:36:21.828599+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**700% Gain – And Yet I Would Sell This Stock**\nhttps://www.youtube.com/watch?v=zY4H5hLckO0\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nIn diesem Video analysiert Jan von „Wir Lieben Aktien“ ein Core-Satellite-Depot eines 25-jährigen Anlegers mit ca. 38.400 € Gesamtwert und stellt ein konkretes Optimierungskonzept vor (00:30, 08:46). Durch die Aufstockung des Welt-ETF-Kerns auf 50 % und die Erweiterung der Satellitenpositionen auf 15 breit streuende Einzelaktien wird das Portfoliorisiko gesenkt (04:10, 05:24). Stark gelaufene oder klumpenbildende Werte wie Siemens Energy, Alphabet und Apple sollen dabei abgebaut oder ersetzt werden (03:53, 04:21, 04:49).\n\n### Typ\nBildung / Depot-Analyse & Portfoliomethode\n\n### Methode, Regeln und Depot-Korrekturen\n- **Core-Satellite-Anpassung**: Der Kerntitel (Vanguard FTSE All-World UCITS ETF) wird von 30 % auf 50 % angehoben, um die Basis-Diversifikation zu stärken (04:10, 05:20).\n- **Verkäufe und Streichungen**:\n  - *Alphabet & Apple*: Abbau bzw. Streichung wegen hoher Überschneidung mit dem Kern-ETF und hoher Bewertung (03:53, 04:49).\n  - *Siemens Energy*: Trotz eines Buchgewinns von über 700 % wird der Verkauf empfohlen, da der Wert langfristig schwer kalkulierbar ist und hohe Korrekturrisiken aufweist (04:21).\n  - *UPS & Deutz*: Streichung aufgrund unsauberer langfristiger Trendstrukturen (05:04).\n- **Erweiterung der Satelliten (15 Aktien)**: Einbindung von Werten wie ServiceNow, DBS Group, Schneider Electric, Hermès und Waste Connections zur besseren regionalen (EMEA, APAC, Americas) und sektoralen Balance (05:24, 06:32).\n- **Effizienz-Optimierung (Efficient Frontier)**: Durch Reduzierung der Korrelationen zwischen den Titeln sinkt die erwartete Portfoliovolati",
+    "lität von ca. 16,4 % auf 15,2 % bei unverändert hoher Renditeerwartung (08:18).\n- **Positionsgrößen-Berechnung (WLA-Methode)**: Ermittlung der Zielgewichtung anhand von Satellitenkapital, Sparraten und Ausbauzyklen (09:36, 10:15).\n\n### Unsicherheiten & sehenswerte Stellen\n- **Unsicherheiten**: Das genaue zukünftige Sparverhalten sowie mögliche Sondereinzahlungen des Anlegers sind variabel und beeinflussen die spätere Positionsentwicklung (08:35, 10:13).\n- **Sehenswerte Stellen**:\n  - Ist- vs. Ziel-Korrelationsmatrix (02:46, 07:33).\n  - Rendite-Risiko-Profil auf der Efficient Frontier (08:18).\n  - Positionsgrößen-Berechnungsmodell (09:36).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-13T20:36:23.155530+00:00"
+}
