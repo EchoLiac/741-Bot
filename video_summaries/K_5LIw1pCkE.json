@@ -1,0 +1,65 @@
+{
+  "id": "K_5LIw1pCkE",
+  "title": "If this plays out, we're easily looking at 600%!",
+  "url": "https://www.youtube.com/watch?v=K_5LIw1pCkE",
+  "duration": 1171,
+  "published": null,
+  "channel": "Charts & Cars",
+  "handle": "@ChartsCarsbyPhilipKlinkmüller",
+  "status": "complete",
+  "discovered_at": "2026-09-13T20:34:18.795396+00:00",
+  "attempts": 1,
+  "last_attempt": "2026-09-13T21:03:12.359881+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher analysiert die Aktie von NuScale Power Corporation (NYSE: SMR) im Zuge der Community-Analyse nach einer starken Korrekturphase. Trotz der verbleibenden spekulativen Risiken bezüglich der kommerziellen Nutzung der neuartigen Leichtwasser-Reaktortechnologie sieht er charttechnisch starke Anzeichen für eine abgeschlossene Bodenbildung. Bei Einhaltung der aktuellen Aufwärtsstruktur erwartet er übergeordnet Kursanstiege in Richtung 64 USD und später 100 USD.\n\n### Typ\nEinzelaktie\n\n### NuScale Power Corporation (NYSE: SMR)\n* **Sprecherthese:** Die Aktie befindet sich nach einer Korrektur von über 90 % und einem anschließenden Wiederanstieg in einer ersten Bodenbildungs- und Anstiegsphase. Seit den Tiefs bei ca. 7,21 USD bildet sich eine Serie höherer Hochs und höherer Tiefs ab (10:44).\n* **Richtung:** Bullisch / Long (18:47).\n* **Konkret belegte Levels:**\n  * Aktueller Kurs: ca. 11,18 USD (04:31)\n  * Relevantes Tief / Key-Level: 8,78 USD (12:58)\n  * Unteres Unterstützungsziel (88,7% Fib-Retracement): 6,49 USD (07:02, 10:10)\n  * Zwischenziel / Widerstandszone: 11,57 USD bis 13,30 USD (12:35)\n  * Übergeordnete Kursziele: 64,00 USD bis 64,79 USD (14:06) sowie 100,00 USD (14:11); spekulativ langfristig > 150,00 USD (15:48)\n* **Trigger:** Halten der eingezeichneten Aufwärtstrendlinie und Bestätigung der dreiteiligen Aufwärtsstruktur (12:02).\n* **Invalidierung:** Ein Bruch des Tiefs bei 8,78 USD hebelt den aktuellen Aufwärtstrend ab und aktiviert ein erneutes Abwärtsrisiko Richtung 6,49 USD (12:58, 13:15).\n* **Zeithorizont:** Mittelfristig bis langfristig (13:30, 16:53).\n\n### Unsicherheiten und sehenswerte Stellen\n* **Unsicherheiten:** Es handelt sich fundamental um eine hochspekulative Technologie-Wette, da der kommerzielle Vertrieb der Reaktormodule bisher nicht nachgewiesen ist (03:50). Charttechnisch besteht das Restrisiko, dass vor dem großen Anstieg nochmals die 88,7%-Marke bei 6,49 USD angelaufen werden könnte (08:32, 10:12).\n* **Sehenswerte Stellen:**\n  * **02:25:** Technische Einblendung der Maße und Leistung der NuScale Power Module (NPM).\n  * **07:02:** Erläuterung der übergeordneten Fibonacci-Retracements im Chart.\n  * **11:15:** Detailbetrachtung der untergeordneten Trendstruktur mit höheren Tiefs.\n  * **14:05:** Projektion der primären Expansions-Kursziele bei 64 USD und 100 USD.",
+  "evidence": [
+    {
+      "timestamp": "00:12",
+      "basis": "audio",
+      "observation": "Der Sprecher kündigt die Community-Analyse zur Aktie der NuScale Power Corporation an."
+    },
+    {
+      "timestamp": "02:25",
+      "basis": "visual",
+      "observation": "Eingeblendeter Text zu technischen Merkmalen des NuScale Power Modules: Zylinder ca. 20m hoch, 2,7m breit, transportabel per Lkw/Bahn/Schiff."
+    },
+    {
+      "timestamp": "04:31",
+      "basis": "visual",
+      "observation": "Chart der NuScale Power Corporation (SMR, NYSE) wird gezeigt mit Kurshistorie ab 2020/2021."
+    },
+    {
+      "timestamp": "07:02",
+      "basis": "visual",
+      "observation": "Fibonacci-Retracement-Level auf dem Chart eingeblendet: 50.00% (28.71), 61.80% (21.93), 78.60% (12.29), 88.70% (6.49)."
+    },
+    {
+      "timestamp": "10:44",
+      "basis": "visual",
+      "observation": "Sprecher zeichnet eine rote Aufwärtstrendlinie ab dem Tief im Juli/August 2026 ein."
+    },
+    {
+      "timestamp": "12:58",
+      "basis": "audio",
+      "observation": "Sprecher erklärt, dass das Tief bei 8,78 USD nicht mehr gebrochen werden darf."
+    },
+    {
+      "timestamp": "14:06",
+      "basis": "audio",
+      "observation": "Sprecher nennt 64 USD als Mindesterwartung und 100 USD als ideales nächstes Ziel."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
+  "video_id": "K_5LIw1pCkE",
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-13T21:03:36.155985+00:00",
+  "discord_chunks": [
+    "🎬 **Charts & Cars**\n**If this plays out, we're easily looking at 600%!**\nhttps://www.youtube.com/watch?v=K_5LIw1pCkE\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher analysiert die Aktie von NuScale Power Corporation (NYSE: SMR) im Zuge der Community-Analyse nach einer starken Korrekturphase. Trotz der verbleibenden spekulativen Risiken bezüglich der kommerziellen Nutzung der neuartigen Leichtwasser-Reaktortechnologie sieht er charttechnisch starke Anzeichen für eine abgeschlossene Bodenbildung. Bei Einhaltung der aktuellen Aufwärtsstruktur erwartet er übergeordnet Kursanstiege in Richtung 64 USD und später 100 USD.\n\n### Typ\nEinzelaktie\n\n### NuScale Power Corporation (NYSE: SMR)\n* **Sprecherthese:** Die Aktie befindet sich nach einer Korrektur von über 90 % und einem anschließenden Wiederanstieg in einer ersten Bodenbildungs- und Anstiegsphase. Seit den Tiefs bei ca. 7,21 USD bildet sich eine Serie höherer Hochs und höherer Tiefs ab (10:44).\n* **Richtung:** Bullisch / Long (18:47).\n* **Konkret belegte Levels:**\n  * Aktueller Kurs: ca. 11,18 USD (04:31)\n  * Relevantes Tief / Key-Level: 8,78 USD (12:58)\n  * Unteres Unterstützungsziel (88,7% Fib-Retracement): 6,49 USD (07:02, 10:10)\n  * Zwischenziel / Widerstandszone: 11,57 USD bis 13,30 USD (12:35)\n  * Übergeordnete Kursziele: 64,00 USD bis 64,79 USD (14:06) sowie 100,00 USD (14:11); spekulativ langfristig > 150,00 USD (15:48)\n* **Trigger:** Halten der eingezeichneten Aufwärtstrendlinie und Bestätigung der dreiteiligen Aufwärtsstruktur (12:02).\n* **Invalidierung:** Ein Bruch des Tiefs bei 8,78 USD hebelt den aktuellen Aufwärtstrend ab und aktiviert ein erneutes Abwärtsrisiko Richtung 6,49 USD (12:58, 13:15).\n* **Zeithorizont:** Mittelfristig bis langfristig (13:30, 16:",
+    "53).\n\n### Unsicherheiten und sehenswerte Stellen\n* **Unsicherheiten:** Es handelt sich fundamental um eine hochspekulative Technologie-Wette, da der kommerzielle Vertrieb der Reaktormodule bisher nicht nachgewiesen ist (03:50). Charttechnisch besteht das Restrisiko, dass vor dem großen Anstieg nochmals die 88,7%-Marke bei 6,49 USD angelaufen werden könnte (08:32, 10:12).\n* **Sehenswerte Stellen:**\n  * **02:25:** Technische Einblendung der Maße und Leistung der NuScale Power Module (NPM).\n  * **07:02:** Erläuterung der übergeordneten Fibonacci-Retracements im Chart.\n  * **11:15:** Detailbetrachtung der untergeordneten Trendstruktur mit höheren Tiefs.\n  * **14:05:** Projektion der primären Expansions-Kursziele bei 64 USD und 100 USD.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-13T21:03:36.945196+00:00"
+}

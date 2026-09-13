@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-13T20:34:15.374126+00:00",
-    "@wir-lieben-aktien": "2026-09-13T20:34:16.040659+00:00",
-    "@chartsekte": "2026-09-13T20:34:16.736796+00:00",
-    "@hkcm": "2026-09-13T20:34:17.414174+00:00",
-    "@phantombyhkcm": "2026-09-13T20:34:18.082294+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-13T20:34:18.795473+00:00",
-    "@aktien4future": "2026-09-13T20:34:19.453927+00:00",
-    "@Finanzbaer": "2026-09-13T20:34:20.151890+00:00",
-    "@Finanzwiesel": "2026-09-13T20:34:20.849471+00:00",
-    "@TradingKompass": "2026-09-13T20:34:21.481524+00:00",
-    "@TomVorwald": "2026-09-13T20:34:22.207788+00:00"
+    "@1OxTrading": "2026-09-13T21:01:16.747646+00:00",
+    "@wir-lieben-aktien": "2026-09-13T21:01:18.141905+00:00",
+    "@chartsekte": "2026-09-13T21:01:18.606397+00:00",
+    "@hkcm": "2026-09-13T21:01:19.131340+00:00",
+    "@phantombyhkcm": "2026-09-13T21:01:19.651234+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-13T21:01:20.149840+00:00",
+    "@aktien4future": "2026-09-13T21:01:20.698906+00:00",
+    "@Finanzbaer": "2026-09-13T21:01:21.261710+00:00",
+    "@Finanzwiesel": "2026-09-13T21:01:21.716456+00:00",
+    "@TradingKompass": "2026-09-13T21:01:22.184196+00:00",
+    "@TomVorwald": "2026-09-13T21:01:22.845375+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1106,9 +1106,11 @@
     "published": null,
     "channel": "HKCM",
     "handle": "@hkcm",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-13T20:34:17.414096+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-13T21:01:22.898153+00:00",
+    "scraped_at": "2026-09-13T21:03:05.784403+00:00"
   },
   "jKo2Bl2w9h4": {
     "id": "jKo2Bl2w9h4",
@@ -1468,7 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-13T21:03:05.787484+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -1826,9 +1829,11 @@
     "published": null,
     "channel": "Charts & Cars",
     "handle": "@ChartsCarsbyPhilipKlinkmüller",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-13T20:34:18.795396+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-13T21:03:12.359881+00:00",
+    "scraped_at": "2026-09-13T21:03:36.946177+00:00"
   },
   "v1iY_BAlmrI": {
     "id": "v1iY_BAlmrI",
