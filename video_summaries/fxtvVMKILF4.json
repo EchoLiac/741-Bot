@@ -1,0 +1,80 @@
+{
+  "id": "fxtvVMKILF4",
+  "title": "The 5 Most Important Trading Lessons (From 20 Years of Experience)",
+  "url": "https://www.youtube.com/watch?v=fxtvVMKILF4",
+  "duration": 722,
+  "published": null,
+  "channel": "Tom Vorwald",
+  "handle": "@TomVorwald",
+  "status": "complete",
+  "discovered_at": "2026-09-13T20:34:22.207715+00:00",
+  "attempts": 1,
+  "last_attempt": "2026-09-13T22:02:09.977498+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDas Video erklärt die fünf wichtigsten Lektionen bzw. Bausteine eines funktionierenden Trading-Plans für konsequenten Handelserfolg. Ein vollständiger Plan erfordert die systematische Festlegung von Einstieg, Stop-Loss, Kursziel und Positionsgröße vor der Trade-Ausführung. Das fünfte Element sind Emotionen, deren Fehlsteuerung durch unüberlegtes Eingreifen die mathematischen Kennzahlen eines Systems zerstört.\n\n### Typ\nBildung\n\n### Methode, Regeln und Fehler\n- **1. Einstieg (01:56):** Die Position darf nicht aus dem Bauch heraus eröffnet werden; der Einstiegspunkt muss vorab strategisch und mathematisch begründet sein.\n- **2. Stop-Loss (02:34):** Ein Stop-Loss gehört dorthin, wo die Handelsidee rechnerisch oder strukturell nicht mehr gültig ist (03:13). Ein fester Punkte-Stop (z. B. starr 15 Punkte) ist fehlerhaft.\n- **3. Kursziel & CRV (04:54):** Das Ziel (z. B. Vortageshoch, 05:51) muss klar definiert werden, um das mathematische Chance-Risiko-Verhältnis (CRV) sowie die geplante Erwartungshaltung sauber zu berechnen.\n- **4. Positionsgröße (08:54):** Die Stückzahl/Kontraktzahl muss dynamisch an die Distanz zum Stop-Loss angepasst werden. Wer bei doppelt so großem Stop-Loss-Abstand (z. B. 30 statt 15 Punkte) die Positionsgröße nicht halbiert, verdoppelt ungewollt sein Risiko (09:57).\n- **5. Emotionen (10:37):** Vorzeitiges Schließen von Trades oder Verschieben von Stops zerstört das geplante CRV (z. B. Absinken von geplanten Werten auf 0,7; 07:59) und macht den Trading-Plan unbrauchbar.\n- **Grundregel (10:27):** Fehlt auch nur ein einziger Bestandteil, ist der Tradeplan unvollständig und der Trade darf nicht umgesetzt werden.\n\n### Unsicherheiten & Sehenswerte Stellen\n- Sehenswert ist die grafische Aufschlüsselung der vier Hauptkomponenten auf den Folien ab 01:42 sowie das Rechenbeispiel zur Risikoanpassung bei 09:47.",
+  "evidence": [
+    {
+      "timestamp": "00:22",
+      "basis": "visual",
+      "observation": "Auf einem Notizzettel werden die 5 Punkte des Trading Plans aufgelistet: 1. Einstieg, 2. Stop-Loss, 3. Ziel, 4. Positionsgröße, 5. Emotionen."
+    },
+    {
+      "timestamp": "01:56",
+      "basis": "visual",
+      "observation": "Folie 'Die vier Bestandteile des Tradeplans' zeigt Punkt 1 'EINSTIEG: Wo soll die Position eröffnet werden?'."
+    },
+    {
+      "timestamp": "02:34",
+      "basis": "visual",
+      "observation": "Folie zeigt Punkt 2 'STOP-LOSS: Wo ist die Handelsidee nicht mehr gültig?'."
+    },
+    {
+      "timestamp": "03:03",
+      "basis": "audio",
+      "observation": "Sprecher kritisiert starre Vorgaben wie 'ich lege immer einen Stop von 15 Punkten'."
+    },
+    {
+      "timestamp": "04:54",
+      "basis": "visual",
+      "observation": "Folie zeigt Punkt 3 'KURSZIEL: Wo soll der Gewinn realisiert werden?'."
+    },
+    {
+      "timestamp": "05:51",
+      "basis": "visual",
+      "observation": "Sprecher zeichnet ein Chartbeispiel mit dem Ziel 'VH' (Vortageshoch) auf der Folie ein."
+    },
+    {
+      "timestamp": "07:22",
+      "basis": "visual",
+      "observation": "Sprecher leitet das Kürzel 'CRV' (Chance-Risiko-Verhältnis) auf der Folie ab."
+    },
+    {
+      "timestamp": "08:54",
+      "basis": "visual",
+      "observation": "Folie zeigt Punkt 4 'POSITIONSGRÖSSE: Wie viele Aktien dürfen gekauft werden?'."
+    },
+    {
+      "timestamp": "09:47",
+      "basis": "audio",
+      "observation": "Sprecher erklärt, dass sich bei Verdopplung des Stop-Loss-Abstands von 15 auf 30 Punkte das Risiko verdoppelt, wenn die Positionsgröße nicht angepasst wird."
+    },
+    {
+      "timestamp": "10:23",
+      "basis": "visual",
+      "observation": "Einblendung des Merksatzes: 'Fehlt ein Bestandteil, ist der Tradeplan nicht vollständig.'"
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
+  "video_id": "fxtvVMKILF4",
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-13T22:02:26.202041+00:00",
+  "discord_chunks": [
+    "🎬 **Tom Vorwald**\n**The 5 Most Important Trading Lessons (From 20 Years of Experience)**\nhttps://www.youtube.com/watch?v=fxtvVMKILF4\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDas Video erklärt die fünf wichtigsten Lektionen bzw. Bausteine eines funktionierenden Trading-Plans für konsequenten Handelserfolg. Ein vollständiger Plan erfordert die systematische Festlegung von Einstieg, Stop-Loss, Kursziel und Positionsgröße vor der Trade-Ausführung. Das fünfte Element sind Emotionen, deren Fehlsteuerung durch unüberlegtes Eingreifen die mathematischen Kennzahlen eines Systems zerstört.\n\n### Typ\nBildung\n\n### Methode, Regeln und Fehler\n- **1. Einstieg (01:56):** Die Position darf nicht aus dem Bauch heraus eröffnet werden; der Einstiegspunkt muss vorab strategisch und mathematisch begründet sein.\n- **2. Stop-Loss (02:34):** Ein Stop-Loss gehört dorthin, wo die Handelsidee rechnerisch oder strukturell nicht mehr gültig ist (03:13). Ein fester Punkte-Stop (z. B. starr 15 Punkte) ist fehlerhaft.\n- **3. Kursziel & CRV (04:54):** Das Ziel (z. B. Vortageshoch, 05:51) muss klar definiert werden, um das mathematische Chance-Risiko-Verhältnis (CRV) sowie die geplante Erwartungshaltung sauber zu berechnen.\n- **4. Positionsgröße (08:54):** Die Stückzahl/Kontraktzahl muss dynamisch an die Distanz zum Stop-Loss angepasst werden. Wer bei doppelt so großem Stop-Loss-Abstand (z. B. 30 statt 15 Punkte) die Positionsgröße nicht halbiert, verdoppelt ungewollt sein Risiko (09:57).\n- **5. Emotionen (10:37):** Vorzeitiges Schließen von Trades oder Verschieben von Stops zerstört das geplante CRV (z. B. Absinken von geplanten Werten auf 0,7; 07:59) und macht den Trading-Plan unbrauchbar.\n- **Grundregel (10:27):** Fehlt auch nur ein einziger Bestandteil,",
+    " ist der Tradeplan unvollständig und der Trade darf nicht umgesetzt werden.\n\n### Unsicherheiten & Sehenswerte Stellen\n- Sehenswert ist die grafische Aufschlüsselung der vier Hauptkomponenten auf den Folien ab 01:42 sowie das Rechenbeispiel zur Risikoanpassung bei 09:47.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-13T22:02:26.779688+00:00"
+}
