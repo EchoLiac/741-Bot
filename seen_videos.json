@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-13T21:01:16.747646+00:00",
-    "@wir-lieben-aktien": "2026-09-13T21:01:18.141905+00:00",
-    "@chartsekte": "2026-09-13T21:01:18.606397+00:00",
-    "@hkcm": "2026-09-13T21:01:19.131340+00:00",
-    "@phantombyhkcm": "2026-09-13T21:01:19.651234+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-13T21:01:20.149840+00:00",
-    "@aktien4future": "2026-09-13T21:01:20.698906+00:00",
-    "@Finanzbaer": "2026-09-13T21:01:21.261710+00:00",
-    "@Finanzwiesel": "2026-09-13T21:01:21.716456+00:00",
-    "@TradingKompass": "2026-09-13T21:01:22.184196+00:00",
-    "@TomVorwald": "2026-09-13T21:01:22.845375+00:00"
+    "@1OxTrading": "2026-09-13T21:31:06.144048+00:00",
+    "@wir-lieben-aktien": "2026-09-13T21:31:06.650316+00:00",
+    "@chartsekte": "2026-09-13T21:31:07.171091+00:00",
+    "@hkcm": "2026-09-13T21:31:07.681208+00:00",
+    "@phantombyhkcm": "2026-09-13T21:31:08.095766+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-13T21:31:08.513505+00:00",
+    "@aktien4future": "2026-09-13T21:31:08.988478+00:00",
+    "@Finanzbaer": "2026-09-13T21:31:09.475699+00:00",
+    "@Finanzwiesel": "2026-09-13T21:31:09.899075+00:00",
+    "@TradingKompass": "2026-09-13T21:31:10.354980+00:00",
+    "@TomVorwald": "2026-09-13T21:31:10.810185+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -2191,9 +2191,11 @@
     "published": null,
     "channel": "aktien4future",
     "handle": "@aktien4future",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-13T20:34:19.453852+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-13T21:31:10.864697+00:00",
+    "scraped_at": "2026-09-13T21:31:41.958710+00:00"
   },
   "aK09ggzpb_U": {
     "id": "aK09ggzpb_U",
@@ -2551,9 +2553,11 @@
     "published": null,
     "channel": "Finanzbär",
     "handle": "@Finanzbaer",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-13T20:34:20.151819+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-13T21:31:41.962162+00:00",
+    "scraped_at": "2026-09-13T21:32:06.127110+00:00"
   },
   "Qn3J0jYoGKY": {
     "id": "Qn3J0jYoGKY",
@@ -2911,9 +2915,11 @@
     "published": null,
     "channel": "Finanzwiesel",
     "handle": "@Finanzwiesel",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-13T20:34:20.849399+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-13T21:32:06.130632+00:00",
+    "scraped_at": "2026-09-13T21:32:30.505772+00:00"
   },
   "tEdcuYMUOHY": {
     "id": "tEdcuYMUOHY",

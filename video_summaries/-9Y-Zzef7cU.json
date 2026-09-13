@@ -1,0 +1,66 @@
+{
+  "id": "-9Y-Zzef7cU",
+  "title": "If you don’t buy stocks NOW, you’ll regret it forever!",
+  "url": "https://www.youtube.com/watch?v=-9Y-Zzef7cU",
+  "duration": 842,
+  "published": null,
+  "channel": "aktien4future",
+  "handle": "@aktien4future",
+  "status": "complete",
+  "discovered_at": "2026-09-13T20:34:19.453852+00:00",
+  "attempts": 1,
+  "last_attempt": "2026-09-13T21:31:10.864697+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer US-Aktienmarkt befindet sich trotz historischer Höchststände beim S&P 500 (00:04) nicht in einer spekulativen Übertreibungsblase, sondern ist durch starkes Gewinnwachstum fundamental unterlegt (05:03). Ein Vergleich historischer Bewertungs- und Laufzeitdaten zeigt weiteres Potenzial im laufenden Bullenmarkt (03:40). Um von Marktchancen diszipliniert zu profitieren, stellt der Sprecher eine regelbasierte 3-Schritte-Strategie samt automatischer Nachkauf-Systematik vor (10:05).\n\n**Typ**: Markt/Makro & Bildung (mit Einzelaktienbezug)\n\n---\n\n### Markt / Makro: S&P 500 & US-Aktienmarkt\n* **Sprecherthese**: Der Markt ist im Vergleich zum Vorjahr fundamental günstiger bewertet und wird von breitem Gewinnwachstum getragen, weshalb Befürchtungen eines unmittelbaren Crashes unbegründet sind (03:03, 06:46).\n* **Richtung**: Bullisch (langfristig)\n* **Konkret belegte Levels**:\n  * S&P 500 Stand: 7.591,70 Punkte (00:04), Allzeithoch bei 7.736,52 Punkten (00:08).\n  * S&P 500 Forward-KGV: 20 (02:36); 10-Jahres-Durchschnitt: 20 (02:38).\n  * S&P 500 Aktuelles KGV: 25,65 / 25,68 (02:53), Vorjahr: 28,87 (02:59).\n  * Bullenmarkt-Vergleich: Aktuelle Dauer 4 Jahre mit +100 % Rendite vs. historischer Schnitt von 5,5 Jahren und +265 % Rendite (03:40–03:49).\n  * Q2 2026 Unternehmensgewinne: +52 % Gewinnwachstum YoY (05:15), Umsätze +15 % YoY (05:25), Nettomargen bei 15,7 % (05:29).\n  * S&P 500 Equal Weight YTD: +15,92 % vs. S&P 500 +13,72 % (06:36).\n  * FED-Leitzins: 3,5 % (07:14).\n* **Trigger**: Nicht genannt.\n* **Invalidierung**: Nicht genannt.\n* **Zeithorizont**: Langfristig (10 bis 20 Jahre) (03:58, 09:43).\n\n---\n\n### Einzelaktie: Nvidia (NVDA)\n* **Sprecherthese**: Nvidia ist trotz des starken Kursstiegs dank massiven Gewinn- und Umsatzwachstums heute günstiger bewertet als vor zwei Jahren (06:17).\n* **Richtung**: Bullisch\n* **Konkret belegte Levels**:\n  * Umsatzwachstum YoY (Q2 FY27): +106 % (06:03).\n  * Kurs-Umsatz-Verhältnis (KUV): Gefallen von 25 auf 18 (06:08).\n  * Forward-KGV: 23,52 (06:12).\n  * PEG-Ratio: 0,31 (06:14).\n* **Trigger**: Nicht genannt.\n* **Invalidierung**: Nicht genannt.\n* **Zeithorizont**: Langfristig (03:26, 13:25).\n\n---\n\n### Bildung: 3-Schritte-Anlagestrategie & Nachkauf-Rechner\n* **Methode / Regeln**:\n  1. **Budgetplan**: Festlegung eines monatlichen Budgets (z. B. 500 €), das aufgeteilt wird (z. B. 250 € ETF-Sparrate, 250 € Cash-Reserve) (10:08–10:20).\n  2. **Antizyklischer Nachkauf**: Fällt ein Breitmarkt-ETF um ≥20 % unter sein 52-Wochen-Hoch, wird die monatliche Sparrate mit der Cash-Reserve aufgestockt (z. B. von 250 € auf 750 €) (10:29–10:40, 12:00).\n  3. **Stufenweise Gewinnmitnahme**: Bei Buchgewinnen von +50 %, +100 % oder +150 % werden schrittweise Teilverkäufe von 10 %, 20 % bzw. 30 % der Position getätigt (10:45–10:56).\n* **Typische Fehler**: Emotionales Market-Timing, Panikverkäufe oder zögerliches Warten an der Seitenlinie („Ich warte noch kurz“) (10:59, 13:39).\n\n---\n\n### Unsicherheiten & sehenswerte Stellen\n* **Unsicherheiten**: Unvorhersehbare makroökonomische Schocks oder temporäre Marktkorrekturen (z. B. historische Korrekturen von 10 % bis 20 % im S&P 500) (08:30–08:49).\n* **Sehenswerte Stellen**:\n  * **02:35–03:08**: Detaillierter KGV- und Forward-KGV-Vergleich des S&P 500.\n  * **05:03–05:34**: Fakten zu den Q2 2026 S&P 500 Earnings und Netto-Margen.\n  * **06:03–06:20**: Kennzahlen-Analyse zu Nvidia (Forward-KGV & PEG-Ratio).\n  * **11:21–12:30**: Funktionsdemonstration des Nachkauf-Rechners für ETFs.",
+  "evidence": [
+    {
+      "timestamp": "00:04",
+      "basis": "visual",
+      "observation": "Chart des S&P 500 zeigt einen Indexstand von 7.591,70 Punkten und am 4. Aug. 2026 ein Hoch von 7.736,52 Punkten."
+    },
+    {
+      "timestamp": "02:36",
+      "basis": "visual",
+      "observation": "Grafik von MacroMicro weist das Forward-KGV des S&P 500 exakt mit 20 aus."
+    },
+    {
+      "timestamp": "02:59",
+      "basis": "visual",
+      "observation": "S&P 500 PE Ratio von Gurufocus zeigt für den 10.09.2026 den Wert 25,687, verglichen mit 28,87 im Vorjahr."
+    },
+    {
+      "timestamp": "03:40",
+      "basis": "visual",
+      "observation": "Balkendiagramm zeigt eine durchschnittliche Bullenmarkt-Dauer von 5,5 Jahren und Rendite von 265% im Vergleich zur aktuellen Dauer von 4 Jahren und +100% Rendite."
+    },
+    {
+      "timestamp": "06:12",
+      "basis": "visual",
+      "observation": "Nvidia (NVDA) weist ein Forward PE Ratio von 23,52 und eine PEG Ratio von 0,31 auf."
+    },
+    {
+      "timestamp": "07:14",
+      "basis": "visual",
+      "observation": "Chart der Federal Reserve zeigt den Leitzins der FED bei 3,5%."
+    },
+    {
+      "timestamp": "12:01",
+      "basis": "visual",
+      "observation": "Bildschirmdarstellung des Nachkauf-Rechners: Bei -22,3% unter dem Hoch schaltet das Signal auf 'Nachkaufen' um und der Sparbetrag erhöht sich von 250 € auf 750 €."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
+  "video_id": "-9Y-Zzef7cU",
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-13T21:31:41.321270+00:00",
+  "discord_chunks": [
+    "🎬 **aktien4future**\n**If you don’t buy stocks NOW, you’ll regret it forever!**\nhttps://www.youtube.com/watch?v=-9Y-Zzef7cU\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer US-Aktienmarkt befindet sich trotz historischer Höchststände beim S&P 500 (00:04) nicht in einer spekulativen Übertreibungsblase, sondern ist durch starkes Gewinnwachstum fundamental unterlegt (05:03). Ein Vergleich historischer Bewertungs- und Laufzeitdaten zeigt weiteres Potenzial im laufenden Bullenmarkt (03:40). Um von Marktchancen diszipliniert zu profitieren, stellt der Sprecher eine regelbasierte 3-Schritte-Strategie samt automatischer Nachkauf-Systematik vor (10:05).\n\n**Typ**: Markt/Makro & Bildung (mit Einzelaktienbezug)\n\n---\n\n### Markt / Makro: S&P 500 & US-Aktienmarkt\n* **Sprecherthese**: Der Markt ist im Vergleich zum Vorjahr fundamental günstiger bewertet und wird von breitem Gewinnwachstum getragen, weshalb Befürchtungen eines unmittelbaren Crashes unbegründet sind (03:03, 06:46).\n* **Richtung**: Bullisch (langfristig)\n* **Konkret belegte Levels**:\n  * S&P 500 Stand: 7.591,70 Punkte (00:04), Allzeithoch bei 7.736,52 Punkten (00:08).\n  * S&P 500 Forward-KGV: 20 (02:36); 10-Jahres-Durchschnitt: 20 (02:38).\n  * S&P 500 Aktuelles KGV: 25,65 / 25,68 (02:53), Vorjahr: 28,87 (02:59).\n  * Bullenmarkt-Vergleich: Aktuelle Dauer 4 Jahre mit +100 % Rendite vs. historischer Schnitt von 5,5 Jahren und +265 % Rendite (03:40–03:49).\n  * Q2 2026 Unternehmensgewinne: +52 % Gewinnwachstum YoY (05:15), Umsätze +15 % YoY (05:25), Nettomargen bei 15,7 % (05:29).\n  * S&P 500 Equal Weight YTD: +15,92 % vs. S&P 500 +13,72 % (06:36).\n  * FED-Leitzins: 3,5 % (07:14).\n* **Trigger**: Nicht genannt.\n* **Invalidierung**: Nicht genannt.\n* **Zeithorizont**: Langfristig (10 bi",
+    "s 20 Jahre) (03:58, 09:43).\n\n---\n\n### Einzelaktie: Nvidia (NVDA)\n* **Sprecherthese**: Nvidia ist trotz des starken Kursstiegs dank massiven Gewinn- und Umsatzwachstums heute günstiger bewertet als vor zwei Jahren (06:17).\n* **Richtung**: Bullisch\n* **Konkret belegte Levels**:\n  * Umsatzwachstum YoY (Q2 FY27): +106 % (06:03).\n  * Kurs-Umsatz-Verhältnis (KUV): Gefallen von 25 auf 18 (06:08).\n  * Forward-KGV: 23,52 (06:12).\n  * PEG-Ratio: 0,31 (06:14).\n* **Trigger**: Nicht genannt.\n* **Invalidierung**: Nicht genannt.\n* **Zeithorizont**: Langfristig (03:26, 13:25).\n\n---\n\n### Bildung: 3-Schritte-Anlagestrategie & Nachkauf-Rechner\n* **Methode / Regeln**:\n  1. **Budgetplan**: Festlegung eines monatlichen Budgets (z. B. 500 €), das aufgeteilt wird (z. B. 250 € ETF-Sparrate, 250 € Cash-Reserve) (10:08–10:20).\n  2. **Antizyklischer Nachkauf**: Fällt ein Breitmarkt-ETF um ≥20 % unter sein 52-Wochen-Hoch, wird die monatliche Sparrate mit der Cash-Reserve aufgestockt (z. B. von 250 € auf 750 €) (10:29–10:40, 12:00).\n  3. **Stufenweise Gewinnmitnahme**: Bei Buchgewinnen von +50 %, +100 % oder +150 % werden schrittweise Teilverkäufe von 10 %, 20 % bzw. 30 % der Position getätigt (10:45–10:56).\n* **Typische Fehler**: Emotionales Market-Timing, Panikverkäufe oder zögerliches Warten an der Seitenlinie („Ich warte noch kurz“) (10:59, 13:39).\n\n---\n\n### Unsicherheiten & sehenswerte Stellen\n* **Unsicherheiten**: Unvorhersehbare makroökonomische Schocks oder temporäre Marktkorrekturen (z. B. historische Korrekturen von 10 % bis 20 % im S&P 500) (08:30–08:49).\n* **Sehenswerte Stellen**:\n  * **02:35–03:08**: Detaillierter KGV- und Forward-KGV-Vergleich des S&P 500.\n  * **05:03–05:34**: Fakten zu den Q2 2026 S&P 500 Earnings und Netto-Margen.\n  * **06:03–06:20**: Kennzahlen-Analyse zu Nvidia (Fo",
+    "rward-KGV & PEG-Ratio).\n  * **11:21–12:30**: Funktionsdemonstration des Nachkauf-Rechners für ETFs.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 3,
+  "discord_sent_at": "2026-09-13T21:31:41.957606+00:00"
+}

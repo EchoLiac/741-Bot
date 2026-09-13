@@ -1,0 +1,61 @@
+{
+  "id": "8D5zqjpcs2c",
+  "title": "These 5 Stocks I'm Buying NOW! €14,000 Invested💰",
+  "url": "https://www.youtube.com/watch?v=8D5zqjpcs2c",
+  "duration": 720,
+  "published": null,
+  "channel": "Finanzbär",
+  "handle": "@Finanzbaer",
+  "status": "complete",
+  "discovered_at": "2026-09-13T20:34:20.151819+00:00",
+  "attempts": 1,
+  "last_attempt": "2026-09-13T21:31:41.962162+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher stellt seine privaten Investments für den Monat September vor, zu denen regelmäßige ETF-Sparpläne, eine Growth-Aktie aus dem US-Gesundheitssortiment, P2P-Kredite sowie ein Satelliten-Mobilfunkunternehmen gehören. Er verfolgt eine sture Buy-and-Hold-Strategie ohne emotionales Market-Timing (00:23, 11:33).\n\n**Typ:** mehrere Aktien / Marktübersicht\n\n---\n\n### Vanguard FTSE Global All-Cap UCITS ETF (Acc) / Weltportfolio\n* **Sprecherthese:** Ein breiter Welt-ETF mit sehr geringer TER (0,07 %), der auch Small Caps abdeckt, bietet eine hervorragende All-in-One-Lösung, wird aber wegen der kurzen Historie noch beobachtet (01:43, 02:38).\n* **Richtung:** Bullisch / Beobachten\n* **Konkret belegte Levels:** TER 0,07 % (01:34), >10.000 enthaltene Aktien (01:46), bisherige Portfolio-Aufteilung: 70 % MSCI World / 30 % MSCI EM (01:01).\n* **Trigger:** Längere Historie zur Feststellung von Fondsvolumen und Tracking Difference (02:38, 02:52).\n* **Invalidierung:** Mangelnde Liquidität oder Schließung des Produkts durch Vanguard (02:58).\n* **Zeithorizont:** Long-Term (20 bis 40+ Jahre) (02:42).\n\n---\n\n### Oscar Health (OSCR)\n* **Sprecherthese:** Ein stark wachsender digitaler US-Krankenversicherer (+70 % Umsatzwachstum), der den Sprung in die Profitabilität geschafft hat und mit einem P/S unter 1 historisch günstig bewertet ist (03:39, 06:19).\n* **Richtung:** Bullisch\n* **Konkret belegte Levels:** Price-Sales-Ratio (P/S) 0,65 (03:39), Q2 Umsatz 4,88 Mrd. USD (+70,6 % YoY) (03:50), Forward-KGV 16,83 (07:01), H1 2026 operatives Ergebnis 1,1 Mrd. USD (06:33).\n* **Trigger:** Double-Beat bei den Erträgen und Erhöhung der Jahresprognose 2026 (06:36).\n* **Invalidierung:** Politische/regulatorische Gesetzesänderungen beim US-Gesundheitssystem (Affordable Care Act / Obamacare) (06:43).\n* **Zeithorizont:** Nicht genauer beziffert.\n\n---\n\n### Monefit / Creditstar Group (P2P-Kredite)\n* **Sprecherthese:** Automatischer Ansparprozess in P2P-Kreditportfolios zur Generierung täglich verzinstem Cashflows (07:11, 07:43).\n* **Richtung:** Bullisch\n* **Konkret belegte Levels:** Zielrendite 7,5 % APY (07:41), Sparrate +2.500 €/Monat (07:18), tägliche Ausschüttung ~23,09 € (07:27).\n* **Trigger:** Nicht genannt.\n* **Invalidierung:** Ausfallrisiken im P2P-Kreditsektor oder Insolvenz des Anbieters (07:48).\n* **Zeithorizont:** Laufend / täglich.\n\n---\n\n### AST SpaceMobile (ASTS)\n* **Sprecherthese:** Frühphasen-Investment in ein globales Satelliten-Mobilfunknetz mit Direktverbindung zu normalen Smartphones und hoher Bandbreite im Vergleich zu Wettbewerbern wie SpaceX (08:45, 09:38).\n* **Richtung:** Bullisch\n* **Konkret belegte Levels:** Market Cap 26,72 Mrd. USD (10:58), 2026 Umsatz-Guidance 150 Mio. bis 200 Mio. USD (11:00), Ziel von ~45 BlueBird-Satelliten bis Anfang 2027 (11:08), Auftragsbestand 1,30 Mrd. USD (11:13), Liquidität >3,7 Mrd. USD (11:20).\n* **Trigger:** Kommerzielle Inbetriebnahme und Satellitenstarts in den kommenden Jahren (11:26).\n* **Invalidierung:** Verzögerungen beim Netzausbau oder Ausbleiben der Umsätze (11:28).\n* **Zeithorizont:** 1 bis 3 Jahre (00:00).\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Sehenswerte Stelle:** Der detaillierte Geschwindigkeitsvergleich zwischen AST SpaceMobile und SpaceX Direct-to-Cell (09:38).\n* **Unsicherheit:** Hohe Abhängigkeit von Oscar Health von politischen Subventionen in den USA (06:43).",
+  "evidence": [
+    {
+      "timestamp": "01:34",
+      "basis": "visual",
+      "observation": "Schlagzeile zu Vanguard startet Welt-ETF mit 0,07 % TER"
+    },
+    {
+      "timestamp": "03:39",
+      "basis": "visual",
+      "observation": "Oscar Health Chart zeigt P/S Ratio von 0,65"
+    },
+    {
+      "timestamp": "06:43",
+      "basis": "visual",
+      "observation": "Eingeblendete Textzeile 'Regulatory and Subsidy Risks' verweist auf Abhängigkeit vom Affordable Care Act (ACA)"
+    },
+    {
+      "timestamp": "07:18",
+      "basis": "visual",
+      "observation": "Einblendung zeigt Sparrate von +2.500 € / Monat bei Monefit"
+    },
+    {
+      "timestamp": "10:58",
+      "basis": "visual",
+      "observation": "Market Cap von AST SpaceMobile wird mit 26.72B angegeben"
+    },
+    {
+      "timestamp": "11:00",
+      "basis": "visual",
+      "observation": "SA Insights Notiz nennt 2026 Revenue Guidance von $150M-$200M für AST SpaceMobile"
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
+  "video_id": "8D5zqjpcs2c",
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-13T21:32:05.478305+00:00",
+  "discord_chunks": [
+    "🎬 **Finanzbär**\n**These 5 Stocks I'm Buying NOW! €14,000 Invested💰**\nhttps://www.youtube.com/watch?v=8D5zqjpcs2c\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher stellt seine privaten Investments für den Monat September vor, zu denen regelmäßige ETF-Sparpläne, eine Growth-Aktie aus dem US-Gesundheitssortiment, P2P-Kredite sowie ein Satelliten-Mobilfunkunternehmen gehören. Er verfolgt eine sture Buy-and-Hold-Strategie ohne emotionales Market-Timing (00:23, 11:33).\n\n**Typ:** mehrere Aktien / Marktübersicht\n\n---\n\n### Vanguard FTSE Global All-Cap UCITS ETF (Acc) / Weltportfolio\n* **Sprecherthese:** Ein breiter Welt-ETF mit sehr geringer TER (0,07 %), der auch Small Caps abdeckt, bietet eine hervorragende All-in-One-Lösung, wird aber wegen der kurzen Historie noch beobachtet (01:43, 02:38).\n* **Richtung:** Bullisch / Beobachten\n* **Konkret belegte Levels:** TER 0,07 % (01:34), >10.000 enthaltene Aktien (01:46), bisherige Portfolio-Aufteilung: 70 % MSCI World / 30 % MSCI EM (01:01).\n* **Trigger:** Längere Historie zur Feststellung von Fondsvolumen und Tracking Difference (02:38, 02:52).\n* **Invalidierung:** Mangelnde Liquidität oder Schließung des Produkts durch Vanguard (02:58).\n* **Zeithorizont:** Long-Term (20 bis 40+ Jahre) (02:42).\n\n---\n\n### Oscar Health (OSCR)\n* **Sprecherthese:** Ein stark wachsender digitaler US-Krankenversicherer (+70 % Umsatzwachstum), der den Sprung in die Profitabilität geschafft hat und mit einem P/S unter 1 historisch günstig bewertet ist (03:39, 06:19).\n* **Richtung:** Bullisch\n* **Konkret belegte Levels:** Price-Sales-Ratio (P/S) 0,65 (03:39), Q2 Umsatz 4,88 Mrd. USD (+70,6 % YoY) (03:50), Forward-KGV 16,83 (07:01), H1 2026 operatives Ergebnis 1,1 Mrd. USD (06:33).\n* **Trigger:** Double-Bea",
+    "t bei den Erträgen und Erhöhung der Jahresprognose 2026 (06:36).\n* **Invalidierung:** Politische/regulatorische Gesetzesänderungen beim US-Gesundheitssystem (Affordable Care Act / Obamacare) (06:43).\n* **Zeithorizont:** Nicht genauer beziffert.\n\n---\n\n### Monefit / Creditstar Group (P2P-Kredite)\n* **Sprecherthese:** Automatischer Ansparprozess in P2P-Kreditportfolios zur Generierung täglich verzinstem Cashflows (07:11, 07:43).\n* **Richtung:** Bullisch\n* **Konkret belegte Levels:** Zielrendite 7,5 % APY (07:41), Sparrate +2.500 €/Monat (07:18), tägliche Ausschüttung ~23,09 € (07:27).\n* **Trigger:** Nicht genannt.\n* **Invalidierung:** Ausfallrisiken im P2P-Kreditsektor oder Insolvenz des Anbieters (07:48).\n* **Zeithorizont:** Laufend / täglich.\n\n---\n\n### AST SpaceMobile (ASTS)\n* **Sprecherthese:** Frühphasen-Investment in ein globales Satelliten-Mobilfunknetz mit Direktverbindung zu normalen Smartphones und hoher Bandbreite im Vergleich zu Wettbewerbern wie SpaceX (08:45, 09:38).\n* **Richtung:** Bullisch\n* **Konkret belegte Levels:** Market Cap 26,72 Mrd. USD (10:58), 2026 Umsatz-Guidance 150 Mio. bis 200 Mio. USD (11:00), Ziel von ~45 BlueBird-Satelliten bis Anfang 2027 (11:08), Auftragsbestand 1,30 Mrd. USD (11:13), Liquidität >3,7 Mrd. USD (11:20).\n* **Trigger:** Kommerzielle Inbetriebnahme und Satellitenstarts in den kommenden Jahren (11:26).\n* **Invalidierung:** Verzögerungen beim Netzausbau oder Ausbleiben der Umsätze (11:28).\n* **Zeithorizont:** 1 bis 3 Jahre (00:00).\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Sehenswerte Stelle:** Der detaillierte Geschwindigkeitsvergleich zwischen AST SpaceMobile und SpaceX Direct-to-Cell (09:38).\n* **Unsicherheit:** Hohe Abhängigkeit von Oscar Health von politischen Subventionen in den USA (06:43).\n\nQuellenmeinung zum Vid",
+    "eozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 3,
+  "discord_sent_at": "2026-09-13T21:32:06.125960+00:00"
+}
