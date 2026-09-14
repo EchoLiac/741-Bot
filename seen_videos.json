@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-14T20:01:14.842311+00:00",
-    "@wir-lieben-aktien": "2026-09-14T20:01:15.414011+00:00",
-    "@chartsekte": "2026-09-14T20:01:15.966101+00:00",
-    "@hkcm": "2026-09-14T20:01:16.608188+00:00",
-    "@phantombyhkcm": "2026-09-14T20:01:17.193348+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-14T20:01:17.751227+00:00",
-    "@aktien4future": "2026-09-14T20:01:18.337193+00:00",
-    "@Finanzbaer": "2026-09-14T20:01:19.062878+00:00",
-    "@Finanzwiesel": "2026-09-14T20:01:19.727797+00:00",
-    "@TradingKompass": "2026-09-14T20:01:20.282832+00:00",
-    "@TomVorwald": "2026-09-14T20:01:20.911971+00:00"
+    "@1OxTrading": "2026-09-14T20:31:08.116779+00:00",
+    "@wir-lieben-aktien": "2026-09-14T20:31:08.633847+00:00",
+    "@chartsekte": "2026-09-14T20:31:09.177905+00:00",
+    "@hkcm": "2026-09-14T20:31:09.694190+00:00",
+    "@phantombyhkcm": "2026-09-14T20:31:10.251108+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-14T20:31:10.724051+00:00",
+    "@aktien4future": "2026-09-14T20:31:11.293362+00:00",
+    "@Finanzbaer": "2026-09-14T20:31:11.869997+00:00",
+    "@Finanzwiesel": "2026-09-14T20:31:12.478697+00:00",
+    "@TradingKompass": "2026-09-14T20:31:12.976430+00:00",
+    "@TomVorwald": "2026-09-14T20:31:13.496897+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4031,8 +4031,8 @@
     "handle": "@aktien4future",
     "status": "pending",
     "discovered_at": "2026-09-14T18:31:18.848453+00:00",
-    "attempts": 3,
-    "last_attempt": "2026-09-14T20:01:20.969295+00:00"
+    "attempts": 4,
+    "last_attempt": "2026-09-14T20:32:09.304808+00:00"
   },
   "jPAUc9u8fvU": {
     "id": "jPAUc9u8fvU",
@@ -4055,9 +4055,23 @@
     "published": null,
     "channel": "TradingKompass",
     "handle": "@TradingKompass",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-14T19:01:28.279720+00:00",
-    "attempts": 2,
-    "last_attempt": "2026-09-14T19:31:24.398647+00:00"
+    "attempts": 3,
+    "last_attempt": "2026-09-14T20:31:40.253843+00:00",
+    "scraped_at": "2026-09-14T20:32:09.301205+00:00"
+  },
+  "G1vc50FR9mE": {
+    "id": "G1vc50FR9mE",
+    "title": "🚨 DIE KI-BLASE PLATZT⁉️ Chips crashen – Software dreht komplett auf 💥",
+    "url": "https://www.youtube.com/watch?v=G1vc50FR9mE",
+    "duration": 1565,
+    "published": null,
+    "channel": "10xTrading",
+    "handle": "@1OxTrading",
+    "status": "pending",
+    "discovered_at": "2026-09-14T20:31:08.116747+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-14T20:31:13.553899+00:00"
   }
 }

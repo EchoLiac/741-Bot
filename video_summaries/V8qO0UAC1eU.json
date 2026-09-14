@@ -6,10 +6,55 @@
   "published": null,
   "channel": "TradingKompass",
   "handle": "@TradingKompass",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-14T19:01:28.279720+00:00",
-  "attempts": 2,
-  "last_attempt": "2026-09-14T19:31:30.220604+00:00",
+  "attempts": 3,
+  "last_attempt": "2026-09-14T20:31:40.253843+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDie enCore Energy Aktie hat ihr bisheriges bullisches Chart-Setup durch einen deutlichen Abverkauf auf dem kanadischen Heimatmarkt (TSXV) invalidiert und das Megafon-Muster nach unten verlassen [00:12, 00:18]. Trotz des kurzfristigen Abwärtsdrucks sieht der Sprecher mittel- bis langfristig aufgrund bestehender bullischer Divergenzen und des intakten Rahmens im US-Chart weiterhin Erholungschancen [06:05, 07:27]. Seine eigene Position hält er unverändert, wartet für Nachkäufe jedoch eine Bestätigung der Bodenbildung ab [08:31, 09:12].\n\n### Typ\nEinzelaktie (mit kurzen Vergleichen zum Uramerikanischen Markt / Uranium-ETF)\n\n### enCore Energy Corp. (TSXV / Nasdaq)\n- **Sprecherthese:** Das vorangegangene Wave-1-2-Setup wurde invalidiert [00:12]. Der Ausbruch unter die Megafon-Unterkante auf CAD-Basis eröffnet weiteres Abwärtspotenzial bis zum 0,887 Fibonacci-Retracement, bevor eine langfristige Bodenbildung einsetzen kann [04:40, 05:35].\n- **Richtung:** Kurzfristig abwärts / neutral; mittel- bis langfristig bullisch [00:51, 05:54].\n- **Konkret belegte Levels:**\n  - Allzeithoch (ATH): 8,91 CAD [01:20]\n  - Durchbrochenes 0,786 Fib-Level: 1,47 CAD [01:50, 04:46]\n  - Nächstes Fibonacci-Supportlevel: 0,887 Fib bei 0,78 CAD [04:53] / 0,61 USD (Nasdaq) [07:55]\n  - Eigene Kauf-Tranchen des Sprechers: 1,90 CAD und 1,65 CAD [03:17, 03:20]\n  - Übergeordnete Langfrist-Ziele (Welle Y): 8,50 CAD, 10,25 CAD bis 11,30 CAD [05:55]\n- **Trigger:** Rebreak über die durchbrochene Aufwärtstrendlinie sowie das Durchbrechen der 200-Tage-Linie für ein bullisches Signal [08:06, 08:29].\n- **Invalidierung:** Unter das bisherige Tief gefallen; weiteres Abwärtsrisiko von ca. 37 % bis zum 0,887 Fib-Level [06:53].\n- **Zeithorizont:** Kurzfristig weitere Korrektur über Tage/Wochen [00:50]; langfristiges Ziel über mehrere Jahre [05:54].\n\n### Unsicherheiten & relevante Stellen im Video\n- **Widerspruch/Unterschied:** Auf dem kanadischen Chart (TSXV) wurde die untere Trendlinie des Megafon-Musters durchbrochen [00:18], während dieselbe Trendlinie auf dem US-Chart (Nasdaq) aktuell noch hält [07:27].\n- **Sehenswerte Stellen:** Minute 01:20 (Elliot-Wellen-Struktur W-X-Y auf CAD-Chart), Minute 06:11 (bullische RSI/MACD-Divergenzen) sowie Minute 07:21 (Nasdaq-Chart-Vergleich).",
+  "evidence": [
+    {
+      "timestamp": "00:14",
+      "basis": "audio",
+      "observation": "Sprecher erklärt, dass das bullische Setup von enCore Energy mit dem heutigen Abverkauf invalidiert wurde."
+    },
+    {
+      "timestamp": "01:20",
+      "basis": "visual",
+      "observation": "Chart zeigt enCore Energy Corp. (TSXV) mit ATH bei 8,91 CAD und W-X-Y Korrekturstruktur."
+    },
+    {
+      "timestamp": "03:18",
+      "basis": "audio",
+      "observation": "Sprecher nennt seine zwei Tranchen-Käufe bei 1,90 CAD und 1,65 CAD."
+    },
+    {
+      "timestamp": "04:53",
+      "basis": "visual",
+      "observation": "Einblenden des 0,887 Fibonacci-Retracements bei 0,78 CAD als nächstes Support-Level."
+    },
+    {
+      "timestamp": "06:11",
+      "basis": "visual",
+      "observation": "RSI-Indikator zeigt steigende Tiefs seit Februar 2025 bei fallendem Aktienkurs (bullische Divergenz)."
+    },
+    {
+      "timestamp": "07:27",
+      "basis": "visual",
+      "observation": "Wechsel auf den US-Nasdaq-Chart: Unterkante des Megafon-Musters wurde hier noch nicht durchbrochen."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "V8qO0UAC1eU",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-14T20:32:08.718936+00:00",
+  "discord_chunks": [
+    "🎬 **TradingKompass**\n**enCore Energy unter Druck! 😱 Gibt es noch Hoffnung? Analyse & Kursziele**\nhttps://www.youtube.com/watch?v=V8qO0UAC1eU\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDie enCore Energy Aktie hat ihr bisheriges bullisches Chart-Setup durch einen deutlichen Abverkauf auf dem kanadischen Heimatmarkt (TSXV) invalidiert und das Megafon-Muster nach unten verlassen [00:12, 00:18]. Trotz des kurzfristigen Abwärtsdrucks sieht der Sprecher mittel- bis langfristig aufgrund bestehender bullischer Divergenzen und des intakten Rahmens im US-Chart weiterhin Erholungschancen [06:05, 07:27]. Seine eigene Position hält er unverändert, wartet für Nachkäufe jedoch eine Bestätigung der Bodenbildung ab [08:31, 09:12].\n\n### Typ\nEinzelaktie (mit kurzen Vergleichen zum Uramerikanischen Markt / Uranium-ETF)\n\n### enCore Energy Corp. (TSXV / Nasdaq)\n- **Sprecherthese:** Das vorangegangene Wave-1-2-Setup wurde invalidiert [00:12]. Der Ausbruch unter die Megafon-Unterkante auf CAD-Basis eröffnet weiteres Abwärtspotenzial bis zum 0,887 Fibonacci-Retracement, bevor eine langfristige Bodenbildung einsetzen kann [04:40, 05:35].\n- **Richtung:** Kurzfristig abwärts / neutral; mittel- bis langfristig bullisch [00:51, 05:54].\n- **Konkret belegte Levels:**\n  - Allzeithoch (ATH): 8,91 CAD [01:20]\n  - Durchbrochenes 0,786 Fib-Level: 1,47 CAD [01:50, 04:46]\n  - Nächstes Fibonacci-Supportlevel: 0,887 Fib bei 0,78 CAD [04:53] / 0,61 USD (Nasdaq) [07:55]\n  - Eigene Kauf-Tranchen des Sprechers: 1,90 CAD und 1,65 CAD [03:17, 03:20]\n  - Übergeordnete Langfrist-Ziele (Welle Y): 8,50 CAD, 10,25 CAD bis 11,30 CAD [05:55]\n- **Trigger:** Rebreak über die durchbrochene Aufwärtstrendlinie sowie das Durchbrechen der 200-Tage-Linie für ein bullisches Signal [08:0",
+    "6, 08:29].\n- **Invalidierung:** Unter das bisherige Tief gefallen; weiteres Abwärtsrisiko von ca. 37 % bis zum 0,887 Fib-Level [06:53].\n- **Zeithorizont:** Kurzfristig weitere Korrektur über Tage/Wochen [00:50]; langfristiges Ziel über mehrere Jahre [05:54].\n\n### Unsicherheiten & relevante Stellen im Video\n- **Widerspruch/Unterschied:** Auf dem kanadischen Chart (TSXV) wurde die untere Trendlinie des Megafon-Musters durchbrochen [00:18], während dieselbe Trendlinie auf dem US-Chart (Nasdaq) aktuell noch hält [07:27].\n- **Sehenswerte Stellen:** Minute 01:20 (Elliot-Wellen-Struktur W-X-Y auf CAD-Chart), Minute 06:11 (bullische RSI/MACD-Divergenzen) sowie Minute 07:21 (Nasdaq-Chart-Vergleich).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-14T20:32:09.300176+00:00"
 }
