@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-14T02:31:04.723817+00:00",
-    "@wir-lieben-aktien": "2026-09-14T02:31:05.138733+00:00",
-    "@chartsekte": "2026-09-14T02:31:05.597167+00:00",
-    "@hkcm": "2026-09-14T02:31:06.087844+00:00",
-    "@phantombyhkcm": "2026-09-14T02:31:06.526260+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-14T02:31:07.008097+00:00",
-    "@aktien4future": "2026-09-14T02:31:07.438669+00:00",
-    "@Finanzbaer": "2026-09-14T02:31:07.893542+00:00",
-    "@Finanzwiesel": "2026-09-14T02:31:08.503291+00:00",
-    "@TradingKompass": "2026-09-14T02:31:09.024509+00:00",
-    "@TomVorwald": "2026-09-14T02:31:09.554691+00:00"
+    "@1OxTrading": "2026-09-14T03:01:17.832396+00:00",
+    "@wir-lieben-aktien": "2026-09-14T03:01:18.426160+00:00",
+    "@chartsekte": "2026-09-14T03:01:18.985882+00:00",
+    "@hkcm": "2026-09-14T03:01:19.605364+00:00",
+    "@phantombyhkcm": "2026-09-14T03:01:20.199578+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-14T03:01:20.708122+00:00",
+    "@aktien4future": "2026-09-14T03:01:21.361707+00:00",
+    "@Finanzbaer": "2026-09-14T03:01:21.986544+00:00",
+    "@Finanzwiesel": "2026-09-14T03:01:22.477497+00:00",
+    "@TradingKompass": "2026-09-14T03:01:23.127210+00:00",
+    "@TomVorwald": "2026-09-14T03:01:23.784366+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 11,
-    "last_attempt": "2026-09-14T02:31:09.597026+00:00"
+    "attempts": 12,
+    "last_attempt": "2026-09-14T03:02:29.734578+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -3992,5 +3992,18 @@
     "status": "baseline",
     "discovered_at": "2026-09-13T20:34:22.207786+00:00",
     "attempts": 0
+  },
+  "KojPZNi3Jyg": {
+    "id": "KojPZNi3Jyg",
+    "title": "🗓️ Oil explodes, interest rates rising, Oracle and Adobe earnings",
+    "url": "https://www.youtube.com/watch?v=KojPZNi3Jyg",
+    "duration": 1253,
+    "published": null,
+    "channel": "Wir Lieben Aktien",
+    "handle": "@wir-lieben-aktien",
+    "status": "pending",
+    "discovered_at": "2026-09-14T03:01:18.426143+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-14T03:01:23.840981+00:00"
   }
 }
