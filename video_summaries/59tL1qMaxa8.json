@@ -1,0 +1,50 @@
+{
+  "id": "59tL1qMaxa8",
+  "title": "Öl: Uns steht eine Katastrophe bevor!",
+  "url": "https://www.youtube.com/watch?v=59tL1qMaxa8",
+  "duration": 909,
+  "published": null,
+  "channel": "HKCM",
+  "handle": "@hkcm",
+  "status": "complete",
+  "discovered_at": "2026-09-14T16:01:19.137091+00:00",
+  "attempts": 1,
+  "last_attempt": "2026-09-14T16:01:22.632737+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nGeopolitische Blockaden wichtiger Ölhandelsrouten im Nahen Osten und historisch niedrige globale Lagerbestände setzen den Ölmarkt massiv unter Druck. Die Analyse sieht bei WTI-Rohöl (Light Crude Oil Futures) mittelfristig Potenzial bis 130–140 USD und langfristig über 200 USD pro Barrel. Aktuell wird auf eine Bestätigung des Ausbruchs gewartet, bevor nach einem Rücksetzer neue Positionen aufgebaut werden.\n\n### Typ\nMarkt/Makro\n\n### Ölmarkt / WTI Light Crude Oil Futures (CL1!)\n- **Sprecherthese**: Der Ölpreis befindet sich vor einer ausgeprägten Aufwärtswelle (Welle 3), deren Bestätigung ein nachhaltiger Ausbruch über den Schlüsselwiderstand ist; ein anschließender Rücksetzer bietet die nächste günstige Kaufchance.\n- **Richtung**: Bullisch (mittel- und langfristig).\n- **Konkret belegte Levels**:\n  - Aktueller Kurs: ca. 103 USD pro Barrel (07:42)\n  - Trigger/Widerstandszone: 108 USD pro Barrel (78,6% Fibonacci-Retracement bei 108,18 USD) (08:08, 08:42)\n  - Mittelfristiges Ziel (Welle 3): 130 USD bis 140 USD pro Barrel (07:38)\n  - Erwartete Kaufzone (Welle 4): voraussichtlich unter 100 USD pro Barrel (09:38)\n  - Langfristiges Ziel: über 200 USD pro Barrel (11:28)\n  - Alternatives Tiefst-Szenario (30% Wahrscheinlichkeit): 49,85 USD bis 27,93 USD pro Barrel (06:48, 11:45)\n- **Trigger**: Nachhaltiges Ansteigen über die Marke von 108 USD pro Barrel zur Bestätigung der Welle 3 (08:17, 09:01).\n- **Invalidierung**: Das primäre Aufwärtsszenario verliert an Gültigkeit, falls der Ausbruch über 108 USD ausbleibt und stattdessen das alternative Abwärtsszenario (30% Wahrscheinlichkeit) greift (11:45).\n- **Zeithorizont**: Mittelfristig (Wochen bis Monate für Welle 3 und 4) bis langfristig (Mehrjahresbasis für Kurse > 200 USD) (11:18, 11:28).\n\n### Unsicherheiten & sehenswerte Stellen\n- **Unsicherheiten**: Unklarheit herrscht bezüglich der exakten Tiefe der zukünftigen Korrekturwelle 4 sowie der 30%-Wahrscheinlichkeit eines vorherigen finalen Abverkaufs (11:45).\n- **Sehenswerte Stellen**:\n  - **00:08 / 01:56**: Übersicht der geopolitischen Blockaden an den Nadelöhren des Ölhandels (Ost-West-Pipeline, Straße von Hormus, Bab al-Mandab).\n  - **03:32 / 05:18**: Grafik zu den globalen Ölreserven und Erläuterung des *Operational Floor Levels*.\n  - **08:00–09:50**: Detailanalyse des 108-USD-Triggers und Elliott-Wellen-Szenario im 4-Stunden-Chart.\n  - **11:14–11:46**: Langfristiger Wochenchart mit Mehrjahreszielen über 200 USD.",
+  "evidence": [
+    {
+      "timestamp": "01:56",
+      "basis": "visual",
+      "observation": "Ein eingeblendetes Dokument von 'The Kobeissi Letter' beziffert die gefährdete Ölförderung durch Blockaden und Teilsschließungen in der Region auf knapp 30 Millionen Barrel pro Tag."
+    },
+    {
+      "timestamp": "05:18",
+      "basis": "visual",
+      "observation": "Die Übersicht 'SV Inventory Bands + Spot Price' zeigt die Bestände von WTI Crude Commercial Stocks, Motor Gasoline und Distillate Fuel Oil nahe historischer Tiefs."
+    },
+    {
+      "timestamp": "07:42",
+      "basis": "audio",
+      "observation": "Der Sprecher gibt den aktuellen Kurs der Light Crude Oil Futures mit circa 103 USD pro Barrel an."
+    },
+    {
+      "timestamp": "08:42",
+      "basis": "visual",
+      "observation": "Im Chart 'Light Crude Oil Futures 4h' zeichnet der Sprecher eine horizontale grüne Linie bei 108.00 USD (78.60% Retracement) als entscheidende Bestätigungsmarke ein."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
+  "video_id": "59tL1qMaxa8",
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-14T16:02:03.323600+00:00",
+  "discord_chunks": [
+    "🎬 **HKCM**\n**Öl: Uns steht eine Katastrophe bevor!**\nhttps://www.youtube.com/watch?v=59tL1qMaxa8\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nGeopolitische Blockaden wichtiger Ölhandelsrouten im Nahen Osten und historisch niedrige globale Lagerbestände setzen den Ölmarkt massiv unter Druck. Die Analyse sieht bei WTI-Rohöl (Light Crude Oil Futures) mittelfristig Potenzial bis 130–140 USD und langfristig über 200 USD pro Barrel. Aktuell wird auf eine Bestätigung des Ausbruchs gewartet, bevor nach einem Rücksetzer neue Positionen aufgebaut werden.\n\n### Typ\nMarkt/Makro\n\n### Ölmarkt / WTI Light Crude Oil Futures (CL1!)\n- **Sprecherthese**: Der Ölpreis befindet sich vor einer ausgeprägten Aufwärtswelle (Welle 3), deren Bestätigung ein nachhaltiger Ausbruch über den Schlüsselwiderstand ist; ein anschließender Rücksetzer bietet die nächste günstige Kaufchance.\n- **Richtung**: Bullisch (mittel- und langfristig).\n- **Konkret belegte Levels**:\n  - Aktueller Kurs: ca. 103 USD pro Barrel (07:42)\n  - Trigger/Widerstandszone: 108 USD pro Barrel (78,6% Fibonacci-Retracement bei 108,18 USD) (08:08, 08:42)\n  - Mittelfristiges Ziel (Welle 3): 130 USD bis 140 USD pro Barrel (07:38)\n  - Erwartete Kaufzone (Welle 4): voraussichtlich unter 100 USD pro Barrel (09:38)\n  - Langfristiges Ziel: über 200 USD pro Barrel (11:28)\n  - Alternatives Tiefst-Szenario (30% Wahrscheinlichkeit): 49,85 USD bis 27,93 USD pro Barrel (06:48, 11:45)\n- **Trigger**: Nachhaltiges Ansteigen über die Marke von 108 USD pro Barrel zur Bestätigung der Welle 3 (08:17, 09:01).\n- **Invalidierung**: Das primäre Aufwärtsszenario verliert an Gültigkeit, falls der Ausbruch über 108 USD ausbleibt und stattdessen das alternative Abwärtsszenario (30% Wahrscheinlichkeit) greift (11:45).\n-",
+    " **Zeithorizont**: Mittelfristig (Wochen bis Monate für Welle 3 und 4) bis langfristig (Mehrjahresbasis für Kurse > 200 USD) (11:18, 11:28).\n\n### Unsicherheiten & sehenswerte Stellen\n- **Unsicherheiten**: Unklarheit herrscht bezüglich der exakten Tiefe der zukünftigen Korrekturwelle 4 sowie der 30%-Wahrscheinlichkeit eines vorherigen finalen Abverkaufs (11:45).\n- **Sehenswerte Stellen**:\n  - **00:08 / 01:56**: Übersicht der geopolitischen Blockaden an den Nadelöhren des Ölhandels (Ost-West-Pipeline, Straße von Hormus, Bab al-Mandab).\n  - **03:32 / 05:18**: Grafik zu den globalen Ölreserven und Erläuterung des *Operational Floor Levels*.\n  - **08:00–09:50**: Detailanalyse des 108-USD-Triggers und Elliott-Wellen-Szenario im 4-Stunden-Chart.\n  - **11:14–11:46**: Langfristiger Wochenchart mit Mehrjahreszielen über 200 USD.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-14T16:02:04.146310+00:00"
+}

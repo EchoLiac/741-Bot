@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-14T15:31:14.863191+00:00",
-    "@wir-lieben-aktien": "2026-09-14T15:31:15.381052+00:00",
-    "@chartsekte": "2026-09-14T15:31:15.889361+00:00",
-    "@hkcm": "2026-09-14T15:31:16.505069+00:00",
-    "@phantombyhkcm": "2026-09-14T15:31:16.996599+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-14T15:31:17.483206+00:00",
-    "@aktien4future": "2026-09-14T15:31:17.963686+00:00",
-    "@Finanzbaer": "2026-09-14T15:31:18.487751+00:00",
-    "@Finanzwiesel": "2026-09-14T15:31:18.989034+00:00",
-    "@TradingKompass": "2026-09-14T15:31:19.463467+00:00",
-    "@TomVorwald": "2026-09-14T15:31:19.972683+00:00"
+    "@1OxTrading": "2026-09-14T16:01:17.646257+00:00",
+    "@wir-lieben-aktien": "2026-09-14T16:01:18.107100+00:00",
+    "@chartsekte": "2026-09-14T16:01:18.587366+00:00",
+    "@hkcm": "2026-09-14T16:01:19.137109+00:00",
+    "@phantombyhkcm": "2026-09-14T16:01:19.595977+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-14T16:01:20.014912+00:00",
+    "@aktien4future": "2026-09-14T16:01:20.569225+00:00",
+    "@Finanzbaer": "2026-09-14T16:01:21.092904+00:00",
+    "@Finanzwiesel": "2026-09-14T16:01:21.561701+00:00",
+    "@TradingKompass": "2026-09-14T16:01:22.054525+00:00",
+    "@TomVorwald": "2026-09-14T16:01:22.576480+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 37,
-    "last_attempt": "2026-09-14T15:31:20.017584+00:00"
+    "attempts": 38,
+    "last_attempt": "2026-09-14T16:02:04.150558+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -4006,5 +4006,19 @@
     "attempts": 8,
     "last_attempt": "2026-09-14T06:31:44.689001+00:00",
     "scraped_at": "2026-09-14T06:32:08.492166+00:00"
+  },
+  "59tL1qMaxa8": {
+    "id": "59tL1qMaxa8",
+    "title": "Öl: Uns steht eine Katastrophe bevor!",
+    "url": "https://www.youtube.com/watch?v=59tL1qMaxa8",
+    "duration": 909,
+    "published": null,
+    "channel": "HKCM",
+    "handle": "@hkcm",
+    "status": "complete",
+    "discovered_at": "2026-09-14T16:01:19.137091+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-14T16:01:22.632737+00:00",
+    "scraped_at": "2026-09-14T16:02:04.147253+00:00"
   }
 }
