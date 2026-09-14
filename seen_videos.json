@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-14T18:01:55.196540+00:00",
-    "@wir-lieben-aktien": "2026-09-14T18:01:55.725327+00:00",
-    "@chartsekte": "2026-09-14T18:01:56.304426+00:00",
-    "@hkcm": "2026-09-14T18:01:56.867696+00:00",
-    "@phantombyhkcm": "2026-09-14T18:01:57.489615+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-14T18:01:58.018179+00:00",
-    "@aktien4future": "2026-09-14T18:01:58.523335+00:00",
-    "@Finanzbaer": "2026-09-14T18:01:59.062944+00:00",
-    "@Finanzwiesel": "2026-09-14T18:01:59.530175+00:00",
-    "@TradingKompass": "2026-09-14T18:02:00.089677+00:00",
-    "@TomVorwald": "2026-09-14T18:02:00.617212+00:00"
+    "@1OxTrading": "2026-09-14T18:31:15.897795+00:00",
+    "@wir-lieben-aktien": "2026-09-14T18:31:16.372155+00:00",
+    "@chartsekte": "2026-09-14T18:31:16.791518+00:00",
+    "@hkcm": "2026-09-14T18:31:17.263525+00:00",
+    "@phantombyhkcm": "2026-09-14T18:31:17.804517+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-14T18:31:18.331616+00:00",
+    "@aktien4future": "2026-09-14T18:31:18.848478+00:00",
+    "@Finanzbaer": "2026-09-14T18:31:20.329288+00:00",
+    "@Finanzwiesel": "2026-09-14T18:31:20.754412+00:00",
+    "@TradingKompass": "2026-09-14T18:31:21.321372+00:00",
+    "@TomVorwald": "2026-09-14T18:31:21.851680+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 42,
-    "last_attempt": "2026-09-14T18:02:00.674468+00:00"
+    "attempts": 43,
+    "last_attempt": "2026-09-14T18:31:55.869904+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -4020,5 +4020,18 @@
     "attempts": 1,
     "last_attempt": "2026-09-14T16:01:22.632737+00:00",
     "scraped_at": "2026-09-14T16:02:04.147253+00:00"
+  },
+  "v6T5nxWxRcQ": {
+    "id": "v6T5nxWxRcQ",
+    "title": "Durch diese 6 KI-Aktien entstehen 2026 Millionäre! (Mein Plan)",
+    "url": "https://www.youtube.com/watch?v=v6T5nxWxRcQ",
+    "duration": 856,
+    "published": null,
+    "channel": "aktien4future",
+    "handle": "@aktien4future",
+    "status": "pending",
+    "discovered_at": "2026-09-14T18:31:18.848453+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-14T18:31:21.907135+00:00"
   }
 }
