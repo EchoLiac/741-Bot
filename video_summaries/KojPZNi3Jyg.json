@@ -6,10 +6,65 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-14T03:01:18.426143+00:00",
-  "attempts": 7,
-  "last_attempt": "2026-09-14T06:01:31.034188+00:00",
+  "attempts": 8,
+  "last_attempt": "2026-09-14T06:31:44.689001+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDas Video analysiert die aktuellen Marktentwicklungen rund um steigende Ölpreise, hohe US-Staatsanleihen-Renditen sowie die jüngsten Quartalszahlen von Oracle und Adobe. Trotz starker Umsatzzahlen belasten stark steigende Investitionsausgaben (CapEx) und höhere Zinskosten die Bilanz von verschuldeten Technologiekonzernen, während der Ölpreis weiter bullisches Momentum aufbaut.\n\n**Typ:** Markt/Makro sowie mehrere Aktien\n\n### Markt / Makro (Öl, Zinsen & Staatsanleihen)\n* **Sprecherthese:** Der Ölpreis (WTI / US Oil) verzeichnet ein Plus von ca. 10 % und zeigt starkes bullisches Momentum; ohne deutlichen Rückschlag sind Kursziele von 120 $ bis 130 $ erreichbar (02:15–02:30). Höhere Energie- und Frachtkosten heizen die Inflation an (Erzeugerpreise August: 5,4 % YoY) (03:26). Die Marktrenditen der 2-jährigen US-Staatsanleihen liegen mit 4,56 % deutlich über der aktuellen Fed Funds Rate von 3,63 %, was weitere Zinsanhebungen einpreist (05:01).\n* **Richtung:** Öl bullisch; Anleihen/Zinsen bärisch für bestehende Verschuldung.\n* **Levels:** US Oil Ziel 120 $ / 130 $; 2-Year Treasury Rate 4,56 %; Fed Funds Rate 3,63 %; Erzeugerpreisindex 5,4 %.\n* **Trigger:** Kommende Zinsentscheidungen der Fed sowie anderer Zentralbanken (BOE, BOJ) (16:23, 17:53).\n* **Invalidierung:** Rückschlag der Öl-Bullenbewegung.\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Oracle\n* **Sprecherthese:** Obwohl Oracle gute Quartalszahlen vorlegte (+30 % Umsatz, EPS 1,92 $ vs. 1,74 $ erwartet, Cloud-Infrastruktur +62 %), schreckten die von 8,5 Mrd. $ auf 28,5 Mrd. $ verdreifachten CapEx-Ausgaben sowie um 55 % gestiegene Zinskosten die Anleger ab (09:58–11:23). Die Aktie drehte nach anfänglichem Plus von 6 % schlussendlich ins Minus.\n* **Richtung:** Neutral bis bärisch / uninteressant (11:19).\n* **Levels:** CapEx 28,5 Mrd. $; Zinskosten +55 %; EPS 1,92 $.\n* **Trigger / Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittelfristig.\n\n### Adobe\n* **Sprecherthese:** Nach anfänglich negativer Reaktion drehte die Aktie am Freitag ins Plus (+1,37 %) und verzeichnete ein Umsatzplus von 12 % sowie erstmals über 1 Mrd. monatlich aktive Nutzer (12:41–13:09). Aufgrund angehobener Jahresziele für Umsatz und EPS sowie einer günstigen Bewertung wird die Aktie vom Sprecher positiv gesehen (15:13–15:35).\n* **Richtung:** Bullisch (13:45, 15:28).\n* **Levels:** Freitagskurs +1,37 %; Umsatz +12 %; >1 Mrd. MAU.\n* **Trigger / Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Dell & Hewlett Packard Enterprise (HPE)\n* **Sprecherthese:** Hardware- und Infrastrukturwerte profitierten weiterhin stark vom Hardware-Trade: HPE stieg in der Berichtswoche um +19,4 %, Dell um +8 % (15:42–15:55).\n* **Richtung:** Bullisch.\n* **Levels:** HPE +19,4 %; Dell +8 %.\n* **Trigger / Invalidierung / Zeithorizont:** Nicht genannt.\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Unsicherheiten:** Die Reaktionen der Finanzmärkte auf den bevorstehenden Fed-Zinsentscheid, die Veröffentlichung des Dot-Plots sowie Aussagen weiterer Notenbanken (16:23, 17:40).\n* **Lohnende Stellen:** Chartvergleich zwischen Fed Funds Rate und 2-Year Treasury Rate bei 05:01; Grafik zu den massiv steigenden Anleiheemissionen der Hyperscaler bei 11:38.",
+  "evidence": [
+    {
+      "timestamp": "02:17",
+      "basis": "audio",
+      "observation": "Sprecher berichtet von einem Kursplus von 10 % bei US Oil (WTI) und nennt Kursziele von 120 $ und 130 $."
+    },
+    {
+      "timestamp": "03:26",
+      "basis": "audio",
+      "observation": "Erzeugerpreisindex für August steigt auf 5,4 % im Jahresvergleich."
+    },
+    {
+      "timestamp": "05:01",
+      "basis": "visual",
+      "observation": "Grafik zeigt Fed Funds Rate vs. 2-Year Treasury Rate: 2-Year Treasury Rate bei 4,56 %, Effective Fed Funds Rate bei 3,63 %."
+    },
+    {
+      "timestamp": "09:58",
+      "basis": "audio",
+      "observation": "Oracle meldet ein Umsatzplus von 30 %, ein bereinigtes EPS von 1,92 $ (vs. 1,74 $ Erwartung) und ein Cloud-Wachstum von 62 %."
+    },
+    {
+      "timestamp": "10:38",
+      "basis": "audio",
+      "observation": "Sprecher nennt CapEx-Ausgaben von Oracle von 28,5 Mrd. $ gegenüber 8,5 Mrd. $ im Vorjahr."
+    },
+    {
+      "timestamp": "11:38",
+      "basis": "visual",
+      "observation": "Grafik 'Hyperscaler Debt Sales Skyrocket' zeigt Bonds Issuance der Hyperscaler (Amazon, Alphabet, Microsoft, Meta) für 2026 von über 200 Mrd. $."
+    },
+    {
+      "timestamp": "13:03",
+      "basis": "audio",
+      "observation": "Adobe schließt am Freitag mit +1,37 %, meldet +12 % Umsatzwachstum und über 1 Mrd. monatlich aktive Nutzer."
+    },
+    {
+      "timestamp": "15:42",
+      "basis": "audio",
+      "observation": "Sprecher nennt Wochenperformances von HPE (+19,4 %) und Dell (+8 %)."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "KojPZNi3Jyg",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-14T06:32:07.736010+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**🗓️ Oil explodes, interest rates rising, Oracle and Adobe earnings**\nhttps://www.youtube.com/watch?v=KojPZNi3Jyg\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDas Video analysiert die aktuellen Marktentwicklungen rund um steigende Ölpreise, hohe US-Staatsanleihen-Renditen sowie die jüngsten Quartalszahlen von Oracle und Adobe. Trotz starker Umsatzzahlen belasten stark steigende Investitionsausgaben (CapEx) und höhere Zinskosten die Bilanz von verschuldeten Technologiekonzernen, während der Ölpreis weiter bullisches Momentum aufbaut.\n\n**Typ:** Markt/Makro sowie mehrere Aktien\n\n### Markt / Makro (Öl, Zinsen & Staatsanleihen)\n* **Sprecherthese:** Der Ölpreis (WTI / US Oil) verzeichnet ein Plus von ca. 10 % und zeigt starkes bullisches Momentum; ohne deutlichen Rückschlag sind Kursziele von 120 $ bis 130 $ erreichbar (02:15–02:30). Höhere Energie- und Frachtkosten heizen die Inflation an (Erzeugerpreise August: 5,4 % YoY) (03:26). Die Marktrenditen der 2-jährigen US-Staatsanleihen liegen mit 4,56 % deutlich über der aktuellen Fed Funds Rate von 3,63 %, was weitere Zinsanhebungen einpreist (05:01).\n* **Richtung:** Öl bullisch; Anleihen/Zinsen bärisch für bestehende Verschuldung.\n* **Levels:** US Oil Ziel 120 $ / 130 $; 2-Year Treasury Rate 4,56 %; Fed Funds Rate 3,63 %; Erzeugerpreisindex 5,4 %.\n* **Trigger:** Kommende Zinsentscheidungen der Fed sowie anderer Zentralbanken (BOE, BOJ) (16:23, 17:53).\n* **Invalidierung:** Rückschlag der Öl-Bullenbewegung.\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Oracle\n* **Sprecherthese:** Obwohl Oracle gute Quartalszahlen vorlegte (+30 % Umsatz, EPS 1,92 $ vs. 1,74 $ erwartet, Cloud-Infrastruktur +62 %), schreckten die von 8,5 Mrd. $ auf 28,5 Mrd. $ verdreifachten C",
+    "apEx-Ausgaben sowie um 55 % gestiegene Zinskosten die Anleger ab (09:58–11:23). Die Aktie drehte nach anfänglichem Plus von 6 % schlussendlich ins Minus.\n* **Richtung:** Neutral bis bärisch / uninteressant (11:19).\n* **Levels:** CapEx 28,5 Mrd. $; Zinskosten +55 %; EPS 1,92 $.\n* **Trigger / Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittelfristig.\n\n### Adobe\n* **Sprecherthese:** Nach anfänglich negativer Reaktion drehte die Aktie am Freitag ins Plus (+1,37 %) und verzeichnete ein Umsatzplus von 12 % sowie erstmals über 1 Mrd. monatlich aktive Nutzer (12:41–13:09). Aufgrund angehobener Jahresziele für Umsatz und EPS sowie einer günstigen Bewertung wird die Aktie vom Sprecher positiv gesehen (15:13–15:35).\n* **Richtung:** Bullisch (13:45, 15:28).\n* **Levels:** Freitagskurs +1,37 %; Umsatz +12 %; >1 Mrd. MAU.\n* **Trigger / Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Dell & Hewlett Packard Enterprise (HPE)\n* **Sprecherthese:** Hardware- und Infrastrukturwerte profitierten weiterhin stark vom Hardware-Trade: HPE stieg in der Berichtswoche um +19,4 %, Dell um +8 % (15:42–15:55).\n* **Richtung:** Bullisch.\n* **Levels:** HPE +19,4 %; Dell +8 %.\n* **Trigger / Invalidierung / Zeithorizont:** Nicht genannt.\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Unsicherheiten:** Die Reaktionen der Finanzmärkte auf den bevorstehenden Fed-Zinsentscheid, die Veröffentlichung des Dot-Plots sowie Aussagen weiterer Notenbanken (16:23, 17:40).\n* **Lohnende Stellen:** Chartvergleich zwischen Fed Funds Rate und 2-Year Treasury Rate bei 05:01; Grafik zu den massiv steigenden Anleiheemissionen der Hyperscaler bei 11:38.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-14T06:32:08.472278+00:00"
 }
