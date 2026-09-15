@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-15T19:31:22.137568+00:00",
-    "@wir-lieben-aktien": "2026-09-15T19:31:22.677148+00:00",
-    "@chartsekte": "2026-09-15T19:31:23.138125+00:00",
-    "@hkcm": "2026-09-15T19:31:23.659174+00:00",
-    "@phantombyhkcm": "2026-09-15T19:31:24.166035+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T19:31:24.664809+00:00",
-    "@aktien4future": "2026-09-15T19:31:25.126039+00:00",
-    "@Finanzbaer": "2026-09-15T19:31:25.612516+00:00",
-    "@Finanzwiesel": "2026-09-15T19:31:26.117791+00:00",
-    "@TradingKompass": "2026-09-15T19:31:26.578801+00:00",
-    "@TomVorwald": "2026-09-15T19:31:27.308201+00:00"
+    "@1OxTrading": "2026-09-15T20:01:20.553871+00:00",
+    "@wir-lieben-aktien": "2026-09-15T20:01:21.121929+00:00",
+    "@chartsekte": "2026-09-15T20:01:21.750157+00:00",
+    "@hkcm": "2026-09-15T20:01:22.377253+00:00",
+    "@phantombyhkcm": "2026-09-15T20:01:22.971552+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T20:01:23.542906+00:00",
+    "@aktien4future": "2026-09-15T20:01:24.159443+00:00",
+    "@Finanzbaer": "2026-09-15T20:01:24.908753+00:00",
+    "@Finanzwiesel": "2026-09-15T20:01:25.455840+00:00",
+    "@TradingKompass": "2026-09-15T20:01:26.041776+00:00",
+    "@TomVorwald": "2026-09-15T20:01:26.645426+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4413,7 +4413,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123295+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T20:01:26.702240+00:00"
   },
   "xd6G3M3I3zc": {
     "id": "xd6G3M3I3zc",
@@ -4425,7 +4426,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123297+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T20:02:14.208041+00:00"
   },
   "vIXLO0f0OCY": {
     "id": "vIXLO0f0OCY",
@@ -4437,7 +4439,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123298+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T20:02:20.391453+00:00"
   },
   "B-gmRD_Gamc": {
     "id": "B-gmRD_Gamc",
