@@ -8,8 +8,8 @@
   "handle": "@Finanzwiesel",
   "status": "analysis_failed",
   "discovered_at": "2026-09-15T10:01:24.817443+00:00",
-  "attempts": 3,
-  "last_attempt": "2026-09-15T11:03:29.218910+00:00",
+  "attempts": 4,
+  "last_attempt": "2026-09-15T11:32:17.347080+00:00",
   "video_id": "I4tMqss0bQY",
   "scanner_version": "video-first-v3"
 }
