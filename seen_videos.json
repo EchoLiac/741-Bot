@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-15T20:01:20.553871+00:00",
-    "@wir-lieben-aktien": "2026-09-15T20:01:21.121929+00:00",
-    "@chartsekte": "2026-09-15T20:01:21.750157+00:00",
-    "@hkcm": "2026-09-15T20:01:22.377253+00:00",
-    "@phantombyhkcm": "2026-09-15T20:01:22.971552+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T20:01:23.542906+00:00",
-    "@aktien4future": "2026-09-15T20:01:24.159443+00:00",
-    "@Finanzbaer": "2026-09-15T20:01:24.908753+00:00",
-    "@Finanzwiesel": "2026-09-15T20:01:25.455840+00:00",
-    "@TradingKompass": "2026-09-15T20:01:26.041776+00:00",
-    "@TomVorwald": "2026-09-15T20:01:26.645426+00:00"
+    "@1OxTrading": "2026-09-15T20:31:08.897381+00:00",
+    "@wir-lieben-aktien": "2026-09-15T20:31:09.352949+00:00",
+    "@chartsekte": "2026-09-15T20:31:09.883726+00:00",
+    "@hkcm": "2026-09-15T20:31:10.455889+00:00",
+    "@phantombyhkcm": "2026-09-15T20:31:10.981786+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T20:31:12.275413+00:00",
+    "@aktien4future": "2026-09-15T20:31:12.757558+00:00",
+    "@Finanzbaer": "2026-09-15T20:31:13.292257+00:00",
+    "@Finanzwiesel": "2026-09-15T20:31:13.748218+00:00",
+    "@TradingKompass": "2026-09-15T20:31:14.301553+00:00",
+    "@TomVorwald": "2026-09-15T20:31:15.106443+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4452,7 +4452,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123300+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T20:31:15.163762+00:00"
   },
   "XP4I9U6Ktcg": {
     "id": "XP4I9U6Ktcg",
@@ -4464,7 +4465,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123302+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T20:31:21.616503+00:00"
   },
   "J9eh5rOEWa4": {
     "id": "J9eh5rOEWa4",
@@ -4476,7 +4478,8 @@
     "handle": "@hkcm",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:27.314372+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T20:32:00.916544+00:00"
   },
   "wYD1eAw8NaQ": {
     "id": "wYD1eAw8NaQ",
@@ -4572,6 +4575,18 @@
     "handle": "@TradingKompass",
     "status": "pending",
     "discovered_at": "2026-09-15T19:31:26.578777+00:00",
+    "attempts": 0
+  },
+  "iTGvWujIYTA": {
+    "id": "iTGvWujIYTA",
+    "title": "🚨 ÖL-SCHOCK trifft 5-%-ZINSEN: Das Setup vor der FED 💥 Bitcoin 💥 Nvidia Tesla Coinbase Micron",
+    "url": "https://www.youtube.com/watch?v=iTGvWujIYTA",
+    "duration": 1414,
+    "published": null,
+    "channel": "10xTrading",
+    "handle": "@1OxTrading",
+    "status": "pending",
+    "discovered_at": "2026-09-15T20:31:08.897355+00:00",
     "attempts": 0
   }
 }
