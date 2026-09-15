@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-15T09:31:09.679768+00:00",
-    "@wir-lieben-aktien": "2026-09-15T09:31:10.136517+00:00",
-    "@chartsekte": "2026-09-15T09:31:10.587059+00:00",
-    "@hkcm": "2026-09-15T09:31:11.112586+00:00",
-    "@phantombyhkcm": "2026-09-15T09:31:11.637968+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T09:31:12.060030+00:00",
-    "@aktien4future": "2026-09-15T09:31:12.556848+00:00",
-    "@Finanzbaer": "2026-09-15T09:31:12.977813+00:00",
-    "@Finanzwiesel": "2026-09-15T09:31:13.428477+00:00",
-    "@TradingKompass": "2026-09-15T09:31:13.902499+00:00",
-    "@TomVorwald": "2026-09-15T09:31:14.537897+00:00"
+    "@1OxTrading": "2026-09-15T10:01:20.456984+00:00",
+    "@wir-lieben-aktien": "2026-09-15T10:01:20.983217+00:00",
+    "@chartsekte": "2026-09-15T10:01:21.486303+00:00",
+    "@hkcm": "2026-09-15T10:01:22.063921+00:00",
+    "@phantombyhkcm": "2026-09-15T10:01:22.578576+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T10:01:23.212527+00:00",
+    "@aktien4future": "2026-09-15T10:01:23.729559+00:00",
+    "@Finanzbaer": "2026-09-15T10:01:24.299287+00:00",
+    "@Finanzwiesel": "2026-09-15T10:01:24.817464+00:00",
+    "@TradingKompass": "2026-09-15T10:01:25.343174+00:00",
+    "@TomVorwald": "2026-09-15T10:01:25.961000+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 70,
-    "last_attempt": "2026-09-15T09:31:14.594890+00:00"
+    "attempts": 71,
+    "last_attempt": "2026-09-15T10:01:46.319670+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -4076,5 +4076,18 @@
     "attempts": 4,
     "last_attempt": "2026-09-14T22:32:19.932184+00:00",
     "scraped_at": "2026-09-14T22:34:22.932905+00:00"
+  },
+  "I4tMqss0bQY": {
+    "id": "I4tMqss0bQY",
+    "title": "Diese Multiples sind NICHT günstig! | CrowdStrike, Astera Labs & Hims & Hers",
+    "url": "https://www.youtube.com/watch?v=I4tMqss0bQY",
+    "duration": 1150,
+    "published": null,
+    "channel": "Finanzwiesel",
+    "handle": "@Finanzwiesel",
+    "status": "pending",
+    "discovered_at": "2026-09-15T10:01:24.817443+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-15T10:01:26.019908+00:00"
   }
 }
