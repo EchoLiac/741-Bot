@@ -8,8 +8,8 @@
   "handle": "@aktien4future",
   "status": "analysis_failed",
   "discovered_at": "2026-09-14T18:31:18.848453+00:00",
-  "attempts": 12,
-  "last_attempt": "2026-09-15T01:01:38.033305+00:00",
+  "attempts": 13,
+  "last_attempt": "2026-09-15T01:31:36.462904+00:00",
   "video_id": "v6T5nxWxRcQ",
   "scanner_version": "video-first-v3"
 }
