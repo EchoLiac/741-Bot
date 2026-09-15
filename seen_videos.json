@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-15T18:31:10.562363+00:00",
-    "@wir-lieben-aktien": "2026-09-15T18:31:11.006675+00:00",
-    "@chartsekte": "2026-09-15T18:31:11.521746+00:00",
-    "@hkcm": "2026-09-15T18:31:12.166678+00:00",
-    "@phantombyhkcm": "2026-09-15T18:31:12.763757+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T18:31:13.296372+00:00",
-    "@aktien4future": "2026-09-15T18:31:13.794943+00:00",
-    "@Finanzbaer": "2026-09-15T18:31:14.311275+00:00",
-    "@Finanzwiesel": "2026-09-15T18:31:14.730075+00:00",
-    "@TradingKompass": "2026-09-15T18:31:15.250984+00:00",
-    "@TomVorwald": "2026-09-15T18:31:15.742970+00:00"
+    "@1OxTrading": "2026-09-15T19:01:15.210115+00:00",
+    "@wir-lieben-aktien": "2026-09-15T19:01:15.834723+00:00",
+    "@chartsekte": "2026-09-15T19:01:16.304035+00:00",
+    "@hkcm": "2026-09-15T19:01:16.788986+00:00",
+    "@phantombyhkcm": "2026-09-15T19:01:17.322761+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T19:01:17.834352+00:00",
+    "@aktien4future": "2026-09-15T19:01:18.353349+00:00",
+    "@Finanzbaer": "2026-09-15T19:01:18.861110+00:00",
+    "@Finanzwiesel": "2026-09-15T19:01:19.328853+00:00",
+    "@TradingKompass": "2026-09-15T19:01:19.816122+00:00",
+    "@TomVorwald": "2026-09-15T19:01:20.367024+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4335,7 +4335,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123285+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T19:01:20.424629+00:00"
   },
   "iYNRd4D-6aY": {
     "id": "iYNRd4D-6aY",
@@ -4347,7 +4348,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123287+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T19:01:26.846843+00:00"
   },
   "ZLARY-VOqt4": {
     "id": "ZLARY-VOqt4",
@@ -4359,7 +4361,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123289+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T19:01:32.960022+00:00"
   },
   "DDnXQ9bPn50": {
     "id": "DDnXQ9bPn50",
