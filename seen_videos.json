@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-15T20:31:08.897381+00:00",
-    "@wir-lieben-aktien": "2026-09-15T20:31:09.352949+00:00",
-    "@chartsekte": "2026-09-15T20:31:09.883726+00:00",
-    "@hkcm": "2026-09-15T20:31:10.455889+00:00",
-    "@phantombyhkcm": "2026-09-15T20:31:10.981786+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T20:31:12.275413+00:00",
-    "@aktien4future": "2026-09-15T20:31:12.757558+00:00",
-    "@Finanzbaer": "2026-09-15T20:31:13.292257+00:00",
-    "@Finanzwiesel": "2026-09-15T20:31:13.748218+00:00",
-    "@TradingKompass": "2026-09-15T20:31:14.301553+00:00",
-    "@TomVorwald": "2026-09-15T20:31:15.106443+00:00"
+    "@1OxTrading": "2026-09-15T21:01:16.190204+00:00",
+    "@wir-lieben-aktien": "2026-09-15T21:01:16.672412+00:00",
+    "@chartsekte": "2026-09-15T21:01:17.244135+00:00",
+    "@hkcm": "2026-09-15T21:01:17.791886+00:00",
+    "@phantombyhkcm": "2026-09-15T21:01:18.306968+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T21:01:18.777946+00:00",
+    "@aktien4future": "2026-09-15T21:01:19.462194+00:00",
+    "@Finanzbaer": "2026-09-15T21:01:20.002936+00:00",
+    "@Finanzwiesel": "2026-09-15T21:01:20.524871+00:00",
+    "@TradingKompass": "2026-09-15T21:01:21.011674+00:00",
+    "@TomVorwald": "2026-09-15T21:01:21.542164+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4491,7 +4491,8 @@
     "handle": "@ChartsCarsbyPhilipKlinkmüller",
     "status": "pending",
     "discovered_at": "2026-09-15T16:31:18.125977+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T21:01:21.589300+00:00"
   },
   "P7m6TrZ7s9I": {
     "id": "P7m6TrZ7s9I",
@@ -4503,7 +4504,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T17:01:19.092556+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T21:02:27.598657+00:00"
   },
   "Oc6NAKwxb40": {
     "id": "Oc6NAKwxb40",
@@ -4515,7 +4517,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-15T17:01:20.421869+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T21:03:33.596347+00:00"
   },
   "Dpw7_pZwdSo": {
     "id": "Dpw7_pZwdSo",
