@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-15T19:01:15.210115+00:00",
-    "@wir-lieben-aktien": "2026-09-15T19:01:15.834723+00:00",
-    "@chartsekte": "2026-09-15T19:01:16.304035+00:00",
-    "@hkcm": "2026-09-15T19:01:16.788986+00:00",
-    "@phantombyhkcm": "2026-09-15T19:01:17.322761+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T19:01:17.834352+00:00",
-    "@aktien4future": "2026-09-15T19:01:18.353349+00:00",
-    "@Finanzbaer": "2026-09-15T19:01:18.861110+00:00",
-    "@Finanzwiesel": "2026-09-15T19:01:19.328853+00:00",
-    "@TradingKompass": "2026-09-15T19:01:19.816122+00:00",
-    "@TomVorwald": "2026-09-15T19:01:20.367024+00:00"
+    "@1OxTrading": "2026-09-15T19:31:22.137568+00:00",
+    "@wir-lieben-aktien": "2026-09-15T19:31:22.677148+00:00",
+    "@chartsekte": "2026-09-15T19:31:23.138125+00:00",
+    "@hkcm": "2026-09-15T19:31:23.659174+00:00",
+    "@phantombyhkcm": "2026-09-15T19:31:24.166035+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T19:31:24.664809+00:00",
+    "@aktien4future": "2026-09-15T19:31:25.126039+00:00",
+    "@Finanzbaer": "2026-09-15T19:31:25.612516+00:00",
+    "@Finanzwiesel": "2026-09-15T19:31:26.117791+00:00",
+    "@TradingKompass": "2026-09-15T19:31:26.578801+00:00",
+    "@TomVorwald": "2026-09-15T19:31:27.308201+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4374,7 +4374,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123290+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T19:31:27.346225+00:00"
   },
   "dV7fcJQH688": {
     "id": "dV7fcJQH688",
@@ -4386,7 +4387,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123292+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T19:32:33.905098+00:00"
   },
   "z6225OAGDHg": {
     "id": "z6225OAGDHg",
@@ -4398,7 +4400,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123294+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T19:32:40.251146+00:00"
   },
   "1nS8ZT2maOA": {
     "id": "1nS8ZT2maOA",
@@ -4554,6 +4557,18 @@
     "handle": "@TomVorwald",
     "status": "pending",
     "discovered_at": "2026-09-15T18:31:15.742950+00:00",
+    "attempts": 0
+  },
+  "Gy6vo_BFmT8": {
+    "id": "Gy6vo_BFmT8",
+    "title": "IREN Limited - This Is Where It All Happens! 👀 Analysis & Price Targets",
+    "url": "https://www.youtube.com/watch?v=Gy6vo_BFmT8",
+    "duration": 571,
+    "published": null,
+    "channel": "TradingKompass",
+    "handle": "@TradingKompass",
+    "status": "pending",
+    "discovered_at": "2026-09-15T19:31:26.578777+00:00",
     "attempts": 0
   }
 }
