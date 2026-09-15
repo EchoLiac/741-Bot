@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-15T21:01:16.190204+00:00",
-    "@wir-lieben-aktien": "2026-09-15T21:01:16.672412+00:00",
-    "@chartsekte": "2026-09-15T21:01:17.244135+00:00",
-    "@hkcm": "2026-09-15T21:01:17.791886+00:00",
-    "@phantombyhkcm": "2026-09-15T21:01:18.306968+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T21:01:18.777946+00:00",
-    "@aktien4future": "2026-09-15T21:01:19.462194+00:00",
-    "@Finanzbaer": "2026-09-15T21:01:20.002936+00:00",
-    "@Finanzwiesel": "2026-09-15T21:01:20.524871+00:00",
-    "@TradingKompass": "2026-09-15T21:01:21.011674+00:00",
-    "@TomVorwald": "2026-09-15T21:01:21.542164+00:00"
+    "@1OxTrading": "2026-09-15T21:31:14.882159+00:00",
+    "@wir-lieben-aktien": "2026-09-15T21:31:15.348580+00:00",
+    "@chartsekte": "2026-09-15T21:31:15.853022+00:00",
+    "@hkcm": "2026-09-15T21:31:16.433448+00:00",
+    "@phantombyhkcm": "2026-09-15T21:31:17.041360+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T21:31:17.512037+00:00",
+    "@aktien4future": "2026-09-15T21:31:18.036648+00:00",
+    "@Finanzbaer": "2026-09-15T21:31:18.678923+00:00",
+    "@Finanzwiesel": "2026-09-15T21:31:19.149264+00:00",
+    "@TradingKompass": "2026-09-15T21:31:19.616209+00:00",
+    "@TomVorwald": "2026-09-15T21:31:20.157140+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4530,7 +4530,8 @@
     "handle": "@chartsekte",
     "status": "pending",
     "discovered_at": "2026-09-15T18:01:33.596396+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T21:31:20.203546+00:00"
   },
   "rWlUrqJjS34": {
     "id": "rWlUrqJjS34",
@@ -4542,7 +4543,8 @@
     "handle": "@1OxTrading",
     "status": "pending",
     "discovered_at": "2026-09-15T18:31:10.562338+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T21:32:26.416738+00:00"
   },
   "_QN3qWNSa_4": {
     "id": "_QN3qWNSa_4",
@@ -4554,7 +4556,8 @@
     "handle": "@aktien4future",
     "status": "pending",
     "discovered_at": "2026-09-15T18:31:13.794923+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T21:32:32.497077+00:00"
   },
   "nE4pyD105Ys": {
     "id": "nE4pyD105Ys",
