@@ -6,10 +6,76 @@
   "published": null,
   "channel": "aktien4future",
   "handle": "@aktien4future",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-14T18:31:18.848453+00:00",
-  "attempts": 17,
-  "last_attempt": "2026-09-15T03:31:20.877648+00:00",
+  "attempts": 18,
+  "last_attempt": "2026-09-15T04:01:23.910520+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher präsentiert sechs ausgewählte KI-Aktien für die Jahre 2026/2027 aus den Bereichen Cybersicherheit, Quantencomputing, KI-Cloud-Infrastruktur und Speicherchips. Trotz teils hoher Bewertungen oder hoher Schuldenlast sieht er in diesen Titeln das größte Potenzial für künftiges Wachstum (00:51). Eine Kaufempfehlung wird ausdrücklich ausgeschlossen (01:38).\n\n**Typ:** mehrere Aktien / Markt-Update\n\n---\n\n### CrowdStrike (CRWD)\n* **Sprecherthese:** Nimmt eine unterschätzte Schlüsselrolle bei der Absicherung autonomer KI-Agenten und Netzwerke ein (02:08).\n* **Richtung:** Bullish / Positiv (02:08).\n* **Konkret belegte Levels:** Q2-Umsatz 1,471 Mrd. USD (+26% YoY) (02:13); Net New ARR 333 Mio. USD (+51%) (02:31); Marktkapitalisierung 243,04 Mrd. USD (03:36); Chart-Levels: nicht genannt.\n* **Trigger:** nicht genannt.\n* **Invalidierung / Risiken:** Hohe Bewertung mit dem ca. 36-fachen Jahresumsatz (03:42) sowie eigene Software-Sicherheitslücken (03:49).\n* **Zeithorizont:** 2026–2027 (00:51).\n\n### IonQ (IONQ)\n* **Sprecherthese:** Profitiert als Marktführer im Quantencomputing stark von der Nachfrage nach quantensicherer Verschlüsselung (04:21).\n* **Richtung:** Spekulativ Positiv (04:05).\n* **Konkret belegte Levels:** Q2-Umsatz 80,1 Mio. USD (+287%) (04:26); Jahresprognose 2026 angehoben auf 280–290 Mio. USD (04:26) bzw. 450–460 Mio. USD inkl. Übernahme (04:36); Auftragsbestand (RPO) +297% (05:02); Chart-Levels: nicht genannt.\n* **Trigger:** nicht genannt.\n* **Invalidierung / Risiken:** Hoher operativer Verlust (>300 Mio. USD EBITDA-Verlust 2026) (05:08); nächste Systemgeneration erst 2027 (05:17).\n* **Zeithorizont:** 2026–2027 (00:51).\n\n### CoreWeave\n* **Sprecherthese:** Pure-Play KI-Cloudanbieter mit enorm starkem Auftrags- und Umsatzwachstum (08:05).\n* **Richtung:** Positiv operativ / Risikobehaftet (08:05).\n* **Konkret belegte Levels:** Q2-Umsatz 2,6 Mrd. USD (+112%) (08:14); Auftragsbestand 104,2 Mrd. USD (+246%) (08:24); Jahresumsatzprognose 12,4–13,2 Mrd. USD (08:28); Chart-Levels: nicht genannt.\n* **Trigger:** nicht genannt.\n* **Invalidierung / Risiken:** Quartalszinsen von 640 Mio. USD übersteigen das operative Ergebnis von 128 Mio. USD um das Vielfache (08:52); hohe schuldenfinanzierte Capex (35–39 Mrd. USD) (09:00).\n* **Zeithorizont:** 2026 (08:28).\n\n### Nebius (NEBIUS)\n* **Sprecherthese:** Besser finanzierte KI-Cloud-Alternative zu CoreWeave mit höherem Kurspotenzial und Kundenvorauszahlungen (09:20).\n* **Richtung:** Bullish / Positiv (09:20).\n* **Konkret belegte Levels:** Q2-Umsatz 582 Mio. USD (+454%) (09:26); Adjusted EBITDA 236,2 Mio. USD (41% Marge) (09:37); Cash-Bestand 8 Mrd. USD (09:52); Chart-Levels: nicht genannt.\n* **Trigger:** nicht genannt.\n* **Invalidierung / Risiken:** Extrem hohes Investitionsvolumen (20–25 Mrd. USD Capex) im Vergleich zum Jahresumsatz von 3–3,4 Mrd. USD (10:26).\n* **Zeithorizont:** 2026 (09:42).\n\n### Palantir Technologies (PLTR)\n* **Sprecherthese:** Exzellentes Wachstum im US-Kommerzialgeschäft und herausragende Bestandskundenbindung (10:41).\n* **Richtung:** Bullish / Kernposition des Sprechers (10:41).\n* **Konkret belegte Levels:** Q2-Umsatz 1,94 Mrd. USD (+93%) (10:53); US-Commercial +149% (10:58); Net Dollar Retention Rate 157% (11:12); Cash-Bestand 9,2 Mrd. USD ohne Schulden (11:25); Chart-Levels: nicht genannt.\n* **Trigger:** nicht genannt.\n* **Invalidierung / Risiken:** Sehr hohe Bewertung; bereits ein schwächeres Quartal führte historisch zu -30% Kursverlust (11:34).\n* **Zeithorizont:** 2026–2027 (00:51).\n\n### Micron Technology (MU)\n* **Sprecherthese:** Günstigste Aktie der Liste mit extremem Gewinnwachstum durch strukturelle KI-Speicherknappheit (11:47).\n* **Richtung:** Bullish / Positiv (12:55).\n* **Konkret belegte Levels:** FQ3-Umsatz 41,5 Mrd. USD (+346% YoY) (11:54); Bruttomarge 84,9% (12:07); Nettogewinn 28,2 Mrd. USD im Quartal (12:15); Forward-KGV ~5,97 (12:55); Chart-Levels: nicht genannt.\n* **Trigger:** nicht genannt.\n* **Invalidierung / Risiken:** Historisch hohe Zyklizität des Speichermarktes und Bedenken über die Dauerhaftigkeit des Booms (13:02).\n* **Zeithorizont:** Über 2027 hinaus (12:40).\n\n---\n\n### Unsicherheiten & sehenswerte Stellen\n* **Unsicherheiten:** Hohe allgemeine Volatilität bei Einzelaktien (Rücksetzer von 30–40% möglich) (01:48) sowie das Risiko zyklischer Dämpfer bei Speicherchips und hoher Zinsbelastung bei Infrastrukturanbietern.\n* **Sehenswerte Stellen:**\n  * **02:38:** Fallbeispiel zum KI-Sicherheitsausbruch bei OpenAI/Hugging Face.\n  * **08:51:** Analyse der Zins- und Schuldenproblematik bei CoreWeave.\n  * **11:54:** Detaillierter Blick auf die Margenexplosion bei Micron Technology.",
+  "evidence": [
+    {
+      "timestamp": "00:51",
+      "basis": "audio",
+      "observation": "Sprecher kündigt 6 KI-Aktien an, die in 2026 und 2027 großes Potenzial bieten."
+    },
+    {
+      "timestamp": "01:38",
+      "basis": "visual",
+      "observation": "Disclaimer-Einblendung: Keine Anlageberatung oder Kaufempfehlung."
+    },
+    {
+      "timestamp": "02:13",
+      "basis": "visual",
+      "observation": "CrowdStrike Q2 FY2027 Total Revenue $1,471 Million (+26% YoY Growth)."
+    },
+    {
+      "timestamp": "04:26",
+      "basis": "visual",
+      "observation": "IonQ Q2 2026 Revenue $80.1M (+287% YoY Growth)."
+    },
+    {
+      "timestamp": "08:14",
+      "basis": "visual",
+      "observation": "CoreWeave Q2'26 Highlights: Revenue $2.6B (+112% YoY), Revenue Backlog $104.2B."
+    },
+    {
+      "timestamp": "08:51",
+      "basis": "visual",
+      "observation": "CoreWeave Zinsaufwendungen erreichen $640 Million im letzten Quartal."
+    },
+    {
+      "timestamp": "09:26",
+      "basis": "visual",
+      "observation": "Nebius Group Q2 Revenue Up 454% YoY to $582M."
+    },
+    {
+      "timestamp": "10:53",
+      "basis": "visual",
+      "observation": "Palantir Q2 Total Revenue Growth: $1.94B (+93% YoY)."
+    },
+    {
+      "timestamp": "11:54",
+      "basis": "visual",
+      "observation": "Micron FQ3-26 Revenue $41.5B (+346% Y/Y)."
+    },
+    {
+      "timestamp": "12:55",
+      "basis": "visual",
+      "observation": "Micron Forward PE Ratio 5.97 Stand 14. Sep 2026."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "v6T5nxWxRcQ",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-15T04:01:56.380778+00:00",
+  "discord_chunks": [
+    "🎬 **aktien4future**\n**Durch diese 6 KI-Aktien entstehen 2026 Millionäre! (Mein Plan)**\nhttps://www.youtube.com/watch?v=v6T5nxWxRcQ\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher präsentiert sechs ausgewählte KI-Aktien für die Jahre 2026/2027 aus den Bereichen Cybersicherheit, Quantencomputing, KI-Cloud-Infrastruktur und Speicherchips. Trotz teils hoher Bewertungen oder hoher Schuldenlast sieht er in diesen Titeln das größte Potenzial für künftiges Wachstum (00:51). Eine Kaufempfehlung wird ausdrücklich ausgeschlossen (01:38).\n\n**Typ:** mehrere Aktien / Markt-Update\n\n---\n\n### CrowdStrike (CRWD)\n* **Sprecherthese:** Nimmt eine unterschätzte Schlüsselrolle bei der Absicherung autonomer KI-Agenten und Netzwerke ein (02:08).\n* **Richtung:** Bullish / Positiv (02:08).\n* **Konkret belegte Levels:** Q2-Umsatz 1,471 Mrd. USD (+26% YoY) (02:13); Net New ARR 333 Mio. USD (+51%) (02:31); Marktkapitalisierung 243,04 Mrd. USD (03:36); Chart-Levels: nicht genannt.\n* **Trigger:** nicht genannt.\n* **Invalidierung / Risiken:** Hohe Bewertung mit dem ca. 36-fachen Jahresumsatz (03:42) sowie eigene Software-Sicherheitslücken (03:49).\n* **Zeithorizont:** 2026–2027 (00:51).\n\n### IonQ (IONQ)\n* **Sprecherthese:** Profitiert als Marktführer im Quantencomputing stark von der Nachfrage nach quantensicherer Verschlüsselung (04:21).\n* **Richtung:** Spekulativ Positiv (04:05).\n* **Konkret belegte Levels:** Q2-Umsatz 80,1 Mio. USD (+287%) (04:26); Jahresprognose 2026 angehoben auf 280–290 Mio. USD (04:26) bzw. 450–460 Mio. USD inkl. Übernahme (04:36); Auftragsbestand (RPO) +297% (05:02); Chart-Levels: nicht genannt.\n* **Trigger:** nicht genannt.\n* **Invalidierung / Risiken:** Hoher operativer Verlust (>300 Mio. USD EBITDA-Verlust 2026) (05:08); ",
+    "nächste Systemgeneration erst 2027 (05:17).\n* **Zeithorizont:** 2026–2027 (00:51).\n\n### CoreWeave\n* **Sprecherthese:** Pure-Play KI-Cloudanbieter mit enorm starkem Auftrags- und Umsatzwachstum (08:05).\n* **Richtung:** Positiv operativ / Risikobehaftet (08:05).\n* **Konkret belegte Levels:** Q2-Umsatz 2,6 Mrd. USD (+112%) (08:14); Auftragsbestand 104,2 Mrd. USD (+246%) (08:24); Jahresumsatzprognose 12,4–13,2 Mrd. USD (08:28); Chart-Levels: nicht genannt.\n* **Trigger:** nicht genannt.\n* **Invalidierung / Risiken:** Quartalszinsen von 640 Mio. USD übersteigen das operative Ergebnis von 128 Mio. USD um das Vielfache (08:52); hohe schuldenfinanzierte Capex (35–39 Mrd. USD) (09:00).\n* **Zeithorizont:** 2026 (08:28).\n\n### Nebius (NEBIUS)\n* **Sprecherthese:** Besser finanzierte KI-Cloud-Alternative zu CoreWeave mit höherem Kurspotenzial und Kundenvorauszahlungen (09:20).\n* **Richtung:** Bullish / Positiv (09:20).\n* **Konkret belegte Levels:** Q2-Umsatz 582 Mio. USD (+454%) (09:26); Adjusted EBITDA 236,2 Mio. USD (41% Marge) (09:37); Cash-Bestand 8 Mrd. USD (09:52); Chart-Levels: nicht genannt.\n* **Trigger:** nicht genannt.\n* **Invalidierung / Risiken:** Extrem hohes Investitionsvolumen (20–25 Mrd. USD Capex) im Vergleich zum Jahresumsatz von 3–3,4 Mrd. USD (10:26).\n* **Zeithorizont:** 2026 (09:42).\n\n### Palantir Technologies (PLTR)\n* **Sprecherthese:** Exzellentes Wachstum im US-Kommerzialgeschäft und herausragende Bestandskundenbindung (10:41).\n* **Richtung:** Bullish / Kernposition des Sprechers (10:41).\n* **Konkret belegte Levels:** Q2-Umsatz 1,94 Mrd. USD (+93%) (10:53); US-Commercial +149% (10:58); Net Dollar Retention Rate 157% (11:12); Cash-Bestand 9,2 Mrd. USD ohne Schulden (11:25); Chart-Levels: nicht genannt.\n* **Trigger:** nicht genannt.\n* **Invalidierung / Risiken:**",
+    " Sehr hohe Bewertung; bereits ein schwächeres Quartal führte historisch zu -30% Kursverlust (11:34).\n* **Zeithorizont:** 2026–2027 (00:51).\n\n### Micron Technology (MU)\n* **Sprecherthese:** Günstigste Aktie der Liste mit extremem Gewinnwachstum durch strukturelle KI-Speicherknappheit (11:47).\n* **Richtung:** Bullish / Positiv (12:55).\n* **Konkret belegte Levels:** FQ3-Umsatz 41,5 Mrd. USD (+346% YoY) (11:54); Bruttomarge 84,9% (12:07); Nettogewinn 28,2 Mrd. USD im Quartal (12:15); Forward-KGV ~5,97 (12:55); Chart-Levels: nicht genannt.\n* **Trigger:** nicht genannt.\n* **Invalidierung / Risiken:** Historisch hohe Zyklizität des Speichermarktes und Bedenken über die Dauerhaftigkeit des Booms (13:02).\n* **Zeithorizont:** Über 2027 hinaus (12:40).\n\n---\n\n### Unsicherheiten & sehenswerte Stellen\n* **Unsicherheiten:** Hohe allgemeine Volatilität bei Einzelaktien (Rücksetzer von 30–40% möglich) (01:48) sowie das Risiko zyklischer Dämpfer bei Speicherchips und hoher Zinsbelastung bei Infrastrukturanbietern.\n* **Sehenswerte Stellen:**\n  * **02:38:** Fallbeispiel zum KI-Sicherheitsausbruch bei OpenAI/Hugging Face.\n  * **08:51:** Analyse der Zins- und Schuldenproblematik bei CoreWeave.\n  * **11:54:** Detaillierter Blick auf die Margenexplosion bei Micron Technology.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 3,
+  "discord_sent_at": "2026-09-15T04:01:57.583042+00:00"
 }

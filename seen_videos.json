@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-15T03:31:03.357984+00:00",
-    "@wir-lieben-aktien": "2026-09-15T03:31:03.831565+00:00",
-    "@chartsekte": "2026-09-15T03:31:04.331177+00:00",
-    "@hkcm": "2026-09-15T03:31:04.855903+00:00",
-    "@phantombyhkcm": "2026-09-15T03:31:05.283894+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T03:31:05.843632+00:00",
-    "@aktien4future": "2026-09-15T03:31:06.347309+00:00",
-    "@Finanzbaer": "2026-09-15T03:31:06.828566+00:00",
-    "@Finanzwiesel": "2026-09-15T03:31:07.341486+00:00",
-    "@TradingKompass": "2026-09-15T03:31:07.891405+00:00",
-    "@TomVorwald": "2026-09-15T03:31:08.363476+00:00"
+    "@1OxTrading": "2026-09-15T04:01:12.698869+00:00",
+    "@wir-lieben-aktien": "2026-09-15T04:01:13.200789+00:00",
+    "@chartsekte": "2026-09-15T04:01:13.655172+00:00",
+    "@hkcm": "2026-09-15T04:01:14.151237+00:00",
+    "@phantombyhkcm": "2026-09-15T04:01:14.629409+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T04:01:15.089944+00:00",
+    "@aktien4future": "2026-09-15T04:01:15.625608+00:00",
+    "@Finanzbaer": "2026-09-15T04:01:16.132254+00:00",
+    "@Finanzwiesel": "2026-09-15T04:01:16.584736+00:00",
+    "@TradingKompass": "2026-09-15T04:01:17.035175+00:00",
+    "@TomVorwald": "2026-09-15T04:01:17.598565+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 58,
-    "last_attempt": "2026-09-15T03:31:08.417816+00:00"
+    "attempts": 59,
+    "last_attempt": "2026-09-15T04:01:17.656185+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -4029,10 +4029,11 @@
     "published": null,
     "channel": "aktien4future",
     "handle": "@aktien4future",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-14T18:31:18.848453+00:00",
-    "attempts": 17,
-    "last_attempt": "2026-09-15T03:31:14.685652+00:00"
+    "attempts": 18,
+    "last_attempt": "2026-09-15T04:01:23.910520+00:00",
+    "scraped_at": "2026-09-15T04:01:57.584044+00:00"
   },
   "jPAUc9u8fvU": {
     "id": "jPAUc9u8fvU",
