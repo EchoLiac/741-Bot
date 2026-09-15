@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-15T17:31:20.756396+00:00",
-    "@wir-lieben-aktien": "2026-09-15T17:31:21.336481+00:00",
-    "@chartsekte": "2026-09-15T17:31:21.866399+00:00",
-    "@hkcm": "2026-09-15T17:31:22.399573+00:00",
-    "@phantombyhkcm": "2026-09-15T17:31:22.936664+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T17:31:23.435516+00:00",
-    "@aktien4future": "2026-09-15T17:31:23.936248+00:00",
-    "@Finanzbaer": "2026-09-15T17:31:24.443607+00:00",
-    "@Finanzwiesel": "2026-09-15T17:31:24.942532+00:00",
-    "@TradingKompass": "2026-09-15T17:31:25.428448+00:00",
-    "@TomVorwald": "2026-09-15T17:31:25.942179+00:00"
+    "@1OxTrading": "2026-09-15T18:01:32.365716+00:00",
+    "@wir-lieben-aktien": "2026-09-15T18:01:33.080089+00:00",
+    "@chartsekte": "2026-09-15T18:01:33.596414+00:00",
+    "@hkcm": "2026-09-15T18:01:34.177091+00:00",
+    "@phantombyhkcm": "2026-09-15T18:01:34.800004+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T18:01:35.762892+00:00",
+    "@aktien4future": "2026-09-15T18:01:36.283778+00:00",
+    "@Finanzbaer": "2026-09-15T18:01:37.889858+00:00",
+    "@Finanzwiesel": "2026-09-15T18:01:38.367299+00:00",
+    "@TradingKompass": "2026-09-15T18:01:38.869046+00:00",
+    "@TomVorwald": "2026-09-15T18:01:39.518869+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4257,7 +4257,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123275+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T18:01:39.576218+00:00"
   },
   "0QlGUkRzXCo": {
     "id": "0QlGUkRzXCo",
@@ -4269,7 +4270,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123276+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T18:02:13.926778+00:00"
   },
   "LaqXA6JYG6o": {
     "id": "LaqXA6JYG6o",
@@ -4281,7 +4283,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123278+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T18:02:20.137133+00:00"
   },
   "vrW43Z1SkgM": {
     "id": "vrW43Z1SkgM",
@@ -4497,6 +4500,18 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-15T17:01:20.421869+00:00",
+    "attempts": 0
+  },
+  "Dpw7_pZwdSo": {
+    "id": "Dpw7_pZwdSo",
+    "title": "Stock Gaps Explained: Why These Gaps Are Crucial for Trends",
+    "url": "https://www.youtube.com/watch?v=Dpw7_pZwdSo",
+    "duration": 807,
+    "published": null,
+    "channel": "Chartsekte",
+    "handle": "@chartsekte",
+    "status": "pending",
+    "discovered_at": "2026-09-15T18:01:33.596396+00:00",
     "attempts": 0
   }
 }
