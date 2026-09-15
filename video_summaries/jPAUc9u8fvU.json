@@ -6,10 +6,88 @@
   "published": null,
   "channel": "10xTrading",
   "handle": "@1OxTrading",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-14T19:01:23.885826+00:00",
-  "attempts": 12,
-  "last_attempt": "2026-09-15T01:31:30.174917+00:00",
+  "attempts": 13,
+  "last_attempt": "2026-09-15T02:01:26.795504+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nIm Video werden zehn verschiedene Aktien aus den Bereichen Software, Cybersecurity, Quantencomputing, Krypto, Speicherchips und Energie-Infrastruktur im Hinblick auf ihre aktuellen Chartmuster und Schlüsselmarken analysiert. Der Sprecher beleuchtet vor allem sektorielle Unterschiede wie den starken Software- und Cybersecurity-Bereich gegenüber unter Druck stehenden Speicherwerten. Sämtliche Analysen basieren auf technischen Indikatoren wie Gleitenden Durchschnitten, Harmonischen Mustern und festgelegten Preisalarmen (00:21 - 19:55).\n\n**Typ:** mehrere Aktien\n\n---\n\n### Einzelanalysen\n\n#### ServiceNow (NOW) (00:21 - 01:52)\n* **Sprecherthese:** Erholung nach Bounce an einer kleinen Unterstützung; Software-Sektor zeigt Stärke (00:27).\n* **Richtung:** Bullisch bei Überschreiten der WIDERSTÄNDE, sonst konsolidierend.\n* **Belegte Levels:** Preisalarm Oberseite bei 145,00 USD / 145,23 USD (01:24); Test-Alarm Unterseite Gap bei 136,00 USD (01:42); 200-Wochen-Linie (01:18).\n* **Trigger:** Ausbruch über die 200-Wochen-Linie bzw. 145,00 USD (01:28).\n* **Invalidierung:** Rückfall unter 136,00 USD testet das Gap intensiv (01:42).\n* **Zeithorizont:** Kommende Tage (01:22).\n\n#### Iren (IREN) (01:53 - 03:27)\n* **Sprecherthese:** Potenzial für ein 1-2-Setup bzw. Doppelboden nach Abprall an wichtigen Trendlinien (02:22).\n* **Richtung:** Bullisch.\n* **Belegte Levels:** Support / 20-Tage-Linie bei 41,80 USD (02:56); Alarm Unterseite bei 42,00 USD (03:08); Alarm Oberseite / Rally-Trigger bei 46,50 USD (03:16); Backtest August bei 28,00 USD (02:14).\n* **Trigger:** Anstieg über 46,50 USD (03:16).\n* **Invalidierung:** Schwäche unter 42,00 USD (03:08).\n* **Zeithorizont:** Kurz- bis mittelfristig (nicht näher genannt).\n\n#### D-Wave Quantum (QBTS) (03:28 - 05:07)\n* **Sprecherthese:** Aktie verharrt an einer starken Unterstützung; Risiko eines Durchbruchs nach unten vorhanden (03:40).\n* **Richtung:** Neutral bis bärisch unter Support, bullisch bei Erholung.\n* **Belegte Levels:** Support-Zone um 14,00 USD (03:49); Alarm bärisch bei 15,50 USD (04:31); Alarm bullisch bei 19,50 USD (04:54); 200-Wochen-Linie als tieferes Ziel (03:56).\n* **Trigger:** Ausbruch über 19,50 USD für Bullen-Szenario (04:54).\n* **Invalidierung:** Untergang unter 15,50 USD leitet tiefere Korrektur ein (04:31).\n* **Zeithorizont:** Nicht genannt.\n\n#### CrowdStrike (CRWD) (05:08 - 07:12)\n* **Sprecherthese:** Starker Trend durch KI- und Cybersecurity-Narrativ, hat ein neues Allzeithoch markiert und bildet höhere Tiefs aus (05:49).\n* **Richtung:** Bullisch.\n* **Belegte Levels:** Rücksetzer-Zone / Alarm bei 225,00 USD / 225,15 USD (07:01, 07:04).\n* **Trigger:** Halten der Dip-Zone um 225,00 USD (07:04).\n* **Invalidierung:** Deutlicher Bruch der Unterstützungszone unter 225,00 USD (nicht exakt beziffert).\n* **Zeithorizont:** Nicht genannt.\n\n#### SanDisk Corp (SNDK) (07:52 - 10:17)\n* **Sprecherthese:** Speicherchip-Sektor unter Druck; Chance auf Doppelboden-Rebound, aber Bruch droht (08:02, 09:18).\n* **Richtung:** Neutral / abwartend.\n* **Belegte Levels:** Widerstand/Support-Marke bei 1450 USD (08:58); Unterstützung bei 1320 USD (09:26); Unterer Alarm unter 1500 USD (Chart: 1495 USD) (10:14); 200-Tage-Linie (09:29).\n* **Trigger:** Erforderliche dynamische Erholung über Abwärtstrendlinien (10:04).\n* **Invalidierung:** Bruch der Zone unter 1500 USD / 1450 USD in Richtung 1320 USD (09:26, 10:14).\n* **Zeithorizont:** Nächste Tage (10:01).\n\n#### Coinbase (COIN) (10:18 - 12:19)\n* **Sprecherthese:** Erholung um ca. 8% an der 20-Wochen-Linie; Formierung eines Megafon-Musters (10:47, 11:00).\n* **Richtung:** Konsolidierend / Ausbruchschance.\n* **Belegte Levels:** Widerstand-Alarm bei 199,00 USD (12:05); Unterstützung / Unterer Alarm bei 176,00 USD (12:09); Bereich um 200,00 USD und 180,00 USD (11:50, 11:53).\n* **Trigger:** Ausbruch über 199,00 USD / Megafon-Oberkante (12:05).\n* **Invalidierung:** Rutsch unter 176,00 USD (12:09).\n* **Zeithorizont:** Nicht genannt.\n\n#### Oklo (OKLO) (12:20 - 13:49)\n* **Sprecherthese:** Hochspekulativer Nebenwert sitzt direkt auf der 200-Wochen-Linie (12:26, 13:10).\n* **Richtung:** Neutral / Abwarten.\n* **Belegte Levels:** 200-Wochen-Linie bei 34,44 USD (13:22); Alarm knapp darunter bei 33,00 USD (13:25).\n* **Trigger:** Kaufimpuls direkt an der 200-Wochen-Linie (13:42).\n* **Invalidierung:** Nachhhaltiges Unterschreiten der 33,00 USD / 200-Wochen-Linie („Hände weg“) (13:45, 13:49).\n* **Zeithorizont:** Kurzfristig.\n\n#### Siemens Energy (ENR) (13:50 - 15:55)\n* **Sprecherthese:** Starker Abverkaufsdruck im KI-Infrastruktursegment; übergeordnet ungünstige Chartstruktur für Buy&Hold (14:04, 15:47).\n* **Richtung:** Bärisch bis neutral (Rebound-Chance an Support).\n* **Belegte Levels:** Fundamentalwerte laut Ton: 115 Mrd. EUR Market Cap, 40er KGV (14:36); Support-Block bei 130,00 EUR (14:59); Alarm bei 128,70 EUR (15:08); Widerstände an 200-Tage-Linie und 50-Wochen-Linie (15:22, 15:25).\n* **Trigger:** Gegenbewegung (Bounce) an der 130,00 EUR Marke (15:40).\n* **Invalidierung:** Bruch unter 130,00 EUR entwertet die Struktur (15:52).\n* **Zeithorizont:** Nicht genannt.\n\n#### Micron Technology (MU) (15:56 - 17:50)\n* **Sprecherthese:** Hohe Fallhöhe bei DRAM-Stocks; Momentum aktuell komplett verloren, Stoßrichtung entscheidet sich an Schlüssellevels (16:13, 17:03).\n* **Richtung:** Neutral mit Abwärtsrisiko.\n* **Belegte Levels:** Untere Alarme bei 900,00 USD und 890,00 USD (17:12, 17:14); bullischer Alarm bei 970,00–980,00 USD (17:30); mögliches Abwärtsziel bei 750,00 USD (17:25).\n* **Trigger:** Anstieg über 970,00–980,00 USD signalisiert Ende der Konsolidierung (17:30).\n* **Invalidierung:** Bruch der 900,00/890,00 USD Unterstützung droht Abverkauf bis 750,00 USD (17:22, 17:25).\n* **Zeithorizont:** Nicht genannt.\n\n#### AMD (17:51 - 19:55)\n* **Sprecherthese:** Aktie reagiert am 50%-Fibonacci-Retreacement in einem neutralen Dreieck; Doji-Kerze zeigt Unsicherheit (18:41, 18:52).\n* **Richtung:** Neutral / Vor Ausbruch.\n* **Belegte Levels:** Rebound am 50%-Fibonacci (18:41); Zone über 500,00 USD / 505,00 USD (19:08, 19:44); Kursziele bei 525,00 USD (19:48) und 550,00 USD (19:50).\n* **Trigger:** Ausbruch über 500,00 USD bzw. 505,00 USD (19:08, 19:44).\n* **Invalidierung:** Verlassen der Doji-Kerze nach unten führt zurück zur unteren Dreiecksunterstützung (19:15, 19:53).\n* **Zeithorizont:** Nicht genannt.\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Unsicherheiten:** Bei Werten wie Oklo, Siemens Energy und Micron besteht erhöhte Volatilität und Risiko durch Branchenrotation (DRAM vs. Software) sowie unklare Ausbruchsrichtungen aus Konsolidierungsmustern.\n* **Sehenswerte Stellen:**\n  * **01:12 - 01:25 (ServiceNow):** Zeichnung der Abwärtstrendlinie und Setzen des Oberseiten-Alarms.\n  * **08:58 - 09:15 (SNDK):** Erklärung des 1450 USD Level-Tests und des Deep Crab Muster-Potenzials.\n  * **14:50 - 15:30 (Siemens Energy):** Visualisierung des Unterstützungsblocks bei 130 EUR und des Zusammenspiels mit den Gleitenden Durchschnitten.\n  * **18:42 - 19:00 (AMD):** Genaue Ausmessung des 50%-Fibonacci-Retreacements und Interpretation der Doji-Kerze.",
+  "evidence": [
+    {
+      "timestamp": "00:27",
+      "basis": "audio",
+      "observation": "Der Sprecher erklärt, dass ServiceNow (NOW) und der gesamte Softwaresektor am heutigen Handelstag stark profitieren konnten."
+    },
+    {
+      "timestamp": "01:24",
+      "basis": "visual",
+      "observation": "Auf dem Bildschirm wird im NOW-Chart ein Preisalarm bei 145,23 USD eingegeben."
+    },
+    {
+      "timestamp": "02:56",
+      "basis": "audio",
+      "observation": "Der Sprecher nennt die Unterstützung/20-Tage-Linie bei IREN bei 41,80 USD."
+    },
+    {
+      "timestamp": "04:31",
+      "basis": "visual",
+      "observation": "Im Chart von QBTS wird bei 15,50 USD ein Alarm für ein neues Verlaufstief erstellt."
+    },
+    {
+      "timestamp": "07:01",
+      "basis": "visual",
+      "observation": "Bei CrowdStrike (CRWD) wird ein Alarm bei 225,15 USD nahe der Konsolidierungszone platziert."
+    },
+    {
+      "timestamp": "08:58",
+      "basis": "audio",
+      "observation": "Sprecher erwähnt bei SNDK den Backtest der 1450-USD-Marke als früheren Widerstand und jetzigen Support."
+    },
+    {
+      "timestamp": "10:47",
+      "basis": "audio",
+      "observation": "Der Sprecher führt aus, dass Coinbase (COIN) heute um ca. 8% im Plus liegt."
+    },
+    {
+      "timestamp": "12:05",
+      "basis": "visual",
+      "observation": "Im COIN-Chart wird bei 199,20 USD ein Preisalarm an der Oberkante eingezeichnet."
+    },
+    {
+      "timestamp": "13:22",
+      "basis": "audio",
+      "observation": "Der Sprecher beziffert die 200-Wochen-Linie bei Oklo mit 34,44 USD."
+    },
+    {
+      "timestamp": "14:36",
+      "basis": "audio",
+      "observation": "Der Sprecher nennt zu Siemens Energy 115 Mrd. EUR Market Cap und ein 40er KGV."
+    },
+    {
+      "timestamp": "17:14",
+      "basis": "visual",
+      "observation": "Bei Micron Technology (MU) wird ein Alarmfenster bei 890,23 USD (bzw. 890 USD) eingestellt."
+    },
+    {
+      "timestamp": "18:49",
+      "basis": "audio",
+      "observation": "Der Sprecher hebt bei AMD den exakten Aufsetzer auf das 50er Fibonacci-Retreacement mit einer Doji-Kerze hervor."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "jPAUc9u8fvU",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-15T02:02:24.750632+00:00",
+  "discord_chunks": [
+    "🎬 **10xTrading**\n**🚨 10 AKTIEN 💥 Micron SanDisk ServiceNow AMD Crowdstrike Iren Siemens Energy Coinbase Oklo D-Wave**\nhttps://www.youtube.com/watch?v=jPAUc9u8fvU\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nIm Video werden zehn verschiedene Aktien aus den Bereichen Software, Cybersecurity, Quantencomputing, Krypto, Speicherchips und Energie-Infrastruktur im Hinblick auf ihre aktuellen Chartmuster und Schlüsselmarken analysiert. Der Sprecher beleuchtet vor allem sektorielle Unterschiede wie den starken Software- und Cybersecurity-Bereich gegenüber unter Druck stehenden Speicherwerten. Sämtliche Analysen basieren auf technischen Indikatoren wie Gleitenden Durchschnitten, Harmonischen Mustern und festgelegten Preisalarmen (00:21 - 19:55).\n\n**Typ:** mehrere Aktien\n\n---\n\n### Einzelanalysen\n\n#### ServiceNow (NOW) (00:21 - 01:52)\n* **Sprecherthese:** Erholung nach Bounce an einer kleinen Unterstützung; Software-Sektor zeigt Stärke (00:27).\n* **Richtung:** Bullisch bei Überschreiten der WIDERSTÄNDE, sonst konsolidierend.\n* **Belegte Levels:** Preisalarm Oberseite bei 145,00 USD / 145,23 USD (01:24); Test-Alarm Unterseite Gap bei 136,00 USD (01:42); 200-Wochen-Linie (01:18).\n* **Trigger:** Ausbruch über die 200-Wochen-Linie bzw. 145,00 USD (01:28).\n* **Invalidierung:** Rückfall unter 136,00 USD testet das Gap intensiv (01:42).\n* **Zeithorizont:** Kommende Tage (01:22).\n\n#### Iren (IREN) (01:53 - 03:27)\n* **Sprecherthese:** Potenzial für ein 1-2-Setup bzw. Doppelboden nach Abprall an wichtigen Trendlinien (02:22).\n* **Richtung:** Bullisch.\n* **Belegte Levels:** Support / 20-Tage-Linie bei 41,80 USD (02:56); Alarm Unterseite bei 42,00 USD (03:08); Alarm Oberseite / Rally-Trigger bei 46,50 USD (03:16); Backtest August bei 28,00 USD (02:1",
+    "4).\n* **Trigger:** Anstieg über 46,50 USD (03:16).\n* **Invalidierung:** Schwäche unter 42,00 USD (03:08).\n* **Zeithorizont:** Kurz- bis mittelfristig (nicht näher genannt).\n\n#### D-Wave Quantum (QBTS) (03:28 - 05:07)\n* **Sprecherthese:** Aktie verharrt an einer starken Unterstützung; Risiko eines Durchbruchs nach unten vorhanden (03:40).\n* **Richtung:** Neutral bis bärisch unter Support, bullisch bei Erholung.\n* **Belegte Levels:** Support-Zone um 14,00 USD (03:49); Alarm bärisch bei 15,50 USD (04:31); Alarm bullisch bei 19,50 USD (04:54); 200-Wochen-Linie als tieferes Ziel (03:56).\n* **Trigger:** Ausbruch über 19,50 USD für Bullen-Szenario (04:54).\n* **Invalidierung:** Untergang unter 15,50 USD leitet tiefere Korrektur ein (04:31).\n* **Zeithorizont:** Nicht genannt.\n\n#### CrowdStrike (CRWD) (05:08 - 07:12)\n* **Sprecherthese:** Starker Trend durch KI- und Cybersecurity-Narrativ, hat ein neues Allzeithoch markiert und bildet höhere Tiefs aus (05:49).\n* **Richtung:** Bullisch.\n* **Belegte Levels:** Rücksetzer-Zone / Alarm bei 225,00 USD / 225,15 USD (07:01, 07:04).\n* **Trigger:** Halten der Dip-Zone um 225,00 USD (07:04).\n* **Invalidierung:** Deutlicher Bruch der Unterstützungszone unter 225,00 USD (nicht exakt beziffert).\n* **Zeithorizont:** Nicht genannt.\n\n#### SanDisk Corp (SNDK) (07:52 - 10:17)\n* **Sprecherthese:** Speicherchip-Sektor unter Druck; Chance auf Doppelboden-Rebound, aber Bruch droht (08:02, 09:18).\n* **Richtung:** Neutral / abwartend.\n* **Belegte Levels:** Widerstand/Support-Marke bei 1450 USD (08:58); Unterstützung bei 1320 USD (09:26); Unterer Alarm unter 1500 USD (Chart: 1495 USD) (10:14); 200-Tage-Linie (09:29).\n* **Trigger:** Erforderliche dynamische Erholung über Abwärtstrendlinien (10:04).\n* **Invalidierung:** Bruch der Zone unter 1500 USD / 1450 U",
+    "SD in Richtung 1320 USD (09:26, 10:14).\n* **Zeithorizont:** Nächste Tage (10:01).\n\n#### Coinbase (COIN) (10:18 - 12:19)\n* **Sprecherthese:** Erholung um ca. 8% an der 20-Wochen-Linie; Formierung eines Megafon-Musters (10:47, 11:00).\n* **Richtung:** Konsolidierend / Ausbruchschance.\n* **Belegte Levels:** Widerstand-Alarm bei 199,00 USD (12:05); Unterstützung / Unterer Alarm bei 176,00 USD (12:09); Bereich um 200,00 USD und 180,00 USD (11:50, 11:53).\n* **Trigger:** Ausbruch über 199,00 USD / Megafon-Oberkante (12:05).\n* **Invalidierung:** Rutsch unter 176,00 USD (12:09).\n* **Zeithorizont:** Nicht genannt.\n\n#### Oklo (OKLO) (12:20 - 13:49)\n* **Sprecherthese:** Hochspekulativer Nebenwert sitzt direkt auf der 200-Wochen-Linie (12:26, 13:10).\n* **Richtung:** Neutral / Abwarten.\n* **Belegte Levels:** 200-Wochen-Linie bei 34,44 USD (13:22); Alarm knapp darunter bei 33,00 USD (13:25).\n* **Trigger:** Kaufimpuls direkt an der 200-Wochen-Linie (13:42).\n* **Invalidierung:** Nachhhaltiges Unterschreiten der 33,00 USD / 200-Wochen-Linie („Hände weg“) (13:45, 13:49).\n* **Zeithorizont:** Kurzfristig.\n\n#### Siemens Energy (ENR) (13:50 - 15:55)\n* **Sprecherthese:** Starker Abverkaufsdruck im KI-Infrastruktursegment; übergeordnet ungünstige Chartstruktur für Buy&Hold (14:04, 15:47).\n* **Richtung:** Bärisch bis neutral (Rebound-Chance an Support).\n* **Belegte Levels:** Fundamentalwerte laut Ton: 115 Mrd. EUR Market Cap, 40er KGV (14:36); Support-Block bei 130,00 EUR (14:59); Alarm bei 128,70 EUR (15:08); Widerstände an 200-Tage-Linie und 50-Wochen-Linie (15:22, 15:25).\n* **Trigger:** Gegenbewegung (Bounce) an der 130,00 EUR Marke (15:40).\n* **Invalidierung:** Bruch unter 130,00 EUR entwertet die Struktur (15:52).\n* **Zeithorizont:** Nicht genannt.\n\n#### Micron Technology (MU) (15:56 - 17:50",
+    ")\n* **Sprecherthese:** Hohe Fallhöhe bei DRAM-Stocks; Momentum aktuell komplett verloren, Stoßrichtung entscheidet sich an Schlüssellevels (16:13, 17:03).\n* **Richtung:** Neutral mit Abwärtsrisiko.\n* **Belegte Levels:** Untere Alarme bei 900,00 USD und 890,00 USD (17:12, 17:14); bullischer Alarm bei 970,00–980,00 USD (17:30); mögliches Abwärtsziel bei 750,00 USD (17:25).\n* **Trigger:** Anstieg über 970,00–980,00 USD signalisiert Ende der Konsolidierung (17:30).\n* **Invalidierung:** Bruch der 900,00/890,00 USD Unterstützung droht Abverkauf bis 750,00 USD (17:22, 17:25).\n* **Zeithorizont:** Nicht genannt.\n\n#### AMD (17:51 - 19:55)\n* **Sprecherthese:** Aktie reagiert am 50%-Fibonacci-Retreacement in einem neutralen Dreieck; Doji-Kerze zeigt Unsicherheit (18:41, 18:52).\n* **Richtung:** Neutral / Vor Ausbruch.\n* **Belegte Levels:** Rebound am 50%-Fibonacci (18:41); Zone über 500,00 USD / 505,00 USD (19:08, 19:44); Kursziele bei 525,00 USD (19:48) und 550,00 USD (19:50).\n* **Trigger:** Ausbruch über 500,00 USD bzw. 505,00 USD (19:08, 19:44).\n* **Invalidierung:** Verlassen der Doji-Kerze nach unten führt zurück zur unteren Dreiecksunterstützung (19:15, 19:53).\n* **Zeithorizont:** Nicht genannt.\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Unsicherheiten:** Bei Werten wie Oklo, Siemens Energy und Micron besteht erhöhte Volatilität und Risiko durch Branchenrotation (DRAM vs. Software) sowie unklare Ausbruchsrichtungen aus Konsolidierungsmustern.\n* **Sehenswerte Stellen:**\n  * **01:12 - 01:25 (ServiceNow):** Zeichnung der Abwärtstrendlinie und Setzen des Oberseiten-Alarms.\n  * **08:58 - 09:15 (SNDK):** Erklärung des 1450 USD Level-Tests und des Deep Crab Muster-Potenzials.\n  * **14:50 - 15:30 (Siemens Energy):** Visualisierung des Unterstützungsblocks bei 130 EUR und des Zu",
+    "sammenspiels mit den Gleitenden Durchschnitten.\n  * **18:42 - 19:00 (AMD):** Genaue Ausmessung des 50%-Fibonacci-Retreacements und Interpretation der Doji-Kerze.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 5,
+  "discord_sent_at": "2026-09-15T02:02:26.181297+00:00"
 }
