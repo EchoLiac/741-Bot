@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-15T16:31:15.461522+00:00",
-    "@wir-lieben-aktien": "2026-09-15T16:31:15.940256+00:00",
-    "@chartsekte": "2026-09-15T16:31:16.462668+00:00",
-    "@hkcm": "2026-09-15T16:31:16.968558+00:00",
-    "@phantombyhkcm": "2026-09-15T16:31:17.633811+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T16:31:18.126000+00:00",
-    "@aktien4future": "2026-09-15T16:31:18.580206+00:00",
-    "@Finanzbaer": "2026-09-15T16:31:19.092895+00:00",
-    "@Finanzwiesel": "2026-09-15T16:31:19.625223+00:00",
-    "@TradingKompass": "2026-09-15T16:31:20.131830+00:00",
-    "@TomVorwald": "2026-09-15T16:31:20.682933+00:00"
+    "@1OxTrading": "2026-09-15T17:01:18.563532+00:00",
+    "@wir-lieben-aktien": "2026-09-15T17:01:19.092576+00:00",
+    "@chartsekte": "2026-09-15T17:01:19.521409+00:00",
+    "@hkcm": "2026-09-15T17:01:20.007703+00:00",
+    "@phantombyhkcm": "2026-09-15T17:01:20.421883+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T17:01:20.895637+00:00",
+    "@aktien4future": "2026-09-15T17:01:21.323811+00:00",
+    "@Finanzbaer": "2026-09-15T17:01:21.817347+00:00",
+    "@Finanzwiesel": "2026-09-15T17:01:22.340260+00:00",
+    "@TradingKompass": "2026-09-15T17:01:22.836471+00:00",
+    "@TomVorwald": "2026-09-15T17:01:23.290680+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4179,7 +4179,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123263+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T17:01:23.330090+00:00"
   },
   "E4cegeqnA0w": {
     "id": "E4cegeqnA0w",
@@ -4191,7 +4192,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123266+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T17:01:29.811215+00:00"
   },
   "3SSZJSzX3t8": {
     "id": "3SSZJSzX3t8",
@@ -4203,7 +4205,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123268+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T17:01:36.148179+00:00"
   },
   "1R7fAArCd3M": {
     "id": "1R7fAArCd3M",
@@ -4467,6 +4470,30 @@
     "handle": "@ChartsCarsbyPhilipKlinkmüller",
     "status": "pending",
     "discovered_at": "2026-09-15T16:31:18.125977+00:00",
+    "attempts": 0
+  },
+  "P7m6TrZ7s9I": {
+    "id": "P7m6TrZ7s9I",
+    "title": "Interest Rates Are Rising – This Is What Happens to Your Stocks Now!",
+    "url": "https://www.youtube.com/watch?v=P7m6TrZ7s9I",
+    "duration": 780,
+    "published": null,
+    "channel": "Wir Lieben Aktien",
+    "handle": "@wir-lieben-aktien",
+    "status": "pending",
+    "discovered_at": "2026-09-15T17:01:19.092556+00:00",
+    "attempts": 0
+  },
+  "Oc6NAKwxb40": {
+    "id": "Oc6NAKwxb40",
+    "title": "Have we seen the peak in the markets?!",
+    "url": "https://www.youtube.com/watch?v=Oc6NAKwxb40",
+    "duration": 1100,
+    "published": null,
+    "channel": "Phantom by HKCM",
+    "handle": "@phantombyhkcm",
+    "status": "pending",
+    "discovered_at": "2026-09-15T17:01:20.421869+00:00",
     "attempts": 0
   }
 }
