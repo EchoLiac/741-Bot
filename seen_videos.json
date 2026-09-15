@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-15T18:01:32.365716+00:00",
-    "@wir-lieben-aktien": "2026-09-15T18:01:33.080089+00:00",
-    "@chartsekte": "2026-09-15T18:01:33.596414+00:00",
-    "@hkcm": "2026-09-15T18:01:34.177091+00:00",
-    "@phantombyhkcm": "2026-09-15T18:01:34.800004+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T18:01:35.762892+00:00",
-    "@aktien4future": "2026-09-15T18:01:36.283778+00:00",
-    "@Finanzbaer": "2026-09-15T18:01:37.889858+00:00",
-    "@Finanzwiesel": "2026-09-15T18:01:38.367299+00:00",
-    "@TradingKompass": "2026-09-15T18:01:38.869046+00:00",
-    "@TomVorwald": "2026-09-15T18:01:39.518869+00:00"
+    "@1OxTrading": "2026-09-15T18:31:10.562363+00:00",
+    "@wir-lieben-aktien": "2026-09-15T18:31:11.006675+00:00",
+    "@chartsekte": "2026-09-15T18:31:11.521746+00:00",
+    "@hkcm": "2026-09-15T18:31:12.166678+00:00",
+    "@phantombyhkcm": "2026-09-15T18:31:12.763757+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T18:31:13.296372+00:00",
+    "@aktien4future": "2026-09-15T18:31:13.794943+00:00",
+    "@Finanzbaer": "2026-09-15T18:31:14.311275+00:00",
+    "@Finanzwiesel": "2026-09-15T18:31:14.730075+00:00",
+    "@TradingKompass": "2026-09-15T18:31:15.250984+00:00",
+    "@TomVorwald": "2026-09-15T18:31:15.742970+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4296,7 +4296,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123280+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T18:31:15.799717+00:00"
   },
   "QivoIay1WG8": {
     "id": "QivoIay1WG8",
@@ -4308,7 +4309,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123281+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T18:31:22.352411+00:00"
   },
   "eJ1IH3HOg3g": {
     "id": "eJ1IH3HOg3g",
@@ -4320,7 +4322,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123283+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T18:31:28.463869+00:00"
   },
   "TtFQbsGC8e0": {
     "id": "TtFQbsGC8e0",
@@ -4512,6 +4515,42 @@
     "handle": "@chartsekte",
     "status": "pending",
     "discovered_at": "2026-09-15T18:01:33.596396+00:00",
+    "attempts": 0
+  },
+  "rWlUrqJjS34": {
+    "id": "rWlUrqJjS34",
+    "title": "🚨 10 AKTIEN 💥 Amazon Alphabet Oracle SpaceX Nebius Rheinmetall Exxon Adobe ServiceNow Axon",
+    "url": "https://www.youtube.com/watch?v=rWlUrqJjS34",
+    "duration": 1129,
+    "published": null,
+    "channel": "10xTrading",
+    "handle": "@1OxTrading",
+    "status": "pending",
+    "discovered_at": "2026-09-15T18:31:10.562338+00:00",
+    "attempts": 0
+  },
+  "_QN3qWNSa_4": {
+    "id": "_QN3qWNSa_4",
+    "title": "4,25% Zinsen sind NICHT das beste Angebot! Hier parke ich 62.000 Euro CASH!",
+    "url": "https://www.youtube.com/watch?v=_QN3qWNSa_4",
+    "duration": 998,
+    "published": null,
+    "channel": "aktien4future",
+    "handle": "@aktien4future",
+    "status": "pending",
+    "discovered_at": "2026-09-15T18:31:13.794923+00:00",
+    "attempts": 0
+  },
+  "nE4pyD105Ys": {
+    "id": "nE4pyD105Ys",
+    "title": "Die besten Trading-Strategien für Anfänger 2026 (Rangliste)",
+    "url": "https://www.youtube.com/watch?v=nE4pyD105Ys",
+    "duration": 824,
+    "published": null,
+    "channel": "Tom Vorwald",
+    "handle": "@TomVorwald",
+    "status": "pending",
+    "discovered_at": "2026-09-15T18:31:15.742950+00:00",
     "attempts": 0
   }
 }
