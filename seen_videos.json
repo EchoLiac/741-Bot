@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-15T16:01:22.306510+00:00",
-    "@wir-lieben-aktien": "2026-09-15T16:01:26.123303+00:00",
-    "@chartsekte": "2026-09-15T16:01:26.644758+00:00",
-    "@hkcm": "2026-09-15T16:01:27.314395+00:00",
-    "@phantombyhkcm": "2026-09-15T16:01:28.021879+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T16:01:28.524745+00:00",
-    "@aktien4future": "2026-09-15T16:01:29.480685+00:00",
-    "@Finanzbaer": "2026-09-15T16:01:29.951638+00:00",
-    "@Finanzwiesel": "2026-09-15T16:01:30.514814+00:00",
-    "@TradingKompass": "2026-09-15T16:01:31.063001+00:00",
-    "@TomVorwald": "2026-09-15T16:01:31.660163+00:00"
+    "@1OxTrading": "2026-09-15T16:31:15.461522+00:00",
+    "@wir-lieben-aktien": "2026-09-15T16:31:15.940256+00:00",
+    "@chartsekte": "2026-09-15T16:31:16.462668+00:00",
+    "@hkcm": "2026-09-15T16:31:16.968558+00:00",
+    "@phantombyhkcm": "2026-09-15T16:31:17.633811+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-15T16:31:18.126000+00:00",
+    "@aktien4future": "2026-09-15T16:31:18.580206+00:00",
+    "@Finanzbaer": "2026-09-15T16:31:19.092895+00:00",
+    "@Finanzwiesel": "2026-09-15T16:31:19.625223+00:00",
+    "@TradingKompass": "2026-09-15T16:31:20.131830+00:00",
+    "@TomVorwald": "2026-09-15T16:31:20.682933+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4140,7 +4140,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123251+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T16:31:20.723212+00:00"
   },
   "FjKi0_y-kNY": {
     "id": "FjKi0_y-kNY",
@@ -4152,7 +4153,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123259+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T16:31:27.242745+00:00"
   },
   "All6P3eqlSQ": {
     "id": "All6P3eqlSQ",
@@ -4164,7 +4166,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123261+00:00",
-    "attempts": 0
+    "attempts": 1,
+    "last_attempt": "2026-09-15T16:31:33.715460+00:00"
   },
   "_p446RXvG6s": {
     "id": "_p446RXvG6s",
@@ -4452,6 +4455,18 @@
     "handle": "@hkcm",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:27.314372+00:00",
+    "attempts": 0
+  },
+  "wYD1eAw8NaQ": {
+    "id": "wYD1eAw8NaQ",
+    "title": "Nikkei Index High-Flyer: How Much Longer Will the Rally Last?",
+    "url": "https://www.youtube.com/watch?v=wYD1eAw8NaQ",
+    "duration": 1068,
+    "published": null,
+    "channel": "Charts & Cars",
+    "handle": "@ChartsCarsbyPhilipKlinkmüller",
+    "status": "pending",
+    "discovered_at": "2026-09-15T16:31:18.125977+00:00",
     "attempts": 0
   }
 }
