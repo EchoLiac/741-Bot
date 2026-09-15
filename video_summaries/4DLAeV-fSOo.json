@@ -8,8 +8,8 @@
   "handle": "@wir-lieben-aktien",
   "status": "analysis_failed",
   "discovered_at": "2026-09-15T16:01:26.123247+00:00",
-  "attempts": 1,
-  "last_attempt": "2026-09-15T16:02:50.255638+00:00",
+  "attempts": 2,
+  "last_attempt": "2026-09-15T22:31:36.552732+00:00",
   "video_id": "4DLAeV-fSOo",
   "scanner_version": "video-first-v3"
 }
