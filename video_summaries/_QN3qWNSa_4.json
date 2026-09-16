@@ -6,10 +6,55 @@
   "published": null,
   "channel": "aktien4future",
   "handle": "@aktien4future",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T18:31:13.794923+00:00",
-  "attempts": 4,
-  "last_attempt": "2026-09-16T15:33:00.208938+00:00",
+  "attempts": 5,
+  "last_attempt": "2026-09-16T21:31:12.745757+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Schein von hohen Werbezinsen auf Tagesgeld und Cash-Guthaben täuscht oft, da Aktionsdauern, Folgezinssätze, Maximalsummen und Gutschriftintervalle die tatsächliche Jahresrendite stark beeinflussen (00:13, 09:42). Ein effektiver Vergleich über 12 Monate für 10.000 € und 100.000 € zeigt, dass Angebote mit niedrigeren, aber stabilen oder unbegrenzten Folgezinsen am Ende höhere Zinserträge erzielen können (06:43, 08:00). Zudem spielen die direkte Verfügbarkeit des Guthabens für Wertpapierkäufe beim Broker sowie Transparenz bei Regulierung und Einlagensicherung eine zentrale Rolle (03:00, 11:37).\n\n### Typ\nBildung (Finanz- und Produktvergleich)\n\n### Methode, Regeln und häufige Fehler\n- **Methode:** Berechnung des effektiven Jahresertrags über 12 Monate für 10.000 € und 100.000 € Guthaben unter Berücksichtigung von Aktionszins, Aktionsdauer, Folgezins, Maximallimits und Gutschrifthäufigkeit (00:45, 03:17, 10:02).\n- **Wichtige Bewertungsregeln (09:45):**\n  1. Wie lange gilt der Aktionszins? (09:45)\n  2. Welcher Folgezinssatz gilt danach? (09:47)\n  3. Bis zu welchem Maximalbetrag gilt der Zinssatz? (09:48)\n  4. Wie häufig werden die Zinsen gutgeschrieben? (09:50)\n- **Häufige Fehler:**\n  - Nur auf den beworbenen Spitzenprozentsatz („Lockzins“) schauen (00:13, 07:20).\n  - Einlagegrenzen und Zinsabfall bei größeren Beträgen (z. B. ab 25.000 € oder 50.000 €) übersehen (08:14, 08:36).\n  - Den Aufwand und Zeitverlust für Kontoüberweisungen von externen Tagesgeldkonten bei schnellen Börsenchancen ignorieren (03:00).\n\n### Unsicherheiten und sehenswerte Stellen\n- **Unsicherheiten:** Variable Zinssätze können von Anbietern jederzeit angepasst werden (04:02, 05:34). Bei Geldmarktfonds bestehen geringe Kapitalmarktrisiken (12:08).\n- **Sehenswerte Stellen:**\n  - 03:47–05:25: Broker-Zinsvergleich im Detail (Scalable, Trade Republic, Revolut, Trading 212).\n  - 06:38–07:55: 12-Monats-Effektivzins-Vergleich bei 10.000 € Guthaben.\n  - 07:56–09:35: Auswirkungen von Maximalsummen und Staffelungen bei 100.000 € Guthaben.\n  - 11:37–12:25: BaFin-Regulierung, Einlagensicherung und Sondervermögen bei Geldmarktfonds.",
+  "evidence": [
+    {
+      "timestamp": "00:17",
+      "basis": "visual",
+      "observation": "Ein eingeblendetes Werbebanner zeigt Chase mit '4 % p. a. auf dein Tagesgeld – für die ersten 4 Monate'."
+    },
+    {
+      "timestamp": "03:59",
+      "basis": "visual",
+      "observation": "Tabelle zeigt Scalable Capital mit 2,60 % variablem Zins und Anlage auf einem separaten Tagesgeldkonto."
+    },
+    {
+      "timestamp": "04:40",
+      "basis": "visual",
+      "observation": "Tabelle zeigt Trade Republic mit 2,50 % variablem Zins direkt auf das Broker-Cash-Guthaben."
+    },
+    {
+      "timestamp": "05:25",
+      "basis": "visual",
+      "observation": "Tabelle zeigt Trading 212 mit 4,20 % für 4 Monate, danach 2,80 % variabel, was einen Effektivzins von 3,27 % p. a. ergibt."
+    },
+    {
+      "timestamp": "08:14",
+      "basis": "visual",
+      "observation": "Einblendung zeigt Willkommens-Zins der Bank of Scotland mit 3,00 % p. a. für 12 Monate für Guthaben bis 50.000 €."
+    },
+    {
+      "timestamp": "11:45",
+      "basis": "visual",
+      "observation": "Textanzeige bestätigt, dass Trading 212 EU GmbH in Deutschland bei der BaFin registriert und unter Lizenznummer 10109603 reguliert ist."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "_QN3qWNSa_4",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-16T21:31:39.579422+00:00",
+  "discord_chunks": [
+    "🎬 **aktien4future**\n**4,25% Zinsen sind NICHT das beste Angebot! Hier parke ich 62.000 Euro CASH!**\nhttps://www.youtube.com/watch?v=_QN3qWNSa_4\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Schein von hohen Werbezinsen auf Tagesgeld und Cash-Guthaben täuscht oft, da Aktionsdauern, Folgezinssätze, Maximalsummen und Gutschriftintervalle die tatsächliche Jahresrendite stark beeinflussen (00:13, 09:42). Ein effektiver Vergleich über 12 Monate für 10.000 € und 100.000 € zeigt, dass Angebote mit niedrigeren, aber stabilen oder unbegrenzten Folgezinsen am Ende höhere Zinserträge erzielen können (06:43, 08:00). Zudem spielen die direkte Verfügbarkeit des Guthabens für Wertpapierkäufe beim Broker sowie Transparenz bei Regulierung und Einlagensicherung eine zentrale Rolle (03:00, 11:37).\n\n### Typ\nBildung (Finanz- und Produktvergleich)\n\n### Methode, Regeln und häufige Fehler\n- **Methode:** Berechnung des effektiven Jahresertrags über 12 Monate für 10.000 € und 100.000 € Guthaben unter Berücksichtigung von Aktionszins, Aktionsdauer, Folgezins, Maximallimits und Gutschrifthäufigkeit (00:45, 03:17, 10:02).\n- **Wichtige Bewertungsregeln (09:45):**\n  1. Wie lange gilt der Aktionszins? (09:45)\n  2. Welcher Folgezinssatz gilt danach? (09:47)\n  3. Bis zu welchem Maximalbetrag gilt der Zinssatz? (09:48)\n  4. Wie häufig werden die Zinsen gutgeschrieben? (09:50)\n- **Häufige Fehler:**\n  - Nur auf den beworbenen Spitzenprozentsatz („Lockzins“) schauen (00:13, 07:20).\n  - Einlagegrenzen und Zinsabfall bei größeren Beträgen (z. B. ab 25.000 € oder 50.000 €) übersehen (08:14, 08:36).\n  - Den Aufwand und Zeitverlust für Kontoüberweisungen von externen Tagesgeldkonten bei schnellen Börsenchancen ignorieren (03:00).\n\n### Unsicherheiten und sehenswerte ",
+    "Stellen\n- **Unsicherheiten:** Variable Zinssätze können von Anbietern jederzeit angepasst werden (04:02, 05:34). Bei Geldmarktfonds bestehen geringe Kapitalmarktrisiken (12:08).\n- **Sehenswerte Stellen:**\n  - 03:47–05:25: Broker-Zinsvergleich im Detail (Scalable, Trade Republic, Revolut, Trading 212).\n  - 06:38–07:55: 12-Monats-Effektivzins-Vergleich bei 10.000 € Guthaben.\n  - 07:56–09:35: Auswirkungen von Maximalsummen und Staffelungen bei 100.000 € Guthaben.\n  - 11:37–12:25: BaFin-Regulierung, Einlagensicherung und Sondervermögen bei Geldmarktfonds.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-16T21:31:40.682704+00:00"
 }

@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-16T21:01:21.954786+00:00",
-    "@wir-lieben-aktien": "2026-09-16T21:01:22.373860+00:00",
-    "@chartsekte": "2026-09-16T21:01:22.841569+00:00",
-    "@hkcm": "2026-09-16T21:01:23.304672+00:00",
-    "@phantombyhkcm": "2026-09-16T21:01:23.732347+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-16T21:01:24.159463+00:00",
-    "@aktien4future": "2026-09-16T21:01:24.627783+00:00",
-    "@Finanzbaer": "2026-09-16T21:01:25.153185+00:00",
-    "@Finanzwiesel": "2026-09-16T21:01:26.153537+00:00",
-    "@TradingKompass": "2026-09-16T21:01:26.728149+00:00",
-    "@TomVorwald": "2026-09-16T21:01:28.035311+00:00"
+    "@1OxTrading": "2026-09-16T21:31:07.194271+00:00",
+    "@wir-lieben-aktien": "2026-09-16T21:31:07.810014+00:00",
+    "@chartsekte": "2026-09-16T21:31:08.320308+00:00",
+    "@hkcm": "2026-09-16T21:31:08.842111+00:00",
+    "@phantombyhkcm": "2026-09-16T21:31:09.370248+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-16T21:31:09.962387+00:00",
+    "@aktien4future": "2026-09-16T21:31:10.541642+00:00",
+    "@Finanzbaer": "2026-09-16T21:31:11.087542+00:00",
+    "@Finanzwiesel": "2026-09-16T21:31:11.555527+00:00",
+    "@TradingKompass": "2026-09-16T21:31:12.115295+00:00",
+    "@TomVorwald": "2026-09-16T21:31:12.689030+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4569,10 +4569,11 @@
     "published": null,
     "channel": "aktien4future",
     "handle": "@aktien4future",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-15T18:31:13.794923+00:00",
-    "attempts": 4,
-    "last_attempt": "2026-09-16T15:32:53.987875+00:00"
+    "attempts": 5,
+    "last_attempt": "2026-09-16T21:31:12.745757+00:00",
+    "scraped_at": "2026-09-16T21:31:40.683482+00:00"
   },
   "nE4pyD105Ys": {
     "id": "nE4pyD105Ys",
@@ -4584,8 +4585,8 @@
     "handle": "@TomVorwald",
     "status": "pending",
     "discovered_at": "2026-09-15T18:31:15.742950+00:00",
-    "attempts": 4,
-    "last_attempt": "2026-09-16T16:01:30.296715+00:00"
+    "attempts": 5,
+    "last_attempt": "2026-09-16T21:31:40.687515+00:00"
   },
   "Gy6vo_BFmT8": {
     "id": "Gy6vo_BFmT8",
@@ -4597,8 +4598,8 @@
     "handle": "@TradingKompass",
     "status": "pending",
     "discovered_at": "2026-09-15T19:31:26.578777+00:00",
-    "attempts": 4,
-    "last_attempt": "2026-09-16T16:01:55.855027+00:00"
+    "attempts": 5,
+    "last_attempt": "2026-09-16T21:31:46.838222+00:00"
   },
   "iTGvWujIYTA": {
     "id": "iTGvWujIYTA",
