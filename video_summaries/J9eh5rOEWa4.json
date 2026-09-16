@@ -6,10 +6,60 @@
   "published": null,
   "channel": "HKCM",
   "handle": "@hkcm",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:27.314372+00:00",
-  "attempts": 4,
-  "last_attempt": "2026-09-16T14:33:27.778456+00:00",
+  "attempts": 5,
+  "last_attempt": "2026-09-16T20:01:44.236925+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nVor der anstehenden FOMC-Zinsentscheidung wird am Markt mehrheitlich eine Zinserhöhung um 25 Basispunkte eingepreist (02:03). Für den Nasdaq 100 erwartet der Sprecher primär weiter steigende Kurse bis zu einem finalen Hoch, bevor eine größere Korrektur einsetzen sollte (03:08, 09:20). Bei der Geldanlage empfiehlt er vor der Korrektur eine Cash-Quote von mindestens 20 % und hält selbst über 50 % (10:52, 11:51).\n\n**Typ**: Markt/Makro\n\n### Markt/Index: US Tech 100 / Nasdaq 100\n- **Sprecherthese**: Bleiben die Zinsen überraschend gleich, folgt ein impulsiver Ausbruch direkt nach oben; bei der erwarteten Anhebung um 0,25 % droht kurzfristig ein kleiner Rücksetzer, bevor der Index ebenfalls das finale Hoch ansteuert (02:56, 04:00). Nach Erreichen des übergeordneten Tops wird eine größere Trendwende nach unten erwartet (09:19).\n- **Richtung**: Kurz- bis mittelfristig bullisch, danach bärisch (03:08, 09:20).\n- **Konkret belegte Levels**: Erstes Ziel/Allzeithoch bei 30 975 Punkten (03:00); tiefere Korrekturziele nach dem Top im Bereich um 23 000 Punkte bzw. -21 % bis -40 % (09:56, 10:18, 10:25); Stop-Loss für bestehende Long-Positionen auf den Einstiegsbereich nachgezogen (07:38).\n- **Trigger**: FOMC-Zinsentscheid der US-Notenbank Fed (00:07, 02:41).\n- **Invalidierung**: nicht genannt.\n- **Zeithorizont**: Kurz- bis mittelfristig für die Restaufwärtsbewegung, langfristig für die anschließende Korrektur (11:28).\n\n### Strategie / Bildung: Cash-Management & Risikoadjustierung\n- **Methode/Regeln**: Nach Erreichen einer Zielzone wird der Stop-Loss auf den Einstiegsbereich (Breakeven) gesetzt (07:38). Teilgewinne (z. B. 50 %) mitnehmen, um Cash aufzubauen (07:50). Mindestens 20 % freies Kapital bereithalten, um in ausgeprägten Marktkorrekturen liquiditätsstark einzusteigen (11:51).\n- **Fehler**: Ohne Risikoadjustierung/Absicherung in Zinsentscheidungen gehen oder kein Cash für Korrekturphasen vorhalten (11:34).\n\n**Unsicherheiten und sehenswerte Stellen**:\nUnklarheiten bestehen hinsichtlich der genauen Notenbank-Rhetorik nach dem Entscheid. Sehenswert sind die Erläuterungen zur Wahrscheinlichkeitsverteilung im CME FedWatch Tool (01:51) sowie der Szenariovergleich im Nasdaq 100 Futures-Chart (02:56, 09:25).",
+  "evidence": [
+    {
+      "timestamp": "01:51",
+      "basis": "visual",
+      "observation": "CME FedWatch Tool zeigt eine Wahrscheinlichkeit von 92,3 % für einen Zielzins von 375-400 bps (+25 bps) und 7,7 % für unveränderte Zinsen an."
+    },
+    {
+      "timestamp": "02:56",
+      "basis": "visual",
+      "observation": "Im Chart des Nasdaq 100 Futures wird ein Pfeil für einen impulsiven Ausbruch nach oben bei unveränderten Zinsen eingezeichnet."
+    },
+    {
+      "timestamp": "03:00",
+      "basis": "audio",
+      "observation": "Sprecher nennt als erstes Ziel bei einem Ausbruch nach oben die Marke von 30 975 Punkten."
+    },
+    {
+      "timestamp": "07:38",
+      "basis": "audio",
+      "observation": "Sprecher erklärt das HKCM-Regelwerk: Sobald eine Zielzone abgearbeitet ist, wird der Stop-Loss auf den Einstiegsbereich gezogen."
+    },
+    {
+      "timestamp": "09:56",
+      "basis": "visual",
+      "observation": "Ein roter Korrekturpfad (Welle A) zeigt eine Abwärtsbewegung von -21 % bis in den Bereich von ca. 23 000 Punkten."
+    },
+    {
+      "timestamp": "10:52",
+      "basis": "audio",
+      "observation": "Sprecher nennt seine persönliche Cash-Quote von etwas über 50 % im Vergleich zum investierten Vermögen."
+    },
+    {
+      "timestamp": "11:51",
+      "basis": "audio",
+      "observation": "Sprecher empfiehlt eine Mindest-Cash-Quote von 20 % frei verfügbarem Kapital."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "J9eh5rOEWa4",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-16T20:02:14.623350+00:00",
+  "discord_chunks": [
+    "🎬 **HKCM**\n**Markets full of tension ahead of Fed decision**\nhttps://www.youtube.com/watch?v=J9eh5rOEWa4\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nVor der anstehenden FOMC-Zinsentscheidung wird am Markt mehrheitlich eine Zinserhöhung um 25 Basispunkte eingepreist (02:03). Für den Nasdaq 100 erwartet der Sprecher primär weiter steigende Kurse bis zu einem finalen Hoch, bevor eine größere Korrektur einsetzen sollte (03:08, 09:20). Bei der Geldanlage empfiehlt er vor der Korrektur eine Cash-Quote von mindestens 20 % und hält selbst über 50 % (10:52, 11:51).\n\n**Typ**: Markt/Makro\n\n### Markt/Index: US Tech 100 / Nasdaq 100\n- **Sprecherthese**: Bleiben die Zinsen überraschend gleich, folgt ein impulsiver Ausbruch direkt nach oben; bei der erwarteten Anhebung um 0,25 % droht kurzfristig ein kleiner Rücksetzer, bevor der Index ebenfalls das finale Hoch ansteuert (02:56, 04:00). Nach Erreichen des übergeordneten Tops wird eine größere Trendwende nach unten erwartet (09:19).\n- **Richtung**: Kurz- bis mittelfristig bullisch, danach bärisch (03:08, 09:20).\n- **Konkret belegte Levels**: Erstes Ziel/Allzeithoch bei 30 975 Punkten (03:00); tiefere Korrekturziele nach dem Top im Bereich um 23 000 Punkte bzw. -21 % bis -40 % (09:56, 10:18, 10:25); Stop-Loss für bestehende Long-Positionen auf den Einstiegsbereich nachgezogen (07:38).\n- **Trigger**: FOMC-Zinsentscheid der US-Notenbank Fed (00:07, 02:41).\n- **Invalidierung**: nicht genannt.\n- **Zeithorizont**: Kurz- bis mittelfristig für die Restaufwärtsbewegung, langfristig für die anschließende Korrektur (11:28).\n\n### Strategie / Bildung: Cash-Management & Risikoadjustierung\n- **Methode/Regeln**: Nach Erreichen einer Zielzone wird der Stop-Loss auf den Einstiegsbereich (Breakeven) gesetzt (",
+    "07:38). Teilgewinne (z. B. 50 %) mitnehmen, um Cash aufzubauen (07:50). Mindestens 20 % freies Kapital bereithalten, um in ausgeprägten Marktkorrekturen liquiditätsstark einzusteigen (11:51).\n- **Fehler**: Ohne Risikoadjustierung/Absicherung in Zinsentscheidungen gehen oder kein Cash für Korrekturphasen vorhalten (11:34).\n\n**Unsicherheiten und sehenswerte Stellen**:\nUnklarheiten bestehen hinsichtlich der genauen Notenbank-Rhetorik nach dem Entscheid. Sehenswert sind die Erläuterungen zur Wahrscheinlichkeitsverteilung im CME FedWatch Tool (01:51) sowie der Szenariovergleich im Nasdaq 100 Futures-Chart (02:56, 09:25).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-16T20:02:15.260871+00:00"
 }
