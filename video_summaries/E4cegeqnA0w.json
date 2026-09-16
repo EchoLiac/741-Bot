@@ -6,10 +6,51 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123266+00:00",
-  "attempts": 3,
-  "last_attempt": "2026-09-16T06:01:56.298393+00:00",
+  "attempts": 4,
+  "last_attempt": "2026-09-16T12:31:14.464697+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nIn diesem Wochenbriefing analysieren die Moderatoren geopolitische Entwicklungen im US-Iran-Konflikt, Zinserwartungen sowie markante Einzelaktienbewegungen von Intel und Accenture. Ergänzt wird die Diskussion durch makroökonomische Statistiken zu KI-getriebener Marktkonzentration, extremer Momentum-Überhitzung und Rekorden beim privaten Optionshandel (00:06, 16:47, 18:58).\n\n### Typ\nMarkt/Makro & Mehrere Aktien\n\n### Markt & Makro\n- **Sprecherthese**: Geopolitische Spannungen und das Fehlen breiter Marktgewinne mahnen zur Vorsicht. Extremes Momentum im S&P 500 gegenüber Low-Volatility-Werten deutet auf eine historisch seltene Überhitzung hin, die mittelfristig korrigiert werden dürfte (02:12, 18:58).\n- **Richtung**: Neutral bis mittelfristig korrekturgefährdet (18:58, 21:05).\n- **Belegte Levels/Kennzahlen**: 60-Tage-Zeitfenster für Verhandlungen im Iran-Deal (01:47); S&P 500 KI-Aktien legten um ca. 6 Billionen USD Marktkapitalisierung zu, während der Rest des S&P 500 (ohne KI/Energie) im Minus liegt (17:28, 17:43); Momentum vs. Min. Volatility verzeichnet ein 5-Standardabweichungen-Overshoot (18:58, 20:39); Privatanleger handelten im Juni durchschnittlich 7 Mrd. USD Optionsprämien pro Tag (davon 1,9 Mrd. USD in Halbleiteraktien) (22:52, 23:19).\n- **Trigger**: Topbildung am Aktienmarkt und Zurückfahren von Investitionen durch Hyperscaler (14:30, 21:28).\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Nächste Wochen bis 2 Jahre (19:54, 21:05).\n\n### Intel (INTC)\n- **Sprecherthese**: Die Aktie profitierte von Trumps Online-Aussage über eine angebliche Apple-Fertigung bei Intel; sie passt zur These der Rückverlagerung von Chipfertigung in die USA (07:04, 08:24).\n- **Richtung**: Bullisch / Turnaround (07:04, 08:56).\n- **Belegte Levels/Kennzahlen**: +10 % Kursanstieg am Donnerstag (07:08); Depot-Gewinn im eigenen Turnaround-Depot bei ca. +400 % (08:58).\n- **Trigger**: Gerücht/Meldung über Apple-Auftrag bei Intel (07:14).\n- **Invalidierung**: Nicht genannt (bislang keine offizielle Bestätigung von Apple oder Intel) (07:23).\n- **Zeithorizont**: Mittel- bis langfristig (08:56).\n\n### Accenture (ACN)\n- **Sprecherthese**: Die Aktie erlitt den schwersten Tagesverlust seit 2016 nach schwachen Buchungszahlen und einer gesenkten Umsatzprognose, getrieben von Sorgen um KI-Verdrängung im Beratungssektor (09:42, 10:48).\n- **Richtung**: Kurzfristig bärisch / Abverkauf; langfristig potenzieller Turnaround-Wert (09:48, 12:50).\n- **Belegte Levels/Kennzahlen**: -18 % Schlusskurs am Donnerstag (09:48); Auftragseingänge (Bookings) Q/Q -13 % (10:16), Y/Y -2 % (11:34); Umsatzwachstums-Guidance auf 3–4 % gesenkt (10:23); Belastung durch Nahost-Konflikt 400 Mio. USD (10:38); Dividendenrendite auf 5 % gestiegen (11:03); Forward-KGV unter 10 (11:13).\n- **Trigger**: Enttäuschende Guidance und Sorgen vor Disruption durch KI (10:13, 10:48).\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Kurzfristig Konsolidierung erforderlich; langfristig interessant (12:45).\n\n### Micron Technology (MU)\n- **Sprecherthese**: Anstehende Quartalszahlen bei einem typischen zyklischen Halbleiterwert, dessen optisch günstiges KGV bei Gewinnpeaks oft trügerisch ist (13:43, 15:13).\n- **Richtung**: Neutral vor Zahlen (13:45, 14:13).\n- **Belegte Levels/Kennzahlen**: Keine konkreten Kurslevels genannt.\n- **Trigger**: Veröffentlichung der Quartalszahlen (Mittwoch nachbörslich) (13:44).\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Kurzfristig (Earnings) bis 3 Jahre (13:26, 14:04).\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten**: Bislang unbestätigte Aussagen von Donald Trump bezüglich Apple/Intel sowie anhaltende Dynamik im Nahost-Konflikt und US-Iran-Abkommen.\n- **Sehenswerte Stellen**:\n  - 07:04: Diskussion über den Kurssprung bei Intel durch Trumps Aussage.\n  - 09:42: Detailauswertung zu Accentures Kurseinbruch und KI-Einfluss.\n  - 16:47: Grafik zur Marktkonzentration im S&P 500 (KI & Energie vs. Rest).\n  - 18:58: Chartanalyse zum extremen Momentum-Overshoot gegenüber Low-Vol-Aktien.\n  - 22:37: Auswertung der Rekord-Optionsumsätze bei Privatanlegern.",
+  "evidence": [
+    {
+      "timestamp": "07:08",
+      "basis": "audio",
+      "observation": "Sprecher nennt einen Kursanstieg der Intel-Aktie um 10 % am Donnerstag."
+    },
+    {
+      "timestamp": "09:48",
+      "basis": "audio",
+      "observation": "Sprecher nennt einen Kursrückgang der Accenture-Aktie von 18 % nach den Quartalszahlen."
+    },
+    {
+      "timestamp": "16:47",
+      "basis": "visual",
+      "observation": "Grafik von Apollo mit dem Titel 'Market cap is up for AI and energy but down for everyone else' zeigt Entwicklung des S&P 500 nach Sektoren."
+    },
+    {
+      "timestamp": "18:58",
+      "basis": "visual",
+      "observation": "Grafik von Alpine Macro 'Chart 1: Momentum Stocks Go Full Tilt' zeigt ein 5-Standardabweichungen-Overshoot von Momentum vs. Minimum Volatility."
+    },
+    {
+      "timestamp": "22:37",
+      "basis": "visual",
+      "observation": "Grafik von Citadel Securities 'Retail Options - May and June Activity Similarly Record Breaking' zeigt Anstieg der täglichen Optionsprämien auf 7 Mrd. USD im Juni."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "E4cegeqnA0w",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-16T12:32:01.170717+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**🗓️ Accenture Crash, Intel Rally, Momentum vs. Low Volatility Stocks**\nhttps://www.youtube.com/watch?v=E4cegeqnA0w\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nIn diesem Wochenbriefing analysieren die Moderatoren geopolitische Entwicklungen im US-Iran-Konflikt, Zinserwartungen sowie markante Einzelaktienbewegungen von Intel und Accenture. Ergänzt wird die Diskussion durch makroökonomische Statistiken zu KI-getriebener Marktkonzentration, extremer Momentum-Überhitzung und Rekorden beim privaten Optionshandel (00:06, 16:47, 18:58).\n\n### Typ\nMarkt/Makro & Mehrere Aktien\n\n### Markt & Makro\n- **Sprecherthese**: Geopolitische Spannungen und das Fehlen breiter Marktgewinne mahnen zur Vorsicht. Extremes Momentum im S&P 500 gegenüber Low-Volatility-Werten deutet auf eine historisch seltene Überhitzung hin, die mittelfristig korrigiert werden dürfte (02:12, 18:58).\n- **Richtung**: Neutral bis mittelfristig korrekturgefährdet (18:58, 21:05).\n- **Belegte Levels/Kennzahlen**: 60-Tage-Zeitfenster für Verhandlungen im Iran-Deal (01:47); S&P 500 KI-Aktien legten um ca. 6 Billionen USD Marktkapitalisierung zu, während der Rest des S&P 500 (ohne KI/Energie) im Minus liegt (17:28, 17:43); Momentum vs. Min. Volatility verzeichnet ein 5-Standardabweichungen-Overshoot (18:58, 20:39); Privatanleger handelten im Juni durchschnittlich 7 Mrd. USD Optionsprämien pro Tag (davon 1,9 Mrd. USD in Halbleiteraktien) (22:52, 23:19).\n- **Trigger**: Topbildung am Aktienmarkt und Zurückfahren von Investitionen durch Hyperscaler (14:30, 21:28).\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Nächste Wochen bis 2 Jahre (19:54, 21:05).\n\n### Intel (INTC)\n- **Sprecherthese**: Die Aktie profitierte von Trumps Online-Aussage über eine a",
+    "ngebliche Apple-Fertigung bei Intel; sie passt zur These der Rückverlagerung von Chipfertigung in die USA (07:04, 08:24).\n- **Richtung**: Bullisch / Turnaround (07:04, 08:56).\n- **Belegte Levels/Kennzahlen**: +10 % Kursanstieg am Donnerstag (07:08); Depot-Gewinn im eigenen Turnaround-Depot bei ca. +400 % (08:58).\n- **Trigger**: Gerücht/Meldung über Apple-Auftrag bei Intel (07:14).\n- **Invalidierung**: Nicht genannt (bislang keine offizielle Bestätigung von Apple oder Intel) (07:23).\n- **Zeithorizont**: Mittel- bis langfristig (08:56).\n\n### Accenture (ACN)\n- **Sprecherthese**: Die Aktie erlitt den schwersten Tagesverlust seit 2016 nach schwachen Buchungszahlen und einer gesenkten Umsatzprognose, getrieben von Sorgen um KI-Verdrängung im Beratungssektor (09:42, 10:48).\n- **Richtung**: Kurzfristig bärisch / Abverkauf; langfristig potenzieller Turnaround-Wert (09:48, 12:50).\n- **Belegte Levels/Kennzahlen**: -18 % Schlusskurs am Donnerstag (09:48); Auftragseingänge (Bookings) Q/Q -13 % (10:16), Y/Y -2 % (11:34); Umsatzwachstums-Guidance auf 3–4 % gesenkt (10:23); Belastung durch Nahost-Konflikt 400 Mio. USD (10:38); Dividendenrendite auf 5 % gestiegen (11:03); Forward-KGV unter 10 (11:13).\n- **Trigger**: Enttäuschende Guidance und Sorgen vor Disruption durch KI (10:13, 10:48).\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Kurzfristig Konsolidierung erforderlich; langfristig interessant (12:45).\n\n### Micron Technology (MU)\n- **Sprecherthese**: Anstehende Quartalszahlen bei einem typischen zyklischen Halbleiterwert, dessen optisch günstiges KGV bei Gewinnpeaks oft trügerisch ist (13:43, 15:13).\n- **Richtung**: Neutral vor Zahlen (13:45, 14:13).\n- **Belegte Levels/Kennzahlen**: Keine konkreten Kurslevels genannt.\n- **Trigger**: Veröffentlichung der Quartalszahlen (Mit",
+    "twoch nachbörslich) (13:44).\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Kurzfristig (Earnings) bis 3 Jahre (13:26, 14:04).\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten**: Bislang unbestätigte Aussagen von Donald Trump bezüglich Apple/Intel sowie anhaltende Dynamik im Nahost-Konflikt und US-Iran-Abkommen.\n- **Sehenswerte Stellen**:\n  - 07:04: Diskussion über den Kurssprung bei Intel durch Trumps Aussage.\n  - 09:42: Detailauswertung zu Accentures Kurseinbruch und KI-Einfluss.\n  - 16:47: Grafik zur Marktkonzentration im S&P 500 (KI & Energie vs. Rest).\n  - 18:58: Chartanalyse zum extremen Momentum-Overshoot gegenüber Low-Vol-Aktien.\n  - 22:37: Auswertung der Rekord-Optionsumsätze bei Privatanlegern.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 3,
+  "discord_sent_at": "2026-09-16T12:32:02.078239+00:00"
 }
