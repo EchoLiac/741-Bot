@@ -6,10 +6,60 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123298+00:00",
-  "attempts": 2,
-  "last_attempt": "2026-09-16T03:01:26.208967+00:00",
+  "attempts": 3,
+  "last_attempt": "2026-09-16T09:01:31.916373+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDas Price-Earnings-to-Growth-Ratio (PEG Ratio) erweitert das traditionelle Kurs-Gewinn-Verhältnis (KGV) um das erwartete Gewinnwachstum eines Unternehmens [00:57]. Dadurch werden wachstumsstarke und langsam wachsende Unternehmen direkt miteinander vergleichbar [01:08]. Das reine KGV greift ohne Wachstumsberücksichtigung zu kurz und lässt Wachstumsaktien oft fälschlicherweise zu teuer erscheinen [01:25].\n\n### Typ\nBildung\n\n### Methode / Regeln / Fehler\n- **Berechnung des PEG Ratio** [02:28]: Das KGV wird durch das erwartete prozentuale Gewinnwachstum (EPS-Wachstum p.a.) dividiert.\n- **Bewertungsschema** [04:56]: Ein PEG-Wert zwischen 1,0 und 1,5 gilt als Bereich für eine faire bis günstige Bewertung. Ein Wert über 2,0 deutet auf eine Überbewertung hin [06:12].\n- **Praxisvergleich aus dem Diagramm** [05:57]:\n  - **Apple (AAPL)** [06:29]: KGV 31,5 | EPS-Wachstum 11,0 % p.a. | Forward PEG 2,86 (überbewertet).\n  - **Meta (META)** [06:46]: KGV 22,5 | EPS-Wachstum 19,0 % p.a. | Forward PEG 1,18 (unterbewertet / günstig).\n  - **Novo Nordisk (NVO)** [07:03]: KGV 11,1 | EPS-Wachstum 7,0 % p.a. | Forward PEG 1,59 (fair bewertet).\n  - **Amazon (AMZN)** [07:10]: KGV 35,0 | EPS-Wachstum 18,9 % p.a. | Forward PEG 1,85 (fair bewertet).\n  - **Alphabet (GOOG)** [07:21]: KGV 29,9 | EPS-Wachstum 14,0 % p.a. | Forward PEG 2,14 (leicht überbewertet).\n  - **ASML (ASML)** [07:37]: KGV 45,8 | EPS-Wachstum 18,7 % p.a. | Forward PEG 2,45 (leicht überbewertet).\n- **Häufiger Fehler**: Das PEG Ratio beruht auf Wachstumsprognosen; ist ein Gewinnwachstum nur temporär oder unvollständig nachhaltig, führt die Kennzahl zu Fehlschlüssen [05:10].\n\n### Unsicherheiten und sehenswerte Stellen\n- **Unsicherheiten**: Das prognostizierte EPS-Wachstum (für 3–5 Jahre) basiert auf Konsens-Analystenschätzungen und ist nicht garantiert.\n- **Sehenswerte Stellen**:\n  - **01:49**: Modellhafter Vergleich zwischen Slow AG (KGV 15, PEG 5.0) und Growth AG (KGV 30, PEG 1.20).\n  - **04:01**: PEG-Heatmap zur Veranschaulichung der Bewertungszonen je nach KGV und Gewinnwachstum.\n  - **05:57**: Vergleichendes Streudiagramm bekannter US- und Europatitel.",
+  "evidence": [
+    {
+      "timestamp": "00:57",
+      "basis": "audio",
+      "observation": "Der Sprecher erklärt das PEG Ratio als angepasstes KGV, das das Wachstum berücksichtigt."
+    },
+    {
+      "timestamp": "01:49",
+      "basis": "visual",
+      "observation": "Interaktives Gegenüberstellungsverhältnis: Slow AG (KGV 15, Gewinnwachstum 3%, PEG 5.00, 'Stark überbewertet') vs. Growth AG (KGV 30, Gewinnwachstum 25%, PEG 1.20, 'Unterbewertet')."
+    },
+    {
+      "timestamp": "04:01",
+      "basis": "visual",
+      "observation": "Eingeblendete PEG-Heatmap zeigt die Bewertungsmatrix für KGV 10 bis 60 und Gewinnwachstum 2% bis 40%."
+    },
+    {
+      "timestamp": "06:29",
+      "basis": "visual",
+      "observation": "Infobox zu Apple (AAPL): KGV (NRI) 31.5, EPS-Wachstum (3-5 J.) 11.0% p.a., Forward PEG 2.86 (Teuer)."
+    },
+    {
+      "timestamp": "06:46",
+      "basis": "visual",
+      "observation": "Infobox zu Meta (META): KGV (NRI) 22.5, EPS-Wachstum (3-5 J.) 19.0% p.a., Forward PEG 1.18 (Unterbewertet)."
+    },
+    {
+      "timestamp": "07:03",
+      "basis": "visual",
+      "observation": "Infobox zu Novo Nordisk (NVO): KGV (NRI) 11.1, EPS-Wachstum 7.0% p.a., Forward PEG 1.59 (Fair bewertet)."
+    },
+    {
+      "timestamp": "07:37",
+      "basis": "visual",
+      "observation": "Infobox zu ASML (ASML): KGV (NRI) 45.8, EPS-Wachstum 18.7% p.a., Forward PEG 2.45 (Leicht überbewertet)."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "vIXLO0f0OCY",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-16T09:01:56.020448+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Privatanleger fallen auf die KGV-Falle herein. Diese Kennzahl ist besser!**\nhttps://www.youtube.com/watch?v=vIXLO0f0OCY\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDas Price-Earnings-to-Growth-Ratio (PEG Ratio) erweitert das traditionelle Kurs-Gewinn-Verhältnis (KGV) um das erwartete Gewinnwachstum eines Unternehmens [00:57]. Dadurch werden wachstumsstarke und langsam wachsende Unternehmen direkt miteinander vergleichbar [01:08]. Das reine KGV greift ohne Wachstumsberücksichtigung zu kurz und lässt Wachstumsaktien oft fälschlicherweise zu teuer erscheinen [01:25].\n\n### Typ\nBildung\n\n### Methode / Regeln / Fehler\n- **Berechnung des PEG Ratio** [02:28]: Das KGV wird durch das erwartete prozentuale Gewinnwachstum (EPS-Wachstum p.a.) dividiert.\n- **Bewertungsschema** [04:56]: Ein PEG-Wert zwischen 1,0 und 1,5 gilt als Bereich für eine faire bis günstige Bewertung. Ein Wert über 2,0 deutet auf eine Überbewertung hin [06:12].\n- **Praxisvergleich aus dem Diagramm** [05:57]:\n  - **Apple (AAPL)** [06:29]: KGV 31,5 | EPS-Wachstum 11,0 % p.a. | Forward PEG 2,86 (überbewertet).\n  - **Meta (META)** [06:46]: KGV 22,5 | EPS-Wachstum 19,0 % p.a. | Forward PEG 1,18 (unterbewertet / günstig).\n  - **Novo Nordisk (NVO)** [07:03]: KGV 11,1 | EPS-Wachstum 7,0 % p.a. | Forward PEG 1,59 (fair bewertet).\n  - **Amazon (AMZN)** [07:10]: KGV 35,0 | EPS-Wachstum 18,9 % p.a. | Forward PEG 1,85 (fair bewertet).\n  - **Alphabet (GOOG)** [07:21]: KGV 29,9 | EPS-Wachstum 14,0 % p.a. | Forward PEG 2,14 (leicht überbewertet).\n  - **ASML (ASML)** [07:37]: KGV 45,8 | EPS-Wachstum 18,7 % p.a. | Forward PEG 2,45 (leicht überbewertet).\n- **Häufiger Fehler**: Das PEG Ratio beruht auf Wachstumsprognosen; ist ein Gewinnwachstum nur temporär ode",
+    "r unvollständig nachhaltig, führt die Kennzahl zu Fehlschlüssen [05:10].\n\n### Unsicherheiten und sehenswerte Stellen\n- **Unsicherheiten**: Das prognostizierte EPS-Wachstum (für 3–5 Jahre) basiert auf Konsens-Analystenschätzungen und ist nicht garantiert.\n- **Sehenswerte Stellen**:\n  - **01:49**: Modellhafter Vergleich zwischen Slow AG (KGV 15, PEG 5.0) und Growth AG (KGV 30, PEG 1.20).\n  - **04:01**: PEG-Heatmap zur Veranschaulichung der Bewertungszonen je nach KGV und Gewinnwachstum.\n  - **05:57**: Vergleichendes Streudiagramm bekannter US- und Europatitel.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-16T09:01:56.573399+00:00"
 }
