@@ -6,10 +6,91 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123251+00:00",
-  "attempts": 4,
-  "last_attempt": "2026-09-16T11:31:56.906713+00:00",
+  "attempts": 5,
+  "last_attempt": "2026-09-16T17:01:37.326938+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher analysiert acht ausgewählte Technologie-, Industrie- und Weltraum-Aktien hinsichtlich Bewertung und Charttechnik. Je nach Bodenbildung und Trendstruktur teilt er die Werte in Kauf-, Halte- oder Verkaufskandidaten ein. Besondere Aufmerksamkeit gilt dabei dem Unterschied zwischen fundamentaler Bewertung und charttechnischem Trigger.\n\n**Typ:** mehrere Aktien\n\n---\n\n### Micron Technology\n* **Sprecherthese:** Stark zyklisches Geschäft mit stark schwankendem KGV; nach der jüngsten Trendbeschleunigung droht bei einer Topbildung eine deutliche Korrektur (01:20, 02:47).\n* **Richtung:** Verkaufen / Verkaufskandidat (sobald Topbildung bestätigt) (03:15).\n* **Levels:** Schwächesignal bei nachhaltigem Rutsch unter 995,00 USD (03:11); historische Korrekturpotenziale von 50–70 % (02:37, 02:49).\n* **Trigger:** Bestätigte Topbildung / Bruch der Marke von 995,00 USD (03:11, 03:17).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig (03:25).\n\n### ServiceNow\n* **Sprecherthese:** Historisch günstiges KUV; der mittelfristige Abwärtstrend ist gebrochen und ein großer Boden wird aufgebaut (03:59, 04:36).\n* **Richtung:** Kaufen / Kaufkandidat (04:42).\n* **Levels:** Vollendung des Bodens über 140,00 USD (04:39).\n* **Trigger:** Ausbruch über 140,00 USD (04:39).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittel- bis langfristig (04:34).\n\n### Microsoft\n* **Sprecherthese:** Hohe Qualität und Stabilität mit moderaterer Bewertung (KGV ~16 für 2028 erwartet), jedoch fehlt charttechnisch noch eine klare Bodenstruktur für direkte Kaufsignale (05:25, 05:46).\n* **Richtung:** Beobachten / Genereller Kaufkandidat auf Signal wartend (06:05).\n* **Levels:** Großer Boden erst über 467,00 USD (05:55).\n* **Trigger:** Ausbruch über Zwischenhochs nach Rücksetzer (Price Action) (06:12).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig (05:31).\n\n### Danaher\n* **Sprecherthese:** Nach langer Korrektur Bewertung wieder nahe historischem Mittelwert; kurzfristiger Turnaround ist gelungen (06:53, 08:03).\n* **Richtung:** Kaufen (erste Tranche jetzt, zweite Tranche flexibel bei Rücksetzer) (07:21, 07:52).\n* **Levels:** Ausbruchsniveau bei 201,00 USD (07:11); tiefere Testzone bei 145,00–150,00 USD (07:00).\n* **Trigger:** Ausbruch über 201,00 USD bricht den Abwärtstrend (07:11).\n* **Invalidierung:** Erneuter Abverkauf in Richtung 145,00–150,00 USD (07:37).\n* **Zeithorizont:** Langfristig (06:51).\n\n### Rheinmetall\n* **Sprecherthese:** Perfektion war eingepreist; KGV ist zwar gefallen, aber die Aktie ist kein Schnäppchen. Nach Ausbruch aus der Topformation droht Weiterabverkauf im unterstützungsarmen Raum (09:18, 10:19, 10:50).\n* **Richtung:** Halten (11:56); derzeit kein Kaufkandidat (11:44).\n* **Levels:** Stärkere Volumensupports erst im Bereich 500,00–570,00 EUR (10:44, 10:52).\n* **Trigger:** Längere Seitwärts-/Bodenbildung notwendig (11:35).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittel- bis langfristig (11:49).\n\n### BYD\n* **Sprecherthese:** Fundamentale Bewertung attraktiv (erwartetes KGV unter 10), aber charttechnisch fehlt bisher die Bodenbildung (12:12, 13:07).\n* **Richtung:** Halten (13:11).\n* **Levels:** Langfristtrend intakt, solange Jahrestiefs (ca. 165–170 HKD) halten (12:41).\n* **Trigger:** Mehrwöchige bis mehrmonatige Stabilisierung mit Ausbruch nach oben (12:48, 13:17).\n* **Invalidierung:** Bruch der tiefen Unterstützung weitet Korrektur aus (12:42).\n* **Zeithorizont:** Wochen bis Monate (13:17).\n\n### Rocket Lab\n* **Sprecherthese:** Operativ stark, aber bewertungstechnisch extrem hoch und sehr volatil; mittelfristiger Trend intakt, aber Chance-Risiko-Verhältnis für Neueinstieg unattraktiv (13:32, 14:22).\n* **Richtung:** Halten (14:34).\n* **Levels:** Keine konkreten Zahlen genannt.\n* **Trigger / Invalidierung:** Bei Entstehung einer Topformation Verkauf erwägen (14:39).\n* **Zeithorizont:** Kurz- bis mittelfristig (14:30).\n\n### SpaceX\n* **Sprecherthese:** Geringer Free Float führt zu starken Kurssprüngen; mangels historischer Chartdaten nur sehr kurzfristig im Minuten-/Stundenchart analysierbar (15:08, 15:23).\n* **Richtung:** Nicht fürs Portfolio empfohlen (16:01).\n* **Levels:** Widerstand/Ausbruchsmarke bei 173,00 USD (15:36).\n* **Trigger:** Nachhaltiger Ausbruch über 173,00 USD mit Momentum (15:36).\n* **Invalidierung:** Scheitern an der Kurslücke führt zu neuen Tiefs (15:46).\n* **Zeithorizont:** Sehr kurzfristig (15:21).\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Widerspruch/Unsicherheit:** Bei SpaceX fehlen Historie und breiter Handel auf Haupthandelsplätzen, weshalb Chartanalysen kaum verlässlich sind (15:23).\n* **Sehenswerte Stellen:** \n  * **02:30–03:15:** Erklärung der zyklischen KGV-Falle am Beispiel Micron.\n  * **07:10–07:50:** Phasenweiser Trancheneinstieg bei Danaher.\n  * **10:30–11:00:** Volumenprofil-Analyse (luftleerer Raum) bei Rheinmetall.",
+  "evidence": [
+    {
+      "timestamp": "01:08",
+      "basis": "visual",
+      "observation": "Eingeblendetes Bewertungsdiagramm 'Micron - Adjusted P/E (2010-2028e)' sowie Langfrist-Chart von Micron Technology."
+    },
+    {
+      "timestamp": "03:11",
+      "basis": "audio",
+      "observation": "Sprecher erwähnt erste Schwächesignale bei Micron bei einem nachhaltigen Rutsch unter 995 US-Dollar."
+    },
+    {
+      "timestamp": "03:49",
+      "basis": "visual",
+      "observation": "Eingeblendetes Bewertungsdiagramm 'ServiceNow - KUV (2012-2028e)' und Tageschart von ServiceNow."
+    },
+    {
+      "timestamp": "04:39",
+      "basis": "audio",
+      "observation": "Sprecher erklärt, dass der große Boden bei ServiceNow erst über 140 US-Dollar vollendet wird."
+    },
+    {
+      "timestamp": "05:04",
+      "basis": "visual",
+      "observation": "Eingeblendetes Bewertungsdiagramm 'Microsoft - Adjusted P/E (2008-2028e)' und Chart von Microsoft."
+    },
+    {
+      "timestamp": "05:55",
+      "basis": "audio",
+      "observation": "Sprecher sieht ein größeres Bodensignal bei Microsoft erst über 467 US-Dollar."
+    },
+    {
+      "timestamp": "06:24",
+      "basis": "visual",
+      "observation": "Chartanalyse der Danaher Corporation im Tages- und Monatschart."
+    },
+    {
+      "timestamp": "07:11",
+      "basis": "audio",
+      "observation": "Sprecher benennt bei Danaher den Ausbruch über 201 US-Dollar als wichtigen Trendwechsel-Trigger."
+    },
+    {
+      "timestamp": "08:56",
+      "basis": "visual",
+      "observation": "Eingeblendetes Bewertungsdiagramm 'Rheinmetall - Adjusted P/E (2008-2028e)' und Chartverlauf von Rheinmetall."
+    },
+    {
+      "timestamp": "12:01",
+      "basis": "visual",
+      "observation": "Eingeblendetes Bewertungsdiagramm 'BYD - Adjusted P/E (2008-2028e)' und Chartanalyse der BYD-Aktie."
+    },
+    {
+      "timestamp": "13:24",
+      "basis": "visual",
+      "observation": "Wochen- und Tageschart der Rocket Lab USA Inc."
+    },
+    {
+      "timestamp": "14:47",
+      "basis": "visual",
+      "observation": "Intraday-/Stundenchart der Space Exploration Technologies Corp (SpaceX)."
+    },
+    {
+      "timestamp": "15:36",
+      "basis": "audio",
+      "observation": "Sprecher fordert bei SpaceX einen Ausbruch über 173 US-Dollar für die Einleitung des nächsten Aufwärtsimpulses."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "tFufpoBXVnw",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-16T17:02:15.324972+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Diese Aktien würde ich jetzt kaufen! (Software, Weltraum, Rheinmetall, ...)**\nhttps://www.youtube.com/watch?v=tFufpoBXVnw\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher analysiert acht ausgewählte Technologie-, Industrie- und Weltraum-Aktien hinsichtlich Bewertung und Charttechnik. Je nach Bodenbildung und Trendstruktur teilt er die Werte in Kauf-, Halte- oder Verkaufskandidaten ein. Besondere Aufmerksamkeit gilt dabei dem Unterschied zwischen fundamentaler Bewertung und charttechnischem Trigger.\n\n**Typ:** mehrere Aktien\n\n---\n\n### Micron Technology\n* **Sprecherthese:** Stark zyklisches Geschäft mit stark schwankendem KGV; nach der jüngsten Trendbeschleunigung droht bei einer Topbildung eine deutliche Korrektur (01:20, 02:47).\n* **Richtung:** Verkaufen / Verkaufskandidat (sobald Topbildung bestätigt) (03:15).\n* **Levels:** Schwächesignal bei nachhaltigem Rutsch unter 995,00 USD (03:11); historische Korrekturpotenziale von 50–70 % (02:37, 02:49).\n* **Trigger:** Bestätigte Topbildung / Bruch der Marke von 995,00 USD (03:11, 03:17).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig (03:25).\n\n### ServiceNow\n* **Sprecherthese:** Historisch günstiges KUV; der mittelfristige Abwärtstrend ist gebrochen und ein großer Boden wird aufgebaut (03:59, 04:36).\n* **Richtung:** Kaufen / Kaufkandidat (04:42).\n* **Levels:** Vollendung des Bodens über 140,00 USD (04:39).\n* **Trigger:** Ausbruch über 140,00 USD (04:39).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittel- bis langfristig (04:34).\n\n### Microsoft\n* **Sprecherthese:** Hohe Qualität und Stabilität mit moderaterer Bewertung (KGV ~16 für 2028 erwartet), jedoch fehlt charttechnisch noch eine klare Bodenstruktur für direkte",
+    " Kaufsignale (05:25, 05:46).\n* **Richtung:** Beobachten / Genereller Kaufkandidat auf Signal wartend (06:05).\n* **Levels:** Großer Boden erst über 467,00 USD (05:55).\n* **Trigger:** Ausbruch über Zwischenhochs nach Rücksetzer (Price Action) (06:12).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig (05:31).\n\n### Danaher\n* **Sprecherthese:** Nach langer Korrektur Bewertung wieder nahe historischem Mittelwert; kurzfristiger Turnaround ist gelungen (06:53, 08:03).\n* **Richtung:** Kaufen (erste Tranche jetzt, zweite Tranche flexibel bei Rücksetzer) (07:21, 07:52).\n* **Levels:** Ausbruchsniveau bei 201,00 USD (07:11); tiefere Testzone bei 145,00–150,00 USD (07:00).\n* **Trigger:** Ausbruch über 201,00 USD bricht den Abwärtstrend (07:11).\n* **Invalidierung:** Erneuter Abverkauf in Richtung 145,00–150,00 USD (07:37).\n* **Zeithorizont:** Langfristig (06:51).\n\n### Rheinmetall\n* **Sprecherthese:** Perfektion war eingepreist; KGV ist zwar gefallen, aber die Aktie ist kein Schnäppchen. Nach Ausbruch aus der Topformation droht Weiterabverkauf im unterstützungsarmen Raum (09:18, 10:19, 10:50).\n* **Richtung:** Halten (11:56); derzeit kein Kaufkandidat (11:44).\n* **Levels:** Stärkere Volumensupports erst im Bereich 500,00–570,00 EUR (10:44, 10:52).\n* **Trigger:** Längere Seitwärts-/Bodenbildung notwendig (11:35).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittel- bis langfristig (11:49).\n\n### BYD\n* **Sprecherthese:** Fundamentale Bewertung attraktiv (erwartetes KGV unter 10), aber charttechnisch fehlt bisher die Bodenbildung (12:12, 13:07).\n* **Richtung:** Halten (13:11).\n* **Levels:** Langfristtrend intakt, solange Jahrestiefs (ca. 165–170 HKD) halten (12:41).\n* **Trigger:** Mehrwöchige bis mehrmonatige Stabilisierung mit Ausbruch nach oben (12:48, 13:17)",
+    ".\n* **Invalidierung:** Bruch der tiefen Unterstützung weitet Korrektur aus (12:42).\n* **Zeithorizont:** Wochen bis Monate (13:17).\n\n### Rocket Lab\n* **Sprecherthese:** Operativ stark, aber bewertungstechnisch extrem hoch und sehr volatil; mittelfristiger Trend intakt, aber Chance-Risiko-Verhältnis für Neueinstieg unattraktiv (13:32, 14:22).\n* **Richtung:** Halten (14:34).\n* **Levels:** Keine konkreten Zahlen genannt.\n* **Trigger / Invalidierung:** Bei Entstehung einer Topformation Verkauf erwägen (14:39).\n* **Zeithorizont:** Kurz- bis mittelfristig (14:30).\n\n### SpaceX\n* **Sprecherthese:** Geringer Free Float führt zu starken Kurssprüngen; mangels historischer Chartdaten nur sehr kurzfristig im Minuten-/Stundenchart analysierbar (15:08, 15:23).\n* **Richtung:** Nicht fürs Portfolio empfohlen (16:01).\n* **Levels:** Widerstand/Ausbruchsmarke bei 173,00 USD (15:36).\n* **Trigger:** Nachhaltiger Ausbruch über 173,00 USD mit Momentum (15:36).\n* **Invalidierung:** Scheitern an der Kurslücke führt zu neuen Tiefs (15:46).\n* **Zeithorizont:** Sehr kurzfristig (15:21).\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Widerspruch/Unsicherheit:** Bei SpaceX fehlen Historie und breiter Handel auf Haupthandelsplätzen, weshalb Chartanalysen kaum verlässlich sind (15:23).\n* **Sehenswerte Stellen:** \n  * **02:30–03:15:** Erklärung der zyklischen KGV-Falle am Beispiel Micron.\n  * **07:10–07:50:** Phasenweiser Trancheneinstieg bei Danaher.\n  * **10:30–11:00:** Volumenprofil-Analyse (luftleerer Raum) bei Rheinmetall.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 3,
+  "discord_sent_at": "2026-09-16T17:02:15.976686+00:00"
 }
