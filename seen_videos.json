@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-16T14:01:18.605144+00:00",
-    "@wir-lieben-aktien": "2026-09-16T14:01:19.108259+00:00",
-    "@chartsekte": "2026-09-16T14:01:19.547622+00:00",
-    "@hkcm": "2026-09-16T14:01:20.104012+00:00",
-    "@phantombyhkcm": "2026-09-16T14:01:20.618932+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-16T14:01:21.071945+00:00",
-    "@aktien4future": "2026-09-16T14:01:21.587844+00:00",
-    "@Finanzbaer": "2026-09-16T14:01:22.112665+00:00",
-    "@Finanzwiesel": "2026-09-16T14:01:22.612992+00:00",
-    "@TradingKompass": "2026-09-16T14:01:23.127900+00:00",
-    "@TomVorwald": "2026-09-16T14:01:23.659155+00:00"
+    "@1OxTrading": "2026-09-16T14:31:13.601694+00:00",
+    "@wir-lieben-aktien": "2026-09-16T14:31:14.137227+00:00",
+    "@chartsekte": "2026-09-16T14:31:14.676018+00:00",
+    "@hkcm": "2026-09-16T14:31:15.279164+00:00",
+    "@phantombyhkcm": "2026-09-16T14:31:15.808076+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-16T14:31:16.363683+00:00",
+    "@aktien4future": "2026-09-16T14:31:16.905619+00:00",
+    "@Finanzbaer": "2026-09-16T14:31:17.486249+00:00",
+    "@Finanzwiesel": "2026-09-16T14:31:18.058282+00:00",
+    "@TradingKompass": "2026-09-16T14:31:18.631217+00:00",
+    "@TomVorwald": "2026-09-16T14:31:19.193029+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4463,8 +4463,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123300+00:00",
-    "attempts": 3,
-    "last_attempt": "2026-09-16T09:01:56.636566+00:00"
+    "attempts": 4,
+    "last_attempt": "2026-09-16T14:31:19.250493+00:00"
   },
   "XP4I9U6Ktcg": {
     "id": "XP4I9U6Ktcg",
@@ -4476,8 +4476,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123302+00:00",
-    "attempts": 3,
-    "last_attempt": "2026-09-16T09:03:02.824962+00:00"
+    "attempts": 4,
+    "last_attempt": "2026-09-16T14:33:14.763283+00:00"
   },
   "J9eh5rOEWa4": {
     "id": "J9eh5rOEWa4",
@@ -4489,8 +4489,8 @@
     "handle": "@hkcm",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:27.314372+00:00",
-    "attempts": 3,
-    "last_attempt": "2026-09-16T09:31:42.903596+00:00"
+    "attempts": 4,
+    "last_attempt": "2026-09-16T14:33:21.321482+00:00"
   },
   "wYD1eAw8NaQ": {
     "id": "wYD1eAw8NaQ",
