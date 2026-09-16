@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-16T09:31:36.736740+00:00",
-    "@wir-lieben-aktien": "2026-09-16T09:31:37.261231+00:00",
-    "@chartsekte": "2026-09-16T09:31:37.749438+00:00",
-    "@hkcm": "2026-09-16T09:31:38.286850+00:00",
-    "@phantombyhkcm": "2026-09-16T09:31:38.765596+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-16T09:31:39.272821+00:00",
-    "@aktien4future": "2026-09-16T09:31:39.779304+00:00",
-    "@Finanzbaer": "2026-09-16T09:31:41.360088+00:00",
-    "@Finanzwiesel": "2026-09-16T09:31:41.819353+00:00",
-    "@TradingKompass": "2026-09-16T09:31:42.297480+00:00",
-    "@TomVorwald": "2026-09-16T09:31:42.844391+00:00"
+    "@1OxTrading": "2026-09-16T10:01:21.342443+00:00",
+    "@wir-lieben-aktien": "2026-09-16T10:01:21.920652+00:00",
+    "@chartsekte": "2026-09-16T10:01:22.382480+00:00",
+    "@hkcm": "2026-09-16T10:01:22.902492+00:00",
+    "@phantombyhkcm": "2026-09-16T10:01:23.481119+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-16T10:01:23.948585+00:00",
+    "@aktien4future": "2026-09-16T10:01:24.450297+00:00",
+    "@Finanzbaer": "2026-09-16T10:01:24.949046+00:00",
+    "@Finanzwiesel": "2026-09-16T10:01:25.433919+00:00",
+    "@TradingKompass": "2026-09-16T10:01:26.842620+00:00",
+    "@TomVorwald": "2026-09-16T10:01:27.390385+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4526,8 +4526,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-15T17:01:20.421869+00:00",
-    "attempts": 2,
-    "last_attempt": "2026-09-16T04:01:22.586203+00:00"
+    "attempts": 3,
+    "last_attempt": "2026-09-16T10:01:33.745168+00:00"
   },
   "Dpw7_pZwdSo": {
     "id": "Dpw7_pZwdSo",
@@ -4539,8 +4539,8 @@
     "handle": "@chartsekte",
     "status": "pending",
     "discovered_at": "2026-09-15T18:01:33.596396+00:00",
-    "attempts": 2,
-    "last_attempt": "2026-09-16T04:01:28.949351+00:00"
+    "attempts": 3,
+    "last_attempt": "2026-09-16T10:01:40.027668+00:00"
   },
   "rWlUrqJjS34": {
     "id": "rWlUrqJjS34",
@@ -4607,5 +4607,18 @@
     "attempts": 1,
     "last_attempt": "2026-09-15T22:03:39.286311+00:00",
     "scraped_at": "2026-09-15T22:04:44.004755+00:00"
+  },
+  "2zGqGXb5nZY": {
+    "id": "2zGqGXb5nZY",
+    "title": "4 gefallene Marktführer – wer schafft den Turnaround?",
+    "url": "https://www.youtube.com/watch?v=2zGqGXb5nZY",
+    "duration": 2142,
+    "published": null,
+    "channel": "Wir Lieben Aktien",
+    "handle": "@wir-lieben-aktien",
+    "status": "pending",
+    "discovered_at": "2026-09-16T10:01:21.920631+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-16T10:01:27.443758+00:00"
   }
 }
