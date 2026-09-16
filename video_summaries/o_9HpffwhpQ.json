@@ -6,10 +6,50 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123250+00:00",
-  "attempts": 3,
-  "last_attempt": "2026-09-16T05:31:21.423060+00:00",
+  "attempts": 4,
+  "last_attempt": "2026-09-16T11:31:24.633114+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nLaut dem Sprecher bieten Softwareaktien nach den tiefen Korrekturen hervorragende Einstiegschancen für die Jahre 2024–2026. Anleger sollten jedoch nicht unüberlegt in fallende Kurse greifen, sondern gezielt auf ihr individuelles Risikoprofil sowie bestätigte charttechnische Kaufsignale achten (13:06).\n\n**Typ:** Mehrere Aktien / Markt\n\n---### Constellation Software\n* **Sprecherthese:** Das Unternehmen gilt als 'Berkshire Hathaway des Softwaremarktes' mit stabiler Marge, zweistelligem Umsatzwachstum und historisch günstiger Bewertung mit einem Kurs-Free-Cashflow-Verhältnis von 11,5 für dieses Jahr (02:54, 04:06).\n* **Richtung:** Bullisch (Bodenbildung) (03:32).\n* **Konkret belegte Levels:** Ausbruchsniveau / Hoch bei 3.170 CAD (03:37).\n* **Trigger:** Nachhaltiger Ausbruch über 3.170 CAD (03:37).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittel- bis langfristig (03:40).\n\n---### ServiceNow\n* **Sprecherthese:** Hohe Beliebtheit und starkes Wachstum von rund 20 % p. a. bei kontinuierlich steigenden Margen durch IT-Automatisierung; hohe Volatilität erfordert passende Risikoklasse (04:23, 05:03).\n* **Richtung:** Bullisch bei Bestätigung des Triggers (06:21).\n* **Konkret belegte Levels:** Wichtiges Zwischenhoch bei 140 USD (06:16).\n* **Trigger:** Überbieten und Bestätigen des Hochs bei 140 USD (06:16).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittel- bis langfristig (06:21).\n\n---### Salesforce\n* **Sprecherthese:** Reiferes Unternehmen mit moderateren Wachstumsraten, aber sehr attraktiver Bewertung (K/FCF unter 10) und KI-Integration in CRM-Tools (06:40, 07:28).\n* **Richtung:** Neutral / Abwartend auf Bodenbildung (08:38, 08:55).\n* **Konkret belegte Levels:** Kritische Unterstützungszone am aktuellen Verlaufstief (09:02).\n* **Trigger:** Ausbildung eines neuen, bestätigten Bodens / Kaufsignals (08:38, 09:23).\n* **Invalidierung:** Neue Verlaufstiefs unterhalb der Unterstützungszone (09:09).\n* **Zeithorizont:** Abwartend / Langfristig.\n\n---### Microsoft\n* **Sprecherthese:** KI beschleunigt das Cloud-Wachstum, doch massive Investitionen in Rechenzentren belasten vorübergehend den Free Cashflow und machen die Aktie historisch teuer (08:01, 10:47, 11:08).\n* **Richtung:** Neutral / Abwartend (12:40).\n* **Konkret belegte Levels:** Wichtiges Hoch bei 467 USD (12:28); Unterstützungszone um 390 USD / 355 USD (11:55).\n* **Trigger:** Weitere Price Action über 1–7 Wochen abwarten, bis ein klarer Boden entsteht (12:46).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittel- bis langfristig.\n\n---\n### Unsicherheiten & Sehenswerte Stellen\nBesonders aufmerksam sollten die Phasen der Bodenbildung bei Salesforce (08:38) und Microsoft (12:46) beobachtet werden, da hier ein voreiliger Einstieg zu Fehlsignalen führen kann.",
+  "evidence": [
+    {
+      "timestamp": "01:28",
+      "basis": "visual",
+      "observation": "Balkendiagramm zeigt 'Aktuelle vs. maximale Korrekturlängen beliebter Softwareaktien seit dem letzten Allzeithoch in EUR'."
+    },
+    {
+      "timestamp": "02:36",
+      "basis": "visual",
+      "observation": "Grafik zur Entwicklung des weltweiten Marktes für Software as a Service in Mrd. USD (2018-2028e)."
+    },
+    {
+      "timestamp": "03:37",
+      "basis": "audio",
+      "observation": "Der Sprecher nennt die Marke von 3.170 CAD als entscheidendes Hoch für einen Ausbruch bei Constellation Software."
+    },
+    {
+      "timestamp": "06:16",
+      "basis": "audio",
+      "observation": "Der Sprecher nennt die Bestätigung des Hochs bei 140 USD als Trigger für ServiceNow."
+    },
+    {
+      "timestamp": "12:28",
+      "basis": "audio",
+      "observation": "Sprecher nennt das wichtige Hoch bei Microsoft bei 467 USD."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "o_9HpffwhpQ",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-16T11:31:50.016596+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**These Are the Software Stocks You MUST Buy NOW!**\nhttps://www.youtube.com/watch?v=o_9HpffwhpQ\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nLaut dem Sprecher bieten Softwareaktien nach den tiefen Korrekturen hervorragende Einstiegschancen für die Jahre 2024–2026. Anleger sollten jedoch nicht unüberlegt in fallende Kurse greifen, sondern gezielt auf ihr individuelles Risikoprofil sowie bestätigte charttechnische Kaufsignale achten (13:06).\n\n**Typ:** Mehrere Aktien / Markt\n\n---### Constellation Software\n* **Sprecherthese:** Das Unternehmen gilt als 'Berkshire Hathaway des Softwaremarktes' mit stabiler Marge, zweistelligem Umsatzwachstum und historisch günstiger Bewertung mit einem Kurs-Free-Cashflow-Verhältnis von 11,5 für dieses Jahr (02:54, 04:06).\n* **Richtung:** Bullisch (Bodenbildung) (03:32).\n* **Konkret belegte Levels:** Ausbruchsniveau / Hoch bei 3.170 CAD (03:37).\n* **Trigger:** Nachhaltiger Ausbruch über 3.170 CAD (03:37).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittel- bis langfristig (03:40).\n\n---### ServiceNow\n* **Sprecherthese:** Hohe Beliebtheit und starkes Wachstum von rund 20 % p. a. bei kontinuierlich steigenden Margen durch IT-Automatisierung; hohe Volatilität erfordert passende Risikoklasse (04:23, 05:03).\n* **Richtung:** Bullisch bei Bestätigung des Triggers (06:21).\n* **Konkret belegte Levels:** Wichtiges Zwischenhoch bei 140 USD (06:16).\n* **Trigger:** Überbieten und Bestätigen des Hochs bei 140 USD (06:16).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittel- bis langfristig (06:21).\n\n---### Salesforce\n* **Sprecherthese:** Reiferes Unternehmen mit moderateren Wachstumsraten, aber sehr attraktiver Bewertung (K/FCF unter 10) und KI-Integration in CRM-Tool",
+    "s (06:40, 07:28).\n* **Richtung:** Neutral / Abwartend auf Bodenbildung (08:38, 08:55).\n* **Konkret belegte Levels:** Kritische Unterstützungszone am aktuellen Verlaufstief (09:02).\n* **Trigger:** Ausbildung eines neuen, bestätigten Bodens / Kaufsignals (08:38, 09:23).\n* **Invalidierung:** Neue Verlaufstiefs unterhalb der Unterstützungszone (09:09).\n* **Zeithorizont:** Abwartend / Langfristig.\n\n---### Microsoft\n* **Sprecherthese:** KI beschleunigt das Cloud-Wachstum, doch massive Investitionen in Rechenzentren belasten vorübergehend den Free Cashflow und machen die Aktie historisch teuer (08:01, 10:47, 11:08).\n* **Richtung:** Neutral / Abwartend (12:40).\n* **Konkret belegte Levels:** Wichtiges Hoch bei 467 USD (12:28); Unterstützungszone um 390 USD / 355 USD (11:55).\n* **Trigger:** Weitere Price Action über 1–7 Wochen abwarten, bis ein klarer Boden entsteht (12:46).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittel- bis langfristig.\n\n---\n### Unsicherheiten & Sehenswerte Stellen\nBesonders aufmerksam sollten die Phasen der Bodenbildung bei Salesforce (08:38) und Microsoft (12:46) beobachtet werden, da hier ein voreiliger Einstieg zu Fehlsignalen führen kann.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-16T11:31:50.604603+00:00"
 }
