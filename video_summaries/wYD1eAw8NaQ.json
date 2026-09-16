@@ -8,8 +8,8 @@
   "handle": "@ChartsCarsbyPhilipKlinkmüller",
   "status": "analysis_failed",
   "discovered_at": "2026-09-15T16:31:18.125977+00:00",
-  "attempts": 1,
-  "last_attempt": "2026-09-15T21:02:27.595110+00:00",
+  "attempts": 2,
+  "last_attempt": "2026-09-16T03:31:32.316850+00:00",
   "video_id": "wYD1eAw8NaQ",
   "scanner_version": "video-first-v3"
 }
