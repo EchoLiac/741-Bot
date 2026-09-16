@@ -6,10 +6,50 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123281+00:00",
-  "attempts": 3,
-  "last_attempt": "2026-09-16T07:05:09.847251+00:00",
+  "attempts": 4,
+  "last_attempt": "2026-09-16T13:31:17.598678+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDas Video behandelt das Phänomen der **Mean Reversion** (Rückkehr zum Mittelwert) an den Aktienmärkten und warnt vor historisch hohen Bewertungsniveaus. Wer bei extrem hohen Bewertungen (z. B. Shiller-CAPE über 40) einsteigt, muss historisch gesehen über einen Horizont von 10 Jahren mit deutlich geringeren realen Renditen (ca. 0,5 % p.a.) rechnen. Der Sprecher betont die Notwendigkeit, Zyklen, Volatilitäten und Bewertungskennzahlen bei Investitionsentscheidungen zu berücksichtigen.\n\n### Typ\n**Bildung** (Erklärung von Finanzkonzepten, Bewertungsmethoden und Marktzyklen)\n\n### Methode & Regeln\n* **Mean Reversion (01:04):** Aktienkurse und Bewertungen schwanken in Zyklen zwischen Euphorie und Panik, pendeln jedoch langfristig immer wieder um ihren fairen Mittelwert.\n* **Shiller CAPE / Shiller-KGV (03:35):** Zyklisch bereinigtes KGV auf Basis der inflationsbereinigten 10-Jahres-Durchschnittsgewinne des S&P 500 (historischer Median: 16,06). Bei einem CAPE-Wert von über 40 (aktuell ca. 41) sinkt die historisch zu erwartende 10-Jahres-Realrendite des S&P 500 drastisch auf ca. 0,5 % p.a. (04:44).\n* **Lost Decades (05:35):** Phasen über mehrere Jahre oder Jahrzehnte (z. B. 1929–1942, 1966–1974, 2000–2009), in denen der Gesamtmarkt nach starken Übertreibungsphasen stagniert oder korrigiert und keine nennenswerten Erträge bringt.\n* **Unterscheidung von Aktientypen:**\n  * High-Growth/Hype-Aktien (z. B. Palantir 08:57, Micron 11:02): Hohe Volatilität mit extremen Anstiegen und Rückschlägen von 50–80 %.\n  * Stetige Dauerläufer (z. B. Metro Inc. 10:07, ASML 01:58): Kontinuierlicheres Wachstum mit geringeren Drawdowns.\n\n### Häufige Fehler\n* Der Glaube, dass starke Bullenmärkte unendlich mit hoher Geschwindigkeit weiterlaufen.\n* Kauf am Höhepunkt der Euphorie bei extremen Bewertungsspitzen (z. B. Rheinmetall 11:32).\n* Vernachlässigung der Marktvolatilität und der langfristigen Realrendite-Erwartung.\n\n### Betrachtete Märkte / Einzelaktien\n* **S&P 500 Index (03:19):** Betrachtet im Kontext von Shiller CAPE und historischen Lost Decades; konkrete Chart-Trigger, Invalidierungen oder Zeithorizonte für Trades werden nicht genannt.\n* **ASML, Intel, Palantir, Metro, Micron, Rheinmetall:** Werden ausschließlich als anschauliche Fallbeispiele für Trendmuster, Volatilität und Übertreibungsphasen genutzt. Konkrete Handelsmarken, Kursziele oder Stopps werden nicht angegeben.\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Unsicherheiten:** Die gezeigten Zyklen und Szenarien (z. B. simulierter Einbruch ab Mitte der 2030er Jahre) sind Modellbeispiele und keine exakten Kursprognosen.\n* **Sehenswerte Stellen:**\n  * **03:35–05:08:** Analyse des Shiller CAPE und die dazugehörige Rendite-Matrix.\n  * **05:35–07:45:** Herleitung der \"Lost Decades\" am S&P 500.\n  * **09:59–10:50:** Vergleich von Hochvolatilitätsaktien mit stetigen Dauerläufern (Metro Inc.).",
+  "evidence": [
+    {
+      "timestamp": "01:04",
+      "basis": "visual",
+      "observation": "Eingeblendete Folie 'Rückkehr zum Mittelwert' visualisiert das Konzept der Mean Reversion, bei dem Kurse zwischen Euphorie (Überbewertung) und Panik (Unterbewertung) um einen langfristigen fairen Wert pendeln."
+    },
+    {
+      "timestamp": "03:35",
+      "basis": "visual",
+      "observation": "Grafik 'Shiller CAPE - 145 Jahre Übertreibung und Rückkehr' zeigt den S&P 500 Median von 1881 bis 2026 bei 16,06x und den aktuellen Stand (Januar 2026) bei 40,0x."
+    },
+    {
+      "timestamp": "04:44",
+      "basis": "visual",
+      "observation": "Balkendiagramm 'Teuer einkaufen = weniger Rendite' zeigt die historische 10-Jahres-Realrendite des S&P 500 (1891–2015) in Abhängigkeit vom Shiller-CAPE-Kaufniveau: CAPE <10 erbrachte 10,8 % p.a., während CAPE >25 (aktuell ~41) historisch nur 0,5 % p.a. erzielte."
+    },
+    {
+      "timestamp": "05:35",
+      "basis": "audio",
+      "observation": "Der Sprecher erläutert das Phänomen der 'Lost Decades' am S&P 500, in denen der Markt über Zeiträume von 10 bis 25 Jahren kaum reale Rendite abwarf."
+    },
+    {
+      "timestamp": "10:07",
+      "basis": "visual",
+      "observation": "Monatschart der Metro Inc. (TSX) wird mit dem Indikator 'WLA Marktsymmetrie' gezeigt, um stetiges Kurswachstum mit geringer Volatilität zu demonstrieren."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "QivoIay1WG8",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-16T13:32:50.384300+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Warnung: 10 Jahre OHNE Rendite am Aktienmarkt?!**\nhttps://www.youtube.com/watch?v=QivoIay1WG8\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDas Video behandelt das Phänomen der **Mean Reversion** (Rückkehr zum Mittelwert) an den Aktienmärkten und warnt vor historisch hohen Bewertungsniveaus. Wer bei extrem hohen Bewertungen (z. B. Shiller-CAPE über 40) einsteigt, muss historisch gesehen über einen Horizont von 10 Jahren mit deutlich geringeren realen Renditen (ca. 0,5 % p.a.) rechnen. Der Sprecher betont die Notwendigkeit, Zyklen, Volatilitäten und Bewertungskennzahlen bei Investitionsentscheidungen zu berücksichtigen.\n\n### Typ\n**Bildung** (Erklärung von Finanzkonzepten, Bewertungsmethoden und Marktzyklen)\n\n### Methode & Regeln\n* **Mean Reversion (01:04):** Aktienkurse und Bewertungen schwanken in Zyklen zwischen Euphorie und Panik, pendeln jedoch langfristig immer wieder um ihren fairen Mittelwert.\n* **Shiller CAPE / Shiller-KGV (03:35):** Zyklisch bereinigtes KGV auf Basis der inflationsbereinigten 10-Jahres-Durchschnittsgewinne des S&P 500 (historischer Median: 16,06). Bei einem CAPE-Wert von über 40 (aktuell ca. 41) sinkt die historisch zu erwartende 10-Jahres-Realrendite des S&P 500 drastisch auf ca. 0,5 % p.a. (04:44).\n* **Lost Decades (05:35):** Phasen über mehrere Jahre oder Jahrzehnte (z. B. 1929–1942, 1966–1974, 2000–2009), in denen der Gesamtmarkt nach starken Übertreibungsphasen stagniert oder korrigiert und keine nennenswerten Erträge bringt.\n* **Unterscheidung von Aktientypen:**\n  * High-Growth/Hype-Aktien (z. B. Palantir 08:57, Micron 11:02): Hohe Volatilität mit extremen Anstiegen und Rückschlägen von 50–80 %.\n  * Stetige Dauerläufer (z. B. Metro Inc. 10:07, ASML 01:58): Kontinuierlich",
+    "eres Wachstum mit geringeren Drawdowns.\n\n### Häufige Fehler\n* Der Glaube, dass starke Bullenmärkte unendlich mit hoher Geschwindigkeit weiterlaufen.\n* Kauf am Höhepunkt der Euphorie bei extremen Bewertungsspitzen (z. B. Rheinmetall 11:32).\n* Vernachlässigung der Marktvolatilität und der langfristigen Realrendite-Erwartung.\n\n### Betrachtete Märkte / Einzelaktien\n* **S&P 500 Index (03:19):** Betrachtet im Kontext von Shiller CAPE und historischen Lost Decades; konkrete Chart-Trigger, Invalidierungen oder Zeithorizonte für Trades werden nicht genannt.\n* **ASML, Intel, Palantir, Metro, Micron, Rheinmetall:** Werden ausschließlich als anschauliche Fallbeispiele für Trendmuster, Volatilität und Übertreibungsphasen genutzt. Konkrete Handelsmarken, Kursziele oder Stopps werden nicht angegeben.\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Unsicherheiten:** Die gezeigten Zyklen und Szenarien (z. B. simulierter Einbruch ab Mitte der 2030er Jahre) sind Modellbeispiele und keine exakten Kursprognosen.\n* **Sehenswerte Stellen:**\n  * **03:35–05:08:** Analyse des Shiller CAPE und die dazugehörige Rendite-Matrix.\n  * **05:35–07:45:** Herleitung der \"Lost Decades\" am S&P 500.\n  * **09:59–10:50:** Vergleich von Hochvolatilitätsaktien mit stetigen Dauerläufern (Metro Inc.).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-16T13:32:51.085388+00:00"
 }
