@@ -6,10 +6,70 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123290+00:00",
-  "attempts": 2,
-  "last_attempt": "2026-09-16T02:01:32.147758+00:00",
+  "attempts": 3,
+  "last_attempt": "2026-09-16T08:03:32.150848+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher stellt drei chancenreiche Aktien aus den Bereichen Luxus und REITs für den Monat Mai vor, die sich nach Korrekturphasen historisch günstig präsentieren. Er betont die Wichtigkeit disziplinierter Kauf-Trigger, um Fehlkäufe in Schwächephasen zu vermeiden (02:46).\n\n**Typ:** mehrere Aktien\n\n---\n\n### Hermès International (03:48)\n- **Sprecherthese:** Die Luxusaktie befindet sich nach einer Makro-Korrektur auf historisch attraktivem Bewertungsniveau und bietet nach einer Bodenbildung deutliches Aufwärtspotenzial.\n- **Richtung:** Bullisch (bei Aktivierung des Triggers)\n- **Belegte Levels:**\n  - Aktuelles KGV: 37,69x (03:48)\n  - Historisches Durchschnitts-KGV: 44,47x (03:48)\n  - Widerstandszone: 2000 EUR bis 2100 EUR (05:54)\n  - Unterstützung / Stabilisierungsbereich: 1200 EUR bis 1400 EUR (05:11)\n- **Trigger:** Dynamischer Ausbruch aus dem kurzfristigen Boden über 1810 EUR (06:04).\n- **Invalidierung:** Durchrutschen unter die Unterstützung im Bereich 1200–1400 EUR (05:08).\n- **Zeithorizont:** Mittel- bis langfristig (nicht exakt terminiert).\n\n---\n\n### Ferrari NV (06:10)\n- **Sprecherthese:** Ferrari zeigt eine ausgeprägte Bodenbildung auf historisch günstigerem Bewertungsniveau und bietet ein solides Chance-Risiko-Verhältnis für den nächsten Trendimpuls.\n- **Richtung:** Bullisch\n- **Belegte Levels:**\n  - Aktuelles KGV: 32,74x (06:10)\n  - Historisches Durchschnitts-KGV: 40,55x (06:28)\n  - Widerstand / Boden-Oberkante: 322 EUR (07:28) und 331–332 EUR (07:34)\n  - Tiefe Unterstützung: 210 EUR bis 211 EUR (07:13)\n- **Trigger:** Ausbruch über 322 EUR und nachhaltig über 331–332 EUR (07:28–07:36).\n- **Invalidierung:** Abkippen auf neue Tiefs in Richtung der Unterstützung bei 210–211 EUR (07:13–07:17).\n- **Zeithorizont:** Mittelfristig.\n\n---\n\n### Extra Space Storage Inc. (08:44)\n- **Sprecherthese:** Der Self-Storage-REIT weist einen historisch unterdurchschnittlichen Bewertungsmultiplikator (Adj. FFO) auf und konsolidiert seitwärts vor einem potenziellen Ausbruch.\n- **Richtung:** Bullisch\n- **Belegte Levels:**\n  - Aktueller Adj. FFO: 18,36x (08:44)\n  - Historischer Schnitt Adj. FFO: 22,14x (08:44)\n  - Widerstand / Seitwärts-Oberkante: 155 USD bis 156 USD (10:08)\n  - Nächstes Verlaufs-Hoch / Ziel: 185 USD (10:19)\n  - Tieferer Testbereich bei Ausbruch nach unten: ca. 90–100 USD (10:34)\n- **Trigger:** Nachhaltiger Ausbruch über die Seitwärtszone bei 155–156 USD (10:08).\n- **Invalidierung:** Verlassen der Seitwärtsphase nach unten mit Test der Verlaufstiefs (10:31–10:34).\n- **Zeithorizont:** Mittelfristig.\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten:** Die Saisonalität am Gesamtmarkt von Mai bis Oktober gilt historisch als schwächer (01:12, 11:13). Ein Einstieg setzt das tatsächliche Aktivieren der Trigger voraus.\n- **Sehenswerte Stellen:**\n  - **01:55–03:43:** Statistische Auswertung zum Mehrwert von Trigger-Disziplin gegenüber Sofortkäufen.\n  - **05:21–06:08:** Detaillierte Chartanalyse des Bodenbildungsszenarios von Hermès.\n  - **07:21–07:50:** Bodenszenario und Ziel-Levels von Ferrari.\n  - **09:57–10:41:** Konsolidierungsstruktur und Ausbruchstrigger von Extra Space Storage.",
+  "evidence": [
+    {
+      "timestamp": "00:09",
+      "basis": "audio",
+      "observation": "Sprecher kündigt drei Aktien-Kaufchancen für den Monat Mai an."
+    },
+    {
+      "timestamp": "01:55",
+      "basis": "visual",
+      "observation": "Folie zeigt Performance-Auswertung vom Mai 2025 mit Applied Materials als Top-Performer (+162,74%)."
+    },
+    {
+      "timestamp": "02:46",
+      "basis": "visual",
+      "observation": "Folie demonstriert Mehrrendite durch Trigger-Disziplin (+30,18% vs. +23,68% bei Sofortkauf aller Werte)."
+    },
+    {
+      "timestamp": "03:48",
+      "basis": "visual",
+      "observation": "Hermès-Bewertungsübersicht zeigt aktuelles KGV von 37,69x bei historischem Schnitt von 44,47x."
+    },
+    {
+      "timestamp": "06:04",
+      "basis": "audio",
+      "observation": "Kauf-Trigger für Hermès wird beim Ausbruch über 1810 EUR definiert."
+    },
+    {
+      "timestamp": "06:10",
+      "basis": "visual",
+      "observation": "Ferrari-Bewertungsübersicht zeigt aktuelles KGV von 32,74x bei historischem Schnitt von 40,55x."
+    },
+    {
+      "timestamp": "07:28",
+      "basis": "audio",
+      "observation": "Ferrari-Kauf-Trigger wird beim Ausbruch über 322 EUR und weiter über 331–332 EUR benannt."
+    },
+    {
+      "timestamp": "08:44",
+      "basis": "visual",
+      "observation": "Extra Space Storage Bewertung zeigt aktuellen Adj. FFO von 18,36x bei historischem Schnitt von 22,14x."
+    },
+    {
+      "timestamp": "10:08",
+      "basis": "visual",
+      "observation": "Extra Space Storage Chart zeigt Widerstandslinie der Seitwärtsphase bei 155–156 USD."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "DDnXQ9bPn50",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-16T08:05:05.529525+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Diese 3 Aktien explodieren JETZT!**\nhttps://www.youtube.com/watch?v=DDnXQ9bPn50\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher stellt drei chancenreiche Aktien aus den Bereichen Luxus und REITs für den Monat Mai vor, die sich nach Korrekturphasen historisch günstig präsentieren. Er betont die Wichtigkeit disziplinierter Kauf-Trigger, um Fehlkäufe in Schwächephasen zu vermeiden (02:46).\n\n**Typ:** mehrere Aktien\n\n---\n\n### Hermès International (03:48)\n- **Sprecherthese:** Die Luxusaktie befindet sich nach einer Makro-Korrektur auf historisch attraktivem Bewertungsniveau und bietet nach einer Bodenbildung deutliches Aufwärtspotenzial.\n- **Richtung:** Bullisch (bei Aktivierung des Triggers)\n- **Belegte Levels:**\n  - Aktuelles KGV: 37,69x (03:48)\n  - Historisches Durchschnitts-KGV: 44,47x (03:48)\n  - Widerstandszone: 2000 EUR bis 2100 EUR (05:54)\n  - Unterstützung / Stabilisierungsbereich: 1200 EUR bis 1400 EUR (05:11)\n- **Trigger:** Dynamischer Ausbruch aus dem kurzfristigen Boden über 1810 EUR (06:04).\n- **Invalidierung:** Durchrutschen unter die Unterstützung im Bereich 1200–1400 EUR (05:08).\n- **Zeithorizont:** Mittel- bis langfristig (nicht exakt terminiert).\n\n---\n\n### Ferrari NV (06:10)\n- **Sprecherthese:** Ferrari zeigt eine ausgeprägte Bodenbildung auf historisch günstigerem Bewertungsniveau und bietet ein solides Chance-Risiko-Verhältnis für den nächsten Trendimpuls.\n- **Richtung:** Bullisch\n- **Belegte Levels:**\n  - Aktuelles KGV: 32,74x (06:10)\n  - Historisches Durchschnitts-KGV: 40,55x (06:28)\n  - Widerstand / Boden-Oberkante: 322 EUR (07:28) und 331–332 EUR (07:34)\n  - Tiefe Unterstützung: 210 EUR bis 211 EUR (07:13)\n- **Trigger:** Ausbruch über 322 EUR und nachhaltig über 331–332 E",
+    "UR (07:28–07:36).\n- **Invalidierung:** Abkippen auf neue Tiefs in Richtung der Unterstützung bei 210–211 EUR (07:13–07:17).\n- **Zeithorizont:** Mittelfristig.\n\n---\n\n### Extra Space Storage Inc. (08:44)\n- **Sprecherthese:** Der Self-Storage-REIT weist einen historisch unterdurchschnittlichen Bewertungsmultiplikator (Adj. FFO) auf und konsolidiert seitwärts vor einem potenziellen Ausbruch.\n- **Richtung:** Bullisch\n- **Belegte Levels:**\n  - Aktueller Adj. FFO: 18,36x (08:44)\n  - Historischer Schnitt Adj. FFO: 22,14x (08:44)\n  - Widerstand / Seitwärts-Oberkante: 155 USD bis 156 USD (10:08)\n  - Nächstes Verlaufs-Hoch / Ziel: 185 USD (10:19)\n  - Tieferer Testbereich bei Ausbruch nach unten: ca. 90–100 USD (10:34)\n- **Trigger:** Nachhaltiger Ausbruch über die Seitwärtszone bei 155–156 USD (10:08).\n- **Invalidierung:** Verlassen der Seitwärtsphase nach unten mit Test der Verlaufstiefs (10:31–10:34).\n- **Zeithorizont:** Mittelfristig.\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten:** Die Saisonalität am Gesamtmarkt von Mai bis Oktober gilt historisch als schwächer (01:12, 11:13). Ein Einstieg setzt das tatsächliche Aktivieren der Trigger voraus.\n- **Sehenswerte Stellen:**\n  - **01:55–03:43:** Statistische Auswertung zum Mehrwert von Trigger-Disziplin gegenüber Sofortkäufen.\n  - **05:21–06:08:** Detaillierte Chartanalyse des Bodenbildungsszenarios von Hermès.\n  - **07:21–07:50:** Bodenszenario und Ziel-Levels von Ferrari.\n  - **09:57–10:41:** Konsolidierungsstruktur und Ausbruchstrigger von Extra Space Storage.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-16T08:05:06.160141+00:00"
 }
