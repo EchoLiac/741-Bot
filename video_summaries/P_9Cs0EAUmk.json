@@ -6,10 +6,55 @@
   "published": null,
   "channel": "TradingKompass",
   "handle": "@TradingKompass",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-16T18:01:27.347063+00:00",
-  "attempts": 1,
-  "last_attempt": "2026-09-16T18:01:43.619631+00:00",
+  "attempts": 2,
+  "last_attempt": "2026-09-16T23:31:08.788720+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDie Aktie von Uranium Energy (UEC) befindet sich nach einem 30%-Rücksetzer im Bereich des 78,6%-Fibonacci-Retracements einer korrektiven Welle 2. Der Sprecher erwartet bei Halten der Marke von 8,90 $ den Start einer Welle 3 mit Kurszielen zwischen 16,00 $ und 17,90 $. Ein Unterschreiten von 8,90 $ invalidiert das bullische Szenario und eröffnet weiteres Abwärtspotenzial bis 5,46 $.\n\n### Typ\nEinzelaktie\n\n### Uranium Energy Corp. (UEC)\n- **Sprecherthese:** Die Aktie steht tief in einer Welle-2-Zielzone und bietet bei engem Stop-Loss ein attraktives Chance-Risiko-Verhältnis für den Beginn einer Welle 3.\n- **Richtung:** Bullisch (übergeordnet), bärisch bei Bruch der Invalidierungsmarke.\n- **Konkret belegte Levels:**\n  - Unterstützungen/Fibonacci-Level: 9,70 $ (78,6 % Fib, [00:45]), 9,46 $ (88,7 % Fib, [03:52]).\n  - Invalidierung: 8,90 $ ([01:41], [04:05], [07:24]).\n  - Bärische Ziele bei Invalidierung: 6,86 $ bis 5,46 $ ([00:56], [07:34]).\n  - Trigger/Bestätigung: Ausbruch über 13,40 $ sowie Durchbrechen der Abwärtstrendlinie und der 200-Tage-Linie ([04:27], [04:33]).\n  - Kursziele: 14,69 $ (bärisches Ziel/Zwischenziel, [09:33]), 16,00 $ ([02:46], [04:44]), 17,64 $ (1,618 Fib, [04:53]), 17,90 $ ([04:58]).\n- **Zeithorizont:** Mehrere Monate ([02:50]).\n\n### Unsicherheiten und lohnende Stellen\n- **Unsicherheiten:** Kurzfristige Volatilität durch den anstehenden Fed-Zinsentscheid ([00:01], [01:15]).\n- **Lohnende Stellen:** Chartanalyse der Elliott-Wellen-Struktur ab [01:25] sowie die praktische Demonstration der Order- und Stop-Loss-Eingabe in der Handelsplattform ab [08:35].",
+  "evidence": [
+    {
+      "timestamp": "00:04",
+      "basis": "visual",
+      "observation": "Einblendung der CME FedWatch Tool Übersicht bezüglich Zinserwartungen der Fed-Sitzung."
+    },
+    {
+      "timestamp": "01:41",
+      "basis": "audio",
+      "observation": "Sprecher nennt das Tief bei 8,90 US-Dollar als wesentliches Invalidierungslevel für das 1-2-Setup."
+    },
+    {
+      "timestamp": "03:52",
+      "basis": "visual",
+      "observation": "Einblendung der Fibonacci-Retracements; das 88,7 % Retracement wird bei 9,46 US-Dollar angezeigt."
+    },
+    {
+      "timestamp": "04:27",
+      "basis": "audio",
+      "observation": "Sprecher erklärt, dass die Bodenbildung erst mit einem Ausbruch über 13,40 US-Dollar bestätigt wird."
+    },
+    {
+      "timestamp": "04:53",
+      "basis": "visual",
+      "observation": "Im Chart wird das 1,618 Fibonacci-Extension-Level der Zielzone bei 17,64 US-Dollar gezeigt."
+    },
+    {
+      "timestamp": "07:34",
+      "basis": "audio",
+      "observation": "Sprecher nennt bei Invalidierung tiefere Kursziele von 6,86 US-Dollar bis 5,46 US-Dollar."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "P_9Cs0EAUmk",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-16T23:31:31.031035+00:00",
+  "discord_chunks": [
+    "🎬 **TradingKompass**\n**URANIUM ENERGY vor der nächsten großen Bewegung? 🤔 UEC Analyse**\nhttps://www.youtube.com/watch?v=P_9Cs0EAUmk\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDie Aktie von Uranium Energy (UEC) befindet sich nach einem 30%-Rücksetzer im Bereich des 78,6%-Fibonacci-Retracements einer korrektiven Welle 2. Der Sprecher erwartet bei Halten der Marke von 8,90 $ den Start einer Welle 3 mit Kurszielen zwischen 16,00 $ und 17,90 $. Ein Unterschreiten von 8,90 $ invalidiert das bullische Szenario und eröffnet weiteres Abwärtspotenzial bis 5,46 $.\n\n### Typ\nEinzelaktie\n\n### Uranium Energy Corp. (UEC)\n- **Sprecherthese:** Die Aktie steht tief in einer Welle-2-Zielzone und bietet bei engem Stop-Loss ein attraktives Chance-Risiko-Verhältnis für den Beginn einer Welle 3.\n- **Richtung:** Bullisch (übergeordnet), bärisch bei Bruch der Invalidierungsmarke.\n- **Konkret belegte Levels:**\n  - Unterstützungen/Fibonacci-Level: 9,70 $ (78,6 % Fib, [00:45]), 9,46 $ (88,7 % Fib, [03:52]).\n  - Invalidierung: 8,90 $ ([01:41], [04:05], [07:24]).\n  - Bärische Ziele bei Invalidierung: 6,86 $ bis 5,46 $ ([00:56], [07:34]).\n  - Trigger/Bestätigung: Ausbruch über 13,40 $ sowie Durchbrechen der Abwärtstrendlinie und der 200-Tage-Linie ([04:27], [04:33]).\n  - Kursziele: 14,69 $ (bärisches Ziel/Zwischenziel, [09:33]), 16,00 $ ([02:46], [04:44]), 17,64 $ (1,618 Fib, [04:53]), 17,90 $ ([04:58]).\n- **Zeithorizont:** Mehrere Monate ([02:50]).\n\n### Unsicherheiten und lohnende Stellen\n- **Unsicherheiten:** Kurzfristige Volatilität durch den anstehenden Fed-Zinsentscheid ([00:01], [01:15]).\n- **Lohnende Stellen:** Chartanalyse der Elliott-Wellen-Struktur ab [01:25] sowie die praktische Demonstration der Order- und Stop-Loss-Eingabe in der Handelsplatt",
+    "form ab [08:35].\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-16T23:31:32.196794+00:00"
 }
