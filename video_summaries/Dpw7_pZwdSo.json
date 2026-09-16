@@ -6,10 +6,60 @@
   "published": null,
   "channel": "Chartsekte",
   "handle": "@chartsekte",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T18:01:33.596396+00:00",
-  "attempts": 4,
-  "last_attempt": "2026-09-16T15:31:48.221605+00:00",
+  "attempts": 5,
+  "last_attempt": "2026-09-16T21:01:34.552292+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDieses Schulungsvideo erklärt die Entstehung und Wirkung von Kurslücken (Gaps) am Aktienmarkt sowie die Differenzierung von vier zentralen Gap-Arten. Es vermittelt Methoden zur Einordnung im Chartverlauf und entkräftet die Fehlannahme, dass Kurslücken stets geschlossen werden müssen (04:21).\n\n### Typ\nBildung (Trading & Chartanalyse)\n\n### Methode, Regeln und Typen von Kurslücken\n- **Entstehung & Wirkung (02:28):** Kurslücken entstehen durch Ereignisse außerhalb der regulären Handelszeiten (z. B. Quartalszahlen oder News). Orders im Orderbuch werden übersprungen. Offene Lücken dienen im späteren Kursverlauf häufig als Unterstützung oder Widerstand (03:45).\n- **1. Breakaway Gap / Ausbruchslücke (05:32):** Tritt bei Boden- oder Topbildungen auf und signalisiert einen nachhaltigen Trendwechsel sowie den Beginn einer neuen Trendbewegung (06:05).\n- **2. Continuation Gap / Runaway Gap / Fortsetzungslücke (07:14):** Bestätigt und beschleunigt einen bereits etablierten Trend, häufig etwa auf der Hälfte einer Trendbewegung (07:58).\n- **3. Exhaustion Gap / Erschöpfungslücke (09:28):** Tritt am Ende einer Trendbewegung auf. Die Lücke wird meist zügig gekontert und geschlossen, was auf ein Erlahmen des Momentums und eine bevorstehende Trendwende hinweist (10:24).\n- **4. Common Gap / Gewöhnliche Lücke (12:08):** Kleine Lücken ohne signifikante Trendbedeutung, die vor allem in Seitwärtsphasen auftreten und wenig Interpretationsspielraum bieten (12:28).\n\n### Fehler & Mythen\n- **Schließungszwang (04:21):** Der weitverbreitete Glaubenssatz, dass jede Kurslücke zwingend wieder geschlossen werden muss, ist laut Sprecher falsch. Viele Lücken in starken Trends (z. B. Microsoft ab 04:37) bleiben jahrelang unberührt.\n\n### Unsicherheiten & lohnenswerte Stellen\n- **Unsicherheit:** Ob eine Lücke eine Fortsetzungs- oder Erschöpfungslücke darstellt, lässt sich zum Entstehungszeitpunkt oft schwer feststellen und zeigt sich erst im nachfolgenden Kursverlauf (10:39).\n- **Sehenswerte Abschnitte:** Die konkreten Chart-Demonstrationen bei Dino Polska (05:48), Apple (07:21), Cloudflare (10:08) und HubSpot (10:55) bieten praxisnahe Beispiele für alle vier Lückentypen.",
+  "evidence": [
+    {
+      "timestamp": "00:30",
+      "basis": "audio",
+      "observation": "Jan von der Chartsekte leitet das Video zum Thema Kurslücken und deren vier Arten ein."
+    },
+    {
+      "timestamp": "01:58",
+      "basis": "visual",
+      "observation": "Im Tageschart von Dino Polska SA wird der Abstand zwischen dem Schlusskurs des Vortags und dem Eröffnungskurs visualisiert."
+    },
+    {
+      "timestamp": "04:21",
+      "basis": "audio",
+      "observation": "Der Sprecher bezeichnet die Behauptung, Kurslücken müssten immer geschlossen werden, als Mythos und 'absoluten Blödsinn'."
+    },
+    {
+      "timestamp": "05:32",
+      "basis": "audio",
+      "observation": "Erklärung der Breakaway Gap (Ausbruchslücke) im Zusammenhang mit Trendwechseln."
+    },
+    {
+      "timestamp": "07:14",
+      "basis": "audio",
+      "observation": "Erklärung der Continuation Gap (Fortsetzungslücke) am Beispiel der Apple-Aktie aus dem Jahr 2017."
+    },
+    {
+      "timestamp": "09:28",
+      "basis": "audio",
+      "observation": "Erklärung der Exhaustion Gap (Erschöpfungslücke) am Beispiel Cloudflare und HubSpot."
+    },
+    {
+      "timestamp": "12:08",
+      "basis": "audio",
+      "observation": "Erklärung der Common Gap (gewöhnliche Lücke) in Konsolidierungs- und Seitwärtsphasen."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "Dpw7_pZwdSo",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-16T21:02:24.134476+00:00",
+  "discord_chunks": [
+    "🎬 **Chartsekte**\n**Stock Gaps Explained: Why These Gaps Are Crucial for Trends**\nhttps://www.youtube.com/watch?v=Dpw7_pZwdSo\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDieses Schulungsvideo erklärt die Entstehung und Wirkung von Kurslücken (Gaps) am Aktienmarkt sowie die Differenzierung von vier zentralen Gap-Arten. Es vermittelt Methoden zur Einordnung im Chartverlauf und entkräftet die Fehlannahme, dass Kurslücken stets geschlossen werden müssen (04:21).\n\n### Typ\nBildung (Trading & Chartanalyse)\n\n### Methode, Regeln und Typen von Kurslücken\n- **Entstehung & Wirkung (02:28):** Kurslücken entstehen durch Ereignisse außerhalb der regulären Handelszeiten (z. B. Quartalszahlen oder News). Orders im Orderbuch werden übersprungen. Offene Lücken dienen im späteren Kursverlauf häufig als Unterstützung oder Widerstand (03:45).\n- **1. Breakaway Gap / Ausbruchslücke (05:32):** Tritt bei Boden- oder Topbildungen auf und signalisiert einen nachhaltigen Trendwechsel sowie den Beginn einer neuen Trendbewegung (06:05).\n- **2. Continuation Gap / Runaway Gap / Fortsetzungslücke (07:14):** Bestätigt und beschleunigt einen bereits etablierten Trend, häufig etwa auf der Hälfte einer Trendbewegung (07:58).\n- **3. Exhaustion Gap / Erschöpfungslücke (09:28):** Tritt am Ende einer Trendbewegung auf. Die Lücke wird meist zügig gekontert und geschlossen, was auf ein Erlahmen des Momentums und eine bevorstehende Trendwende hinweist (10:24).\n- **4. Common Gap / Gewöhnliche Lücke (12:08):** Kleine Lücken ohne signifikante Trendbedeutung, die vor allem in Seitwärtsphasen auftreten und wenig Interpretationsspielraum bieten (12:28).\n\n### Fehler & Mythen\n- **Schließungszwang (04:21):** Der weitverbreitete Glaubenssatz, dass jede Kurslücke zwingend wieder g",
+    "eschlossen werden muss, ist laut Sprecher falsch. Viele Lücken in starken Trends (z. B. Microsoft ab 04:37) bleiben jahrelang unberührt.\n\n### Unsicherheiten & lohnenswerte Stellen\n- **Unsicherheit:** Ob eine Lücke eine Fortsetzungs- oder Erschöpfungslücke darstellt, lässt sich zum Entstehungszeitpunkt oft schwer feststellen und zeigt sich erst im nachfolgenden Kursverlauf (10:39).\n- **Sehenswerte Abschnitte:** Die konkreten Chart-Demonstrationen bei Dino Polska (05:48), Apple (07:21), Cloudflare (10:08) und HubSpot (10:55) bieten praxisnahe Beispiele für alle vier Lückentypen.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-16T21:02:24.758223+00:00"
 }
