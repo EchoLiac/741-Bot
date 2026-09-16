@@ -6,10 +6,92 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123278+00:00",
-  "attempts": 1,
-  "last_attempt": "2026-09-15T18:03:22.163445+00:00",
+  "attempts": 2,
+  "last_attempt": "2026-09-16T01:01:25.538857+00:00",
+  "content_available": true,
+  "summary": "Im Video analysiert der Sprecher acht US-Aktien aus verschiedenen Branchen im Format \"Buy, Hold oder Sell\". Dabei werden fundamentale Bewertungskennzahlen mit der technischen Chartanalyse kombiniert. Während etablierte Qualitätswerte vor allem als Halte- oder künftige Kaufkandidaten nach Korrekturen eingestuft werden, wird bei stark gelaufenen Halbleiterwerten zu Gewinnmitnahmen geraten.\n\n**Typ**: mehrere Aktien\n\n### Palo Alto Networks (PANW) [01:01]\n- **Sprecherthese**: Qualitätsaktie im Cybersecurity-Bereich, die fundamental aktuell sehr hoch bewertet ist.\n- **Richtung**: Hold (Haltekandidat [02:02]).\n- **Konkret belegte Levels**: KGV 47,03x [01:01]; Korrekturziel bei alten Allzeithochs um ca. 220 USD [01:54].\n- **Trigger**: Rücksetzer auf ca. 220 USD für potenzielle Neueinstiege [01:54].\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Langfristig [01:26].\n\n### Watsco (W) [02:04]\n- **Sprecherthese**: Hervorragender Dauerläufer im Bereich Klimatechnik mit starkem erwarteten Gewinnwachstum bis 2028.\n- **Richtung**: Buy-Kandidat (Abwarten von Price-Action-Bestätigung [03:43, 03:58]).\n- **Konkret belegte Levels**: Aktuelles KGV 32,10x [02:04]; präferierte Unterstützungszone um 300 USD [03:14].\n- **Trigger**: Wendeformation im Bereich 300 USD oder Ausbruch auf neue Allzeithochs [03:14, 03:31].\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Langfristig [02:15].\n\n### Abbott Laboratories (ABT) [04:00]\n- **Sprecherthese**: Fundamental günstig bewerteter Medizintechnikwert, der derzeit unter starkem Verkaufsdruck steht.\n- **Richtung**: Buy-Kandidat (Kaufsignale/Bodenbildung abwarten [05:51]).\n- **Konkret belegte Levels**: KGV 25,42x [04:00]; lokales Trendhoch bei ca. 93,44 USD [05:43].\n- **Trigger**: Nachvollziehbare Bodenbildung oder Ausbruch über das Trendhoch von ca. 93,44 USD [05:43].\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Langfristig [04:21].\n\n### Salesforce (CRM) [05:55]\n- **Sprecherthese**: Attraktiver Value-Pick im Softwarebereich mit zweistelligem Wachstum und starkem Burggraben durch Kundendaten.\n- **Richtung**: Buy-Kandidat [08:23].\n- **Konkret belegte Levels**: Kurs-Cashflow-Verhältnis 10,10x [05:55]; Ausbruchs-Trigger bei 212 USD [07:45]; Unterstützungszone bei 155–160 USD [08:11].\n- **Trigger**: Nachhaltiger Ausbruch über 212 USD [07:45].\n- **Invalidierung**: Untergreifen der Unterstützung bei 155–160 USD [08:11].\n- **Zeithorizont**: Langfristig [07:18].\n\n### Micron Technology (MU) [09:43]\n- **Sprecherthese**: Zyklischer Halbleiterwert mit hoher aktueller Bewertung und steiler Trendbeschleunigung, die scharfe Korrekturen nach sich ziehen kann.\n- **Richtung**: Sell-Kandidat (Gewinnmitnahmen/Umschichtung [12:35, 14:38]).\n- **Konkret belegte Levels**: KGV 44,18x [09:43]; Korrekturpotenzial von über 50 % Richtung ~419 USD / 470 USD [12:11].\n- **Trigger**: Bestätigung einer Topbildung im Chart [12:46, 12:53].\n- **Invalidierung**: Weiterer ungebrochener Anstieg über das Hoch ohne Topbildung [13:00].\n- **Zeithorizont**: Mittel- bis langfristig.\n\n### Marvell Technology (MRVL) [13:31]\n- **Sprecherthese**: Stark gehypter Halbleiterwert mit unsauberer Trendstruktur und hoher Historie von 60–70%igen Korrekturen.\n- **Richtung**: Sell-Kandidat [14:38].\n- **Konkret belegte Levels**: Typische Korrekturtiefe von 60–70 % [13:50]; Unterstützung auf Chart bei ca. 218 USD [14:20].\n- **Trigger**: Bestätigte Topbildung im Tageschart [14:14].\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Mittel- bis langfristig.\n\n### Oklo Inc. (OKLO) [14:40]\n- **Sprecherthese**: Hochspekulative Aktie im KI-Energie-Sektor ohne langfristige Historie, aber mit mittelfristigem Aufwärtstrend.\n- **Richtung**: Kurz- bis mittelfristiger Buy-Kandidat [15:24].\n- **Konkret belegte Levels**: Ausbruchs-Trigger bei 74,40 USD und 82 USD [15:38 - 15:41].\n- **Trigger**: Ausbruch über 74,40 USD bzw. 82 USD mit starken Momentum-Kerzen [15:38 - 15:46].\n- **Invalidierung**: Ausweitung der Korrektur / Bruch der Unterstützung mit hohem Verlustrisiko [16:05 - 16:08].\n- **Zeithorizont**: Kurz- bis mittelfristig [15:24].\n\n### SoFi Technologies (SOFI) [16:10]\n- **Sprecherthese**: Kein langfristiger Trendwert, aber mittelfristiger Aufwärtstrend mit potenzieller Bodenbildung.\n- **Richtung**: Mittelfristig Hold- bis Buy-Kandidat [17:26].\n- **Konkret belegte Levels**: Ausbruchs-Trigger bei 19–20 USD [16:42]; Hauptunterstützung bei ca. 9,10 USD [17:08].\n- **Trigger**: Ausbruch über 19–20 USD [16:42].\n- **Invalidierung**: Bruch der Unterstützung bei 9,10 USD [17:06 - 17:08].\n- **Zeithorizont**: Mittelfristig [16:18, 17:25].\n\n**Unsicherheiten & sehenswerte Stellen**:\n- **Unsicherheiten**: Die Zyklizität im Halbleitermarkt, der genaue Zeitpunkt von Boden- und Topbildungen sowie das hohe Verlustrisiko bei unprofitablen bzw. jungen Spekulationswerten (Oklo, SoFi).\n- **Sehenswerte Stellen**:\n  - [05:55] Begründung für die günstige Bewertung von Salesforce trotz KI-Chancen.\n  - [09:43] Erklärung der Zyklizität bei Micron und Vergleich mit ASML/Lam Research.\n  - [14:40] Risikobewertung von spekulativen KI-Energie-Aktien am Beispiel Oklo.",
+  "evidence": [
+    {
+      "timestamp": "01:01",
+      "basis": "visual",
+      "observation": "Grafik zeigt Palo Alto Networks Kurs-Cashflow-Verhältnis von aktuell 47,03x und Perzentil von 92,86 %."
+    },
+    {
+      "timestamp": "01:54",
+      "basis": "audio",
+      "observation": "Sprecher nennt mögliches Korrekturziel von Palo Alto Networks im Bereich der alten Allzeithochs bei etwa 220 USD."
+    },
+    {
+      "timestamp": "02:04",
+      "basis": "visual",
+      "observation": "Grafik zeigt Watsco Adjusted P/E mit aktuell 32,10x und historischem Durchschnitt von 27,41x."
+    },
+    {
+      "timestamp": "03:14",
+      "basis": "visual",
+      "observation": "Chart zeigt Einzeichnungen bei Watsco um das Niveau von ca. 300 USD als präferierte Unterstützungszone."
+    },
+    {
+      "timestamp": "04:00",
+      "basis": "visual",
+      "observation": "Grafik zeigt Abbott Laboratories Adjusted P/E von aktuell 25,42x mit historischem Durchschnitt von 29,64x."
+    },
+    {
+      "timestamp": "05:43",
+      "basis": "visual",
+      "observation": "Sprecher zeichnet bei Abbott den Ausbruchs-Trigger/das Trendhoch bei ca. 93,44 USD ein."
+    },
+    {
+      "timestamp": "05:55",
+      "basis": "visual",
+      "observation": "Grafik zeigt Salesforce Kurs-Cashflow-Verhältnis von aktuell 10,10x."
+    },
+    {
+      "timestamp": "07:45",
+      "basis": "visual",
+      "observation": "Sprecher skizziert den Ausbruchs-Trigger bei Salesforce über die Marke von 212 USD."
+    },
+    {
+      "timestamp": "09:43",
+      "basis": "visual",
+      "observation": "Grafik zeigt Micron Adjusted P/E von aktuell 44,18x."
+    },
+    {
+      "timestamp": "12:11",
+      "basis": "visual",
+      "observation": "Chart zeigt bei Micron ein Korrekturpotenzial von ca. 53 % in Richtung der Unterstützungszone um 419 USD."
+    },
+    {
+      "timestamp": "13:50",
+      "basis": "visual",
+      "observation": "Sprecher zeigt im Chart von Marvell vergangene Korrekturen von ca. 60–70 %."
+    },
+    {
+      "timestamp": "15:38",
+      "basis": "visual",
+      "observation": "Chart von Oklo zeigt Ausbruchsmarken bei 74,40 USD und ca. 82 USD."
+    },
+    {
+      "timestamp": "16:42",
+      "basis": "visual",
+      "observation": "Chart von SoFi Technologies zeigt Triggermarke bei ca. 19-20 USD und Hauptunterstützung bei ca. 9,10 USD."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "LaqXA6JYG6o",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-16T01:02:15.651563+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Buy, Hold oder Sell?! (Micron, Marvell, Palo Alto, Salesforce, Abbott, Watsco, Sofi, Oklo)**\nhttps://www.youtube.com/watch?v=LaqXA6JYG6o\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\nIm Video analysiert der Sprecher acht US-Aktien aus verschiedenen Branchen im Format \"Buy, Hold oder Sell\". Dabei werden fundamentale Bewertungskennzahlen mit der technischen Chartanalyse kombiniert. Während etablierte Qualitätswerte vor allem als Halte- oder künftige Kaufkandidaten nach Korrekturen eingestuft werden, wird bei stark gelaufenen Halbleiterwerten zu Gewinnmitnahmen geraten.\n\n**Typ**: mehrere Aktien\n\n### Palo Alto Networks (PANW) [01:01]\n- **Sprecherthese**: Qualitätsaktie im Cybersecurity-Bereich, die fundamental aktuell sehr hoch bewertet ist.\n- **Richtung**: Hold (Haltekandidat [02:02]).\n- **Konkret belegte Levels**: KGV 47,03x [01:01]; Korrekturziel bei alten Allzeithochs um ca. 220 USD [01:54].\n- **Trigger**: Rücksetzer auf ca. 220 USD für potenzielle Neueinstiege [01:54].\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Langfristig [01:26].\n\n### Watsco (W) [02:04]\n- **Sprecherthese**: Hervorragender Dauerläufer im Bereich Klimatechnik mit starkem erwarteten Gewinnwachstum bis 2028.\n- **Richtung**: Buy-Kandidat (Abwarten von Price-Action-Bestätigung [03:43, 03:58]).\n- **Konkret belegte Levels**: Aktuelles KGV 32,10x [02:04]; präferierte Unterstützungszone um 300 USD [03:14].\n- **Trigger**: Wendeformation im Bereich 300 USD oder Ausbruch auf neue Allzeithochs [03:14, 03:31].\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Langfristig [02:15].\n\n### Abbott Laboratories (ABT) [04:00]\n- **Sprecherthese**: Fundamental günstig bewerteter Medizintechnikwert, der derzeit unter starkem Verkaufsdruck steht.\n- **Rich",
+    "tung**: Buy-Kandidat (Kaufsignale/Bodenbildung abwarten [05:51]).\n- **Konkret belegte Levels**: KGV 25,42x [04:00]; lokales Trendhoch bei ca. 93,44 USD [05:43].\n- **Trigger**: Nachvollziehbare Bodenbildung oder Ausbruch über das Trendhoch von ca. 93,44 USD [05:43].\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Langfristig [04:21].\n\n### Salesforce (CRM) [05:55]\n- **Sprecherthese**: Attraktiver Value-Pick im Softwarebereich mit zweistelligem Wachstum und starkem Burggraben durch Kundendaten.\n- **Richtung**: Buy-Kandidat [08:23].\n- **Konkret belegte Levels**: Kurs-Cashflow-Verhältnis 10,10x [05:55]; Ausbruchs-Trigger bei 212 USD [07:45]; Unterstützungszone bei 155–160 USD [08:11].\n- **Trigger**: Nachhaltiger Ausbruch über 212 USD [07:45].\n- **Invalidierung**: Untergreifen der Unterstützung bei 155–160 USD [08:11].\n- **Zeithorizont**: Langfristig [07:18].\n\n### Micron Technology (MU) [09:43]\n- **Sprecherthese**: Zyklischer Halbleiterwert mit hoher aktueller Bewertung und steiler Trendbeschleunigung, die scharfe Korrekturen nach sich ziehen kann.\n- **Richtung**: Sell-Kandidat (Gewinnmitnahmen/Umschichtung [12:35, 14:38]).\n- **Konkret belegte Levels**: KGV 44,18x [09:43]; Korrekturpotenzial von über 50 % Richtung ~419 USD / 470 USD [12:11].\n- **Trigger**: Bestätigung einer Topbildung im Chart [12:46, 12:53].\n- **Invalidierung**: Weiterer ungebrochener Anstieg über das Hoch ohne Topbildung [13:00].\n- **Zeithorizont**: Mittel- bis langfristig.\n\n### Marvell Technology (MRVL) [13:31]\n- **Sprecherthese**: Stark gehypter Halbleiterwert mit unsauberer Trendstruktur und hoher Historie von 60–70%igen Korrekturen.\n- **Richtung**: Sell-Kandidat [14:38].\n- **Konkret belegte Levels**: Typische Korrekturtiefe von 60–70 % [13:50]; Unterstützung auf Chart bei ca. 218 USD [14:20].\n- ",
+    "**Trigger**: Bestätigte Topbildung im Tageschart [14:14].\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Mittel- bis langfristig.\n\n### Oklo Inc. (OKLO) [14:40]\n- **Sprecherthese**: Hochspekulative Aktie im KI-Energie-Sektor ohne langfristige Historie, aber mit mittelfristigem Aufwärtstrend.\n- **Richtung**: Kurz- bis mittelfristiger Buy-Kandidat [15:24].\n- **Konkret belegte Levels**: Ausbruchs-Trigger bei 74,40 USD und 82 USD [15:38 - 15:41].\n- **Trigger**: Ausbruch über 74,40 USD bzw. 82 USD mit starken Momentum-Kerzen [15:38 - 15:46].\n- **Invalidierung**: Ausweitung der Korrektur / Bruch der Unterstützung mit hohem Verlustrisiko [16:05 - 16:08].\n- **Zeithorizont**: Kurz- bis mittelfristig [15:24].\n\n### SoFi Technologies (SOFI) [16:10]\n- **Sprecherthese**: Kein langfristiger Trendwert, aber mittelfristiger Aufwärtstrend mit potenzieller Bodenbildung.\n- **Richtung**: Mittelfristig Hold- bis Buy-Kandidat [17:26].\n- **Konkret belegte Levels**: Ausbruchs-Trigger bei 19–20 USD [16:42]; Hauptunterstützung bei ca. 9,10 USD [17:08].\n- **Trigger**: Ausbruch über 19–20 USD [16:42].\n- **Invalidierung**: Bruch der Unterstützung bei 9,10 USD [17:06 - 17:08].\n- **Zeithorizont**: Mittelfristig [16:18, 17:25].\n\n**Unsicherheiten & sehenswerte Stellen**:\n- **Unsicherheiten**: Die Zyklizität im Halbleitermarkt, der genaue Zeitpunkt von Boden- und Topbildungen sowie das hohe Verlustrisiko bei unprofitablen bzw. jungen Spekulationswerten (Oklo, SoFi).\n- **Sehenswerte Stellen**:\n  - [05:55] Begründung für die günstige Bewertung von Salesforce trotz KI-Chancen.\n  - [09:43] Erklärung der Zyklizität bei Micron und Vergleich mit ASML/Lam Research.\n  - [14:40] Risikobewertung von spekulativen KI-Energie-Aktien am Beispiel Oklo.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuelle",
+    "n Handelssignale."
+  ],
+  "discord_next_chunk": 4,
+  "discord_sent_at": "2026-09-16T01:02:17.082401+00:00"
 }
