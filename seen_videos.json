@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-16T01:31:09.324855+00:00",
-    "@wir-lieben-aktien": "2026-09-16T01:31:09.817550+00:00",
-    "@chartsekte": "2026-09-16T01:31:10.496988+00:00",
-    "@hkcm": "2026-09-16T01:31:11.026158+00:00",
-    "@phantombyhkcm": "2026-09-16T01:31:11.571841+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-16T01:31:12.022145+00:00",
-    "@aktien4future": "2026-09-16T01:31:12.549712+00:00",
-    "@Finanzbaer": "2026-09-16T01:31:13.083657+00:00",
-    "@Finanzwiesel": "2026-09-16T01:31:13.622456+00:00",
-    "@TradingKompass": "2026-09-16T01:31:14.102597+00:00",
-    "@TomVorwald": "2026-09-16T01:31:14.593283+00:00"
+    "@1OxTrading": "2026-09-16T02:01:15.354101+00:00",
+    "@wir-lieben-aktien": "2026-09-16T02:01:15.862462+00:00",
+    "@chartsekte": "2026-09-16T02:01:16.365311+00:00",
+    "@hkcm": "2026-09-16T02:01:16.892377+00:00",
+    "@phantombyhkcm": "2026-09-16T02:01:17.384987+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-16T02:01:17.813037+00:00",
+    "@aktien4future": "2026-09-16T02:01:18.332287+00:00",
+    "@Finanzbaer": "2026-09-16T02:01:18.828125+00:00",
+    "@Finanzwiesel": "2026-09-16T02:01:19.355161+00:00",
+    "@TradingKompass": "2026-09-16T02:01:19.835614+00:00",
+    "@TomVorwald": "2026-09-16T02:01:20.392905+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4364,8 +4364,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123289+00:00",
-    "attempts": 1,
-    "last_attempt": "2026-09-15T19:01:32.960022+00:00"
+    "attempts": 2,
+    "last_attempt": "2026-09-16T02:01:20.449284+00:00"
   },
   "DDnXQ9bPn50": {
     "id": "DDnXQ9bPn50",
@@ -4377,8 +4377,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123290+00:00",
-    "attempts": 1,
-    "last_attempt": "2026-09-15T19:31:27.346225+00:00"
+    "attempts": 2,
+    "last_attempt": "2026-09-16T02:01:26.427831+00:00"
   },
   "dV7fcJQH688": {
     "id": "dV7fcJQH688",
@@ -4390,8 +4390,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123292+00:00",
-    "attempts": 1,
-    "last_attempt": "2026-09-15T19:32:33.905098+00:00"
+    "attempts": 2,
+    "last_attempt": "2026-09-16T02:01:32.152390+00:00"
   },
   "z6225OAGDHg": {
     "id": "z6225OAGDHg",
