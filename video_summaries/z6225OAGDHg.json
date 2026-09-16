@@ -6,10 +6,66 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123294+00:00",
-  "attempts": 2,
-  "last_attempt": "2026-09-16T02:32:19.214539+00:00",
+  "attempts": 3,
+  "last_attempt": "2026-09-16T08:31:19.500152+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nIn dieser Podcast-Episode analysieren die Moderatoren die aktuellen Entwicklungen am Ölmarkt, die massiven KI-Kapitalausgaben (CapEx) der Big-Tech-Konzerne sowie die bevorstehende Fed-Zinsentscheidung. Ein ausführlicher Bildungsteil widmet sich den typischen psychologischen Denkfehlern von Anlegern an der Börse. Zudem werden die Aktien von Uber Technologies und Infineon Technologies fundamental und bewertungstechnisch eingeordnet.\n\n### Typ\nMehrere Aktien / Markt/Makro / Bildung\n\n---\n\n### Markt & Makro: Ölpreis, Geldpolitik & KI-CapEx\n- **Sprecherthese:** Der Ölpreis ist vom Markt weitgehend unbemerkt wieder über die Marke von 100 $ gestiegen und zeigt ein eher bullisches Chartbild [01:27, 02:04]. Gleichzeitig blickt der Markt gespannt auf die US-Geldpolitik und die CapEx-Ausgaben der Tech-Giganten [02:55, 08:05].\n- **Richtung:** Neutral bis Bullisch [02:04].\n- **Gefundene Levels & Kennzahlen:**\n  - Brent-Öl (UK Oil): Tiefststand am 17. April bei 86 $, aktuell bei 107 $ [01:45].\n  - US Oil (WTI): Tiefststand bei ca. 80 $, aktuell knapp über 100 $ [01:52].\n  - Halbleitersektor: Macht aktuell 14 % der gesamten US-Marktkapitalisierung aus [10:18].\n  - KI-CapEx: Die Big-Four (Meta, Alphabet, Microsoft, Amazon) investieren voraussichtlich knapp 90 % ihres operativen Cashflows in CapEx [09:20].\n- **Trigger / Invalidierung / Zeithorizont:** FOMC-Sitzung der Fed um 20:00 Uhr deutscher Zeit [04:22]; Zeithorizont kurz- bis mittelfristig.\n\n---\n\n### Bildung: Behavioral Finance / Psychologische Denkfehler\n- **Methode / Regeln / Fehler:**\n  - **Verlustaversion (Loss Aversion) [17:43]:** Verluste schmerzen psychologisch etwa doppelt so stark, wie Gewinne Freude bereiten (Kahneman/Tversky) [17:50]. Anleger neigen dazu, Verlustpositionen zu lange zu halten und Gewinner zu früh zu verkaufen [18:20, 19:15].\n  - **Anker-Effekt (Anchoring) [23:51]:** Orientierung an irrelevanten Referenzwerten wie dem persönlichen Einstiegskurs oder früheren Allzeithochs [24:00].\n  - **Herdentrieb (Herd Behavior) [26:47]:** Mitläuferverhalten und später Einstieg in gehypte Sektoren statt antizyklischen Handelns [27:38].\n  - **Bestätigungsfehler (Confirmation Bias) [30:18]:** Selektive Wahrnehmung von Informationen, die nur die eigene vorgefasste Meinung stützen [30:40].\n  - **Recency Bias [34:44]:** Übergewichtung neuester Marktereignisse und Vernachlässigung des langfristigen Gesamtkontexts [35:05].\n\n---\n\n### Uber Technologies (Aktie der Woche)\n- **Sprecherthese:** Uber hat sich fundamental stark entwickelt und profitiert von einer führenden Marktstellung im Mobility- und Delivery-Bereich [47:55]. Das Thema autonomes Fahren (z. B. Kooperation mit Waymo) wird als Chance für höhere Margen statt als Bedrohung gesehen [50:04, 53:15].\n- **Richtung:** Bullisch / Halten [51:10, 53:30].\n- **Gefundene Levels & Kennzahlen:**\n  - Bodenbildung wird bei einem Ausbruch über 80 $ abgeschlossen [46:19].\n  - Umsatz 2023: 52 Mrd. USD; Prognose 2028: ca. 75 Mrd. USD [48:20].\n  - Bereinigtes KGV: aktuell im 30er-Bereich, sinkt bis 2028/2029 perspektivisch auf unter 15 [49:16].\n- **Trigger:** Nachhaltiger Ausbruch über 80 $ [46:19].\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Mittelfristig bis langfristig (2025–2028) [48:26].\n\n---\n\n### Infineon Technologies (Frage der Woche)\n- **Sprecherthese:** Infineon ist ein deutsches Qualitätsunternehmen mit soliden Wachstumsaussichten im Automotive- und Power-Management-Bereich [55:10, 58:10]. Aufgrund des kapitalintensiven IDM-Geschäftsmodells (eigene Fabriken) und einer historisch hohen Bewertung gilt die Aktie derzeit jedoch nur als Halteposition [56:18, 59:00].\n- **Richtung:** Neutral / Halten [58:56, 59:32].\n- **Gefundene Levels & Kennzahlen:**\n  - Prognostiziertes Umsatzwachstum: 11 % p.a. für die nächsten drei Jahre [57:24].\n  - Prognostiziertes Gewinnwachstum je Aktie: 26 % p.a. [57:26].\n  - Aktuelles KGV: 37,7 (im historischen Tief lag das KGV bei 10) [59:10, 59:13].\n  - Der Kurs steht knapp über den Hochs aus dem Jahr 2021 [60:13].\n- **Trigger:** Abwarten der nächsten zyklischen Topbildung oder Korrektur für Umschichtungen in stärkere Halbleiterwerte (z. B. ASML, TSM) [58:22, 61:20].\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Langfristig (3 Jahre) [57:24].\n\n---\n\n### Unsicherheiten & sehenswerte Stellen\n- **Unsicherheiten:** Die Entwicklung der Big-Tech-CapEx-Investitionen, die künftige Zinslinie der Fed sowie die Zyklizität im Automobil- und Halbleitersektor.\n- **Sehenswerte Stellen:**\n  - **01:25 – 02:45:** Analyse des Anstiegs der Ölpreise (Brent & WTI).\n  - **08:05 – 10:48:** Diskussion über KI-Investitionen der Big-Techs und Halbleiter-Marktgewichtung.\n  - **17:40 – 36:20:** Übersicht über Finanzpsychologie und die fünf wichtigsten Anleger-Denkfehler.\n  - **45:45 – 53:40:** Fundamentale Einordnung und Zukunftsmodell der Uber-Aktie.\n  - **54:10 – 61:50:** Detaillierte Analyse zu Infineon Technologies.",
+  "evidence": [
+    {
+      "timestamp": "01:45",
+      "basis": "audio",
+      "observation": "Jan erläutert, dass Brent-Öl von seinem Tiefststand am 17. April bei 86 $ auf aktuell 107 $ gestiegen ist, während US-Öl von ca. 80 $ auf knapp über 100 $ stieg."
+    },
+    {
+      "timestamp": "08:05",
+      "basis": "audio",
+      "observation": "Jan spricht über die massiven CapEx-Investitionen für KI der vier Großkonzerne Meta, Alphabet, Microsoft und Amazon."
+    },
+    {
+      "timestamp": "10:18",
+      "basis": "audio",
+      "observation": "Jan nennt eine Zahl von 14 % Marktanteil der Halbleiteraktien an der gesamten US-Marktkapitalisierung."
+    },
+    {
+      "timestamp": "17:43",
+      "basis": "audio",
+      "observation": "Tillmann erklärt das Konzept der Verlustaversion nach Kahneman und Tversky, wonach Verluste etwa doppelt so schmerzhaft sind wie Gewinne Freude bereiten."
+    },
+    {
+      "timestamp": "46:19",
+      "basis": "audio",
+      "observation": "Jan gibt an, dass bei der Uber-Aktie eine Bodenbildung abgeschlossen wird, sobald der Kurs über 80 $ ausbricht."
+    },
+    {
+      "timestamp": "48:20",
+      "basis": "audio",
+      "observation": "Jan verweist auf den Umsatz von Uber von 52 Mrd. USD im letzten Jahr sowie die Prognose von 75 Mrd. USD bis 2028."
+    },
+    {
+      "timestamp": "57:24",
+      "basis": "audio",
+      "observation": "Tillmann nennt für Infineon eine Prognose von 11 % Umsatzwachstum pro Jahr und 26 % Gewinnwachstum pro Aktie für die nächsten drei Jahre."
+    },
+    {
+      "timestamp": "59:10",
+      "basis": "audio",
+      "observation": "Tillmann beziffert das aktuelle KGV von Infineon auf 37,7 und vergleicht es mit dem KGV-Tiefstwert von 10."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "z6225OAGDHg",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-16T08:32:06.804992+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**BIG TECH EARNINGS: Worauf wir achten!**\nhttps://www.youtube.com/watch?v=z6225OAGDHg\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nIn dieser Podcast-Episode analysieren die Moderatoren die aktuellen Entwicklungen am Ölmarkt, die massiven KI-Kapitalausgaben (CapEx) der Big-Tech-Konzerne sowie die bevorstehende Fed-Zinsentscheidung. Ein ausführlicher Bildungsteil widmet sich den typischen psychologischen Denkfehlern von Anlegern an der Börse. Zudem werden die Aktien von Uber Technologies und Infineon Technologies fundamental und bewertungstechnisch eingeordnet.\n\n### Typ\nMehrere Aktien / Markt/Makro / Bildung\n\n---\n\n### Markt & Makro: Ölpreis, Geldpolitik & KI-CapEx\n- **Sprecherthese:** Der Ölpreis ist vom Markt weitgehend unbemerkt wieder über die Marke von 100 $ gestiegen und zeigt ein eher bullisches Chartbild [01:27, 02:04]. Gleichzeitig blickt der Markt gespannt auf die US-Geldpolitik und die CapEx-Ausgaben der Tech-Giganten [02:55, 08:05].\n- **Richtung:** Neutral bis Bullisch [02:04].\n- **Gefundene Levels & Kennzahlen:**\n  - Brent-Öl (UK Oil): Tiefststand am 17. April bei 86 $, aktuell bei 107 $ [01:45].\n  - US Oil (WTI): Tiefststand bei ca. 80 $, aktuell knapp über 100 $ [01:52].\n  - Halbleitersektor: Macht aktuell 14 % der gesamten US-Marktkapitalisierung aus [10:18].\n  - KI-CapEx: Die Big-Four (Meta, Alphabet, Microsoft, Amazon) investieren voraussichtlich knapp 90 % ihres operativen Cashflows in CapEx [09:20].\n- **Trigger / Invalidierung / Zeithorizont:** FOMC-Sitzung der Fed um 20:00 Uhr deutscher Zeit [04:22]; Zeithorizont kurz- bis mittelfristig.\n\n---\n\n### Bildung: Behavioral Finance / Psychologische Denkfehler\n- **Methode / Regeln / Fehler:**\n  - **Verlustaversion (Loss Aversion) [17:43]:** V",
+    "erluste schmerzen psychologisch etwa doppelt so stark, wie Gewinne Freude bereiten (Kahneman/Tversky) [17:50]. Anleger neigen dazu, Verlustpositionen zu lange zu halten und Gewinner zu früh zu verkaufen [18:20, 19:15].\n  - **Anker-Effekt (Anchoring) [23:51]:** Orientierung an irrelevanten Referenzwerten wie dem persönlichen Einstiegskurs oder früheren Allzeithochs [24:00].\n  - **Herdentrieb (Herd Behavior) [26:47]:** Mitläuferverhalten und später Einstieg in gehypte Sektoren statt antizyklischen Handelns [27:38].\n  - **Bestätigungsfehler (Confirmation Bias) [30:18]:** Selektive Wahrnehmung von Informationen, die nur die eigene vorgefasste Meinung stützen [30:40].\n  - **Recency Bias [34:44]:** Übergewichtung neuester Marktereignisse und Vernachlässigung des langfristigen Gesamtkontexts [35:05].\n\n---\n\n### Uber Technologies (Aktie der Woche)\n- **Sprecherthese:** Uber hat sich fundamental stark entwickelt und profitiert von einer führenden Marktstellung im Mobility- und Delivery-Bereich [47:55]. Das Thema autonomes Fahren (z. B. Kooperation mit Waymo) wird als Chance für höhere Margen statt als Bedrohung gesehen [50:04, 53:15].\n- **Richtung:** Bullisch / Halten [51:10, 53:30].\n- **Gefundene Levels & Kennzahlen:**\n  - Bodenbildung wird bei einem Ausbruch über 80 $ abgeschlossen [46:19].\n  - Umsatz 2023: 52 Mrd. USD; Prognose 2028: ca. 75 Mrd. USD [48:20].\n  - Bereinigtes KGV: aktuell im 30er-Bereich, sinkt bis 2028/2029 perspektivisch auf unter 15 [49:16].\n- **Trigger:** Nachhaltiger Ausbruch über 80 $ [46:19].\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Mittelfristig bis langfristig (2025–2028) [48:26].\n\n---\n\n### Infineon Technologies (Frage der Woche)\n- **Sprecherthese:** Infineon ist ein deutsches Qualitätsunternehmen mit soliden Wachstumsaussichten im Automot",
+    "ive- und Power-Management-Bereich [55:10, 58:10]. Aufgrund des kapitalintensiven IDM-Geschäftsmodells (eigene Fabriken) und einer historisch hohen Bewertung gilt die Aktie derzeit jedoch nur als Halteposition [56:18, 59:00].\n- **Richtung:** Neutral / Halten [58:56, 59:32].\n- **Gefundene Levels & Kennzahlen:**\n  - Prognostiziertes Umsatzwachstum: 11 % p.a. für die nächsten drei Jahre [57:24].\n  - Prognostiziertes Gewinnwachstum je Aktie: 26 % p.a. [57:26].\n  - Aktuelles KGV: 37,7 (im historischen Tief lag das KGV bei 10) [59:10, 59:13].\n  - Der Kurs steht knapp über den Hochs aus dem Jahr 2021 [60:13].\n- **Trigger:** Abwarten der nächsten zyklischen Topbildung oder Korrektur für Umschichtungen in stärkere Halbleiterwerte (z. B. ASML, TSM) [58:22, 61:20].\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Langfristig (3 Jahre) [57:24].\n\n---\n\n### Unsicherheiten & sehenswerte Stellen\n- **Unsicherheiten:** Die Entwicklung der Big-Tech-CapEx-Investitionen, die künftige Zinslinie der Fed sowie die Zyklizität im Automobil- und Halbleitersektor.\n- **Sehenswerte Stellen:**\n  - **01:25 – 02:45:** Analyse des Anstiegs der Ölpreise (Brent & WTI).\n  - **08:05 – 10:48:** Diskussion über KI-Investitionen der Big-Techs und Halbleiter-Marktgewichtung.\n  - **17:40 – 36:20:** Übersicht über Finanzpsychologie und die fünf wichtigsten Anleger-Denkfehler.\n  - **45:45 – 53:40:** Fundamentale Einordnung und Zukunftsmodell der Uber-Aktie.\n  - **54:10 – 61:50:** Detaillierte Analyse zu Infineon Technologies.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 3,
+  "discord_sent_at": "2026-09-16T08:32:07.725682+00:00"
 }
