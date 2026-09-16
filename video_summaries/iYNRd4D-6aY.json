@@ -6,10 +6,50 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123287+00:00",
-  "attempts": 2,
-  "last_attempt": "2026-09-16T01:31:33.571243+00:00",
+  "attempts": 3,
+  "last_attempt": "2026-09-16T07:35:00.990949+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nIn diesem Video analysiert der Sprecher ein bestehendes Core-Satellite-Portfolio (1 MSCI World ETF + 10 Einzelaktien) im Wert von rund 21.000 € eines 26-jährigen Anlegers (01:24). Er identifiziert drei wesentliche Schwachstellen – eine IT-Überkonzentration, unpassende zyklische Werte und das Fehlen von Asien/Lateinamerika – und stellt ein optimiertes 10-Satelliten-Zielportfolio vor (03:08, 07:11).\n\n### Typ\nPortfolioanalyse / Bildung\n\n### Methode & Regeln (Portfolio-Optimierung)\n- **Schwachstellenanalyse**: Identifikation von Klumpenrisiken bei Branchen (4 von 10 Werten im IT-Sektor) sowie fehlender regionaler Diversifikation (0 % APAC) (03:08).\n- **Strategiekonformität**: Aussortieren von Titeln, die nicht zur WLA-Wachstums- und Dividendenwachstumsstrategie passen (z. B. Chevron als zyklischer Ölwert mit hoher Volatilität oder Allianz als reine Cashflow-Position) (05:03, 05:43).\n- **Umschichtung & Rebalancing**: Ausbalancieren der Satellitenpositionen auf eine Zielgröße von jeweils ca. 1.000 € (06:35).\n- **Sektor- und Regionen-Ergänzung**: Gezielte Neuaufnahme von Qualitätswerten aus bisher nicht abgedeckten Sektoren (Gesundheitswesen) und Regionen (APAC, Lateinamerika) zur Senkung der Korrelation unter den Einzelwerten (07:39, 09:41).\n\n### Behandelte Werte & Handlungsempfehlungen des Sprechers\n- **Core MSCI World (Acc)**: Behalten als Kernposition (~8.163 €) (01:24).\n- **ASML**: Behalten (1.976 €) (01:24, 04:33).\n- **Equinix**: Behalten (1.076 €) (01:24, 04:51).\n- **SAP**: Aufstocken auf ca. 1.000 € (783 €) (01:24, 06:58).\n- **Salesforce**: Aufstocken auf ca. 1.000 € (484 €) (01:24, 06:58).\n- **Airbus**: Aufstocken auf ca. 1.000 € (430 €) (01:24, 06:58).\n- **Allianz**: Abbau (2.314 €) (01:24, 05:03).\n- **Apple**: Abbau zur Reduzierung des IT-Übergewichts (1.308 €) (01:24, 05:15).\n- **Amazon**: Abbau (1.564 €) (01:24, 05:29).\n- **Chevron**: Abbau / Gewinne mitnehmen (858 €) (01:24, 05:43).\n- **LVMH**: Abbau / Ersetzen durch stärkere Trendwerte wie Hermès (747 €) (01:24, 06:05).\n- **Intuitive Surgical, REA Group, MercadoLibre, Hermès, HDFC Bank**: Empfohlene Neuaufnahmen zur besseren Branchen- und Regionenabdeckung (07:11).\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten**: Der genaue Sparplan, künftige monatliche Einzahlungen und die individuelle Risikotoleranz des Depotinhabers sind nicht vollständig bekannt, was den Zeitplan des Rebalancings beeinflusst (03:27).\n- **Sehenswerte Stellen**: Die Gegenüberstellung der drei strukturellen Schwachstellen (03:08), der konkrete Aufstockungsbedarf der Fünf-Satelliten-Kandidaten (06:35) sowie die Korrelationsmatrix vor und nach der Transformation (09:41).",
+  "evidence": [
+    {
+      "timestamp": "01:24",
+      "basis": "visual",
+      "observation": "Tabelle 'Aktive Positionen im Überblick' zeigt Core MSCI World (8.163 €) und 10 Einzelaktien inkl. Allianz (2.314 €), ASML (1.976 €), Apple (1.308 €) u.a."
+    },
+    {
+      "timestamp": "03:08",
+      "basis": "visual",
+      "observation": "Folie 'Drei strukturelle Schwachstellen im Depot' nennt IT-Überkonzentration (4 Positionen), zyklische Abbau-Kandidaten (Chevron, LVMH) und 0 % APAC."
+    },
+    {
+      "timestamp": "04:12",
+      "basis": "visual",
+      "observation": "Umschaltansicht 'WLA-Empfehlung' kennzeichnet Allianz, Apple, Amazon, Chevron und LVMH als Abbau-Kandidaten sowie SAP, Salesforce und Airbus zum Aufstocken."
+    },
+    {
+      "timestamp": "07:11",
+      "basis": "visual",
+      "observation": "Übersicht 'Empfohlenes Zielportfolio - 10 Satelliten' zeigt die Kombination aus 5 Bestandswerten und 5 neuen Titeln (Intuitive Surgical, REA Group, MercadoLibre, Hermès, HDFC Bank)."
+    },
+    {
+      "timestamp": "09:41",
+      "basis": "visual",
+      "observation": "Korrelationsmatrix vergleicht den aktuellen Stand mit dem Zustand nach der Transformation auf 10 Satelliten."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "iYNRd4D-6aY",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-16T07:36:26.276359+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Das perfekte Depot aus 10 Aktien und einem ETF?!**\nhttps://www.youtube.com/watch?v=iYNRd4D-6aY\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nIn diesem Video analysiert der Sprecher ein bestehendes Core-Satellite-Portfolio (1 MSCI World ETF + 10 Einzelaktien) im Wert von rund 21.000 € eines 26-jährigen Anlegers (01:24). Er identifiziert drei wesentliche Schwachstellen – eine IT-Überkonzentration, unpassende zyklische Werte und das Fehlen von Asien/Lateinamerika – und stellt ein optimiertes 10-Satelliten-Zielportfolio vor (03:08, 07:11).\n\n### Typ\nPortfolioanalyse / Bildung\n\n### Methode & Regeln (Portfolio-Optimierung)\n- **Schwachstellenanalyse**: Identifikation von Klumpenrisiken bei Branchen (4 von 10 Werten im IT-Sektor) sowie fehlender regionaler Diversifikation (0 % APAC) (03:08).\n- **Strategiekonformität**: Aussortieren von Titeln, die nicht zur WLA-Wachstums- und Dividendenwachstumsstrategie passen (z. B. Chevron als zyklischer Ölwert mit hoher Volatilität oder Allianz als reine Cashflow-Position) (05:03, 05:43).\n- **Umschichtung & Rebalancing**: Ausbalancieren der Satellitenpositionen auf eine Zielgröße von jeweils ca. 1.000 € (06:35).\n- **Sektor- und Regionen-Ergänzung**: Gezielte Neuaufnahme von Qualitätswerten aus bisher nicht abgedeckten Sektoren (Gesundheitswesen) und Regionen (APAC, Lateinamerika) zur Senkung der Korrelation unter den Einzelwerten (07:39, 09:41).\n\n### Behandelte Werte & Handlungsempfehlungen des Sprechers\n- **Core MSCI World (Acc)**: Behalten als Kernposition (~8.163 €) (01:24).\n- **ASML**: Behalten (1.976 €) (01:24, 04:33).\n- **Equinix**: Behalten (1.076 €) (01:24, 04:51).\n- **SAP**: Aufstocken auf ca. 1.000 € (783 €) (01:24, 06:58).\n- **Salesforce**: Aufstocken auf ca. 1.",
+    "000 € (484 €) (01:24, 06:58).\n- **Airbus**: Aufstocken auf ca. 1.000 € (430 €) (01:24, 06:58).\n- **Allianz**: Abbau (2.314 €) (01:24, 05:03).\n- **Apple**: Abbau zur Reduzierung des IT-Übergewichts (1.308 €) (01:24, 05:15).\n- **Amazon**: Abbau (1.564 €) (01:24, 05:29).\n- **Chevron**: Abbau / Gewinne mitnehmen (858 €) (01:24, 05:43).\n- **LVMH**: Abbau / Ersetzen durch stärkere Trendwerte wie Hermès (747 €) (01:24, 06:05).\n- **Intuitive Surgical, REA Group, MercadoLibre, Hermès, HDFC Bank**: Empfohlene Neuaufnahmen zur besseren Branchen- und Regionenabdeckung (07:11).\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten**: Der genaue Sparplan, künftige monatliche Einzahlungen und die individuelle Risikotoleranz des Depotinhabers sind nicht vollständig bekannt, was den Zeitplan des Rebalancings beeinflusst (03:27).\n- **Sehenswerte Stellen**: Die Gegenüberstellung der drei strukturellen Schwachstellen (03:08), der konkrete Aufstockungsbedarf der Fünf-Satelliten-Kandidaten (06:35) sowie die Korrelationsmatrix vor und nach der Transformation (09:41).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-16T07:36:26.713629+00:00"
 }

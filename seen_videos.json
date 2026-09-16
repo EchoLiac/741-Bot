@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-16T07:01:17.995813+00:00",
-    "@wir-lieben-aktien": "2026-09-16T07:01:18.510048+00:00",
-    "@chartsekte": "2026-09-16T07:01:18.982532+00:00",
-    "@hkcm": "2026-09-16T07:01:19.556707+00:00",
-    "@phantombyhkcm": "2026-09-16T07:01:20.176750+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-16T07:01:20.646150+00:00",
-    "@aktien4future": "2026-09-16T07:01:21.154374+00:00",
-    "@Finanzbaer": "2026-09-16T07:01:21.643922+00:00",
-    "@Finanzwiesel": "2026-09-16T07:01:22.091140+00:00",
-    "@TradingKompass": "2026-09-16T07:01:22.582864+00:00",
-    "@TomVorwald": "2026-09-16T07:01:23.071879+00:00"
+    "@1OxTrading": "2026-09-16T07:31:07.208822+00:00",
+    "@wir-lieben-aktien": "2026-09-16T07:31:07.631102+00:00",
+    "@chartsekte": "2026-09-16T07:31:08.117405+00:00",
+    "@hkcm": "2026-09-16T07:31:08.661365+00:00",
+    "@phantombyhkcm": "2026-09-16T07:31:09.123285+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-16T07:31:09.562990+00:00",
+    "@aktien4future": "2026-09-16T07:31:10.028894+00:00",
+    "@Finanzbaer": "2026-09-16T07:31:10.485050+00:00",
+    "@Finanzwiesel": "2026-09-16T07:31:10.969114+00:00",
+    "@TradingKompass": "2026-09-16T07:31:11.417728+00:00",
+    "@TomVorwald": "2026-09-16T07:31:11.880712+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4325,8 +4325,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123283+00:00",
-    "attempts": 2,
-    "last_attempt": "2026-09-16T01:31:14.652149+00:00"
+    "attempts": 3,
+    "last_attempt": "2026-09-16T07:31:11.938038+00:00"
   },
   "TtFQbsGC8e0": {
     "id": "TtFQbsGC8e0",
@@ -4336,10 +4336,11 @@
     "published": null,
     "channel": "Wir Lieben Aktien",
     "handle": "@wir-lieben-aktien",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-15T16:01:26.123285+00:00",
-    "attempts": 2,
-    "last_attempt": "2026-09-16T01:31:21.135201+00:00"
+    "attempts": 3,
+    "last_attempt": "2026-09-16T07:33:17.899963+00:00",
+    "scraped_at": "2026-09-16T07:35:00.987451+00:00"
   },
   "iYNRd4D-6aY": {
     "id": "iYNRd4D-6aY",
@@ -4349,10 +4350,11 @@
     "published": null,
     "channel": "Wir Lieben Aktien",
     "handle": "@wir-lieben-aktien",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-15T16:01:26.123287+00:00",
-    "attempts": 2,
-    "last_attempt": "2026-09-16T01:31:27.520900+00:00"
+    "attempts": 3,
+    "last_attempt": "2026-09-16T07:35:00.990949+00:00",
+    "scraped_at": "2026-09-16T07:36:26.714658+00:00"
   },
   "ZLARY-VOqt4": {
     "id": "ZLARY-VOqt4",

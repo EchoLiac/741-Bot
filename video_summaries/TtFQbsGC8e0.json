@@ -6,10 +6,51 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123285+00:00",
-  "attempts": 2,
-  "last_attempt": "2026-09-16T01:31:27.516643+00:00",
+  "attempts": 3,
+  "last_attempt": "2026-09-16T07:33:17.899963+00:00",
+  "content_available": true,
+  "summary": "**Kernaussage**: Nach einer ausgeprägten Korrekturphase im Software-Sektor zeigten sowohl Branchen-ETFs als auch führende Einzelaktien eine deutliche Bodenbildung und eine dynamische Erholung (01:17). Der Sprecher betont, dass KI-Integration und wiederkehrende SaaS-Einnahmen weiterhin starke Treiber bleiben, warnt jedoch vor überstürzten FOMO-Käufen ohne Strategie (03:32, 14:28). Ein Einstieg sollte bevorzugt in geordneten Konsolidierungs- und Rücksetzerphasen erfolgen (08:38, 11:45).\n\n**Typ**: Mehrere Aktien / Marktübersicht\n\n**iShares Tech-Software Sector ETF** (01:16)\n- **Sprecherthese**: Ein starker Impuls nach einer Doppelboden-Bodenbildung treibt den Gesamtsektor wieder in die Nähe der bisherigen Hochpunkte.\n- **Richtung**: Bullisch.\n- **Konkret belegte Levels**: Allzeithoch-Bereich / Widerstand im Chart bei 117,77 USD (01:28).\n- **Trigger**: Ausbruch aus der Bodenbildungszone im März/April (01:23).\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Mittelfristig.\n\n**Constellation Software** (05:12)\n- **Sprecherthese**: Ein verlässlicher Serien-Aquisiteur von Nischensoftware mit stabiler Marge und historisch extrem günstiger Bewertung.\n- **Richtung**: Bullisch.\n- **Konkret belegte Levels**: Unterstützung im Bereich ehemaliger Hochs bei 2.450–2.800 CAD (06:00); Widerstands-/Ausbruchsmarke bei 3.088,70 CAD (06:09).\n- **Trigger**: Vollendung des größeren Bodens über der Kante von 3.088,70 CAD (06:06).\n- **Invalidierung**: Rückfall unter das Verlaufstief bei ca. 2.400 CAD (06:04).\n- **Zeithorizont**: Langfristig.\n\n**ServiceNow** (07:03)\n- **Sprecherthese**: Hohe Wachstumsdynamik und Margenexpansion; nach dem steilen ersten Impuls wird eine Zwischenkorrektur zur Bodenkonsolidierung erwartet.\n- **Richtung**: Kurzfristig konsolidierend / langfristig bullisch.\n- **Konkret belegte Levels**: Unterstützungs-/Bruchzone bei 127,00 USD (08:15); Zielwiderstände bei 163,00 USD und 174,00 USD (08:29).\n- **Trigger**: Stabilisierung nach einem Rücksetzer im Bereich um 127 USD (08:44).\n- **Invalidierung**: Bruch des Tiefs unterhalb von 104,74 USD (09:08).\n- **Zeithorizont**: Mittel- bis langfristig.\n\n**Salesforce** (09:21)\n- **Sprecherthese**: Fundamentaler Value-Wert im Softwarebereich mit starkem Burggraben; der Boden ist etabliert, ein neuer Trend bildet sich aus.\n- **Richtung**: Bullisch.\n- **Konkret belegte Levels**: Unterstützungsbereich der Bodenbildung bei 187,00–195,00 USD (11:07); erstes Impulsziel bei 220,00–240,00 USD (11:41).\n- **Trigger**: Nachlaufender Rücksetzer zur Bestätigung des Bodens (11:45).\n- **Invalidierung**: Neue Verlaufstiefs unterhalb der jüngsten Tiefststände (11:55).\n- **Zeithorizont**: Mittel- bis langfristig.\n\n**Adobe** (12:04)\n- **Sprecherthese**: Fundamentale Schwächen bei der Vertriebseffizienz, aber sehr hohe Marge und historisch niedrige Bewertung begünstigen eine Trendwende.\n- **Richtung**: Moderat bullisch.\n- **Konkret belegte Levels**: Unterstützungszone / Invalidierung bei 230,00 USD (13:55); Ziel-/Widerstandszonen bei ~362,00 USD und 415,81 USD (13:42, 13:58).\n- **Trigger**: Ausbruch aus der abgerundeten Bodenstruktur (13:36).\n- **Invalidierung**: Unterschreiten der Unterstützung bei 230,00 USD (13:55).\n- **Zeithorizont**: Langfristig.\n\n**Unsicherheiten & sehenswerte Stellen**:\n- **Unsicherheiten**: Genaues Ausmaß und Timing der erwarteten Zwischenkorrekturen sowie die Effizienz von KI-Features bei der Kundengewinnung (besonders bei Adobe).\n- **Sehenswerte Stellen**: 01:16 (ETF-Chartanalyse), 08:21 (Skizze des Konsolidierungsszenarios bei ServiceNow), 11:25 (Impuls- und Korrekturverlauf bei Salesforce), 13:36 (Bodenbildungsdarstellung bei Adobe).",
+  "evidence": [
+    {
+      "timestamp": "01:16",
+      "basis": "visual",
+      "observation": "Chart des iShares Expanded Tech-Software Sector ETF zeigt eine Bodenbildungsformation im Frühjahr 2024 und einen steilen Anstieg in Richtung 117,77 USD."
+    },
+    {
+      "timestamp": "05:12",
+      "basis": "visual",
+      "observation": "Umsatz- und Margendiagramm von Constellation Software zeigt historisches Umsatzwachstum von 22,83 % p.a. und geschätztes Wachstum von 15,16 % p.a."
+    },
+    {
+      "timestamp": "08:15",
+      "basis": "visual",
+      "observation": "Tageschart von ServiceNow zeigt den Bruch des Abwärtstrends mit einer eingezeichneten horizontalen Widerstandslinie bei 127 USD."
+    },
+    {
+      "timestamp": "11:41",
+      "basis": "audio",
+      "observation": "Sprecher prognostiziert für den ersten Anstiegsimpuls bei Salesforce ein Kursziel im Bereich von 220 bis 240 USD."
+    },
+    {
+      "timestamp": "13:55",
+      "basis": "audio",
+      "observation": "Sprecher nennt das Niveau von 230 USD bei Adobe als entscheidende Unterstützung bzw. Bedingung für das Fortbestehen der Bodenbildung."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "TtFQbsGC8e0",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-16T07:34:59.831520+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**We told you so. Software stocks are exploding NOW!**\nhttps://www.youtube.com/watch?v=TtFQbsGC8e0\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n**Kernaussage**: Nach einer ausgeprägten Korrekturphase im Software-Sektor zeigten sowohl Branchen-ETFs als auch führende Einzelaktien eine deutliche Bodenbildung und eine dynamische Erholung (01:17). Der Sprecher betont, dass KI-Integration und wiederkehrende SaaS-Einnahmen weiterhin starke Treiber bleiben, warnt jedoch vor überstürzten FOMO-Käufen ohne Strategie (03:32, 14:28). Ein Einstieg sollte bevorzugt in geordneten Konsolidierungs- und Rücksetzerphasen erfolgen (08:38, 11:45).\n\n**Typ**: Mehrere Aktien / Marktübersicht\n\n**iShares Tech-Software Sector ETF** (01:16)\n- **Sprecherthese**: Ein starker Impuls nach einer Doppelboden-Bodenbildung treibt den Gesamtsektor wieder in die Nähe der bisherigen Hochpunkte.\n- **Richtung**: Bullisch.\n- **Konkret belegte Levels**: Allzeithoch-Bereich / Widerstand im Chart bei 117,77 USD (01:28).\n- **Trigger**: Ausbruch aus der Bodenbildungszone im März/April (01:23).\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Mittelfristig.\n\n**Constellation Software** (05:12)\n- **Sprecherthese**: Ein verlässlicher Serien-Aquisiteur von Nischensoftware mit stabiler Marge und historisch extrem günstiger Bewertung.\n- **Richtung**: Bullisch.\n- **Konkret belegte Levels**: Unterstützung im Bereich ehemaliger Hochs bei 2.450–2.800 CAD (06:00); Widerstands-/Ausbruchsmarke bei 3.088,70 CAD (06:09).\n- **Trigger**: Vollendung des größeren Bodens über der Kante von 3.088,70 CAD (06:06).\n- **Invalidierung**: Rückfall unter das Verlaufstief bei ca. 2.400 CAD (06:04).\n- **Zeithorizont**: Langfristig.\n\n**ServiceNow** (07:03)\n- **Sprecherthese**: Hohe Wachstu",
+    "msdynamik und Margenexpansion; nach dem steilen ersten Impuls wird eine Zwischenkorrektur zur Bodenkonsolidierung erwartet.\n- **Richtung**: Kurzfristig konsolidierend / langfristig bullisch.\n- **Konkret belegte Levels**: Unterstützungs-/Bruchzone bei 127,00 USD (08:15); Zielwiderstände bei 163,00 USD und 174,00 USD (08:29).\n- **Trigger**: Stabilisierung nach einem Rücksetzer im Bereich um 127 USD (08:44).\n- **Invalidierung**: Bruch des Tiefs unterhalb von 104,74 USD (09:08).\n- **Zeithorizont**: Mittel- bis langfristig.\n\n**Salesforce** (09:21)\n- **Sprecherthese**: Fundamentaler Value-Wert im Softwarebereich mit starkem Burggraben; der Boden ist etabliert, ein neuer Trend bildet sich aus.\n- **Richtung**: Bullisch.\n- **Konkret belegte Levels**: Unterstützungsbereich der Bodenbildung bei 187,00–195,00 USD (11:07); erstes Impulsziel bei 220,00–240,00 USD (11:41).\n- **Trigger**: Nachlaufender Rücksetzer zur Bestätigung des Bodens (11:45).\n- **Invalidierung**: Neue Verlaufstiefs unterhalb der jüngsten Tiefststände (11:55).\n- **Zeithorizont**: Mittel- bis langfristig.\n\n**Adobe** (12:04)\n- **Sprecherthese**: Fundamentale Schwächen bei der Vertriebseffizienz, aber sehr hohe Marge und historisch niedrige Bewertung begünstigen eine Trendwende.\n- **Richtung**: Moderat bullisch.\n- **Konkret belegte Levels**: Unterstützungszone / Invalidierung bei 230,00 USD (13:55); Ziel-/Widerstandszonen bei ~362,00 USD und 415,81 USD (13:42, 13:58).\n- **Trigger**: Ausbruch aus der abgerundeten Bodenstruktur (13:36).\n- **Invalidierung**: Unterschreiten der Unterstützung bei 230,00 USD (13:55).\n- **Zeithorizont**: Langfristig.\n\n**Unsicherheiten & sehenswerte Stellen**:\n- **Unsicherheiten**: Genaues Ausmaß und Timing der erwarteten Zwischenkorrekturen sowie die Effizienz von KI-Features bei der Kunden",
+    "gewinnung (besonders bei Adobe).\n- **Sehenswerte Stellen**: 01:16 (ETF-Chartanalyse), 08:21 (Skizze des Konsolidierungsszenarios bei ServiceNow), 11:25 (Impuls- und Korrekturverlauf bei Salesforce), 13:36 (Bodenbildungsdarstellung bei Adobe).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 3,
+  "discord_sent_at": "2026-09-16T07:35:00.986353+00:00"
 }
