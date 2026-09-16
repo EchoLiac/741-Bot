@@ -6,10 +6,45 @@
   "published": null,
   "channel": "Charts & Cars",
   "handle": "@ChartsCarsbyPhilipKlinkmüller",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:31:18.125977+00:00",
-  "attempts": 2,
-  "last_attempt": "2026-09-16T03:31:32.316850+00:00",
+  "attempts": 3,
+  "last_attempt": "2026-09-16T09:31:49.067953+00:00",
+  "content_available": true,
+  "summary": "Der japanische Leitindex Nikkei 225 hat nach einer 34-jährigen Durststrecke ein neues Allzeithoch erreicht und steht nun an übergeordneten Fibonacci-Zielzonen (05:40, 09:50). Bei einem Bruch des jüngsten Verlaufstiefs droht mittelfristig eine erhebliche Korrektur von 35 % bis 45 % (12:20, 13:54).\n\nTyp: Markt/Makro\n\n### Nikkei 225 / Japanischer Markt\n- **Sprecherthese**: Der Nikkei hat mit dem Anlauf an die 161.8%-Fibonacci-Expansionszone das Ziel einer Welle 3 erreicht und dürfte vor einer umfassenden Welle-4-Korrektur stehen (10:20, 11:45).\n- **Richtung**: Short / Bärisch (mittelfristig).\n- **Konkret belegte Levels**:\n  - Zielzone Top / Welle 3: 161.8 % Fib-Expansion bei 70 017,62 JPY bzw. 178.6 % bei 76 561,39 JPY (09:50).\n  - Trigger-Bereich: Verlaufstief um ca. 60 000 Punkte (13:54).\n  - Korrekturziel Welle 4: 38.2 % bis 50.0 % Retracement zwischen 47 682,06 JPY (ca. 48 000 Punkte) und 39 913,31 JPY (ca. 39 000 Punkte) (11:55, 12:05).\n  - Alternatives/übergeordnetes Ziel: 45 010,01 JPY bis 36 415,87 JPY (14:28).\n- **Trigger**: Nachhaltiges Unterschreiten des Verlaufstiefs bei ca. 60 000 Punkten (13:54, 15:38).\n- **Invalidierung**: Nicht explizit genannt.\n- **Zeithorizont**: Mittel- bis langfristig (14:05, 15:43).\n\n### Unsicherheiten und sehenswerte Stellen\n- **Unsicherheiten**: Einflüsse durch globale Märkte (z. B. US-Tech-Indizes) sowie ungeklärte makroökonomische Wechselwirkungen der japanischen Zins- und Währungspolitik (Carry Trade) (01:15, 08:40).\n- **Sehenswerte Stellen**:\n  - 04:32 - Langfristiger Chart des Nikkei 225 seit 1950 mit dem historischen Top von 1989/1990.\n  - 09:12 - Anlegen der langfristigen Fibonacci-Expansionsprojektion im Chart.\n  - 11:36 - Einblendung der Welle-4-Zielzone (38.2 % bis 50.0 % Retracement).\n  - 13:36 - Analyse des aktuellen Verlaufstiefs im Bereich der 60 000 Punkte.",
+  "evidence": [
+    {
+      "timestamp": "04:32",
+      "basis": "visual",
+      "observation": "Aufzeichnung des TradingView-Charts Nikkei 225 (N225) auf Monatsbasis ab dem Jahr 1950."
+    },
+    {
+      "timestamp": "09:50",
+      "basis": "visual",
+      "observation": "Fibonacci-Expansion zeigt 161.8 % bei 70.017,62 JPY und 178.6 % bei 76.561,39 JPY an."
+    },
+    {
+      "timestamp": "11:55",
+      "basis": "audio",
+      "observation": "Sprecher benennt die Welle-4-Korrekturzielzone zwischen ca. 48.000 und 39.000 Punkten (38.2 % Fib bei 47.682,06 JPY und 50.0 % Fib bei 39.913,31 JPY)."
+    },
+    {
+      "timestamp": "13:54",
+      "basis": "audio",
+      "observation": "Sprecher erklärt den Bruch des Verlaufstiefs bei ca. 60.000 Punkten als Bestätigungssignal für das Erreichen des Hochs."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "wYD1eAw8NaQ",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-16T09:32:08.549741+00:00",
+  "discord_chunks": [
+    "🎬 **Charts & Cars**\n**Nikkei Index High-Flyer: How Much Longer Will the Rally Last?**\nhttps://www.youtube.com/watch?v=wYD1eAw8NaQ\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\nDer japanische Leitindex Nikkei 225 hat nach einer 34-jährigen Durststrecke ein neues Allzeithoch erreicht und steht nun an übergeordneten Fibonacci-Zielzonen (05:40, 09:50). Bei einem Bruch des jüngsten Verlaufstiefs droht mittelfristig eine erhebliche Korrektur von 35 % bis 45 % (12:20, 13:54).\n\nTyp: Markt/Makro\n\n### Nikkei 225 / Japanischer Markt\n- **Sprecherthese**: Der Nikkei hat mit dem Anlauf an die 161.8%-Fibonacci-Expansionszone das Ziel einer Welle 3 erreicht und dürfte vor einer umfassenden Welle-4-Korrektur stehen (10:20, 11:45).\n- **Richtung**: Short / Bärisch (mittelfristig).\n- **Konkret belegte Levels**:\n  - Zielzone Top / Welle 3: 161.8 % Fib-Expansion bei 70 017,62 JPY bzw. 178.6 % bei 76 561,39 JPY (09:50).\n  - Trigger-Bereich: Verlaufstief um ca. 60 000 Punkte (13:54).\n  - Korrekturziel Welle 4: 38.2 % bis 50.0 % Retracement zwischen 47 682,06 JPY (ca. 48 000 Punkte) und 39 913,31 JPY (ca. 39 000 Punkte) (11:55, 12:05).\n  - Alternatives/übergeordnetes Ziel: 45 010,01 JPY bis 36 415,87 JPY (14:28).\n- **Trigger**: Nachhaltiges Unterschreiten des Verlaufstiefs bei ca. 60 000 Punkten (13:54, 15:38).\n- **Invalidierung**: Nicht explizit genannt.\n- **Zeithorizont**: Mittel- bis langfristig (14:05, 15:43).\n\n### Unsicherheiten und sehenswerte Stellen\n- **Unsicherheiten**: Einflüsse durch globale Märkte (z. B. US-Tech-Indizes) sowie ungeklärte makroökonomische Wechselwirkungen der japanischen Zins- und Währungspolitik (Carry Trade) (01:15, 08:40).\n- **Sehenswerte Stellen**:\n  - 04:32 - Langfristiger Chart des Nikkei 225 seit 1950 mit dem historischen Top von 19",
+    "89/1990.\n  - 09:12 - Anlegen der langfristigen Fibonacci-Expansionsprojektion im Chart.\n  - 11:36 - Einblendung der Welle-4-Zielzone (38.2 % bis 50.0 % Retracement).\n  - 13:36 - Analyse des aktuellen Verlaufstiefs im Bereich der 60 000 Punkte.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-16T09:32:09.070890+00:00"
 }
