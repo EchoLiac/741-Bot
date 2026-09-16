@@ -6,10 +6,91 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123268+00:00",
-  "attempts": 1,
-  "last_attempt": "2026-09-15T17:01:42.454332+00:00",
+  "attempts": 2,
+  "last_attempt": "2026-09-16T00:01:32.413179+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDeutsche Automobilaktien weisen nach deutlichen Kurs- und Gewinneinbrüchen historisch günstige Bewertungen auf. Der Sprecher sieht darin die Möglichkeit für einen zyklischen Turnaround über die nächsten Jahre, betont jedoch den Unterschied zwischen temporären Erholungskandidaten und langfristigen Qualitätsaktien. [00:05, 07:38, 12:45]\n\n### Typ\nMehrere Aktien (Automobilsektor: Porsche AG, Volkswagen, Porsche SE, Mercedes-Benz, BMW)\n\n### Porsche AG\n- **Sprecherthese:** Mittelfristiger Abwärtstrend wurde gebrochen; die Aktie bietet ein gutes Ausgangsszenario für einen nachhaltigen Turnaround. [04:22, 04:27]\n- **Richtung:** Bullisch (Turnaround)\n- **Konkret belegte Levels:** Einbruch des operativen Ergebnisses im Jahr 2025 auf 0,41 Mrd. €; Erholungsprognose für 2026e auf 2,30 Mrd. € bei 6,50 % operativer Rendite [03:04, 03:09]; KGV 2026e bei ca. 14 [07:42].\n- **Trigger:** Einhalten des gebrochenen Abwärtstrends und Ausbildung höherer Tiefs nach Korrektur der ersten Aufwärtswelle [04:30-04:40].\n- **Invalidierung:** Rutschen auf neue Verlaufstiefs unter das aktuelle Tief [04:58].\n- **Zeithorizont:** Mittel- bis langfristig (2025–2026) [03:05, 04:51].\n\n### Volkswagen (VOW3)\n- **Sprecherthese:** Notiert am unteren Ende der langfristigen Seitwärtsspanne; bei Bestätigung der Ausbruchstrigger liegt ein starkes Turnaround-Signal vor. [05:37-06:05, 12:27]\n- **Richtung:** Bullisch (Zyklischer Turnaround)\n- **Konkret belegte Levels:** Unterstützung am unteren Ende der Spanne (~86–90 €) [05:39]; KGV 2026e bei 5,00 [07:53]; Dividendenrendite ca. 5,80 % [08:26].\n- **Trigger:** Kurzfristiger Ausbruch über 94 € [05:51]; mittelfristige Bestätigung per Wochenschlusskurs über 110 € bis 111 € [05:58].\n- **Invalidierung:** Bruch des unteren Unterstüzungsbereichs der Spanne [05:40].\n- **Zeithorizont:** Mittelfristig [05:56].\n\n### Porsche Automobil Holding SE (PAH3)\n- **Sprecherthese:** Entwickelt sich charttechnisch und fundamental analog zu Volkswagen, da das Portfolio im Wesentlichen von der VW-Beteiligung dominiert wird. [06:17-06:27]\n- **Richtung:** Bullisch (Kopplung an VW-Turnaround)\n- **Konkret belegte Levels:** Unteres Ende der langjährigen Seitwärtsspanne [06:21].\n- **Trigger:** Ausbruch aus der Konsolidierungszone (analog zu VW) [06:25].\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Mittel- bis langfristig.\n\n### Mercedes-Benz Group AG\n- **Sprecherthese:** Steht unter weiterem Abgabedruck innerhalb einer langfristigen Range; ein konkreter Ansatz einer Bodenbildung fehlt derzeit noch. [06:33-06:53]\n- **Richtung:** Neutral bis vorsichtig\n- **Konkret belegte Levels:** Wichtigste Unterstützung bei ca. 40 € [06:45]; KGV 2026e bei 8,00 [07:51]; Dividendenrendite ca. 6,60 % [08:26].\n- **Trigger:** Eine noch ausstehende Stabilisierung/Bodenbildung oberhalb der Unterstützung [06:48].\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Mittel- bis langfristig.\n\n### BMW\n- **Sprecherthese:** Übergeordneter Aufwärtstrend ist vorhanden, jedoch droht eine Topbildung; bricht die obere Unterstützung, droht ein Absacken auf tiefere Niveaus. [06:58-07:28]\n- **Richtung:** Neutral / Korrekturgefährdet\n- **Konkret belegte Levels:** Unterstützung bei 55 € bis 60 € (speziell ca. 58 €) [07:14]; tieferes Unterstützungsniveau bei 45 € [07:21]; KGV 2026e bei 6,00 [07:50]; Dividendenrendite ca. 5,80 % [08:26].\n- **Trigger:** Stabilisierung im Bereich 55–60 € hält die Erholung aufrecht; Durchbruch nach unten aktiviert das Ziel 45 € [07:12-07:28].\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Mittel- bis langfristig.\n\n### Unsicherheiten & Risiken sowie lohnenswerte Videostellen\n- **Unsicherheiten & Risiken:** Anhaltende US-Zölle (27,5 % auf in Mexiko hergestellte Fahrzeuge) [01:30, 10:45]; Markt- und Preiskampfschwäche in China [01:30, 10:50]; kostenintensive Fehleinschätzungen beim E-Auto-Schwenk [01:30]; sehr ambitionierte EBIT-Margarziele bei VW (8–10 %) [11:03] sowie Governance-Risiken (Land Niedersachsen mit 20 % Sperrminorität bei VW) [11:43].\n- **Sehenswerte Stellen im Video:**\n  - [01:05-01:30] Gegenüberstellung der EBIT-Einbrüche 2025 vs. 2024 sowie Aufschlüsselung der 4 Hauptgründe.\n  - [04:16-04:58] Technische Chartanalyse der Porsche AG zum gebrochenen Abwärtstrend.\n  - [05:28-06:15] Detaillierte Volkswagen-Chartanalyse inklusive der konkreten Signal-Marken (94 € / 110 €).\n  - [07:38-08:23] Erklärung zu Zykliker-KGVs und den Effekten im Aufschwung.\n  - [09:10-11:57] Pro- & Kontra-Matrix zu Katalysatoren (Kostenreduktion, Modelloffensive) und anhaltenden Risiken.",
+  "evidence": [
+    {
+      "timestamp": "00:48",
+      "basis": "visual",
+      "observation": "Einblendung einer Übersichtsgrafik zu den Kursabschlägen vom letzten langfristigen Trendhoch für Volkswagen, Porsche AG, BMW und Mercedes-Benz."
+    },
+    {
+      "timestamp": "01:14",
+      "basis": "visual",
+      "observation": "Grafik zeigt Einbruch des operativen Ergebnisses (EBIT) 2025 gegenüber 2024: Porsche AG (-92,67 %), Mercedes-Benz (-57,00 %), Volkswagen (-53,65 %), BMW (-11,50 %)."
+    },
+    {
+      "timestamp": "01:30",
+      "basis": "visual",
+      "observation": "Folie nennt 4 Gründe für den Absturz: China-Schwäche, US-Zölle (27,5 % auf Mexiko-Fahrzeuge), E-Auto-Schwenk und Restrukturierung Kosten."
+    },
+    {
+      "timestamp": "03:04",
+      "basis": "visual",
+      "observation": "Porsche AG Finanzdaten-Chart zeigt Rückgang des operativen Ergebnisses 2025 auf 0,41 Mrd. € und Schätzung für 2026e auf 2,30 Mrd. € bei 6,50 % operativer Rendite."
+    },
+    {
+      "timestamp": "04:22",
+      "basis": "audio",
+      "observation": "Sprecher erklärt am Wochenchart der Porsche AG, dass der mittelfristige Abwärtstrend gebrochen wurde."
+    },
+    {
+      "timestamp": "05:51",
+      "basis": "audio",
+      "observation": "Sprecher nennt beim Volkswagen-Tageschart den kurzfristigen Ausbruchstrigger bei 94 €."
+    },
+    {
+      "timestamp": "05:58",
+      "basis": "audio",
+      "observation": "Sprecher nennt für Volkswagen die Bestätigung des mittelfristigen Turnarounds per Wochenschlusskurs über 110 € bis 111 €."
+    },
+    {
+      "timestamp": "06:45",
+      "basis": "audio",
+      "observation": "Sprecher bezeichnet bei Mercedes-Benz den Bereich um 40 € als wichtigste Unterstützung."
+    },
+    {
+      "timestamp": "07:14",
+      "basis": "audio",
+      "observation": "Sprecher nennt bei BMW eine Unterstützung im Bereich 55 € bis 60 € (speziell ca. 58 €)."
+    },
+    {
+      "timestamp": "07:21",
+      "basis": "audio",
+      "observation": "Sprecher nennt bei BMW 45 € als tiefere Unterstüzungsmarke, falls der obere Bereich bricht."
+    },
+    {
+      "timestamp": "07:49",
+      "basis": "visual",
+      "observation": "KGV-Vergleichsgrafik 2026e zeigt KGV-Werte: Porsche AG ca. 14, Mercedes-Benz 8,00, BMW 6,00, Volkswagen 5,00."
+    },
+    {
+      "timestamp": "08:26",
+      "basis": "visual",
+      "observation": "Dividendenrenditen-Übersicht zeigt Mercedes-Benz (6,60 %), BMW (5,80 %), VW (5,80 %) und Porsche AG (ca. 2,5 %)."
+    },
+    {
+      "timestamp": "11:43",
+      "basis": "visual",
+      "observation": "Folie 'Katalysatoren gegen Risiken' nennt Governance-Risiko bei VW: Niedersachsen Sperrminorität (20 %) und niedriger Streubesitz."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "3SSZJSzX3t8",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-16T00:02:31.886493+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Warning: Opportunities Like This Only Come Around Every 10 Years!**\nhttps://www.youtube.com/watch?v=3SSZJSzX3t8\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDeutsche Automobilaktien weisen nach deutlichen Kurs- und Gewinneinbrüchen historisch günstige Bewertungen auf. Der Sprecher sieht darin die Möglichkeit für einen zyklischen Turnaround über die nächsten Jahre, betont jedoch den Unterschied zwischen temporären Erholungskandidaten und langfristigen Qualitätsaktien. [00:05, 07:38, 12:45]\n\n### Typ\nMehrere Aktien (Automobilsektor: Porsche AG, Volkswagen, Porsche SE, Mercedes-Benz, BMW)\n\n### Porsche AG\n- **Sprecherthese:** Mittelfristiger Abwärtstrend wurde gebrochen; die Aktie bietet ein gutes Ausgangsszenario für einen nachhaltigen Turnaround. [04:22, 04:27]\n- **Richtung:** Bullisch (Turnaround)\n- **Konkret belegte Levels:** Einbruch des operativen Ergebnisses im Jahr 2025 auf 0,41 Mrd. €; Erholungsprognose für 2026e auf 2,30 Mrd. € bei 6,50 % operativer Rendite [03:04, 03:09]; KGV 2026e bei ca. 14 [07:42].\n- **Trigger:** Einhalten des gebrochenen Abwärtstrends und Ausbildung höherer Tiefs nach Korrektur der ersten Aufwärtswelle [04:30-04:40].\n- **Invalidierung:** Rutschen auf neue Verlaufstiefs unter das aktuelle Tief [04:58].\n- **Zeithorizont:** Mittel- bis langfristig (2025–2026) [03:05, 04:51].\n\n### Volkswagen (VOW3)\n- **Sprecherthese:** Notiert am unteren Ende der langfristigen Seitwärtsspanne; bei Bestätigung der Ausbruchstrigger liegt ein starkes Turnaround-Signal vor. [05:37-06:05, 12:27]\n- **Richtung:** Bullisch (Zyklischer Turnaround)\n- **Konkret belegte Levels:** Unterstützung am unteren Ende der Spanne (~86–90 €) [05:39]; KGV 2026e bei 5,00 [07:53]; Dividendenrendite ca. 5,80 % [08:26].\n-",
+    " **Trigger:** Kurzfristiger Ausbruch über 94 € [05:51]; mittelfristige Bestätigung per Wochenschlusskurs über 110 € bis 111 € [05:58].\n- **Invalidierung:** Bruch des unteren Unterstüzungsbereichs der Spanne [05:40].\n- **Zeithorizont:** Mittelfristig [05:56].\n\n### Porsche Automobil Holding SE (PAH3)\n- **Sprecherthese:** Entwickelt sich charttechnisch und fundamental analog zu Volkswagen, da das Portfolio im Wesentlichen von der VW-Beteiligung dominiert wird. [06:17-06:27]\n- **Richtung:** Bullisch (Kopplung an VW-Turnaround)\n- **Konkret belegte Levels:** Unteres Ende der langjährigen Seitwärtsspanne [06:21].\n- **Trigger:** Ausbruch aus der Konsolidierungszone (analog zu VW) [06:25].\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Mittel- bis langfristig.\n\n### Mercedes-Benz Group AG\n- **Sprecherthese:** Steht unter weiterem Abgabedruck innerhalb einer langfristigen Range; ein konkreter Ansatz einer Bodenbildung fehlt derzeit noch. [06:33-06:53]\n- **Richtung:** Neutral bis vorsichtig\n- **Konkret belegte Levels:** Wichtigste Unterstützung bei ca. 40 € [06:45]; KGV 2026e bei 8,00 [07:51]; Dividendenrendite ca. 6,60 % [08:26].\n- **Trigger:** Eine noch ausstehende Stabilisierung/Bodenbildung oberhalb der Unterstützung [06:48].\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Mittel- bis langfristig.\n\n### BMW\n- **Sprecherthese:** Übergeordneter Aufwärtstrend ist vorhanden, jedoch droht eine Topbildung; bricht die obere Unterstützung, droht ein Absacken auf tiefere Niveaus. [06:58-07:28]\n- **Richtung:** Neutral / Korrekturgefährdet\n- **Konkret belegte Levels:** Unterstützung bei 55 € bis 60 € (speziell ca. 58 €) [07:14]; tieferes Unterstützungsniveau bei 45 € [07:21]; KGV 2026e bei 6,00 [07:50]; Dividendenrendite ca. 5,80 % [08:26].\n- **Trigger:** Stabilisierung im",
+    " Bereich 55–60 € hält die Erholung aufrecht; Durchbruch nach unten aktiviert das Ziel 45 € [07:12-07:28].\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Mittel- bis langfristig.\n\n### Unsicherheiten & Risiken sowie lohnenswerte Videostellen\n- **Unsicherheiten & Risiken:** Anhaltende US-Zölle (27,5 % auf in Mexiko hergestellte Fahrzeuge) [01:30, 10:45]; Markt- und Preiskampfschwäche in China [01:30, 10:50]; kostenintensive Fehleinschätzungen beim E-Auto-Schwenk [01:30]; sehr ambitionierte EBIT-Margarziele bei VW (8–10 %) [11:03] sowie Governance-Risiken (Land Niedersachsen mit 20 % Sperrminorität bei VW) [11:43].\n- **Sehenswerte Stellen im Video:**\n  - [01:05-01:30] Gegenüberstellung der EBIT-Einbrüche 2025 vs. 2024 sowie Aufschlüsselung der 4 Hauptgründe.\n  - [04:16-04:58] Technische Chartanalyse der Porsche AG zum gebrochenen Abwärtstrend.\n  - [05:28-06:15] Detaillierte Volkswagen-Chartanalyse inklusive der konkreten Signal-Marken (94 € / 110 €).\n  - [07:38-08:23] Erklärung zu Zykliker-KGVs und den Effekten im Aufschwung.\n  - [09:10-11:57] Pro- & Kontra-Matrix zu Katalysatoren (Kostenreduktion, Modelloffensive) und anhaltenden Risiken.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 3,
+  "discord_sent_at": "2026-09-16T00:02:32.975793+00:00"
 }

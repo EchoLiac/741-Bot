@@ -6,10 +6,50 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123270+00:00",
-  "attempts": 1,
-  "last_attempt": "2026-09-15T17:31:47.508286+00:00",
+  "attempts": 2,
+  "last_attempt": "2026-09-16T00:02:32.980760+00:00",
+  "content_available": true,
+  "summary": "**Kernaussage**: Der Sprecher analysiert das rund 20.000 € schwere Depot eines 21-jährigen Anlegers und rät zu einer Umstrukturierung weg von reinen Cashflow- und Dividendenwerten hin zu Dividendenwachstums- und Wachstumstiteln. Zudem wird kritisiert, dass der Breitmarkt-ETF-Anteil mit ca. 15 % zu gering gewichtet ist, um als stabiler Kern zu fungieren. Es wird ein 15-Aktien-Zielportfolio als Alternative vorgestellt.\n\n**Typ**: Bildung / Depot-Analyse\n\n**Depot-Analyse & Strategie-Empfehlungen**:\n- **Core-ETFs (MSCI World / Nasdaq 100)** (02:50):\n  - *Sprecherthese*: Ein ETF-Anteil von ca. 15 % bildet keinen echten Depotkern („Core“).\n  - *Regel/Empfehlung*: Entweder den Core-Anteil auf rund 50 % aufstocken oder die ETFs komplett durch ein reines Einzelaktien-Portfolio ersetzen.\n  - *Levels / Trigger / Invalidierung / Zeithorizont*: Nicht genannt.\n- **High-Cashflow- & Dividendenaktien (z. B. AGNC, Realty Income, Coca-Cola)** (04:00):\n  - *Sprecherthese*: Für sehr junge Anleger sind hochausschüttende Werte unvorteilhaft, da Dividenden sofort versteuert und manuell reinvestiert werden müssen.\n  - *Regel/Empfehlung*: Umschichtung in Unternehmen mit höherem Dynamik- und Dividendenwachstumspotenzial.\n  - *Levels / Trigger / Invalidierung / Zeithorizont*: Nicht genannt.\n- **Wachstums- & Tech-Aktien (z. B. ASML, Alphabet, Amazon, Microsoft, Novo Nordisk)** (03:47, 04:49, 06:00):\n  - *Sprecherthese*: Starke Qualitätstitel beibehalten; Positionen wie Meta wegen unsauberer Trendstruktur streichen und ASML bei Bedarf durch Zuflüsse/Teilverkäufe rebalancen.\n  - *Zielportfolio*: 15 Einzelwerte (u. a. zusätzlich Intuitive Surgical, Hermès, Stryker, MercadoLibre) mit weltweiter Streuung (06:00).\n  - *Levels / Trigger / Invalidierung / Zeithorizont*: Nicht genannt.\n\n**Unsicherheiten & Sehenswerte Stellen**:\n- *Unsicherheiten*: Die genaue Höhe künftiger monatlicher Sparraten ist unbekannt (07:28), weshalb nicht feststeht, ob Übergewichtungen (wie ASML mit ~5.000 €) aktiv verkauft oder durch Neugeld ausgeglichen werden sollten.\n- *Sehenswerte Stellen*: 01:05 (Bestandsaufnahme des Ausgangsdepots), 02:50 (Analyse der Core-Satellite-Struktur) und 06:00 (Präsentation des 15-Titel-Zielportfolios).",
+  "evidence": [
+    {
+      "timestamp": "00:01",
+      "basis": "audio",
+      "observation": "Der Sprecher nennt die Ausgangslage: 21 Jahre alt, 20.000 € Depotvolumen mit Fokus auf High-Dividend und Tech-Aktien."
+    },
+    {
+      "timestamp": "01:05",
+      "basis": "visual",
+      "observation": "Eingeblendete WLA Depot-Analyse zeigt ein Gesamtdepot von 19.458 € mit 14 Positionen (Top-Position ASML mit 4.982 €)."
+    },
+    {
+      "timestamp": "02:50",
+      "basis": "audio",
+      "observation": "Sprecher führt aus, dass 3.000 € im MSCI World bei 20.000 € Gesamtdepot nur 15 % ausmachen und somit keine echte Core-Funktion erfüllen."
+    },
+    {
+      "timestamp": "04:00",
+      "basis": "audio",
+      "observation": "Kritik an Positionen 8 bis 13 (u. a. AGNC, Realty Income, Coca-Cola): In jungem Alter führen hohe Ausschüttungen zu unnötiger direkter Besteuerung vor dem Reinvestment."
+    },
+    {
+      "timestamp": "06:00",
+      "basis": "visual",
+      "observation": "Anzeige des 'Empfohlenen Zielportfolios' mit 15 Positionen, darunter ASML, Microsoft, Intuitive Surgical, Novo Nordisk, Stryker, MercadoLibre, Amazon, Hermès, Sea, Anta Sports, Alphabet, Nu Holdings, HDFC Bank, CATL und Equinix."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "1R7fAArCd3M",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-16T00:03:03.786872+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**20.000€ Studenten-Depot - Das würde ich anders machen!**\nhttps://www.youtube.com/watch?v=1R7fAArCd3M\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n**Kernaussage**: Der Sprecher analysiert das rund 20.000 € schwere Depot eines 21-jährigen Anlegers und rät zu einer Umstrukturierung weg von reinen Cashflow- und Dividendenwerten hin zu Dividendenwachstums- und Wachstumstiteln. Zudem wird kritisiert, dass der Breitmarkt-ETF-Anteil mit ca. 15 % zu gering gewichtet ist, um als stabiler Kern zu fungieren. Es wird ein 15-Aktien-Zielportfolio als Alternative vorgestellt.\n\n**Typ**: Bildung / Depot-Analyse\n\n**Depot-Analyse & Strategie-Empfehlungen**:\n- **Core-ETFs (MSCI World / Nasdaq 100)** (02:50):\n  - *Sprecherthese*: Ein ETF-Anteil von ca. 15 % bildet keinen echten Depotkern („Core“).\n  - *Regel/Empfehlung*: Entweder den Core-Anteil auf rund 50 % aufstocken oder die ETFs komplett durch ein reines Einzelaktien-Portfolio ersetzen.\n  - *Levels / Trigger / Invalidierung / Zeithorizont*: Nicht genannt.\n- **High-Cashflow- & Dividendenaktien (z. B. AGNC, Realty Income, Coca-Cola)** (04:00):\n  - *Sprecherthese*: Für sehr junge Anleger sind hochausschüttende Werte unvorteilhaft, da Dividenden sofort versteuert und manuell reinvestiert werden müssen.\n  - *Regel/Empfehlung*: Umschichtung in Unternehmen mit höherem Dynamik- und Dividendenwachstumspotenzial.\n  - *Levels / Trigger / Invalidierung / Zeithorizont*: Nicht genannt.\n- **Wachstums- & Tech-Aktien (z. B. ASML, Alphabet, Amazon, Microsoft, Novo Nordisk)** (03:47, 04:49, 06:00):\n  - *Sprecherthese*: Starke Qualitätstitel beibehalten; Positionen wie Meta wegen unsauberer Trendstruktur streichen und ASML bei Bedarf durch Zuflüsse/Teilverkäufe rebalancen.\n  - *Zielportfolio*: 15 Einze",
+    "lwerte (u. a. zusätzlich Intuitive Surgical, Hermès, Stryker, MercadoLibre) mit weltweiter Streuung (06:00).\n  - *Levels / Trigger / Invalidierung / Zeithorizont*: Nicht genannt.\n\n**Unsicherheiten & Sehenswerte Stellen**:\n- *Unsicherheiten*: Die genaue Höhe künftiger monatlicher Sparraten ist unbekannt (07:28), weshalb nicht feststeht, ob Übergewichtungen (wie ASML mit ~5.000 €) aktiv verkauft oder durch Neugeld ausgeglichen werden sollten.\n- *Sehenswerte Stellen*: 01:05 (Bestandsaufnahme des Ausgangsdepots), 02:50 (Analyse der Core-Satellite-Struktur) und 06:00 (Präsentation des 15-Titel-Zielportfolios).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-16T00:03:04.328075+00:00"
 }
