@@ -6,10 +6,60 @@
   "published": null,
   "channel": "Tom Vorwald",
   "handle": "@TomVorwald",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T18:31:15.742950+00:00",
-  "attempts": 10,
-  "last_attempt": "2026-09-17T16:31:32.049374+00:00",
+  "attempts": 11,
+  "last_attempt": "2026-09-17T20:01:38.003914+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher ordnet sechs weit verbreitete Trading-Strategien in einer Rangliste (Tier List von S bis C) bezüglich ihrer praktischen Wirksamkeit ein. Entscheidendes Kriterium ist, ob eine Methode reale Marktliquidität sowie Angebot und Nachfrage berücksichtigt oder lediglich vergangene Kurse auswertet. Am besten schneiden volumen- und profilbasierte PbD-Setups ab, während reine Chartindikatoren am schlechtesten bewertet werden.\n\n### Typ\nBildung\n\n### Methoden, Regeln und Fehler\n- **Support & Resistance (00:51 - 02:27):** Einstufung A-Tier / S-Tier. *Fehler:* Rein starres Anvisieren extremer Hochs und Tiefs führt oft zu Fehlsignalen oder verpassten Trades. *Regel:* Funktioniert erst dann als S-Tier-Setup, wenn Unterstützungen/Widerstände mit Liquiditätszonen und den passenden Zeiteinheiten kombiniert werden.\n- **Elliott-Wellen (02:28 - 03:48):** Einstufung B-Tier. *Fehler:* Bezieht sich ausschließlich auf historische Preisverläufe und liefert keine Erkenntnisse darüber, wo große Marktteilnehmer ihre Liquidität platzieren.\n- **Fibonacci-Retracements (03:49 - 05:52):** Einstufung B-Tier. *Fehler:* Ungeeignet bei stark variierender Marktvolatilität, da historische Strecken den aktuellen Kontext verlieren. *Anwendungsfall:* Nützlich zur Orientierung nach dem Ausbruch über ein Allzeithoch (ATH), wenn keine sonstigen Widerstände vorliegen.\n- **Indikatoren wie RSI & MACD (05:53 - 09:39):** Einstufung C-Tier. *Fehler:* Nachlaufend und im Alleingang hochgefährlich. In starken Trendphasen bleibt der RSI oft dauerhaft überkauft oder überverkauft, was Trader zum Gegen-den-Trend-Handeln verleitet und das Konto gefährdet.\n- **Breakouts & Fakeouts (09:40 - 11:20):** Einstufung A-Tier. *Regel:* Müssen zwingend der richtigen Marktphase zugeordnet werden. Breakouts funktionieren in Trendphasen; Fakeouts (Counter-Trades) gehören in Seitwärts- bzw. Balancephasen.\n- **PbD-Setups (11:21 - 13:45):** Einstufung S-Tier. *Methode:* Basiert auf der Logik von Angebot und Nachfrage sowie Market Profiling. Die Abfolge von Impuls und Konsolidierung (Range) macht sichtbar, wo Märkte im Gleichgewicht bzw. Ungleichgewicht sind und wo die Zonen hoher Liquidität liegen.\n\n### Unsicherheiten und lohnenswerte Stellen\n- **Unsicherheiten:** Die Abkürzung „PbD“ wird im Video nicht explizit Buchstabe für Buchstabe ausformuliert, lässt sich aber anhand der gezeigten Verteilungsprofile eindeutig dem profil- und volumenbasierten Trading zuordnen.\n- **Sehenswerte Stellen:** \n  - **07:00–08:29:** Anschauliches Beispiel dafür, wie ein RSI-Indikator während eines anhaltenden Aufwärtstrends Fehlsignale erzeugt.\n  - **11:21–13:25:** Detaillierte Erklärung der PbD-Struktur (Impuls und Seitwärtsphase) im Hinblick auf institutionelle Liquidität.",
+  "evidence": [
+    {
+      "timestamp": "00:03",
+      "basis": "visual",
+      "observation": "Eingeblendete Liste der sechs Strategien: Support und Resistance, Elliott Wellen, Fibonacci Retracements, Indikatoren, Breakouts, PbD-Setups."
+    },
+    {
+      "timestamp": "01:55",
+      "basis": "audio",
+      "observation": "Der Sprecher stuft Support & Resistance als A-Tier ein und erklärt, dass es bei Kombination mit Liquidität und Timeframes zum S-Tier wird."
+    },
+    {
+      "timestamp": "02:46",
+      "basis": "audio",
+      "observation": "Der Sprecher stuft Elliott-Wellen als B-Tier ein, da sie nur vergangene Preise betrachten."
+    },
+    {
+      "timestamp": "05:18",
+      "basis": "audio",
+      "observation": "Fibonacci Retracements werden auf B-Tier platziert; der Sprecher hebt hervor, dass sie bei Allzeithochs nützlich sein können."
+    },
+    {
+      "timestamp": "08:30",
+      "basis": "audio",
+      "observation": "Indikatoren (MACD, RSI) werden auf C-Tier herabgestuft und als alleine nicht zielführend bezeichnet."
+    },
+    {
+      "timestamp": "10:20",
+      "basis": "audio",
+      "observation": "Breakouts und Fakeouts werden als A-Tier bewertet, sofern die Marktphase korrekt kategorisiert wird."
+    },
+    {
+      "timestamp": "13:21",
+      "basis": "audio",
+      "observation": "PbD-Setups werden auf S-Tier gesetzt, da sie Marktstruktur sowie Angebot und Nachfrage abbilden."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "nE4pyD105Ys",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-17T20:02:07.349327+00:00",
+  "discord_chunks": [
+    "🎬 **Tom Vorwald**\n**Die besten Trading-Strategien für Anfänger 2026 (Rangliste)**\nhttps://www.youtube.com/watch?v=nE4pyD105Ys\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher ordnet sechs weit verbreitete Trading-Strategien in einer Rangliste (Tier List von S bis C) bezüglich ihrer praktischen Wirksamkeit ein. Entscheidendes Kriterium ist, ob eine Methode reale Marktliquidität sowie Angebot und Nachfrage berücksichtigt oder lediglich vergangene Kurse auswertet. Am besten schneiden volumen- und profilbasierte PbD-Setups ab, während reine Chartindikatoren am schlechtesten bewertet werden.\n\n### Typ\nBildung\n\n### Methoden, Regeln und Fehler\n- **Support & Resistance (00:51 - 02:27):** Einstufung A-Tier / S-Tier. *Fehler:* Rein starres Anvisieren extremer Hochs und Tiefs führt oft zu Fehlsignalen oder verpassten Trades. *Regel:* Funktioniert erst dann als S-Tier-Setup, wenn Unterstützungen/Widerstände mit Liquiditätszonen und den passenden Zeiteinheiten kombiniert werden.\n- **Elliott-Wellen (02:28 - 03:48):** Einstufung B-Tier. *Fehler:* Bezieht sich ausschließlich auf historische Preisverläufe und liefert keine Erkenntnisse darüber, wo große Marktteilnehmer ihre Liquidität platzieren.\n- **Fibonacci-Retracements (03:49 - 05:52):** Einstufung B-Tier. *Fehler:* Ungeeignet bei stark variierender Marktvolatilität, da historische Strecken den aktuellen Kontext verlieren. *Anwendungsfall:* Nützlich zur Orientierung nach dem Ausbruch über ein Allzeithoch (ATH), wenn keine sonstigen Widerstände vorliegen.\n- **Indikatoren wie RSI & MACD (05:53 - 09:39):** Einstufung C-Tier. *Fehler:* Nachlaufend und im Alleingang hochgefährlich. In starken Trendphasen bleibt der RSI oft dauerhaft überkauft oder überverkauft, was Trader zum Gegen-den",
+    "-Trend-Handeln verleitet und das Konto gefährdet.\n- **Breakouts & Fakeouts (09:40 - 11:20):** Einstufung A-Tier. *Regel:* Müssen zwingend der richtigen Marktphase zugeordnet werden. Breakouts funktionieren in Trendphasen; Fakeouts (Counter-Trades) gehören in Seitwärts- bzw. Balancephasen.\n- **PbD-Setups (11:21 - 13:45):** Einstufung S-Tier. *Methode:* Basiert auf der Logik von Angebot und Nachfrage sowie Market Profiling. Die Abfolge von Impuls und Konsolidierung (Range) macht sichtbar, wo Märkte im Gleichgewicht bzw. Ungleichgewicht sind und wo die Zonen hoher Liquidität liegen.\n\n### Unsicherheiten und lohnenswerte Stellen\n- **Unsicherheiten:** Die Abkürzung „PbD“ wird im Video nicht explizit Buchstabe für Buchstabe ausformuliert, lässt sich aber anhand der gezeigten Verteilungsprofile eindeutig dem profil- und volumenbasierten Trading zuordnen.\n- **Sehenswerte Stellen:** \n  - **07:00–08:29:** Anschauliches Beispiel dafür, wie ein RSI-Indikator während eines anhaltenden Aufwärtstrends Fehlsignale erzeugt.\n  - **11:21–13:25:** Detaillierte Erklärung der PbD-Struktur (Impuls und Seitwärtsphase) im Hinblick auf institutionelle Liquidität.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-17T20:02:07.809803+00:00"
 }
