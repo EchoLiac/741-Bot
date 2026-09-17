@@ -6,10 +6,87 @@
   "published": null,
   "channel": "10xTrading",
   "handle": "@1OxTrading",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T18:31:10.562338+00:00",
-  "attempts": 6,
-  "last_attempt": "2026-09-17T02:33:20.334686+00:00",
+  "attempts": 7,
+  "last_attempt": "2026-09-17T07:01:21.665747+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDas Video bietet eine technische Chartanalyse von zehn Aktienwerten aus der Watchlist von 10X Trading. Der Sprecher analysiert wichtige Widerstände, Unterstützungszonen und Indikatoren, um mögliche Einstiegs- und Tranchenszenarien zu identifizieren. Ein Schwerpunkt liegt dabei auf Reaktionen an gleitenden Durchschnitten und harmonischen Chartmustern.\n\n### Typ\nmehrere Aktien\n\n### Nebius Group N.V. (00:21)\n- **Sprecherthese:** Die Aktie befindet sich im Niemandsland innerhalb eines neutralen Dreiecks; ein Kauf drängt sich erst nach einer Korrektur auf.\n- **Richtung:** Neutral / Abwartend.\n- **Levels:** Einstiegszone bei 160 $ bis 180 $ (01:27) an der 200-Tage-Linie; kritischer Verlauf unter 195 $ (01:46).\n- **Trigger:** Preisalarm knapp unter 200 $ (01:51).\n- **Invalidierung:** Bruch der Unterstützungszone unter 195 $.\n- **Zeithorizont:** Nicht explizit genannt.\n\n### Rheinmetall AG (01:53)\n- **Sprecherthese:** Am bullischen Orderblock besteht kurzfristig die Chance auf einen Bounce und die Bildung eines Doppelbodens.\n- **Richtung:** Bullisch (kurzfristiger Bounce).\n- **Levels:** Support-Zone bei 940 € bis 970 $ (03:34, 03:41); Erholungschance Richtung 1.100 € (03:50), sobald der Bereich über 1.000 € gehalten wird.\n- **Trigger:** Festigung über 1.000 €.\n- **Invalidierung:** Fall unter das Verlaufstief bei 940 € / 970 $.\n- **Zeithorizont:** Kurzfristig (03:45).\n\n### Exxon Mobil Corporation (03:58)\n- **Sprecherthese:** Der Ausbruch aus dem Abwärtstrend zeigt starkes Momentum im Energie-Sektor.\n- **Richtung:** Bullisch.\n- **Levels:** Verlaufshochs / Alarmzone bei 170 $ bis 174 $ (05:22).\n- **Trigger:** Halten der 20-Tage-Linie mit höheren Tiefs (05:10).\n- **Invalidierung:** Nicht explizit genannt.\n- **Zeithorizont:** Nicht explizit genannt.\n\n### ServiceNow, Inc. (05:27)\n- **Sprecherthese:** Nach dem Ausbruch über die 200-Wochen-Linie entscheidet ein nachhaltiger Ausbruch über 150 $ über die Fortsetzung des Bullentrends.\n- **Richtung:** Neutral / Bullisch bei Ausbruch.\n- **Levels:** Widerstandszone bei 148 $ bis 150 $ (06:24, 06:29).\n- **Trigger:** Ausbruch über 150 $ ohne Rückfall (06:28).\n- **Invalidierung:** Fehlen eines Ausbruchs und Rückfall unter die 200-Wochen-Linie.\n- **Zeithorizont:** Nicht explizit genannt.\n\n### Adobe Inc. (06:49)\n- **Sprecherthese:** Die Aktie steht an einem neuralgischen Punkt zwischen Support, 20-Wochen-Linie und 200-Tage-Linie.\n- **Richtung:** Neutral bis Bullisch.\n- **Levels:** Support bei 257 $ (07:06); Alarm unter Tiefs bei 255 $ (07:56); Ausbruchstrigger bei 270 $ bis 275 $ (08:27).\n- **Trigger:** Ausbruch über 270 $ - 275 $ oder erfolgreicher Tests/Doppelboden bei 255 $ (08:32).\n- **Invalidierung:** erneuter Abprall und Fall unter 255 $.\n- **Zeithorizont:** Kurzfristig.\n\n### Oracle Corporation (09:18)\n- **Sprecherthese:** Die Aktie testet eine langfristige grüne Trendlinie/Support und bietet eine spekulative Chance.\n- **Richtung:** Bullisch am Support.\n- **Levels:** Wichtiger Support bei 138 $ bis 140 $ (10:24); bullischer Trigger über 150 $ (10:31); Widerstandszone bei 160 $ bis 167 $ (10:38); Abwärtsziel bei 115 $ (10:17) bei Supportbruch.\n- **Trigger:** Ausbruch über 150 $.\n- **Invalidierung:** Kurse unter 138 $ / 140 $.\n- **Zeithorizont:** Nicht explizit genannt.\n\n### Axon Enterprise, Inc. (10:45)\n- **Sprecherthese:** Der jüngste Kursrücksetzer (-12%) bringt die Aktie an die 200-Wochen-Linie und bildet eine Kaufzone für Tranchen.\n- **Richtung:** Konsolidierung / Kaufchance in Supportzone.\n- **Levels:** Zieltranchenzone zwischen 410 $ und 430 $ (12:59).\n- **Trigger:** Erreichen der Supportzone zwischen 410 $ und 430 $.\n- **Invalidierung:** Druck über 6 % unter die aktuellen Tiefs.\n- **Zeithorizont:** Nicht explizit genannt.\n\n### Alphabet Inc. (13:20)\n- **Sprecherthese:** Nach erfolgreicher Erholung im Megafon-Muster trifft die Aktie auf horizontalen Widerstand.\n- **Richtung:** Neutral / Kurzfristiger Rücksetzer.\n- **Levels:** Widerstand bei 350 $ (13:52); Support an der 200-Tage-Linie bei ca. 337 $ bis 338 $ (14:32, 15:04).\n- **Trigger:** Halten oberhalb von 338 $ im Pullback.\n- **Invalidierung:** Fall unter 337 $ - 338 $.\n- **Zeithorizont:** Kurzfristig (14:54).\n\n### Amazon.com, Inc. (15:06)\n- **Sprecherthese:** Die Aktie testet das 61,8% Fibonacci-Retracement und eignet sich für gestaffelte Tranchenkäufe.\n- **Richtung:** Vorsichtig bullisch / Tranchenaufbau.\n- **Levels:** Aktueller Kursbereich bei 248 $ (15:32); 1. Tranche bei 250 $ (16:42), 2. Tranche bei 230 $ bis 240 $ (15:56, 16:43); Risikobegrenzung unter 246 $ (16:10).\n- **Trigger:** Reaktionen an der 200-Tage- / 50-Wochen-Linie.\n- **Invalidierung:** Unterbieten der Marke von 246 $.\n- **Zeithorizont:** Kurzfristig bis mittelfristig.\n\n### SpaceX (16:48)\n- **Sprecherthese:** Die Aktie tut sich an der 150 $-Marke schwer, weshalb Gewinnmitnahmen gerechtfertigt sind.\n- **Richtung:** Bärisch / Korrekturgefährdet.\n- **Levels:** Widerstand bei 150 $ (16:54); Support-Marken / Cut-off bei 138 $ (18:04) und 130 $ (18:10).\n- **Trigger:** Bruch der Marken bei 138 $ bzw. 130 $.\n- **Invalidierung:** Nachhaltiger Ausbruch über 150 $.\n- **Zeithorizont:** Nicht explizit genannt.\n\n### Unsicherheiten und sehenswerte Stellen\n- **Sehenswerte Stellen:** \n  - 03:30 (Rheinmetall: genaue Einzeichnung des Doppelbodens)\n  - 07:40 (Adobe: Test der 200-Tage-Linie und Hammer-Kerze)\n  - 09:35 (Oracle: Erläuterung der mehrfach bestätigten grünen Trendlinie)\n  - 12:45 (Axon: Historische Bedeutung der 200-Wochen-Linie)\n- **Unsicherheiten:** Die Analysen beruhen rein auf Charttechnik und Sprechereinschätzungen. Fehlausbrüche, unerwartete Marktnachrichten oder Makro-Events können die Szenarien jederzeit invalidieren.",
+  "evidence": [
+    {
+      "timestamp": "00:21",
+      "basis": "audio",
+      "observation": "Sprecher beginnt mit der Analyse von Nebius Group N.V. und beschreibt die Position im neutralen Dreieck."
+    },
+    {
+      "timestamp": "01:27",
+      "basis": "audio",
+      "observation": "Sprecher nennt Kaufinteresse für Nebius bei 160 $ bis 180 $ an der 200-Tage-Linie."
+    },
+    {
+      "timestamp": "01:46",
+      "basis": "visual",
+      "observation": "Im Chart von Nebius wird die Marke von 195 $ als kritische Unterstützung markiert."
+    },
+    {
+      "timestamp": "03:34",
+      "basis": "audio",
+      "observation": "Bei Rheinmetall nennt der Sprecher ein Supportniveau bei 970 $ bzw. 940 €."
+    },
+    {
+      "timestamp": "05:22",
+      "basis": "visual",
+      "observation": "Bei Exxon Mobil wird ein Preisalarm im Bereich von 170 $ bis 174 $ gesetzt."
+    },
+    {
+      "timestamp": "06:28",
+      "basis": "audio",
+      "observation": "Bei ServiceNow betont der Sprecher den nötigen Ausbruch über 150 $."
+    },
+    {
+      "timestamp": "07:56",
+      "basis": "visual",
+      "observation": "Bei Adobe wird ein Preisalarm bei 255 $ unterhalb der jüngsten Verlaufstiefs eingerichtet."
+    },
+    {
+      "timestamp": "10:24",
+      "basis": "audio",
+      "observation": "Sprecher nennt für Oracle wichtigste Unterstützungslinien bei 138 $ bis 140 $."
+    },
+    {
+      "timestamp": "12:59",
+      "basis": "visual",
+      "observation": "Bei Axon Enterprise wird eine Zieltranchenzone zwischen 410 $ und 430 $ im Chart hervorgehoben."
+    },
+    {
+      "timestamp": "13:52",
+      "basis": "audio",
+      "observation": "Bei Alphabet wird der Widerstand im Bereich von 350 $ besprochen."
+    },
+    {
+      "timestamp": "15:32",
+      "basis": "audio",
+      "observation": "Bei Amazon nennt der Sprecher das 61,8% Fibonacci-Retracement im Bereich um 248 $."
+    },
+    {
+      "timestamp": "18:04",
+      "basis": "audio",
+      "observation": "Bei SpaceX nennt der Sprecher Cut-off-Marken bei 138 $ und 130 $."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "rWlUrqJjS34",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-17T07:01:48.539451+00:00",
+  "discord_chunks": [
+    "🎬 **10xTrading**\n**🚨 10 AKTIEN 💥 Amazon Alphabet Oracle SpaceX Nebius Rheinmetall Exxon Adobe ServiceNow Axon**\nhttps://www.youtube.com/watch?v=rWlUrqJjS34\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDas Video bietet eine technische Chartanalyse von zehn Aktienwerten aus der Watchlist von 10X Trading. Der Sprecher analysiert wichtige Widerstände, Unterstützungszonen und Indikatoren, um mögliche Einstiegs- und Tranchenszenarien zu identifizieren. Ein Schwerpunkt liegt dabei auf Reaktionen an gleitenden Durchschnitten und harmonischen Chartmustern.\n\n### Typ\nmehrere Aktien\n\n### Nebius Group N.V. (00:21)\n- **Sprecherthese:** Die Aktie befindet sich im Niemandsland innerhalb eines neutralen Dreiecks; ein Kauf drängt sich erst nach einer Korrektur auf.\n- **Richtung:** Neutral / Abwartend.\n- **Levels:** Einstiegszone bei 160 $ bis 180 $ (01:27) an der 200-Tage-Linie; kritischer Verlauf unter 195 $ (01:46).\n- **Trigger:** Preisalarm knapp unter 200 $ (01:51).\n- **Invalidierung:** Bruch der Unterstützungszone unter 195 $.\n- **Zeithorizont:** Nicht explizit genannt.\n\n### Rheinmetall AG (01:53)\n- **Sprecherthese:** Am bullischen Orderblock besteht kurzfristig die Chance auf einen Bounce und die Bildung eines Doppelbodens.\n- **Richtung:** Bullisch (kurzfristiger Bounce).\n- **Levels:** Support-Zone bei 940 € bis 970 $ (03:34, 03:41); Erholungschance Richtung 1.100 € (03:50), sobald der Bereich über 1.000 € gehalten wird.\n- **Trigger:** Festigung über 1.000 €.\n- **Invalidierung:** Fall unter das Verlaufstief bei 940 € / 970 $.\n- **Zeithorizont:** Kurzfristig (03:45).\n\n### Exxon Mobil Corporation (03:58)\n- **Sprecherthese:** Der Ausbruch aus dem Abwärtstrend zeigt starkes Momentum im Energie-Sektor.\n- **Richtung:** Bullisch.\n- **Levels:** ",
+    "Verlaufshochs / Alarmzone bei 170 $ bis 174 $ (05:22).\n- **Trigger:** Halten der 20-Tage-Linie mit höheren Tiefs (05:10).\n- **Invalidierung:** Nicht explizit genannt.\n- **Zeithorizont:** Nicht explizit genannt.\n\n### ServiceNow, Inc. (05:27)\n- **Sprecherthese:** Nach dem Ausbruch über die 200-Wochen-Linie entscheidet ein nachhaltiger Ausbruch über 150 $ über die Fortsetzung des Bullentrends.\n- **Richtung:** Neutral / Bullisch bei Ausbruch.\n- **Levels:** Widerstandszone bei 148 $ bis 150 $ (06:24, 06:29).\n- **Trigger:** Ausbruch über 150 $ ohne Rückfall (06:28).\n- **Invalidierung:** Fehlen eines Ausbruchs und Rückfall unter die 200-Wochen-Linie.\n- **Zeithorizont:** Nicht explizit genannt.\n\n### Adobe Inc. (06:49)\n- **Sprecherthese:** Die Aktie steht an einem neuralgischen Punkt zwischen Support, 20-Wochen-Linie und 200-Tage-Linie.\n- **Richtung:** Neutral bis Bullisch.\n- **Levels:** Support bei 257 $ (07:06); Alarm unter Tiefs bei 255 $ (07:56); Ausbruchstrigger bei 270 $ bis 275 $ (08:27).\n- **Trigger:** Ausbruch über 270 $ - 275 $ oder erfolgreicher Tests/Doppelboden bei 255 $ (08:32).\n- **Invalidierung:** erneuter Abprall und Fall unter 255 $.\n- **Zeithorizont:** Kurzfristig.\n\n### Oracle Corporation (09:18)\n- **Sprecherthese:** Die Aktie testet eine langfristige grüne Trendlinie/Support und bietet eine spekulative Chance.\n- **Richtung:** Bullisch am Support.\n- **Levels:** Wichtiger Support bei 138 $ bis 140 $ (10:24); bullischer Trigger über 150 $ (10:31); Widerstandszone bei 160 $ bis 167 $ (10:38); Abwärtsziel bei 115 $ (10:17) bei Supportbruch.\n- **Trigger:** Ausbruch über 150 $.\n- **Invalidierung:** Kurse unter 138 $ / 140 $.\n- **Zeithorizont:** Nicht explizit genannt.\n\n### Axon Enterprise, Inc. (10:45)\n- **Sprecherthese:** Der jüngste Kursrücksetzer (-12%) bringt di",
+    "e Aktie an die 200-Wochen-Linie und bildet eine Kaufzone für Tranchen.\n- **Richtung:** Konsolidierung / Kaufchance in Supportzone.\n- **Levels:** Zieltranchenzone zwischen 410 $ und 430 $ (12:59).\n- **Trigger:** Erreichen der Supportzone zwischen 410 $ und 430 $.\n- **Invalidierung:** Druck über 6 % unter die aktuellen Tiefs.\n- **Zeithorizont:** Nicht explizit genannt.\n\n### Alphabet Inc. (13:20)\n- **Sprecherthese:** Nach erfolgreicher Erholung im Megafon-Muster trifft die Aktie auf horizontalen Widerstand.\n- **Richtung:** Neutral / Kurzfristiger Rücksetzer.\n- **Levels:** Widerstand bei 350 $ (13:52); Support an der 200-Tage-Linie bei ca. 337 $ bis 338 $ (14:32, 15:04).\n- **Trigger:** Halten oberhalb von 338 $ im Pullback.\n- **Invalidierung:** Fall unter 337 $ - 338 $.\n- **Zeithorizont:** Kurzfristig (14:54).\n\n### Amazon.com, Inc. (15:06)\n- **Sprecherthese:** Die Aktie testet das 61,8% Fibonacci-Retracement und eignet sich für gestaffelte Tranchenkäufe.\n- **Richtung:** Vorsichtig bullisch / Tranchenaufbau.\n- **Levels:** Aktueller Kursbereich bei 248 $ (15:32); 1. Tranche bei 250 $ (16:42), 2. Tranche bei 230 $ bis 240 $ (15:56, 16:43); Risikobegrenzung unter 246 $ (16:10).\n- **Trigger:** Reaktionen an der 200-Tage- / 50-Wochen-Linie.\n- **Invalidierung:** Unterbieten der Marke von 246 $.\n- **Zeithorizont:** Kurzfristig bis mittelfristig.\n\n### SpaceX (16:48)\n- **Sprecherthese:** Die Aktie tut sich an der 150 $-Marke schwer, weshalb Gewinnmitnahmen gerechtfertigt sind.\n- **Richtung:** Bärisch / Korrekturgefährdet.\n- **Levels:** Widerstand bei 150 $ (16:54); Support-Marken / Cut-off bei 138 $ (18:04) und 130 $ (18:10).\n- **Trigger:** Bruch der Marken bei 138 $ bzw. 130 $.\n- **Invalidierung:** Nachhaltiger Ausbruch über 150 $.\n- **Zeithorizont:** Nicht explizit genannt.\n\n### Un",
+    "sicherheiten und sehenswerte Stellen\n- **Sehenswerte Stellen:** \n  - 03:30 (Rheinmetall: genaue Einzeichnung des Doppelbodens)\n  - 07:40 (Adobe: Test der 200-Tage-Linie und Hammer-Kerze)\n  - 09:35 (Oracle: Erläuterung der mehrfach bestätigten grünen Trendlinie)\n  - 12:45 (Axon: Historische Bedeutung der 200-Wochen-Linie)\n- **Unsicherheiten:** Die Analysen beruhen rein auf Charttechnik und Sprechereinschätzungen. Fehlausbrüche, unerwartete Marktnachrichten oder Makro-Events können die Szenarien jederzeit invalidieren.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 4,
+  "discord_sent_at": "2026-09-17T07:01:51.031672+00:00"
 }

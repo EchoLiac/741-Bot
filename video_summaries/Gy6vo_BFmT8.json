@@ -6,10 +6,65 @@
   "published": null,
   "channel": "TradingKompass",
   "handle": "@TradingKompass",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T19:31:26.578777+00:00",
-  "attempts": 6,
-  "last_attempt": "2026-09-17T02:34:06.592664+00:00",
+  "attempts": 7,
+  "last_attempt": "2026-09-17T07:02:16.147580+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDie Chartanalyse der IREN Limited Aktie zeigt kurzfristig ein korrektives Szenario innerhalb eines übergeordneten Bullentrends. Solange der Widerstandsbereich um 50,00 USD nicht nachhaltig durchbrochen wird, besteht das Risiko eines weiteren Rücksetzers in die Zielzone zwischen 33,22 USD und 23,37 USD. Nach Abschluss der Korrektur werden mittel- bis langfristig Kursziele oberhalb des bisherigen Allzeithochs bis zu 151,80 USD angestrebt (00:10, 02:54).\n\n### Typ\nEinzelaktie\n\n### IREN Limited (NASDAQ: IREN)\n* **Sprecherthese:** Übergeordnet befindet sich die Aktie in einer großen Aufwärtsstruktur (Welle Y), steckt aktuell aber in einer Korrekturwelle (Welle X bzw. Welle C). Ein erneuter Abfischer nach unten ist wahrscheinlicher als ein direkter Ausbruch.\n* **Richtung:** Kurzfristig korrektiv / bärisch, mittel- bis langfristig bullisch.\n* **Konkret belegte Levels:**\n  * Widerstandszone / 200-Tage-Linie: 42,00 USD bis 50,00 USD (01:17, 02:08, 06:11)\n  * Welle-4-Widerstand (50% Fibonacci): 46,05 USD (05:20)\n  * Bisheriges Korrektur-Tief (61,8% Fibonacci): 29,94 USD (02:32)\n  * Ziel- und Akkumulationszone (Welle 5 / C): 33,22 USD (38,2% Fib, 08:06), 28,29 USD bis 23,37 USD (05:38, 08:48)\n  * Untergeordnete Welle-X-Extremlinien: 17,20 USD (78,6% Fib) und 9,54 USD (88,7% Fib) (04:01)\n  * Langfristige Kursziele (Welle Y): 104,76 USD, 122,55 USD, 133,12 USD sowie 151,80 USD (02:50 - 02:54)\n* **Trigger:** Ein nachhaltiger Ausbruch über 50,00 USD signalisiert den direkten Start der nächsten Aufwärtswelle (06:48). Ein Abstieg in den Bereich ab 33,22 USD dient als gestaffelter Einssammelbereich (08:14).\n* **Invalidierung:** Kurse oberhalb von 50,00 USD entkräftigen die These einer noch ausstehenden tiefen Welle 5 (06:11).\n* **Zeithorizont:** Kurzfristig (Wochen/Monate für den Korrekturabschluss), langfristig (Monate/Jahre für die übergeordnete Welle Y) (00:08).\n\n### Unsicherheiten und lohnenswerte Stellen\n* **Unsicherheiten:** Es bleibt unklar, ob das Tief bei 29,94 USD (Juli/August) bereits den finalen Boden dargestellt hat oder ob die Aktie über eine überschießende B-Welle noch einmal auf 33,22 USD bis 23,37 USD fällt (02:58, 07:22).\n* **Lohnenswerte Stellen:**\n  * **01:15 - 02:15:** Erklärung des Fehlversuchs an der 200-Tage-Linie und Ausbildung des Doppeltops.\n  * **05:08 - 05:45:** Technische Herleitung der Welle-5-Zielzone anhand der Fibonacci-Retracements.\n  * **07:20 - 08:30:** Detaillierte Analyse des B-Wellen-Überschießens und Anpassung der Nachkaufzone.",
+  "evidence": [
+    {
+      "timestamp": "00:10",
+      "basis": "audio",
+      "observation": "Sprecher nennt langfristige Kursziele in Richtung 100, 120 und 130 USD."
+    },
+    {
+      "timestamp": "01:17",
+      "basis": "audio",
+      "observation": "Sprecher nennt den Widerstandsbereich zwischen 42 USD und 50 USD."
+    },
+    {
+      "timestamp": "02:32",
+      "basis": "visual",
+      "observation": "Chart zeigt 61,8% Fibonacci-Retracement bei 29,94 USD."
+    },
+    {
+      "timestamp": "02:54",
+      "basis": "visual",
+      "observation": "Chart zeigt langfristige Zielmarken bei 104,76 USD, 122,55 USD, 133,12 USD und 151,80 USD."
+    },
+    {
+      "timestamp": "04:01",
+      "basis": "visual",
+      "observation": "Chart zeigt tiefere Fib-Retracements bei 17,20 USD (0,786) und 9,54 USD (0,887)."
+    },
+    {
+      "timestamp": "05:20",
+      "basis": "audio",
+      "observation": "Sprecher erwähnt das 50% Fibonacci-Retracement bei 46,05 USD als Abprallpunkt."
+    },
+    {
+      "timestamp": "05:38",
+      "basis": "audio",
+      "observation": "Sprecher definiert die Zielzone für Welle 5 von 28,29 USD bis 23,37 USD."
+    },
+    {
+      "timestamp": "08:06",
+      "basis": "visual",
+      "observation": "Chart zeigt Erweiterung der Zielzone um das 38,2% Fib bei 33,22 USD."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "Gy6vo_BFmT8",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-17T07:02:37.517544+00:00",
+  "discord_chunks": [
+    "🎬 **TradingKompass**\n**IREN Limited - This Is Where It All Happens! 👀 Analysis & Price Targets**\nhttps://www.youtube.com/watch?v=Gy6vo_BFmT8\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDie Chartanalyse der IREN Limited Aktie zeigt kurzfristig ein korrektives Szenario innerhalb eines übergeordneten Bullentrends. Solange der Widerstandsbereich um 50,00 USD nicht nachhaltig durchbrochen wird, besteht das Risiko eines weiteren Rücksetzers in die Zielzone zwischen 33,22 USD und 23,37 USD. Nach Abschluss der Korrektur werden mittel- bis langfristig Kursziele oberhalb des bisherigen Allzeithochs bis zu 151,80 USD angestrebt (00:10, 02:54).\n\n### Typ\nEinzelaktie\n\n### IREN Limited (NASDAQ: IREN)\n* **Sprecherthese:** Übergeordnet befindet sich die Aktie in einer großen Aufwärtsstruktur (Welle Y), steckt aktuell aber in einer Korrekturwelle (Welle X bzw. Welle C). Ein erneuter Abfischer nach unten ist wahrscheinlicher als ein direkter Ausbruch.\n* **Richtung:** Kurzfristig korrektiv / bärisch, mittel- bis langfristig bullisch.\n* **Konkret belegte Levels:**\n  * Widerstandszone / 200-Tage-Linie: 42,00 USD bis 50,00 USD (01:17, 02:08, 06:11)\n  * Welle-4-Widerstand (50% Fibonacci): 46,05 USD (05:20)\n  * Bisheriges Korrektur-Tief (61,8% Fibonacci): 29,94 USD (02:32)\n  * Ziel- und Akkumulationszone (Welle 5 / C): 33,22 USD (38,2% Fib, 08:06), 28,29 USD bis 23,37 USD (05:38, 08:48)\n  * Untergeordnete Welle-X-Extremlinien: 17,20 USD (78,6% Fib) und 9,54 USD (88,7% Fib) (04:01)\n  * Langfristige Kursziele (Welle Y): 104,76 USD, 122,55 USD, 133,12 USD sowie 151,80 USD (02:50 - 02:54)\n* **Trigger:** Ein nachhaltiger Ausbruch über 50,00 USD signalisiert den direkten Start der nächsten Aufwärtswelle (06:48). Ein Abstieg in den Bereich ab 33,22 USD die",
+    "nt als gestaffelter Einssammelbereich (08:14).\n* **Invalidierung:** Kurse oberhalb von 50,00 USD entkräftigen die These einer noch ausstehenden tiefen Welle 5 (06:11).\n* **Zeithorizont:** Kurzfristig (Wochen/Monate für den Korrekturabschluss), langfristig (Monate/Jahre für die übergeordnete Welle Y) (00:08).\n\n### Unsicherheiten und lohnenswerte Stellen\n* **Unsicherheiten:** Es bleibt unklar, ob das Tief bei 29,94 USD (Juli/August) bereits den finalen Boden dargestellt hat oder ob die Aktie über eine überschießende B-Welle noch einmal auf 33,22 USD bis 23,37 USD fällt (02:58, 07:22).\n* **Lohnenswerte Stellen:**\n  * **01:15 - 02:15:** Erklärung des Fehlversuchs an der 200-Tage-Linie und Ausbildung des Doppeltops.\n  * **05:08 - 05:45:** Technische Herleitung der Welle-5-Zielzone anhand der Fibonacci-Retracements.\n  * **07:20 - 08:30:** Detaillierte Analyse des B-Wellen-Überschießens und Anpassung der Nachkaufzone.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-17T07:02:38.207046+00:00"
 }
