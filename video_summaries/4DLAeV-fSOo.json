@@ -6,10 +6,65 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123247+00:00",
-  "attempts": 6,
-  "last_attempt": "2026-09-16T22:31:35.972166+00:00",
+  "attempts": 7,
+  "last_attempt": "2026-09-17T03:31:15.138986+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer US-Gesamtmarkt befindet sich in einer gesunden Konsolidierungs- und Seitwärtsphase, wobei Korrekturen primär hochgewichtete Technologie- und Halbleiterwerte betreffen, während der marktbreite S&P 500 Equal Weight stabil bleibt (05:40). Beim S&P 500 und Nasdaq 100 entscheiden spezifische Schlüsselzonen darüber, ob die bestehenden Aufwärtstrends direkt fortgesetzt werden oder tiefere Korrekturen bis zu den alten Allzeithochs folgen (04:12, 08:09). Der Sprecher betont, dass Marktzyklus-Korrekturen normal sind und sich Risiken durch breite Sektordiversifikation abfedern lassen (09:35).\n\n### Typ\nMarkt/Makro\n\n### S&P 500 (SPCD)\n- **Sprecherthese:** Der Index konsolidiert in einer engen Bandbreite; die Ausbruchsrichtung entscheidet über Trendfortsetzung oder mittelfristige Korrektur (04:05).\n- **Richtung:** Neutral / Konsolidierung.\n- **Levels:**\n  - Untere Pufferzonen / Korrektur-Trigger: 7.300 Punkte und 7.230 Punkte (04:12).\n  - Abwärtsziel im Korrekturszenario: Bereich um die alten Allzeithochs bei ca. 6.860 Punkten (04:20).\n  - Obere Widerstandszone / Bullischer Trigger: 7.580 bis 7.625 Punkte (04:39).\n- **Trigger:** Nachhaltiger Tagesschluss unter 7.230 Punkte (bärisch) bzw. Ausbruch über 7.625 Punkte (bullisch).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Mittelfristig / Sommermonate (05:13).\n\n### Nasdaq 100\n- **Sprecherthese:** Zeigt im Vergleich zum S&P 500 stärkere Schwäche und verläuft im volumenleeren Raum ohne nahe Unterstützungen (07:45).\n- **Richtung:** Korrektiv / Abwärtsgefährdet.\n- **Levels:**\n  - Abwärtsziel / Unterstützungszone: 26.000 ± 200 Punkte (alte Allzeithochs) (08:09).\n- **Trigger:** Fehlen eines dynamischen Aufwärtskonters führt zum Abbröckeln Richtung Zielzone; Korrekturende erst bei starkem Impuls nach oben (09:09).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n### S&P 500 Equal Weight (RSP) & Halbleiter-ETF (SOXX)\n- **Sprecherthese:** Der S&P 500 Equal Weight zeigt keine Anzeichen einer Topbildung, was belegt, dass die Marktschwäche nicht breit gestreut ist (05:36). Die Korrektur konzentriert sich auf den Halbleitermarkt (SOXX), der vom Hoch bereits deutlich nachgegeben hat (06:17).\n- **Richtung:** RSP weiterhin im Aufwärtstrend; SOXX im Korrekturmodus.\n- **Levels:** SOXX: -25 % Korrektur vom Hochpunkt (06:17). RSP: Keine Punktemarken genannt.\n- **Trigger / Invalidierung / Zeithorizont:** Nicht genannt.\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten:** Die genaue Dauer der Sommer-Seitwärtsphase sowie die Frage, ob der Nasdaq 100 kurzfristig ein starkes Aufwärtsmomentum generieren kann.\n- **Sehenswerte Stellen:**\n  - **04:05 - 04:45:** Analyse der Entscheidungskorridore im S&P 500.\n  - **06:11 - 06:25:** Ausmaß des Rücksetzers im Halbleiter-ETF SOXX.\n  - **07:42 - 08:20:** Volumenprofil und Korrekturpotenzial des Nasdaq 100.",
+  "evidence": [
+    {
+      "timestamp": "01:04",
+      "basis": "visual",
+      "observation": "Der Sprecher öffnet den Chart des S&P 500 Index (SPCD) auf Wochenansicht."
+    },
+    {
+      "timestamp": "04:12",
+      "basis": "audio",
+      "observation": "Sprecher nennt Marken unter 7300 und unter 7230 Punkten für eine Aktivierung des Korrekturszenarios im S&P 500."
+    },
+    {
+      "timestamp": "04:20",
+      "basis": "visual",
+      "observation": "Im Chart des S&P 500 wird ein Abwärtszielbereich im Falle einer Korrektur im Bereich der alten Hochs bei ca. 6860 Punkten eingezeichnet."
+    },
+    {
+      "timestamp": "04:39",
+      "basis": "audio",
+      "observation": "Sprecher nennt Ausbruchsmarken von 7580 bis 7625 Punkten zur Fortsetzung des Aufwärtstrends im S&P 500."
+    },
+    {
+      "timestamp": "05:40",
+      "basis": "audio",
+      "observation": "Sprecher erläutert am S&P 500 Equal Weight ETF, dass der bestehende Aufwärtstrend ununterbrochen ist und keine Topbildung vorliegt."
+    },
+    {
+      "timestamp": "06:17",
+      "basis": "visual",
+      "observation": "Im Chart des iShares Semiconductor ETF (SOXX) wird eine Korrekturspanne von -25,00 % vom Hochpunkt eingeblendet."
+    },
+    {
+      "timestamp": "07:33",
+      "basis": "audio",
+      "observation": "Sprecher weist darauf hin, dass der Nasdaq 100 das Tief aus Juni unterschritten hat."
+    },
+    {
+      "timestamp": "08:09",
+      "basis": "audio",
+      "observation": "Sprecher nennt als Korrekturzielzone im Nasdaq 100 den Bereich von 26.000 ± 200 Punkten."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "4DLAeV-fSOo",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-17T03:31:43.015928+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**If THIS happens, the CRASH is coming in 2026!**\nhttps://www.youtube.com/watch?v=4DLAeV-fSOo\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer US-Gesamtmarkt befindet sich in einer gesunden Konsolidierungs- und Seitwärtsphase, wobei Korrekturen primär hochgewichtete Technologie- und Halbleiterwerte betreffen, während der marktbreite S&P 500 Equal Weight stabil bleibt (05:40). Beim S&P 500 und Nasdaq 100 entscheiden spezifische Schlüsselzonen darüber, ob die bestehenden Aufwärtstrends direkt fortgesetzt werden oder tiefere Korrekturen bis zu den alten Allzeithochs folgen (04:12, 08:09). Der Sprecher betont, dass Marktzyklus-Korrekturen normal sind und sich Risiken durch breite Sektordiversifikation abfedern lassen (09:35).\n\n### Typ\nMarkt/Makro\n\n### S&P 500 (SPCD)\n- **Sprecherthese:** Der Index konsolidiert in einer engen Bandbreite; die Ausbruchsrichtung entscheidet über Trendfortsetzung oder mittelfristige Korrektur (04:05).\n- **Richtung:** Neutral / Konsolidierung.\n- **Levels:**\n  - Untere Pufferzonen / Korrektur-Trigger: 7.300 Punkte und 7.230 Punkte (04:12).\n  - Abwärtsziel im Korrekturszenario: Bereich um die alten Allzeithochs bei ca. 6.860 Punkten (04:20).\n  - Obere Widerstandszone / Bullischer Trigger: 7.580 bis 7.625 Punkte (04:39).\n- **Trigger:** Nachhaltiger Tagesschluss unter 7.230 Punkte (bärisch) bzw. Ausbruch über 7.625 Punkte (bullisch).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Mittelfristig / Sommermonate (05:13).\n\n### Nasdaq 100\n- **Sprecherthese:** Zeigt im Vergleich zum S&P 500 stärkere Schwäche und verläuft im volumenleeren Raum ohne nahe Unterstützungen (07:45).\n- **Richtung:** Korrektiv / Abwärtsgefährdet.\n- **Levels:**\n  - Abwärtsziel / Unterstützungszone: 26.000 ±",
+    " 200 Punkte (alte Allzeithochs) (08:09).\n- **Trigger:** Fehlen eines dynamischen Aufwärtskonters führt zum Abbröckeln Richtung Zielzone; Korrekturende erst bei starkem Impuls nach oben (09:09).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n### S&P 500 Equal Weight (RSP) & Halbleiter-ETF (SOXX)\n- **Sprecherthese:** Der S&P 500 Equal Weight zeigt keine Anzeichen einer Topbildung, was belegt, dass die Marktschwäche nicht breit gestreut ist (05:36). Die Korrektur konzentriert sich auf den Halbleitermarkt (SOXX), der vom Hoch bereits deutlich nachgegeben hat (06:17).\n- **Richtung:** RSP weiterhin im Aufwärtstrend; SOXX im Korrekturmodus.\n- **Levels:** SOXX: -25 % Korrektur vom Hochpunkt (06:17). RSP: Keine Punktemarken genannt.\n- **Trigger / Invalidierung / Zeithorizont:** Nicht genannt.\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten:** Die genaue Dauer der Sommer-Seitwärtsphase sowie die Frage, ob der Nasdaq 100 kurzfristig ein starkes Aufwärtsmomentum generieren kann.\n- **Sehenswerte Stellen:**\n  - **04:05 - 04:45:** Analyse der Entscheidungskorridore im S&P 500.\n  - **06:11 - 06:25:** Ausmaß des Rücksetzers im Halbleiter-ETF SOXX.\n  - **07:42 - 08:20:** Volumenprofil und Korrekturpotenzial des Nasdaq 100.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-17T03:31:43.630597+00:00"
 }

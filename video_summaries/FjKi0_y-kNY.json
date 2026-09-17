@@ -6,10 +6,60 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123259+00:00",
-  "attempts": 6,
-  "last_attempt": "2026-09-16T22:31:48.144515+00:00",
+  "attempts": 7,
+  "last_attempt": "2026-09-17T03:31:50.026354+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDas Video präsentiert eine dreistufige Strategie für langfristige Aktieninvestments: die Auswahl qualitativer Dauerläufer, das Abwarten antizyklischer Korrekturen mithilfe von Marktsymmetrien und den gezielten Einstieg bei bestätigter Bodenbildung (01:21). Durch das systematische Warten auf Trendbrüche und konkrete Kaufsignale soll das Risiko gesenkt und die Rendite gegenüber prozyklischem Kaufen optimiert werden (05:40, 08:18).\n\n### Typ\nBildung (Anlagestrategie, Chartanalyse & Screener-Anwendung)\n\n### Methode & Regeln\n- **Aktienauswahl (01:44):** Fokus auf Qualitätstitel mit langfristig sauberen Aufwärtstrends („Dauerläufer“ wie Hermès oder O'Reilly Automotive). Stark zyklische oder unsaubere Verläufe (z. B. Exxon Mobil) sind im Depot schwieriger zu handhaben (02:23).\n- **Marktsymmetrie & Korrekturen (03:20):** Käufe an Allzeithochs vermeiden. Historische Korrekturmuster und Indikatorbänder bestimmen die attraktiven Bewertungsniveaus (03:26).\n- **Bodenbildung & Einstieg (06:33, 07:23):** Erst einsteigen, wenn der Markt auf Tagesbasis ein Kaufsignal liefert. Dies geschieht durch den Bruch des kurzfristigen Abwärtstrends und die Etablierung neuer höherer Hochs und Tiefs (08:20, 09:00).\n- **Systematischer Filter (09:20):** Einsatz eines Screeners zur Filterung von Aktien nach Status (z. B. Bodenbildung abwarten) und konkreten Trigger-Preisen.\n\n### Fehler\n- Blindes Kaufen an Höchstständen, was zu jahrelanger Unterperformance führen kann (05:52, 06:07).\n- Verfrühtes Hineingreifen in eine Korrektur ohne Bestätigung durch den Markt (06:40, 08:15).\n\n### Unsicherheiten & Sehenswerte Stellen\n- Eine erreichte Korrekturzone garantiert keine sofortige Trendwende; der Kurs kann weiter fallen, weshalb der Signal-Trigger abgewartet werden muss (08:15).\n- Sehenswert sind die konkreten Chart-Beispiele bei BESI (07:23–08:30) und Deutsche Börse (08:31–09:14), an denen der Übergang vom Abwärtstrend zum konservativen Kaufsignal Schritt für Schritt erläutert wird.",
+  "evidence": [
+    {
+      "timestamp": "01:46",
+      "basis": "visual",
+      "observation": "Chart von Hermès International SCA (Monatschart) zeigt einen langfristig sauberen Aufwärtstrend mit steigenden Hochs und Tiefs."
+    },
+    {
+      "timestamp": "02:23",
+      "basis": "audio",
+      "observation": "Der Sprecher erklärt am Chart von Exxon Mobil Corporation, dass zyklische Rohstoffaktien jahrelange Korrektur- und Seitwärtsphasen aufweisen können."
+    },
+    {
+      "timestamp": "03:26",
+      "basis": "visual",
+      "observation": "Chart von Diploma PLC mit eingeblendetem 'WLA Marktsymmetrie'-Indikator, der Korrekturzonen farblich darstellt."
+    },
+    {
+      "timestamp": "04:45",
+      "basis": "audio",
+      "observation": "Der Sprecher veranschaulicht bei BE Semiconductor Industries (BESI) wiederkehrende Korrekturtiefs im Bereich der 2. und 3. Indikatorebene."
+    },
+    {
+      "timestamp": "06:50",
+      "basis": "visual",
+      "observation": "Einbindung eines Ausbildungsfolien-Ausschnitts zu zwei Szenarien der Bodenbildung (Trendbruch vs. neuer untergeordneter Trendwechsel)."
+    },
+    {
+      "timestamp": "08:31",
+      "basis": "visual",
+      "observation": "Chart der Deutschen Börse AG zeigt im Tageschart den Bruch des Abwärtstrends und die Linie für ein 'konservatives Signal' bei 234,1 EUR."
+    },
+    {
+      "timestamp": "09:20",
+      "basis": "visual",
+      "observation": "Demonstration der Software-Benutzeroberfläche 'Aktien-Screener' mit Spalten für Chance, Rating, Status und Signalpreise."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "FjKi0_y-kNY",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-17T03:32:15.802011+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**These are the buy signals I look for!**\nhttps://www.youtube.com/watch?v=FjKi0_y-kNY\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDas Video präsentiert eine dreistufige Strategie für langfristige Aktieninvestments: die Auswahl qualitativer Dauerläufer, das Abwarten antizyklischer Korrekturen mithilfe von Marktsymmetrien und den gezielten Einstieg bei bestätigter Bodenbildung (01:21). Durch das systematische Warten auf Trendbrüche und konkrete Kaufsignale soll das Risiko gesenkt und die Rendite gegenüber prozyklischem Kaufen optimiert werden (05:40, 08:18).\n\n### Typ\nBildung (Anlagestrategie, Chartanalyse & Screener-Anwendung)\n\n### Methode & Regeln\n- **Aktienauswahl (01:44):** Fokus auf Qualitätstitel mit langfristig sauberen Aufwärtstrends („Dauerläufer“ wie Hermès oder O'Reilly Automotive). Stark zyklische oder unsaubere Verläufe (z. B. Exxon Mobil) sind im Depot schwieriger zu handhaben (02:23).\n- **Marktsymmetrie & Korrekturen (03:20):** Käufe an Allzeithochs vermeiden. Historische Korrekturmuster und Indikatorbänder bestimmen die attraktiven Bewertungsniveaus (03:26).\n- **Bodenbildung & Einstieg (06:33, 07:23):** Erst einsteigen, wenn der Markt auf Tagesbasis ein Kaufsignal liefert. Dies geschieht durch den Bruch des kurzfristigen Abwärtstrends und die Etablierung neuer höherer Hochs und Tiefs (08:20, 09:00).\n- **Systematischer Filter (09:20):** Einsatz eines Screeners zur Filterung von Aktien nach Status (z. B. Bodenbildung abwarten) und konkreten Trigger-Preisen.\n\n### Fehler\n- Blindes Kaufen an Höchstständen, was zu jahrelanger Unterperformance führen kann (05:52, 06:07).\n- Verfrühtes Hineingreifen in eine Korrektur ohne Bestätigung durch den Markt (06:40, 08:15).\n\n### Unsicherheiten & Sehenswert",
+    "e Stellen\n- Eine erreichte Korrekturzone garantiert keine sofortige Trendwende; der Kurs kann weiter fallen, weshalb der Signal-Trigger abgewartet werden muss (08:15).\n- Sehenswert sind die konkreten Chart-Beispiele bei BESI (07:23–08:30) und Deutsche Börse (08:31–09:14), an denen der Übergang vom Abwärtstrend zum konservativen Kaufsignal Schritt für Schritt erläutert wird.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-17T03:32:16.477436+00:00"
 }
