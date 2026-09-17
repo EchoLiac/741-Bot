@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-17T18:01:30.561263+00:00",
-    "@wir-lieben-aktien": "2026-09-17T18:01:31.127735+00:00",
-    "@chartsekte": "2026-09-17T18:01:32.588763+00:00",
-    "@hkcm": "2026-09-17T18:01:33.224983+00:00",
-    "@phantombyhkcm": "2026-09-17T18:01:33.807457+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-17T18:01:34.357790+00:00",
-    "@aktien4future": "2026-09-17T18:01:34.938104+00:00",
-    "@Finanzbaer": "2026-09-17T18:01:35.569207+00:00",
-    "@Finanzwiesel": "2026-09-17T18:01:36.108064+00:00",
-    "@TradingKompass": "2026-09-17T18:01:36.675610+00:00",
-    "@TomVorwald": "2026-09-17T18:01:37.193276+00:00"
+    "@1OxTrading": "2026-09-17T18:31:20.319641+00:00",
+    "@wir-lieben-aktien": "2026-09-17T18:31:20.804487+00:00",
+    "@chartsekte": "2026-09-17T18:31:21.183344+00:00",
+    "@hkcm": "2026-09-17T18:31:21.695842+00:00",
+    "@phantombyhkcm": "2026-09-17T18:31:22.212913+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-17T18:31:22.699507+00:00",
+    "@aktien4future": "2026-09-17T18:31:23.188977+00:00",
+    "@Finanzbaer": "2026-09-17T18:31:23.738311+00:00",
+    "@Finanzwiesel": "2026-09-17T18:31:24.207273+00:00",
+    "@TradingKompass": "2026-09-17T18:31:24.689514+00:00",
+    "@TomVorwald": "2026-09-17T18:31:25.173254+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4759,5 +4759,44 @@
     "discovered_at": "2026-09-17T17:31:10.892883+00:00",
     "attempts": 1,
     "last_attempt": "2026-09-17T17:31:33.230590+00:00"
+  },
+  "bBZL-W9dvE4": {
+    "id": "bBZL-W9dvE4",
+    "title": "🚨 10 AKTIEN 💥 Amazon AMD Crowdstrike Micron SanDisk Intel Oracle IonQ Tempus AI Fluence Energy",
+    "url": "https://www.youtube.com/watch?v=bBZL-W9dvE4",
+    "duration": 1277,
+    "published": null,
+    "channel": "10xTrading",
+    "handle": "@1OxTrading",
+    "status": "pending",
+    "discovered_at": "2026-09-17T18:31:20.319613+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-17T18:31:25.213474+00:00"
+  },
+  "5LEX8pIckMA": {
+    "id": "5LEX8pIckMA",
+    "title": "RSI einfach erklärt: So vermeidest du die häufigsten Fehler",
+    "url": "https://www.youtube.com/watch?v=5LEX8pIckMA",
+    "duration": 802,
+    "published": null,
+    "channel": "Chartsekte",
+    "handle": "@chartsekte",
+    "status": "pending",
+    "discovered_at": "2026-09-17T18:31:21.183321+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-17T18:32:29.973634+00:00"
+  },
+  "liEJMfE_PXg": {
+    "id": "liEJMfE_PXg",
+    "title": "LIVE-TRADING: DAX-Future-Short mit Korrelations-Trick!",
+    "url": "https://www.youtube.com/watch?v=liEJMfE_PXg",
+    "duration": 686,
+    "published": null,
+    "channel": "Tom Vorwald",
+    "handle": "@TomVorwald",
+    "status": "pending",
+    "discovered_at": "2026-09-17T18:31:25.173234+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-17T18:32:36.073435+00:00"
   }
 }
