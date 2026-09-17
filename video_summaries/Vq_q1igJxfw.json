@@ -1,0 +1,70 @@
+{
+  "id": "Vq_q1igJxfw",
+  "title": "Diese Krypto-Aktie hat massives Aufwärtspotenzial! 🤯 Circle Internet Group Analyse",
+  "url": "https://www.youtube.com/watch?v=Vq_q1igJxfw",
+  "duration": 578,
+  "published": null,
+  "channel": "TradingKompass",
+  "handle": "@TradingKompass",
+  "status": "complete",
+  "discovered_at": "2026-09-17T14:31:17.803609+00:00",
+  "attempts": 1,
+  "last_attempt": "2026-09-17T14:31:18.384289+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDie Aktie der Circle Internet Group (CRCL) befindet sich laut Analyse in einer verschachtelten Elliott-Wellen-Struktur (1-2-1-2-Setup) mit erheblichem bullischen Aufwärtspotenzial. Nach einer Welle-1-Impulsbewegung sucht der Kurs in einer Fibo-Unterstützungszone nach Bodenbildung für den Start einer impulsiven Welle 3. Ein Durchbruch wichtiger Schlüsselmarken entscheidet über das direkte Auslösen der Welle 3 oder eine tiefere Korrektur.\n\n### Typ\nEinzelaktie\n\n### Circle Internet Group (CRCL)\n- **Sprecherthese:** Die Aktie konsolidiert in einer Welle 2 eines bullischen 1-2-1-2-Setups und bietet bei Einhalten der Unterstützungszone ein sehr gutes Chance-Risiko-Verhältnis für den Beginn einer Welle 3 (04:08).\n- **Richtung:** Bullisch\n- **Konkret belegte Levels:**\n  - Allzeittief / übergeordnete Invalidierung: 49,87 $ bzw. 49,90 $ (01:00, 02:51)\n  - Welle-2-Reaktionslevel (88,7 % Fib): 59,70 $ (02:27)\n  - Untergeordnete Unterstützungszone Welle 2: 75,24 $ bis 62,99 $ (04:45)\n  - Untergeordnete Invalidierung: unter 62,25 $ (04:52)\n  - 50 % Fib Untergrenze für Bodenbildung: 80,60 $ (06:48)\n  - Widerstandszone (Korrektur-Welle B): 87,85 $ bis 97,96 $ (07:45)\n  - Trigger für Welle 3: Ausbruch über 103,24 $ (08:15)\n  - Zielmarken Welle 3: 174 $, 198 $ bis 204 $ sowie 245 $ (03:15, 08:33)\n- **Trigger:** Ein nachhaltiger Ausbruch über das Hoch bei 103,24 $ bestätigt den Übergang in die übergeordnete Welle 3 (08:15).\n- **Invalidierung:** Ein Fall unter 62,25 $ stellt ein deutliches Schwächesignal dar (04:52); ein Rutsch unter das Allzeittief bei 49,87 $ invalidiert das primäre bullische Szenario vollständig (02:51, 07:07).\n- **Zeithorizont:** Mittel- bis langfristig.\n\n### Unsicherheiten & sehenswerte Stellen\n- **Unsicherheiten:** Da es sich um eine relativ junge und spekulative Aktie handelt, besteht das Risiko, dass der aktuelle Dreiteiler nur Welle A einer größeren Korrektur bildet und der Kurs vor dem Hauptanstieg nochmals abrutscht (02:38, 07:53).\n- **Sehenswerte Stellen:** 04:45 (Einzeichnung der Fibo-Einstiegszone zwischen 75,24 $ und 62,99 $) sowie 08:15 (Erklärung des Ausbruch-Triggers bei 103,24 $).",
+  "evidence": [
+    {
+      "timestamp": "00:14",
+      "basis": "audio",
+      "observation": "Sprecher stellt die Aktie Circle Internet Group (CRCL) als Herausgeber des USDC-Coins vor."
+    },
+    {
+      "timestamp": "02:27",
+      "basis": "visual",
+      "observation": "Chart zeigt eine Kursreaktion am 88,7 % Fibonacci-Level bei 59,70 $."
+    },
+    {
+      "timestamp": "02:51",
+      "basis": "visual",
+      "observation": "Invalidierungsmarke des übergeordneten Setups wird am Allzeittief (ATL) bei 49,87 $ bzw. 49,90 $ eingeblendet."
+    },
+    {
+      "timestamp": "04:45",
+      "basis": "visual",
+      "observation": "Untergeordnete Welle-2-Unterstützungszone wird zwischen 75,24 $ (61,8 % Fib) und 62,99 $ (88,7 % Fib) markiert."
+    },
+    {
+      "timestamp": "04:52",
+      "basis": "audio",
+      "observation": "Sprecher nennt ein Absinken unter 62,25 $ als deutliches Schwächesignal."
+    },
+    {
+      "timestamp": "07:45",
+      "basis": "visual",
+      "observation": "Widerstandszone im Chart wird zwischen 87,85 $ und 97,96 $ dargestellt."
+    },
+    {
+      "timestamp": "08:15",
+      "basis": "audio",
+      "observation": "Ausbruch über das Hoch von 103,24 $ wird als Bestätigung für Welle 3 genannt."
+    },
+    {
+      "timestamp": "08:33",
+      "basis": "visual",
+      "observation": "Chart zeigt Fibonacci-Zielmarken der Welle 3 bei 174,07 $, 203,71 $ und 245,69 $."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
+  "video_id": "Vq_q1igJxfw",
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-17T14:31:40.430865+00:00",
+  "discord_chunks": [
+    "🎬 **TradingKompass**\n**Diese Krypto-Aktie hat massives Aufwärtspotenzial! 🤯 Circle Internet Group Analyse**\nhttps://www.youtube.com/watch?v=Vq_q1igJxfw\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDie Aktie der Circle Internet Group (CRCL) befindet sich laut Analyse in einer verschachtelten Elliott-Wellen-Struktur (1-2-1-2-Setup) mit erheblichem bullischen Aufwärtspotenzial. Nach einer Welle-1-Impulsbewegung sucht der Kurs in einer Fibo-Unterstützungszone nach Bodenbildung für den Start einer impulsiven Welle 3. Ein Durchbruch wichtiger Schlüsselmarken entscheidet über das direkte Auslösen der Welle 3 oder eine tiefere Korrektur.\n\n### Typ\nEinzelaktie\n\n### Circle Internet Group (CRCL)\n- **Sprecherthese:** Die Aktie konsolidiert in einer Welle 2 eines bullischen 1-2-1-2-Setups und bietet bei Einhalten der Unterstützungszone ein sehr gutes Chance-Risiko-Verhältnis für den Beginn einer Welle 3 (04:08).\n- **Richtung:** Bullisch\n- **Konkret belegte Levels:**\n  - Allzeittief / übergeordnete Invalidierung: 49,87 $ bzw. 49,90 $ (01:00, 02:51)\n  - Welle-2-Reaktionslevel (88,7 % Fib): 59,70 $ (02:27)\n  - Untergeordnete Unterstützungszone Welle 2: 75,24 $ bis 62,99 $ (04:45)\n  - Untergeordnete Invalidierung: unter 62,25 $ (04:52)\n  - 50 % Fib Untergrenze für Bodenbildung: 80,60 $ (06:48)\n  - Widerstandszone (Korrektur-Welle B): 87,85 $ bis 97,96 $ (07:45)\n  - Trigger für Welle 3: Ausbruch über 103,24 $ (08:15)\n  - Zielmarken Welle 3: 174 $, 198 $ bis 204 $ sowie 245 $ (03:15, 08:33)\n- **Trigger:** Ein nachhaltiger Ausbruch über das Hoch bei 103,24 $ bestätigt den Übergang in die übergeordnete Welle 3 (08:15).\n- **Invalidierung:** Ein Fall unter 62,25 $ stellt ein deutliches Schwächesignal dar (04:52); ein Rutsch unter das Allzeittief bei",
+    " 49,87 $ invalidiert das primäre bullische Szenario vollständig (02:51, 07:07).\n- **Zeithorizont:** Mittel- bis langfristig.\n\n### Unsicherheiten & sehenswerte Stellen\n- **Unsicherheiten:** Da es sich um eine relativ junge und spekulative Aktie handelt, besteht das Risiko, dass der aktuelle Dreiteiler nur Welle A einer größeren Korrektur bildet und der Kurs vor dem Hauptanstieg nochmals abrutscht (02:38, 07:53).\n- **Sehenswerte Stellen:** 04:45 (Einzeichnung der Fibo-Einstiegszone zwischen 75,24 $ und 62,99 $) sowie 08:15 (Erklärung des Ausbruch-Triggers bei 103,24 $).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-17T14:31:41.037634+00:00"
+}

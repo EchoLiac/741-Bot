@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-17T14:01:21.530329+00:00",
-    "@wir-lieben-aktien": "2026-09-17T14:01:22.008936+00:00",
-    "@chartsekte": "2026-09-17T14:01:22.542880+00:00",
-    "@hkcm": "2026-09-17T14:01:23.104708+00:00",
-    "@phantombyhkcm": "2026-09-17T14:01:23.596942+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-17T14:01:24.055657+00:00",
-    "@aktien4future": "2026-09-17T14:01:24.536830+00:00",
-    "@Finanzbaer": "2026-09-17T14:01:25.027720+00:00",
-    "@Finanzwiesel": "2026-09-17T14:01:25.481382+00:00",
-    "@TradingKompass": "2026-09-17T14:01:25.931772+00:00",
-    "@TomVorwald": "2026-09-17T14:01:26.474112+00:00"
+    "@1OxTrading": "2026-09-17T14:31:12.724920+00:00",
+    "@wir-lieben-aktien": "2026-09-17T14:31:13.279889+00:00",
+    "@chartsekte": "2026-09-17T14:31:13.854354+00:00",
+    "@hkcm": "2026-09-17T14:31:14.450035+00:00",
+    "@phantombyhkcm": "2026-09-17T14:31:15.041059+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-17T14:31:15.628024+00:00",
+    "@aktien4future": "2026-09-17T14:31:16.146062+00:00",
+    "@Finanzbaer": "2026-09-17T14:31:16.710994+00:00",
+    "@Finanzwiesel": "2026-09-17T14:31:17.274923+00:00",
+    "@TradingKompass": "2026-09-17T14:31:17.803630+00:00",
+    "@TomVorwald": "2026-09-17T14:31:18.326224+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4241,8 +4241,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123271+00:00",
-    "attempts": 9,
-    "last_attempt": "2026-09-17T11:31:48.631331+00:00"
+    "attempts": 10,
+    "last_attempt": "2026-09-17T14:31:47.211405+00:00"
   },
   "ltKsOgJ2_WU": {
     "id": "ltKsOgJ2_WU",
@@ -4689,8 +4689,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-16T17:31:17.931766+00:00",
-    "attempts": 5,
-    "last_attempt": "2026-09-17T11:31:42.586265+00:00"
+    "attempts": 6,
+    "last_attempt": "2026-09-17T14:31:41.042490+00:00"
   },
   "P_9Cs0EAUmk": {
     "id": "P_9Cs0EAUmk",
@@ -4718,5 +4718,19 @@
     "discovered_at": "2026-09-16T20:31:03.761189+00:00",
     "attempts": 5,
     "last_attempt": "2026-09-17T13:01:38.172698+00:00"
+  },
+  "Vq_q1igJxfw": {
+    "id": "Vq_q1igJxfw",
+    "title": "Diese Krypto-Aktie hat massives Aufwärtspotenzial! 🤯 Circle Internet Group Analyse",
+    "url": "https://www.youtube.com/watch?v=Vq_q1igJxfw",
+    "duration": 578,
+    "published": null,
+    "channel": "TradingKompass",
+    "handle": "@TradingKompass",
+    "status": "complete",
+    "discovered_at": "2026-09-17T14:31:17.803609+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-17T14:31:18.384289+00:00",
+    "scraped_at": "2026-09-17T14:31:41.038629+00:00"
   }
 }
