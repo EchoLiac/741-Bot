@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-17T20:01:19.670897+00:00",
-    "@wir-lieben-aktien": "2026-09-17T20:01:20.222473+00:00",
-    "@chartsekte": "2026-09-17T20:01:20.792038+00:00",
-    "@hkcm": "2026-09-17T20:01:21.438750+00:00",
-    "@phantombyhkcm": "2026-09-17T20:01:21.987496+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-17T20:01:22.576361+00:00",
-    "@aktien4future": "2026-09-17T20:01:23.101542+00:00",
-    "@Finanzbaer": "2026-09-17T20:01:23.766068+00:00",
-    "@Finanzwiesel": "2026-09-17T20:01:24.405432+00:00",
-    "@TradingKompass": "2026-09-17T20:01:24.892160+00:00",
-    "@TomVorwald": "2026-09-17T20:01:25.455313+00:00"
+    "@1OxTrading": "2026-09-17T20:31:17.751815+00:00",
+    "@wir-lieben-aktien": "2026-09-17T20:31:18.318230+00:00",
+    "@chartsekte": "2026-09-17T20:31:18.776923+00:00",
+    "@hkcm": "2026-09-17T20:31:19.347858+00:00",
+    "@phantombyhkcm": "2026-09-17T20:31:19.833314+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-17T20:31:20.341970+00:00",
+    "@aktien4future": "2026-09-17T20:31:20.843376+00:00",
+    "@Finanzbaer": "2026-09-17T20:31:21.388342+00:00",
+    "@Finanzwiesel": "2026-09-17T20:31:21.861155+00:00",
+    "@TradingKompass": "2026-09-17T20:31:22.349070+00:00",
+    "@TomVorwald": "2026-09-17T20:31:22.873095+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 92,
-    "last_attempt": "2026-09-17T17:01:30.815319+00:00"
+    "attempts": 93,
+    "last_attempt": "2026-09-17T20:31:29.022413+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -4652,8 +4652,8 @@
     "handle": "@hkcm",
     "status": "pending",
     "discovered_at": "2026-09-16T16:31:08.167321+00:00",
-    "attempts": 7,
-    "last_attempt": "2026-09-17T17:01:37.070345+00:00"
+    "attempts": 8,
+    "last_attempt": "2026-09-17T20:31:35.281455+00:00"
   },
   "3nf5TizaDlk": {
     "id": "3nf5TizaDlk",
@@ -4800,5 +4800,18 @@
     "discovered_at": "2026-09-17T18:31:25.173234+00:00",
     "attempts": 1,
     "last_attempt": "2026-09-17T18:32:36.073435+00:00"
+  },
+  "IiPL0ueHf3g": {
+    "id": "IiPL0ueHf3g",
+    "title": "🚨 TECH EXPLODIERT – Warum die Börse plötzlich komplett dreht 💥 Bitcoin 💥 Nvidia ServiceNow Gold",
+    "url": "https://www.youtube.com/watch?v=IiPL0ueHf3g",
+    "duration": 1819,
+    "published": null,
+    "channel": "10xTrading",
+    "handle": "@1OxTrading",
+    "status": "pending",
+    "discovered_at": "2026-09-17T20:31:17.751785+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-17T20:31:22.927846+00:00"
   }
 }
