@@ -6,10 +6,66 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123273+00:00",
-  "attempts": 7,
-  "last_attempt": "2026-09-17T04:31:48.860351+00:00",
+  "attempts": 8,
+  "last_attempt": "2026-09-17T08:32:50.945557+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nIm Wochenbriefing analysieren die Moderatoren die Auswirkungen der jüngsten Quartalszahlen von Tech-Giganten sowie die makroökonomische Lage vor dem anstehenden FED-Zinsentscheid. Trotz starker operativer KI-Kennzahlen gerieten Software-Schwergewichte unter Druck, während Spekulationen und Verschuldungsrisiken im Markt zunehmen. Anleger blicken in der kommenden Woche vor allem auf Zentralbankentscheidungen und geopolitische Entwicklungen (00:07, 22:37).\n\n**Typ:** Markt/Makro & mehrere Aktien\n\n---\n\n### Markt & Makroökonomie\n* **Sprecherthese:** Der US-Aktienmarkt ist nach dem Bruch kurzfristiger Aufwärtstrends vorerst neutral bis seitwärts gerichtet, während die hohe Margin-Verschuldung und hohe Aktienallokationen Risiken bergen (07:01, 17:00, 18:34).\n* **Richtung:** Neutral bis vorsichtig vorsichtig.\n* **Konkret belegte Levels / Daten:**\n  * Aktienquote an Finanzaktiva: **55,8 %** (Juni-Niveau) – Höchststand seit der Dotcom-Blase (17:00).\n  * Rendite 30-jähriger US-Staatsanleihen: **5 %** p. a. (18:10).\n  * EZB-Inflationsprognose auf **3 %** angehoben (04:08).\n  * FED-Zinsentscheid: Mittwoch **20:00 Uhr**, Erwartung unveränderter Leitzinsen (22:37).\n* **Trigger:** FED Dot Plot / Statement am Mittwoch (22:50); geopolitische Nachrichten bezüglich USA/Iran (22:08).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Kurz- bis mittelfristig (kommende Handelswoche bis 2026/2030) (14:10, 22:00).\n\n---\n\n### SpaceX\n* **Sprecherthese:** Der Börsenauftritt/Bewertungserfolg von SpaceX macht Elon Musk auf dem Papier zum ersten Billionär, getrieben durch sehr geringen Free Float (04:42, 05:10, 05:52).\n* **Richtung:** Bullisch / Spekulativ.\n* **Konkret belegte Levels:** Ausgabekurs **135 USD**, Schlusskurs ca. **161 USD** (+19 %); Bewertung über **2 Billionen USD**; Free Float bei **5 %** (04:45–05:52).\n* **Trigger / Invalidierung / Zeithorizont:** Nicht genannt.\n\n---\n\n### Oracle (ORCL)\n* **Sprecherthese:** Die massive Ausweitung von Schulden und Aktienemissionen zur Finanzierung von KI-Rechenzentren belastet den Free Cashflow drastisch und erhöht das Bilanzrisiko (08:33, 08:55).\n* **Richtung:** Bärisch / Kritisch.\n* **Konkret belegte Levels:** Free Cashflow bei **-23,7 Mrd. USD** (08:40); langfristige Verbindlichkeiten („Total non-current liabilities“) stiegen binnen eines Jahres von **115 Mrd. USD** auf **177 Mrd. USD** (11:50).\n* **Trigger / Invalidierung / Zeithorizont:** Nicht genannt.\n\n---\n\n### Adobe (ADBE)\n* **Sprecherthese:** Operativ wächst Adobe im KI-Bereich stark, der Kursverlust geht primär auf Personalsorgen in der Führungsetage zurück (10:18, 10:45).\n* **Richtung:** Neutral bis konservativ optimistisch nach Bodenbildung (10:58).\n* **Konkret belegte Levels:** Umsatz **+13 % YoY**; KI-ARR (Annual Recurring Revenue) auf über **500 Mio. USD** verdreifacht; Kursverlust nachbörslich / freitags um ca. **6 %** (09:44–10:16).\n* **Trigger:** Abgang des CFO zu Marvell und offene CEO-Nachfolgefragen schaffen Unsicherheit (10:23, 10:38).\n* **Invalidierung / Zeithorizont:** Dauerhafte Bodenbildung erforderlich (10:58).\n\n---\n\n### Hyperscaler (Alphabet, Meta, Microsoft, Amazon)\n* **Sprecherthese:** Hohe KI-Investitionen drcontent_available drücken kurzfristig (2024–2027) den Free Cashflow deutlich; für 2028–2030 erwarten Konsensschätzungen einen Anstieg auf über **600 Mrd. USD** (13:33, 14:23).\n* **Richtung:** Langfristig optimistisch, kurzfristig durch hohe Capex-Kosten belastet.\n* **Konkret belegte Levels:** FCF-Prognose 2030: **>600 Mrd. USD** kumuliert (14:23).\n\n---\n\n### Unsicherheiten & sehenswerte Stellen\n* **Geopolitische Gerüchte:** Nachrichten zu Friedensverhandlungen zwischen den USA und Iran schwanken stark und bringen kurzfristige Volatilität für Öl und Aktien (02:18, 24:00).\n* **Sehenswerte Stellen im Video:**\n  * **08:33 – 09:25 & 11:44 – 12:15:** Detaillierte Bilanzeinschätzung zu Oracles Kapazitätsausbau und Schuldenlast.\n  * **13:33 – 15:00:** Einblendung und Analyse der FT-Grafik zum Free Cashflow der Big-Tech-Konzerne bis 2030.\n  * **17:00 – 19:40:** Charts zur historischen Rekord-Aktienquote (55,8 %) und zur Margin-Debt im Verhältnis zur Geldmenge M2.",
+  "evidence": [
+    {
+      "timestamp": "04:45",
+      "basis": "audio",
+      "observation": "Jan nennt den Ausgabekurs von SpaceX mit 135 USD und den Schlusskurs bei rund 161 USD (+19%), was einer Bewertung von über 2 Billionen USD entspricht."
+    },
+    {
+      "timestamp": "08:40",
+      "basis": "audio",
+      "observation": "Jan nennt den Free Cashflow von Oracle mit -23,7 Milliarden USD."
+    },
+    {
+      "timestamp": "10:23",
+      "basis": "audio",
+      "observation": "Jan erklärt den Kursrückgang bei Adobe um ca. 6% mit dem Abgang des CFO zu Marvell."
+    },
+    {
+      "timestamp": "11:50",
+      "basis": "audio",
+      "observation": "Tillmann gibt an, dass Oracles langfristige Verbindlichkeiten von 115 Mrd. USD vor einem Jahr auf 177 Mrd. USD angestiegen sind."
+    },
+    {
+      "timestamp": "13:33",
+      "basis": "visual",
+      "observation": "Eine Grafik der Financial Times zeigt die Entwicklung und Prognose des Free Cashflows von Alphabet, Meta, Microsoft und Amazon bis 2030."
+    },
+    {
+      "timestamp": "17:00",
+      "basis": "visual",
+      "observation": "Eine Grafik zeigt die Aggregate Investor Allocation to Equities (AAII) mit einem Wert von 55,8%."
+    },
+    {
+      "timestamp": "18:34",
+      "basis": "visual",
+      "observation": "Ein Chart zeigt das Verhältnis von Margin Debt im Vergleich zur Geldmenge M2 von 1998 bis 2026."
+    },
+    {
+      "timestamp": "22:37",
+      "basis": "audio",
+      "observation": "Tillmann verweist auf den FED-Zinsentscheid am Mittwochabend um 20:00 Uhr."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "ltKsOgJ2_WU",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-17T08:33:25.392688+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**🗓️ USA-Iran Friedensvertrag, FED-Zinsentscheid, ORCL & ADBE Earnings**\nhttps://www.youtube.com/watch?v=ltKsOgJ2_WU\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nIm Wochenbriefing analysieren die Moderatoren die Auswirkungen der jüngsten Quartalszahlen von Tech-Giganten sowie die makroökonomische Lage vor dem anstehenden FED-Zinsentscheid. Trotz starker operativer KI-Kennzahlen gerieten Software-Schwergewichte unter Druck, während Spekulationen und Verschuldungsrisiken im Markt zunehmen. Anleger blicken in der kommenden Woche vor allem auf Zentralbankentscheidungen und geopolitische Entwicklungen (00:07, 22:37).\n\n**Typ:** Markt/Makro & mehrere Aktien\n\n---\n\n### Markt & Makroökonomie\n* **Sprecherthese:** Der US-Aktienmarkt ist nach dem Bruch kurzfristiger Aufwärtstrends vorerst neutral bis seitwärts gerichtet, während die hohe Margin-Verschuldung und hohe Aktienallokationen Risiken bergen (07:01, 17:00, 18:34).\n* **Richtung:** Neutral bis vorsichtig vorsichtig.\n* **Konkret belegte Levels / Daten:**\n  * Aktienquote an Finanzaktiva: **55,8 %** (Juni-Niveau) – Höchststand seit der Dotcom-Blase (17:00).\n  * Rendite 30-jähriger US-Staatsanleihen: **5 %** p. a. (18:10).\n  * EZB-Inflationsprognose auf **3 %** angehoben (04:08).\n  * FED-Zinsentscheid: Mittwoch **20:00 Uhr**, Erwartung unveränderter Leitzinsen (22:37).\n* **Trigger:** FED Dot Plot / Statement am Mittwoch (22:50); geopolitische Nachrichten bezüglich USA/Iran (22:08).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Kurz- bis mittelfristig (kommende Handelswoche bis 2026/2030) (14:10, 22:00).\n\n---\n\n### SpaceX\n* **Sprecherthese:** Der Börsenauftritt/Bewertungserfolg von SpaceX macht Elon Musk auf dem Papier zum ersten Billionär, getrieben durc",
+    "h sehr geringen Free Float (04:42, 05:10, 05:52).\n* **Richtung:** Bullisch / Spekulativ.\n* **Konkret belegte Levels:** Ausgabekurs **135 USD**, Schlusskurs ca. **161 USD** (+19 %); Bewertung über **2 Billionen USD**; Free Float bei **5 %** (04:45–05:52).\n* **Trigger / Invalidierung / Zeithorizont:** Nicht genannt.\n\n---\n\n### Oracle (ORCL)\n* **Sprecherthese:** Die massive Ausweitung von Schulden und Aktienemissionen zur Finanzierung von KI-Rechenzentren belastet den Free Cashflow drastisch und erhöht das Bilanzrisiko (08:33, 08:55).\n* **Richtung:** Bärisch / Kritisch.\n* **Konkret belegte Levels:** Free Cashflow bei **-23,7 Mrd. USD** (08:40); langfristige Verbindlichkeiten („Total non-current liabilities“) stiegen binnen eines Jahres von **115 Mrd. USD** auf **177 Mrd. USD** (11:50).\n* **Trigger / Invalidierung / Zeithorizont:** Nicht genannt.\n\n---\n\n### Adobe (ADBE)\n* **Sprecherthese:** Operativ wächst Adobe im KI-Bereich stark, der Kursverlust geht primär auf Personalsorgen in der Führungsetage zurück (10:18, 10:45).\n* **Richtung:** Neutral bis konservativ optimistisch nach Bodenbildung (10:58).\n* **Konkret belegte Levels:** Umsatz **+13 % YoY**; KI-ARR (Annual Recurring Revenue) auf über **500 Mio. USD** verdreifacht; Kursverlust nachbörslich / freitags um ca. **6 %** (09:44–10:16).\n* **Trigger:** Abgang des CFO zu Marvell und offene CEO-Nachfolgefragen schaffen Unsicherheit (10:23, 10:38).\n* **Invalidierung / Zeithorizont:** Dauerhafte Bodenbildung erforderlich (10:58).\n\n---\n\n### Hyperscaler (Alphabet, Meta, Microsoft, Amazon)\n* **Sprecherthese:** Hohe KI-Investitionen drcontent_available drücken kurzfristig (2024–2027) den Free Cashflow deutlich; für 2028–2030 erwarten Konsensschätzungen einen Anstieg auf über **600 Mrd. USD** (13:33, 14:23).\n* **Richtung:** Langfrist",
+    "ig optimistisch, kurzfristig durch hohe Capex-Kosten belastet.\n* **Konkret belegte Levels:** FCF-Prognose 2030: **>600 Mrd. USD** kumuliert (14:23).\n\n---\n\n### Unsicherheiten & sehenswerte Stellen\n* **Geopolitische Gerüchte:** Nachrichten zu Friedensverhandlungen zwischen den USA und Iran schwanken stark und bringen kurzfristige Volatilität für Öl und Aktien (02:18, 24:00).\n* **Sehenswerte Stellen im Video:**\n  * **08:33 – 09:25 & 11:44 – 12:15:** Detaillierte Bilanzeinschätzung zu Oracles Kapazitätsausbau und Schuldenlast.\n  * **13:33 – 15:00:** Einblendung und Analyse der FT-Grafik zum Free Cashflow der Big-Tech-Konzerne bis 2030.\n  * **17:00 – 19:40:** Charts zur historischen Rekord-Aktienquote (55,8 %) und zur Margin-Debt im Verhältnis zur Geldmenge M2.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 3,
+  "discord_sent_at": "2026-09-17T08:33:26.021124+00:00"
 }

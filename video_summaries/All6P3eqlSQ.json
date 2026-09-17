@@ -6,10 +6,72 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123261+00:00",
-  "attempts": 7,
-  "last_attempt": "2026-09-17T04:03:52.168556+00:00",
+  "attempts": 8,
+  "last_attempt": "2026-09-17T08:31:15.030206+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher analysiert acht ausgewählte Aktien aus verschiedenen Branchen auf Basis von Bewertung (KGV) und Charttechnik [00:00 - 16:00]. Er unterscheidet dabei strikt zwischen langfristigen Qualitätsaktien und spekulativeren oder zyklischen Werten. Für jede Aktie wird eine konkrete Einschätzung hinsichtlich Haltung, Einstieg oder Verkauf gegeben.\n\n**Typ:** Mehrere Aktien\n\n---\n\n### Xylem Inc.\n- **Sprecherthese:** Langfristig besteht zwar ein Aufwärtstrend, die Trendstruktur verläuft für eine Dividendenwachstumsaktie jedoch zu unruhig; trotz Korrektur aktuell nicht ausreichend attraktiv [01:45, 03:11].\n- **Richtung:** Neutral / Kein Kauf [03:11].\n- **Konkret belegte Levels:** Unterstützung / Volumenbereich um ca. 102 USD [02:37, 02:47].\n- **Trigger:** Ein nachhaltiger Boden bildet sich (fehlt derzeit) [03:08].\n- **Invalidierung:** Unterbieten der Unterstützungszone bei ~102 USD führt zu weiteren Kursabgaben [02:54].\n- **Zeithorizont:** Langfristig [01:47].\n\n---\n\n### ICICI Bank\n- **Sprecherthese:** Solide indische Bank im langfristigen Aufwärtstrend, nach der jüngsten Rally für einen Neueinstieg jedoch bereits zu hoch gelaufen [03:48, 04:41].\n- **Richtung:** Neutral / Abwarten [04:50].\n- **Konkret belegte Levels:** Aktuelles KGV von 17,90x bei einem historischen Schnitt von 17,55x [03:12].\n- **Trigger:** Erst eine größere langfristige Korrektur abwarten [04:15].\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Langfristig [03:47].\n\n---\n\n### Protector Forsikring\n- **Sprecherthese:** Norwegischer Versicherer mit starkem Trendlauf, der nach massiven Anstiegen langfristig schwer einzuschätzen ist [05:25, 06:54].\n- **Richtung:** Halten [07:12].\n- **Konkret belegte Levels:** Widerstand / Ausbruchsniveau bei 485 NOK [06:46].\n- **Trigger:** Ausbruch über 485 NOK leitet die nächste Rally ein [06:46].\n- **Invalidierung:** Bruch der engeren Trendstruktur [06:23].\n- **Zeithorizont:** Kurz- bis mittelfristig [06:27].\n\n---\n\n### NextEra Energy\n- **Sprecherthese:** Verlässlicher Wert im Bereich erneuerbare Energien; nach mittelfristiger Korrektur langfristig gut einschätzbar und eine der attraktivsten Aktien im Video [07:32, 08:35].\n- **Richtung:** Halten [08:32].\n- **Konkret belegte Levels:** KGV von 21,94x nahe historischem Durchschnitt von 19,26x [07:14].\n- **Trigger:** Nächste größere Korrektur abwarten [08:28].\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Langfristig [07:32].\n\n---\n\n### Waste Management\n- **Sprecherthese:** Strikter Dauerläufer zur Risikoreduktion im Portfolio, bei dem der kurzfristige Abwärtstrend vor dem Abschluss steht [09:57, 10:25].\n- **Richtung:** Kauf (\"Buy Rating\") [10:44].\n- **Konkret belegte Levels:** Ausbruchsniveau bei 226 bis 228 USD [10:28].\n- **Trigger:** Ausbruch über 226–228 USD beendet den Abwärtstrend und startet die nächste Rally [10:28].\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Mittel- bis langfristig [09:57].\n\n---\n\n### Shell\n- **Sprecherthese:** Ölaktie mit hoher Abhängigkeit vom Ölpreis und historischen Drawdowns von rund 70 %; langfristig kein überzeugender Total Return [11:38, 13:01].\n- **Richtung:** Langfristig Verkaufen (\"Sell Rating\") [13:01].\n- **Konkret belegte Levels:** Unterstützungsbereich bei 2.800 bis 2.900 GBx (Pence) [12:46 - 12:50].\n- **Trigger:** Stabilisierung bei 2.800–2.900 GBx für mittelfristige Chance [12:51].\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Langfristig Verkaufen [13:01], mittelfristig Chance [12:55].\n- **Widerspruch Bild/Ton:** Der Sprecher spricht mündlich von \"2800 bis 2900 britische Pfund\" [12:50], die Chartachse im Handelsplatz London zeigt jedoch eindeutig die Einheit GBx (Pence), was 28 bis 29 GBP entspricht.\n\n---\n\n### BASF\n- **Sprecherthese:** Zyklischer Chemiekonzern mit tiefen Korrekturphasen, der aktuell eine vielversprechende antizyklische Bodenbildung aufweist [13:28, 14:12].\n- **Richtung:** Antizyklische Chance [13:28].\n- **Konkret belegte Levels:** Ausbruchskante der Bodenbildung bei 55,30 EUR [14:15].\n- **Trigger:** Wochenschlusskurs über 55,30 EUR bestätigt die Bodenbildung [14:18].\n- **Invalidierung:** Abgleiten auf neue Tiefs unter die Bodenbildungsspanne [14:23].\n- **Zeithorizont:** Mittelfristig [14:11].\n\n---\n\n### D-Wave Quantum\n- **Sprecherthese:** Hochvolatiler Wert im Quantencomputing, der keinesfalls in ein langfristiges Qualitätsportfolio gehört, kurzfristig aber Momentum besitzt [14:55, 15:45].\n- **Richtung:** Halten (spekulativ) [15:55].\n- **Konkret belegte Levels:** Unterstützung/Trendgrenze bei 17 USD [15:28].\n- **Trigger:** Stabilisierung im Bereich der Kurslücke oberhalb von 17 USD [15:23].\n- **Invalidierung:** Unterschreiten von 17 USD beendet den Aufwärtstrend [15:28].\n- **Zeithorizont:** Kurz- bis mittelfristig [15:50].\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten:** Starke Rohstoff- bzw. Ölpreisabhängigkeit bei Shell sowie fehlende historische Daten/Einschätzbarkeit bei D-Wave Quantum.\n- **Sehenswerte Stellen:**\n  - Waste Management Ausbruchsmarke [10:20 - 10:35]\n  - BASF Bodenbildungsformation [14:10 - 14:25]\n  - D-Wave Quantum Risikolevel bei 17 USD [15:20 - 15:35]",
+  "evidence": [
+    {
+      "timestamp": "01:04",
+      "basis": "visual",
+      "observation": "Anzeige der Bewertungskennzahl 'Xylem - Adjusted P/E' mit aktuellem Wert 27,43x"
+    },
+    {
+      "timestamp": "02:47",
+      "basis": "audio",
+      "observation": "Sprecher nennt Unterstützungs- und Volumenbereich bei Xylem Inc. um ca. 102 USD"
+    },
+    {
+      "timestamp": "03:12",
+      "basis": "visual",
+      "observation": "Anzeige der Bewertungskennzahl 'ICICI Bank - Adjusted P/E' mit aktuellem Wert 17,90x und historischem Durchschnitt 17,55x"
+    },
+    {
+      "timestamp": "06:46",
+      "basis": "audio",
+      "observation": "Sprecher nennt Ausbruchsmarke bei Protector Forsikring über 485 norwegischen Kronen für die nächste Rally"
+    },
+    {
+      "timestamp": "07:14",
+      "basis": "visual",
+      "observation": "Anzeige 'NextEra Energy - Adjusted P/E' mit aktuellem Wert 21,94x"
+    },
+    {
+      "timestamp": "10:28",
+      "basis": "audio",
+      "observation": "Sprecher nennt Ausbruchsniveau bei Waste Management bei 226 bis 228 USD als Kauf-Trigger"
+    },
+    {
+      "timestamp": "12:50",
+      "basis": "audio",
+      "observation": "Sprecher spricht von '2800 bis 2900 britische Pfund' bei Shell, während die Chart-Achse im Bild GBx (Pence) anzeigt"
+    },
+    {
+      "timestamp": "14:18",
+      "basis": "audio",
+      "observation": "Sprecher nennt Wochenschlusskurs über 55,30 Euro als Trigger für die Bodenbildung bei BASF"
+    },
+    {
+      "timestamp": "15:28",
+      "basis": "audio",
+      "observation": "Sprecher nennt 17 USD als entscheidende Unterstützung/Trendgrenze bei D-Wave Quantum"
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "All6P3eqlSQ",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-17T08:31:50.498331+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Buy, Hold oder Sell?! (Xylem, BASF, Shell, Protector Forsikring, D-Wave Quantum, ...)**\nhttps://www.youtube.com/watch?v=All6P3eqlSQ\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher analysiert acht ausgewählte Aktien aus verschiedenen Branchen auf Basis von Bewertung (KGV) und Charttechnik [00:00 - 16:00]. Er unterscheidet dabei strikt zwischen langfristigen Qualitätsaktien und spekulativeren oder zyklischen Werten. Für jede Aktie wird eine konkrete Einschätzung hinsichtlich Haltung, Einstieg oder Verkauf gegeben.\n\n**Typ:** Mehrere Aktien\n\n---\n\n### Xylem Inc.\n- **Sprecherthese:** Langfristig besteht zwar ein Aufwärtstrend, die Trendstruktur verläuft für eine Dividendenwachstumsaktie jedoch zu unruhig; trotz Korrektur aktuell nicht ausreichend attraktiv [01:45, 03:11].\n- **Richtung:** Neutral / Kein Kauf [03:11].\n- **Konkret belegte Levels:** Unterstützung / Volumenbereich um ca. 102 USD [02:37, 02:47].\n- **Trigger:** Ein nachhaltiger Boden bildet sich (fehlt derzeit) [03:08].\n- **Invalidierung:** Unterbieten der Unterstützungszone bei ~102 USD führt zu weiteren Kursabgaben [02:54].\n- **Zeithorizont:** Langfristig [01:47].\n\n---\n\n### ICICI Bank\n- **Sprecherthese:** Solide indische Bank im langfristigen Aufwärtstrend, nach der jüngsten Rally für einen Neueinstieg jedoch bereits zu hoch gelaufen [03:48, 04:41].\n- **Richtung:** Neutral / Abwarten [04:50].\n- **Konkret belegte Levels:** Aktuelles KGV von 17,90x bei einem historischen Schnitt von 17,55x [03:12].\n- **Trigger:** Erst eine größere langfristige Korrektur abwarten [04:15].\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Langfristig [03:47].\n\n---\n\n### Protector Forsikring\n- **Sprecherthese:** Norwegischer Versicherer mit starkem Tr",
+    "endlauf, der nach massiven Anstiegen langfristig schwer einzuschätzen ist [05:25, 06:54].\n- **Richtung:** Halten [07:12].\n- **Konkret belegte Levels:** Widerstand / Ausbruchsniveau bei 485 NOK [06:46].\n- **Trigger:** Ausbruch über 485 NOK leitet die nächste Rally ein [06:46].\n- **Invalidierung:** Bruch der engeren Trendstruktur [06:23].\n- **Zeithorizont:** Kurz- bis mittelfristig [06:27].\n\n---\n\n### NextEra Energy\n- **Sprecherthese:** Verlässlicher Wert im Bereich erneuerbare Energien; nach mittelfristiger Korrektur langfristig gut einschätzbar und eine der attraktivsten Aktien im Video [07:32, 08:35].\n- **Richtung:** Halten [08:32].\n- **Konkret belegte Levels:** KGV von 21,94x nahe historischem Durchschnitt von 19,26x [07:14].\n- **Trigger:** Nächste größere Korrektur abwarten [08:28].\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Langfristig [07:32].\n\n---\n\n### Waste Management\n- **Sprecherthese:** Strikter Dauerläufer zur Risikoreduktion im Portfolio, bei dem der kurzfristige Abwärtstrend vor dem Abschluss steht [09:57, 10:25].\n- **Richtung:** Kauf (\"Buy Rating\") [10:44].\n- **Konkret belegte Levels:** Ausbruchsniveau bei 226 bis 228 USD [10:28].\n- **Trigger:** Ausbruch über 226–228 USD beendet den Abwärtstrend und startet die nächste Rally [10:28].\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Mittel- bis langfristig [09:57].\n\n---\n\n### Shell\n- **Sprecherthese:** Ölaktie mit hoher Abhängigkeit vom Ölpreis und historischen Drawdowns von rund 70 %; langfristig kein überzeugender Total Return [11:38, 13:01].\n- **Richtung:** Langfristig Verkaufen (\"Sell Rating\") [13:01].\n- **Konkret belegte Levels:** Unterstützungsbereich bei 2.800 bis 2.900 GBx (Pence) [12:46 - 12:50].\n- **Trigger:** Stabilisierung bei 2.800–2.900 GBx für mittelfristige Chance [12:51].\n-",
+    " **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Langfristig Verkaufen [13:01], mittelfristig Chance [12:55].\n- **Widerspruch Bild/Ton:** Der Sprecher spricht mündlich von \"2800 bis 2900 britische Pfund\" [12:50], die Chartachse im Handelsplatz London zeigt jedoch eindeutig die Einheit GBx (Pence), was 28 bis 29 GBP entspricht.\n\n---\n\n### BASF\n- **Sprecherthese:** Zyklischer Chemiekonzern mit tiefen Korrekturphasen, der aktuell eine vielversprechende antizyklische Bodenbildung aufweist [13:28, 14:12].\n- **Richtung:** Antizyklische Chance [13:28].\n- **Konkret belegte Levels:** Ausbruchskante der Bodenbildung bei 55,30 EUR [14:15].\n- **Trigger:** Wochenschlusskurs über 55,30 EUR bestätigt die Bodenbildung [14:18].\n- **Invalidierung:** Abgleiten auf neue Tiefs unter die Bodenbildungsspanne [14:23].\n- **Zeithorizont:** Mittelfristig [14:11].\n\n---\n\n### D-Wave Quantum\n- **Sprecherthese:** Hochvolatiler Wert im Quantencomputing, der keinesfalls in ein langfristiges Qualitätsportfolio gehört, kurzfristig aber Momentum besitzt [14:55, 15:45].\n- **Richtung:** Halten (spekulativ) [15:55].\n- **Konkret belegte Levels:** Unterstützung/Trendgrenze bei 17 USD [15:28].\n- **Trigger:** Stabilisierung im Bereich der Kurslücke oberhalb von 17 USD [15:23].\n- **Invalidierung:** Unterschreiten von 17 USD beendet den Aufwärtstrend [15:28].\n- **Zeithorizont:** Kurz- bis mittelfristig [15:50].\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten:** Starke Rohstoff- bzw. Ölpreisabhängigkeit bei Shell sowie fehlende historische Daten/Einschätzbarkeit bei D-Wave Quantum.\n- **Sehenswerte Stellen:**\n  - Waste Management Ausbruchsmarke [10:20 - 10:35]\n  - BASF Bodenbildungsformation [14:10 - 14:25]\n  - D-Wave Quantum Risikolevel bei 17 USD [15:20 - 15:35]\n\nQuellenmeinung zum Videozeitp",
+    "unkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 4,
+  "discord_sent_at": "2026-09-17T08:31:51.567626+00:00"
 }
