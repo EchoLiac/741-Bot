@@ -6,10 +6,60 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123263+00:00",
-  "attempts": 6,
-  "last_attempt": "2026-09-16T23:31:45.364571+00:00",
+  "attempts": 7,
+  "last_attempt": "2026-09-17T04:31:13.398485+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher analysiert vier stark gestiegene Aktien (AppLovin, Walmart, Caterpillar und Comfort Systems USA), die aufgrund historisch sehr hoher Bewertungen und langer Rallyes ein erhöhtes Korrekturrisiko aufweisen. Anleger mit bestehenden Positionen sollten nicht blind verkaufen, sich jedoch auf mögliche Trendbrüche und stärkere Rücksetzer einstellen.\n\n**Typ:** mehrere Aktien\n\n---\n\n### AppLovin (APP) (02:03 - 05:11)\n- **Sprecherthese:** Nach einer extremen Rallye seit 2023 (+8.000 %) ist die Bewertung mit einem EV/EBITDA von 32,5x hoch; zur Etablierung langfristiger Trendstrukturen droht eine deutliche Korrektur.\n- **Richtung:** Abwärts / Korrekturgefahr\n- **Levels:** Tief bei 365 USD (04:38); Unterstützung erst wieder im Bereich 100–115 USD (04:52) / 140 USD.\n- **Trigger:** Unterschreiten des Tiefs bei ca. 365 USD (04:38).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Mittel- bis langfristig.\n\n---\n\n### Walmart (WMT) (05:12 - 08:00)\n- **Sprecherthese:** Ein KGV von über 41x liegt im 88,89. Perzentil und ist historisch extrem teuer, ohne dass das fundamentale Wachstum diesen Aufpreis rechtfertigt.\n- **Richtung:** Korrektur / Seitwärtsphase\n- **Levels:** Tief bei ca. 113 USD (07:00); erstes Ziel bei ca. 100 USD (07:06).\n- **Trigger:** Ausbruch unter die Marke von ca. 113 USD (07:00).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Nicht genannt.\n\n---\n\n### Caterpillar (CAT) (09:12 - 11:32)\n- **Sprecherthese:** Als zyklisches Unternehmen ist Caterpillar mit einem KGV von ca. 49x historisch stark überbewertet; nach langen Rallyes sind tiefere Rücksetzer historisch typisch.\n- **Richtung:** Abwärts / Korrekturgefahr\n- **Levels:** Historisch übliche Korrekturspannen von 50 % (11:09) bis 60–70 % (11:29).\n- **Trigger:** Umkehrsignal / Topbildung im Chart (derzeit noch nicht vorhanden, 10:46).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Nicht genannt.\n\n---\n\n### Comfort Systems USA (FIX) (11:33 - 14:25)\n- **Sprecherthese:** Die Aktie hat stark vom KI- und Rechenzentren-Boom profitiert, ist mit einem KGV von 56,8x (100. Perzentil) aber historisch beispiellos teuer bewertet.\n- **Richtung:** Abwärts bei Trendbruch\n- **Levels:** Kurzfristiges Tief bei ca. 1.705 USD (13:57); mögliches Korrekturpotenzial von bis zu -60 % (13:25).\n- **Trigger:** Bruch des Tiefs bei ca. 1.705 USD (13:57).\n- **Invalidierung:** Aufwärtstrend bleibt intakt, solange die Marke von ca. 1.705 USD nicht unterschritten wird (13:57).\n- **Zeithorizont:** Nicht genannt.\n\n---\n\n### Unsicherheiten und sehenswerte Stellen\n- **Unsicherheiten:** Aufwärtstrends können länger anhalten als fundamental begründet. Ohne ein technisches Umkehrsignal sollte nicht vorzeitig verkaufsorientiert gehandelt werden.\n- **Sehenswerte Stellen:**\n  - 02:04 – Kennzahlenübersicht und EV/EBITDA-Entwicklung bei AppLovin.\n  - 05:12 – Historisches KGV-Diagramm von Walmart.\n  - 09:12 – Bewertungshistorie des Zyklikers Caterpillar.\n  - 11:33 – KGV-Spitzenwert und Monatschart bei Comfort Systems USA.",
+  "evidence": [
+    {
+      "timestamp": "02:04",
+      "basis": "visual",
+      "observation": "Eingeblendete Tabelle für AppLovin zeigt EV/EBITDA von 32,50x und ein historisches Durchschnitts-Multiple von 37,34x."
+    },
+    {
+      "timestamp": "04:38",
+      "basis": "audio",
+      "observation": "Sprecher nennt das Tief bei 365 USD als entscheidende Marke für AppLovin."
+    },
+    {
+      "timestamp": "05:12",
+      "basis": "visual",
+      "observation": "Grafik zeigt Walmart mit aktuellem Adjusted P/E von 41,28x und 88,89 % Perzentil."
+    },
+    {
+      "timestamp": "07:00",
+      "basis": "audio",
+      "observation": "Sprecher erwähnt für Walmart die Ausbruchsmarke bei etwa 113 USD."
+    },
+    {
+      "timestamp": "09:12",
+      "basis": "visual",
+      "observation": "Caterpillar-Übersicht zeigt KGV (Adjusted P/E) von 49,04x und ein Perzentil von 94,12 %."
+    },
+    {
+      "timestamp": "11:33",
+      "basis": "visual",
+      "observation": "Grafik zu Comfort Systems USA zeigt KGV von 56,79x und ein Perzentil von 100,00 %."
+    },
+    {
+      "timestamp": "13:57",
+      "basis": "audio",
+      "observation": "Sprecher erklärt, dass der kurzfristige Aufwärtstrend bei Comfort Systems USA erst unter ca. 1.705 USD gebrochen wäre."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "_p446RXvG6s",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-17T04:31:36.225352+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Diese Aktien werden fallen...**\nhttps://www.youtube.com/watch?v=_p446RXvG6s\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher analysiert vier stark gestiegene Aktien (AppLovin, Walmart, Caterpillar und Comfort Systems USA), die aufgrund historisch sehr hoher Bewertungen und langer Rallyes ein erhöhtes Korrekturrisiko aufweisen. Anleger mit bestehenden Positionen sollten nicht blind verkaufen, sich jedoch auf mögliche Trendbrüche und stärkere Rücksetzer einstellen.\n\n**Typ:** mehrere Aktien\n\n---\n\n### AppLovin (APP) (02:03 - 05:11)\n- **Sprecherthese:** Nach einer extremen Rallye seit 2023 (+8.000 %) ist die Bewertung mit einem EV/EBITDA von 32,5x hoch; zur Etablierung langfristiger Trendstrukturen droht eine deutliche Korrektur.\n- **Richtung:** Abwärts / Korrekturgefahr\n- **Levels:** Tief bei 365 USD (04:38); Unterstützung erst wieder im Bereich 100–115 USD (04:52) / 140 USD.\n- **Trigger:** Unterschreiten des Tiefs bei ca. 365 USD (04:38).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Mittel- bis langfristig.\n\n---\n\n### Walmart (WMT) (05:12 - 08:00)\n- **Sprecherthese:** Ein KGV von über 41x liegt im 88,89. Perzentil und ist historisch extrem teuer, ohne dass das fundamentale Wachstum diesen Aufpreis rechtfertigt.\n- **Richtung:** Korrektur / Seitwärtsphase\n- **Levels:** Tief bei ca. 113 USD (07:00); erstes Ziel bei ca. 100 USD (07:06).\n- **Trigger:** Ausbruch unter die Marke von ca. 113 USD (07:00).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Nicht genannt.\n\n---\n\n### Caterpillar (CAT) (09:12 - 11:32)\n- **Sprecherthese:** Als zyklisches Unternehmen ist Caterpillar mit einem KGV von ca. 49x historisch stark überbewertet; nach langen Rallyes sind tiefere Rücksetzer historisch ty",
+    "pisch.\n- **Richtung:** Abwärts / Korrekturgefahr\n- **Levels:** Historisch übliche Korrekturspannen von 50 % (11:09) bis 60–70 % (11:29).\n- **Trigger:** Umkehrsignal / Topbildung im Chart (derzeit noch nicht vorhanden, 10:46).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Nicht genannt.\n\n---\n\n### Comfort Systems USA (FIX) (11:33 - 14:25)\n- **Sprecherthese:** Die Aktie hat stark vom KI- und Rechenzentren-Boom profitiert, ist mit einem KGV von 56,8x (100. Perzentil) aber historisch beispiellos teuer bewertet.\n- **Richtung:** Abwärts bei Trendbruch\n- **Levels:** Kurzfristiges Tief bei ca. 1.705 USD (13:57); mögliches Korrekturpotenzial von bis zu -60 % (13:25).\n- **Trigger:** Bruch des Tiefs bei ca. 1.705 USD (13:57).\n- **Invalidierung:** Aufwärtstrend bleibt intakt, solange die Marke von ca. 1.705 USD nicht unterschritten wird (13:57).\n- **Zeithorizont:** Nicht genannt.\n\n---\n\n### Unsicherheiten und sehenswerte Stellen\n- **Unsicherheiten:** Aufwärtstrends können länger anhalten als fundamental begründet. Ohne ein technisches Umkehrsignal sollte nicht vorzeitig verkaufsorientiert gehandelt werden.\n- **Sehenswerte Stellen:**\n  - 02:04 – Kennzahlenübersicht und EV/EBITDA-Entwicklung bei AppLovin.\n  - 05:12 – Historisches KGV-Diagramm von Walmart.\n  - 09:12 – Bewertungshistorie des Zyklikers Caterpillar.\n  - 11:33 – KGV-Spitzenwert und Monatschart bei Comfort Systems USA.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-17T04:31:36.796248+00:00"
 }
