@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-17T17:01:25.209202+00:00",
-    "@wir-lieben-aktien": "2026-09-17T17:01:25.766877+00:00",
-    "@chartsekte": "2026-09-17T17:01:26.241145+00:00",
-    "@hkcm": "2026-09-17T17:01:26.787296+00:00",
-    "@phantombyhkcm": "2026-09-17T17:01:27.374386+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-17T17:01:27.880216+00:00",
-    "@aktien4future": "2026-09-17T17:01:28.492312+00:00",
-    "@Finanzbaer": "2026-09-17T17:01:29.087107+00:00",
-    "@Finanzwiesel": "2026-09-17T17:01:29.659584+00:00",
-    "@TradingKompass": "2026-09-17T17:01:30.223936+00:00",
-    "@TomVorwald": "2026-09-17T17:01:30.760185+00:00"
+    "@1OxTrading": "2026-09-17T17:31:08.661996+00:00",
+    "@wir-lieben-aktien": "2026-09-17T17:31:09.175807+00:00",
+    "@chartsekte": "2026-09-17T17:31:09.747473+00:00",
+    "@hkcm": "2026-09-17T17:31:10.318765+00:00",
+    "@phantombyhkcm": "2026-09-17T17:31:10.892901+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-17T17:31:11.537149+00:00",
+    "@aktien4future": "2026-09-17T17:31:12.104171+00:00",
+    "@Finanzbaer": "2026-09-17T17:31:12.655047+00:00",
+    "@Finanzwiesel": "2026-09-17T17:31:13.183609+00:00",
+    "@TradingKompass": "2026-09-17T17:31:13.737499+00:00",
+    "@TomVorwald": "2026-09-17T17:31:14.299762+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4690,8 +4690,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-16T17:31:17.931766+00:00",
-    "attempts": 6,
-    "last_attempt": "2026-09-17T14:31:41.042490+00:00"
+    "attempts": 7,
+    "last_attempt": "2026-09-17T17:31:39.229780+00:00"
   },
   "P_9Cs0EAUmk": {
     "id": "P_9Cs0EAUmk",
@@ -4733,5 +4733,31 @@
     "attempts": 1,
     "last_attempt": "2026-09-17T14:31:18.384289+00:00",
     "scraped_at": "2026-09-17T14:31:41.038629+00:00"
+  },
+  "0XqoCWgvT60": {
+    "id": "0XqoCWgvT60",
+    "title": "Kommt jetzt Musks größter Deal? Das könnte als Nächstes passieren",
+    "url": "https://www.youtube.com/watch?v=0XqoCWgvT60",
+    "duration": 578,
+    "published": null,
+    "channel": "Wir Lieben Aktien",
+    "handle": "@wir-lieben-aktien",
+    "status": "pending",
+    "discovered_at": "2026-09-17T17:31:09.175789+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-17T17:31:14.359965+00:00"
+  },
+  "ki9kW6cl_nE": {
+    "id": "ki9kW6cl_nE",
+    "title": "Diese zwei Altcoins gehören in jedes Depot!",
+    "url": "https://www.youtube.com/watch?v=ki9kW6cl_nE",
+    "duration": 963,
+    "published": null,
+    "channel": "Phantom by HKCM",
+    "handle": "@phantombyhkcm",
+    "status": "pending",
+    "discovered_at": "2026-09-17T17:31:10.892883+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-17T17:31:33.230590+00:00"
   }
 }
