@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-17T13:31:10.211449+00:00",
-    "@wir-lieben-aktien": "2026-09-17T13:31:10.673094+00:00",
-    "@chartsekte": "2026-09-17T13:31:11.116931+00:00",
-    "@hkcm": "2026-09-17T13:31:11.655165+00:00",
-    "@phantombyhkcm": "2026-09-17T13:31:12.143054+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-17T13:31:12.586216+00:00",
-    "@aktien4future": "2026-09-17T13:31:14.079891+00:00",
-    "@Finanzbaer": "2026-09-17T13:31:14.610272+00:00",
-    "@Finanzwiesel": "2026-09-17T13:31:15.085768+00:00",
-    "@TradingKompass": "2026-09-17T13:31:15.519898+00:00",
-    "@TomVorwald": "2026-09-17T13:31:16.030453+00:00"
+    "@1OxTrading": "2026-09-17T14:01:21.530329+00:00",
+    "@wir-lieben-aktien": "2026-09-17T14:01:22.008936+00:00",
+    "@chartsekte": "2026-09-17T14:01:22.542880+00:00",
+    "@hkcm": "2026-09-17T14:01:23.104708+00:00",
+    "@phantombyhkcm": "2026-09-17T14:01:23.596942+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-17T14:01:24.055657+00:00",
+    "@aktien4future": "2026-09-17T14:01:24.536830+00:00",
+    "@Finanzbaer": "2026-09-17T14:01:25.027720+00:00",
+    "@Finanzwiesel": "2026-09-17T14:01:25.481382+00:00",
+    "@TradingKompass": "2026-09-17T14:01:25.931772+00:00",
+    "@TomVorwald": "2026-09-17T14:01:26.474112+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 90,
-    "last_attempt": "2026-09-17T11:01:27.462691+00:00"
+    "attempts": 91,
+    "last_attempt": "2026-09-17T14:01:26.533497+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -4649,8 +4649,8 @@
     "handle": "@hkcm",
     "status": "pending",
     "discovered_at": "2026-09-16T16:31:08.167321+00:00",
-    "attempts": 5,
-    "last_attempt": "2026-09-17T11:01:33.803107+00:00"
+    "attempts": 6,
+    "last_attempt": "2026-09-17T14:01:32.721008+00:00"
   },
   "3nf5TizaDlk": {
     "id": "3nf5TizaDlk",
@@ -4662,8 +4662,8 @@
     "handle": "@aktien4future",
     "status": "pending",
     "discovered_at": "2026-09-16T17:01:22.316579+00:00",
-    "attempts": 5,
-    "last_attempt": "2026-09-17T11:01:39.720675+00:00"
+    "attempts": 6,
+    "last_attempt": "2026-09-17T14:01:38.877064+00:00"
   },
   "SskpHGZp5iE": {
     "id": "SskpHGZp5iE",
