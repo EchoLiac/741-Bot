@@ -6,10 +6,65 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123297+00:00",
-  "attempts": 5,
-  "last_attempt": "2026-09-16T19:31:35.132896+00:00",
+  "attempts": 6,
+  "last_attempt": "2026-09-17T01:02:03.751244+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDie Halbleiterbranche erlebt durch den KI-Hype ein extremes Wachstum und weist eine historisch sehr hohe Bewertung auf (01:27, 09:48). Da die Branche jedoch strukturell zyklisch ist, wird es nach der aktuellen Rallye auch wieder Abkühlungsphasen und Korrekturen geben (11:51, 17:45). Ein strukturierter Blick auf die Wertschöpfungskette und die Kennzahlen mahnt zur Vorsicht bei Neueinstiegen auf Allzeithochs (11:33, 17:58).\n\n### Typ\nMarkt/Makro / Bildung\n\n### Sektor-Analyse: Halbleitermarkt / VanEck Semiconductor ETF\n- **Sprecherthese**: Langfristig bleibt der Markt durch Trends wie KI und Rechenzentren bullisch (11:41), kurz- bis mittelfristig besteht aufgrund historischer Höchstbewertungen und zyklischer Schwankungen ein erhebliches Korrekturrisiko (09:45, 10:55).\n- **Richtung**: Abwartend / Konsolidierend\n- **Belegte Levels/Werte**:\n  - Market-Cap-Gewichtung US-Halbleiter am Gesamtmarkt: ca. 14 % (01:27).\n  - VanEck Semiconductor ETF KGV (bereinigt): 2025e bei 41,11x; 2026e bei 36,31x; 2028e bei 20,41x (09:48–10:00). Historisches KGV-Mittel: 21,67x; Minimum: 10,77x; Maximum: 48,00x (09:31).\n  - Umsätze Halbleitermarkt (historisch): +8,36 % p.a. (11:35).\n  - Erwartetes Halbleitermarkt-Volumen bis 2030: >1.000 Mrd. USD / 1 Trillion USD (12:27).\n  - Erwartetes KI-Markt-Umsatzwachstum (2025–2030): +36,90 % p.a. (14:21).\n- **Trigger**: Ein Abflachen der KI-Investitionen durch Hyperscaler, Zinsanstiege oder verlangsamtes Erreichen der hohen Umsatzerwartungen (10:18, 10:31, 15:52).\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Mittelfristig bis 2028/2030.\n\n### Einzelaktie: Intel Corporation\n- **Sprecherthese**: Dient als Praxisbeispiel für einen gelungenen Turnaround-Kauf während einer antizyklischen Bodenbildungsphase (06:08).\n- **Richtung**: Bullisch (Teilgewinne gesichert) (06:21).\n- **Belegte Levels/Werte**: Kursplus in der Spitze von ca. 250 % seit Einstieg am Tief (06:18).\n- **Trigger / Invalidierung / Zeithorizont**: Nicht genannt.\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Sehenswerte Stellen**: Die Übersicht der Wertschöpfungskette (02:42) zur Einordnung von Fabless-Designern, Foundries und Ausrüstern sowie die Visualisierung der zirkulären Deals (14:51).\n- **Unsicherheiten**: Inwieweit zirkuläre Abhängigkeiten (z. B. Investitionen von Nvidia, Microsoft, OpenAI) ein Klumpenrisiko darstellen, falls ein Player seine Ausgaben reduziert (15:48–16:13).",
+  "evidence": [
+    {
+      "timestamp": "01:27",
+      "basis": "visual",
+      "observation": "Chart zeigt 'US Semiconductors Market Cap Weighting' mit einem aktuellen Spitzenwert von ca. 14 %."
+    },
+    {
+      "timestamp": "02:42",
+      "basis": "visual",
+      "observation": "Grafik zeigt 'Überblick zur Wertschöpfungskette der Halbleiterindustrie' unterteilt in EDA-Software, Ausrüstung, Wafer, Fabless Design, Foundries, IDM sowie Montage/Verpackung."
+    },
+    {
+      "timestamp": "06:18",
+      "basis": "audio",
+      "observation": "Sprecher erwähnt bei der gezeigten Intel-Aktie ein Kursplus von ca. 250 % im Depot."
+    },
+    {
+      "timestamp": "09:48",
+      "basis": "visual",
+      "observation": "Chart 'VanEck Semiconductor ETF - Adjusted P/E' zeigt für 2025e ein bereinigtes KGV von 41,11x und ein historisches Mittel von 21,67x."
+    },
+    {
+      "timestamp": "11:35",
+      "basis": "visual",
+      "observation": "Grafik 'Historische Entwicklung des Umsatzes auf dem Halbleitermarkt weltweit' weist ein historisches Wachstum von 8,36 % p.a. aus."
+    },
+    {
+      "timestamp": "12:27",
+      "basis": "visual",
+      "observation": "Balkendiagramm zeigt die prognostizierte Umsatzentwicklung bis 2030e auf über 1.000 Mrd. USD, getrieben vor allem durch Server, Datencenter & Speicher (+131,41 %)."
+    },
+    {
+      "timestamp": "14:21",
+      "basis": "visual",
+      "observation": "Grafik zeigt die Erwartung des KI-Gesamtmarktes mit 36,90 % p.a. Wachstum von 2025 bis 2030."
+    },
+    {
+      "timestamp": "14:51",
+      "basis": "visual",
+      "observation": "Grafik 'Visualisierung von zirkulären Deals in der KI-Branche' zeigt kreisförmig vernetzte Investitionsströme um Nvidia, OpenAI und Microsoft."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "xd6G3M3I3zc",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-17T01:02:48.909638+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Halbleiter-Aktien explodieren! Droht jetzt der große Crash?**\nhttps://www.youtube.com/watch?v=xd6G3M3I3zc\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDie Halbleiterbranche erlebt durch den KI-Hype ein extremes Wachstum und weist eine historisch sehr hohe Bewertung auf (01:27, 09:48). Da die Branche jedoch strukturell zyklisch ist, wird es nach der aktuellen Rallye auch wieder Abkühlungsphasen und Korrekturen geben (11:51, 17:45). Ein strukturierter Blick auf die Wertschöpfungskette und die Kennzahlen mahnt zur Vorsicht bei Neueinstiegen auf Allzeithochs (11:33, 17:58).\n\n### Typ\nMarkt/Makro / Bildung\n\n### Sektor-Analyse: Halbleitermarkt / VanEck Semiconductor ETF\n- **Sprecherthese**: Langfristig bleibt der Markt durch Trends wie KI und Rechenzentren bullisch (11:41), kurz- bis mittelfristig besteht aufgrund historischer Höchstbewertungen und zyklischer Schwankungen ein erhebliches Korrekturrisiko (09:45, 10:55).\n- **Richtung**: Abwartend / Konsolidierend\n- **Belegte Levels/Werte**:\n  - Market-Cap-Gewichtung US-Halbleiter am Gesamtmarkt: ca. 14 % (01:27).\n  - VanEck Semiconductor ETF KGV (bereinigt): 2025e bei 41,11x; 2026e bei 36,31x; 2028e bei 20,41x (09:48–10:00). Historisches KGV-Mittel: 21,67x; Minimum: 10,77x; Maximum: 48,00x (09:31).\n  - Umsätze Halbleitermarkt (historisch): +8,36 % p.a. (11:35).\n  - Erwartetes Halbleitermarkt-Volumen bis 2030: >1.000 Mrd. USD / 1 Trillion USD (12:27).\n  - Erwartetes KI-Markt-Umsatzwachstum (2025–2030): +36,90 % p.a. (14:21).\n- **Trigger**: Ein Abflachen der KI-Investitionen durch Hyperscaler, Zinsanstiege oder verlangsamtes Erreichen der hohen Umsatzerwartungen (10:18, 10:31, 15:52).\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Mittelfristig bis 202",
+    "8/2030.\n\n### Einzelaktie: Intel Corporation\n- **Sprecherthese**: Dient als Praxisbeispiel für einen gelungenen Turnaround-Kauf während einer antizyklischen Bodenbildungsphase (06:08).\n- **Richtung**: Bullisch (Teilgewinne gesichert) (06:21).\n- **Belegte Levels/Werte**: Kursplus in der Spitze von ca. 250 % seit Einstieg am Tief (06:18).\n- **Trigger / Invalidierung / Zeithorizont**: Nicht genannt.\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Sehenswerte Stellen**: Die Übersicht der Wertschöpfungskette (02:42) zur Einordnung von Fabless-Designern, Foundries und Ausrüstern sowie die Visualisierung der zirkulären Deals (14:51).\n- **Unsicherheiten**: Inwieweit zirkuläre Abhängigkeiten (z. B. Investitionen von Nvidia, Microsoft, OpenAI) ein Klumpenrisiko darstellen, falls ein Player seine Ausgaben reduziert (15:48–16:13).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-17T01:02:49.705158+00:00"
 }
