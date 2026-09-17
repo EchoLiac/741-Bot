@@ -6,10 +6,60 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123276+00:00",
-  "attempts": 6,
-  "last_attempt": "2026-09-17T00:02:42.803572+00:00",
+  "attempts": 7,
+  "last_attempt": "2026-09-17T05:02:11.324278+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nIm Podcast diskutieren Jan und Tim über die Sektorenrotation von Tech-Aktien hin zu defensiveren Branchen sowie makroökonomische Zins- und Inflationsrisiken. Zudem bewerten sie die Bedrohung von Versicherungsmaklern durch KI und analysieren das Geschäftsmodell sowie die Bewertung der Schnellrestaurantkette Wingstop nach einem deutlichen Kursrückgang. (00:06, 06:34, 30:15, 47:51)\n\n### Typ\nMehrere Aktien / Markt/Makro\n\n### Sektorenrotation & US-Gesamtmarkt\n- **Sprecherthese:** Nach einer historisch extremen Konzentration im IT-Sektor setzt am US-Markt eine Umschichtung in defensive Bereiche wie Gesundheit und Basiskonsum ein, während mittelfristig eine umfassendere Korrektur droht. (03:23, 06:34, 16:15)\n- **Richtung:** Vorsichtig/bärisch für IT/Tech, bullisch für defensive Sektoren. (06:52, 17:18)\n- **Konkret belegte Levels:** IT-Sektoranteil am S&P 500 bei 38% (03:25), IT-KGV bei 30 (04:48), Halbleiter-Anteil bei 18% (04:03), Healthcare/Staples KGVs bei 18–19 (05:38), US-Inflation bei >4% (4,2%) (17:54). Vorwochenperformance: IT -5,61% vs. Gesundheitswesen +2,37% (06:34).\n- **Trigger:** Verlauf anstehender Groß-IPOs (SpaceX, OpenAI, Anthropic) sowie Zinsentscheidungen der FED. (14:10, 18:02)\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Mittelfristig bis 2 Jahre. (16:36)\n\n### Versicherungsmakler (Brown & Brown / Marsh & McLennan)\n- **Sprecherthese:** Versicherungsmakler werden durch KI-Agenten im komplexen B2B-Geschäft kaum disruptiert, da Haftung, maßgeschneiderte Policen und exklusive Kundendaten weiterhin menschliche Expertise erfordern. (32:25, 34:00, 37:24)\n- **Richtung:** Langfristig bullisch. (36:18)\n- **Konkret belegte Levels:** Brown & Brown KGV bei 18 (historisches Mittel 27) (35:58), Retail-Anteil 58% (32:25); Marsh & McLennan KGV bei 19 (historisches Mittel 26) (35:51).\n- **Trigger:** Nachgewiesene operative Effizienzsteigerung durch KI-Einsatz. (34:37)\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Langfristig. (36:16)\n\n### Wingstop (Ticker: WING)\n- **Sprecherthese:** Wingstop überzeugt durch ein hochprofitables Franchise-Modell und starkes Cashflow-Wachstum, bleibt jedoch wegen hoher Verschuldung und fehlender Bodenbildung vorerst nur ein Beobachtungskandidat. (48:17, 49:25, 50:22, 55:14)\n- **Richtung:** Neutral (Abwartend).\n- **Konkret belegte Levels:** Kurs der früheren Analyse 246 USD (23.11.2023) (51:59), genannter aktueller Kurs 145 USD (-40%) (52:05), Forward-KGV 32 (51:12), EV/FCF 35 (51:18), Nettoverschuldung 1 Mrd. USD (50:23), Erwartetes Umsatzwachstum +13,58% p.a., EBIT +17,57% p.a., FCF +24% p.a. (49:27-49:35), Dividendenrendite 0,8% (49:58).\n- **Trigger:** Technische Bodenbildung und überzeugendere Price Action. (53:14, 55:34)\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** 3 Jahre fundamental (49:25), mittelfristig charttechnisch.\n\n### Unsicherheiten und sehenswerte Stellen\n- **Unsicherheiten:** Hohe Verschuldung bei Wingstop sowie der Einfluss der US-Zinsentwicklung und anstehender IPOs auf den Gesamtmarkt.\n- **Sehenswerte Stellen:** Sektorenrotations-Analyse ab 03:00, Diskussion zu Versicherungsmaklern & KI ab 30:15, Aktienporträt Wingstop ab 47:51.",
+  "evidence": [
+    {
+      "timestamp": "03:25",
+      "basis": "audio",
+      "observation": "Der IT-Sektor macht 38% des S&P 500 aus, der höchste Wert seit der Dotcom-Blase."
+    },
+    {
+      "timestamp": "06:34",
+      "basis": "audio",
+      "observation": "IT-Sektor verzeichnete in der Vorwoche ein Minus von 5,61%, während das US-Gesundheitswesen um 2,37% zulegte."
+    },
+    {
+      "timestamp": "32:25",
+      "basis": "audio",
+      "observation": "Brown & Brown erzielt 58% des Umsatzes im Retail-Geschäft."
+    },
+    {
+      "timestamp": "35:51",
+      "basis": "audio",
+      "observation": "Marsh & McLennan wird mit einem KGV von 19 bewertet (historischer Mittelwert: 26)."
+    },
+    {
+      "timestamp": "48:17",
+      "basis": "audio",
+      "observation": "Wingstop betreibt 98% seiner Stores über Franchise-Nehmer und 2% als Flagship-Stores."
+    },
+    {
+      "timestamp": "50:23",
+      "basis": "audio",
+      "observation": "Wingstop hat eine Nettoverschuldung von 1 Mrd. USD, was 25% des Börsenwerts entspricht."
+    },
+    {
+      "timestamp": "52:05",
+      "basis": "audio",
+      "observation": "Der Kurs von Wingstop wird von 246 USD (Analyse im Nov 2023) auf aktuell 145 USD (-40%) beziffert."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "0QlGUkRzXCo",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-17T05:02:49.547849+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**SEKTORENROTATION! Schnell Tech-Aktien verkaufen?**\nhttps://www.youtube.com/watch?v=0QlGUkRzXCo\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nIm Podcast diskutieren Jan und Tim über die Sektorenrotation von Tech-Aktien hin zu defensiveren Branchen sowie makroökonomische Zins- und Inflationsrisiken. Zudem bewerten sie die Bedrohung von Versicherungsmaklern durch KI und analysieren das Geschäftsmodell sowie die Bewertung der Schnellrestaurantkette Wingstop nach einem deutlichen Kursrückgang. (00:06, 06:34, 30:15, 47:51)\n\n### Typ\nMehrere Aktien / Markt/Makro\n\n### Sektorenrotation & US-Gesamtmarkt\n- **Sprecherthese:** Nach einer historisch extremen Konzentration im IT-Sektor setzt am US-Markt eine Umschichtung in defensive Bereiche wie Gesundheit und Basiskonsum ein, während mittelfristig eine umfassendere Korrektur droht. (03:23, 06:34, 16:15)\n- **Richtung:** Vorsichtig/bärisch für IT/Tech, bullisch für defensive Sektoren. (06:52, 17:18)\n- **Konkret belegte Levels:** IT-Sektoranteil am S&P 500 bei 38% (03:25), IT-KGV bei 30 (04:48), Halbleiter-Anteil bei 18% (04:03), Healthcare/Staples KGVs bei 18–19 (05:38), US-Inflation bei >4% (4,2%) (17:54). Vorwochenperformance: IT -5,61% vs. Gesundheitswesen +2,37% (06:34).\n- **Trigger:** Verlauf anstehender Groß-IPOs (SpaceX, OpenAI, Anthropic) sowie Zinsentscheidungen der FED. (14:10, 18:02)\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Mittelfristig bis 2 Jahre. (16:36)\n\n### Versicherungsmakler (Brown & Brown / Marsh & McLennan)\n- **Sprecherthese:** Versicherungsmakler werden durch KI-Agenten im komplexen B2B-Geschäft kaum disruptiert, da Haftung, maßgeschneiderte Policen und exklusive Kundendaten weiterhin menschliche Expertise erfordern. (32:25, 34:00",
+    ", 37:24)\n- **Richtung:** Langfristig bullisch. (36:18)\n- **Konkret belegte Levels:** Brown & Brown KGV bei 18 (historisches Mittel 27) (35:58), Retail-Anteil 58% (32:25); Marsh & McLennan KGV bei 19 (historisches Mittel 26) (35:51).\n- **Trigger:** Nachgewiesene operative Effizienzsteigerung durch KI-Einsatz. (34:37)\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Langfristig. (36:16)\n\n### Wingstop (Ticker: WING)\n- **Sprecherthese:** Wingstop überzeugt durch ein hochprofitables Franchise-Modell und starkes Cashflow-Wachstum, bleibt jedoch wegen hoher Verschuldung und fehlender Bodenbildung vorerst nur ein Beobachtungskandidat. (48:17, 49:25, 50:22, 55:14)\n- **Richtung:** Neutral (Abwartend).\n- **Konkret belegte Levels:** Kurs der früheren Analyse 246 USD (23.11.2023) (51:59), genannter aktueller Kurs 145 USD (-40%) (52:05), Forward-KGV 32 (51:12), EV/FCF 35 (51:18), Nettoverschuldung 1 Mrd. USD (50:23), Erwartetes Umsatzwachstum +13,58% p.a., EBIT +17,57% p.a., FCF +24% p.a. (49:27-49:35), Dividendenrendite 0,8% (49:58).\n- **Trigger:** Technische Bodenbildung und überzeugendere Price Action. (53:14, 55:34)\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** 3 Jahre fundamental (49:25), mittelfristig charttechnisch.\n\n### Unsicherheiten und sehenswerte Stellen\n- **Unsicherheiten:** Hohe Verschuldung bei Wingstop sowie der Einfluss der US-Zinsentwicklung und anstehender IPOs auf den Gesamtmarkt.\n- **Sehenswerte Stellen:** Sektorenrotations-Analyse ab 03:00, Diskussion zu Versicherungsmaklern & KI ab 30:15, Aktienporträt Wingstop ab 47:51.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-17T05:02:50.481533+00:00"
 }
