@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-17T02:31:08.278965+00:00",
-    "@wir-lieben-aktien": "2026-09-17T02:31:09.126228+00:00",
-    "@chartsekte": "2026-09-17T02:31:09.664058+00:00",
-    "@hkcm": "2026-09-17T02:31:10.277155+00:00",
-    "@phantombyhkcm": "2026-09-17T02:31:10.881689+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-17T02:31:11.610378+00:00",
-    "@aktien4future": "2026-09-17T02:31:12.165798+00:00",
-    "@Finanzbaer": "2026-09-17T02:31:12.829470+00:00",
-    "@Finanzwiesel": "2026-09-17T02:31:13.378388+00:00",
-    "@TradingKompass": "2026-09-17T02:31:13.947026+00:00",
-    "@TomVorwald": "2026-09-17T02:31:14.572105+00:00"
+    "@1OxTrading": "2026-09-17T03:01:14.183353+00:00",
+    "@wir-lieben-aktien": "2026-09-17T03:01:14.677897+00:00",
+    "@chartsekte": "2026-09-17T03:01:15.123407+00:00",
+    "@hkcm": "2026-09-17T03:01:15.622724+00:00",
+    "@phantombyhkcm": "2026-09-17T03:01:16.128288+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-17T03:01:16.596679+00:00",
+    "@aktien4future": "2026-09-17T03:01:17.101288+00:00",
+    "@Finanzbaer": "2026-09-17T03:01:17.622279+00:00",
+    "@Finanzwiesel": "2026-09-17T03:01:18.057472+00:00",
+    "@TradingKompass": "2026-09-17T03:01:18.583441+00:00",
+    "@TomVorwald": "2026-09-17T03:01:19.113916+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 87,
-    "last_attempt": "2026-09-16T22:01:25.765305+00:00"
+    "attempts": 88,
+    "last_attempt": "2026-09-17T03:01:19.168754+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -4101,8 +4101,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123231+00:00",
-    "attempts": 6,
-    "last_attempt": "2026-09-16T22:01:37.931295+00:00"
+    "attempts": 7,
+    "last_attempt": "2026-09-17T03:01:31.577677+00:00"
   },
   "4DLAeV-fSOo": {
     "id": "4DLAeV-fSOo",
@@ -4640,8 +4640,8 @@
     "handle": "@hkcm",
     "status": "pending",
     "discovered_at": "2026-09-16T16:31:08.167321+00:00",
-    "attempts": 2,
-    "last_attempt": "2026-09-16T22:01:31.832754+00:00"
+    "attempts": 3,
+    "last_attempt": "2026-09-17T03:01:25.517921+00:00"
   },
   "3nf5TizaDlk": {
     "id": "3nf5TizaDlk",
