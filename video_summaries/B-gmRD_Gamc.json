@@ -8,8 +8,8 @@
   "handle": "@wir-lieben-aktien",
   "status": "analysis_failed",
   "discovered_at": "2026-09-15T16:01:26.123300+00:00",
-  "attempts": 8,
-  "last_attempt": "2026-09-17T09:32:44.797336+00:00",
+  "attempts": 9,
+  "last_attempt": "2026-09-17T12:31:31.477069+00:00",
   "video_id": "B-gmRD_Gamc",
   "scanner_version": "video-first-v3"
 }
