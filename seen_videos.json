@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-17T21:31:05.408684+00:00",
-    "@wir-lieben-aktien": "2026-09-17T21:31:05.892651+00:00",
-    "@chartsekte": "2026-09-17T21:31:06.407612+00:00",
-    "@hkcm": "2026-09-17T21:31:06.896850+00:00",
-    "@phantombyhkcm": "2026-09-17T21:31:07.290944+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-17T21:31:07.682122+00:00",
-    "@aktien4future": "2026-09-17T21:31:08.097663+00:00",
-    "@Finanzbaer": "2026-09-17T21:31:08.621036+00:00",
-    "@Finanzwiesel": "2026-09-17T21:31:09.013108+00:00",
-    "@TradingKompass": "2026-09-17T21:31:09.453728+00:00",
-    "@TomVorwald": "2026-09-17T21:31:09.988607+00:00"
+    "@1OxTrading": "2026-09-17T22:01:21.906486+00:00",
+    "@wir-lieben-aktien": "2026-09-17T22:01:22.381831+00:00",
+    "@chartsekte": "2026-09-17T22:01:22.930051+00:00",
+    "@hkcm": "2026-09-17T22:01:23.461828+00:00",
+    "@phantombyhkcm": "2026-09-17T22:01:23.994566+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-17T22:01:24.458905+00:00",
+    "@aktien4future": "2026-09-17T22:01:24.950404+00:00",
+    "@Finanzbaer": "2026-09-17T22:01:25.510727+00:00",
+    "@Finanzwiesel": "2026-09-17T22:01:25.967583+00:00",
+    "@TradingKompass": "2026-09-17T22:01:26.556695+00:00",
+    "@TomVorwald": "2026-09-17T22:01:27.156973+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4309,8 +4309,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123280+00:00",
-    "attempts": 11,
-    "last_attempt": "2026-09-17T18:01:49.814124+00:00"
+    "attempts": 12,
+    "last_attempt": "2026-09-17T22:01:27.214369+00:00"
   },
   "QivoIay1WG8": {
     "id": "QivoIay1WG8",
@@ -4772,8 +4772,8 @@
     "handle": "@1OxTrading",
     "status": "pending",
     "discovered_at": "2026-09-17T18:31:20.319613+00:00",
-    "attempts": 1,
-    "last_attempt": "2026-09-17T18:31:25.213474+00:00"
+    "attempts": 2,
+    "last_attempt": "2026-09-17T22:01:33.335789+00:00"
   },
   "5LEX8pIckMA": {
     "id": "5LEX8pIckMA",
@@ -4785,8 +4785,8 @@
     "handle": "@chartsekte",
     "status": "pending",
     "discovered_at": "2026-09-17T18:31:21.183321+00:00",
-    "attempts": 1,
-    "last_attempt": "2026-09-17T18:32:29.973634+00:00"
+    "attempts": 2,
+    "last_attempt": "2026-09-17T22:01:39.744830+00:00"
   },
   "liEJMfE_PXg": {
     "id": "liEJMfE_PXg",
