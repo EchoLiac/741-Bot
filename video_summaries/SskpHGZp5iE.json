@@ -6,10 +6,82 @@
   "published": null,
   "channel": "10xTrading",
   "handle": "@1OxTrading",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-16T17:31:17.355764+00:00",
-  "attempts": 4,
-  "last_attempt": "2026-09-17T08:03:41.074594+00:00",
+  "attempts": 5,
+  "last_attempt": "2026-09-17T11:31:12.360456+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDas Video bietet eine technische Chartanalyse von zehn ausgewählten Aktien aus der 10X Watchlist unter Einbeziehung aktueller Makro- und Politivevents wie dem CLARITY Act und der FED-Zinsentscheidung (11:12). Der Sprecher identifiziert bei mehreren Titeln wie Western Digital, McDonald's und JPMorgan potenzielle Bodenbildungs- bzw. Supportzonen für Einstiege oder Trendwenden. Gleichzeitig wird bei stark gelaufenen oder makroökonomisch unter Druck stehenden Titeln wie Exxon Mobil zur Vorsicht und Absicherung gemahnt.\n\n**Typ:** mehrere Aktien\n\n---\n\n### Western Digital (WDC)\n* **Sprecherthese:** Die Aktie hat sich vom Hoch halbiert und beginnt interessante Support-Levels sowie eine Bodenbildung anzuvisieren (00:54, 01:08).\n* **Richtung:** Neutral bis leicht bullisch\n* **Levels:** Unterstützung/200-Tage-Linie; Trigger über 440,00 USD (01:32); Breakout-Level bei 525,00 USD (01:55).\n* **Trigger:** Kreuzen der blauen Trendlinie nach oben / Ausbruch über 440,00 USD (01:21, 01:32).\n* **Invalidierung:** Unter die Unterstützung bzw. 200-Tage-Linie (01:35, 02:08).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Dell Technologies (DELL)\n* **Sprecherthese:** Starkes Momentum mit neuem Allzeithoch und perfekter technischer Struktur (03:10, 03:27).\n* **Richtung:** Bullisch\n* **Levels:** Ziele bei 620,00 USD und 640,00 USD (03:40); Stopp/Absicherung unter 510,00 USD bzw. 520,00 USD (03:35, 04:05).\n* **Trigger:** Haltung des Momentums über der Ausbruchszone.\n* **Invalidierung:** Rückfall unter 510,00 USD / 520,00 USD (03:35, 04:05).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### McDonald's (MCD)\n* **Sprecherthese:** Befindet sich nach Schärferen Abverkäufen in einer Reifephase für einen Dip-Buy in der großen grünen Zielzone (04:14, 05:00).\n* **Richtung:** Bullisch für Rebound / Dip-Buy\n* **Levels:** Zielzone 250,00 USD (05:33); weitere Supports bei 230,00 USD und 243,00 USD (04:38, 04:45); Breakout-Trigger über 265,00 USD (05:48).\n* **Trigger:** Ausbruch über den Abwärtstrend und über 265,00 USD (05:45).\n* **Invalidierung:** Bruch der tiefen Unterstützungen unter 243,00 USD (04:45).\n* **Zeithorizont:** Langfristiges Portfolio / Mittelfristig (05:31).\n\n### Coherent Corp. (COHR)\n* **Sprecherthese:** Spannende Halbleiter-/Optik-Aktie mit Potenzial für ein Doppelboden-Setup nahe der 50-Wochen-Linie (06:05, 07:19).\n* **Richtung:** Bullisch\n* **Levels:** Zielzone/Struktur 127 % mit 80–90 % Potenzial (06:51); Alarm/Trigger bei 248,00 USD (07:08).\n* **Trigger:** Ausbilden eines höheren Tiefs / Doppelbodens über der Unterstützungsbox (06:33, 07:19).\n* **Invalidierung:** Nicht explizit beziffert, Bruch der Unterstützungsbox (07:06).\n* **Zeithorizont:** Blick aufs nächste Jahr / mittelfristig (07:21).\n\n### Nebius Group (NBIS)\n* **Sprecherthese:** Aktie zeigt ein ABCD-Muster im Top, testet derzeit ein höheres Tief; Risiko eines aggressiven Abverkaufs bei Bruch der Zone (07:26, 08:45).\n* **Richtung:** Neutral bis vorsichtig bullisch (sofern Support hält)\n* **Levels:** Hürde/Ausbruch bei 220,00 USD (08:39); kritische Unterstützungszone bei 200,00 USD – 195,00 USD (08:53).\n* **Trigger:** Ausbruch über 220,00 USD (08:39).\n* **Invalidierung:** Tagesschluss unter 195,00 USD / 200,00 USD (08:53, 08:57).\n* **Zeithorizont:** Kurzfristig.\n\n### Bloom Energy (BE)\n* **Sprecherthese:** Impulsiver Breakout über B nach ABCD-Muster und Re-Test der B-Zone; sehr gut positioniert für obere Zielzonen (09:33, 09:46).\n* **Richtung:** Bullisch\n* **Levels:** Unterstützungsbereich um 250,00 USD (09:57); Oberes Ziel bei 320,00 USD (10:03, 10:27).\n* **Trigger:** Erfolgreicher Re-Test der 20-Wochen-Linie / B-Ebene (09:47, 09:50).\n* **Invalidierung:** Kurse unter 250,00 USD (09:57, 10:25).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Coinbase Global (COIN)\n* **Sprecherthese:** Kurseinbruch durch gescheiterte Abstimmung zum CLARITY Act im US-Senat; könnte jedoch eine erneute Kaufgelegenheit an der Unterstützung darstellen (11:12, 13:10).\n* **Richtung:** Neutral bis bullisch für Rebound\n* **Levels:** Alarm/Trigger über 170,00 USD (12:50); Kaufzone/Support bei 145,00 USD – 150,00 USD (13:01).\n* **Trigger:** Rückkehr über 170,00 USD bzw. Halten der Kaufzone (12:50, 13:01).\n* **Invalidierung:** Nicht konkret genannt.\n* **Zeithorizont:** Nächste Wochen / Mittelfristig (13:07).\n\n### Robinhood Markets (HOOD)\n* **Sprecherthese:** Nach scharfem Rücksetzer von der Widerstandszone nähert sich die Aktie einer attraktiven Kaufzone nahe der 200-Tage-Linie (13:25, 14:42).\n* **Richtung:** Bullisch für Buy-the-Dip\n* **Levels:** Widerstand aus 161 % Fibonacci bei 120,00 USD (13:41); Kaufzone bei ca. 95,00 USD / 200-Tage-Linie (14:43).\n* **Trigger:** Stabilisierung innerhalb der nächsten 10 % nach unten (15:01).\n* **Invalidierung:** Nicht näher beziffert.\n* **Zeithorizont:** Mittelfristig / nächster Kryptozyklus (13:55).\n\n### JPMorgan Chase & Co. (JPM)\n* **Sprecherthese:** Nach starkem Sell-Off gab es eine brachiale Intraday-Reversalkertze (Bullish Engulfing / Bamboozle) an der Confluence-Zielzone (16:35, 17:13).\n* **Richtung:** Bullisch\n* **Levels:** Confluence-Zone / Tief der Reversalkerze (17:13, 17:35).\n* **Trigger:** Bestätigung des Reversals oberhalb des gestrigen Tiefs (17:35, 17:50).\n* **Invalidierung:** Fällt der Kurs unter das Tief der Reversalkerze (17:36).\n* **Zeithorizont:** Kurzfristig.\n\n### Exxon Mobil (XOM)\n* **Sprecherthese:** Zeigt deutliche Schwächesignale am Widerstand; Risiko eines strukturellen Breaks nach unten (18:14, 19:04, 19:32).\n* **Richtung:** Bärisch / Vorsichtig\n* **Levels:** Wichtige Zone/Unterstützung bei 160,00 USD (20:09); Marke von 163,00 USD (20:17).\n* **Trigger:** Unterbleiben von Kursanstiegen / Bruch unter die 20-Tage-Linie und 160,00 USD (19:11, 20:09).\n* **Invalidierung:** Halten oberhalb von 163,00 USD (20:16).\n* **Zeithorizont:** Mittelfristig.\n\n---\n\n### Unsicherheiten & Sehenswerte Videostellen\n* **Unsicherheiten:** Die gescheiterte Senatsabstimmung zum CLARITY Act (11:12) erzeugt politische Unsicherheit im Kryptosektor. Zudem hängt die Entwicklung von Banken (JPM) und Ölwerte (XOM) stark von der FED-Zinsentscheidung (12:46) und geopolitischen Ereignissen ab.\n* **Sehenswerte Stellen:** \n  * **11:12 - 12:12:** Detaillierte Folie und Analyse zum Ergebnis des CLARITY Act im Senat.\n  * **16:30 - 17:20:** Anschauliche Erklärung der „Bamboozle“-Reversalkerze und Scanner-Konfluenz bei JPMorgan.",
+  "evidence": [
+    {
+      "timestamp": "01:32",
+      "basis": "audio",
+      "observation": "Sprecher nennt Alarm/Trigger über 440,00 USD bei Western Digital."
+    },
+    {
+      "timestamp": "03:35",
+      "basis": "audio",
+      "observation": "Sprecher nennt Preisalarm/Absicherung unter 510,00 USD bei Dell."
+    },
+    {
+      "timestamp": "04:38",
+      "basis": "audio",
+      "observation": "Sprecher identifiziert Supports bei McDonald's bei 230,00 USD und 243,00 USD."
+    },
+    {
+      "timestamp": "07:08",
+      "basis": "audio",
+      "observation": "Sprecher setzt Preisalarm bei Coherent bei 248,00 USD."
+    },
+    {
+      "timestamp": "08:53",
+      "basis": "audio",
+      "observation": "Sprecher benennt kritische Unterstützung bei Nebius bei 200,00 USD bis 195,00 USD."
+    },
+    {
+      "timestamp": "10:03",
+      "basis": "audio",
+      "observation": "Sprecher nennt Kursziel von 320,00 USD für Bloom Energy."
+    },
+    {
+      "timestamp": "11:12",
+      "basis": "visual",
+      "observation": "Eingeblendetes Informationsblatt mit Abstimmungsergebnissen zum CLARITY Act im Senat (50 zu 49 Stimmen, gefordert 60)."
+    },
+    {
+      "timestamp": "12:50",
+      "basis": "audio",
+      "observation": "Sprecher setzt Preisalarm für Coinbase über 170,00 USD."
+    },
+    {
+      "timestamp": "14:43",
+      "basis": "audio",
+      "observation": "Sprecher nennt 200-Tage-Linie bei ca. 95,00 USD als Kaufzone für Robinhood."
+    },
+    {
+      "timestamp": "17:13",
+      "basis": "audio",
+      "observation": "Sprecher erklärt das Zusammentreffen (Confluence) von ABCD-Scanner und Harmonic-Scanner bei JPMorgan."
+    },
+    {
+      "timestamp": "20:09",
+      "basis": "audio",
+      "observation": "Sprecher setzt Alarm für deutlichen Bruch bei Exxon Mobil in Richtung 160,00 USD."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "SskpHGZp5iE",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-17T11:31:41.618901+00:00",
+  "discord_chunks": [
+    "🎬 **10xTrading**\n**🚨 10 AKTIEN 💥 Coinbase McDonalds Nebius Robinhood Exxon Dell JPMorgan Western Digital Coherent Bloom**\nhttps://www.youtube.com/watch?v=SskpHGZp5iE\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDas Video bietet eine technische Chartanalyse von zehn ausgewählten Aktien aus der 10X Watchlist unter Einbeziehung aktueller Makro- und Politivevents wie dem CLARITY Act und der FED-Zinsentscheidung (11:12). Der Sprecher identifiziert bei mehreren Titeln wie Western Digital, McDonald's und JPMorgan potenzielle Bodenbildungs- bzw. Supportzonen für Einstiege oder Trendwenden. Gleichzeitig wird bei stark gelaufenen oder makroökonomisch unter Druck stehenden Titeln wie Exxon Mobil zur Vorsicht und Absicherung gemahnt.\n\n**Typ:** mehrere Aktien\n\n---\n\n### Western Digital (WDC)\n* **Sprecherthese:** Die Aktie hat sich vom Hoch halbiert und beginnt interessante Support-Levels sowie eine Bodenbildung anzuvisieren (00:54, 01:08).\n* **Richtung:** Neutral bis leicht bullisch\n* **Levels:** Unterstützung/200-Tage-Linie; Trigger über 440,00 USD (01:32); Breakout-Level bei 525,00 USD (01:55).\n* **Trigger:** Kreuzen der blauen Trendlinie nach oben / Ausbruch über 440,00 USD (01:21, 01:32).\n* **Invalidierung:** Unter die Unterstützung bzw. 200-Tage-Linie (01:35, 02:08).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Dell Technologies (DELL)\n* **Sprecherthese:** Starkes Momentum mit neuem Allzeithoch und perfekter technischer Struktur (03:10, 03:27).\n* **Richtung:** Bullisch\n* **Levels:** Ziele bei 620,00 USD und 640,00 USD (03:40); Stopp/Absicherung unter 510,00 USD bzw. 520,00 USD (03:35, 04:05).\n* **Trigger:** Haltung des Momentums über der Ausbruchszone.\n* **Invalidierung:** Rückfall unter 510,00 USD / 520,00 USD (03:35, 04:05).\n* ",
+    "**Zeithorizont:** Kurz- bis mittelfristig.\n\n### McDonald's (MCD)\n* **Sprecherthese:** Befindet sich nach Schärferen Abverkäufen in einer Reifephase für einen Dip-Buy in der großen grünen Zielzone (04:14, 05:00).\n* **Richtung:** Bullisch für Rebound / Dip-Buy\n* **Levels:** Zielzone 250,00 USD (05:33); weitere Supports bei 230,00 USD und 243,00 USD (04:38, 04:45); Breakout-Trigger über 265,00 USD (05:48).\n* **Trigger:** Ausbruch über den Abwärtstrend und über 265,00 USD (05:45).\n* **Invalidierung:** Bruch der tiefen Unterstützungen unter 243,00 USD (04:45).\n* **Zeithorizont:** Langfristiges Portfolio / Mittelfristig (05:31).\n\n### Coherent Corp. (COHR)\n* **Sprecherthese:** Spannende Halbleiter-/Optik-Aktie mit Potenzial für ein Doppelboden-Setup nahe der 50-Wochen-Linie (06:05, 07:19).\n* **Richtung:** Bullisch\n* **Levels:** Zielzone/Struktur 127 % mit 80–90 % Potenzial (06:51); Alarm/Trigger bei 248,00 USD (07:08).\n* **Trigger:** Ausbilden eines höheren Tiefs / Doppelbodens über der Unterstützungsbox (06:33, 07:19).\n* **Invalidierung:** Nicht explizit beziffert, Bruch der Unterstützungsbox (07:06).\n* **Zeithorizont:** Blick aufs nächste Jahr / mittelfristig (07:21).\n\n### Nebius Group (NBIS)\n* **Sprecherthese:** Aktie zeigt ein ABCD-Muster im Top, testet derzeit ein höheres Tief; Risiko eines aggressiven Abverkaufs bei Bruch der Zone (07:26, 08:45).\n* **Richtung:** Neutral bis vorsichtig bullisch (sofern Support hält)\n* **Levels:** Hürde/Ausbruch bei 220,00 USD (08:39); kritische Unterstützungszone bei 200,00 USD – 195,00 USD (08:53).\n* **Trigger:** Ausbruch über 220,00 USD (08:39).\n* **Invalidierung:** Tagesschluss unter 195,00 USD / 200,00 USD (08:53, 08:57).\n* **Zeithorizont:** Kurzfristig.\n\n### Bloom Energy (BE)\n* **Sprecherthese:** Impulsiver Breakout über B nach ABCD-",
+    "Muster und Re-Test der B-Zone; sehr gut positioniert für obere Zielzonen (09:33, 09:46).\n* **Richtung:** Bullisch\n* **Levels:** Unterstützungsbereich um 250,00 USD (09:57); Oberes Ziel bei 320,00 USD (10:03, 10:27).\n* **Trigger:** Erfolgreicher Re-Test der 20-Wochen-Linie / B-Ebene (09:47, 09:50).\n* **Invalidierung:** Kurse unter 250,00 USD (09:57, 10:25).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Coinbase Global (COIN)\n* **Sprecherthese:** Kurseinbruch durch gescheiterte Abstimmung zum CLARITY Act im US-Senat; könnte jedoch eine erneute Kaufgelegenheit an der Unterstützung darstellen (11:12, 13:10).\n* **Richtung:** Neutral bis bullisch für Rebound\n* **Levels:** Alarm/Trigger über 170,00 USD (12:50); Kaufzone/Support bei 145,00 USD – 150,00 USD (13:01).\n* **Trigger:** Rückkehr über 170,00 USD bzw. Halten der Kaufzone (12:50, 13:01).\n* **Invalidierung:** Nicht konkret genannt.\n* **Zeithorizont:** Nächste Wochen / Mittelfristig (13:07).\n\n### Robinhood Markets (HOOD)\n* **Sprecherthese:** Nach scharfem Rücksetzer von der Widerstandszone nähert sich die Aktie einer attraktiven Kaufzone nahe der 200-Tage-Linie (13:25, 14:42).\n* **Richtung:** Bullisch für Buy-the-Dip\n* **Levels:** Widerstand aus 161 % Fibonacci bei 120,00 USD (13:41); Kaufzone bei ca. 95,00 USD / 200-Tage-Linie (14:43).\n* **Trigger:** Stabilisierung innerhalb der nächsten 10 % nach unten (15:01).\n* **Invalidierung:** Nicht näher beziffert.\n* **Zeithorizont:** Mittelfristig / nächster Kryptozyklus (13:55).\n\n### JPMorgan Chase & Co. (JPM)\n* **Sprecherthese:** Nach starkem Sell-Off gab es eine brachiale Intraday-Reversalkertze (Bullish Engulfing / Bamboozle) an der Confluence-Zielzone (16:35, 17:13).\n* **Richtung:** Bullisch\n* **Levels:** Confluence-Zone / Tief der Reversalkerze (17:13, 17:35).\n* **Trigge",
+    "r:** Bestätigung des Reversals oberhalb des gestrigen Tiefs (17:35, 17:50).\n* **Invalidierung:** Fällt der Kurs unter das Tief der Reversalkerze (17:36).\n* **Zeithorizont:** Kurzfristig.\n\n### Exxon Mobil (XOM)\n* **Sprecherthese:** Zeigt deutliche Schwächesignale am Widerstand; Risiko eines strukturellen Breaks nach unten (18:14, 19:04, 19:32).\n* **Richtung:** Bärisch / Vorsichtig\n* **Levels:** Wichtige Zone/Unterstützung bei 160,00 USD (20:09); Marke von 163,00 USD (20:17).\n* **Trigger:** Unterbleiben von Kursanstiegen / Bruch unter die 20-Tage-Linie und 160,00 USD (19:11, 20:09).\n* **Invalidierung:** Halten oberhalb von 163,00 USD (20:16).\n* **Zeithorizont:** Mittelfristig.\n\n---\n\n### Unsicherheiten & Sehenswerte Videostellen\n* **Unsicherheiten:** Die gescheiterte Senatsabstimmung zum CLARITY Act (11:12) erzeugt politische Unsicherheit im Kryptosektor. Zudem hängt die Entwicklung von Banken (JPM) und Ölwerte (XOM) stark von der FED-Zinsentscheidung (12:46) und geopolitischen Ereignissen ab.\n* **Sehenswerte Stellen:** \n  * **11:12 - 12:12:** Detaillierte Folie und Analyse zum Ergebnis des CLARITY Act im Senat.\n  * **16:30 - 17:20:** Anschauliche Erklärung der „Bamboozle“-Reversalkerze und Scanner-Konfluenz bei JPMorgan.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 4,
+  "discord_sent_at": "2026-09-17T11:31:42.581232+00:00"
 }
