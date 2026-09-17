@@ -6,10 +6,80 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123300+00:00",
-  "attempts": 10,
-  "last_attempt": "2026-09-17T15:31:33.490175+00:00",
+  "attempts": 11,
+  "last_attempt": "2026-09-17T19:31:14.091405+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDieses Bildungsvideo erklärt die Funktionsweise des Discounted Earnings Modells (DEM) zur professionellen Aktienbewertung im Vergleich zu einfachen Kennzahlen wie dem KGV (00:11). Am Praxisbeispiel der Nestlé-Aktie wird gezeigt, wie zukünftige Gewinne geschätzt, über spezifische Eigenkapitalkosten abgezinst und in faire Werte sowie langfristige Renditeerwartungen überführt werden (01:30, 11:40). Über einen 10-Jahres-Horizont wird damit eine systematische Analyse von Unter- oder Überbewertungen ermöglicht (19:09).\n\n### Typ\nBildung (mit Praxisbeispiel Nestlé)\n\n### Methode / Regeln / Fehler\n- **Methode**: Ermittlung des fairen Unternehmenswerts durch Abzinsung der prognostizierten Reingewinne der nächsten 10 Jahre sowie der ewigen Rente (01:30, 14:28). Die Diskontierung erfolgt über die Eigenkapitalkosten, welche sich aus dem risikolosen Basiszins (0,41 % in CHF, 07:58), der Marktrendite (8 %, 08:42) und dem unternehmensspezifischen Beta-Faktor (0,80 für Nestlé, 11:13) zusammensetzen.\n- **Regeln**: Berücksichtigung von Umsatzwachstum, EBIT-Margen, Steuern/Zinsen, Ausschüttungsquote (Dividenden), Aktienrückkäufen und Quellsteuern (12:40, 16:46). Gegenüberstellung eines optimistischen und eines pessimistischen Szenarios zur Risikoreduktion (15:55).\n- **Fehler**: Ausschließliche Orientierung am KGV ohne Berücksichtigung des Zeitwerts des Geldes, der Kapitalkosten oder unterschiedlicher Risikoprofile von Unternehmen (00:11, 09:25, 20:15).\n\n### Behandelte Aktie: Nestlé\n- **Sprecherthese**: Nestlé ist auf Basis des Discounted Earnings Modells aktuell unterbewertet und bietet eine solide Renditeerwartung bei vergleichsweise geringem Risiko (15:43, 17:40).\n- **Richtung**: Positiv / Unterbewertet (15:37).\n- **Konkret belegte Levels**: Aktueller Modellkurs: 80,87 CHF (15:33); Fairer Wert je Aktie (optimistisch): 110,86 CHF (15:33); Unterbewertung optimistisch: 37 % (15:38); Unterbewertung pessimistisch: 3,6 % (16:14); Renditeerwartung optimistisch: 9 % p.a. (17:34); Renditeerwartung pessimistisch: ca. 6 % p.a. (18:32).\n- **Trigger**: Nicht genannt.\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: 10 Jahre (Prognosezeitraum bis 2035) (19:09).\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten**: Langfristige Gewinnschätzungen über 10 Jahre unterliegen Prognoserisiken; Aktienkursverläufe schwanken in Wellenbewegungen und verlaufen nicht linear entlang der Modellannahmen (19:14).\n- **Sehenswerte Stellen**:\n  - `06:12`: Visualisierung des Abzinsungseffekts und des Zinsanzeigers im \"Abzinsungs-Animator\".\n  - `07:50`: Herleitung der Eigenkapitalkosten und Erklärung der Bedeutung des Beta-Faktors.\n  - `15:20`: Gegenüberstellung von optimistischem und pessimistischem Szenario für Nestlé.",
+  "evidence": [
+    {
+      "timestamp": "00:11",
+      "basis": "audio",
+      "observation": "Jan kritisiert, dass viele Anleger nur auf das KGV schauen und zeigt eine professionelle Bewertungsmethode."
+    },
+    {
+      "timestamp": "01:15",
+      "basis": "audio",
+      "observation": "Vorstellung des Discounted Earnings Modells (DEM) am Beispiel von Nestlé."
+    },
+    {
+      "timestamp": "06:12",
+      "basis": "visual",
+      "observation": "Einblendung 'Der Abzinsungs-Animator' zeigt die grafische Abzinsung von Nominalwerten über 10 Jahre bei variablen Diskontierungssätzen."
+    },
+    {
+      "timestamp": "07:58",
+      "basis": "visual",
+      "observation": "Excel-Tabelle zeigt risikolosen Basiszins von 0,41 % für Nestlé im Schweizer Währungsraum."
+    },
+    {
+      "timestamp": "08:42",
+      "basis": "visual",
+      "observation": "Excel-Tabelle weist eine angesetzte Marktrendite von 8,00 % aus."
+    },
+    {
+      "timestamp": "11:13",
+      "basis": "visual",
+      "observation": "Excel-Tabelle zeigt einen aktienspezifischen Beta-Faktor von 0,80 und daraus errechnete Eigenkapitalkosten von 6,48 %."
+    },
+    {
+      "timestamp": "15:33",
+      "basis": "visual",
+      "observation": "Tabelle zeigt Nestlé Marktpreis bei 80,87 CHF und fairen Wert je Aktie bei 110,86 CHF (optimistisch)."
+    },
+    {
+      "timestamp": "15:38",
+      "basis": "audio",
+      "observation": "Sprecher nennt eine errechnete Unterbewertung von 37 % im optimistischen Szenario."
+    },
+    {
+      "timestamp": "16:14",
+      "basis": "visual",
+      "observation": "Im pessimistischen Szenario zeigt die Tabelle eine Unterbewertung von 3,6 %."
+    },
+    {
+      "timestamp": "17:34",
+      "basis": "visual",
+      "observation": "Tabelle weist im optimistischen Szenario bei einem KGV von 20 eine Renditeerwartung von 9,01 % aus."
+    },
+    {
+      "timestamp": "18:32",
+      "basis": "visual",
+      "observation": "Tabelle weist im pessimistischen Szenario eine Renditeerwartung von 5,99 % aus."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "B-gmRD_Gamc",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-17T19:31:50.853500+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Aktien professionell bewerten mit dem Discounted Earnings Modell - Aktien analysieren für Anfänger**\nhttps://www.youtube.com/watch?v=B-gmRD_Gamc\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDieses Bildungsvideo erklärt die Funktionsweise des Discounted Earnings Modells (DEM) zur professionellen Aktienbewertung im Vergleich zu einfachen Kennzahlen wie dem KGV (00:11). Am Praxisbeispiel der Nestlé-Aktie wird gezeigt, wie zukünftige Gewinne geschätzt, über spezifische Eigenkapitalkosten abgezinst und in faire Werte sowie langfristige Renditeerwartungen überführt werden (01:30, 11:40). Über einen 10-Jahres-Horizont wird damit eine systematische Analyse von Unter- oder Überbewertungen ermöglicht (19:09).\n\n### Typ\nBildung (mit Praxisbeispiel Nestlé)\n\n### Methode / Regeln / Fehler\n- **Methode**: Ermittlung des fairen Unternehmenswerts durch Abzinsung der prognostizierten Reingewinne der nächsten 10 Jahre sowie der ewigen Rente (01:30, 14:28). Die Diskontierung erfolgt über die Eigenkapitalkosten, welche sich aus dem risikolosen Basiszins (0,41 % in CHF, 07:58), der Marktrendite (8 %, 08:42) und dem unternehmensspezifischen Beta-Faktor (0,80 für Nestlé, 11:13) zusammensetzen.\n- **Regeln**: Berücksichtigung von Umsatzwachstum, EBIT-Margen, Steuern/Zinsen, Ausschüttungsquote (Dividenden), Aktienrückkäufen und Quellsteuern (12:40, 16:46). Gegenüberstellung eines optimistischen und eines pessimistischen Szenarios zur Risikoreduktion (15:55).\n- **Fehler**: Ausschließliche Orientierung am KGV ohne Berücksichtigung des Zeitwerts des Geldes, der Kapitalkosten oder unterschiedlicher Risikoprofile von Unternehmen (00:11, 09:25, 20:15).\n\n### Behandelte Aktie: Nestlé\n- **Sprecherthese**: Nestlé ist auf Basis des Discoun",
+    "ted Earnings Modells aktuell unterbewertet und bietet eine solide Renditeerwartung bei vergleichsweise geringem Risiko (15:43, 17:40).\n- **Richtung**: Positiv / Unterbewertet (15:37).\n- **Konkret belegte Levels**: Aktueller Modellkurs: 80,87 CHF (15:33); Fairer Wert je Aktie (optimistisch): 110,86 CHF (15:33); Unterbewertung optimistisch: 37 % (15:38); Unterbewertung pessimistisch: 3,6 % (16:14); Renditeerwartung optimistisch: 9 % p.a. (17:34); Renditeerwartung pessimistisch: ca. 6 % p.a. (18:32).\n- **Trigger**: Nicht genannt.\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: 10 Jahre (Prognosezeitraum bis 2035) (19:09).\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten**: Langfristige Gewinnschätzungen über 10 Jahre unterliegen Prognoserisiken; Aktienkursverläufe schwanken in Wellenbewegungen und verlaufen nicht linear entlang der Modellannahmen (19:14).\n- **Sehenswerte Stellen**:\n  - `06:12`: Visualisierung des Abzinsungseffekts und des Zinsanzeigers im \"Abzinsungs-Animator\".\n  - `07:50`: Herleitung der Eigenkapitalkosten und Erklärung der Bedeutung des Beta-Faktors.\n  - `15:20`: Gegenüberstellung von optimistischem und pessimistischem Szenario für Nestlé.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-17T19:31:51.397729+00:00"
 }
