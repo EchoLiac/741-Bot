@@ -6,10 +6,50 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T17:01:19.092556+00:00",
-  "attempts": 9,
-  "last_attempt": "2026-09-17T13:02:49.550779+00:00",
+  "attempts": 10,
+  "last_attempt": "2026-09-17T16:02:09.477016+00:00",
+  "content_available": true,
+  "summary": "**Kernaussage**\nHöhere Zinsen mindern den heutigen Barwert zukünftiger Unternehmensgewinne und erhöhen die Konkurrenz durch sichere Anlageformen wie Staatsanleihen (01:10, 05:58). Zudem verteuern sie die Unternehmensfinanzierung und bremsen die Nachfrage, was zeitverzögert die Gewinne belastet (07:33, 11:41). Als vereinfachte Faustformel gilt: Zinsen hoch, Wirtschaft runter, Aktien runter (12:03).\n\n**Typ**\nMarkt/Makro & Bildung (Wirkungskanäle von Zinserhöhungen auf Wirtschaft und Aktienmärkte).\n\n**Wirkungsmechanismen der Zinsänderung**\n- **Kanal 1: Bewertung / Abzinsung (02:01)**: Zukünftige Cashflows werden höher abgezinst. Je weiter Gewinne in der Zukunft liegen (z. B. bei Wachstumsaktien), desto stärker sinkt ihr heutiger Barwert (04:05, 05:03).\n- **Kanal 4: Konkurrenz durch Alternativen (05:58)**: Steigende Zinsen machen Anleihen und Festgeld attraktiv. Wenn risikofreie Staatsanleihen mehr Rendite bringen als die Gewinnrendite von Aktien, sinkt die Aktiennachfrage (07:01).\n- **Kanal 2: Finanzierungskosten (07:33)**: Höhere Zinsen verteuern die Refinanzierung von Schulden, was Gewinnmargen belastet (08:14).\n- **Kanal 3: Nachfrage / Wirtschaftswachstum (09:07)**: Teurere Kredite bremsen Konsum und Investitionen (z. B. Bau, Autos), was mit 2 bis 6 Quartalen Verzögerung die Unternehmensgewinne mindert (09:20, 11:33).\n\n**Regeln & Fehler**\n- **Fehler**: Zu glauben, Zinserhöhungen wirken nur unmittelbar auf Kurse. Die realwirtschaftlichen Effekte auf Gewinne zeigen sich zeitversetzt (01:31).\n- **Notwendigkeit**: Zinserhöhungen sind das primäre Werkzeug der Zentralbanken, um Geldmenge und Inflation zu kontrollieren (00:46, 12:35).\n\n**Unbekannte / Nicht genannte Angaben**\nKonkrete Kursziele oder Einzelaktienanalysen werden nicht genannt.\n\n**Unsicherheiten & Sehenswerte Stellen**\n- **Sehenswert (05:03)**: Die Grafik veranschaulicht eindrücklich, wie stark eine Änderung des Diskontierungssatzes um 1 Prozentpunkt den fairen Bewertungsmultipler verändert.\n- **Sehenswert (07:01)**: Historischer Vergleich der S&P 500 Gewinnrendite mit der Rendite 10-jähriger US-Staatsanleihen.\n- **Unsicherheit**: Die zeitliche Verzögerung und Intensität, mit der höhere Finanzierungskosten die Unternehmensergebnisse in verschiedenen Branchen treffen.",
+  "evidence": [
+    {
+      "timestamp": "01:10",
+      "basis": "visual",
+      "observation": "Eingeblendete Grafik 'Vier Kanäle, über die ein höherer Zins in die Aktie läuft' strukturiert die Wirkung in Bewertung, Finanzierung, Nachfrage und Konkurrenz."
+    },
+    {
+      "timestamp": "05:03",
+      "basis": "visual",
+      "observation": "Grafik zeigt den Einfluss des Diskontsatzes (5% bis 10%) auf den gerechtfertigten Multiplikator eines Modellunternehmens."
+    },
+    {
+      "timestamp": "07:01",
+      "basis": "visual",
+      "observation": "Chart vergleicht seit 2000 die Gewinnrendite des S&P 500 mit der Rendite 10-jähriger US-Staatsanleihen."
+    },
+    {
+      "timestamp": "09:35",
+      "basis": "audio",
+      "observation": "Sprecher erwähnt Investitionen von Jeff Bezos, Sam Altman und Peter Thiel in das Thema Longevity / Altersverlangsamung."
+    },
+    {
+      "timestamp": "12:03",
+      "basis": "audio",
+      "observation": "Sprecher fasst zusammen: Zinsen hoch, Wirtschaft runter, Aktien runter."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "P7m6TrZ7s9I",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-17T16:02:36.391069+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Interest Rates Are Rising – This Is What Happens to Your Stocks Now!**\nhttps://www.youtube.com/watch?v=P7m6TrZ7s9I\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n**Kernaussage**\nHöhere Zinsen mindern den heutigen Barwert zukünftiger Unternehmensgewinne und erhöhen die Konkurrenz durch sichere Anlageformen wie Staatsanleihen (01:10, 05:58). Zudem verteuern sie die Unternehmensfinanzierung und bremsen die Nachfrage, was zeitverzögert die Gewinne belastet (07:33, 11:41). Als vereinfachte Faustformel gilt: Zinsen hoch, Wirtschaft runter, Aktien runter (12:03).\n\n**Typ**\nMarkt/Makro & Bildung (Wirkungskanäle von Zinserhöhungen auf Wirtschaft und Aktienmärkte).\n\n**Wirkungsmechanismen der Zinsänderung**\n- **Kanal 1: Bewertung / Abzinsung (02:01)**: Zukünftige Cashflows werden höher abgezinst. Je weiter Gewinne in der Zukunft liegen (z. B. bei Wachstumsaktien), desto stärker sinkt ihr heutiger Barwert (04:05, 05:03).\n- **Kanal 4: Konkurrenz durch Alternativen (05:58)**: Steigende Zinsen machen Anleihen und Festgeld attraktiv. Wenn risikofreie Staatsanleihen mehr Rendite bringen als die Gewinnrendite von Aktien, sinkt die Aktiennachfrage (07:01).\n- **Kanal 2: Finanzierungskosten (07:33)**: Höhere Zinsen verteuern die Refinanzierung von Schulden, was Gewinnmargen belastet (08:14).\n- **Kanal 3: Nachfrage / Wirtschaftswachstum (09:07)**: Teurere Kredite bremsen Konsum und Investitionen (z. B. Bau, Autos), was mit 2 bis 6 Quartalen Verzögerung die Unternehmensgewinne mindert (09:20, 11:33).\n\n**Regeln & Fehler**\n- **Fehler**: Zu glauben, Zinserhöhungen wirken nur unmittelbar auf Kurse. Die realwirtschaftlichen Effekte auf Gewinne zeigen sich zeitversetzt (01:31).\n- **Notwendigkeit**: Zinserhöhungen sind das primäre Werkzeug der Zent",
+    "ralbanken, um Geldmenge und Inflation zu kontrollieren (00:46, 12:35).\n\n**Unbekannte / Nicht genannte Angaben**\nKonkrete Kursziele oder Einzelaktienanalysen werden nicht genannt.\n\n**Unsicherheiten & Sehenswerte Stellen**\n- **Sehenswert (05:03)**: Die Grafik veranschaulicht eindrücklich, wie stark eine Änderung des Diskontierungssatzes um 1 Prozentpunkt den fairen Bewertungsmultipler verändert.\n- **Sehenswert (07:01)**: Historischer Vergleich der S&P 500 Gewinnrendite mit der Rendite 10-jähriger US-Staatsanleihen.\n- **Unsicherheit**: Die zeitliche Verzögerung und Intensität, mit der höhere Finanzierungskosten die Unternehmensergebnisse in verschiedenen Branchen treffen.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-17T16:02:37.308725+00:00"
 }
