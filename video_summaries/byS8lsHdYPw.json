@@ -6,10 +6,56 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123231+00:00",
-  "attempts": 7,
-  "last_attempt": "2026-09-17T03:01:38.360364+00:00",
+  "attempts": 8,
+  "last_attempt": "2026-09-17T07:31:55.526592+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nIn diesem Video wird ein bestehendes Einzelaktien-Depot im Wert von rund 22.400 € analysiert und von 13 auf 20 Positionen umstrukturiert. Ziel der Überarbeitung ist es, die Schwankungsbreite und historische Verlustphasen deutlich zu reduzieren, ohne dabei die erwartete Rendite abzusenken. Schwächeln oder unpassende Werte werden abgebaut und durch gezielte Neuerwerbungen aus verschiedenen Regionen (insbesondere APAC) und Branchen ersetzt.\n\n**Typ:** Bildung / Portfolioanalyse (mehrere Aktien)\n\n---\n\n### Analyse der Aktien & Portfolioumstrukturierung\n\n#### Aussortierte Positionen (Abbau)\n* **MP Materials (01:37):**\n  * **Sprecherthese:** Kurzfristig ist nach einer Korrektur zwar ein erneuter Impuls möglich, auf lange Sicht fehlt jedoch eine saubere, übergeordnete Aufwärtstrendstruktur (01:45).\n  * **Richtung:** Neutral bis Bärisch (Verkaufsempfehlung im Gesamtkontext).\n  * **Konkret belegte Levels:** Keine konkreten Preisziele oder Preisniveaus genannt.\n  * **Trigger / Invalidierung / Zeithorizont:** Haltung vertretbar, solange das aktuelle Momentum anhält; langfristig bevorzugt der Sprecher andere Titel (02:02).\n* **Ethernity Networks (02:08):**\n  * **Sprecherthese:** Befindet sich in einem dauerhaften Abwärtstrend, ist ein Penny Stock und besitzt wegen 0 € Wert im Depot keine Relevanz mehr (02:11).\n  * **Richtung:** Bärisch.\n  * **Konkret belegte Levels:** Nicht genannt.\n  * **Trigger / Invalidierung / Zeithorizont:** Nicht genannt.\n* **Rocket Lab (01:03):**\n  * **Sprecherthese:** Ausgliederung in ein zweites Depot (01:06).\n\n#### Neu hinzugefügte Zielpositionen (05:35)\n* **ASML:** Halbleiter / IT (EMEA)\n* **Constellation Software:** Software / IT (Americas)\n* **HDFC Bank:** Bankwesen aus Indien (APAC)\n* **Sea & Anta Sports:** Nicht-Basis-Konsumgüter (APAC)\n* **REA Group:** Kommunikation / Immobilien (Australien/APAC)\n* **ABB:** Industrie (Schweiz/EMEA)\n* **Equinix:** Rechenzentren / Immobilien (USA/Americas)\n* **Stryker:** Medizintechnik / Gesundheitswesen (USA/Americas)\n* **Toromont Industries:** Industrie (Kanada/Americas)\n\n---\n\n### Methode, Regeln & Portfoliogrundsätze (Bildung)\n* **Korrelationsanalyse (03:00):** Überprüfung der Positionen auf Gleichlauf (z. B. Klumpenrisiko bei Netflix & Meta mit Korrelation 0,71).\n* **Sektor- und Regionenallokation (03:37):** Gezielter Aufbau von bisher fehlenden Regionen (APAC mit 30 % Zielgewicht) sowie Erweiterung um ein Dividendenwachstums-Segment (15 % Zielgewicht).\n* **Rendite-Risiko-Optimierung (07:05):** Durch die Reduzierung von Korrelationen sinkt die historische Volatilität des Depots von 21,5 % p.a. auf 17,1 % p.a., während die erwartete Rendite mit rund 8,18 % p.a. stabil bleibt. Dadurch fallen historische Verlustphasen (Drawdowns) geringer aus.\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Unsicherheiten:** Die monatlichen Ersparnisse und laufenden Cashflows des Anlegers sind unbekannt (04:28, 08:01), weshalb der genaue zeitliche Ablauf des Umschichtens nicht exakt berechnet werden kann.\n* **Sehenswerte Stellen:**\n  * **01:37 - 02:14:** Chartanalysen zu MP Materials und Ethernity Networks.\n  * **03:00:** Analyse der Korrelationsmatrix des ursprünglichen Depots.\n  * **05:35:** Übersicht über alle 20 Zielpositionen des neuen Portfolios.\n  * **07:05:** Graphischer Vergleich des Rendite-Risiko-Profils und der Drawdowns.",
+  "evidence": [
+    {
+      "timestamp": "00:37",
+      "basis": "audio",
+      "observation": "Sprecher nennt Depotvolumen von 22.400 € mit 13 Positionen eines 25-jährigen Anlegers."
+    },
+    {
+      "timestamp": "01:37",
+      "basis": "visual",
+      "observation": "Einblenden des Wochentrend-Charts von MP Materials Corp Class A."
+    },
+    {
+      "timestamp": "02:09",
+      "basis": "visual",
+      "observation": "Einblenden des Wochentrend-Charts von Ethernity Networks Ltd."
+    },
+    {
+      "timestamp": "03:11",
+      "basis": "audio",
+      "observation": "Sprecher erwähnt Korrelation von 0,71 zwischen Netflix und Meta Platforms."
+    },
+    {
+      "timestamp": "05:35",
+      "basis": "visual",
+      "observation": "Einblenden der Übersicht mit den 20 Ziel-Positionen des überarbeiteten Depots."
+    },
+    {
+      "timestamp": "07:05",
+      "basis": "visual",
+      "observation": "Anzeige des Rendite-Risiko-Profils und der Volatilitätsverschiebung von 21,5 % auf 17,1 %."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "byS8lsHdYPw",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-17T07:32:35.359204+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**He picked good stocks and is still underwater!**\nhttps://www.youtube.com/watch?v=byS8lsHdYPw\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nIn diesem Video wird ein bestehendes Einzelaktien-Depot im Wert von rund 22.400 € analysiert und von 13 auf 20 Positionen umstrukturiert. Ziel der Überarbeitung ist es, die Schwankungsbreite und historische Verlustphasen deutlich zu reduzieren, ohne dabei die erwartete Rendite abzusenken. Schwächeln oder unpassende Werte werden abgebaut und durch gezielte Neuerwerbungen aus verschiedenen Regionen (insbesondere APAC) und Branchen ersetzt.\n\n**Typ:** Bildung / Portfolioanalyse (mehrere Aktien)\n\n---\n\n### Analyse der Aktien & Portfolioumstrukturierung\n\n#### Aussortierte Positionen (Abbau)\n* **MP Materials (01:37):**\n  * **Sprecherthese:** Kurzfristig ist nach einer Korrektur zwar ein erneuter Impuls möglich, auf lange Sicht fehlt jedoch eine saubere, übergeordnete Aufwärtstrendstruktur (01:45).\n  * **Richtung:** Neutral bis Bärisch (Verkaufsempfehlung im Gesamtkontext).\n  * **Konkret belegte Levels:** Keine konkreten Preisziele oder Preisniveaus genannt.\n  * **Trigger / Invalidierung / Zeithorizont:** Haltung vertretbar, solange das aktuelle Momentum anhält; langfristig bevorzugt der Sprecher andere Titel (02:02).\n* **Ethernity Networks (02:08):**\n  * **Sprecherthese:** Befindet sich in einem dauerhaften Abwärtstrend, ist ein Penny Stock und besitzt wegen 0 € Wert im Depot keine Relevanz mehr (02:11).\n  * **Richtung:** Bärisch.\n  * **Konkret belegte Levels:** Nicht genannt.\n  * **Trigger / Invalidierung / Zeithorizont:** Nicht genannt.\n* **Rocket Lab (01:03):**\n  * **Sprecherthese:** Ausgliederung in ein zweites Depot (01:06).\n\n#### Neu hinzugefügte Zielpositionen (05:3",
+    "5)\n* **ASML:** Halbleiter / IT (EMEA)\n* **Constellation Software:** Software / IT (Americas)\n* **HDFC Bank:** Bankwesen aus Indien (APAC)\n* **Sea & Anta Sports:** Nicht-Basis-Konsumgüter (APAC)\n* **REA Group:** Kommunikation / Immobilien (Australien/APAC)\n* **ABB:** Industrie (Schweiz/EMEA)\n* **Equinix:** Rechenzentren / Immobilien (USA/Americas)\n* **Stryker:** Medizintechnik / Gesundheitswesen (USA/Americas)\n* **Toromont Industries:** Industrie (Kanada/Americas)\n\n---\n\n### Methode, Regeln & Portfoliogrundsätze (Bildung)\n* **Korrelationsanalyse (03:00):** Überprüfung der Positionen auf Gleichlauf (z. B. Klumpenrisiko bei Netflix & Meta mit Korrelation 0,71).\n* **Sektor- und Regionenallokation (03:37):** Gezielter Aufbau von bisher fehlenden Regionen (APAC mit 30 % Zielgewicht) sowie Erweiterung um ein Dividendenwachstums-Segment (15 % Zielgewicht).\n* **Rendite-Risiko-Optimierung (07:05):** Durch die Reduzierung von Korrelationen sinkt die historische Volatilität des Depots von 21,5 % p.a. auf 17,1 % p.a., während die erwartete Rendite mit rund 8,18 % p.a. stabil bleibt. Dadurch fallen historische Verlustphasen (Drawdowns) geringer aus.\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Unsicherheiten:** Die monatlichen Ersparnisse und laufenden Cashflows des Anlegers sind unbekannt (04:28, 08:01), weshalb der genaue zeitliche Ablauf des Umschichtens nicht exakt berechnet werden kann.\n* **Sehenswerte Stellen:**\n  * **01:37 - 02:14:** Chartanalysen zu MP Materials und Ethernity Networks.\n  * **03:00:** Analyse der Korrelationsmatrix des ursprünglichen Depots.\n  * **05:35:** Übersicht über alle 20 Zielpositionen des neuen Portfolios.\n  * **07:05:** Graphischer Vergleich des Rendite-Risiko-Profils und der Drawdowns.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuell",
+    "en Handelssignale."
+  ],
+  "discord_next_chunk": 3,
+  "discord_sent_at": "2026-09-17T07:32:36.137774+00:00"
 }
