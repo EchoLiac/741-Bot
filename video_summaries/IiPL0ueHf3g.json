@@ -6,10 +6,82 @@
   "published": null,
   "channel": "10xTrading",
   "handle": "@1OxTrading",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-17T20:31:17.751785+00:00",
-  "attempts": 4,
-  "last_attempt": "2026-09-18T06:01:34.830295+00:00",
+  "attempts": 5,
+  "last_attempt": "2026-09-18T08:31:21.986289+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer US-Tech-Sektor verzeichnet nach der Fed-Zinsentscheidung und rückläufigen US-Anleiherenditen ein starkes Rebound, angeführt von Halbleiterwerten. Trotz anhaltender Volatilität und Makro-Unsicherheiten verteidigen zentrale Indizes wichtige Unterstützungszonen, was Aufwärtspotenzial für ausgewählte Tech-Aktien und Indizes eröffnet.\n\n**Typ:** Markt/Makro und mehrere Aktien\n\n### Makro & Rohstoffe (Öl, Gold, Bitcoin)\n- **Öl (WTI / CL1!) [08:15]**:\n  - **Sprecherthese:** Befindet sich nach Abweisung am Fibo-Level in einer Konsolidierung mit Abwärtsneigung.\n  - **Richtung:** Neutral bis leicht bärisch kurzfristig.\n  - **Levels:** Verlaufshoch bei 106,73 $ [08:27], Backtest-Zone um 100 $ [10:21], potenzielle Akkumulationszone um 94 $ [10:58].\n  - **Trigger:** Bruch unter 100 $ bestätigt technischen Rücksetzer [10:20].\n  - **Invalidierung:** Schlusskurs über 106,73 $.\n  - **Zeithorizont:** Kurz- bis mittelfristig.\n\n- **Gold (XAUUSD) [11:00]**:\n  - **Sprecherthese:** Bildet ein Wedge-Muster mit wichtiger Unterstützung im Bereich der gleitenden Durchschnitte.\n  - **Richtung:** Bullisch bei Halten der Unterstützung.\n  - **Levels:** Testzone / höheres Tief bei ca. 4.150 $ [11:23, 12:09].\n  - **Trigger:** Test und erfolgreiches Halten der Zone bei 4.150 $.\n  - **Invalidierung:** Nachhaltiger Bruch unter 4.150 $.\n  - **Zeithorizont:** Mittelfristig.\n\n- **Bitcoin (BTCUSD) [12:21]**:\n  - **Sprecherthese:** Konsolidiert über der Hauptunterstützung; schrittweiser Aufbau von Tranchen sinnvoll.\n  - **Richtung:** Neutral / Seitwärts mit Kaufabsicht bei Dips.\n  - **Levels:** Emergency-Tranche bei 75.000 $ [13:20], Nachkaufbereich unter 70.000 $ [13:41].\n  - **Trigger:** Rücksetzer in die genannten Kaufzonen.\n  - **Invalidierung:** Nicht genannt.\n  - **Zeithorizont:** Mittelfristig.\n\n### Indizes (S&P 500, Nasdaq 100, DAX)\n- **S&P 500 (SPX500) [15:01]**:\n  - **Sprecherthese:** Erholt sich nach Mean-Reversion an der 20-Wochen-Linie aggressiv nach oben.\n  - **Richtung:** Bullisch.\n  - **Levels:** Zielbereich um 7.680 Punkte [15:55], Systematic Sell Trigger / CTA-Level bei 7.580 Punkten [16:35].\n  - **Trigger:** Rückeroberung der 50-Tage-Linie.\n  - **Invalidierung:** Bruch unter 7.580 Punkte [16:35].\n  - **Zeithorizont:** Kurzfristig.\n\n- **Nasdaq 100 (NAS100) [16:38]**:\n  - **Sprecherthese:** Konsolidiert seit Mai in einer großen Bullenflagge mit höherem Tief.\n  - **Richtung:** Bullisch.\n  - **Levels:** Unterstützung bei 28.800 Punkten [17:37], Breakout-Trigger bei 29.700 Punkten [18:36], langfristiges Ziel 33.000 Punkte [17:52].\n  - **Trigger:** Tagesschlusskurs über 29.700 Punkten [18:36].\n  - **Invalidierung:** Schlusskurs unter 28.800 Punkten.\n  - **Zeithorizont:** Mittel- bis langfristig.\n\n- **DAX (GER40) [19:58]**:\n  - **Sprecherthese:** Zeigt bullischen Hammer an der 20-Tage-Linie und bricht aus dem Abwärtstrend aus.\n  - **Richtung:** Bullisch.\n  - **Levels:** Unterstützung bei 25.500 Punkten [20:35], Aufwärtsziel um 26.200 Punkte [20:44].\n  - **Trigger:** Ausbruch aus dem Abwärtstrend [20:01].\n  - **Invalidierung:** Kurs fällt unter 25.500 Punkte [20:35].\n  - **Zeithorizont:** Kurzfristig.\n\n### Einzelaktien (Nvidia, Marvell, CoreWeave, ServiceNow)\n- **Nvidia (NVDA) [22:01]**:\n  - **Sprecherthese:** Reagiert stark an der wichtigen Supportmarke und der 20-Wochen-Linie.\n  - **Richtung:** Bullisch.\n  - **Levels:** Support bei 212 $ [22:05], Gap-Widerstandszone bei 222 $ – 225 $ [22:26].\n  - **Trigger:** Halten der 212 $-Marke.\n  - **Invalidierung:** Bruch unter 212 $.\n  - **Zeithorizont:** Kurz- bis mittelfristig.\n\n- **Marvell Technology (MRVL) [23:11]**:\n  - **Sprecherthese:** Konsolidiert im Rising Wedge nahe eines horizontalen Widerstands.\n  - **Richtung:** Neutral mit Potenzial nach oben.\n  - **Levels:** Horizontaler Widerstand / Alarmzone bei ~260 $ [24:45], Gartley-Ziel bei 300 $ [23:39].\n  - **Trigger:** Ausbruch über 260 $.\n  - **Invalidierung:** Breakdown aus dem Rising Wedge.\n  - **Zeithorizont:** Mittelfristig.\n\n- **CoreWeave (CRWV) [25:07]**:\n  - **Sprecherthese:** Befindet sich in einem neutralen Dreieck; Handel auf Range-Grenzen ausgerichtet.\n  - **Richtung:** Seitwärts / Neutral.\n  - **Levels:** Support-Zone bei 60 $ – 65 $ (Buy-Level 64,90 $) [25:58, 26:06], Widerstandszone bei 100 $ – 120 $ [25:50].\n  - **Trigger:** Dip in die 60 $ – 65 $-Zone.\n  - **Invalidierung:** Ausbruch unter die Dreiecksunterkante.\n  - **Zeithorizont:** Mittelfristig.\n\n- **ServiceNow (NOW) [26:54]**:\n  - **Sprecherthese:** Kämpft am Schlüsselniveau des Höchststandes aus dem Jahr 2021.\n  - **Richtung:** Neutral / Entscheidung an Schlüsselzone.\n  - **Levels:** Schlüssel-Level (2021 Peak) bei ca. 140 $ - 150 $ [27:07], Abwärtsziel 90 $ – 100 $ [27:28], Aufwärtsziel 200 $ [27:33].\n  - **Trigger:** Nachgeben der 200-Wochen-Linie oder Ausbruch aus dem Abwärtstrend.\n  - **Invalidierung:** Nicht genannt.\n  - **Zeithorizont:** Mittelfristig.\n\n### Unsicherheiten & Sehenswerte Videostellen\n- **Unsicherheiten:** Der bevorstehende Hexensabbat (dreifacher Verfallstag) sowie die Entwicklung der 10-jährigen US-Anleiherenditen nahe der 5-%-Marke könnten kurzfristig erhöhte Schwankungen auslösen.\n- **Sehenswerte Stellen:**\n  - 08:27 – WTI Öl Fibonacci-Level Analyse\n  - 15:06 – S&P 500 Mean Reversion und CTA-Triggermarken\n  - 17:37 – Nasdaq 100 Bullenflagge und langfristiges Bild\n  - 22:05 – Nvidia Support-Test bei 212 $\n  - 27:07 – ServiceNow Test des historischen Hochs von 2021",
+  "evidence": [
+    {
+      "timestamp": "00:55",
+      "basis": "visual",
+      "observation": "Tagesplus des Nasdaq 100 von +1,6 % eingeblendet."
+    },
+    {
+      "timestamp": "08:27",
+      "basis": "visual",
+      "observation": "WTI Öl Chart zeigt Verlaufshoch genau am 78,6% Fibonacci-Retreacement bei 106,73 $."
+    },
+    {
+      "timestamp": "11:23",
+      "basis": "visual",
+      "observation": "Gold-Chart zeigt Wedge-Muster mit Rebound-Möglichkeit bei 4.150 $."
+    },
+    {
+      "timestamp": "13:20",
+      "basis": "audio",
+      "observation": "Sprecher erklärt die Erwägung einer Notfall-Tranche bei Bitcoin um 75.000 $."
+    },
+    {
+      "timestamp": "15:06",
+      "basis": "visual",
+      "observation": "S&P 500 Chart zeigt Reversal an der 20-Wochen-Linie; Sell Trigger bei 7.580 Punkten markiert."
+    },
+    {
+      "timestamp": "17:37",
+      "basis": "visual",
+      "observation": "Nasdaq 100 Chart zeigt Konsolidierung in Bullenflagge über Unterstützung bei 28.800 Punkten."
+    },
+    {
+      "timestamp": "20:00",
+      "basis": "visual",
+      "observation": "DAX Chart bricht aus Abwärtstrend aus mit Hammer-Kerze an der 20-Tage-Linie."
+    },
+    {
+      "timestamp": "22:05",
+      "basis": "visual",
+      "observation": "Nvidia Chart zeigt Abprall an der Unterstützungszone bei 212 $."
+    },
+    {
+      "timestamp": "24:45",
+      "basis": "visual",
+      "observation": "Marvell Technology Chart zeigt gesetzten Preisalarm nahe 260 $."
+    },
+    {
+      "timestamp": "26:06",
+      "basis": "visual",
+      "observation": "CoreWeave (CRWV) Chart zeigt Unterstützungs-Zielzone um 64,90 $."
+    },
+    {
+      "timestamp": "27:07",
+      "basis": "visual",
+      "observation": "ServiceNow (NOW) Chart hebt die Widerstandszone des Peak-Niveaus aus 2021 hervor."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "IiPL0ueHf3g",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-18T08:32:16.176379+00:00",
+  "discord_chunks": [
+    "🎬 **10xTrading**\n**🚨 TECH EXPLODIERT – Warum die Börse plötzlich komplett dreht 💥 Bitcoin 💥 Nvidia ServiceNow Gold**\nhttps://www.youtube.com/watch?v=IiPL0ueHf3g\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer US-Tech-Sektor verzeichnet nach der Fed-Zinsentscheidung und rückläufigen US-Anleiherenditen ein starkes Rebound, angeführt von Halbleiterwerten. Trotz anhaltender Volatilität und Makro-Unsicherheiten verteidigen zentrale Indizes wichtige Unterstützungszonen, was Aufwärtspotenzial für ausgewählte Tech-Aktien und Indizes eröffnet.\n\n**Typ:** Markt/Makro und mehrere Aktien\n\n### Makro & Rohstoffe (Öl, Gold, Bitcoin)\n- **Öl (WTI / CL1!) [08:15]**:\n  - **Sprecherthese:** Befindet sich nach Abweisung am Fibo-Level in einer Konsolidierung mit Abwärtsneigung.\n  - **Richtung:** Neutral bis leicht bärisch kurzfristig.\n  - **Levels:** Verlaufshoch bei 106,73 $ [08:27], Backtest-Zone um 100 $ [10:21], potenzielle Akkumulationszone um 94 $ [10:58].\n  - **Trigger:** Bruch unter 100 $ bestätigt technischen Rücksetzer [10:20].\n  - **Invalidierung:** Schlusskurs über 106,73 $.\n  - **Zeithorizont:** Kurz- bis mittelfristig.\n\n- **Gold (XAUUSD) [11:00]**:\n  - **Sprecherthese:** Bildet ein Wedge-Muster mit wichtiger Unterstützung im Bereich der gleitenden Durchschnitte.\n  - **Richtung:** Bullisch bei Halten der Unterstützung.\n  - **Levels:** Testzone / höheres Tief bei ca. 4.150 $ [11:23, 12:09].\n  - **Trigger:** Test und erfolgreiches Halten der Zone bei 4.150 $.\n  - **Invalidierung:** Nachhaltiger Bruch unter 4.150 $.\n  - **Zeithorizont:** Mittelfristig.\n\n- **Bitcoin (BTCUSD) [12:21]**:\n  - **Sprecherthese:** Konsolidiert über der Hauptunterstützung; schrittweiser Aufbau von Tranchen sinnvoll.\n  - **Richtung:** Neutral / Seitwärts mit Kauf",
+    "absicht bei Dips.\n  - **Levels:** Emergency-Tranche bei 75.000 $ [13:20], Nachkaufbereich unter 70.000 $ [13:41].\n  - **Trigger:** Rücksetzer in die genannten Kaufzonen.\n  - **Invalidierung:** Nicht genannt.\n  - **Zeithorizont:** Mittelfristig.\n\n### Indizes (S&P 500, Nasdaq 100, DAX)\n- **S&P 500 (SPX500) [15:01]**:\n  - **Sprecherthese:** Erholt sich nach Mean-Reversion an der 20-Wochen-Linie aggressiv nach oben.\n  - **Richtung:** Bullisch.\n  - **Levels:** Zielbereich um 7.680 Punkte [15:55], Systematic Sell Trigger / CTA-Level bei 7.580 Punkten [16:35].\n  - **Trigger:** Rückeroberung der 50-Tage-Linie.\n  - **Invalidierung:** Bruch unter 7.580 Punkte [16:35].\n  - **Zeithorizont:** Kurzfristig.\n\n- **Nasdaq 100 (NAS100) [16:38]**:\n  - **Sprecherthese:** Konsolidiert seit Mai in einer großen Bullenflagge mit höherem Tief.\n  - **Richtung:** Bullisch.\n  - **Levels:** Unterstützung bei 28.800 Punkten [17:37], Breakout-Trigger bei 29.700 Punkten [18:36], langfristiges Ziel 33.000 Punkte [17:52].\n  - **Trigger:** Tagesschlusskurs über 29.700 Punkten [18:36].\n  - **Invalidierung:** Schlusskurs unter 28.800 Punkten.\n  - **Zeithorizont:** Mittel- bis langfristig.\n\n- **DAX (GER40) [19:58]**:\n  - **Sprecherthese:** Zeigt bullischen Hammer an der 20-Tage-Linie und bricht aus dem Abwärtstrend aus.\n  - **Richtung:** Bullisch.\n  - **Levels:** Unterstützung bei 25.500 Punkten [20:35], Aufwärtsziel um 26.200 Punkte [20:44].\n  - **Trigger:** Ausbruch aus dem Abwärtstrend [20:01].\n  - **Invalidierung:** Kurs fällt unter 25.500 Punkte [20:35].\n  - **Zeithorizont:** Kurzfristig.\n\n### Einzelaktien (Nvidia, Marvell, CoreWeave, ServiceNow)\n- **Nvidia (NVDA) [22:01]**:\n  - **Sprecherthese:** Reagiert stark an der wichtigen Supportmarke und der 20-Wochen-Linie.\n  - **Richtung:** Bullisch.\n  - **Lev",
+    "els:** Support bei 212 $ [22:05], Gap-Widerstandszone bei 222 $ – 225 $ [22:26].\n  - **Trigger:** Halten der 212 $-Marke.\n  - **Invalidierung:** Bruch unter 212 $.\n  - **Zeithorizont:** Kurz- bis mittelfristig.\n\n- **Marvell Technology (MRVL) [23:11]**:\n  - **Sprecherthese:** Konsolidiert im Rising Wedge nahe eines horizontalen Widerstands.\n  - **Richtung:** Neutral mit Potenzial nach oben.\n  - **Levels:** Horizontaler Widerstand / Alarmzone bei ~260 $ [24:45], Gartley-Ziel bei 300 $ [23:39].\n  - **Trigger:** Ausbruch über 260 $.\n  - **Invalidierung:** Breakdown aus dem Rising Wedge.\n  - **Zeithorizont:** Mittelfristig.\n\n- **CoreWeave (CRWV) [25:07]**:\n  - **Sprecherthese:** Befindet sich in einem neutralen Dreieck; Handel auf Range-Grenzen ausgerichtet.\n  - **Richtung:** Seitwärts / Neutral.\n  - **Levels:** Support-Zone bei 60 $ – 65 $ (Buy-Level 64,90 $) [25:58, 26:06], Widerstandszone bei 100 $ – 120 $ [25:50].\n  - **Trigger:** Dip in die 60 $ – 65 $-Zone.\n  - **Invalidierung:** Ausbruch unter die Dreiecksunterkante.\n  - **Zeithorizont:** Mittelfristig.\n\n- **ServiceNow (NOW) [26:54]**:\n  - **Sprecherthese:** Kämpft am Schlüsselniveau des Höchststandes aus dem Jahr 2021.\n  - **Richtung:** Neutral / Entscheidung an Schlüsselzone.\n  - **Levels:** Schlüssel-Level (2021 Peak) bei ca. 140 $ - 150 $ [27:07], Abwärtsziel 90 $ – 100 $ [27:28], Aufwärtsziel 200 $ [27:33].\n  - **Trigger:** Nachgeben der 200-Wochen-Linie oder Ausbruch aus dem Abwärtstrend.\n  - **Invalidierung:** Nicht genannt.\n  - **Zeithorizont:** Mittelfristig.\n\n### Unsicherheiten & Sehenswerte Videostellen\n- **Unsicherheiten:** Der bevorstehende Hexensabbat (dreifacher Verfallstag) sowie die Entwicklung der 10-jährigen US-Anleiherenditen nahe der 5-%-Marke könnten kurzfristig erhöhte Schwankungen auslösen.\n- *",
+    "*Sehenswerte Stellen:**\n  - 08:27 – WTI Öl Fibonacci-Level Analyse\n  - 15:06 – S&P 500 Mean Reversion und CTA-Triggermarken\n  - 17:37 – Nasdaq 100 Bullenflagge und langfristiges Bild\n  - 22:05 – Nvidia Support-Test bei 212 $\n  - 27:07 – ServiceNow Test des historischen Hochs von 2021\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 4,
+  "discord_sent_at": "2026-09-18T08:32:17.680979+00:00"
 }
