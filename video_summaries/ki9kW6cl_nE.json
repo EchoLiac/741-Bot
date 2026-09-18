@@ -6,10 +6,75 @@
   "published": null,
   "channel": "Phantom by HKCM",
   "handle": "@phantombyhkcm",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-17T17:31:10.892883+00:00",
-  "attempts": 20,
-  "last_attempt": "2026-09-18T19:02:01.807824+00:00",
+  "attempts": 21,
+  "last_attempt": "2026-09-18T21:01:24.236560+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nTrotz negativer makroökonomischer Nachrichten wie dem Scheitern des Clarity Acts und Zinsanhebungen zeigt der Altcoin-Markt Stärke, was laut Sprecher auf einen nahegelegenen Zyklusboden hindeutet. Die Elliott-Wellen-Analysen für Solana und Cronos weisen auf bestehende oder im Aufbau befindliche bullische Impulsstrukturen mit erheblichem Steigerungspotenzial hin. Investors wird empfohlen, strategische Einstiegszonen zu nutzen, statt am Markttief zu verkaufen (02:45).\n\n### Typ\nMehrere Aktien (Krypto-Assets)\n\n### Solana (SOLUSD)\n* **Sprecherthese:** Solana bleibt ein führender Performer unter den Altcoins und baut nach dem Tief bei $7,99 USD eine mehrstufige impulsive Aufwärtsstruktur auf (03:50).\n* **Richtung:** Bullisch\n* **Konkret belegte Levels:**\n  * **Welle-4-Korrekturzone:** $95,77 USD (38,2 % Retracement) bis $91,26 USD (50,0 % Retracement) (07:22).\n  * **Kurzfristiges Ziel (Welle 5):** $119,75 USD (61,8 % Expansion) bis $134,67 USD (100 % Expansion) (08:30).\n  * **Langfristige Zielzone (Zyklus):** $525,74 USD (161,8 % Fib) bis $814,15 USD (261,8 % Fib) (05:45).\n  * **Trigger:** Ausbruch über das lokale Hoch bei $110,00 USD (08:58).\n  * **Invalidierung:** Entkräftung der Zählung unter $60,37 USD (07:12).\n* **Zeithorizont:** Kurz- bis langfristig.\n\n### Cronos (CROUSD)\n* **Sprecherthese:** Cronos hat mit dem Unterschreiten des alten Tiefs die Liquidität im Markt bereinigt und zeigt erstmals seit Langem einen impulsiven 5-teiligen Aufwärtsimpuls (+53 %) (11:50, 13:00).\n* **Richtung:** Bullisch\n* **Konkret belegte Levels:**\n  * **Zyklustief / Invalidierung:** Bruch der Marke von $0,045 USD (11:52).\n  * **Primäre Korrekturzone:** ca. $0,050 USD (78,6 % Retracement) (13:38).\n  * **Alternativer Haltebereich:** $0,058 USD (dreifach getestetes 61,8 % Retracement) (14:09).\n  * **Zielzone (Welle-3-Expansion):** $0,094 USD (161,8 % Fib) bis $0,118 USD (261,8 % Fib) (15:05).\n  * **Trigger:** Nachhaltiger Anstieg über das Zwischenhoch bei $0,064 USD (13:50, 14:45).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Unsicherheiten und sehenswerte Stellen\n* **Unsicherheiten:** Die primären Zählungen hängen vom Erhalt der Invalidierungsmarken ($60,37 USD bei SOL; $0,045 USD bei CRO) und der Bestätigung durch Ausbrüche über die lokalen Zwischenhochs ab.\n* **Sehenswerte Stellen:** \n  * **03:57–05:50:** Langfristiges Solana-Szenario und Fibonacci-Projektionen.\n  * **07:12–09:15:** Solana-Kurzfrist-Retracements und Trigger-Markierung.\n  * **11:48–12:30:** Cronos-Liquiditätsabfischung und Zyklustief-Analyse.\n  * **13:30–14:20:** Szenarien für Cronos (Rücklauf vs. Truncation).",
+  "evidence": [
+    {
+      "timestamp": "00:07",
+      "basis": "visual",
+      "observation": "Ein eingeblendeter Nachrichtenartikel zeigt den Zinsentscheid der US-Notenbank mit einer Erhöhung um 0,25 Prozentpunkte."
+    },
+    {
+      "timestamp": "04:10",
+      "basis": "visual",
+      "observation": "Solana-Chart auf US-Dollar-Basis zeigt das Zyklustief bei $7,99 USD nach dem FTX-Kollaps."
+    },
+    {
+      "timestamp": "05:45",
+      "basis": "visual",
+      "observation": "Chartprojektion für Solana zeigt Zielbereich von 161,8 % ($525,74 USD) bis 261,8 % ($814,15 USD)."
+    },
+    {
+      "timestamp": "07:22",
+      "basis": "audio",
+      "observation": "Sprecher nennt für Solana die Welle-4-Korrekturspanne zwischen $95,77 USD (38,2 %) und $91,26 USD (50,0 %)."
+    },
+    {
+      "timestamp": "08:30",
+      "basis": "visual",
+      "observation": "Solana-Chart zeigt Welle-5-Zielbereich zwischen $119,75 USD (61,8 %) und $134,67 USD (100 %)."
+    },
+    {
+      "timestamp": "08:58",
+      "basis": "audio",
+      "observation": "Sprecher erklärt einen Anstieg über das lokale Hoch bei $110,00 USD als Bestätigung für die interne Welle 5."
+    },
+    {
+      "timestamp": "11:52",
+      "basis": "visual",
+      "observation": "Cronos-Chart zeigt die rote Invalidierungslinie bei $0,045 USD."
+    },
+    {
+      "timestamp": "13:08",
+      "basis": "visual",
+      "observation": "Chartmessung bei Cronos zeigt einen initialen Kursanstieg von +53,3 %."
+    },
+    {
+      "timestamp": "13:38",
+      "basis": "audio",
+      "observation": "Sprecher nennt als primäre Erwartung für Cronos einen Rücklauf in Richtung 78,6 % Retracement bei ca. $0,050 USD."
+    },
+    {
+      "timestamp": "15:05",
+      "basis": "visual",
+      "observation": "Cronos-Chart zeigt Welle-3-Expansionsziele von 161,8 % ($0,094 USD) bis 261,8 % ($0,118 USD)."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "ki9kW6cl_nE",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-18T21:01:50.768239+00:00",
+  "discord_chunks": [
+    "🎬 **Phantom by HKCM**\n**Diese zwei Altcoins gehören in jedes Depot!**\nhttps://www.youtube.com/watch?v=ki9kW6cl_nE\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nTrotz negativer makroökonomischer Nachrichten wie dem Scheitern des Clarity Acts und Zinsanhebungen zeigt der Altcoin-Markt Stärke, was laut Sprecher auf einen nahegelegenen Zyklusboden hindeutet. Die Elliott-Wellen-Analysen für Solana und Cronos weisen auf bestehende oder im Aufbau befindliche bullische Impulsstrukturen mit erheblichem Steigerungspotenzial hin. Investors wird empfohlen, strategische Einstiegszonen zu nutzen, statt am Markttief zu verkaufen (02:45).\n\n### Typ\nMehrere Aktien (Krypto-Assets)\n\n### Solana (SOLUSD)\n* **Sprecherthese:** Solana bleibt ein führender Performer unter den Altcoins und baut nach dem Tief bei $7,99 USD eine mehrstufige impulsive Aufwärtsstruktur auf (03:50).\n* **Richtung:** Bullisch\n* **Konkret belegte Levels:**\n  * **Welle-4-Korrekturzone:** $95,77 USD (38,2 % Retracement) bis $91,26 USD (50,0 % Retracement) (07:22).\n  * **Kurzfristiges Ziel (Welle 5):** $119,75 USD (61,8 % Expansion) bis $134,67 USD (100 % Expansion) (08:30).\n  * **Langfristige Zielzone (Zyklus):** $525,74 USD (161,8 % Fib) bis $814,15 USD (261,8 % Fib) (05:45).\n  * **Trigger:** Ausbruch über das lokale Hoch bei $110,00 USD (08:58).\n  * **Invalidierung:** Entkräftung der Zählung unter $60,37 USD (07:12).\n* **Zeithorizont:** Kurz- bis langfristig.\n\n### Cronos (CROUSD)\n* **Sprecherthese:** Cronos hat mit dem Unterschreiten des alten Tiefs die Liquidität im Markt bereinigt und zeigt erstmals seit Langem einen impulsiven 5-teiligen Aufwärtsimpuls (+53 %) (11:50, 13:00).\n* **Richtung:** Bullisch\n* **Konkret belegte Levels:**\n  * **Zyklustief / Invalidierung:** Bruch der",
+    " Marke von $0,045 USD (11:52).\n  * **Primäre Korrekturzone:** ca. $0,050 USD (78,6 % Retracement) (13:38).\n  * **Alternativer Haltebereich:** $0,058 USD (dreifach getestetes 61,8 % Retracement) (14:09).\n  * **Zielzone (Welle-3-Expansion):** $0,094 USD (161,8 % Fib) bis $0,118 USD (261,8 % Fib) (15:05).\n  * **Trigger:** Nachhaltiger Anstieg über das Zwischenhoch bei $0,064 USD (13:50, 14:45).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Unsicherheiten und sehenswerte Stellen\n* **Unsicherheiten:** Die primären Zählungen hängen vom Erhalt der Invalidierungsmarken ($60,37 USD bei SOL; $0,045 USD bei CRO) und der Bestätigung durch Ausbrüche über die lokalen Zwischenhochs ab.\n* **Sehenswerte Stellen:** \n  * **03:57–05:50:** Langfristiges Solana-Szenario und Fibonacci-Projektionen.\n  * **07:12–09:15:** Solana-Kurzfrist-Retracements und Trigger-Markierung.\n  * **11:48–12:30:** Cronos-Liquiditätsabfischung und Zyklustief-Analyse.\n  * **13:30–14:20:** Szenarien für Cronos (Rücklauf vs. Truncation).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-18T21:01:51.301226+00:00"
 }
