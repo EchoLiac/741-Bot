@@ -6,10 +6,45 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-17T17:31:09.175789+00:00",
-  "attempts": 2,
-  "last_attempt": "2026-09-17T21:01:35.434430+00:00",
+  "attempts": 3,
+  "last_attempt": "2026-09-18T00:31:11.255547+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDas Video analysiert das hypothetische Szenario einer Fusion von Tesla und SpaceX sowie deren finanzielle und machtpolitische Auswirkungen auf Elon Musk. Durch die Class-B-Aktienstruktur bei SpaceX (10:1-Stimmrecht) würde Musk bei einer höheren SpaceX-Bewertung relativ zu Tesla einen deutlich größeren Anteil und mehr Stimmrechte am Fusionskonzern erhalten (04:12). Trotz der rechnerischen Vorteile stehen einer schnellen Umsetzung rechtliche Hürden, Interessenkonflikte und eine derzeit geringe Marktwahrscheinlichkeit gegenüber (07:49).\n\n### Typ\nMehrere Aktien / Szenarioanalyse\n\n### Tesla & SpaceX\n- **Sprecherthese:** Elon Musk profitiert finanziell und kontrolltechnisch umso stคุ้ม, je höher SpaceX im Vergleich zu Tesla bewertet ist, falls es zu einem Zusammenschluss beider Unternehmen kommt (04:50).\n- **Richtung:** Neutral / Spekulative Szenarioanalyse\n- **Konkret belegte Levels:**\n  - Tesla: Börsenwert ca. 1,4 Billionen USD bei ca. 368 USD je Aktie (03:11).\n  - SpaceX: Börsenwert ca. 2,0 Billionen USD bei ca. 150 USD je Aktie; historische Schwankung zwischen 104 USD und 226 USD (03:11).\n  - Fusionsszenarien Kapitalanteil Musk: Bei aktuellem Stand ca. 36 %; fällt auf ca. 32 % bei Tesla +30 % / SpaceX -30 %; steigt auf ca. 39–40 % bei Tesla -30 % / SpaceX +30 % (05:30).\n- **Trigger:** Ankündigung oder Einleitung einer Unternehmensfusion durch Elon Musk (04:04).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Nicht genannt (Wettmarkt-Prognosen nennen Horizonte bis Ende des Jahres bzw. April 2027 (08:24)).\n\n### Unsicherheiten und lohnenswerte Stellen\n- **Unsicherheiten:** Die Fusion ist eine theoretische Spekulation; gravierende Interessenkonflikte (Musk verhandelt mit sich selbst) und Texas-Rechtsraum erschweren die Umsetzung (07:49). Die am Wettmarkt (Polymarket) gehandelte Wahrscheinlichkeit liegt bei nur 26 % bis Dezember bzw. 41 % bis April 2027 (08:24).\n- **Sehenswerte Stellen:**\n  - **02:09:** Gegenüberstellung der Machtverhältnisse und Stimmrechtsanteile (19,9 % Tesla vs. 82,4 % SpaceX).\n  - **03:11:** Bewertung und Marktkapitalisierung beider Konzerne im Vergleich.\n  - **05:30:** Graphische Simulation der Kapitalanteilsverschiebung je nach Kursentwicklung.\n  - **07:49:** Übersicht der Hürden (Interessenkonflikt, Gerichtsstandort, Marktwahrscheinlichkeiten).",
+  "evidence": [
+    {
+      "timestamp": "02:09",
+      "basis": "visual",
+      "observation": "Grafik zeigt Stimmrechtsverteilung: Tesla 19,9 % vs. SpaceX 82,4 % (durch Class-B-Aktien mit 10:1 Stimmrecht)."
+    },
+    {
+      "timestamp": "03:11",
+      "basis": "visual",
+      "observation": "Folie nennt Börsenwerte: SpaceX ca. 2,0 Bio. USD (150 USD/Aktie, Schwankung 104 bis 226 USD) und Tesla ca. 1,4 Bio. USD (368 USD/Aktie)."
+    },
+    {
+      "timestamp": "05:30",
+      "basis": "visual",
+      "observation": "Simulation zeigt Musks Kapitalanteil am Fusionskonzern: Heute ~36 %, Szenario Tesla +30%/SpaceX -30% ~32 %, Szenario Tesla -30%/SpaceX +30% ~39 %."
+    },
+    {
+      "timestamp": "07:49",
+      "basis": "visual",
+      "observation": "Übersicht zu Fusionshürden: Interessenkonflikt (Verhandlung mit sich selbst), Rechtsraum Texas und Polymarket-Wahrscheinlichkeit von 26 % bis Dezember."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "0XqoCWgvT60",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-18T00:31:28.143194+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Kommt jetzt Musks größter Deal? Das könnte als Nächstes passieren**\nhttps://www.youtube.com/watch?v=0XqoCWgvT60\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDas Video analysiert das hypothetische Szenario einer Fusion von Tesla und SpaceX sowie deren finanzielle und machtpolitische Auswirkungen auf Elon Musk. Durch die Class-B-Aktienstruktur bei SpaceX (10:1-Stimmrecht) würde Musk bei einer höheren SpaceX-Bewertung relativ zu Tesla einen deutlich größeren Anteil und mehr Stimmrechte am Fusionskonzern erhalten (04:12). Trotz der rechnerischen Vorteile stehen einer schnellen Umsetzung rechtliche Hürden, Interessenkonflikte und eine derzeit geringe Marktwahrscheinlichkeit gegenüber (07:49).\n\n### Typ\nMehrere Aktien / Szenarioanalyse\n\n### Tesla & SpaceX\n- **Sprecherthese:** Elon Musk profitiert finanziell und kontrolltechnisch umso stคุ้ม, je höher SpaceX im Vergleich zu Tesla bewertet ist, falls es zu einem Zusammenschluss beider Unternehmen kommt (04:50).\n- **Richtung:** Neutral / Spekulative Szenarioanalyse\n- **Konkret belegte Levels:**\n  - Tesla: Börsenwert ca. 1,4 Billionen USD bei ca. 368 USD je Aktie (03:11).\n  - SpaceX: Börsenwert ca. 2,0 Billionen USD bei ca. 150 USD je Aktie; historische Schwankung zwischen 104 USD und 226 USD (03:11).\n  - Fusionsszenarien Kapitalanteil Musk: Bei aktuellem Stand ca. 36 %; fällt auf ca. 32 % bei Tesla +30 % / SpaceX -30 %; steigt auf ca. 39–40 % bei Tesla -30 % / SpaceX +30 % (05:30).\n- **Trigger:** Ankündigung oder Einleitung einer Unternehmensfusion durch Elon Musk (04:04).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Nicht genannt (Wettmarkt-Prognosen nennen Horizonte bis Ende des Jahres bzw. April 2027 (08:24)).\n\n### Unsicherheiten und lohnenswerte",
+    " Stellen\n- **Unsicherheiten:** Die Fusion ist eine theoretische Spekulation; gravierende Interessenkonflikte (Musk verhandelt mit sich selbst) und Texas-Rechtsraum erschweren die Umsetzung (07:49). Die am Wettmarkt (Polymarket) gehandelte Wahrscheinlichkeit liegt bei nur 26 % bis Dezember bzw. 41 % bis April 2027 (08:24).\n- **Sehenswerte Stellen:**\n  - **02:09:** Gegenüberstellung der Machtverhältnisse und Stimmrechtsanteile (19,9 % Tesla vs. 82,4 % SpaceX).\n  - **03:11:** Bewertung und Marktkapitalisierung beider Konzerne im Vergleich.\n  - **05:30:** Graphische Simulation der Kapitalanteilsverschiebung je nach Kursentwicklung.\n  - **07:49:** Übersicht der Hürden (Interessenkonflikt, Gerichtsstandort, Marktwahrscheinlichkeiten).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-18T00:31:28.686237+00:00"
 }

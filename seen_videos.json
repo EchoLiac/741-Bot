@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-18T00:01:17.751889+00:00",
-    "@wir-lieben-aktien": "2026-09-18T00:01:18.172702+00:00",
-    "@chartsekte": "2026-09-18T00:01:18.608734+00:00",
-    "@hkcm": "2026-09-18T00:01:19.155577+00:00",
-    "@phantombyhkcm": "2026-09-18T00:01:19.627478+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-18T00:01:20.126760+00:00",
-    "@aktien4future": "2026-09-18T00:01:20.604726+00:00",
-    "@Finanzbaer": "2026-09-18T00:01:21.046141+00:00",
-    "@Finanzwiesel": "2026-09-18T00:01:21.516360+00:00",
-    "@TradingKompass": "2026-09-18T00:01:21.944489+00:00",
-    "@TomVorwald": "2026-09-18T00:01:22.434387+00:00"
+    "@1OxTrading": "2026-09-18T00:31:05.946183+00:00",
+    "@wir-lieben-aktien": "2026-09-18T00:31:06.432635+00:00",
+    "@chartsekte": "2026-09-18T00:31:06.889723+00:00",
+    "@hkcm": "2026-09-18T00:31:07.423152+00:00",
+    "@phantombyhkcm": "2026-09-18T00:31:07.918505+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-18T00:31:08.458126+00:00",
+    "@aktien4future": "2026-09-18T00:31:08.960391+00:00",
+    "@Finanzbaer": "2026-09-18T00:31:09.460150+00:00",
+    "@Finanzwiesel": "2026-09-18T00:31:09.982577+00:00",
+    "@TradingKompass": "2026-09-18T00:31:10.534253+00:00",
+    "@TomVorwald": "2026-09-18T00:31:11.198624+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4692,8 +4692,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-16T17:31:17.931766+00:00",
-    "attempts": 8,
-    "last_attempt": "2026-09-17T21:31:10.022534+00:00"
+    "attempts": 9,
+    "last_attempt": "2026-09-18T00:31:34.787942+00:00"
   },
   "P_9Cs0EAUmk": {
     "id": "P_9Cs0EAUmk",
@@ -4744,10 +4744,11 @@
     "published": null,
     "channel": "Wir Lieben Aktien",
     "handle": "@wir-lieben-aktien",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-17T17:31:09.175789+00:00",
-    "attempts": 2,
-    "last_attempt": "2026-09-17T21:01:29.097912+00:00"
+    "attempts": 3,
+    "last_attempt": "2026-09-18T00:31:11.255547+00:00",
+    "scraped_at": "2026-09-18T00:31:28.687235+00:00"
   },
   "ki9kW6cl_nE": {
     "id": "ki9kW6cl_nE",
@@ -4759,8 +4760,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-17T17:31:10.892883+00:00",
-    "attempts": 2,
-    "last_attempt": "2026-09-17T21:01:35.438894+00:00"
+    "attempts": 3,
+    "last_attempt": "2026-09-18T00:31:28.691200+00:00"
   },
   "bBZL-W9dvE4": {
     "id": "bBZL-W9dvE4",
