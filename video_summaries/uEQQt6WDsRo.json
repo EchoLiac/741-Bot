@@ -6,10 +6,60 @@
   "published": null,
   "channel": "Phantom by HKCM",
   "handle": "@phantombyhkcm",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-18T16:31:11.937923+00:00",
-  "attempts": 4,
-  "last_attempt": "2026-09-18T20:32:47.032100+00:00",
+  "attempts": 5,
+  "last_attempt": "2026-09-18T22:31:13.662092+00:00",
+  "content_available": true,
+  "summary": "**Kernaussage:**\nDie Nike-Aktie befindet sich nach einem Kursverlust von rund 80 % auf einem historisch überverkauften Niveau. Der Sprecher sieht trotz anhaltendem Abwärtstrend die Chance auf eine zyklische Bodenbildung und den Start einer langfristigen Welle-3-Expansion (05:20, 12:10).\n\n**Typ:** Einzelaktie\n\n### Nike (NKE)\n* **Sprecherthese:** Nike leidet unter Marketingfehlern und schwachen Zahlen, steht jedoch charttechnisch und indikatorenseitig vor dem Abschluss einer Korrekturphase und bietet historisch günstige Einstiegsmöglichkeiten (03:12, 08:30).\n* **Richtung:** Bullisch (langfristig) (02:54, 12:10).\n* **Konkret belegte Levels:**\n  * Bisheriges Allzeithoch: 179,10 USD (02:18)\n  * Durchbrochenes 78,6-%-Retracement: 38,41 USD (09:56)\n  * Erwartete Bodenbildungs- / Kaufzielzone: 38,41 USD bis 20,28 USD (10:37) mit 100-%-Expansionsmarke bei 34,32 USD (11:06)\n  * Ziel- Niveaus / Widerstände: 56,99 USD, 68,49 USD, 92,90 USD, 123,39 USD, 179,10 USD (11:26, 11:58)\n  * Welle-3-Expansionsziel (162 %): über 300 USD (~900 % Renditepotenzial ab ca. 32–34 USD) (12:10, 12:35)\n* **Trigger:** Nachhaltiger Ausbruch über 56,99 USD schaltet das bullische Szenario frei (11:26).\n* **Invalidierung:** nicht genannt.\n* **Zeithorizont:** Langfristig (5 bis 10 Jahre) (12:17).\n\n**Unsicherheiten & sehenswerte Stellen:**\nEine fehlende fundamentale Trendwende im operativen Geschäft könnte den Kurs weiter in Richtung des 88,7-%-Retracements nahe 20,28 USD drücken (10:12). Die Mehrzeitrahmen-Indikatorenanalyse (06:34) und die Fibonacci-Herleitung (09:40) sind besonders sehenswert.",
+  "evidence": [
+    {
+      "timestamp": "01:52",
+      "basis": "visual",
+      "observation": "Chart der Nike-Aktie (NKE, 4D NYSE) mit verzeichneten Ziel- und Retracement-Linien."
+    },
+    {
+      "timestamp": "02:38",
+      "basis": "audio",
+      "observation": "Sprecher erwähnt einen Kursverlust von insgesamt 80 % seit dem letzten Allzeithoch."
+    },
+    {
+      "timestamp": "07:13",
+      "basis": "audio",
+      "observation": "Sprecher verweist auf ein Verkaufssignal im Monats-MACD seit Februar/März des laufenden Jahres."
+    },
+    {
+      "timestamp": "09:56",
+      "basis": "audio",
+      "observation": "Sprecher nennt das Durchbrechen des 78,6-%-Retracements bei 38,41 USD."
+    },
+    {
+      "timestamp": "11:06",
+      "basis": "visual",
+      "observation": "Im Chart wird ein 100-%-Expansionsniveau der Subwelle Y bei 34,32 USD eingeblendet."
+    },
+    {
+      "timestamp": "11:26",
+      "basis": "audio",
+      "observation": "Sprecher nennt die Marke von 56,99 USD als Hürde, ab der das Bild nachhaltig bullisch wird."
+    },
+    {
+      "timestamp": "12:17",
+      "basis": "audio",
+      "observation": "Der Zeithorizont für das Erreichen des Welle-3-Ziels wird auf 5 bis 10 Jahre beziffert."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "uEQQt6WDsRo",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-18T22:31:35.748897+00:00",
+  "discord_chunks": [
+    "🎬 **Phantom by HKCM**\n**So günstig war diese Aktie noch nie!**\nhttps://www.youtube.com/watch?v=uEQQt6WDsRo\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n**Kernaussage:**\nDie Nike-Aktie befindet sich nach einem Kursverlust von rund 80 % auf einem historisch überverkauften Niveau. Der Sprecher sieht trotz anhaltendem Abwärtstrend die Chance auf eine zyklische Bodenbildung und den Start einer langfristigen Welle-3-Expansion (05:20, 12:10).\n\n**Typ:** Einzelaktie\n\n### Nike (NKE)\n* **Sprecherthese:** Nike leidet unter Marketingfehlern und schwachen Zahlen, steht jedoch charttechnisch und indikatorenseitig vor dem Abschluss einer Korrekturphase und bietet historisch günstige Einstiegsmöglichkeiten (03:12, 08:30).\n* **Richtung:** Bullisch (langfristig) (02:54, 12:10).\n* **Konkret belegte Levels:**\n  * Bisheriges Allzeithoch: 179,10 USD (02:18)\n  * Durchbrochenes 78,6-%-Retracement: 38,41 USD (09:56)\n  * Erwartete Bodenbildungs- / Kaufzielzone: 38,41 USD bis 20,28 USD (10:37) mit 100-%-Expansionsmarke bei 34,32 USD (11:06)\n  * Ziel- Niveaus / Widerstände: 56,99 USD, 68,49 USD, 92,90 USD, 123,39 USD, 179,10 USD (11:26, 11:58)\n  * Welle-3-Expansionsziel (162 %): über 300 USD (~900 % Renditepotenzial ab ca. 32–34 USD) (12:10, 12:35)\n* **Trigger:** Nachhaltiger Ausbruch über 56,99 USD schaltet das bullische Szenario frei (11:26).\n* **Invalidierung:** nicht genannt.\n* **Zeithorizont:** Langfristig (5 bis 10 Jahre) (12:17).\n\n**Unsicherheiten & sehenswerte Stellen:**\nEine fehlende fundamentale Trendwende im operativen Geschäft könnte den Kurs weiter in Richtung des 88,7-%-Retracements nahe 20,28 USD drücken (10:12). Die Mehrzeitrahmen-Indikatorenanalyse (06:34) und die Fibonacci-Herleitung (09:40) sind besonders sehenswert.\n\nQuellenmeinung zum Videozeitpunkt",
+    "; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-18T22:31:36.169791+00:00"
 }
