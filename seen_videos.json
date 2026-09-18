@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-18T20:01:15.984567+00:00",
-    "@wir-lieben-aktien": "2026-09-18T20:01:16.487270+00:00",
-    "@chartsekte": "2026-09-18T20:01:17.122324+00:00",
-    "@hkcm": "2026-09-18T20:01:17.658111+00:00",
-    "@phantombyhkcm": "2026-09-18T20:01:18.219308+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-18T20:01:18.693570+00:00",
-    "@aktien4future": "2026-09-18T20:01:19.204251+00:00",
-    "@Finanzbaer": "2026-09-18T20:01:19.801195+00:00",
-    "@Finanzwiesel": "2026-09-18T20:01:20.305081+00:00",
-    "@TradingKompass": "2026-09-18T20:01:20.864922+00:00",
-    "@TomVorwald": "2026-09-18T20:01:21.402870+00:00"
+    "@1OxTrading": "2026-09-18T20:31:17.390190+00:00",
+    "@wir-lieben-aktien": "2026-09-18T20:31:17.927370+00:00",
+    "@chartsekte": "2026-09-18T20:31:18.378749+00:00",
+    "@hkcm": "2026-09-18T20:31:18.910161+00:00",
+    "@phantombyhkcm": "2026-09-18T20:31:19.372004+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-18T20:31:19.820326+00:00",
+    "@aktien4future": "2026-09-18T20:31:20.338699+00:00",
+    "@Finanzbaer": "2026-09-18T20:31:20.852432+00:00",
+    "@Finanzwiesel": "2026-09-18T20:31:21.323988+00:00",
+    "@TradingKompass": "2026-09-18T20:31:21.781934+00:00",
+    "@TomVorwald": "2026-09-18T20:31:22.273442+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4854,8 +4854,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-18T16:31:11.937923+00:00",
-    "attempts": 3,
-    "last_attempt": "2026-09-18T19:01:49.386931+00:00"
+    "attempts": 4,
+    "last_attempt": "2026-09-18T20:32:41.017520+00:00"
   },
   "y5Nkk68tP9Q": {
     "id": "y5Nkk68tP9Q",
@@ -4906,7 +4906,20 @@
     "handle": "@1OxTrading",
     "status": "pending",
     "discovered_at": "2026-09-18T19:01:18.387925+00:00",
+    "attempts": 2,
+    "last_attempt": "2026-09-18T20:32:27.439301+00:00"
+  },
+  "x9Vjt25lGTM": {
+    "id": "x9Vjt25lGTM",
+    "title": "🚨 BITCOIN MONSTER RALLY – SO gehts jetzt weiter... 💥",
+    "url": "https://www.youtube.com/watch?v=x9Vjt25lGTM",
+    "duration": 1374,
+    "published": null,
+    "channel": "10xTrading",
+    "handle": "@1OxTrading",
+    "status": "pending",
+    "discovered_at": "2026-09-18T20:31:17.390157+00:00",
     "attempts": 1,
-    "last_attempt": "2026-09-18T19:01:24.478092+00:00"
+    "last_attempt": "2026-09-18T20:31:22.310712+00:00"
   }
 }
