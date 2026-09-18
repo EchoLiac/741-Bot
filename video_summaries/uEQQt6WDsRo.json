@@ -8,8 +8,8 @@
   "handle": "@phantombyhkcm",
   "status": "analysis_failed",
   "discovered_at": "2026-09-18T16:31:11.937923+00:00",
-  "attempts": 1,
-  "last_attempt": "2026-09-18T16:31:27.554904+00:00",
+  "attempts": 2,
+  "last_attempt": "2026-09-18T17:31:43.176363+00:00",
   "video_id": "uEQQt6WDsRo",
   "scanner_version": "video-first-v3"
 }

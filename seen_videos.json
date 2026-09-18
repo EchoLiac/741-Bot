@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-18T17:01:19.399571+00:00",
-    "@wir-lieben-aktien": "2026-09-18T17:01:19.961050+00:00",
-    "@chartsekte": "2026-09-18T17:01:20.493363+00:00",
-    "@hkcm": "2026-09-18T17:01:21.055857+00:00",
-    "@phantombyhkcm": "2026-09-18T17:01:21.579712+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-18T17:01:22.102992+00:00",
-    "@aktien4future": "2026-09-18T17:01:22.601104+00:00",
-    "@Finanzbaer": "2026-09-18T17:01:23.247526+00:00",
-    "@Finanzwiesel": "2026-09-18T17:01:23.726845+00:00",
-    "@TradingKompass": "2026-09-18T17:01:24.300670+00:00",
-    "@TomVorwald": "2026-09-18T17:01:24.834778+00:00"
+    "@1OxTrading": "2026-09-18T17:31:09.380414+00:00",
+    "@wir-lieben-aktien": "2026-09-18T17:31:09.991758+00:00",
+    "@chartsekte": "2026-09-18T17:31:10.515252+00:00",
+    "@hkcm": "2026-09-18T17:31:11.131754+00:00",
+    "@phantombyhkcm": "2026-09-18T17:31:11.690962+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-18T17:31:12.249781+00:00",
+    "@aktien4future": "2026-09-18T17:31:12.772740+00:00",
+    "@Finanzbaer": "2026-09-18T17:31:13.391187+00:00",
+    "@Finanzwiesel": "2026-09-18T17:31:13.930612+00:00",
+    "@TradingKompass": "2026-09-18T17:31:14.562550+00:00",
+    "@TomVorwald": "2026-09-18T17:31:15.139410+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4772,8 +4772,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-17T17:31:10.892883+00:00",
-    "attempts": 18,
-    "last_attempt": "2026-09-18T16:31:27.559432+00:00"
+    "attempts": 19,
+    "last_attempt": "2026-09-18T17:31:43.180783+00:00"
   },
   "bBZL-W9dvE4": {
     "id": "bBZL-W9dvE4",
@@ -4854,7 +4854,20 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-18T16:31:11.937923+00:00",
+    "attempts": 2,
+    "last_attempt": "2026-09-18T17:31:33.207577+00:00"
+  },
+  "y5Nkk68tP9Q": {
+    "id": "y5Nkk68tP9Q",
+    "title": "10 TradingView Tricks, die du als langfristiger Investor kennen musst!",
+    "url": "https://www.youtube.com/watch?v=y5Nkk68tP9Q",
+    "duration": 1013,
+    "published": null,
+    "channel": "Wir Lieben Aktien",
+    "handle": "@wir-lieben-aktien",
+    "status": "pending",
+    "discovered_at": "2026-09-18T17:31:09.991740+00:00",
     "attempts": 1,
-    "last_attempt": "2026-09-18T16:31:21.503625+00:00"
+    "last_attempt": "2026-09-18T17:31:15.197484+00:00"
   }
 }
