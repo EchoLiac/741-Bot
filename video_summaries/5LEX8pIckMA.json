@@ -6,10 +6,65 @@
   "published": null,
   "channel": "Chartsekte",
   "handle": "@chartsekte",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-17T18:31:21.183321+00:00",
-  "attempts": 4,
-  "last_attempt": "2026-09-18T04:32:17.391350+00:00",
+  "attempts": 5,
+  "last_attempt": "2026-09-18T07:01:58.004382+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Relative Strength Index (RSI) misst das Verhältnis zwischen durchschnittlichen Kursgewinnen und -verlusten über eine bestimmte Periode (Standard: 14) und ordnet das Marktmomentum ein [01:15, 05:03]. Das reine Kaufen oder Verkaufen bei Überkauft- (>70) oder Überverkauft-Zonen (<30) ist ein häufiger Fehler, da Trends lange überhitzen können [08:30, 09:18]. Der nachhaltigste Nutzen des RSI liegt im Erkennen von Divergenzen als Zusatzbestätigung für bestehende Handelssysteme [09:34, 11:39].\n\n### Typ\nBildung (Trading-Indikator & Technische Analyse)\n\n### Methode, Regeln & Fehler\n* **Methode & Berechnung:** Der RSI betrachtet eine festgelegte Periode (standardmäßig 14 Kerzen) [05:03]. Er teilt den Durchschnittswert der positiven Perioden durch die Summe der durchschnittlich positiven und negativen Perioden [06:15]. Ein Wert von 50 steht für ein ausgeglichenes Verhältnis zwischen Käufern und Verkäufern [06:30].\n* **Regeln für die Anwendung:** Werte über 70 zeigen einen überkauften Markt an, Werte unter 30 einen überverkauften Markt [08:12]. Höhere Aussagekraft besitzen Divergenzen (z. B. Kurs bildet ein neues Hoch, RSI bildet ein niedrigeres Hoch), da sie auf ein nachlassendes Momentum hinweisen [09:47, 10:15].\n* **Häufige Fehler:** Blindes Shorten bei RSI > 70 oder Kaufen bei RSI < 30 ohne weitere charttechnische Signale [09:18]. Der RSI verläuft zeitverzögert zum Kurs und ist kein magischer Zukunftsindikator [04:18, 04:31].\n* **Integration ins Trading:** Der RSI sollte nie isoliert, sondern nur als ergänzender Filter für eigene Setups und nach gründlichem Backtesting verwendet werden [11:39, 11:54].\n\n### Unsicherheiten & sehenswerte Stellen\n* **Sehenswerte Stellen:**\n  * [05:03] – Konkrete mathematische Funktionsweise und Beispielrechnung des RSI.\n  * [09:34] – Erklärung von Divergenzen und warum sie verlässlichere Signale liefern als obere/untere Extrembereiche.\n  * [11:39] – Richtige Einbindung des Indikators in eine regelbasierte Trading-Strategie.",
+  "evidence": [
+    {
+      "timestamp": "01:15",
+      "basis": "audio",
+      "observation": "Sprecher erklärt, dass der RSI 1978 von J. Welles Wilder vorgestellt wurde."
+    },
+    {
+      "timestamp": "02:40",
+      "basis": "visual",
+      "observation": "Einstellungen des RSI-Indikators in TradingView (Standardlänge 14, Basis Schlusskurs) werden im Bild gezeigt."
+    },
+    {
+      "timestamp": "05:03",
+      "basis": "audio",
+      "observation": "Erklärung der Standardperiode von 14 Handelstagen im Tageschart."
+    },
+    {
+      "timestamp": "06:15",
+      "basis": "audio",
+      "observation": "Formel des RSI: durchschnittliche positive Entwicklung geteilt durch die Summe aus durchschnittlich positiver und negativer Entwicklung."
+    },
+    {
+      "timestamp": "08:12",
+      "basis": "visual",
+      "observation": "Chart zeigt die Begrenzungslinien bei 70 (Überkauft) und 30 (Überverkauft)."
+    },
+    {
+      "timestamp": "09:18",
+      "basis": "audio",
+      "observation": "Sprecher betont, dass pauschales Kaufen bei RSI < 30 oder Verkaufen bei RSI > 70 keine profitable Strategie ist."
+    },
+    {
+      "timestamp": "10:15",
+      "basis": "visual",
+      "observation": "Einzeichnung einer negativen Divergenz im Nasdaq-100-Chart (steigendes Hoch im Kurs vs. fallendes Hoch im RSI)."
+    },
+    {
+      "timestamp": "11:39",
+      "basis": "audio",
+      "observation": "Sprecher empfiehlt den RSI ausschließlich als Ergänzung zu bestehenden Setups einzusetzen."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "5LEX8pIckMA",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-18T07:02:45.186490+00:00",
+  "discord_chunks": [
+    "🎬 **Chartsekte**\n**RSI einfach erklärt: So vermeidest du die häufigsten Fehler**\nhttps://www.youtube.com/watch?v=5LEX8pIckMA\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Relative Strength Index (RSI) misst das Verhältnis zwischen durchschnittlichen Kursgewinnen und -verlusten über eine bestimmte Periode (Standard: 14) und ordnet das Marktmomentum ein [01:15, 05:03]. Das reine Kaufen oder Verkaufen bei Überkauft- (>70) oder Überverkauft-Zonen (<30) ist ein häufiger Fehler, da Trends lange überhitzen können [08:30, 09:18]. Der nachhaltigste Nutzen des RSI liegt im Erkennen von Divergenzen als Zusatzbestätigung für bestehende Handelssysteme [09:34, 11:39].\n\n### Typ\nBildung (Trading-Indikator & Technische Analyse)\n\n### Methode, Regeln & Fehler\n* **Methode & Berechnung:** Der RSI betrachtet eine festgelegte Periode (standardmäßig 14 Kerzen) [05:03]. Er teilt den Durchschnittswert der positiven Perioden durch die Summe der durchschnittlich positiven und negativen Perioden [06:15]. Ein Wert von 50 steht für ein ausgeglichenes Verhältnis zwischen Käufern und Verkäufern [06:30].\n* **Regeln für die Anwendung:** Werte über 70 zeigen einen überkauften Markt an, Werte unter 30 einen überverkauften Markt [08:12]. Höhere Aussagekraft besitzen Divergenzen (z. B. Kurs bildet ein neues Hoch, RSI bildet ein niedrigeres Hoch), da sie auf ein nachlassendes Momentum hinweisen [09:47, 10:15].\n* **Häufige Fehler:** Blindes Shorten bei RSI > 70 oder Kaufen bei RSI < 30 ohne weitere charttechnische Signale [09:18]. Der RSI verläuft zeitverzögert zum Kurs und ist kein magischer Zukunftsindikator [04:18, 04:31].\n* **Integration ins Trading:** Der RSI sollte nie isoliert, sondern nur als ergänzender Filter für eigene Setups und nach gründlichem Backt",
+    "esting verwendet werden [11:39, 11:54].\n\n### Unsicherheiten & sehenswerte Stellen\n* **Sehenswerte Stellen:**\n  * [05:03] – Konkrete mathematische Funktionsweise und Beispielrechnung des RSI.\n  * [09:34] – Erklärung von Divergenzen und warum sie verlässlichere Signale liefern als obere/untere Extrembereiche.\n  * [11:39] – Richtige Einbindung des Indikators in eine regelbasierte Trading-Strategie.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-18T07:02:45.634745+00:00"
 }
