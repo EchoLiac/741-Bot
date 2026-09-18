@@ -6,10 +6,90 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123283+00:00",
-  "attempts": 13,
-  "last_attempt": "2026-09-18T02:01:24.148198+00:00",
+  "attempts": 14,
+  "last_attempt": "2026-09-18T05:01:26.208515+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nIn dieser Podcast-Folge behandeln Jan und Tillmann die Prinzipien der Portfolio-Diversifikation sowie die Bewertungs- und Risikolage des chinesischen Aktienmarktes (05:40, 31:07). Ergänzend beantworten sie eine Einsteigerfrage zur Geldanlage mit kleinen Sparraten und stellen ein Börsenrätsel vor (20:40, 48:00).\n\n**Typ:** Markt/Makro & Bildung\n\n---\n\n### Bildung: Portfolioaufbau & Diversifikation\n* **Methode / Regeln:** Anstreben eines Zielportfolios von ca. 20–30 Aktien für ein wachstumsorientiertes Depot (05:42). Begrenzung einzelner Sektoren (z. B. Tech-Cap bei ca. 28–30 %, was etwa 7 Aktien entspricht) (10:02). Strukturierung nach Sub-Industrien (z. B. Halbleiter, Software, IT-Beratung, Hardware), um Korrelationen zu reduzieren (10:30–12:25).\n* **Fehler:** Kauf zu vieler hochkorrelierter Aktien derselben Branche (z. B. 10 Software-Aktien), was zu einem Klumpenrisiko führt (08:27). Zu viele Positionen (z. B. 50 Aktien) bringen keinen Diversifikationsvorteil mehr, sondern erhöhen lediglich den Aufwand für Analyse und Überwachung von Quartals- und Jahresberichten (13:12, 14:14–14:40). Eine Ausweitung der Aktienanzahl verwässert zudem die Rendite der besten Investmentideen (15:48).\n\n### Bildung / Einsteiger: ETFs vs. Einzelaktien bei kleinen Sparraten\n* **Methode / Regeln:** Für Anfänger oder bei kleinen monatlichen Sparraten (z. B. 50 €/Monat) stellen breit gestreute Welt-ETFs (z. B. MSCI World, FTSE All-World) den besten Einstieg dar (21:16, 23:55).\n* **Fehler:** Zu frühes Aufsplittern kleiner Beträge in Einzelaktien, da dies unrentabel ist und unnötigen Aufwand erzeugt (23:55).\n\n### Markt/Makro: Chinesischer Aktienmarkt\n* **Sprecherthese:** Der chinesische Aktienmarkt hat sich zwar seit seinen Tiefs spürbar erholt, bleibt aber historisch sowie im Vergleich zu den USA deutlich unterbewertet und bietet auf lange Sicht ein hohes Erholungspotenzial (31:07, 33:49, 37:34).\n* **Richtung:** Bullisch auf lange Sicht (37:34).\n* **Gennante Kennzahlen:** Hang Seng Index erholte sich seit den Tiefs von 2022/Januar 2024 um ca. 90 % (31:18). CSI 300 stieg im selben Zeitraum um ca. 60 % (31:33). Das KGV des Hang Seng liegt bei etwa 14, das Forward-KGV bei ca. 11, was einem Bewertungsabschlag von ca. 50 % gegenüber dem S&P 500 entspricht (33:50–34:07).\n* **Trigger / Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mehrere Jahre / langfristig (37:38).\n* **Risiken / Kontext:** Hohe Jugendarbeitslosigkeit (> 20 % in 2023) (40:07), anhaltende Immobilienkrise (41:31) sowie geopolitische Spannungen rund um Taiwan (44:03).\n\n---\n\n### Unsicherheiten & sehenswerte Stellen\n* **Sehenswerte Stellen:** Die Herleitung der optimalen Depotgröße ab [05:40] sowie der KGV-Vergleich zwischen China und den USA ab [33:49].\n* **Unsicherheiten:** Politische Regulierungsentscheidungen und makroökonomische Entwicklungen in China sind schwer kalkulierbar.",
+  "evidence": [
+    {
+      "timestamp": "03:21",
+      "basis": "audio",
+      "observation": "Jan erwähnt, dass der SOXX Semiconductor ETF vorbörslich rund 4 % im Minus liegt."
+    },
+    {
+      "timestamp": "05:42",
+      "basis": "audio",
+      "observation": "Jan strebt in seinem wachstumsorientierten Depot grob 20 bis 30 Aktien an."
+    },
+    {
+      "timestamp": "08:27",
+      "basis": "audio",
+      "observation": "Jan erklärt, dass der Kauf von 10 Software-Aktien zu starker Korrelation und einem Klumpenrisiko führt."
+    },
+    {
+      "timestamp": "10:02",
+      "basis": "audio",
+      "observation": "Beispielhafte Begrenzung des Tech-Sektors auf maximal 30 % Depotanteil (z. B. 7 Aktien zu je 4 % Gewichtung)."
+    },
+    {
+      "timestamp": "14:20",
+      "basis": "audio",
+      "observation": "Jan weist auf den hohen Managementaufwand für das Lesen von Quartals- und Jahresberichten bei vielen Depotpositionen hin."
+    },
+    {
+      "timestamp": "21:16",
+      "basis": "audio",
+      "observation": "Tillmann betont, dass ETFs für Einsteiger der absolut richtige Weg sind."
+    },
+    {
+      "timestamp": "25:02",
+      "basis": "audio",
+      "observation": "Jan erwähnt, dass der Vanguard S&P 500 ETF als erster ETF ein Volumen von 1 Billion US-Dollar erreicht hat."
+    },
+    {
+      "timestamp": "31:18",
+      "basis": "audio",
+      "observation": "Der Hang Seng Index hat sich von den Tiefs aus 2022 bzw. Januar 2024 um rund 90 % erholt."
+    },
+    {
+      "timestamp": "31:33",
+      "basis": "audio",
+      "observation": "Der CSI 300 Index hat im gleichen Zeitraum eine Erholung von ca. 60 % vollzogen."
+    },
+    {
+      "timestamp": "33:50",
+      "basis": "audio",
+      "observation": "Tillmann nennt für den Hang Seng ein aktuelles KGV von 14 und ein Forward-KGV von 11."
+    },
+    {
+      "timestamp": "34:05",
+      "basis": "audio",
+      "observation": "Ein Forward-KGV von 11 entspricht einem Bewertungsabschlag von 50 % gegenüber dem S&P 500."
+    },
+    {
+      "timestamp": "40:07",
+      "basis": "audio",
+      "observation": "Jan nennt eine Jugendarbeitslosigkeit in China von über 20 % im Jahr 2023."
+    },
+    {
+      "timestamp": "50:16",
+      "basis": "audio",
+      "observation": "Jan nennt im Börsenrätsel den drittgrößten börsennotierten Wasserversorger der USA mit 59 Jahren stetiger Dividendenerhöhung."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "eJ1IH3HOg3g",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-18T05:03:12.239913+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**You're buying too many stocks! + Invest in China now?**\nhttps://www.youtube.com/watch?v=eJ1IH3HOg3g\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nIn dieser Podcast-Folge behandeln Jan und Tillmann die Prinzipien der Portfolio-Diversifikation sowie die Bewertungs- und Risikolage des chinesischen Aktienmarktes (05:40, 31:07). Ergänzend beantworten sie eine Einsteigerfrage zur Geldanlage mit kleinen Sparraten und stellen ein Börsenrätsel vor (20:40, 48:00).\n\n**Typ:** Markt/Makro & Bildung\n\n---\n\n### Bildung: Portfolioaufbau & Diversifikation\n* **Methode / Regeln:** Anstreben eines Zielportfolios von ca. 20–30 Aktien für ein wachstumsorientiertes Depot (05:42). Begrenzung einzelner Sektoren (z. B. Tech-Cap bei ca. 28–30 %, was etwa 7 Aktien entspricht) (10:02). Strukturierung nach Sub-Industrien (z. B. Halbleiter, Software, IT-Beratung, Hardware), um Korrelationen zu reduzieren (10:30–12:25).\n* **Fehler:** Kauf zu vieler hochkorrelierter Aktien derselben Branche (z. B. 10 Software-Aktien), was zu einem Klumpenrisiko führt (08:27). Zu viele Positionen (z. B. 50 Aktien) bringen keinen Diversifikationsvorteil mehr, sondern erhöhen lediglich den Aufwand für Analyse und Überwachung von Quartals- und Jahresberichten (13:12, 14:14–14:40). Eine Ausweitung der Aktienanzahl verwässert zudem die Rendite der besten Investmentideen (15:48).\n\n### Bildung / Einsteiger: ETFs vs. Einzelaktien bei kleinen Sparraten\n* **Methode / Regeln:** Für Anfänger oder bei kleinen monatlichen Sparraten (z. B. 50 €/Monat) stellen breit gestreute Welt-ETFs (z. B. MSCI World, FTSE All-World) den besten Einstieg dar (21:16, 23:55).\n* **Fehler:** Zu frühes Aufsplittern kleiner Beträge in Einzelaktien, da dies unrentabel ist und unnötigen Auf",
+    "wand erzeugt (23:55).\n\n### Markt/Makro: Chinesischer Aktienmarkt\n* **Sprecherthese:** Der chinesische Aktienmarkt hat sich zwar seit seinen Tiefs spürbar erholt, bleibt aber historisch sowie im Vergleich zu den USA deutlich unterbewertet und bietet auf lange Sicht ein hohes Erholungspotenzial (31:07, 33:49, 37:34).\n* **Richtung:** Bullisch auf lange Sicht (37:34).\n* **Gennante Kennzahlen:** Hang Seng Index erholte sich seit den Tiefs von 2022/Januar 2024 um ca. 90 % (31:18). CSI 300 stieg im selben Zeitraum um ca. 60 % (31:33). Das KGV des Hang Seng liegt bei etwa 14, das Forward-KGV bei ca. 11, was einem Bewertungsabschlag von ca. 50 % gegenüber dem S&P 500 entspricht (33:50–34:07).\n* **Trigger / Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mehrere Jahre / langfristig (37:38).\n* **Risiken / Kontext:** Hohe Jugendarbeitslosigkeit (> 20 % in 2023) (40:07), anhaltende Immobilienkrise (41:31) sowie geopolitische Spannungen rund um Taiwan (44:03).\n\n---\n\n### Unsicherheiten & sehenswerte Stellen\n* **Sehenswerte Stellen:** Die Herleitung der optimalen Depotgröße ab [05:40] sowie der KGV-Vergleich zwischen China und den USA ab [33:49].\n* **Unsicherheiten:** Politische Regulierungsentscheidungen und makroökonomische Entwicklungen in China sind schwer kalkulierbar.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-18T05:03:12.795282+00:00"
 }
