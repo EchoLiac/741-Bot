@@ -6,10 +6,45 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123280+00:00",
-  "attempts": 12,
-  "last_attempt": "2026-09-17T22:01:33.331149+00:00",
+  "attempts": 13,
+  "last_attempt": "2026-09-18T01:01:36.324421+00:00",
+  "content_available": true,
+  "summary": "Der bevorstehende Börsengang von SpaceX zeichnet sich durch eine im historischen Vergleich sehr hohe Bewertung (KUV von 93,7x) sowie einen geringen Free Float von ca. 5 % aus (05:01, 09:39). Aufgrund hoher Nachfrage von Privatanlegern und geringem Angebot an handelbaren Aktien ist zum Börsenstart ein kurzfristiger Hype-Push möglich (10:11, 12:43). Mittel- bis langfristig wird jedoch nach Ablauf der 180-tägigen Lock-Up-Frist und einer anzunehmenden Marktberuhigung mit einer deutlichen Kurskorrektur gerechnet (11:15, 11:50).\n\n**Typ:** Einzelaktie (mit vergleichender IPO-Analyse)\n\n### SpaceX (Ticker: SPCX)\n- **Sprecherthese:** SpaceX geht zu einer extrem teuren Bewertung an die Börse und ist im Gegensatz zu früheren IPOs wie Google oder Meta defizitär; der niedrige Free Float treibt anfangs den Kurs, bevor nach Ablauf der Sperrfristen Verkaufsdruck entsteht (05:01, 07:38, 11:27).\n- **Richtung:** Kurzfristig aufwärts (Hype/Nachfrageüberhang), mittel- bis langfristig abwärts/korrigierend.\n- **Konkret belegte Levels:**\n  - IPO-Preisspanne: 135 $ bis 162 $ pro Aktie (01:47)\n  - Angestrebte Unternehmensbewertung: 1,75 Billionen USD (01:47)\n  - EV/Umsatz-Multiple (KUV): 93,7x (05:01)\n  - EV/EBITDA-Multiple: 265,8x (05:47)\n  - GAAP EBIT-Marge: -13,9 % (07:38)\n  - Umsatzwachstum YoY: +33 % (07:17)\n  - Free Float am IPO-Tag: ca. 5 % (09:39)\n- **Trigger:** Ablauf der Zeichnungsfrist am 11. Juni um 18:00 Uhr und Ersthandel am 12. Juni 2026 (01:47).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Ersthandel Juni 2026; Insider-Lock-Up-Sperrfrist von 180 Tagen bis Ende 2026; historische Durchschnittsbetrachtung über das erste Handelsjahr (01:47, 10:46, 11:50).\n\n**Unsicherheiten & sehenswerte Stellen:**\n- Unsicherheiten bestehen hinsichtlich der genauen Zuteilungsquote bei hoher Überzeichnung (03:25) sowie beim tatsächlichen Ausmaß der Verkäufe durch Wagniskapitalgeber und Insider nach Ablauf der Lock-Up-Periode (11:27).\n- Sehenswerte Stellen: Minute 01:47 (Grafik mit Fristen und Zeichnungsdetails), Minute 05:01 bis 07:38 (Vergleichskennzahlen KUV, EBITDA, Marge im Vergleich zu Amazon, Google, Tesla, Meta) und Minute 09:39 (Analyse der Aktionärsstruktur und des Free Floats).",
+  "evidence": [
+    {
+      "timestamp": "01:47",
+      "basis": "visual",
+      "observation": "Folie zeigt Details zum SpaceX-IPO: Ticker SPCX, Preisspanne $135–$162, Ersthandel am 12. Juni 2026, Zeichnungsfrist bis 11. Juni 18:00 Uhr, Bewertung 1,75 Bio. USD."
+    },
+    {
+      "timestamp": "05:01",
+      "basis": "visual",
+      "observation": "Folie vergleicht EV/Umsatz-Multiple zum IPO: SpaceX liegt bei 93.7x (Amazon 27.9x, Google 23.0x, Tesla 15.8x, Meta 28.1x)."
+    },
+    {
+      "timestamp": "07:38",
+      "basis": "visual",
+      "observation": "Folie vergleicht GAAP EBIT-Marge zum IPO: SpaceX liegt bei -13.9%, Google bei +19.4% und Meta bei +47.3%."
+    },
+    {
+      "timestamp": "09:39",
+      "basis": "visual",
+      "observation": "Folie zeigt Free Float am IPO-Tag: SpaceX weist einen Free Float von ~5% auf (Amazon 12%, Google 7%, Tesla 12%, Meta 15%)."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "vrW43Z1SkgM",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-18T01:02:03.134418+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Millionen-Chance in 3 Tagen?! Das wird beim SpaceX IPO passieren!**\nhttps://www.youtube.com/watch?v=vrW43Z1SkgM\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\nDer bevorstehende Börsengang von SpaceX zeichnet sich durch eine im historischen Vergleich sehr hohe Bewertung (KUV von 93,7x) sowie einen geringen Free Float von ca. 5 % aus (05:01, 09:39). Aufgrund hoher Nachfrage von Privatanlegern und geringem Angebot an handelbaren Aktien ist zum Börsenstart ein kurzfristiger Hype-Push möglich (10:11, 12:43). Mittel- bis langfristig wird jedoch nach Ablauf der 180-tägigen Lock-Up-Frist und einer anzunehmenden Marktberuhigung mit einer deutlichen Kurskorrektur gerechnet (11:15, 11:50).\n\n**Typ:** Einzelaktie (mit vergleichender IPO-Analyse)\n\n### SpaceX (Ticker: SPCX)\n- **Sprecherthese:** SpaceX geht zu einer extrem teuren Bewertung an die Börse und ist im Gegensatz zu früheren IPOs wie Google oder Meta defizitär; der niedrige Free Float treibt anfangs den Kurs, bevor nach Ablauf der Sperrfristen Verkaufsdruck entsteht (05:01, 07:38, 11:27).\n- **Richtung:** Kurzfristig aufwärts (Hype/Nachfrageüberhang), mittel- bis langfristig abwärts/korrigierend.\n- **Konkret belegte Levels:**\n  - IPO-Preisspanne: 135 $ bis 162 $ pro Aktie (01:47)\n  - Angestrebte Unternehmensbewertung: 1,75 Billionen USD (01:47)\n  - EV/Umsatz-Multiple (KUV): 93,7x (05:01)\n  - EV/EBITDA-Multiple: 265,8x (05:47)\n  - GAAP EBIT-Marge: -13,9 % (07:38)\n  - Umsatzwachstum YoY: +33 % (07:17)\n  - Free Float am IPO-Tag: ca. 5 % (09:39)\n- **Trigger:** Ablauf der Zeichnungsfrist am 11. Juni um 18:00 Uhr und Ersthandel am 12. Juni 2026 (01:47).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Ersthandel Juni 2026; Insider-Lock-Up-Sperrfrist von 180 Tagen bis Ende 2",
+    "026; historische Durchschnittsbetrachtung über das erste Handelsjahr (01:47, 10:46, 11:50).\n\n**Unsicherheiten & sehenswerte Stellen:**\n- Unsicherheiten bestehen hinsichtlich der genauen Zuteilungsquote bei hoher Überzeichnung (03:25) sowie beim tatsächlichen Ausmaß der Verkäufe durch Wagniskapitalgeber und Insider nach Ablauf der Lock-Up-Periode (11:27).\n- Sehenswerte Stellen: Minute 01:47 (Grafik mit Fristen und Zeichnungsdetails), Minute 05:01 bis 07:38 (Vergleichskennzahlen KUV, EBITDA, Marge im Vergleich zu Amazon, Google, Tesla, Meta) und Minute 09:39 (Analyse der Aktionärsstruktur und des Free Floats).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-18T01:02:03.495200+00:00"
 }
