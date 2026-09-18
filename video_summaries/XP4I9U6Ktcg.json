@@ -6,10 +6,55 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123302+00:00",
-  "attempts": 14,
-  "last_attempt": "2026-09-18T05:31:18.284829+00:00",
+  "attempts": 15,
+  "last_attempt": "2026-09-18T07:32:09.123001+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher analysiert ein beispielhaftes 50.000-Euro-Privatanleger-Depot („Chaos-Depot“) und zeigt drei zentrale Optimierungsschritte auf, um Klumpenrisiken und den Home Bias zu reduzieren. Durch das gezielte Reduzieren von Übergewichtungen soll Liquidität geschaffen werden, um das Portfolio bezüglich Sektoren und Regionen ausgewogener aufzustellen (00:08, 06:02).\n\n### Typ\nBildung / Portfolio-Analyse\n\n### Methoden, Regeln & Fehler\n- **Fehler / Schwachstellen**:\n  - Prozyklischer Kauf am Top (z. B. Nvidia mit 19 % Depotgewichtung bei -5,6 % Performance, 02:04, 02:48).\n  - Ausgeprägter Home Bias mit 44 % Deutschland-Anteil trotz geringem Anteil am Weltmarkt (04:44, 09:03).\n  - Unwirksame ETF-Beimischung von nur 7 % Gewichtung, die kaum Diversifikation bringt (07:00).\n  - Fehlen defensiver Sektoren wie Basiskonsumgüter und Versorger zur Risikoreduktion (03:45).\n- **Regeln & Strategie**:\n  - Antizyklisches Kaufen bevorzugen und Einzelwerte besser auf 4–7 % gewichten (02:48, 07:25).\n  - Home Bias drastisch senken (Deutschland im Depot auf maximal 20 % begrenzen, 05:39).\n  - Durch Teilverkäufe eine Cash-Quote von 30–50 % aufbauen, um gezielt in unterrepräsentierte Regionen (z. B. Schwellenländer, Europa, Kanada) und Sektoren zu reallozieren (07:15, 07:46).\n\n### Behandelte Werte im Portfolio\n- **Nvidia (NVDA)** (02:02, 06:04):\n  - *Sprecherthese*: Stark übergewichtet (19 %) bei schlechtem Einstiegskurs nahe dem Hochpunkt (-5,6 % Performance).\n  - *Richtung*: Reduzieren / Teilverkauf (mindestens halbieren).\n  - *Belegte Levels*: Performance -5,6 % (02:15).\n  - *Trigger / Invalidierung / Zeithorizont*: Nicht genannt.\n- **MSCI World ETF** (01:06, 07:00):\n  - *Sprecherthese*: Mit 7 % Gewichtung zu klein, um als Kerninvestment zu dienen.\n  - *Richtung*: Komplett veräußern oder deutlich aufstocken.\n  - *Belegte Levels*: Gewichtung 7 %.\n  - *Trigger / Invalidierung / Zeithorizont*: Nicht genannt.\n- **Plug Power & Coinbase** (03:00):\n  - *Sprecherthese*: Hochrisikowerte, bei denen eine Untergewichtung (2 % bzw. 3 %) sinnvoll ist.\n  - *Richtung*: Halten / Akzeptabel.\n  - *Belegte Levels*: Plug Power (2 % Gewichtung, -87,18 % Performance), Coinbase (3 % Gewichtung, -32,08 % Performance).\n  - *Trigger / Invalidierung / Zeithorizont*: Nicht genannt.\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten**: Die individuellen Anlegerziele (z. B. Cashflow, Dividendenfokus oder Reines Wachstum) sind im Video nicht vorgegeben und verändern die konkrete Titelauswahl (01:20, 06:38).\n- **Empfohlene Videoabschnitte**:\n  - `00:57`: Übersicht aller 16 Depotpositionen und deren Performance.\n  - `02:22`: Chartbetrachtung der Nvidia-Aktie zum Kaufzeitpunkt.\n  - `03:20`: Sektor- und Regionenverteilung (Home Bias Analyse).\n  - `06:02`: Die 3-Punkte-Empfehlung zur Depot-Optimierung.",
+  "evidence": [
+    {
+      "timestamp": "00:57",
+      "basis": "visual",
+      "observation": "Tabelle „WLA Depot-Analyse“ zeigt 16 Positionen, darunter Nvidia (19% Gewichtung, -5,60% Performance) und SAP (+108,68% Performance)."
+    },
+    {
+      "timestamp": "02:22",
+      "basis": "visual",
+      "observation": "NVIDIA Corporation Tageschart (NASDAQ) zeigt Kurshochs im Bereich über 210 USD mit anschließender Korrektur."
+    },
+    {
+      "timestamp": "03:26",
+      "basis": "visual",
+      "observation": "Grafik zur Sektorverteilung zeigt IT mit 33%, Industrie mit 7% und ETF mit 7%."
+    },
+    {
+      "timestamp": "04:40",
+      "basis": "visual",
+      "observation": "Grafik zur Regionalen Allokation zeigt USA mit 45,02%, Deutschland mit 44,03% und Global (ETF) mit 7,00%."
+    },
+    {
+      "timestamp": "06:04",
+      "basis": "audio",
+      "observation": "Sprecher empfiehlt als Maßnahme 1, Nvidia deutlich zu reduzieren (mindestens die Hälfte verkaufen)."
+    },
+    {
+      "timestamp": "09:03",
+      "basis": "visual",
+      "observation": "Folie „Sechs strukturelle Schwächen“ zeigt Home Bias (44% DE), IT-Klumpen (33% IT) und 0% Emerging Markets."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "XP4I9U6Ktcg",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-18T07:32:33.745568+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**50.000€ Depot - Diese 3 Dinge würde ich ändern!**\nhttps://www.youtube.com/watch?v=XP4I9U6Ktcg\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher analysiert ein beispielhaftes 50.000-Euro-Privatanleger-Depot („Chaos-Depot“) und zeigt drei zentrale Optimierungsschritte auf, um Klumpenrisiken und den Home Bias zu reduzieren. Durch das gezielte Reduzieren von Übergewichtungen soll Liquidität geschaffen werden, um das Portfolio bezüglich Sektoren und Regionen ausgewogener aufzustellen (00:08, 06:02).\n\n### Typ\nBildung / Portfolio-Analyse\n\n### Methoden, Regeln & Fehler\n- **Fehler / Schwachstellen**:\n  - Prozyklischer Kauf am Top (z. B. Nvidia mit 19 % Depotgewichtung bei -5,6 % Performance, 02:04, 02:48).\n  - Ausgeprägter Home Bias mit 44 % Deutschland-Anteil trotz geringem Anteil am Weltmarkt (04:44, 09:03).\n  - Unwirksame ETF-Beimischung von nur 7 % Gewichtung, die kaum Diversifikation bringt (07:00).\n  - Fehlen defensiver Sektoren wie Basiskonsumgüter und Versorger zur Risikoreduktion (03:45).\n- **Regeln & Strategie**:\n  - Antizyklisches Kaufen bevorzugen und Einzelwerte besser auf 4–7 % gewichten (02:48, 07:25).\n  - Home Bias drastisch senken (Deutschland im Depot auf maximal 20 % begrenzen, 05:39).\n  - Durch Teilverkäufe eine Cash-Quote von 30–50 % aufbauen, um gezielt in unterrepräsentierte Regionen (z. B. Schwellenländer, Europa, Kanada) und Sektoren zu reallozieren (07:15, 07:46).\n\n### Behandelte Werte im Portfolio\n- **Nvidia (NVDA)** (02:02, 06:04):\n  - *Sprecherthese*: Stark übergewichtet (19 %) bei schlechtem Einstiegskurs nahe dem Hochpunkt (-5,6 % Performance).\n  - *Richtung*: Reduzieren / Teilverkauf (mindestens halbieren).\n  - *Belegte Levels*: Performance -5,6 % (02:15).\n  - *Trigger ",
+    "/ Invalidierung / Zeithorizont*: Nicht genannt.\n- **MSCI World ETF** (01:06, 07:00):\n  - *Sprecherthese*: Mit 7 % Gewichtung zu klein, um als Kerninvestment zu dienen.\n  - *Richtung*: Komplett veräußern oder deutlich aufstocken.\n  - *Belegte Levels*: Gewichtung 7 %.\n  - *Trigger / Invalidierung / Zeithorizont*: Nicht genannt.\n- **Plug Power & Coinbase** (03:00):\n  - *Sprecherthese*: Hochrisikowerte, bei denen eine Untergewichtung (2 % bzw. 3 %) sinnvoll ist.\n  - *Richtung*: Halten / Akzeptabel.\n  - *Belegte Levels*: Plug Power (2 % Gewichtung, -87,18 % Performance), Coinbase (3 % Gewichtung, -32,08 % Performance).\n  - *Trigger / Invalidierung / Zeithorizont*: Nicht genannt.\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten**: Die individuellen Anlegerziele (z. B. Cashflow, Dividendenfokus oder Reines Wachstum) sind im Video nicht vorgegeben und verändern die konkrete Titelauswahl (01:20, 06:38).\n- **Empfohlene Videoabschnitte**:\n  - `00:57`: Übersicht aller 16 Depotpositionen und deren Performance.\n  - `02:22`: Chartbetrachtung der Nvidia-Aktie zum Kaufzeitpunkt.\n  - `03:20`: Sektor- und Regionenverteilung (Home Bias Analyse).\n  - `06:02`: Die 3-Punkte-Empfehlung zur Depot-Optimierung.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-18T07:32:34.267139+00:00"
 }

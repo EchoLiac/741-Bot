@@ -6,10 +6,60 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123295+00:00",
-  "attempts": 14,
-  "last_attempt": "2026-09-18T05:03:25.063863+00:00",
+  "attempts": 15,
+  "last_attempt": "2026-09-18T07:31:37.618619+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher analysiert die US-Versicherungsmakler-Aktie **Brown & Brown (BRO)** als unaufgeregten Dauerläufer, der nach einer Korrektur fundamental attraktiv bewertet ist (00:10, 05:15). Langfristig befindet sich die Aktie in einem intakten Aufwärtstrend, zeigt kurzfristig jedoch noch einen laufenden Abwärtstrend (01:03, 08:37). Ein Nachkauf bzw. Einstieg erfolgt laut Sprecher erst, wenn sich eine klare Seitwärts-Bodenbildung mit anschließendem Ausbruch nach oben durchgesetzt hat (10:18).\n\n### Typ\nEinzelaktie (mit Branchen- und Peer-Group-Vergleich)\n\n### Aktie: Brown & Brown, Inc. (Ticker: BRO / NYSE)\n- **Sprecherthese**: Als Makler trägt Brown & Brown kein direktes Katastrophenrisiko im Vergleich zu klassischen Versicherern. Die Aktie ist historisch unterbewertet (KGV ~20,6x vs. Schnitt 22,9x) und bietet nach einer überdurchschnittlichen Korrektur von rund 50 % eine hervorragende Einstiegschance (02:12, 05:20, 08:37).\n- **Richtung**: Langfristig bullisch / kurzfristig abwartend.\n- **Konkret belegte Levels**: \n  - Aktuelles KGV: **20,6x** (05:21).\n  - Historischer KGV-Schnitt: **22,9x** (05:18).\n  - Geschätztes KGV 2028: **16,45x** (05:44).\n  - Wichtiger Chart-Trendbruch / Trigger: Kurs über **74,00 USD** bricht den kurzfristigen Abwärtstrend (10:21).\n- **Trigger**: Ausbruch nach oben aus einer mehrmonatigen Bodenbildungs- / Konsolidierungszone (10:18, 10:33).\n- **Invalidierung**: Nicht explizit genannt (Sprecher greift nicht in fallende Messer, sondern wartet die Bestätigung ab) (09:46).\n- **Zeithorizont**: Langfristig (Dauerläufer-Investment) (01:15).\n\n### Weitere erwähnte Werte (Peer-Group)\n- **Marsh & McLennan (MMC)**, **Aon (AON)**, **Willis Towers Watson (WTW)**, **Arthur J. Gallagher (AJG)**: Werden kurz als größere Branchenvertreter mit ebenfalls langfristig starken Chartverläufen vorgestellt (06:58–07:45).\n\n### Unsicherheiten und sehenswerte Stellen\n- **Auffälligkeit im Chart**: In den gezeigten TradingView-Charts (z. B. ab 00:58 und 08:18) verläuft die Zeitachse auf der X-Achse teils bis in die Jahre 2025/2026+, was auf ein verschobenes oder simuliertes Daten-Setup hinweist. Dies sollte bei der Auswertung beachtet werden.\n- **Sehenswerte Stellen**: \n  - **05:11–05:52**: Analyse der KGV-Historie und künftigen Bewertung.\n  - **09:18–10:35**: Detaillierte Skizze der geforderten Bodenbildung und des Ausbruch-Triggers bei ~74 USD.",
+  "evidence": [
+    {
+      "timestamp": "00:55",
+      "basis": "visual",
+      "observation": "Tageschart von Brown & Brown, Inc. zeigt einen kurzfristigen Abwärtstrend vom Allzeithoch."
+    },
+    {
+      "timestamp": "01:14",
+      "basis": "audio",
+      "observation": "Sprecher erwähnt einen langjährigen Aufwärtstrend der Aktie seit den 1980er Jahren."
+    },
+    {
+      "timestamp": "03:16",
+      "basis": "visual",
+      "observation": "Grafik zeigt Gewinn- und Verlustrechnung für 2025: Umsatz 5,90 Mrd. USD, EBIT 1,67 Mrd. USD (Marge 28,26%), Nettogewinn 1,07 Mrd. USD (Marge 18,08%)."
+    },
+    {
+      "timestamp": "04:23",
+      "basis": "visual",
+      "observation": "Fundamentales 'Wir Lieben Aktien'-Rating vergibt 8/10 Punkte in der Kategorie Average Grower."
+    },
+    {
+      "timestamp": "05:18",
+      "basis": "visual",
+      "observation": "KGV-Historie zeigt aktuelles KGV von 20,60x im Vergleich zum historischen Durchschnitt von 22,90x."
+    },
+    {
+      "timestamp": "06:46",
+      "basis": "visual",
+      "observation": "Umsatzanteile führender Versicherungsmakler 2024: Marsh, AON, Gallagher, WTW sowie Brown & Brown mit 7,1%."
+    },
+    {
+      "timestamp": "10:21",
+      "basis": "audio",
+      "observation": "Sprecher erklärt, dass ein Anstieg über 74 USD den kurzfristigen Abwärtstrend im Tageschart brechen würde."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "1nS8ZT2maOA",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-18T07:32:08.754977+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Jahrzehnte-Chance bei Geheimtipp Aktie (Brown & Brown Aktie Analyse)**\nhttps://www.youtube.com/watch?v=1nS8ZT2maOA\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher analysiert die US-Versicherungsmakler-Aktie **Brown & Brown (BRO)** als unaufgeregten Dauerläufer, der nach einer Korrektur fundamental attraktiv bewertet ist (00:10, 05:15). Langfristig befindet sich die Aktie in einem intakten Aufwärtstrend, zeigt kurzfristig jedoch noch einen laufenden Abwärtstrend (01:03, 08:37). Ein Nachkauf bzw. Einstieg erfolgt laut Sprecher erst, wenn sich eine klare Seitwärts-Bodenbildung mit anschließendem Ausbruch nach oben durchgesetzt hat (10:18).\n\n### Typ\nEinzelaktie (mit Branchen- und Peer-Group-Vergleich)\n\n### Aktie: Brown & Brown, Inc. (Ticker: BRO / NYSE)\n- **Sprecherthese**: Als Makler trägt Brown & Brown kein direktes Katastrophenrisiko im Vergleich zu klassischen Versicherern. Die Aktie ist historisch unterbewertet (KGV ~20,6x vs. Schnitt 22,9x) und bietet nach einer überdurchschnittlichen Korrektur von rund 50 % eine hervorragende Einstiegschance (02:12, 05:20, 08:37).\n- **Richtung**: Langfristig bullisch / kurzfristig abwartend.\n- **Konkret belegte Levels**: \n  - Aktuelles KGV: **20,6x** (05:21).\n  - Historischer KGV-Schnitt: **22,9x** (05:18).\n  - Geschätztes KGV 2028: **16,45x** (05:44).\n  - Wichtiger Chart-Trendbruch / Trigger: Kurs über **74,00 USD** bricht den kurzfristigen Abwärtstrend (10:21).\n- **Trigger**: Ausbruch nach oben aus einer mehrmonatigen Bodenbildungs- / Konsolidierungszone (10:18, 10:33).\n- **Invalidierung**: Nicht explizit genannt (Sprecher greift nicht in fallende Messer, sondern wartet die Bestätigung ab) (09:46).\n- **Zeithorizont**: Langfristig (Dauerläufer-Investmen",
+    "t) (01:15).\n\n### Weitere erwähnte Werte (Peer-Group)\n- **Marsh & McLennan (MMC)**, **Aon (AON)**, **Willis Towers Watson (WTW)**, **Arthur J. Gallagher (AJG)**: Werden kurz als größere Branchenvertreter mit ebenfalls langfristig starken Chartverläufen vorgestellt (06:58–07:45).\n\n### Unsicherheiten und sehenswerte Stellen\n- **Auffälligkeit im Chart**: In den gezeigten TradingView-Charts (z. B. ab 00:58 und 08:18) verläuft die Zeitachse auf der X-Achse teils bis in die Jahre 2025/2026+, was auf ein verschobenes oder simuliertes Daten-Setup hinweist. Dies sollte bei der Auswertung beachtet werden.\n- **Sehenswerte Stellen**: \n  - **05:11–05:52**: Analyse der KGV-Historie und künftigen Bewertung.\n  - **09:18–10:35**: Detaillierte Skizze der geforderten Bodenbildung und des Ausbruch-Triggers bei ~74 USD.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-18T07:32:09.117815+00:00"
 }

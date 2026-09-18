@@ -6,10 +6,50 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123289+00:00",
-  "attempts": 14,
-  "last_attempt": "2026-09-18T05:03:18.985930+00:00",
+  "attempts": 15,
+  "last_attempt": "2026-09-18T07:31:15.482411+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher präsentiert vier zentrale Kennzahlen zur Analyse von Software- und SaaS-Aktien, um deren Profitabilität, Kundenbindung und Vertriebseffizienz objektiv zu bewerten (00:00 - 16:35). Neben der Bruttomarge erklärt er detailliert die Net Revenue Retention (NRR), die Rule of 40 und die Magic Number mitsamt Berechnungsformeln und Zielwerten. Das Video dient als methodischer Leitfaden für Anleger zur Fundamentalanalyse von Technologieunternehmen.\n\n### Typ\nBildung\n\n### Methode / Regeln / Fehler\n- **1. Bruttomarge (01:12):** Berechnet aus `(Umsatz - Cost of Sales) / Umsatz`. SaaS-Modelle erzielen durch hohe Skalierbarkeit meist Bruttomargen von über 70 bis 80 % (z. B. Adobe, HubSpot).\n- **2. Net Revenue Retention / NRR (03:23):** Formel: `(Start-ARR + Upsells - Kündigungen - Downgrades) / Start-ARR`. Misst das Umsatzwachstum bei Bestandskunden. Werte > 120 % gelten als herausragend (z. B. Snowflake), 100–110 % als solide, Werte < 100 % indizieren Kundenabwanderung oder schrumpfenden Bestandsumsatz.\n- **3. Rule of 40 (07:55):** Summe aus TTM-Umsatzwachstum (%) und Free Cashflow-Marge (%) nach Bereinigung um aktienbasierte Vergütungen (SBC). Ein Gesamtwert ab 40 % zeigt ein gutes Verhältnis zwischen Wachstum und Profitabilität (z. B. Adobe, ServiceNow).\n- **4. Magic Number (11:48):** Formel: `((Umsatz Q_t - Umsatz Q_(t-1)) * 4) / S&M-Ausgaben Q_(t-1)`. Bewertet die Vertriebseffizienz pro investiertem Marketing-Euro. Ein Wert > 0,75 gilt als sehr gut (z. B. Palo Alto Networks mit 1,25), Werte < 0,50 deuten auf ineffiziente Vertriebsausgaben hin.\n- **Häufiger Fehler:** Die Vernachlässigung von aktienbasierten Vergütungen (SBC) bei der Cashflow-Berechnung sowie die isolierte Betrachtung von Kennzahlen ohne Abgleich mit der aktuellen Aktienbewertung (11:34).\n\n### Aktien/Markt-Analyse\n- **Levels / Trigger / Invalidierung / Zeithorizont:** Nicht genannt (Reines Schulungsvideo ohne konkrete Chartmarken, Kursziele oder Trading-Trigger).\n\n### Unsicherheiten & sehenswerte Stellen\n- **07:55 - 11:34 (Rule of 40):** Sehr sehenswert für das Verständnis, warum die Korrektur um aktienbasierte Vergütungen (SBC) bei SaaS-Aktien entscheidend ist.\n- **11:48 - 15:35 (Magic Number):** Besonders aufschlussreich, da anhand etablierter Konzerne wie Adobe gezeigt wird, dass hohe Marketingkosten trotz starker sonstiger Zahlen zu ineffizientem Neugeschäft führen können.\n- **Unsicherheit:** Das Video klärt über die betriebswirtschaftliche Qualität von SaaS-Unternehmen auf, berücksichtigt jedoch bewusst nicht deren aktuelle Börsenbewertung (z. B. KUV/KGV) (11:34).",
+  "evidence": [
+    {
+      "timestamp": "01:12",
+      "basis": "visual",
+      "observation": "Balkendiagramm zeigt Bruttomargen ausgewählter Softwareunternehmen (ADBE, HUBS >80%, DDOG, INTU, NOW, CRM, PANW, SAP, MSFT >70%)."
+    },
+    {
+      "timestamp": "03:23",
+      "basis": "visual",
+      "observation": "Folie erklärt Net Revenue Retention (NRR) mit Rechenbeispiel (100k€ Start-ARR + 22k€ Upsells - 8k€ Kündigungen - 4k€ Downgrades = 110k€ End-ARR; NRR = 110%)."
+    },
+    {
+      "timestamp": "07:55",
+      "basis": "visual",
+      "observation": "Diagramm zeigt Ergebnisse der Rule of 40 (Kombination aus TTM-Umsatzwachstum und Free Cashflow-Marge nach SBC) mit der 40%-Linie."
+    },
+    {
+      "timestamp": "11:48",
+      "basis": "visual",
+      "observation": "Folie zeigt Formel und Benchmark-Skala für die Magic Number (>0.75 gut, 0.50-0.75 Potenzial, <0.50 ineffizient)."
+    },
+    {
+      "timestamp": "14:26",
+      "basis": "audio",
+      "observation": "Der Sprecher nennt Palo Alto Networks mit einer Magic Number von 1,25 als extrem starkes Beispiel für Vertriebseffizienz."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "ZLARY-VOqt4",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-18T07:31:37.168550+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Use software crashes to build wealth - pay attention to these 4 key figures!**\nhttps://www.youtube.com/watch?v=ZLARY-VOqt4\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher präsentiert vier zentrale Kennzahlen zur Analyse von Software- und SaaS-Aktien, um deren Profitabilität, Kundenbindung und Vertriebseffizienz objektiv zu bewerten (00:00 - 16:35). Neben der Bruttomarge erklärt er detailliert die Net Revenue Retention (NRR), die Rule of 40 und die Magic Number mitsamt Berechnungsformeln und Zielwerten. Das Video dient als methodischer Leitfaden für Anleger zur Fundamentalanalyse von Technologieunternehmen.\n\n### Typ\nBildung\n\n### Methode / Regeln / Fehler\n- **1. Bruttomarge (01:12):** Berechnet aus `(Umsatz - Cost of Sales) / Umsatz`. SaaS-Modelle erzielen durch hohe Skalierbarkeit meist Bruttomargen von über 70 bis 80 % (z. B. Adobe, HubSpot).\n- **2. Net Revenue Retention / NRR (03:23):** Formel: `(Start-ARR + Upsells - Kündigungen - Downgrades) / Start-ARR`. Misst das Umsatzwachstum bei Bestandskunden. Werte > 120 % gelten als herausragend (z. B. Snowflake), 100–110 % als solide, Werte < 100 % indizieren Kundenabwanderung oder schrumpfenden Bestandsumsatz.\n- **3. Rule of 40 (07:55):** Summe aus TTM-Umsatzwachstum (%) und Free Cashflow-Marge (%) nach Bereinigung um aktienbasierte Vergütungen (SBC). Ein Gesamtwert ab 40 % zeigt ein gutes Verhältnis zwischen Wachstum und Profitabilität (z. B. Adobe, ServiceNow).\n- **4. Magic Number (11:48):** Formel: `((Umsatz Q_t - Umsatz Q_(t-1)) * 4) / S&M-Ausgaben Q_(t-1)`. Bewertet die Vertriebseffizienz pro investiertem Marketing-Euro. Ein Wert > 0,75 gilt als sehr gut (z. B. Palo Alto Networks mit 1,25), Werte < 0,50 deuten auf ineffiziente Vertriebsaus",
+    "gaben hin.\n- **Häufiger Fehler:** Die Vernachlässigung von aktienbasierten Vergütungen (SBC) bei der Cashflow-Berechnung sowie die isolierte Betrachtung von Kennzahlen ohne Abgleich mit der aktuellen Aktienbewertung (11:34).\n\n### Aktien/Markt-Analyse\n- **Levels / Trigger / Invalidierung / Zeithorizont:** Nicht genannt (Reines Schulungsvideo ohne konkrete Chartmarken, Kursziele oder Trading-Trigger).\n\n### Unsicherheiten & sehenswerte Stellen\n- **07:55 - 11:34 (Rule of 40):** Sehr sehenswert für das Verständnis, warum die Korrektur um aktienbasierte Vergütungen (SBC) bei SaaS-Aktien entscheidend ist.\n- **11:48 - 15:35 (Magic Number):** Besonders aufschlussreich, da anhand etablierter Konzerne wie Adobe gezeigt wird, dass hohe Marketingkosten trotz starker sonstiger Zahlen zu ineffizientem Neugeschäft führen können.\n- **Unsicherheit:** Das Video klärt über die betriebswirtschaftliche Qualität von SaaS-Unternehmen auf, berücksichtigt jedoch bewusst nicht deren aktuelle Börsenbewertung (z. B. KUV/KGV) (11:34).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-18T07:31:37.613466+00:00"
 }
