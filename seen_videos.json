@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-18T15:01:19.814827+00:00",
-    "@wir-lieben-aktien": "2026-09-18T15:01:20.430963+00:00",
-    "@chartsekte": "2026-09-18T15:01:20.964236+00:00",
-    "@hkcm": "2026-09-18T15:01:21.537485+00:00",
-    "@phantombyhkcm": "2026-09-18T15:01:22.089831+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-18T15:01:22.599419+00:00",
-    "@aktien4future": "2026-09-18T15:01:23.149903+00:00",
-    "@Finanzbaer": "2026-09-18T15:01:23.736770+00:00",
-    "@Finanzwiesel": "2026-09-18T15:01:24.203923+00:00",
-    "@TradingKompass": "2026-09-18T15:01:24.741090+00:00",
-    "@TomVorwald": "2026-09-18T15:01:25.351553+00:00"
+    "@1OxTrading": "2026-09-18T15:31:13.768318+00:00",
+    "@wir-lieben-aktien": "2026-09-18T15:31:14.302580+00:00",
+    "@chartsekte": "2026-09-18T15:31:14.798144+00:00",
+    "@hkcm": "2026-09-18T15:31:15.387018+00:00",
+    "@phantombyhkcm": "2026-09-18T15:31:15.893287+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-18T15:31:16.397614+00:00",
+    "@aktien4future": "2026-09-18T15:31:16.949623+00:00",
+    "@Finanzbaer": "2026-09-18T15:31:17.450134+00:00",
+    "@Finanzwiesel": "2026-09-18T15:31:18.012401+00:00",
+    "@TradingKompass": "2026-09-18T15:31:18.514563+00:00",
+    "@TomVorwald": "2026-09-18T15:31:19.022812+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 107,
-    "last_attempt": "2026-09-18T15:01:37.811906+00:00"
+    "attempts": 108,
+    "last_attempt": "2026-09-18T15:32:32.242301+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -4269,8 +4269,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123275+00:00",
-    "attempts": 25,
-    "last_attempt": "2026-09-18T15:01:31.540170+00:00"
+    "attempts": 26,
+    "last_attempt": "2026-09-18T15:32:26.110958+00:00"
   },
   "0QlGUkRzXCo": {
     "id": "0QlGUkRzXCo",
@@ -4772,8 +4772,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-17T17:31:10.892883+00:00",
-    "attempts": 15,
-    "last_attempt": "2026-09-18T15:01:25.407266+00:00"
+    "attempts": 16,
+    "last_attempt": "2026-09-18T15:31:19.079646+00:00"
   },
   "bBZL-W9dvE4": {
     "id": "bBZL-W9dvE4",
