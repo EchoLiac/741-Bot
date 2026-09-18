@@ -6,10 +6,55 @@
   "published": null,
   "channel": "HKCM",
   "handle": "@hkcm",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-16T16:31:08.167321+00:00",
-  "attempts": 9,
-  "last_attempt": "2026-09-18T00:01:34.732456+00:00",
+  "attempts": 10,
+  "last_attempt": "2026-09-18T03:31:14.075293+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nXRP steht kurz vor dem Erreichen einer definierten Kaufzone im Rahmen einer Welle-Y-Korrektur, um danach eine bullische Trendwende einzuleiten (00:23, 03:09). Langfristig wird für XRP im kommenden Bullenmarkt-Zyklus ein Anstiegspotenzial in den Bereich von 6,00 $ bis über 7,00 $ prognostiziert (04:36). Einsteigern wird empfohlen, schrittweise vorzugehen, Fachliteratur zu nutzen und Risiken strikt über Stopps abzusichern (05:55, 07:40).\n\n### Typ\nKryptowährung & Bildung\n\n### XRP (Ripple)\n* **Sprecherthese**: Abschließender Rücksetzer in die Welle Y der Kaufzone schafft eine günstige Einstiegs- bzw. Nachkaufgelegenheit vor einer Aufwärtswende (03:09).\n* **Richtung**: Bullisch (nach Vollendung der Korrekturzone).\n* **Konkret belegte Levels**:\n  * Erster Zielbereich: 1,86 $ (03:22)\n  * Folgeziel Hauptszenario: 2,40 $ (03:28)\n  * Alternative Zielmarke: ca. 2,00 $ (03:45)\n  * Langfristiges Zyklusziel (Welle C): 6,00 $ bis über 7,00 $ (04:36)\n  * Im Chart sichtbare Marken: 0,38 $ und 0,98 $ (Unterstützungen/Inaktivierungslinien) sowie 3,34 $ (grüne Ziellinie) (04:10)\n* **Trigger**: Erreichen der Ziel- und Kaufzone auf 4-Stunden-Basis (03:09).\n* **Invalidierung / Absicherung**: Konkreter Stop-Out wird intern für Abonnenten angegeben; im Chart dient 0,38 $ als untere Chartmarke (02:28, 04:10).\n* **Zeithorizont**: Mittelfristig bis zum nächsten Bullenmarkt-Zyklus (04:31).\n\n### Bildungsabschnitt\n* **Methode & Regeln**: Anwendung der Elliott-Wellen-Theorie zur Erfassung von Trend- und Korrekturmustern (01:21, 07:04). Konsequente Verlustbegrenzung durch fest definierte Stopps (02:38).\n* **Empfehlungen für Einsteiger**:\n  * Fachbücher lesen: *Money - Master the Game* von Tony Robbins (06:14) und *Börsenerfolg mit Elliott-Wellen* von HKCM (07:04).\n  * Erprobung der Strategien über ein Demokonto (07:50).\n  * Langsamer Einstieg mit kleinen Positionsgrößen (07:40).\n* **Typische Fehler**: Zu schneller Einsatz von viel Kapital („Zocken“) und ein trügerisches Sicherheitsgefühl durch anfängliche Zufallsgewinne (07:45, 08:02).\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Unsicherheiten**: Es besteht die Option, dass das Korrekturtief bereits am 16. September ausgebildet wurde (Alternativszenario) und der Kurs direkt ohne weiteren Tiefstand nach oben durchstartet (02:58, 03:30).\n* **Sehenswerte Stellen**:\n  * **02:16**: 4-Stunden-Chart mit Darstellung der Welle X und Y sowie den Etappenzielen.\n  * **04:09**: Wochenchart mit der langfristigen Fünf-Wellen-Projektion im Elliott-Wellen-Muster.",
+  "evidence": [
+    {
+      "timestamp": "00:09",
+      "basis": "audio",
+      "observation": "Sprecher erwähnt FOMC-Zinsentscheid mit 92% Wahrscheinlichkeit für eine Anhebung und die daraus resultierende Volatilität im Altcoin-Markt."
+    },
+    {
+      "timestamp": "02:16",
+      "basis": "visual",
+      "observation": "Einblenden des XRP/USD 4-Stunden-Charts mit Korrekturwellen W, X, Y und grünem Zielpfeil."
+    },
+    {
+      "timestamp": "03:22",
+      "basis": "audio",
+      "observation": "Sprecher nennt 1,86 $ als erstes Etappenziel nach dem Drehen in der Kaufzone."
+    },
+    {
+      "timestamp": "04:09",
+      "basis": "visual",
+      "observation": "Wochenchart zeigt XRP/USD mit langfristiger Zielprojektion auf 3,34 $ und 6,00 $ bis 7,00 $."
+    },
+    {
+      "timestamp": "06:14",
+      "basis": "visual",
+      "observation": "Buchcover 'Money: Master the Game' von Tony Robbins wird eingeblendet."
+    },
+    {
+      "timestamp": "06:54",
+      "basis": "visual",
+      "observation": "Ankündigung des Buches 'Börsenerfolg mit Elliott-Wellen' von HKCM auf der Website eingeblendet."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "Jq1SbhmfuH4",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-18T03:31:36.999667+00:00",
+  "discord_chunks": [
+    "🎬 **HKCM**\n**XRP with one final dip?**\nhttps://www.youtube.com/watch?v=Jq1SbhmfuH4\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nXRP steht kurz vor dem Erreichen einer definierten Kaufzone im Rahmen einer Welle-Y-Korrektur, um danach eine bullische Trendwende einzuleiten (00:23, 03:09). Langfristig wird für XRP im kommenden Bullenmarkt-Zyklus ein Anstiegspotenzial in den Bereich von 6,00 $ bis über 7,00 $ prognostiziert (04:36). Einsteigern wird empfohlen, schrittweise vorzugehen, Fachliteratur zu nutzen und Risiken strikt über Stopps abzusichern (05:55, 07:40).\n\n### Typ\nKryptowährung & Bildung\n\n### XRP (Ripple)\n* **Sprecherthese**: Abschließender Rücksetzer in die Welle Y der Kaufzone schafft eine günstige Einstiegs- bzw. Nachkaufgelegenheit vor einer Aufwärtswende (03:09).\n* **Richtung**: Bullisch (nach Vollendung der Korrekturzone).\n* **Konkret belegte Levels**:\n  * Erster Zielbereich: 1,86 $ (03:22)\n  * Folgeziel Hauptszenario: 2,40 $ (03:28)\n  * Alternative Zielmarke: ca. 2,00 $ (03:45)\n  * Langfristiges Zyklusziel (Welle C): 6,00 $ bis über 7,00 $ (04:36)\n  * Im Chart sichtbare Marken: 0,38 $ und 0,98 $ (Unterstützungen/Inaktivierungslinien) sowie 3,34 $ (grüne Ziellinie) (04:10)\n* **Trigger**: Erreichen der Ziel- und Kaufzone auf 4-Stunden-Basis (03:09).\n* **Invalidierung / Absicherung**: Konkreter Stop-Out wird intern für Abonnenten angegeben; im Chart dient 0,38 $ als untere Chartmarke (02:28, 04:10).\n* **Zeithorizont**: Mittelfristig bis zum nächsten Bullenmarkt-Zyklus (04:31).\n\n### Bildungsabschnitt\n* **Methode & Regeln**: Anwendung der Elliott-Wellen-Theorie zur Erfassung von Trend- und Korrekturmustern (01:21, 07:04). Konsequente Verlustbegrenzung durch fest definierte Stopps (02:38).\n* **Empfehlungen für Einsteig",
+    "er**:\n  * Fachbücher lesen: *Money - Master the Game* von Tony Robbins (06:14) und *Börsenerfolg mit Elliott-Wellen* von HKCM (07:04).\n  * Erprobung der Strategien über ein Demokonto (07:50).\n  * Langsamer Einstieg mit kleinen Positionsgrößen (07:40).\n* **Typische Fehler**: Zu schneller Einsatz von viel Kapital („Zocken“) und ein trügerisches Sicherheitsgefühl durch anfängliche Zufallsgewinne (07:45, 08:02).\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Unsicherheiten**: Es besteht die Option, dass das Korrekturtief bereits am 16. September ausgebildet wurde (Alternativszenario) und der Kurs direkt ohne weiteren Tiefstand nach oben durchstartet (02:58, 03:30).\n* **Sehenswerte Stellen**:\n  * **02:16**: 4-Stunden-Chart mit Darstellung der Welle X und Y sowie den Etappenzielen.\n  * **04:09**: Wochenchart mit der langfristigen Fünf-Wellen-Projektion im Elliott-Wellen-Muster.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-18T03:31:38.101142+00:00"
 }

@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-18T03:01:17.496701+00:00",
-    "@wir-lieben-aktien": "2026-09-18T03:01:18.044022+00:00",
-    "@chartsekte": "2026-09-18T03:01:18.648517+00:00",
-    "@hkcm": "2026-09-18T03:01:19.227992+00:00",
-    "@phantombyhkcm": "2026-09-18T03:01:19.745171+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-18T03:01:20.245694+00:00",
-    "@aktien4future": "2026-09-18T03:01:20.788091+00:00",
-    "@Finanzbaer": "2026-09-18T03:01:21.386742+00:00",
-    "@Finanzwiesel": "2026-09-18T03:01:21.931154+00:00",
-    "@TradingKompass": "2026-09-18T03:01:22.542445+00:00",
-    "@TomVorwald": "2026-09-18T03:01:23.101523+00:00"
+    "@1OxTrading": "2026-09-18T03:31:08.718973+00:00",
+    "@wir-lieben-aktien": "2026-09-18T03:31:09.272392+00:00",
+    "@chartsekte": "2026-09-18T03:31:09.718691+00:00",
+    "@hkcm": "2026-09-18T03:31:10.285956+00:00",
+    "@phantombyhkcm": "2026-09-18T03:31:10.854030+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-18T03:31:11.321365+00:00",
+    "@aktien4future": "2026-09-18T03:31:11.817434+00:00",
+    "@Finanzbaer": "2026-09-18T03:31:12.461630+00:00",
+    "@Finanzwiesel": "2026-09-18T03:31:12.895601+00:00",
+    "@TradingKompass": "2026-09-18T03:31:13.431711+00:00",
+    "@TomVorwald": "2026-09-18T03:31:14.017844+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4651,10 +4651,11 @@
     "published": null,
     "channel": "HKCM",
     "handle": "@hkcm",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-16T16:31:08.167321+00:00",
-    "attempts": 9,
-    "last_attempt": "2026-09-18T00:01:28.502445+00:00"
+    "attempts": 10,
+    "last_attempt": "2026-09-18T03:31:14.075293+00:00",
+    "scraped_at": "2026-09-18T03:31:38.102279+00:00"
   },
   "3nf5TizaDlk": {
     "id": "3nf5TizaDlk",
@@ -4664,10 +4665,11 @@
     "published": null,
     "channel": "aktien4future",
     "handle": "@aktien4future",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-16T17:01:22.316579+00:00",
-    "attempts": 9,
-    "last_attempt": "2026-09-18T00:01:34.736253+00:00"
+    "attempts": 10,
+    "last_attempt": "2026-09-18T03:31:38.106490+00:00",
+    "scraped_at": "2026-09-18T03:32:08.193111+00:00"
   },
   "SskpHGZp5iE": {
     "id": "SskpHGZp5iE",
@@ -4761,8 +4763,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-17T17:31:10.892883+00:00",
-    "attempts": 3,
-    "last_attempt": "2026-09-18T00:31:28.691200+00:00"
+    "attempts": 4,
+    "last_attempt": "2026-09-18T03:32:08.197205+00:00"
   },
   "bBZL-W9dvE4": {
     "id": "bBZL-W9dvE4",

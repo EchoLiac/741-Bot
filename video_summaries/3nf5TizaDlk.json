@@ -6,10 +6,65 @@
   "published": null,
   "channel": "aktien4future",
   "handle": "@aktien4future",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-16T17:01:22.316579+00:00",
-  "attempts": 9,
-  "last_attempt": "2026-09-18T00:01:40.835145+00:00",
+  "attempts": 10,
+  "last_attempt": "2026-09-18T03:31:38.106490+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nVor der US-Leitzinsentscheidung der Fed stehen Gold und Silber unter dem Einfluss hoher Anleiherenditen und hoher Ölpreise. Der Sprecher präsentiert eine dreistufige Tranchenstrategie für Silber- und Goldkäufe auf Tagesschlusskursbasis, gegliedert nach drei Fed-Szenarien. Bestehende Positionen werden in keinem Fall verkauft, während Nachkäufe strikt an feste Preiszonen gekoppelt sind [05:48, 06:30].\n\n### Typ\nMarkt/Makro (Edelmetalle & Geldpolitik)\n\n### Markt: Silber (USD)\n- **Sprecherthese**: Silber bietet nach dem Kursrückgang antizyklische Einstiegschancen, erfordert jedoch wegen hoher Volatilität und konjunktureller Risiken ein diszipliniertes Tranchenkauf-System [05:38, 08:58].\n- **Richtung**: Long / Ausgerichtet auf gestaffelten Nachkauf [05:58].\n- **Konkret belegte Levels**:\n  - Tranche 1 Kaufzone: 62 – 63 $ [06:02]\n  - Tranche 2 Kaufzone: 59 – 61 $ [06:07]\n  - Tranche 3 Kaufzone: 54 – 55 $ [06:15]\n  - Ausbruchs- / Widerstandsmarke: 65 $ [07:33]\n  - Nächste tiefere Unterstützung: ca. 50 $ [08:03]\n- **Trigger**:\n  - *Szenario 1 (Zinsanhebung & Dot-Plot Median > 3,875 %)*: Tagesschlusskurs in der Zone 62 – 63 $ für die erste Tranche [07:11].\n  - *Szenario 2 (Zinsanhebung & Dot-Plot Median = 3,875 %)*: Nach Sprung über 65 $ Kauf einer halben Tranche bei einem Rücksetzer auf diese Marke [07:33].\n  - *Szenario 3 (Keine Zinsanhebung)*: Bei Kursen über 65 $ wird nicht nachgekauft, sondern auf Rücksetzer gewartet [07:51].\n- **Invalidierung**: Ein Rutsch unter 54 $ stoppt voreilige Zukäufe; es wird erst eine Bodenbildung nahe 50 $ abgewartet [07:58, 08:03].\n- **Zeithorizont**: Mittel- bis langfristig (Bezug auf den Fed Dot-Plot bis Ende 2026) [06:42].\n\n### Markt: Gold (USD)\n- **Sprecherthese**: Notenbankkäufe und struktureller Inflationsdruck stützen den Goldpreis trotz kurzfristigen Zinsdrucks [08:26, 08:33].\n- **Richtung**: Konstruktiv / Halten & Beobachten für Zukäufe [06:32].\n- **Konkret belegte Levels**:\n  - Aktueller Stand: knapp über 4.300 $ [00:17]\n  - Erste Unterstützungsmarke: 4.250 $ [06:22]\n  - Untere Kaufzone: 4.120 – 4.160 $ [06:26]\n- **Trigger**: Auswertung von Tagesschlusskursen in den Zielzonen nach der Fed-Entscheidung [05:54].\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Langfristig [06:32].\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten**: Reaktionen des Markt-Anleihenmarktes (10-jährige Rendite über 5 % [01:34]), Relevanz der Rohölpreise (Brent bei 109 $ [04:58]) für die Inflation sowie der prognostizierte Rückgang der Silbernachfrage aus der Solarbranche um 19 % im Jahr 2026 [08:47].\n- **Sehenswerte Stellen**:\n  - **02:16**: Peter Schiffs Gedankenspiel zur US-Verschuldung und Zinsbelastung.\n  - **05:48**: Die drei festen Regeln des Sprechers für den Handel nach der Fed-Sitzung.\n  - **06:36**: Herleitung der drei Fed-Szenarien anhand des Dot-Plots.\n  - **08:47**: Risikoeinschätzung zur industriellen Silbernachfrage der Solarbranche.",
+  "evidence": [
+    {
+      "timestamp": "00:17",
+      "basis": "audio",
+      "observation": "Sprecher nennt Goldpreis von knapp über 4.300 $ und Silberpreis von um die 64 $ pro Unze."
+    },
+    {
+      "timestamp": "01:34",
+      "basis": "audio",
+      "observation": "Rendite der 10-jährigen US-Staatsanleihen ist am Dienstag in der Spitze auf 5,04 % geklettert."
+    },
+    {
+      "timestamp": "04:58",
+      "basis": "audio",
+      "observation": "Brent-Rohölpreis stand am Dienstag bei rund 109 $."
+    },
+    {
+      "timestamp": "05:50",
+      "basis": "visual",
+      "observation": "Eingeblendete Regel 1: 'Ich handle nicht in den ersten Stunden nach der Entscheidung'."
+    },
+    {
+      "timestamp": "06:02",
+      "basis": "audio",
+      "observation": "Drei Silber-Kaufzonen werden genannt: 62-63 $, 59-61 $ und 54-55 $."
+    },
+    {
+      "timestamp": "06:22",
+      "basis": "audio",
+      "observation": "Sprecher nennt für Gold die Beobachtungsmarke 4.250 $ und die Zone 4.120 bis 4.160 $."
+    },
+    {
+      "timestamp": "07:33",
+      "basis": "audio",
+      "observation": "In Szenario 2 wird eine halbe Tranche Silber nach einem Sprung über 65 $ beim Rücksetzer gekauft."
+    },
+    {
+      "timestamp": "08:47",
+      "basis": "visual",
+      "observation": "Einbindung der Schlagzeile: 'Solar Silver Demand Set to Drop 19% in 2026'."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "3nf5TizaDlk",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-18T03:32:07.515516+00:00",
+  "discord_chunks": [
+    "🎬 **aktien4future**\n**-47% bei Silber: Größte Kaufchance 2026? (Meine Zonen)**\nhttps://www.youtube.com/watch?v=3nf5TizaDlk\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nVor der US-Leitzinsentscheidung der Fed stehen Gold und Silber unter dem Einfluss hoher Anleiherenditen und hoher Ölpreise. Der Sprecher präsentiert eine dreistufige Tranchenstrategie für Silber- und Goldkäufe auf Tagesschlusskursbasis, gegliedert nach drei Fed-Szenarien. Bestehende Positionen werden in keinem Fall verkauft, während Nachkäufe strikt an feste Preiszonen gekoppelt sind [05:48, 06:30].\n\n### Typ\nMarkt/Makro (Edelmetalle & Geldpolitik)\n\n### Markt: Silber (USD)\n- **Sprecherthese**: Silber bietet nach dem Kursrückgang antizyklische Einstiegschancen, erfordert jedoch wegen hoher Volatilität und konjunktureller Risiken ein diszipliniertes Tranchenkauf-System [05:38, 08:58].\n- **Richtung**: Long / Ausgerichtet auf gestaffelten Nachkauf [05:58].\n- **Konkret belegte Levels**:\n  - Tranche 1 Kaufzone: 62 – 63 $ [06:02]\n  - Tranche 2 Kaufzone: 59 – 61 $ [06:07]\n  - Tranche 3 Kaufzone: 54 – 55 $ [06:15]\n  - Ausbruchs- / Widerstandsmarke: 65 $ [07:33]\n  - Nächste tiefere Unterstützung: ca. 50 $ [08:03]\n- **Trigger**:\n  - *Szenario 1 (Zinsanhebung & Dot-Plot Median > 3,875 %)*: Tagesschlusskurs in der Zone 62 – 63 $ für die erste Tranche [07:11].\n  - *Szenario 2 (Zinsanhebung & Dot-Plot Median = 3,875 %)*: Nach Sprung über 65 $ Kauf einer halben Tranche bei einem Rücksetzer auf diese Marke [07:33].\n  - *Szenario 3 (Keine Zinsanhebung)*: Bei Kursen über 65 $ wird nicht nachgekauft, sondern auf Rücksetzer gewartet [07:51].\n- **Invalidierung**: Ein Rutsch unter 54 $ stoppt voreilige Zukäufe; es wird erst eine Bodenbildung nahe 50 $ abgewartet [07:58, 08:03].\n- **Ze",
+    "ithorizont**: Mittel- bis langfristig (Bezug auf den Fed Dot-Plot bis Ende 2026) [06:42].\n\n### Markt: Gold (USD)\n- **Sprecherthese**: Notenbankkäufe und struktureller Inflationsdruck stützen den Goldpreis trotz kurzfristigen Zinsdrucks [08:26, 08:33].\n- **Richtung**: Konstruktiv / Halten & Beobachten für Zukäufe [06:32].\n- **Konkret belegte Levels**:\n  - Aktueller Stand: knapp über 4.300 $ [00:17]\n  - Erste Unterstützungsmarke: 4.250 $ [06:22]\n  - Untere Kaufzone: 4.120 – 4.160 $ [06:26]\n- **Trigger**: Auswertung von Tagesschlusskursen in den Zielzonen nach der Fed-Entscheidung [05:54].\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Langfristig [06:32].\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten**: Reaktionen des Markt-Anleihenmarktes (10-jährige Rendite über 5 % [01:34]), Relevanz der Rohölpreise (Brent bei 109 $ [04:58]) für die Inflation sowie der prognostizierte Rückgang der Silbernachfrage aus der Solarbranche um 19 % im Jahr 2026 [08:47].\n- **Sehenswerte Stellen**:\n  - **02:16**: Peter Schiffs Gedankenspiel zur US-Verschuldung und Zinsbelastung.\n  - **05:48**: Die drei festen Regeln des Sprechers für den Handel nach der Fed-Sitzung.\n  - **06:36**: Herleitung der drei Fed-Szenarien anhand des Dot-Plots.\n  - **08:47**: Risikoeinschätzung zur industriellen Silbernachfrage der Solarbranche.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-18T03:32:08.191965+00:00"
 }
