@@ -6,10 +6,60 @@
   "published": null,
   "channel": "Tom Vorwald",
   "handle": "@TomVorwald",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-17T18:31:25.173234+00:00",
-  "attempts": 5,
-  "last_attempt": "2026-09-18T07:03:21.347016+00:00",
+  "attempts": 6,
+  "last_attempt": "2026-09-18T09:31:07.246864+00:00",
+  "content_available": true,
+  "summary": "Der Sprecher erläutert den Aufbau und die Logik eines Short-Trades im DAX-Future auf Basis von Einzelaktien-Korrelationen und Profiling-Methoden (00:09). Wenn schwer gewichtete Index-Komponenten an technischen Hürden stoßen, signalisiert dies eine Übertreibung des Gesamtindex, die gezielt gehandelt werden kann (01:00). Das Zusammenspiel aus Korrelation, Marktprofil und klarem Risikomanagement ermöglicht strukturierte Aktionen abseits von reinem Hochfrequenz-Trading (07:35).\n\nTyp: Markt/Makro und Bildung.\n\nMethode, Regeln und Vorgehen:\n- Korrelationsanalyse der Index-Schwergewichte (01:16–03:35): Vor dem Trade-Einstieg wird geprüft, ob gewichtete Aktien im DAX (Siemens bei 02:20, SAP bei 02:38, Allianz bei 02:48, Airbus bei 03:03, Deutsche Telekom bei 03:30) an Hochs/Widerständen hängenbleiben oder Konsolidierungen starten.\n- Market- und Volume-Profiling (06:23–07:30): Analyse der Handelseröffnung am Vor-Tages-Value-Low, Auswertung von Single Prints und Verschiebung des VPOCs nach unten zur Einstiegsbestätigung.\n- Stopp-Logik und Zielplanung (05:20–06:15, 08:58–10:15): Platzierung des Stop-Loss oberhalb logischer Akzeptanz-Moves; Kursziel liegt an der Unterkante der vorangegangenen Balance- beziehungsweise Liquiditätszone.\n- Trade-Management (10:35–11:05): Absicherung durch schrittweises Nachziehen des Stopps oder das Tätigen von Teilverkäufen bei Zielerreichung.\n\nFehlende Angaben: Exakte Punktestände und genaue Einstiegskurse werden im Ton nicht namentlich beziffert; Chartachsen-Zahlen sind teilweise klein dargestellt.\n\nUnsicherheiten und sehenswerte Stellen: Unsicherheit besteht darin, ob der Markt die vorgesehene Zielzone vollständig abarbeitet (08:31). Sehenswert sind die Gegenüberstellung von S&P 500 und DAX (01:16), die Durchsprache der 5 Einzeltitel (02:14–03:35) sowie die Profiling-Erklärung zur Eröffnung am Value Low (06:23).",
+  "evidence": [
+    {
+      "timestamp": "00:15",
+      "basis": "visual",
+      "observation": "Eingeblendete Strukturpunkte: 1. Zeitpunkt, 2. Korrelationen, 3. Informationen."
+    },
+    {
+      "timestamp": "01:16",
+      "basis": "visual",
+      "observation": "Grafischer Vergleich zwischen S&P Future (oben, B) und DAX (unten, Alpha)."
+    },
+    {
+      "timestamp": "02:14",
+      "basis": "visual",
+      "observation": "Siemens AG Tageschart mit Markierung des Abverkaufs am technischen Hochpunkt."
+    },
+    {
+      "timestamp": "02:38",
+      "basis": "visual",
+      "observation": "SAP SE Chart mit eingezeichnetem Gap Down und Abweisung am Hoch."
+    },
+    {
+      "timestamp": "03:32",
+      "basis": "visual",
+      "observation": "Deutsche Telekom AG Chart mit eingezeichneter horizontaler Widerstandslinie."
+    },
+    {
+      "timestamp": "06:23",
+      "basis": "visual",
+      "observation": "Market-Profile-Anzeige mit weißem Pfeil auf die Handelseröffnung am Vor-Tages-Value Low."
+    },
+    {
+      "timestamp": "09:31",
+      "basis": "visual",
+      "observation": "DAX-Future Chart mit Einblendung 'Ziel erreicht' an der unteren Seitwärtsbegrenzung."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "liEJMfE_PXg",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-18T09:31:49.246310+00:00",
+  "discord_chunks": [
+    "🎬 **Tom Vorwald**\n**LIVE-TRADING: DAX-Future-Short mit Korrelations-Trick!**\nhttps://www.youtube.com/watch?v=liEJMfE_PXg\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\nDer Sprecher erläutert den Aufbau und die Logik eines Short-Trades im DAX-Future auf Basis von Einzelaktien-Korrelationen und Profiling-Methoden (00:09). Wenn schwer gewichtete Index-Komponenten an technischen Hürden stoßen, signalisiert dies eine Übertreibung des Gesamtindex, die gezielt gehandelt werden kann (01:00). Das Zusammenspiel aus Korrelation, Marktprofil und klarem Risikomanagement ermöglicht strukturierte Aktionen abseits von reinem Hochfrequenz-Trading (07:35).\n\nTyp: Markt/Makro und Bildung.\n\nMethode, Regeln und Vorgehen:\n- Korrelationsanalyse der Index-Schwergewichte (01:16–03:35): Vor dem Trade-Einstieg wird geprüft, ob gewichtete Aktien im DAX (Siemens bei 02:20, SAP bei 02:38, Allianz bei 02:48, Airbus bei 03:03, Deutsche Telekom bei 03:30) an Hochs/Widerständen hängenbleiben oder Konsolidierungen starten.\n- Market- und Volume-Profiling (06:23–07:30): Analyse der Handelseröffnung am Vor-Tages-Value-Low, Auswertung von Single Prints und Verschiebung des VPOCs nach unten zur Einstiegsbestätigung.\n- Stopp-Logik und Zielplanung (05:20–06:15, 08:58–10:15): Platzierung des Stop-Loss oberhalb logischer Akzeptanz-Moves; Kursziel liegt an der Unterkante der vorangegangenen Balance- beziehungsweise Liquiditätszone.\n- Trade-Management (10:35–11:05): Absicherung durch schrittweises Nachziehen des Stopps oder das Tätigen von Teilverkäufen bei Zielerreichung.\n\nFehlende Angaben: Exakte Punktestände und genaue Einstiegskurse werden im Ton nicht namentlich beziffert; Chartachsen-Zahlen sind teilweise klein dargestellt.\n\nUnsicherheiten und sehenswerte Stellen: Unsicherheit besteh",
+    "t darin, ob der Markt die vorgesehene Zielzone vollständig abarbeitet (08:31). Sehenswert sind die Gegenüberstellung von S&P 500 und DAX (01:16), die Durchsprache der 5 Einzeltitel (02:14–03:35) sowie die Profiling-Erklärung zur Eröffnung am Value Low (06:23).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-18T09:31:49.673780+00:00"
 }

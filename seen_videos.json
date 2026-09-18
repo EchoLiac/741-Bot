@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-18T09:01:25.657057+00:00",
-    "@wir-lieben-aktien": "2026-09-18T09:01:26.123680+00:00",
-    "@chartsekte": "2026-09-18T09:01:26.495506+00:00",
-    "@hkcm": "2026-09-18T09:01:26.914417+00:00",
-    "@phantombyhkcm": "2026-09-18T09:01:27.368410+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-18T09:01:27.766402+00:00",
-    "@aktien4future": "2026-09-18T09:01:28.212309+00:00",
-    "@Finanzbaer": "2026-09-18T09:01:28.645336+00:00",
-    "@Finanzwiesel": "2026-09-18T09:01:29.048865+00:00",
-    "@TradingKompass": "2026-09-18T09:01:29.536919+00:00",
-    "@TomVorwald": "2026-09-18T09:01:30.038833+00:00"
+    "@1OxTrading": "2026-09-18T09:31:03.094792+00:00",
+    "@wir-lieben-aktien": "2026-09-18T09:31:03.487602+00:00",
+    "@chartsekte": "2026-09-18T09:31:03.894655+00:00",
+    "@hkcm": "2026-09-18T09:31:04.341922+00:00",
+    "@phantombyhkcm": "2026-09-18T09:31:04.739556+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-18T09:31:05.149701+00:00",
+    "@aktien4future": "2026-09-18T09:31:05.521551+00:00",
+    "@Finanzbaer": "2026-09-18T09:31:05.977666+00:00",
+    "@Finanzwiesel": "2026-09-18T09:31:06.379425+00:00",
+    "@TradingKompass": "2026-09-18T09:31:06.747676+00:00",
+    "@TomVorwald": "2026-09-18T09:31:07.209206+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 97,
-    "last_attempt": "2026-09-18T08:32:17.686554+00:00"
+    "attempts": 98,
+    "last_attempt": "2026-09-18T09:31:49.677434+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -4770,8 +4770,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-17T17:31:10.892883+00:00",
-    "attempts": 6,
-    "last_attempt": "2026-09-18T08:32:23.842613+00:00"
+    "attempts": 7,
+    "last_attempt": "2026-09-18T09:31:55.474996+00:00"
   },
   "bBZL-W9dvE4": {
     "id": "bBZL-W9dvE4",
@@ -4809,10 +4809,11 @@
     "published": null,
     "channel": "Tom Vorwald",
     "handle": "@TomVorwald",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-17T18:31:25.173234+00:00",
-    "attempts": 5,
-    "last_attempt": "2026-09-18T07:02:45.637801+00:00"
+    "attempts": 6,
+    "last_attempt": "2026-09-18T09:31:07.246864+00:00",
+    "scraped_at": "2026-09-18T09:31:49.674638+00:00"
   },
   "IiPL0ueHf3g": {
     "id": "IiPL0ueHf3g",
