@@ -6,10 +6,72 @@
   "published": null,
   "channel": "10xTrading",
   "handle": "@1OxTrading",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-18T19:01:18.387925+00:00",
-  "attempts": 2,
-  "last_attempt": "2026-09-18T20:32:41.014411+00:00",
+  "attempts": 3,
+  "last_attempt": "2026-09-18T22:02:04.572335+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Nuklearsektor erfährt derzeit eine starke Nachfrage als Stromquelle für den expansiven Energiebedarf von KI-Rechenzentren (00:05). Der Sprecher analysiert sieben Aktien entlang der nuklearen Wertschöpfungskette – von Uranförderung und -anreicherung bis hin zu Reaktor-Entwicklung und Stromerzeugung – hinsichtlich ihrer aktuellen charttechnischen Schlüsselzonen und Konsolidierungsrisiken (03:16).\n\n**Typ:** mehrere Aktien / Markt- und Sektoranalyse\n\n---\n\n### Einzelanalysen\n\n#### Cameco Corporation (CCJ)\n* **Sprecherthese:** Die Aktie steht an einem Support, bildet aber kritische Muster mit fallenden Hochs aus (05:18, 05:25).\n* **Richtung:** Neutral bis vorsichtig bullisch oberhalb der Unterstützungszone.\n* **Konkret belegte Levels:** Supportbereich bei 122 USD / 120 USD (06:41, 06:50); tieferer Support/Zielzone bei 110 USD (06:24) und 200-Wochen-Linie (06:33).\n* **Trigger:** Abprall an 120–122 USD für mögliches Doppelboden-Setup (06:52).\n* **Invalidierung:** Trend- und Strukturbruch bei Rutsch unter die Unterstützungen (06:58).\n* **Zeithorizont:** Mittelfristig (06:31).\n\n#### Centrus Energy (LEU)\n* **Sprecherthese:** Zeigt ein bärisches ABCD-Korrekturmuster und nähert sich der 200-Wochen-Linie an (07:18, 07:25).\n* **Richtung:** Konsolidierend / Bärisch bis zur Zielzone.\n* **Konkret belegte Levels:** Unterstützungs- und Alarmlage bei 116–117 USD (07:54); Backtest-Level bei 110–115 USD (07:49).\n* **Trigger:** Anlauf der Zone um 116–117 USD für Tranchen-Beobachtung (07:54, 08:11).\n* **Invalidierung:** Nicht explizit genannt.\n* **Zeithorizont:** Nicht explizit genannt.\n\n#### Constellation Energy (CEG)\n* **Sprecherthese:** Kurzfristig bärisch geprägt, da der Kurs unter die 50-Tage-Linie und den Algo-Trend gefallen ist (08:26, 09:07).\n* **Richtung:** Bärisch / Abwärtsrisiko.\n* **Konkret belegte Levels:** Widerstand an der 50-Wochen-Linie (10:27); Zielzone/Support bei ca. 235 USD (10:33) bzw. Bereich um 250 USD (10:16).\n* **Trigger:** Bildung eines neuen Tiefs würde den Wert für Neueinstiege interessanter machen (10:36).\n* **Invalidierung:** Nicht explizit genannt.\n* **Zeithorizont:** Kurzfristig (08:26).\n\n#### BWX Technologies (BWXT)\n* **Sprecherthese:** Aggressiver Abverkauf vom Hoch, befindet sich jedoch am 61,8%-Fibonacci-Retreacement und Backtest-Level (10:41, 11:10, 11:14).\n* **Richtung:** Neutral / Watchlist-Kandidat.\n* **Konkret belegte Levels:** Zielzone/Support bei 134–139 USD (11:29); tieferer Support an der 200-Wochen-Linie bei ca. 118 USD (11:34, 11:41); Level bei 140 USD (11:48).\n* **Trigger:** Aggressiver Rebound oberhalb von 140 USD (11:43, 11:48).\n* **Invalidierung:** Rutsch unter 134 USD in Richtung 118 USD (11:33, 11:41).\n* **Zeithorizont:** Nicht explizit genannt.\n\n#### NuScale Power (SMR)\n* **Sprecherthese:** Nach starkem Kurssturz um ca. 87% ab dem Hochpunkt (13:13, 13:19) trifft die Aktie auf einen Orderblock mit Butterfly-Muster (13:46, 13:52), bildet jedoch weiterhin bärische Signale (14:06).\n* **Richtung:** Hochspekulativ / Seitwärts-Abwärts.\n* **Konkret belegte Levels:** Supportbereich zwischen 6,50 USD und 8,30 USD (15:01).\n* **Trigger:** Halten der Zone 6,50–8,30 USD.\n* **Invalidierung:** Bruch der Marke von 6,50 USD nach unten (14:54).\n* **Zeithorizont:** Nicht explizit genannt.\n\n#### Oklo Inc. (OKLO)\n* **Sprecherthese:** Reagierte erstmals historisch an der 200-Wochen-Linie (15:38, 15:50), weist jedoch ein hohes Spekulations- und Bewertungsrisiko auf (16:16).\n* **Richtung:** Spekulativ / Hohe Volatilität.\n* **Konkret belegte Levels:** Ziel- und Supportzone bei 27 USD (17:11); Schwankungsrisiko von 18% bis 30% innerhalb der Zone (17:18, 17:21).\n* **Trigger:** Stabilisierung im Bereich der 200-Wochen-Linie / Zielzone.\n* **Invalidierung:** Nachhaltiger Bruch der 200-Wochen-Linie (17:51).\n* **Zeithorizont:** Langfristig / Zukunftsthema.\n\n#### Uranium Energy Corp. (UEC)\n* **Sprecherthese:** Hat mit 9,30 USD ein historisches Ausbruchs-Level von 2007 als Schlüsselunterstützung, das zwingend halten muss (18:14, 18:18).\n* **Richtung:** Starke Abwärtsrisiken / Vorsicht geboten (19:11).\n* **Konkret belegte Levels:** Wichtiger Support bei 9,30 USD (18:14); Preisalarme bei 9,30 USD und 8,80 USD (19:32, 19:34); 200-Wochen-Linie bei ca. 7,00 USD (18:25, 19:44).\n* **Trigger:** Rutsch unter 9,00 USD (Neues 52-Wochen-Tief) (19:25, 19:29).\n* **Invalidierung:** Bruch der 9,00-USD-Marke leitet weiteren Abverkauf bis ca. 7,00 USD ein (19:42, 19:44).\n* **Zeithorizont:** Nicht explizit genannt.\n\n---\n\n### Unsicherheiten und sehenswerte Stellen\n* **Unsicherheiten:** Bei spekulativen Titeln ohne nennenswerte Umsätze (wie Oklo oder NuScale) bestehen extreme Bewertungsrisiken (16:17, 16:26). Zudem droht bei einem sektorenweiten Bruch der 200-Wochen-Linien verstärkter Verkaufsdruck (12:35, 19:42).\n* **Sehenswerte Stellen im Video:**\n  * **06:41:** Cameco – Einstellung des Preisalarms am 122-USD-Support.\n  * **07:54:** Centrus Energy – Einrichten des Alarms bei 116–117 USD.\n  * **11:29:** BWX Technologies – Erläuterung der 134–139-USD-Zielzone.\n  * **15:38:** Oklo – Erstkontakt mit der 200-Wochen-Linie im Chart.\n  * **18:14 & 19:34:** Uranium Energy – Historisches 2007er-Top bei 9,30 USD und Preisalarm-Setzung.",
+  "evidence": [
+    {
+      "timestamp": "00:05",
+      "basis": "visual",
+      "observation": "Eingeblendete Folie 'NUKLEAR-RENAISSANCE - Die Strom-Antwort auf den AI-Boom' zeigt Aktienliste mit CCJ, LEU, CEG, BWXT, SMR, OKLO, UEC."
+    },
+    {
+      "timestamp": "05:12",
+      "basis": "visual",
+      "observation": "Beginn der Chartanalyse von Cameco Corporation (CCJ) im 240-Minuten-Chart."
+    },
+    {
+      "timestamp": "06:41",
+      "basis": "audio",
+      "observation": "Sprecher platziert einen Preisalarm bei Cameco (CCJ) im Supportbereich von 122 USD."
+    },
+    {
+      "timestamp": "07:54",
+      "basis": "audio",
+      "observation": "Sprecher setzt bei Centrus Energy (LEU) einen Preisalarm im Bereich von 116 bis 117 USD."
+    },
+    {
+      "timestamp": "08:26",
+      "basis": "audio",
+      "observation": "Sprecher äußert sich zu Constellation Energy (CEG) skeptisch aufgrund der Serie fallender Hochs."
+    },
+    {
+      "timestamp": "11:29",
+      "basis": "audio",
+      "observation": "Sprecher nennt bei BWX Technologies (BWXT) eine Unterstützungs- bzw. Beobachtungszone zwischen 134 und 139 USD."
+    },
+    {
+      "timestamp": "13:13",
+      "basis": "visual",
+      "observation": "Chart von NuScale Power (SMR) zeigt Kursverfall von 57 USD um ca. 87% zum Tiefstand."
+    },
+    {
+      "timestamp": "15:38",
+      "basis": "audio",
+      "observation": "Sprecher verweist bei Oklo (OKLO) auf die Erstberührung der 200-Wochen-Linie im Chartverlauf."
+    },
+    {
+      "timestamp": "18:14",
+      "basis": "audio",
+      "observation": "Sprecher hebt bei Uranium Energy (UEC) das historische Hoch von 2007 bei 9,30 USD als wesentliche Haltemarke hervor."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "QVgiSypBvo4",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-18T22:03:06.186053+00:00",
+  "discord_chunks": [
+    "🎬 **10xTrading**\n**⚛️ NUKLEAR AKTIEN: Riesenchance durch KI – 7 Werte im Check 💥**\nhttps://www.youtube.com/watch?v=QVgiSypBvo4\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Nuklearsektor erfährt derzeit eine starke Nachfrage als Stromquelle für den expansiven Energiebedarf von KI-Rechenzentren (00:05). Der Sprecher analysiert sieben Aktien entlang der nuklearen Wertschöpfungskette – von Uranförderung und -anreicherung bis hin zu Reaktor-Entwicklung und Stromerzeugung – hinsichtlich ihrer aktuellen charttechnischen Schlüsselzonen und Konsolidierungsrisiken (03:16).\n\n**Typ:** mehrere Aktien / Markt- und Sektoranalyse\n\n---\n\n### Einzelanalysen\n\n#### Cameco Corporation (CCJ)\n* **Sprecherthese:** Die Aktie steht an einem Support, bildet aber kritische Muster mit fallenden Hochs aus (05:18, 05:25).\n* **Richtung:** Neutral bis vorsichtig bullisch oberhalb der Unterstützungszone.\n* **Konkret belegte Levels:** Supportbereich bei 122 USD / 120 USD (06:41, 06:50); tieferer Support/Zielzone bei 110 USD (06:24) und 200-Wochen-Linie (06:33).\n* **Trigger:** Abprall an 120–122 USD für mögliches Doppelboden-Setup (06:52).\n* **Invalidierung:** Trend- und Strukturbruch bei Rutsch unter die Unterstützungen (06:58).\n* **Zeithorizont:** Mittelfristig (06:31).\n\n#### Centrus Energy (LEU)\n* **Sprecherthese:** Zeigt ein bärisches ABCD-Korrekturmuster und nähert sich der 200-Wochen-Linie an (07:18, 07:25).\n* **Richtung:** Konsolidierend / Bärisch bis zur Zielzone.\n* **Konkret belegte Levels:** Unterstützungs- und Alarmlage bei 116–117 USD (07:54); Backtest-Level bei 110–115 USD (07:49).\n* **Trigger:** Anlauf der Zone um 116–117 USD für Tranchen-Beobachtung (07:54, 08:11).\n* **Invalidierung:** Nicht explizit genannt.\n* **Zeithorizont:** Nicht explizit",
+    " genannt.\n\n#### Constellation Energy (CEG)\n* **Sprecherthese:** Kurzfristig bärisch geprägt, da der Kurs unter die 50-Tage-Linie und den Algo-Trend gefallen ist (08:26, 09:07).\n* **Richtung:** Bärisch / Abwärtsrisiko.\n* **Konkret belegte Levels:** Widerstand an der 50-Wochen-Linie (10:27); Zielzone/Support bei ca. 235 USD (10:33) bzw. Bereich um 250 USD (10:16).\n* **Trigger:** Bildung eines neuen Tiefs würde den Wert für Neueinstiege interessanter machen (10:36).\n* **Invalidierung:** Nicht explizit genannt.\n* **Zeithorizont:** Kurzfristig (08:26).\n\n#### BWX Technologies (BWXT)\n* **Sprecherthese:** Aggressiver Abverkauf vom Hoch, befindet sich jedoch am 61,8%-Fibonacci-Retreacement und Backtest-Level (10:41, 11:10, 11:14).\n* **Richtung:** Neutral / Watchlist-Kandidat.\n* **Konkret belegte Levels:** Zielzone/Support bei 134–139 USD (11:29); tieferer Support an der 200-Wochen-Linie bei ca. 118 USD (11:34, 11:41); Level bei 140 USD (11:48).\n* **Trigger:** Aggressiver Rebound oberhalb von 140 USD (11:43, 11:48).\n* **Invalidierung:** Rutsch unter 134 USD in Richtung 118 USD (11:33, 11:41).\n* **Zeithorizont:** Nicht explizit genannt.\n\n#### NuScale Power (SMR)\n* **Sprecherthese:** Nach starkem Kurssturz um ca. 87% ab dem Hochpunkt (13:13, 13:19) trifft die Aktie auf einen Orderblock mit Butterfly-Muster (13:46, 13:52), bildet jedoch weiterhin bärische Signale (14:06).\n* **Richtung:** Hochspekulativ / Seitwärts-Abwärts.\n* **Konkret belegte Levels:** Supportbereich zwischen 6,50 USD und 8,30 USD (15:01).\n* **Trigger:** Halten der Zone 6,50–8,30 USD.\n* **Invalidierung:** Bruch der Marke von 6,50 USD nach unten (14:54).\n* **Zeithorizont:** Nicht explizit genannt.\n\n#### Oklo Inc. (OKLO)\n* **Sprecherthese:** Reagierte erstmals historisch an der 200-Wochen-Linie (15:38, 15:50), weist j",
+    "edoch ein hohes Spekulations- und Bewertungsrisiko auf (16:16).\n* **Richtung:** Spekulativ / Hohe Volatilität.\n* **Konkret belegte Levels:** Ziel- und Supportzone bei 27 USD (17:11); Schwankungsrisiko von 18% bis 30% innerhalb der Zone (17:18, 17:21).\n* **Trigger:** Stabilisierung im Bereich der 200-Wochen-Linie / Zielzone.\n* **Invalidierung:** Nachhaltiger Bruch der 200-Wochen-Linie (17:51).\n* **Zeithorizont:** Langfristig / Zukunftsthema.\n\n#### Uranium Energy Corp. (UEC)\n* **Sprecherthese:** Hat mit 9,30 USD ein historisches Ausbruchs-Level von 2007 als Schlüsselunterstützung, das zwingend halten muss (18:14, 18:18).\n* **Richtung:** Starke Abwärtsrisiken / Vorsicht geboten (19:11).\n* **Konkret belegte Levels:** Wichtiger Support bei 9,30 USD (18:14); Preisalarme bei 9,30 USD und 8,80 USD (19:32, 19:34); 200-Wochen-Linie bei ca. 7,00 USD (18:25, 19:44).\n* **Trigger:** Rutsch unter 9,00 USD (Neues 52-Wochen-Tief) (19:25, 19:29).\n* **Invalidierung:** Bruch der 9,00-USD-Marke leitet weiteren Abverkauf bis ca. 7,00 USD ein (19:42, 19:44).\n* **Zeithorizont:** Nicht explizit genannt.\n\n---\n\n### Unsicherheiten und sehenswerte Stellen\n* **Unsicherheiten:** Bei spekulativen Titeln ohne nennenswerte Umsätze (wie Oklo oder NuScale) bestehen extreme Bewertungsrisiken (16:17, 16:26). Zudem droht bei einem sektorenweiten Bruch der 200-Wochen-Linien verstärkter Verkaufsdruck (12:35, 19:42).\n* **Sehenswerte Stellen im Video:**\n  * **06:41:** Cameco – Einstellung des Preisalarms am 122-USD-Support.\n  * **07:54:** Centrus Energy – Einrichten des Alarms bei 116–117 USD.\n  * **11:29:** BWX Technologies – Erläuterung der 134–139-USD-Zielzone.\n  * **15:38:** Oklo – Erstkontakt mit der 200-Wochen-Linie im Chart.\n  * **18:14 & 19:34:** Uranium Energy – Historisches 2007er-Top bei 9,30 USD und ",
+    "Preisalarm-Setzung.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 4,
+  "discord_sent_at": "2026-09-18T22:03:08.994730+00:00"
 }
