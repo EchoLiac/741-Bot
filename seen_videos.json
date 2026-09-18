@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-18T18:31:13.810394+00:00",
-    "@wir-lieben-aktien": "2026-09-18T18:31:14.419536+00:00",
-    "@chartsekte": "2026-09-18T18:31:14.950373+00:00",
-    "@hkcm": "2026-09-18T18:31:15.524025+00:00",
-    "@phantombyhkcm": "2026-09-18T18:31:16.026871+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-18T18:31:16.548804+00:00",
-    "@aktien4future": "2026-09-18T18:31:17.064703+00:00",
-    "@Finanzbaer": "2026-09-18T18:31:18.726089+00:00",
-    "@Finanzwiesel": "2026-09-18T18:31:19.270824+00:00",
-    "@TradingKompass": "2026-09-18T18:31:19.805879+00:00",
-    "@TomVorwald": "2026-09-18T18:31:20.434383+00:00"
+    "@1OxTrading": "2026-09-18T19:01:18.387952+00:00",
+    "@wir-lieben-aktien": "2026-09-18T19:01:18.960199+00:00",
+    "@chartsekte": "2026-09-18T19:01:19.479173+00:00",
+    "@hkcm": "2026-09-18T19:01:20.162853+00:00",
+    "@phantombyhkcm": "2026-09-18T19:01:20.761046+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-18T19:01:21.397620+00:00",
+    "@aktien4future": "2026-09-18T19:01:21.987443+00:00",
+    "@Finanzbaer": "2026-09-18T19:01:22.661628+00:00",
+    "@Finanzwiesel": "2026-09-18T19:01:23.182394+00:00",
+    "@TradingKompass": "2026-09-18T19:01:23.788336+00:00",
+    "@TomVorwald": "2026-09-18T19:01:24.420721+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4772,8 +4772,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-17T17:31:10.892883+00:00",
-    "attempts": 19,
-    "last_attempt": "2026-09-18T17:31:43.180783+00:00"
+    "attempts": 20,
+    "last_attempt": "2026-09-18T19:01:55.632778+00:00"
   },
   "bBZL-W9dvE4": {
     "id": "bBZL-W9dvE4",
@@ -4854,8 +4854,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-18T16:31:11.937923+00:00",
-    "attempts": 2,
-    "last_attempt": "2026-09-18T17:31:33.207577+00:00"
+    "attempts": 3,
+    "last_attempt": "2026-09-18T19:01:49.386931+00:00"
   },
   "y5Nkk68tP9Q": {
     "id": "y5Nkk68tP9Q",
@@ -4895,5 +4895,18 @@
     "discovered_at": "2026-09-18T18:31:17.064682+00:00",
     "attempts": 1,
     "last_attempt": "2026-09-18T18:31:20.494039+00:00"
+  },
+  "QVgiSypBvo4": {
+    "id": "QVgiSypBvo4",
+    "title": "⚛️ NUKLEAR AKTIEN: Riesenchance durch KI – 7 Werte im Check 💥",
+    "url": "https://www.youtube.com/watch?v=QVgiSypBvo4",
+    "duration": 1241,
+    "published": null,
+    "channel": "10xTrading",
+    "handle": "@1OxTrading",
+    "status": "pending",
+    "discovered_at": "2026-09-18T19:01:18.387925+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-18T19:01:24.478092+00:00"
   }
 }
