@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-18T17:31:09.380414+00:00",
-    "@wir-lieben-aktien": "2026-09-18T17:31:09.991758+00:00",
-    "@chartsekte": "2026-09-18T17:31:10.515252+00:00",
-    "@hkcm": "2026-09-18T17:31:11.131754+00:00",
-    "@phantombyhkcm": "2026-09-18T17:31:11.690962+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-18T17:31:12.249781+00:00",
-    "@aktien4future": "2026-09-18T17:31:12.772740+00:00",
-    "@Finanzbaer": "2026-09-18T17:31:13.391187+00:00",
-    "@Finanzwiesel": "2026-09-18T17:31:13.930612+00:00",
-    "@TradingKompass": "2026-09-18T17:31:14.562550+00:00",
-    "@TomVorwald": "2026-09-18T17:31:15.139410+00:00"
+    "@1OxTrading": "2026-09-18T18:01:15.950048+00:00",
+    "@wir-lieben-aktien": "2026-09-18T18:01:16.516456+00:00",
+    "@chartsekte": "2026-09-18T18:01:16.948806+00:00",
+    "@hkcm": "2026-09-18T18:01:17.458196+00:00",
+    "@phantombyhkcm": "2026-09-18T18:01:17.902549+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-18T18:01:18.312558+00:00",
+    "@aktien4future": "2026-09-18T18:01:18.758814+00:00",
+    "@Finanzbaer": "2026-09-18T18:01:19.200466+00:00",
+    "@Finanzwiesel": "2026-09-18T18:01:19.672115+00:00",
+    "@TradingKompass": "2026-09-18T18:01:20.169973+00:00",
+    "@TomVorwald": "2026-09-18T18:01:20.674457+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 110,
-    "last_attempt": "2026-09-18T17:01:30.659861+00:00"
+    "attempts": 111,
+    "last_attempt": "2026-09-18T18:01:33.679993+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -4269,8 +4269,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-15T16:01:26.123275+00:00",
-    "attempts": 28,
-    "last_attempt": "2026-09-18T17:01:24.891350+00:00"
+    "attempts": 29,
+    "last_attempt": "2026-09-18T18:01:27.051997+00:00"
   },
   "0QlGUkRzXCo": {
     "id": "0QlGUkRzXCo",
@@ -4869,5 +4869,18 @@
     "discovered_at": "2026-09-18T17:31:09.991740+00:00",
     "attempts": 1,
     "last_attempt": "2026-09-18T17:31:15.197484+00:00"
+  },
+  "yO1zvUoM6js": {
+    "id": "yO1zvUoM6js",
+    "title": "NETFLIX - Hier startet die nächste Rally! 🤯 NFLX Analyse & Kursziele",
+    "url": "https://www.youtube.com/watch?v=yO1zvUoM6js",
+    "duration": 657,
+    "published": null,
+    "channel": "TradingKompass",
+    "handle": "@TradingKompass",
+    "status": "pending",
+    "discovered_at": "2026-09-18T18:01:20.169950+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-18T18:01:20.725658+00:00"
   }
 }
