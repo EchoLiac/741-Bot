@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-18T18:01:15.950048+00:00",
-    "@wir-lieben-aktien": "2026-09-18T18:01:16.516456+00:00",
-    "@chartsekte": "2026-09-18T18:01:16.948806+00:00",
-    "@hkcm": "2026-09-18T18:01:17.458196+00:00",
-    "@phantombyhkcm": "2026-09-18T18:01:17.902549+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-18T18:01:18.312558+00:00",
-    "@aktien4future": "2026-09-18T18:01:18.758814+00:00",
-    "@Finanzbaer": "2026-09-18T18:01:19.200466+00:00",
-    "@Finanzwiesel": "2026-09-18T18:01:19.672115+00:00",
-    "@TradingKompass": "2026-09-18T18:01:20.169973+00:00",
-    "@TomVorwald": "2026-09-18T18:01:20.674457+00:00"
+    "@1OxTrading": "2026-09-18T18:31:13.810394+00:00",
+    "@wir-lieben-aktien": "2026-09-18T18:31:14.419536+00:00",
+    "@chartsekte": "2026-09-18T18:31:14.950373+00:00",
+    "@hkcm": "2026-09-18T18:31:15.524025+00:00",
+    "@phantombyhkcm": "2026-09-18T18:31:16.026871+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-18T18:31:16.548804+00:00",
+    "@aktien4future": "2026-09-18T18:31:17.064703+00:00",
+    "@Finanzbaer": "2026-09-18T18:31:18.726089+00:00",
+    "@Finanzwiesel": "2026-09-18T18:31:19.270824+00:00",
+    "@TradingKompass": "2026-09-18T18:31:19.805879+00:00",
+    "@TomVorwald": "2026-09-18T18:31:20.434383+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4841,8 +4841,8 @@
     "handle": "@hkcm",
     "status": "pending",
     "discovered_at": "2026-09-18T16:31:11.482351+00:00",
-    "attempts": 2,
-    "last_attempt": "2026-09-18T17:01:36.514199+00:00"
+    "attempts": 3,
+    "last_attempt": "2026-09-18T18:31:26.830469+00:00"
   },
   "uEQQt6WDsRo": {
     "id": "uEQQt6WDsRo",
@@ -4867,8 +4867,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-18T17:31:09.991740+00:00",
-    "attempts": 1,
-    "last_attempt": "2026-09-18T17:31:15.197484+00:00"
+    "attempts": 2,
+    "last_attempt": "2026-09-18T18:31:33.222317+00:00"
   },
   "yO1zvUoM6js": {
     "id": "yO1zvUoM6js",
@@ -4882,5 +4882,18 @@
     "discovered_at": "2026-09-18T18:01:20.169950+00:00",
     "attempts": 1,
     "last_attempt": "2026-09-18T18:01:20.725658+00:00"
+  },
+  "CSB3agpnAd0": {
+    "id": "CSB3agpnAd0",
+    "title": "Top 5 Market Leader Crash Stocks: The Biggest Opportunity This Year? (McDonald's, Novo, LVMH, ..)",
+    "url": "https://www.youtube.com/watch?v=CSB3agpnAd0",
+    "duration": 1068,
+    "published": null,
+    "channel": "aktien4future",
+    "handle": "@aktien4future",
+    "status": "pending",
+    "discovered_at": "2026-09-18T18:31:17.064682+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-18T18:31:20.494039+00:00"
   }
 }
