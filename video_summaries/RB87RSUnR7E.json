@@ -6,10 +6,50 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-16T17:31:17.931766+00:00",
-  "attempts": 12,
-  "last_attempt": "2026-09-18T09:01:48.747205+00:00",
+  "attempts": 13,
+  "last_attempt": "2026-09-18T10:01:23.536398+00:00",
+  "content_available": true,
+  "summary": "Donald Trumps Forderung nach Zinssenkungen durch die US-Notenbank Fed vor der kommenden FOMC-Sitzung widerspricht der aktuellen Inflationsbekämpfung und birgt erhebliche Risiken für den Anleihe- und Aktienmarkt (00:01, 02:10). Die Fed tendiert angesichts hoher Inflation und robuster Wirtschaftsdaten eher zu gleichbleibenden oder höheren Zinsen, während Trump versuchte, Druck auszuüben (01:09, 02:10). Ein Nachgeben der Notenbank könnte über steigende Langfristrenditen, erneut aufflammende Inflation oder Fehlsignale zur Wirtschaftslage den Märkten nachhaltig schaden (05:40, 07:49).\n\n### Markt/Makro: US-Zinspolitik und Finanzmärkte\n- **Sprecherthese**: Trumps Verlangen nach niedrigeren Zinsen ist ökonomisch unvernünftig und vor allem durch die hohen Zinsbelastungen der US-Staatsschulden getrieben (02:10, 10:23). Ein Nachgeben der Fed würde die Unabhängigkeit der Notenbank untergraben und das lange Ende der Zinskurve belasten (06:36, 08:41).\n- **Richtung**: Bärisch / Warnung vor erhöhter Instabilität im Falle einer verfrühten Zinssenkung.\n- **Konkret belegte Levels**: Fed Dot Plot sieht den Leitzins zum Jahresende bei 3,8 %; Juli-Abstimmung der Fed lag bei 9:3 (9 für Halten, 3 für Erhöhung, 0 für Senkung) (02:10). US-Staatsschulden betragen über 40 Bio. USD, wovon ca. 13 Bio. USD innerhalb von 12 Monaten fällig werden (10:23).\n- **Trigger**: FOMC-Sitzung am 15./16. September sowie allfälliger politischer Druck auf die Fed (00:01, 02:10).\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Kurz- bis mittelfristig (FOMC-Sitzung September 2026, Dot Plot bis Ende 2026) (00:01, 02:10).\n\n### Szenarien bei einem Fed-Nachgeben (05:40):\n1. *Inflation sinkt von allein*: Kurze Entlastung auf ganzer Kurve, birgt aber das Risiko einer späteren massiven Zinsanhebung und Rezession, falls die Inflation hoch bleibt (05:32 - 06:20).\n2. *Aufgabe der Inflationsbekämpfung*: Vertrauensverlust führt zu steigenden Renditen am langen Ende (z. B. 30-jährige Staatsanleihen) trotz niedrigerer Leitzinsen (06:36 - 07:44).\n3. *Senkung wegen Wirtschaftskrise*: Aktienkurse fallen trotz sinkender Zinsen aufgrund einbrechender Unternehmensgewinne (07:45 - 08:35).\n\n### Unsicherheiten & Sehenswerte Stellen\n- Unsicherheiten bestehen hinsichtlich der weiteren Inflationsentwicklung durch geopolitische Konflikte (z. B. Iran-Situation) (01:09, 12:01) sowie der künftigen politischen Unabhängigkeit der Fed.\n- Sehenswerte Stellen: 02:10 (Gegenüberstellung der Fed-Beschlüsse und Trumps Forderung), 05:40 (Drei-Szenarien-Matrix der Marktreaktionen) und 10:23 (Aufschlüsselung der US-Staatsschulden und Zinsbelastung).",
+  "evidence": [
+    {
+      "timestamp": "00:01",
+      "basis": "audio",
+      "observation": "Der Sprecher kündigt die FOMC-Sitzung für den 15./16. September an und erwähnt Trumps Forderung nach Zinssenkungen."
+    },
+    {
+      "timestamp": "02:10",
+      "basis": "visual",
+      "observation": "Eingeblendetes Chart-Slide zeigt Trumps Forderung nach Zinssenkungen, die 9:3 Entschließung der Fed im Juli sowie den Dot-Plot-Wert von 3,8 % zum Jahresende."
+    },
+    {
+      "timestamp": "03:36",
+      "basis": "visual",
+      "observation": "Grafik zur Entwicklung im vorherigen Senkungszyklus zeigt einen Abfall des Leitzinses um 1,75 %, während die 30-jährige Rendite um 1,25 % stieg."
+    },
+    {
+      "timestamp": "05:40",
+      "basis": "visual",
+      "observation": "Folie 'Was passiert, wenn die Fed dem Druck nachgibt?' stellt drei Markt-Szenarien bezüglich Inflation, Notenbank-Verhalten und Wirtschaftslage dar."
+    },
+    {
+      "timestamp": "10:23",
+      "basis": "visual",
+      "observation": "Grafik zur 'Rechnung hinter der politischen Motivierung' beziffert US-Staatsschulden auf über 40 Bio. USD und fällige Schulden binnen 12 Monaten auf ca. 13 Bio. USD."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "RB87RSUnR7E",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-18T10:01:42.734052+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Trump will die Zinsen runter – was passiert, wenn die Fed nachgibt?**\nhttps://www.youtube.com/watch?v=RB87RSUnR7E\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\nDonald Trumps Forderung nach Zinssenkungen durch die US-Notenbank Fed vor der kommenden FOMC-Sitzung widerspricht der aktuellen Inflationsbekämpfung und birgt erhebliche Risiken für den Anleihe- und Aktienmarkt (00:01, 02:10). Die Fed tendiert angesichts hoher Inflation und robuster Wirtschaftsdaten eher zu gleichbleibenden oder höheren Zinsen, während Trump versuchte, Druck auszuüben (01:09, 02:10). Ein Nachgeben der Notenbank könnte über steigende Langfristrenditen, erneut aufflammende Inflation oder Fehlsignale zur Wirtschaftslage den Märkten nachhaltig schaden (05:40, 07:49).\n\n### Markt/Makro: US-Zinspolitik und Finanzmärkte\n- **Sprecherthese**: Trumps Verlangen nach niedrigeren Zinsen ist ökonomisch unvernünftig und vor allem durch die hohen Zinsbelastungen der US-Staatsschulden getrieben (02:10, 10:23). Ein Nachgeben der Fed würde die Unabhängigkeit der Notenbank untergraben und das lange Ende der Zinskurve belasten (06:36, 08:41).\n- **Richtung**: Bärisch / Warnung vor erhöhter Instabilität im Falle einer verfrühten Zinssenkung.\n- **Konkret belegte Levels**: Fed Dot Plot sieht den Leitzins zum Jahresende bei 3,8 %; Juli-Abstimmung der Fed lag bei 9:3 (9 für Halten, 3 für Erhöhung, 0 für Senkung) (02:10). US-Staatsschulden betragen über 40 Bio. USD, wovon ca. 13 Bio. USD innerhalb von 12 Monaten fällig werden (10:23).\n- **Trigger**: FOMC-Sitzung am 15./16. September sowie allfälliger politischer Druck auf die Fed (00:01, 02:10).\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Kurz- bis mittelfristig (FOMC-Sitzung September 2026, Dot Plot bis Ende ",
+    "2026) (00:01, 02:10).\n\n### Szenarien bei einem Fed-Nachgeben (05:40):\n1. *Inflation sinkt von allein*: Kurze Entlastung auf ganzer Kurve, birgt aber das Risiko einer späteren massiven Zinsanhebung und Rezession, falls die Inflation hoch bleibt (05:32 - 06:20).\n2. *Aufgabe der Inflationsbekämpfung*: Vertrauensverlust führt zu steigenden Renditen am langen Ende (z. B. 30-jährige Staatsanleihen) trotz niedrigerer Leitzinsen (06:36 - 07:44).\n3. *Senkung wegen Wirtschaftskrise*: Aktienkurse fallen trotz sinkender Zinsen aufgrund einbrechender Unternehmensgewinne (07:45 - 08:35).\n\n### Unsicherheiten & Sehenswerte Stellen\n- Unsicherheiten bestehen hinsichtlich der weiteren Inflationsentwicklung durch geopolitische Konflikte (z. B. Iran-Situation) (01:09, 12:01) sowie der künftigen politischen Unabhängigkeit der Fed.\n- Sehenswerte Stellen: 02:10 (Gegenüberstellung der Fed-Beschlüsse und Trumps Forderung), 05:40 (Drei-Szenarien-Matrix der Marktreaktionen) und 10:23 (Aufschlüsselung der US-Staatsschulden und Zinsbelastung).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-18T10:01:43.168318+00:00"
 }
