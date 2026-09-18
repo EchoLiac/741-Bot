@@ -8,8 +8,8 @@
   "handle": "@TomVorwald",
   "status": "analysis_failed",
   "discovered_at": "2026-09-17T18:31:25.173234+00:00",
-  "attempts": 3,
-  "last_attempt": "2026-09-18T01:31:31.338419+00:00",
+  "attempts": 4,
+  "last_attempt": "2026-09-18T04:32:23.181500+00:00",
   "video_id": "liEJMfE_PXg",
   "scanner_version": "video-first-v3"
 }

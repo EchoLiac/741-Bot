@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-18T04:01:16.576786+00:00",
-    "@wir-lieben-aktien": "2026-09-18T04:01:17.123241+00:00",
-    "@chartsekte": "2026-09-18T04:01:17.642927+00:00",
-    "@hkcm": "2026-09-18T04:01:18.151923+00:00",
-    "@phantombyhkcm": "2026-09-18T04:01:18.635903+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-18T04:01:19.140439+00:00",
-    "@aktien4future": "2026-09-18T04:01:19.631663+00:00",
-    "@Finanzbaer": "2026-09-18T04:01:20.161794+00:00",
-    "@Finanzwiesel": "2026-09-18T04:01:20.681649+00:00",
-    "@TradingKompass": "2026-09-18T04:01:21.207007+00:00",
-    "@TomVorwald": "2026-09-18T04:01:21.722369+00:00"
+    "@1OxTrading": "2026-09-18T04:31:14.791426+00:00",
+    "@wir-lieben-aktien": "2026-09-18T04:31:15.242783+00:00",
+    "@chartsekte": "2026-09-18T04:31:15.749020+00:00",
+    "@hkcm": "2026-09-18T04:31:16.260403+00:00",
+    "@phantombyhkcm": "2026-09-18T04:31:16.741830+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-18T04:31:17.187178+00:00",
+    "@aktien4future": "2026-09-18T04:31:17.680504+00:00",
+    "@Finanzbaer": "2026-09-18T04:31:18.150292+00:00",
+    "@Finanzwiesel": "2026-09-18T04:31:18.588727+00:00",
+    "@TradingKompass": "2026-09-18T04:31:19.086160+00:00",
+    "@TomVorwald": "2026-09-18T04:31:19.569423+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -4774,10 +4774,11 @@
     "published": null,
     "channel": "10xTrading",
     "handle": "@1OxTrading",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-17T18:31:20.319613+00:00",
-    "attempts": 3,
-    "last_attempt": "2026-09-18T01:31:12.972248+00:00"
+    "attempts": 4,
+    "last_attempt": "2026-09-18T04:31:19.626513+00:00",
+    "scraped_at": "2026-09-18T04:32:11.325473+00:00"
   },
   "5LEX8pIckMA": {
     "id": "5LEX8pIckMA",
@@ -4789,8 +4790,8 @@
     "handle": "@chartsekte",
     "status": "pending",
     "discovered_at": "2026-09-17T18:31:21.183321+00:00",
-    "attempts": 3,
-    "last_attempt": "2026-09-18T01:31:19.142350+00:00"
+    "attempts": 4,
+    "last_attempt": "2026-09-18T04:32:11.329222+00:00"
   },
   "liEJMfE_PXg": {
     "id": "liEJMfE_PXg",
@@ -4802,8 +4803,8 @@
     "handle": "@TomVorwald",
     "status": "pending",
     "discovered_at": "2026-09-17T18:31:25.173234+00:00",
-    "attempts": 3,
-    "last_attempt": "2026-09-18T01:31:25.171244+00:00"
+    "attempts": 4,
+    "last_attempt": "2026-09-18T04:32:17.395529+00:00"
   },
   "IiPL0ueHf3g": {
     "id": "IiPL0ueHf3g",

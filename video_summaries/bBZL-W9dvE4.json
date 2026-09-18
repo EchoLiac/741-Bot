@@ -6,10 +6,77 @@
   "published": null,
   "channel": "10xTrading",
   "handle": "@1OxTrading",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-17T18:31:20.319613+00:00",
-  "attempts": 3,
-  "last_attempt": "2026-09-18T01:31:19.137296+00:00",
+  "attempts": 4,
+  "last_attempt": "2026-09-18T04:31:19.626513+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDas Video bietet eine technische Chartanalyse von zehn ausgewählten US-Technologieaktien unter Nutzung von Harmonics, Trendlinien und Gleitenden Durchschnitten. Der Sprecher identifiziert bei den meisten Titeln wichtige Schlüsselzonen für potenzielle Ausbrüche sowie klare Invalidierungsmarken. (00:21)\n\n**Typ:** mehrere Aktien\n\n---\n\n### Intel Corporation (INTC) (00:21)\n* **Sprecherthese:** Kurzfristig bullisch nach Ausbruch aus der 20-Wochen-Linie, Potenzial für einen weiteren Anstieg in Richtung der Zielzone eines Bat-Patterns.\n* **Richtung:** Bullisch (kurz- bis mittelfristig).\n* **Konkret belegte Levels:** Zielzone bei ca. 135 USD (00:40); Fair-Value-Gap / Rücksetzer-Unterstützung bei ca. 106 USD (01:29).\n* **Trigger:** Ausbruch über den aktuellen Widerstand/Orderblock (00:53).\n* **Invalidierung:** Kurse deutlich unter 106 USD (01:31).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Tempus AI (TEM) (01:36)\n* **Sprecherthese:** Übergeordnetes ABCD-Ziel nach wie vor intakt, aktuell aber kein gutes Chance-Risiko-Verhältnis für Neueinstiege auf aktuellem Niveau.\n* **Richtung:** Neutral bis bullisch.\n* **Konkret belegte Levels:** Zielzone 90–97 USD (02:02); Widerstand 82 USD (02:24); nächste Zielmarke 92 USD (02:29); Alarme bei 85 USD und 70 USD (02:48).\n* **Trigger:** Ausbruch über 82 USD für direkten Anstieg (02:24) oder Rücksetzer im Bereich 70 USD (02:44).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittel- bis langfristig.\n\n### Fluence Energy (FLNC) (02:54)\n* **Sprecherthese:** Nach Umsatzwarnung stark gefallen und am 0,886 Fibonacci-Retracements-Support angekommen; Option für risikobewusste Spekulationen.\n* **Richtung:** Neutral mit Erholungspotenzial.\n* **Konkret belegte Levels:** Früheres Tief bei 3,25 USD, Hoch bei 32–33 USD (03:24); Support-Marke 6,50–6,70 USD (04:19); tiefere Testzone um 5 USD (04:37).\n* **Trigger:** Haltung der 0,886 Fibonacci-Unterstützung bzw. Bodenbildung.\n* **Invalidierung:** Bruch der Zone unter 6,50 USD / 6,70 USD (04:19).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### AMD (AMD) (04:55)\n* **Sprecherthese:** Nach perfektem Abspulen eines Shark- und 5-0-Musters steht der Wert vor wichtigen oberen Ziel- und Confluence-Zonen.\n* **Richtung:** Bullisch.\n* **Konkret belegte Levels:** ABCD-Zielzone bei 560–570 USD bzw. 570–580 USD (06:13, 06:31).\n* **Trigger:** Pullback und Backtest des gebrochenen Abwärtstrends (06:36).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### IonQ (IONQ) (06:49)\n* **Sprecherthese:** Aktuell an einer sehr wichtigen technischen Unterstützung; zeigt Potenzial für eine langfristige Bodenbildung oder ein Butterfly-Muster.\n* **Richtung:** Bullisch bei Halten der Unterstützung.\n* **Konkret belegte Levels:** Schlüsselunterstützung bei 32 USD (08:09); langfristiges Ziel bei 100 USD (08:41).\n* **Trigger:** Bestätigung des Doppelbodens / Ausbruch nach oben (08:55).\n* **Invalidierung:** Nachhaltiger Bruch der Zone unter 32 USD bzw. der 200-Wochen-Linie (08:46, 09:08).\n* **Zeithorizont:** Mittel- bis langfristig.\n\n### Oracle Corporation (ORCL) (09:11)\n* **Sprecherthese:** Hält erneut den Aufwärtstrend und die 50-Tage-Linie; muss nun zügig nach oben ausbrechen, um ein Schulter-Kopf-Schulter-Muster zu vermeiden.\n* **Richtung:** Neutral bis bullisch.\n* **Konkret belegte Levels:** Ausbruchsmarken bei 154 USD und 159 USD (10:24); ABCD-Ziel bei 182 USD (10:37).\n* **Trigger:** Durchbrechen der 200-Tage-Linie und Ausbruch über 159 USD (10:27, 10:33).\n* **Invalidierung:** Erneuter Fehlausbruch unter die 200-Wochen-Linie / Trendlinie (10:19).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Micron Technology (MU) (11:27)\n* **Sprecherthese:** Hält die 20-Wochen-Linie und zeigt Anzeichen einer Konsolidierung im DRAM-Sektor vor dem nächsten Bewegungsimpuls.\n* **Richtung:** Bullisch.\n* **Konkret belegte Levels:** Kritische Zone unter 940 USD (12:22); Make-or-Break Support bei 900 USD (12:24); langfristige Zielen bei 1500–1700 USD (12:56).\n* **Trigger:** Ausbruch aus dem Seitwärts-Algotrend / neues Verlaufshoch (12:12, 12:17).\n* **Invalidierung:** Kurse unter 900 USD (12:24).\n* **Zeithorizont:** Mittel- bis langfristig.\n\n### Crowdstrike (CRWD) (13:33)\n* **Sprecherthese:** Extrem starke Struktur im Cyber-Security-Sektor, steigt nach Dips direkt wieder auf neue Hochs.\n* **Richtung:** Bullisch.\n* **Konkret belegte Levels:** Make-or-Break-Zone bei 220–225 USD (15:43); Zielzone bei 270–275 USD (15:48).\n* **Trigger:** Halten des 220–225 USD Bereichs (15:43).\n* **Invalidierung:** Bruch unter 220 USD (15:43).\n* **Zeithorizont:** Kurzfristig.\n\n### Sandisk Corp (SNDK) (16:06)\n* **Sprecherthese:** Komplexe Trendlinien-Konstellation; die Bullen müssen das Momentum zurückgewinnen und per Gap nach oben ausbrechen.\n* **Richtung:** Neutral.\n* **Konkret belegte Levels:** Make-or-Break Support bei 1450 [14,50] (17:58); Hauptzielbereich bei 2500 [25,00] (17:48); Zwischenmarke 1700 / 1830 (17:34, 17:37).\n* **Trigger:** Gap-Ausbruch über die Abwärtstrendlinien in Richtung 1830 (17:37).\n* **Invalidierung:** Unterschreiten von 1450 [14,50] (17:58).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Amazon (AMZN) (18:09)\n* **Sprecherthese:** Sauberer technischer Dip-Kauf an der Unterstützung; Kurse müssen für ein Kaufsignal über der Haltemarke bleiben.\n* **Richtung:** Bullisch.\n* **Konkret belegte Levels:** Unterstützung bei 248 USD (20:16); Ausbruchslevel bei ca. 260 USD (20:39).\n* **Trigger:** Ausbruch über die Abwärtstrendlinie / über 260 USD (20:19, 20:39).\n* **Invalidierung:** Kurse unter 248 USD (20:16).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n---\n\n### Unsicherheiten & sehenswerte Stellen\n* **Unsicherheiten:** Bei Werten mit starker Volatilität (z. B. Fluence Energy, IonQ) besteht das Risiko tieferer Absacker bei Marktdruck. Zudem beruhen Kursziele rein auf technischer Analyse und Meinungen des Sprechers.\n* **Sehenswerte Stellen:**\n  * **05:18 – 05:43:** Erläuterung des 5-0-Musters und der Reaktion am Support bei AMD.\n  * **09:20 – 10:10:** Detaillierte Darstellung der Aufwärtstrendlinie und Warnung vor der SKS-Formation bei Oracle.\n  * **14:16 – 14:38:** Veranschaulichung fehlerhafter Fehlausbrüche (Bear Trap) am Beispiel Palo Alto Networks / Crowdstrike.",
+  "evidence": [
+    {
+      "timestamp": "00:40",
+      "basis": "audio",
+      "observation": "Der Sprecher benennt bei Intel (INTC) ein Bat-Pattern-Ziel bei etwa 135 USD."
+    },
+    {
+      "timestamp": "02:02",
+      "basis": "visual",
+      "observation": "Auf dem Chart zu Tempus AI (TEM) wird eine Zielzone im Bereich von 90 bis 97 USD angezeigt."
+    },
+    {
+      "timestamp": "03:37",
+      "basis": "audio",
+      "observation": "Der Sprecher erklärt, dass Fluence Energy (FLNC) auf dem 0,886 Fibonacci-Retracement aufliegt."
+    },
+    {
+      "timestamp": "05:19",
+      "basis": "visual",
+      "observation": "Im Chart von AMD ist die Formation '5-0' eingezeichnet und hervorgehoben."
+    },
+    {
+      "timestamp": "08:09",
+      "basis": "audio",
+      "observation": "Bei IonQ nennt der Sprecher die Marke von 32 USD als wichtigen Support."
+    },
+    {
+      "timestamp": "10:07",
+      "basis": "visual",
+      "observation": "Bei Oracle zeigt der Sprecher eine potenzielle Schulter-Kopf-Schulter-Formation im Chart."
+    },
+    {
+      "timestamp": "12:24",
+      "basis": "audio",
+      "observation": "Bei Micron (MU) bezeichnet der Sprecher die Marke von 900 USD als Make-or-Break-Support."
+    },
+    {
+      "timestamp": "15:43",
+      "basis": "audio",
+      "observation": "Bei Crowdstrike liegt laut Sprecher die Make-or-Break-Zone zwischen 220 und 225 USD."
+    },
+    {
+      "timestamp": "17:58",
+      "basis": "visual",
+      "observation": "Im Chart von Sandisk Corp (SNDK) wird ein Make-or-Break Support bei 1450 angezeigt."
+    },
+    {
+      "timestamp": "20:16",
+      "basis": "audio",
+      "observation": "Bei Amazon (AMZN) fordert der Sprecher, dass der Kurs nicht mehr unter 248 USD fallen sollte."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "bBZL-W9dvE4",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-18T04:32:10.479979+00:00",
+  "discord_chunks": [
+    "🎬 **10xTrading**\n**🚨 10 AKTIEN 💥 Amazon AMD Crowdstrike Micron SanDisk Intel Oracle IonQ Tempus AI Fluence Energy**\nhttps://www.youtube.com/watch?v=bBZL-W9dvE4\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDas Video bietet eine technische Chartanalyse von zehn ausgewählten US-Technologieaktien unter Nutzung von Harmonics, Trendlinien und Gleitenden Durchschnitten. Der Sprecher identifiziert bei den meisten Titeln wichtige Schlüsselzonen für potenzielle Ausbrüche sowie klare Invalidierungsmarken. (00:21)\n\n**Typ:** mehrere Aktien\n\n---\n\n### Intel Corporation (INTC) (00:21)\n* **Sprecherthese:** Kurzfristig bullisch nach Ausbruch aus der 20-Wochen-Linie, Potenzial für einen weiteren Anstieg in Richtung der Zielzone eines Bat-Patterns.\n* **Richtung:** Bullisch (kurz- bis mittelfristig).\n* **Konkret belegte Levels:** Zielzone bei ca. 135 USD (00:40); Fair-Value-Gap / Rücksetzer-Unterstützung bei ca. 106 USD (01:29).\n* **Trigger:** Ausbruch über den aktuellen Widerstand/Orderblock (00:53).\n* **Invalidierung:** Kurse deutlich unter 106 USD (01:31).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Tempus AI (TEM) (01:36)\n* **Sprecherthese:** Übergeordnetes ABCD-Ziel nach wie vor intakt, aktuell aber kein gutes Chance-Risiko-Verhältnis für Neueinstiege auf aktuellem Niveau.\n* **Richtung:** Neutral bis bullisch.\n* **Konkret belegte Levels:** Zielzone 90–97 USD (02:02); Widerstand 82 USD (02:24); nächste Zielmarke 92 USD (02:29); Alarme bei 85 USD und 70 USD (02:48).\n* **Trigger:** Ausbruch über 82 USD für direkten Anstieg (02:24) oder Rücksetzer im Bereich 70 USD (02:44).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittel- bis langfristig.\n\n### Fluence Energy (FLNC) (02:54)\n* **Sprecherthese:** Nach Umsatzwarnung stark gefall",
+    "en und am 0,886 Fibonacci-Retracements-Support angekommen; Option für risikobewusste Spekulationen.\n* **Richtung:** Neutral mit Erholungspotenzial.\n* **Konkret belegte Levels:** Früheres Tief bei 3,25 USD, Hoch bei 32–33 USD (03:24); Support-Marke 6,50–6,70 USD (04:19); tiefere Testzone um 5 USD (04:37).\n* **Trigger:** Haltung der 0,886 Fibonacci-Unterstützung bzw. Bodenbildung.\n* **Invalidierung:** Bruch der Zone unter 6,50 USD / 6,70 USD (04:19).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### AMD (AMD) (04:55)\n* **Sprecherthese:** Nach perfektem Abspulen eines Shark- und 5-0-Musters steht der Wert vor wichtigen oberen Ziel- und Confluence-Zonen.\n* **Richtung:** Bullisch.\n* **Konkret belegte Levels:** ABCD-Zielzone bei 560–570 USD bzw. 570–580 USD (06:13, 06:31).\n* **Trigger:** Pullback und Backtest des gebrochenen Abwärtstrends (06:36).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### IonQ (IONQ) (06:49)\n* **Sprecherthese:** Aktuell an einer sehr wichtigen technischen Unterstützung; zeigt Potenzial für eine langfristige Bodenbildung oder ein Butterfly-Muster.\n* **Richtung:** Bullisch bei Halten der Unterstützung.\n* **Konkret belegte Levels:** Schlüsselunterstützung bei 32 USD (08:09); langfristiges Ziel bei 100 USD (08:41).\n* **Trigger:** Bestätigung des Doppelbodens / Ausbruch nach oben (08:55).\n* **Invalidierung:** Nachhaltiger Bruch der Zone unter 32 USD bzw. der 200-Wochen-Linie (08:46, 09:08).\n* **Zeithorizont:** Mittel- bis langfristig.\n\n### Oracle Corporation (ORCL) (09:11)\n* **Sprecherthese:** Hält erneut den Aufwärtstrend und die 50-Tage-Linie; muss nun zügig nach oben ausbrechen, um ein Schulter-Kopf-Schulter-Muster zu vermeiden.\n* **Richtung:** Neutral bis bullisch.\n* **Konkret belegte Levels:** Ausbruchsmarken bei 15",
+    "4 USD und 159 USD (10:24); ABCD-Ziel bei 182 USD (10:37).\n* **Trigger:** Durchbrechen der 200-Tage-Linie und Ausbruch über 159 USD (10:27, 10:33).\n* **Invalidierung:** Erneuter Fehlausbruch unter die 200-Wochen-Linie / Trendlinie (10:19).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Micron Technology (MU) (11:27)\n* **Sprecherthese:** Hält die 20-Wochen-Linie und zeigt Anzeichen einer Konsolidierung im DRAM-Sektor vor dem nächsten Bewegungsimpuls.\n* **Richtung:** Bullisch.\n* **Konkret belegte Levels:** Kritische Zone unter 940 USD (12:22); Make-or-Break Support bei 900 USD (12:24); langfristige Zielen bei 1500–1700 USD (12:56).\n* **Trigger:** Ausbruch aus dem Seitwärts-Algotrend / neues Verlaufshoch (12:12, 12:17).\n* **Invalidierung:** Kurse unter 900 USD (12:24).\n* **Zeithorizont:** Mittel- bis langfristig.\n\n### Crowdstrike (CRWD) (13:33)\n* **Sprecherthese:** Extrem starke Struktur im Cyber-Security-Sektor, steigt nach Dips direkt wieder auf neue Hochs.\n* **Richtung:** Bullisch.\n* **Konkret belegte Levels:** Make-or-Break-Zone bei 220–225 USD (15:43); Zielzone bei 270–275 USD (15:48).\n* **Trigger:** Halten des 220–225 USD Bereichs (15:43).\n* **Invalidierung:** Bruch unter 220 USD (15:43).\n* **Zeithorizont:** Kurzfristig.\n\n### Sandisk Corp (SNDK) (16:06)\n* **Sprecherthese:** Komplexe Trendlinien-Konstellation; die Bullen müssen das Momentum zurückgewinnen und per Gap nach oben ausbrechen.\n* **Richtung:** Neutral.\n* **Konkret belegte Levels:** Make-or-Break Support bei 1450 [14,50] (17:58); Hauptzielbereich bei 2500 [25,00] (17:48); Zwischenmarke 1700 / 1830 (17:34, 17:37).\n* **Trigger:** Gap-Ausbruch über die Abwärtstrendlinien in Richtung 1830 (17:37).\n* **Invalidierung:** Unterschreiten von 1450 [14,50] (17:58).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Am",
+    "azon (AMZN) (18:09)\n* **Sprecherthese:** Sauberer technischer Dip-Kauf an der Unterstützung; Kurse müssen für ein Kaufsignal über der Haltemarke bleiben.\n* **Richtung:** Bullisch.\n* **Konkret belegte Levels:** Unterstützung bei 248 USD (20:16); Ausbruchslevel bei ca. 260 USD (20:39).\n* **Trigger:** Ausbruch über die Abwärtstrendlinie / über 260 USD (20:19, 20:39).\n* **Invalidierung:** Kurse unter 248 USD (20:16).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n---\n\n### Unsicherheiten & sehenswerte Stellen\n* **Unsicherheiten:** Bei Werten mit starker Volatilität (z. B. Fluence Energy, IonQ) besteht das Risiko tieferer Absacker bei Marktdruck. Zudem beruhen Kursziele rein auf technischer Analyse und Meinungen des Sprechers.\n* **Sehenswerte Stellen:**\n  * **05:18 – 05:43:** Erläuterung des 5-0-Musters und der Reaktion am Support bei AMD.\n  * **09:20 – 10:10:** Detaillierte Darstellung der Aufwärtstrendlinie und Warnung vor der SKS-Formation bei Oracle.\n  * **14:16 – 14:38:** Veranschaulichung fehlerhafter Fehlausbrüche (Bear Trap) am Beispiel Palo Alto Networks / Crowdstrike.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 4,
+  "discord_sent_at": "2026-09-18T04:32:11.324289+00:00"
 }
