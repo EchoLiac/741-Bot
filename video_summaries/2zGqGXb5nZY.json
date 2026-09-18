@@ -6,10 +6,71 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-16T10:01:21.920631+00:00",
-  "attempts": 12,
-  "last_attempt": "2026-09-18T05:31:30.377173+00:00",
+  "attempts": 13,
+  "last_attempt": "2026-09-18T08:01:53.182222+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nIn diesem Podcast analysieren Jan und Tillmann vier gefallene Marktführer auf ihr Turnaround-Potenzial nach starken Kurskorrekturen. Während Disney als klarer Favorit für eine langfristige Erholung herausgestellt wird, zeigen sich bei Boeing, Starbucks und Unicharm unterschiedliche Bewertungs- und Bedenkenpunkte.\n\n**Typ:** mehrere Aktien\n\n---\n\n### Boeing\n- **Sprecherthese:** Grundsätzlich wird ein technischer und fundamentaler Turnaround zugetraut, allerdings leidet die Attraktivität unter schwachen Margen und der operativ besseren Aufstellung von Konkurrent Airbus.\n- **Richtung:** Neutral bis leicht positiv (Turnaround-Play)\n- **Konkret belegte Levels:** Allzeithoch 2019 bei 445 USD (04:04); aktueller Kurs ca. 200 USD (04:13); Marktkapitalisierung ca. 170 Mrd. USD (04:23); Erwartetes KGV 2028: 26 (08:34).\n- **Trigger:** Technischer Ausbruch über 245 USD bis 255 USD erforderlich (09:02).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Mittel- bis langfristig.\n\n---\n\n### Starbucks\n- **Sprecherthese:** Die Aktie befindet sich in einer mehrjährigen Seitwärtsphase und leidet unter verlangsamtem Flächenwachstum, Druck in China sowie häufigen Führungswechseln.\n- **Richtung:** Bärisch / Skeptisch\n- **Konkret belegte Levels:** Erwartetes KGV 2024: 40; Erwartetes KGV 2028: 28 (15:10); EBIT-Marge fiel im Corona-Einbruch auf 9 % und erholte sich 2021 auf 18 % (14:03).\n- **Trigger:** Nicht genannt (aus Sprechersicht aktuell kein Investment- oder Turnaround-Case).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Nicht genannt.\n\n---\n\n### Disney\n- **Sprecherthese:** Disney gilt aufgrund der starken Markenrechte, der Erholung im Free Cashflow und der moderaten Bewertung als der stärkste Turnaround-Kandidat und ist der Favorit der Sprecher.\n- **Richtung:** Bullisch\n- **Konkret belegte Levels:** Umsatzanteile: Entertainment 44 %, Sports (ESPN) 18 %, Experiences 38 % (20:12); Erwartetes KGV 2024: 15; Erwartetes KGV in zwei Jahren: 12,5 (22:57); Dividendenrendite 1,4 % bei ca. 15,8 % erwartetete Dividendensteigerung (34:07).\n- **Trigger:** Technischer Ausbruch über 112 USD und nachfolgend über 125 USD (23:25).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Mittel- bis langfristig.\n\n---\n\n### Unicharm\n- **Sprecherthese:** Japanischer Marktführer für Windeln und Inkontinenzprodukte mit stabilem Geschäftsmodell, dessen Kursrückgang vor allem auf eine Bewertungsanpassung bei verlangsamtem Wachstum zurückzuführen ist.\n- **Richtung:** Neutral bis leicht positiv (langsamer Turnaround)\n- **Konkret belegte Levels:** Kursverlust seit Allzeithoch (Nov 2020) um 67 % in Euro (26:29); Erwartetes KGV 2024: 22,5 (29:22); Historisches KGV 2017: 32,6 (29:37).\n- **Trigger:** Ausbruch über 1.060 JPY bzw. 1.100 JPY (31:16) sowie 1.104 JPY (30:24).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Langfristig (5 bis 10 Jahre für Erreichen alter Höchststände) (31:40).\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten:** Die Erholungspfade basieren stark auf Analystenschätzungen für künftige KGVs und operative Margen, die durch makroökonomischen Druck verfehlt werden können.\n- **Sehenswerte Stellen im Video:**\n  - **04:04 – 04:23:** Einordnung der Boeing-Kurshistorie und Bewertung.\n  - **09:02:** Technische Trigger-Marken für Boeing.\n  - **14:03 – 15:10:** Analyse der Margen und KGV-Entwicklung bei Starbucks.\n  - **22:57 – 23:25:** KGV-Bewertung und technische Ausbruchsmarken bei Disney.\n  - **26:29 & 31:16:** Kurskorrektur und technische Trigger-Levels bei Unicharm.",
+  "evidence": [
+    {
+      "timestamp": "04:04",
+      "basis": "audio",
+      "observation": "Allzeithoch von Boeing lag 2019 bei 445 USD."
+    },
+    {
+      "timestamp": "04:13",
+      "basis": "audio",
+      "observation": "Aktueller Kurs von Boeing wird mit 200 USD angegeben."
+    },
+    {
+      "timestamp": "09:02",
+      "basis": "audio",
+      "observation": "Technischer Ausbruchs-Trigger für Boeing liegt bei 245 bis 255 USD."
+    },
+    {
+      "timestamp": "15:10",
+      "basis": "audio",
+      "observation": "Erwartetes KGV von Starbucks für das laufende Geschäftsjahr liegt bei 40 und für 2028 bei 28."
+    },
+    {
+      "timestamp": "20:12",
+      "basis": "audio",
+      "observation": "Umsatzverteilung von Disney: Entertainment 44 %, Sports 18 %, Experiences 38 %."
+    },
+    {
+      "timestamp": "22:57",
+      "basis": "audio",
+      "observation": "Erwartetes KGV von Disney liegt für das aktuelle Jahr bei 15 und in zwei Jahren bei 12,5."
+    },
+    {
+      "timestamp": "23:25",
+      "basis": "audio",
+      "observation": "Charttechnischer Ausbruch bei Disney wird über 112 USD und 125 USD genannt."
+    },
+    {
+      "timestamp": "26:29",
+      "basis": "audio",
+      "observation": "Unicharm hat seit dem Allzeithoch im November 2020 rund 67 % in Euro verloren."
+    },
+    {
+      "timestamp": "31:16",
+      "basis": "audio",
+      "observation": "Ausbruchs-Trigger für Unicharm liegen bei 1.060 JPY und 1.100 JPY."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "2zGqGXb5nZY",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-18T08:03:06.471384+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**4 gefallene Marktführer – wer schafft den Turnaround?**\nhttps://www.youtube.com/watch?v=2zGqGXb5nZY\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nIn diesem Podcast analysieren Jan und Tillmann vier gefallene Marktführer auf ihr Turnaround-Potenzial nach starken Kurskorrekturen. Während Disney als klarer Favorit für eine langfristige Erholung herausgestellt wird, zeigen sich bei Boeing, Starbucks und Unicharm unterschiedliche Bewertungs- und Bedenkenpunkte.\n\n**Typ:** mehrere Aktien\n\n---\n\n### Boeing\n- **Sprecherthese:** Grundsätzlich wird ein technischer und fundamentaler Turnaround zugetraut, allerdings leidet die Attraktivität unter schwachen Margen und der operativ besseren Aufstellung von Konkurrent Airbus.\n- **Richtung:** Neutral bis leicht positiv (Turnaround-Play)\n- **Konkret belegte Levels:** Allzeithoch 2019 bei 445 USD (04:04); aktueller Kurs ca. 200 USD (04:13); Marktkapitalisierung ca. 170 Mrd. USD (04:23); Erwartetes KGV 2028: 26 (08:34).\n- **Trigger:** Technischer Ausbruch über 245 USD bis 255 USD erforderlich (09:02).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Mittel- bis langfristig.\n\n---\n\n### Starbucks\n- **Sprecherthese:** Die Aktie befindet sich in einer mehrjährigen Seitwärtsphase und leidet unter verlangsamtem Flächenwachstum, Druck in China sowie häufigen Führungswechseln.\n- **Richtung:** Bärisch / Skeptisch\n- **Konkret belegte Levels:** Erwartetes KGV 2024: 40; Erwartetes KGV 2028: 28 (15:10); EBIT-Marge fiel im Corona-Einbruch auf 9 % und erholte sich 2021 auf 18 % (14:03).\n- **Trigger:** Nicht genannt (aus Sprechersicht aktuell kein Investment- oder Turnaround-Case).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Nicht genannt.\n\n---\n\n### Disney\n- **Sprechert",
+    "hese:** Disney gilt aufgrund der starken Markenrechte, der Erholung im Free Cashflow und der moderaten Bewertung als der stärkste Turnaround-Kandidat und ist der Favorit der Sprecher.\n- **Richtung:** Bullisch\n- **Konkret belegte Levels:** Umsatzanteile: Entertainment 44 %, Sports (ESPN) 18 %, Experiences 38 % (20:12); Erwartetes KGV 2024: 15; Erwartetes KGV in zwei Jahren: 12,5 (22:57); Dividendenrendite 1,4 % bei ca. 15,8 % erwartetete Dividendensteigerung (34:07).\n- **Trigger:** Technischer Ausbruch über 112 USD und nachfolgend über 125 USD (23:25).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Mittel- bis langfristig.\n\n---\n\n### Unicharm\n- **Sprecherthese:** Japanischer Marktführer für Windeln und Inkontinenzprodukte mit stabilem Geschäftsmodell, dessen Kursrückgang vor allem auf eine Bewertungsanpassung bei verlangsamtem Wachstum zurückzuführen ist.\n- **Richtung:** Neutral bis leicht positiv (langsamer Turnaround)\n- **Konkret belegte Levels:** Kursverlust seit Allzeithoch (Nov 2020) um 67 % in Euro (26:29); Erwartetes KGV 2024: 22,5 (29:22); Historisches KGV 2017: 32,6 (29:37).\n- **Trigger:** Ausbruch über 1.060 JPY bzw. 1.100 JPY (31:16) sowie 1.104 JPY (30:24).\n- **Invalidierung:** Nicht genannt.\n- **Zeithorizont:** Langfristig (5 bis 10 Jahre für Erreichen alter Höchststände) (31:40).\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten:** Die Erholungspfade basieren stark auf Analystenschätzungen für künftige KGVs und operative Margen, die durch makroökonomischen Druck verfehlt werden können.\n- **Sehenswerte Stellen im Video:**\n  - **04:04 – 04:23:** Einordnung der Boeing-Kurshistorie und Bewertung.\n  - **09:02:** Technische Trigger-Marken für Boeing.\n  - **14:03 – 15:10:** Analyse der Margen und KGV-Entwicklung bei Starbucks.\n  - **22:57 –",
+    " 23:25:** KGV-Bewertung und technische Ausbruchsmarken bei Disney.\n  - **26:29 & 31:16:** Kurskorrektur und technische Trigger-Levels bei Unicharm.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 3,
+  "discord_sent_at": "2026-09-18T08:03:09.012391+00:00"
 }

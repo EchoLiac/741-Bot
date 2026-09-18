@@ -6,10 +6,76 @@
   "published": null,
   "channel": "10xTrading",
   "handle": "@1OxTrading",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-16T20:31:03.761189+00:00",
-  "attempts": 10,
-  "last_attempt": "2026-09-18T05:31:24.287641+00:00",
+  "attempts": 11,
+  "last_attempt": "2026-09-18T08:01:21.280515+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDie US-Notenbank Fed hat die Leitzinsen überraschend einstimmig um 25 Basispunkte angehoben, woraufhin die Märkte mit erhöhter Volatilität und Verlusten reagierten (00:37). Neben den makroökonomischen Rahmenbedingungen und Indizes werden technische Chart-Setups für Rohstoffe, Krypto sowie ausgewählte Einzelaktien analysiert (08:41). Für mehrere Werte stehen entscheidende Unterstützungszonen wie die 200-Tage-Linie im Fokus (20:59).\n\n**Typ:** Markt/Makro & Mehrere Aktien\n\n---\n\n### Makro & Indizes\n* **Fed / Zinsen (00:37):**\n  * **Sprecherthese:** Taktische Zinsanhebung um 25 Bp auf 3,75–4,00 % begründet durch geopolitische Spannungen und verfestigte Inflation; erhöhtes Volatilitätsrisiko im Vorfeld des Hexensabbats.\n  * **Richtung:** Neutral bis bärisch auf kurze Sicht.\n  * **Belegte Levels:** Leitzins 3,75–4,00 % (00:42), US10Y über 5 % (01:48), US02Y bei 4,72 % (02:00).\n  * **Trigger / Invalidierung / Zeithorizont:** Nicht genannt.\n\n* **S&P 500 / SPX Futures (14:04):**\n  * **Sprecherthese:** Rücksetzer zur 20-Wochen-Linie; Bruch der systematischen Verkaufsmarke löst Abwärtsdruck aus.\n  * **Richtung:** Bärisch / Konsolidierend.\n  * **Belegte Levels:** Sell Trigger bei 7.580 Punkten (14:05), Unterstützung um 7.550/7.530 Punkte (16:54), Ziel/Kaufzone bei 7.400 Punkten (15:32).\n  * **Trigger:** Bruch der 7.530 Punkte gefährdet Erholung (17:23).\n  * **Invalidierung / Zeithorizont:** Nicht genannt.\n\n---\n\n### Einzelwerte & Rohstoffe\n\n* **Rohöl / WTI Crude (CL1!) (08:41):**\n  * **Sprecherthese:** Test des Abwärtstrends bei ca. 106 USD; Ausbruch könnte weitere Preisschübe auslösen.\n  * **Richtung:** Bärisch unter Widerstand, bullisch bei Ausbruch.\n  * **Belegte Levels:** Widerstand bei 106 USD (08:54), Kursziele bei Ausbruch: 111 USD, 115 USD bis 125 USD (09:12–09:25); Korrekturpotenzial unter 93 USD (09:43).\n  * **Trigger:** Ausbruch über 106 USD (09:06).\n  * **Invalidierung / Zeithorizont:** Nicht genannt.\n\n* **Gold (XAUUSD) (10:09):**\n  * **Sprecherthese:** Ausbildung eines Falling-Wedge- / Gartley-Musters im Abwärtstrend-Backtest.\n  * **Richtung:** Neutral mit Potenzial für Erholung an Zielzone.\n  * **Belegte Levels:** Ziel- und Unterstützungsbereich bei 4.100–4.150 USD (10:41).\n  * **Trigger / Invalidierung / Zeithorizont:** Nicht genannt.\n\n* **Bitcoin (BTCUSD) (11:16):**\n  * **Sprecherthese:** Solange Bitcoin unter 78.000 USD verbleibt, droht ein weiterer Rücksetzer.\n  * **Richtung:** Bärisch / Konsolidierend.\n  * **Belegte Levels:** Widerstand/Breakout-Marke bei 78.000 USD (12:00); Kursziele bei 74.000 USD und 69.000 USD (12:04).\n  * **Trigger:** nachhaltiger Ausbruch über 78.000 USD aktiviert Bullen-Szenario (12:10).\n  * **Invalidierung / Zeithorizont:** Nicht genannt.\n\n* **Nvidia (NVDA) (20:27):**\n  * **Sprecherthese:** Kurs prallt am 8-Stunden-Algo ab; weiterer Rücksetzer in Richtung der 200-Tage-Linie ist denkbar und kein Beinbruch.\n  * **Richtung:** Konsolidierend.\n  * **Belegte Levels:** Aktueller Kurs über 212 USD (20:36), Korrekturziel an der 200-Tage-Linie (20:59).\n  * **Trigger / Invalidierung / Zeithorizont:** Nicht genannt.\n\n* **Broadcom (AVGO) (21:18):**\n  * **Sprecherthese:** Kurs befindet sich in Korrekturphase nahe dem 78,6%-Fibonacci-Retracements.\n  * **Richtung:** Neutral mit Erholungschance.\n  * **Belegte Levels:** Zielzone bei 333–334 USD (21:33).\n  * **Trigger / Invalidierung / Zeithorizont:** Nicht genannt.\n\n* **Oracle (ORCL) (21:44):**\n  * **Sprecherthese:** Aktie bewegt sich seitwärts entlang eines wichtigen grünen Trendkanals; Ausbruch bestimmt Richtung.\n  * **Richtung:** Neutral.\n  * **Belegte Levels:** Untere Zielzone bei 125 USD (22:10), Oberes Ziel bei 150 USD (22:15), Alarme gesetzt bei 138 USD und 147 USD (22:26–22:28).\n  * **Trigger:** Bruch der grünen Trendlinie nach unten führt zu weiteren Verlusten (22:48).\n  * **Invalidierung / Zeithorizont:** Nicht genannt.\n\n* **CrowdStrike (CRWD) (23:31):**\n  * **Sprecherthese:** Starke Performance durch ein funktionierendes ABCD-Muster, Oberseite intakt über 220 USD.\n  * **Richtung:** Bullisch.\n  * **Belegte Levels:** Haltemarke/Pivot bei 220 USD (24:26), Oberes Ziel 273–302 USD (24:17), Rückfallszenario bei 190–200 USD (24:34), Preisalarm bei 246 USD (24:44).\n  * **Trigger:** Schlusskurs unter 220 USD aktiviert Downside-Ziel (24:30).\n  * **Invalidierung / Zeithorizont:** Nicht genannt.\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Unsicherheiten:** Die Wirkung der Dot Plots für 2026/2027 sowie der bevorstehende große Verfallstag (Hexensabbat) können unvorhersehbare Kurssprünge auslösen.\n* **Lohnende Stellen:** \n  * 00:37 – Erläuterung der Fed-Zinsentscheidung.\n  * 08:41 – Technische Analyse Rohöl am Widerstand.\n  * 14:04 – S&P 500 Systematischer Verkaufs-Trigger.\n  * 20:27 – Nvidia Chartanalyse und 200-Tage-Linie.",
+  "evidence": [
+    {
+      "timestamp": "00:37",
+      "basis": "audio",
+      "observation": "Sprecher erklärt, dass Fed die Zinsen um 25 Basispunkte auf 3,75-4,00 % angehoben hat."
+    },
+    {
+      "timestamp": "01:48",
+      "basis": "audio",
+      "observation": "Sprecher verweist auf US10Y-Rendite über 5 %."
+    },
+    {
+      "timestamp": "08:54",
+      "basis": "visual",
+      "observation": "Crude Oil Chart wird gezeigt mit Widerstandszone um 106 USD."
+    },
+    {
+      "timestamp": "10:41",
+      "basis": "visual",
+      "observation": "Gold Chart zeigt Falling Wedge und Zielbereich um 4.100 - 4.150 USD."
+    },
+    {
+      "timestamp": "12:00",
+      "basis": "audio",
+      "observation": "Sprecher nennt 78.000 USD als Schlüsselmarke bei Bitcoin."
+    },
+    {
+      "timestamp": "14:05",
+      "basis": "visual",
+      "observation": "S&P 500 Chart blendet 'Systematical Sell Trigger' bei 7.580 Punkten ein."
+    },
+    {
+      "timestamp": "20:59",
+      "basis": "visual",
+      "observation": "Nvidia Chart zeigt Trendlinie und 200-Tage-Durchschnitt als Kursstütze."
+    },
+    {
+      "timestamp": "21:33",
+      "basis": "audio",
+      "observation": "Sprecher nennt 333 bis 334 USD als 78,6% Retracement Ziel bei Broadcom."
+    },
+    {
+      "timestamp": "22:26",
+      "basis": "visual",
+      "observation": "Oracle Chart zeigt das Einrichten von Preisalarmen bei 138 USD und 147 USD."
+    },
+    {
+      "timestamp": "24:17",
+      "basis": "visual",
+      "observation": "Crowdstrike Chart zeigt obere Zielzone von 273 USD bis 302 USD."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "YV3U8CY5SMQ",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-18T08:01:52.383159+00:00",
+  "discord_chunks": [
+    "🎬 **10xTrading**\n**🚨 WARSH MACHT ERNST: Fed erhöht Zinsen – Wall Street dreht ‼️💥 Bitcoin 💥 Nvidia Oracle Gold**\nhttps://www.youtube.com/watch?v=YV3U8CY5SMQ\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDie US-Notenbank Fed hat die Leitzinsen überraschend einstimmig um 25 Basispunkte angehoben, woraufhin die Märkte mit erhöhter Volatilität und Verlusten reagierten (00:37). Neben den makroökonomischen Rahmenbedingungen und Indizes werden technische Chart-Setups für Rohstoffe, Krypto sowie ausgewählte Einzelaktien analysiert (08:41). Für mehrere Werte stehen entscheidende Unterstützungszonen wie die 200-Tage-Linie im Fokus (20:59).\n\n**Typ:** Markt/Makro & Mehrere Aktien\n\n---\n\n### Makro & Indizes\n* **Fed / Zinsen (00:37):**\n  * **Sprecherthese:** Taktische Zinsanhebung um 25 Bp auf 3,75–4,00 % begründet durch geopolitische Spannungen und verfestigte Inflation; erhöhtes Volatilitätsrisiko im Vorfeld des Hexensabbats.\n  * **Richtung:** Neutral bis bärisch auf kurze Sicht.\n  * **Belegte Levels:** Leitzins 3,75–4,00 % (00:42), US10Y über 5 % (01:48), US02Y bei 4,72 % (02:00).\n  * **Trigger / Invalidierung / Zeithorizont:** Nicht genannt.\n\n* **S&P 500 / SPX Futures (14:04):**\n  * **Sprecherthese:** Rücksetzer zur 20-Wochen-Linie; Bruch der systematischen Verkaufsmarke löst Abwärtsdruck aus.\n  * **Richtung:** Bärisch / Konsolidierend.\n  * **Belegte Levels:** Sell Trigger bei 7.580 Punkten (14:05), Unterstützung um 7.550/7.530 Punkte (16:54), Ziel/Kaufzone bei 7.400 Punkten (15:32).\n  * **Trigger:** Bruch der 7.530 Punkte gefährdet Erholung (17:23).\n  * **Invalidierung / Zeithorizont:** Nicht genannt.\n\n---\n\n### Einzelwerte & Rohstoffe\n\n* **Rohöl / WTI Crude (CL1!) (08:41):**\n  * **Sprecherthese:** Test des Abwärtstrends bei ca. 106 USD;",
+    " Ausbruch könnte weitere Preisschübe auslösen.\n  * **Richtung:** Bärisch unter Widerstand, bullisch bei Ausbruch.\n  * **Belegte Levels:** Widerstand bei 106 USD (08:54), Kursziele bei Ausbruch: 111 USD, 115 USD bis 125 USD (09:12–09:25); Korrekturpotenzial unter 93 USD (09:43).\n  * **Trigger:** Ausbruch über 106 USD (09:06).\n  * **Invalidierung / Zeithorizont:** Nicht genannt.\n\n* **Gold (XAUUSD) (10:09):**\n  * **Sprecherthese:** Ausbildung eines Falling-Wedge- / Gartley-Musters im Abwärtstrend-Backtest.\n  * **Richtung:** Neutral mit Potenzial für Erholung an Zielzone.\n  * **Belegte Levels:** Ziel- und Unterstützungsbereich bei 4.100–4.150 USD (10:41).\n  * **Trigger / Invalidierung / Zeithorizont:** Nicht genannt.\n\n* **Bitcoin (BTCUSD) (11:16):**\n  * **Sprecherthese:** Solange Bitcoin unter 78.000 USD verbleibt, droht ein weiterer Rücksetzer.\n  * **Richtung:** Bärisch / Konsolidierend.\n  * **Belegte Levels:** Widerstand/Breakout-Marke bei 78.000 USD (12:00); Kursziele bei 74.000 USD und 69.000 USD (12:04).\n  * **Trigger:** nachhaltiger Ausbruch über 78.000 USD aktiviert Bullen-Szenario (12:10).\n  * **Invalidierung / Zeithorizont:** Nicht genannt.\n\n* **Nvidia (NVDA) (20:27):**\n  * **Sprecherthese:** Kurs prallt am 8-Stunden-Algo ab; weiterer Rücksetzer in Richtung der 200-Tage-Linie ist denkbar und kein Beinbruch.\n  * **Richtung:** Konsolidierend.\n  * **Belegte Levels:** Aktueller Kurs über 212 USD (20:36), Korrekturziel an der 200-Tage-Linie (20:59).\n  * **Trigger / Invalidierung / Zeithorizont:** Nicht genannt.\n\n* **Broadcom (AVGO) (21:18):**\n  * **Sprecherthese:** Kurs befindet sich in Korrekturphase nahe dem 78,6%-Fibonacci-Retracements.\n  * **Richtung:** Neutral mit Erholungschance.\n  * **Belegte Levels:** Zielzone bei 333–334 USD (21:33).\n  * **Trigger / Invalidieru",
+    "ng / Zeithorizont:** Nicht genannt.\n\n* **Oracle (ORCL) (21:44):**\n  * **Sprecherthese:** Aktie bewegt sich seitwärts entlang eines wichtigen grünen Trendkanals; Ausbruch bestimmt Richtung.\n  * **Richtung:** Neutral.\n  * **Belegte Levels:** Untere Zielzone bei 125 USD (22:10), Oberes Ziel bei 150 USD (22:15), Alarme gesetzt bei 138 USD und 147 USD (22:26–22:28).\n  * **Trigger:** Bruch der grünen Trendlinie nach unten führt zu weiteren Verlusten (22:48).\n  * **Invalidierung / Zeithorizont:** Nicht genannt.\n\n* **CrowdStrike (CRWD) (23:31):**\n  * **Sprecherthese:** Starke Performance durch ein funktionierendes ABCD-Muster, Oberseite intakt über 220 USD.\n  * **Richtung:** Bullisch.\n  * **Belegte Levels:** Haltemarke/Pivot bei 220 USD (24:26), Oberes Ziel 273–302 USD (24:17), Rückfallszenario bei 190–200 USD (24:34), Preisalarm bei 246 USD (24:44).\n  * **Trigger:** Schlusskurs unter 220 USD aktiviert Downside-Ziel (24:30).\n  * **Invalidierung / Zeithorizont:** Nicht genannt.\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Unsicherheiten:** Die Wirkung der Dot Plots für 2026/2027 sowie der bevorstehende große Verfallstag (Hexensabbat) können unvorhersehbare Kurssprünge auslösen.\n* **Lohnende Stellen:** \n  * 00:37 – Erläuterung der Fed-Zinsentscheidung.\n  * 08:41 – Technische Analyse Rohöl am Widerstand.\n  * 14:04 – S&P 500 Systematischer Verkaufs-Trigger.\n  * 20:27 – Nvidia Chartanalyse und 200-Tage-Linie.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 3,
+  "discord_sent_at": "2026-09-18T08:01:53.177190+00:00"
 }

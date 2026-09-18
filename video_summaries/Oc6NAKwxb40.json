@@ -6,10 +6,65 @@
   "published": null,
   "channel": "Phantom by HKCM",
   "handle": "@phantombyhkcm",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T17:01:20.421869+00:00",
-  "attempts": 14,
-  "last_attempt": "2026-09-18T06:01:28.696791+00:00",
+  "attempts": 15,
+  "last_attempt": "2026-09-18T08:03:09.017339+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher analysiert die Auswirkungen steigender Ölpreise und hoher Zinsanhebungserwartungen auf die Finanzmärkte sowie Elliott-Wellen-Szenarien für die Cybersicherheits- und Softwareaktien Zscaler und Atlassian. Trotz makroökonomischer Risiken sieht er bei beiden Titeln mittelfristig bullische Impulse, plant bei Atlassian jedoch auch den Einstieg in eine Short-Position bei Erreichen der Zielzone. (00:44, 09:56, 14:22)\n\n**Typ:** mehrere Aktien / Markt/Makro\n\n### Makro & Ölmarkt (WTI / CL1!)\n* **Sprecherthese:** Der starke Anstieg des Ölpreises belastet die Inflationsdaten zeitversetzt und erhöht den Druck auf die US-Notenbank Fed für Zinsanhebungen, was Aktienmärkte belasten dürfte. (02:15, 02:58)\n* **Richtung:** Bullisch für Öl, belastend für S&P 500 und Nasdaq 100. (02:27, 04:22)\n* **Konkret belegte Levels:** WTI-Widerstandszone $100.91 bis $108.35 (78.6% Retracement) [03:34, 04:05], Ausbruchsziel über $119.48 [04:15].\n* **Trigger:** Nachhaltiger Ausbruch über $108.35 schaltet neue Hochs über $119.48 frei. (04:05)\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Wochen bis Monate. (02:24)\n\n### Zscaler (ZS)\n* **Sprecherthese:** Startet einen vermeintlichen Impuls (Welle 3), befindet sich übergeordnet aber möglicherweise in einer größeren Bärenmarkt-Zwischenkorrektur vor einem späteren Tief. (10:48, 13:18)\n* **Richtung:** Kurzfristig/mittelfristig bullisch, übergeordnet korrektiv. (11:20, 13:18)\n* **Konkret belegte Levels:** Einstiegskurs $175.37 [10:08], Trigger-Widerstand $201.18 [11:11], Ziel Welle 3 $274.87 – $286.88 [11:24], Support/Tiefstwerte $114.63 [10:29] und $84.93 [12:16], langfristiges ATH-Ziel $442.84 – $484.63 [13:11].\n* **Trigger:** Tagesschlusskurs über $201.18 bestätigt die Welle-3-Expansion. (11:17)\n* **Invalidierung:** Tagesschluss unter $114.63 bzw. $84.93 hebelt das primäre bullische Szenario aus. (12:16)\n* **Zeithorizont:** Mittelfristig bis mehrjährig.\n\n### Atlassian (TEAM)\n* **Sprecherthese:** Verzeichnet nach Einstieg starke Gewinne (+204%) und steuert auf das Welle-3-Ziel zu, wo eine Short-Position vorbereitet wird; bei Bruch des Supports droht eine vorgezogene Korrektur. (14:51, 15:47, 16:31)\n* **Richtung:** Kurzfristig bullisch bis zur Zielzone, anschließend bärisch/konsolidierend. (15:25, 15:47)\n* **Konkret belegte Levels:** Einstiegskurs $63.36 [14:51], erstes Primärziel/Short-Zone $246.60 [15:37], Support-Marke $159.00 [16:31], Korrekturzielzone $138.88 – $152.74 [16:44], Langfristziele $335.00, $483.13 und $840.22 [17:33, 17:42].\n* **Trigger:** Anstieg in Richtung $246.60 aktiviert Short-Bereitschaft [15:47]; Unterschreiten von $159.00 leitet Korrektur ein [16:31].\n* **Invalidierung:** Bruch der $56.00-Marke entkräftet den gesamten Bullenzyklus. (17:26)\n* **Zeithorizont:** Mittelfristig bis langjährig.\n\n### Unsicherheiten und sehenswerte Stellen\n* **Unsicherheiten:** Die bevorstehende Fed-Zinsentscheidung (92,3 % Erwartung einer 25-Basispunkte-Anhebung) birgt kurzfristiges Enttäuschungs- und Volatilitätsrisiko für den gesamten Markt. (01:23, 01:43)\n* **Sehenswerte Stellen:** Makro- und Zinsanalyse ab 00:44, Technische WTI-Analyse ab 03:08, Zscaler-Analyse ab 09:56, Atlassian-Analyse ab 15:18.",
+  "evidence": [
+    {
+      "timestamp": "00:54",
+      "basis": "visual",
+      "observation": "Forex Factory Kalendertabelle zeigt US-CPI-Daten (Core CPI m/m bei 0.3%, CPI y/y bei 3.4%)."
+    },
+    {
+      "timestamp": "01:30",
+      "basis": "visual",
+      "observation": "FedWatch Tool zeigt 92,3% Wahrscheinlichkeit für eine Zielzinsspanne von 375-400 bps (25 bps Zinsanhebung) beim Fed-Meeting am 16. Sep 2026."
+    },
+    {
+      "timestamp": "03:08",
+      "basis": "visual",
+      "observation": "Chart 'Light Crude Oil Futures' (CL1!) zeigt Projektionslinien bei $100.91, $108.35 (78.6%) und $119.48."
+    },
+    {
+      "timestamp": "10:08",
+      "basis": "visual",
+      "observation": "HKCM Investmentdepot zeigt Zscaler-Position mit Einstieg bei $175.37, aktuellem Kurs von $191.60 und Performance von +9,25%."
+    },
+    {
+      "timestamp": "11:11",
+      "basis": "visual",
+      "observation": "Zscaler-Chart zeigt Schlüssel-Trigger bei $201.18 und Fibo-Expansionslevel Welle 3 bei 161.80% ($274.87)."
+    },
+    {
+      "timestamp": "14:48",
+      "basis": "visual",
+      "observation": "HKCM Investmentdepot zeigt Atlassian-Position mit Einstieg bei $63.36, aktuellem Kurs von $192.64 und Performance von +204,01%."
+    },
+    {
+      "timestamp": "15:37",
+      "basis": "visual",
+      "observation": "Atlassian-Chart zeigt Zielzone 261.80% bei $246.60 mit rotem Markierungspunkt für geplante Short-Position."
+    },
+    {
+      "timestamp": "16:31",
+      "basis": "visual",
+      "observation": "Atlassian-Chart zeigt Support-Linie bei $159.00 und Korrektur-Zielbereich 38.20% ($152.74) bis 50.00% ($138.88)."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "Oc6NAKwxb40",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-18T08:03:41.880022+00:00",
+  "discord_chunks": [
+    "🎬 **Phantom by HKCM**\n**Have we seen the peak in the markets?!**\nhttps://www.youtube.com/watch?v=Oc6NAKwxb40\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher analysiert die Auswirkungen steigender Ölpreise und hoher Zinsanhebungserwartungen auf die Finanzmärkte sowie Elliott-Wellen-Szenarien für die Cybersicherheits- und Softwareaktien Zscaler und Atlassian. Trotz makroökonomischer Risiken sieht er bei beiden Titeln mittelfristig bullische Impulse, plant bei Atlassian jedoch auch den Einstieg in eine Short-Position bei Erreichen der Zielzone. (00:44, 09:56, 14:22)\n\n**Typ:** mehrere Aktien / Markt/Makro\n\n### Makro & Ölmarkt (WTI / CL1!)\n* **Sprecherthese:** Der starke Anstieg des Ölpreises belastet die Inflationsdaten zeitversetzt und erhöht den Druck auf die US-Notenbank Fed für Zinsanhebungen, was Aktienmärkte belasten dürfte. (02:15, 02:58)\n* **Richtung:** Bullisch für Öl, belastend für S&P 500 und Nasdaq 100. (02:27, 04:22)\n* **Konkret belegte Levels:** WTI-Widerstandszone $100.91 bis $108.35 (78.6% Retracement) [03:34, 04:05], Ausbruchsziel über $119.48 [04:15].\n* **Trigger:** Nachhaltiger Ausbruch über $108.35 schaltet neue Hochs über $119.48 frei. (04:05)\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Wochen bis Monate. (02:24)\n\n### Zscaler (ZS)\n* **Sprecherthese:** Startet einen vermeintlichen Impuls (Welle 3), befindet sich übergeordnet aber möglicherweise in einer größeren Bärenmarkt-Zwischenkorrektur vor einem späteren Tief. (10:48, 13:18)\n* **Richtung:** Kurzfristig/mittelfristig bullisch, übergeordnet korrektiv. (11:20, 13:18)\n* **Konkret belegte Levels:** Einstiegskurs $175.37 [10:08], Trigger-Widerstand $201.18 [11:11], Ziel Welle 3 $274.87 – $286.88 [11:24], Support/Tiefstwerte $114.63 [10:29]",
+    " und $84.93 [12:16], langfristiges ATH-Ziel $442.84 – $484.63 [13:11].\n* **Trigger:** Tagesschlusskurs über $201.18 bestätigt die Welle-3-Expansion. (11:17)\n* **Invalidierung:** Tagesschluss unter $114.63 bzw. $84.93 hebelt das primäre bullische Szenario aus. (12:16)\n* **Zeithorizont:** Mittelfristig bis mehrjährig.\n\n### Atlassian (TEAM)\n* **Sprecherthese:** Verzeichnet nach Einstieg starke Gewinne (+204%) und steuert auf das Welle-3-Ziel zu, wo eine Short-Position vorbereitet wird; bei Bruch des Supports droht eine vorgezogene Korrektur. (14:51, 15:47, 16:31)\n* **Richtung:** Kurzfristig bullisch bis zur Zielzone, anschließend bärisch/konsolidierend. (15:25, 15:47)\n* **Konkret belegte Levels:** Einstiegskurs $63.36 [14:51], erstes Primärziel/Short-Zone $246.60 [15:37], Support-Marke $159.00 [16:31], Korrekturzielzone $138.88 – $152.74 [16:44], Langfristziele $335.00, $483.13 und $840.22 [17:33, 17:42].\n* **Trigger:** Anstieg in Richtung $246.60 aktiviert Short-Bereitschaft [15:47]; Unterschreiten von $159.00 leitet Korrektur ein [16:31].\n* **Invalidierung:** Bruch der $56.00-Marke entkräftet den gesamten Bullenzyklus. (17:26)\n* **Zeithorizont:** Mittelfristig bis langjährig.\n\n### Unsicherheiten und sehenswerte Stellen\n* **Unsicherheiten:** Die bevorstehende Fed-Zinsentscheidung (92,3 % Erwartung einer 25-Basispunkte-Anhebung) birgt kurzfristiges Enttäuschungs- und Volatilitätsrisiko für den gesamten Markt. (01:23, 01:43)\n* **Sehenswerte Stellen:** Makro- und Zinsanalyse ab 00:44, Technische WTI-Analyse ab 03:08, Zscaler-Analyse ab 09:56, Atlassian-Analyse ab 15:18.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-18T08:03:42.441008+00:00"
 }
