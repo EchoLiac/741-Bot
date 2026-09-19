@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-19T20:01:11.202772+00:00",
-    "@wir-lieben-aktien": "2026-09-19T20:01:11.782907+00:00",
-    "@chartsekte": "2026-09-19T20:01:12.380225+00:00",
-    "@hkcm": "2026-09-19T20:01:12.917494+00:00",
-    "@phantombyhkcm": "2026-09-19T20:01:13.505742+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-19T20:01:14.027702+00:00",
-    "@aktien4future": "2026-09-19T20:01:14.501735+00:00",
-    "@Finanzbaer": "2026-09-19T20:01:15.055188+00:00",
-    "@Finanzwiesel": "2026-09-19T20:01:15.547293+00:00",
-    "@TradingKompass": "2026-09-19T20:01:16.112944+00:00",
-    "@TomVorwald": "2026-09-19T20:01:16.635654+00:00"
+    "@1OxTrading": "2026-09-19T20:31:06.077451+00:00",
+    "@wir-lieben-aktien": "2026-09-19T20:31:06.590166+00:00",
+    "@chartsekte": "2026-09-19T20:31:07.095093+00:00",
+    "@hkcm": "2026-09-19T20:31:07.664472+00:00",
+    "@phantombyhkcm": "2026-09-19T20:31:08.130180+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-19T20:31:08.651004+00:00",
+    "@aktien4future": "2026-09-19T20:31:09.131588+00:00",
+    "@Finanzbaer": "2026-09-19T20:31:09.708690+00:00",
+    "@Finanzwiesel": "2026-09-19T20:31:10.220087+00:00",
+    "@TradingKompass": "2026-09-19T20:31:10.764918+00:00",
+    "@TomVorwald": "2026-09-19T20:31:11.324254+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 152,
-    "last_attempt": "2026-09-19T19:31:22.198447+00:00"
+    "attempts": 153,
+    "last_attempt": "2026-09-19T20:31:35.297630+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -4941,8 +4941,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-19T17:01:19.738293+00:00",
-    "attempts": 6,
-    "last_attempt": "2026-09-19T19:31:16.079269+00:00"
+    "attempts": 7,
+    "last_attempt": "2026-09-19T20:31:17.526150+00:00"
   },
   "w4TvyqaDPXM": {
     "id": "w4TvyqaDPXM",
@@ -4982,5 +4982,18 @@
     "discovered_at": "2026-09-19T20:01:13.505722+00:00",
     "attempts": 1,
     "last_attempt": "2026-09-19T20:01:23.040523+00:00"
+  },
+  "R6syf_N-hno": {
+    "id": "R6syf_N-hno",
+    "title": "PAYPAL am Support! Haben die Bullen eine Chance? 🤔 Analyse & Kursziele",
+    "url": "https://www.youtube.com/watch?v=R6syf_N-hno",
+    "duration": 563,
+    "published": null,
+    "channel": "TradingKompass",
+    "handle": "@TradingKompass",
+    "status": "pending",
+    "discovered_at": "2026-09-19T20:31:10.764895+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-19T20:31:11.385286+00:00"
   }
 }
