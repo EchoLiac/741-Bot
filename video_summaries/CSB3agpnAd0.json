@@ -6,10 +6,82 @@
   "published": null,
   "channel": "aktien4future",
   "handle": "@aktien4future",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-18T18:31:17.064682+00:00",
-  "attempts": 16,
-  "last_attempt": "2026-09-19T06:31:31.035139+00:00",
+  "attempts": 17,
+  "last_attempt": "2026-09-19T07:01:31.758696+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDas Video analysiert fünf führende Marktführer (LVMH, Nike, McDonald's, ServiceNow und Novo Nordisk), die erhebliche Kursrückgänge erlitten haben. Basierend auf historischen Studien zu Drawdowns wird hinterfragt, welche dieser Aktien vor einer echten Turnaround-Chance stehen und bei welchen sich fundamentale Verschlechterungen abzeichnen. Der Sprecher betont, dass hohe Kursverluste allein keine Kaufchancen garantieren und differenziert klar zwischen temporären Zyklen und strukturellen Problemen. [00:00 - 02:30]\n\n**Typ:** Mehrere Aktien\n\n---\n\n### LVMH (EUR)\n* **Sprecherthese:** Luxussegment leidet unter zyklischem Abschwung und China-Schwäche, aber die Grundmarkenstärke und Margen bleiben hoch. Fundamental wieder attraktiv bewertet. [02:41 - 04:45]\n* **Richtung:** Neutral bis vorsichtig positiv (fundamental spannend, charttechnisch abwärts). [04:28]\n* **Konkret belegte Levels:** Aktueller Kurs: knapp über 400 EUR [02:43]; Historisches Hoch (2023): >900 EUR (-55%) [02:47]; Umsatz H1 2026: 38,6 Mrd. EUR (+2% H1, +3% Q2 organisch) [03:52]; Operative Marge: 22,5% [04:04]; Forward KGV: 15,71 bis 17 [04:19]; Dividend Yield: 3,23% [04:23].\n* **Trigger:** Stabilisierung der Nachfrage in Asien/China und Trendwende im Luxuszyklus. [04:40]\n* **Invalidierung:** Weiterer struktureller Verlust der Marken- und Preissetzungsmacht. [03:08]\n* **Zeithorizont:** Langfristig / Mittelfristig. [04:45]\n\n---\n\n### Nike (USD)\n* **Sprecherthese:** Der derzeit kritischste Turnaround im Vergleich. Neben Kursverlusten haben sich operative Kennzahlen (DTC-Strategiefehler, Konkurrenzdruck) verschlechtert. [05:27 - 07:35]\n* **Richtung:** Bärisch / Abwartend. [07:22]\n* **Konkret belegte Levels:** Aktueller Kurs: ~36 USD [05:18]; Hoch (2021): ~180 USD (-80%) [05:20]; Jahresumsatz FY2026: 46,4 Mrd. USD (-2% währungsbereinigt) [06:21]; Forward KGV: 21,15 [06:30]; Dividendenrendite: 4,57% [06:41]; Ausschüttungsquote: ~80% [06:46].\n* **Trigger:** Operatives Wiedererlangen von Umsatzwachstum, erfolgreiche Innovationen und Margenerholung. [07:04]\n* **Invalidierung:** Anhaltender Verlust von Marktanteilen an Konkurrenten wie Hoka oder On. [05:58]\n* **Zeithorizont:** Nicht genannt. [07:30]\n\n---\n\n### McDonald's (USD)\n* **Sprecherthese:** Ausgezeichnetes Verhältnis von Unternehmensqualität zu Bewertung. Die Schwäche basiert auf Makro-Druck im US-Einkommenssegment, während das Geschäftsmodell und die Profitabilität intakt sind. [07:51 - 10:03]\n* **Richtung:** Positiv / Bullisch. [09:55]\n* **Konkret belegte Levels:** Aktueller Kurs: ~250 USD (-27% vom 52-Wochen-Hoch) [07:40]; Q2 Umsatzanstieg: +4% [08:30]; Q2 Gewinn je Aktie: +6% ($3,32) [08:33]; Active Loyalty Users: 220 Mio. [08:44]; KGV: ~20,4 [08:59]; Quartalsdividende: +4% auf 1,93 USD (50. Anhebungsjahr) [09:07].\n* **Trigger:** Stabilisierung des US-Kunden-Traffics und verbesserte Wahrnehmung des Preis-Leistungs-Verhältnisses. [09:34]\n* **Invalidierung:** Dauerhafter Verfall der operativen Marge und Verlust von Franchise-Teilnehmern. [09:40]\n* **Zeithorizont:** Langfristig. [10:02]\n\n---\n\n### ServiceNow (USD)\n* **Sprecherthese:** Operativ die stärksten Wachstumswerte im Vergleich, leidet jedoch unter Marktängsten bezüglich KI-Disruption von Enterprise-Software. [11:24 - 13:38]\n* **Richtung:** Gemischt (operativ stark, bewertungstechnisch/strategisch risikobehaftet). [13:23]\n* **Konkret belegte Levels:** Aktueller Kurs: ~140 USD nach 5:1 Split (-40% vom Hoch) [11:34]; Q2 Subscription Revenues: +24,5% ($3,877 Mrd.) [11:44]; AI Contract Value: >1 Mrd. USD ACV [11:58]; Q3 Guidance Subscription Growth: 20,5% [12:59].\n* **Trigger:** Nachweis, dass KI-Agenten die eigene Softwareplattform stärken statt ersetzen. [12:48]\n* **Invalidierung:** Verlangsamung des Abo-Wachstums deutlich unter 20%. [13:16]\n* **Zeithorizont:** Mittelfristig bis Langfristig. [13:30]\n\n---\n\n### Novo Nordisk (USD / EUR)\n* **Sprecherthese:** Bewertung nach starkem Kursfall im niedrigen/mittleren 10er-KGV-Bereich wieder attraktiv, jedoch hoher Wettbewerbsdruck durch Eli Lilly und verlangsamtes Wachstum. [13:42 - 17:03]\n* **Richtung:** Vorsichtig optimistisch, abwartend auf Bestätigung. [16:58]\n* **Konkret belegte Levels:** Aktueller Kurs: ~38 USD (-70% vom Hoch 2024 bei >130 EUR) [14:02]; Q2 Umsatzbereinigt: +7% (unbereinigt +3%) [15:07]; Q2 Operativer Gewinn bereinigt: +11% (unbereinigt -16%) [15:13]; Prognose 2026 Umsatzwachstum bereinigt: 0% bis -6% CER [15:52]; KGV: niedriges bis mittleres 10er-Niveau [16:08]; Dividendenrendite: >3% (4,17%) [16:15].\n* **Trigger:** Stabilisierung der Marktanteile bei GLP-1 und Erfolg der oralen Pipeline. [16:26]\n* **Invalidierung:** Anhaltender Verlust im Adipositas-Markt an Konkurrenten wie Eli Lilly. [14:41]\n* **Zeithorizont:** Blick auf 2027/2028. [16:38]\n\n---\n\n### Unsicherheiten & Sehensweite Stellen\n* **Sponsoring / Eigeninteresse:** Enthält Vorstellung eines Tagesgeld/Broker-Partners (Trading 212) [10:15 - 11:18].\n* **Sehenswerte Stellen:** Die methodische Einleitung mit Studien zur Kurserholung und Maximum Drawdowns [00:14 - 02:02]; Analyse zur KI-Bedrohung bei Enterprise-Software am Beispiel ServiceNow [12:12 - 12:54].",
+  "evidence": [
+    {
+      "timestamp": "00:22",
+      "basis": "visual",
+      "observation": "Graph zeigt Studie von Morgan Stanley 'Drawdowns and Recoveries' (1985-2024): Median Max Drawdown liegt bei -85,4%."
+    },
+    {
+      "timestamp": "02:43",
+      "basis": "visual",
+      "observation": "LVMH Aktie wird im Chart bei knapp über 400 EUR angezeigt, mit Hochpunkt 2023 bei über 900 EUR (-55%)."
+    },
+    {
+      "timestamp": "03:52",
+      "basis": "visual",
+      "observation": "Einblendung LVMH H1 2026 Results: Revenue €38.6bn (+2% H1), Operating Margin 22.5%."
+    },
+    {
+      "timestamp": "05:18",
+      "basis": "visual",
+      "observation": "Nike Chart zeigt aktuellen Kurs von ~36 USD und einen Rückgang um -80% vom Hoch 2021."
+    },
+    {
+      "timestamp": "06:21",
+      "basis": "visual",
+      "observation": "Nike Textmeldung zeigt Full Year Revenues von $46.4 billion (down 2% currency-neutral)."
+    },
+    {
+      "timestamp": "07:40",
+      "basis": "visual",
+      "observation": "McDonald's Chart zeigt aktuellen Kurs um ~250 USD, -27% unter dem 52-Wochen-Hoch."
+    },
+    {
+      "timestamp": "08:33",
+      "basis": "visual",
+      "observation": "McDonald's Q2 2026 Results: Diluted EPS $3.32 (+6%), Global comparable sales +1.3%."
+    },
+    {
+      "timestamp": "11:34",
+      "basis": "visual",
+      "observation": "ServiceNow Chart zeigt Kurs bei ~140 USD nach 5-for-1 Stock Split (-40% vom Hoch)."
+    },
+    {
+      "timestamp": "11:44",
+      "basis": "visual",
+      "observation": "ServiceNow Q2-26 Highlights: Subscription Revenues $3.877B (+24.5%), AI ACV > $1B."
+    },
+    {
+      "timestamp": "14:02",
+      "basis": "visual",
+      "observation": "Novo Nordisk Chart zeigt Kurs bei ~38 USD (-70% vom Hoch 2024)."
+    },
+    {
+      "timestamp": "15:52",
+      "basis": "visual",
+      "observation": "Novo Nordisk Guidance Tabelle zeigt korrigierten Ausblick 2026: Adj. sales growth 0% to -6% CER."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "CSB3agpnAd0",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-19T07:02:01.902661+00:00",
+  "discord_chunks": [
+    "🎬 **aktien4future**\n**Top 5 Market Leader Crash Stocks: The Biggest Opportunity This Year? (McDonald's, Novo, LVMH, ..)**\nhttps://www.youtube.com/watch?v=CSB3agpnAd0\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDas Video analysiert fünf führende Marktführer (LVMH, Nike, McDonald's, ServiceNow und Novo Nordisk), die erhebliche Kursrückgänge erlitten haben. Basierend auf historischen Studien zu Drawdowns wird hinterfragt, welche dieser Aktien vor einer echten Turnaround-Chance stehen und bei welchen sich fundamentale Verschlechterungen abzeichnen. Der Sprecher betont, dass hohe Kursverluste allein keine Kaufchancen garantieren und differenziert klar zwischen temporären Zyklen und strukturellen Problemen. [00:00 - 02:30]\n\n**Typ:** Mehrere Aktien\n\n---\n\n### LVMH (EUR)\n* **Sprecherthese:** Luxussegment leidet unter zyklischem Abschwung und China-Schwäche, aber die Grundmarkenstärke und Margen bleiben hoch. Fundamental wieder attraktiv bewertet. [02:41 - 04:45]\n* **Richtung:** Neutral bis vorsichtig positiv (fundamental spannend, charttechnisch abwärts). [04:28]\n* **Konkret belegte Levels:** Aktueller Kurs: knapp über 400 EUR [02:43]; Historisches Hoch (2023): >900 EUR (-55%) [02:47]; Umsatz H1 2026: 38,6 Mrd. EUR (+2% H1, +3% Q2 organisch) [03:52]; Operative Marge: 22,5% [04:04]; Forward KGV: 15,71 bis 17 [04:19]; Dividend Yield: 3,23% [04:23].\n* **Trigger:** Stabilisierung der Nachfrage in Asien/China und Trendwende im Luxuszyklus. [04:40]\n* **Invalidierung:** Weiterer struktureller Verlust der Marken- und Preissetzungsmacht. [03:08]\n* **Zeithorizont:** Langfristig / Mittelfristig. [04:45]\n\n---\n\n### Nike (USD)\n* **Sprecherthese:** Der derzeit kritischste Turnaround im Vergleich. Neben Kursverlusten haben sich operative Kennzahlen ",
+    "(DTC-Strategiefehler, Konkurrenzdruck) verschlechtert. [05:27 - 07:35]\n* **Richtung:** Bärisch / Abwartend. [07:22]\n* **Konkret belegte Levels:** Aktueller Kurs: ~36 USD [05:18]; Hoch (2021): ~180 USD (-80%) [05:20]; Jahresumsatz FY2026: 46,4 Mrd. USD (-2% währungsbereinigt) [06:21]; Forward KGV: 21,15 [06:30]; Dividendenrendite: 4,57% [06:41]; Ausschüttungsquote: ~80% [06:46].\n* **Trigger:** Operatives Wiedererlangen von Umsatzwachstum, erfolgreiche Innovationen und Margenerholung. [07:04]\n* **Invalidierung:** Anhaltender Verlust von Marktanteilen an Konkurrenten wie Hoka oder On. [05:58]\n* **Zeithorizont:** Nicht genannt. [07:30]\n\n---\n\n### McDonald's (USD)\n* **Sprecherthese:** Ausgezeichnetes Verhältnis von Unternehmensqualität zu Bewertung. Die Schwäche basiert auf Makro-Druck im US-Einkommenssegment, während das Geschäftsmodell und die Profitabilität intakt sind. [07:51 - 10:03]\n* **Richtung:** Positiv / Bullisch. [09:55]\n* **Konkret belegte Levels:** Aktueller Kurs: ~250 USD (-27% vom 52-Wochen-Hoch) [07:40]; Q2 Umsatzanstieg: +4% [08:30]; Q2 Gewinn je Aktie: +6% ($3,32) [08:33]; Active Loyalty Users: 220 Mio. [08:44]; KGV: ~20,4 [08:59]; Quartalsdividende: +4% auf 1,93 USD (50. Anhebungsjahr) [09:07].\n* **Trigger:** Stabilisierung des US-Kunden-Traffics und verbesserte Wahrnehmung des Preis-Leistungs-Verhältnisses. [09:34]\n* **Invalidierung:** Dauerhafter Verfall der operativen Marge und Verlust von Franchise-Teilnehmern. [09:40]\n* **Zeithorizont:** Langfristig. [10:02]\n\n---\n\n### ServiceNow (USD)\n* **Sprecherthese:** Operativ die stärksten Wachstumswerte im Vergleich, leidet jedoch unter Marktängsten bezüglich KI-Disruption von Enterprise-Software. [11:24 - 13:38]\n* **Richtung:** Gemischt (operativ stark, bewertungstechnisch/strategisch risikobehaftet). [13:23]\n* ",
+    "**Konkret belegte Levels:** Aktueller Kurs: ~140 USD nach 5:1 Split (-40% vom Hoch) [11:34]; Q2 Subscription Revenues: +24,5% ($3,877 Mrd.) [11:44]; AI Contract Value: >1 Mrd. USD ACV [11:58]; Q3 Guidance Subscription Growth: 20,5% [12:59].\n* **Trigger:** Nachweis, dass KI-Agenten die eigene Softwareplattform stärken statt ersetzen. [12:48]\n* **Invalidierung:** Verlangsamung des Abo-Wachstums deutlich unter 20%. [13:16]\n* **Zeithorizont:** Mittelfristig bis Langfristig. [13:30]\n\n---\n\n### Novo Nordisk (USD / EUR)\n* **Sprecherthese:** Bewertung nach starkem Kursfall im niedrigen/mittleren 10er-KGV-Bereich wieder attraktiv, jedoch hoher Wettbewerbsdruck durch Eli Lilly und verlangsamtes Wachstum. [13:42 - 17:03]\n* **Richtung:** Vorsichtig optimistisch, abwartend auf Bestätigung. [16:58]\n* **Konkret belegte Levels:** Aktueller Kurs: ~38 USD (-70% vom Hoch 2024 bei >130 EUR) [14:02]; Q2 Umsatzbereinigt: +7% (unbereinigt +3%) [15:07]; Q2 Operativer Gewinn bereinigt: +11% (unbereinigt -16%) [15:13]; Prognose 2026 Umsatzwachstum bereinigt: 0% bis -6% CER [15:52]; KGV: niedriges bis mittleres 10er-Niveau [16:08]; Dividendenrendite: >3% (4,17%) [16:15].\n* **Trigger:** Stabilisierung der Marktanteile bei GLP-1 und Erfolg der oralen Pipeline. [16:26]\n* **Invalidierung:** Anhaltender Verlust im Adipositas-Markt an Konkurrenten wie Eli Lilly. [14:41]\n* **Zeithorizont:** Blick auf 2027/2028. [16:38]\n\n---\n\n### Unsicherheiten & Sehensweite Stellen\n* **Sponsoring / Eigeninteresse:** Enthält Vorstellung eines Tagesgeld/Broker-Partners (Trading 212) [10:15 - 11:18].\n* **Sehenswerte Stellen:** Die methodische Einleitung mit Studien zur Kurserholung und Maximum Drawdowns [00:14 - 02:02]; Analyse zur KI-Bedrohung bei Enterprise-Software am Beispiel ServiceNow [12:12 - 12:54].\n\nQuellenmeinung ",
+    "zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 4,
+  "discord_sent_at": "2026-09-19T07:02:03.638504+00:00"
 }
