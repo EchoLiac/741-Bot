@@ -6,10 +6,60 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-15T16:01:26.123275+00:00",
-  "attempts": 32,
-  "last_attempt": "2026-09-18T22:31:48.862666+00:00",
+  "attempts": 33,
+  "last_attempt": "2026-09-19T00:01:23.163016+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nJan von 'Wir Lieben Aktien' präsentiert drei langfristige Dividendenaktien (Stryker, Capcom und AAK), die ein stabiles Wachstum aufweisen und sich aktuell in attraktiven Korrektur- oder Bewertungsphasen befinden. Mithilfe der Kombination aus Fundamental- (KGV, Umsatz, Margen) und Chartanalyse werden gezielte Einstiegs- und Ausbruchsmarken identifiziert. Es handelt sich um keine persönliche Kaufempfehlung (00:38).\n\n### Typ\nMehrere Aktien\n\n### Stryker Corporation (SYK)\n- **Sprecherthese**: Führendes MedTech-Unternehmen mit starkem historischen Umsatzwachstum (+10,3 % p.a.) und moderaten KGV-Bewertungen auf Forward-Basis (~24x gegenüber historisch 34,15x) (02:10, 02:39).\n- **Richtung**: Bullisch (nach Bestätigung der Bodenbildung).\n- **Belegte Levels**: Aktueller Kurs ~301,53 USD (01:27); Ziel-/Kaufzone bei 260 bis 280 USD (03:23); Trigger-Marke bei 323 USD (03:34).\n- **Trigger**: Bodenbildung im Bereich 260–280 USD oder Ausbruch über 323 USD (03:34, 04:06).\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Langfristig.\n\n### Capcom Co., Ltd. (7974)\n- **Sprecherthese**: Japanischer Gaming-Konzern mit hoher EBIT-Marge (~40 %) und anhaltendem Wachstum, der aktuell unter dem historischen Durchschnitts-KGV gehandelt wird (22,11x vs. 24,46x) (04:42, 04:52).\n- **Richtung**: Bullisch.\n- **Belegte Levels**: Aktueller Kurs ~2.870,5 JPY (05:03); Abwärtstrend-Strukturwiderstand bei ~3.820 JPY (05:37); Trigger-Level bei 3.270 JPY (05:52).\n- **Trigger**: Ausbruch über 3.270 JPY zur Neutralisierung des Abwärtstrends oder Bodenbildung in der aktuellen Zone (05:47, 05:52).\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Mittel- bis langfristig.\n\n### AAK AB (AAK)\n- **Sprecherthese**: Schwedischer Zulieferer im Konsumgüterbereich mit historisch unterdurchschnittlicher Bewertung (KGV 17,99x vs. historisch 23,23x) und sichtbarem Momentum-Shift im Chart (07:54, 08:28).\n- **Richtung**: Bullisch.\n- **Belegte Levels**: Aktueller Kurs ~244,2 SEK (08:02); Widerstandszone für Trendwechsel bei 278 bis 280 SEK (08:33); folgendes Etappenziel bei >296 SEK (08:52).\n- **Trigger**: Stabilisierung auf jetzigem Niveau und Ausbruch über 278–280 SEK (08:38, 08:41).\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Langfristig.\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten**: Der exakte Tiefpunkt der laufenden Korrekturen bei Stryker und Capcom steht noch nicht fest; es muss erst eine Umkehr- bzw. Bodenbildungsstruktur abgewartet werden.\n- **Sehenswerte Stellen**: 01:44–03:26 (Stryker Korrekturmuster und KGV-Vergleich), 04:49–05:52 (Capcom Bewertungsdaten und Chart-Struktur), 07:52–08:52 (AAK Trendwechsel-Marken).",
+  "evidence": [
+    {
+      "timestamp": "01:27",
+      "basis": "visual",
+      "observation": "Monatschart der Stryker Corporation (NYSE) mit langfristigem Aufwärtstrend eingeblendet."
+    },
+    {
+      "timestamp": "02:25",
+      "basis": "visual",
+      "observation": "Grafik zur historischen Bewertung (Adjusted P/E) von Stryker: Aktuell 35,40x, historischer Durchschnitt 34,15x."
+    },
+    {
+      "timestamp": "03:23",
+      "basis": "audio",
+      "observation": "Sprecher nennt eine Unterstützung/Korrekturzone von 260 bis 280 USD für Stryker."
+    },
+    {
+      "timestamp": "04:49",
+      "basis": "visual",
+      "observation": "KGV-Grafik für Capcom Co., Ltd.: Aktuelles KGV 22,11x vs. historischem Durchschnitt von 24,46x."
+    },
+    {
+      "timestamp": "05:52",
+      "basis": "audio",
+      "observation": "Sprecher erklärt, dass ein Ausbruch über 3.270 JPY den kurzfristigen Abwärtstrend bei Capcom neutralisieren würde."
+    },
+    {
+      "timestamp": "07:52",
+      "basis": "visual",
+      "observation": "KGV-Grafik für AAK AB: Aktuelles KGV 17,99x vs. historischem Durchschnitt von 23,23x."
+    },
+    {
+      "timestamp": "08:33",
+      "basis": "audio",
+      "observation": "Sprecher bezeichnet den Bereich um 278 bis 280 SEK als entscheidende Hürde für einen nachhaltigen Trendwechsel bei AAK."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "SEo4ejN8aZE",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-19T00:02:07.871350+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Top 3 Dividenden-Aktien mit starker Unterbewertung**\nhttps://www.youtube.com/watch?v=SEo4ejN8aZE\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nJan von 'Wir Lieben Aktien' präsentiert drei langfristige Dividendenaktien (Stryker, Capcom und AAK), die ein stabiles Wachstum aufweisen und sich aktuell in attraktiven Korrektur- oder Bewertungsphasen befinden. Mithilfe der Kombination aus Fundamental- (KGV, Umsatz, Margen) und Chartanalyse werden gezielte Einstiegs- und Ausbruchsmarken identifiziert. Es handelt sich um keine persönliche Kaufempfehlung (00:38).\n\n### Typ\nMehrere Aktien\n\n### Stryker Corporation (SYK)\n- **Sprecherthese**: Führendes MedTech-Unternehmen mit starkem historischen Umsatzwachstum (+10,3 % p.a.) und moderaten KGV-Bewertungen auf Forward-Basis (~24x gegenüber historisch 34,15x) (02:10, 02:39).\n- **Richtung**: Bullisch (nach Bestätigung der Bodenbildung).\n- **Belegte Levels**: Aktueller Kurs ~301,53 USD (01:27); Ziel-/Kaufzone bei 260 bis 280 USD (03:23); Trigger-Marke bei 323 USD (03:34).\n- **Trigger**: Bodenbildung im Bereich 260–280 USD oder Ausbruch über 323 USD (03:34, 04:06).\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Langfristig.\n\n### Capcom Co., Ltd. (7974)\n- **Sprecherthese**: Japanischer Gaming-Konzern mit hoher EBIT-Marge (~40 %) und anhaltendem Wachstum, der aktuell unter dem historischen Durchschnitts-KGV gehandelt wird (22,11x vs. 24,46x) (04:42, 04:52).\n- **Richtung**: Bullisch.\n- **Belegte Levels**: Aktueller Kurs ~2.870,5 JPY (05:03); Abwärtstrend-Strukturwiderstand bei ~3.820 JPY (05:37); Trigger-Level bei 3.270 JPY (05:52).\n- **Trigger**: Ausbruch über 3.270 JPY zur Neutralisierung des Abwärtstrends oder Bodenbildung in der aktuellen Zone (05:47, 05:52).\n-",
+    " **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Mittel- bis langfristig.\n\n### AAK AB (AAK)\n- **Sprecherthese**: Schwedischer Zulieferer im Konsumgüterbereich mit historisch unterdurchschnittlicher Bewertung (KGV 17,99x vs. historisch 23,23x) und sichtbarem Momentum-Shift im Chart (07:54, 08:28).\n- **Richtung**: Bullisch.\n- **Belegte Levels**: Aktueller Kurs ~244,2 SEK (08:02); Widerstandszone für Trendwechsel bei 278 bis 280 SEK (08:33); folgendes Etappenziel bei >296 SEK (08:52).\n- **Trigger**: Stabilisierung auf jetzigem Niveau und Ausbruch über 278–280 SEK (08:38, 08:41).\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Langfristig.\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten**: Der exakte Tiefpunkt der laufenden Korrekturen bei Stryker und Capcom steht noch nicht fest; es muss erst eine Umkehr- bzw. Bodenbildungsstruktur abgewartet werden.\n- **Sehenswerte Stellen**: 01:44–03:26 (Stryker Korrekturmuster und KGV-Vergleich), 04:49–05:52 (Capcom Bewertungsdaten und Chart-Struktur), 07:52–08:52 (AAK Trendwechsel-Marken).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-19T00:02:08.274864+00:00"
 }
