@@ -6,10 +6,80 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-18T17:31:09.991740+00:00",
-  "attempts": 8,
-  "last_attempt": "2026-09-19T02:03:25.069784+00:00",
+  "attempts": 9,
+  "last_attempt": "2026-09-19T02:31:22.634371+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nIn diesem Video werden zehn praktische Tipps und Einstellungen in TradingView vorgestellt, die speziell langfristigen Investoren bei der Chartanalyse helfen. Der Fokus liegt darauf, Fehlinformationen durch ungeeignete Einstellungen zu vermeiden, den Chart übersichtlich zu gestalten und Analyseabläufe zu strukturieren. Es handelt sich rein um ein technisches Methodik- und Schulungsvideo.\n\n### Typ\nBildung\n\n### Methodik, Regeln & Hilfsmittel\n* **Clean Setup & Neutrale Kerzen (01:25):** Reduzierung visueller Reize durch schwarz-weiße Kerzen anstelle emotionaler rot-grüner Farben sowie Ausblenden von Rasterlinien.\n* **Heimatbörse nutzen (02:21):** Aktien stets an ihrer Primärbörse (z. B. Apple an der Nasdaq in USD) analysieren, da dort das meiste Volumen und die höchste technische Relevanz herrschen.\n* **Ereignisse einblenden (03:46):** Earnings und Dividenden im Chart anzeigen lassen, um stärkere Volatilität oder Kurslücken zeitlich korrekt zuzuordnen.\n* **Dividenden-adjustierte Charts (05:54):** Den Schalter für dividendenbereinigte Kurse („Adj“) nutzen, um Dividendenabschläge herauszurechnen und den tatsächlichen Total Return abzubilden.\n* **Alarmfunktion für Einstiege (07:02):** Preis-Alarme an wichtigen Triggern oder Bodenbildungs-Levels setzen, um Kaufsignale systematisch mitzubekommen.\n* **Ausgewählte Indikatoren (08:52):** Einsatz von Handelsvolumen, Volume Profile (Sichtbare Range) und Symmetrieindikatoren zur Ermittlung relevanter Unterstützungs- und Widerstandszonen.\n* **Shortcuts für Zeiteinheiten (10:35):** Favoritenleiste für relevante Timeframes (Monat, Woche, Tag) für eine schnelle Top-Down-Analyse anlegen.\n* **Ordnerstruktur im Objektbaum (11:43):** Zeichnungen in ebenenspezifische Ordner (z. B. nach Zeiteinheiten M, W, D) strukturieren, um den Chart jederzeit per Klick aufzuräumen.\n* **Logarithmische Skalierung (13:46):** Bei mehrjährigen Charts immer die logarithmische Skalierung aktivieren, damit gleiche prozentuale Abstände visuell gleich groß dargestellt werden.\n* **Magnetfunktion (15:41):** Zeichenwerkzeuge (z. B. Fibonacci oder horizontale Strahlen) mit dem Magneten exakt an Dochten und Tiefs/Hochs einrasten lassen.\n\n### Häufige Fehler\n* Analyse von US-Aktien an deutschen Regionalbörsen in Euro mit abweichenden Handelszeiten und geringerer Liquidität.\n* Verwendung der linearen Skalierung bei langfristigen Wachstumsaktien, was vergangene Kursbewegungen optisch verzerrt.\n* Unübersichtliche Charts durch zu viele überlagerte Zeichnungen ohne Ordnerstruktur.\n\n### Unsicherheiten & Lohnende Stellen\n* **05:54:** Besonders lohnenswert ist der Vorher-Nachher-Vergleich bei der Aktivierung der Dividendenanpassung am Beispiel der Volkswagen-Aktie.\n* **13:46:** Sehr anschauliche Erklärung, warum die logarithmische Preisskala für langfristige Investoren essenziell ist.",
+  "evidence": [
+    {
+      "timestamp": "00:00",
+      "basis": "audio",
+      "observation": "Sprecher kündigt seine Top 10 TradingView-Tipps für langfristige Investoren an."
+    },
+    {
+      "timestamp": "01:25",
+      "basis": "visual",
+      "observation": "Einstellung der Chart-Farben auf Schwarz/Weiß ohne Rasterlinien im Einstellungen-Menü."
+    },
+    {
+      "timestamp": "02:21",
+      "basis": "audio",
+      "observation": "Erklärung, dass Aktien an der Heimatbörse mit der höchsten Liquidität gesucht werden sollten."
+    },
+    {
+      "timestamp": "03:46",
+      "basis": "visual",
+      "observation": "Einblendung von Earnings und Dividenden im Chart-Einstellungsmenü unter 'Ereignisse'."
+    },
+    {
+      "timestamp": "05:54",
+      "basis": "visual",
+      "observation": "Klick auf den 'Adj'-Schalter unten rechts im Volkswagen-Chart zur Bereinigung von Dividendenlücken."
+    },
+    {
+      "timestamp": "07:02",
+      "basis": "visual",
+      "observation": "Erstellung eines Preisalarms im Chart der Deutschen Börse AG bei 216 Euro."
+    },
+    {
+      "timestamp": "08:52",
+      "basis": "visual",
+      "observation": "Hinzufügen von Indikatoren wie Volumen und 'Volumenprofil der sichtbaren Range'."
+    },
+    {
+      "timestamp": "10:35",
+      "basis": "visual",
+      "observation": "Auswahl und Favorisierung der Zeiteinheiten (Tag, Woche, Monat) in der oberen Leiste."
+    },
+    {
+      "timestamp": "11:43",
+      "basis": "visual",
+      "observation": "Öffnen des Objektbaums mit Ordnern für WLA, M, W und D."
+    },
+    {
+      "timestamp": "13:46",
+      "basis": "visual",
+      "observation": "Aktivierung der logarithmischen Skalierung ('log') unten rechts im Apple-Chart."
+    },
+    {
+      "timestamp": "15:41",
+      "basis": "visual",
+      "observation": "Nutzung des Magnet-Werkzeugs auf der linken Werkzeugleiste zum exakten Anlegen eines Fibonacci-Retracements."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "y5Nkk68tP9Q",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-19T02:31:54.641983+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**10 TradingView Tricks, die du als langfristiger Investor kennen musst!**\nhttps://www.youtube.com/watch?v=y5Nkk68tP9Q\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nIn diesem Video werden zehn praktische Tipps und Einstellungen in TradingView vorgestellt, die speziell langfristigen Investoren bei der Chartanalyse helfen. Der Fokus liegt darauf, Fehlinformationen durch ungeeignete Einstellungen zu vermeiden, den Chart übersichtlich zu gestalten und Analyseabläufe zu strukturieren. Es handelt sich rein um ein technisches Methodik- und Schulungsvideo.\n\n### Typ\nBildung\n\n### Methodik, Regeln & Hilfsmittel\n* **Clean Setup & Neutrale Kerzen (01:25):** Reduzierung visueller Reize durch schwarz-weiße Kerzen anstelle emotionaler rot-grüner Farben sowie Ausblenden von Rasterlinien.\n* **Heimatbörse nutzen (02:21):** Aktien stets an ihrer Primärbörse (z. B. Apple an der Nasdaq in USD) analysieren, da dort das meiste Volumen und die höchste technische Relevanz herrschen.\n* **Ereignisse einblenden (03:46):** Earnings und Dividenden im Chart anzeigen lassen, um stärkere Volatilität oder Kurslücken zeitlich korrekt zuzuordnen.\n* **Dividenden-adjustierte Charts (05:54):** Den Schalter für dividendenbereinigte Kurse („Adj“) nutzen, um Dividendenabschläge herauszurechnen und den tatsächlichen Total Return abzubilden.\n* **Alarmfunktion für Einstiege (07:02):** Preis-Alarme an wichtigen Triggern oder Bodenbildungs-Levels setzen, um Kaufsignale systematisch mitzubekommen.\n* **Ausgewählte Indikatoren (08:52):** Einsatz von Handelsvolumen, Volume Profile (Sichtbare Range) und Symmetrieindikatoren zur Ermittlung relevanter Unterstützungs- und Widerstandszonen.\n* **Shortcuts für Zeiteinheiten (10:35):** Favoritenleiste für releva",
+    "nte Timeframes (Monat, Woche, Tag) für eine schnelle Top-Down-Analyse anlegen.\n* **Ordnerstruktur im Objektbaum (11:43):** Zeichnungen in ebenenspezifische Ordner (z. B. nach Zeiteinheiten M, W, D) strukturieren, um den Chart jederzeit per Klick aufzuräumen.\n* **Logarithmische Skalierung (13:46):** Bei mehrjährigen Charts immer die logarithmische Skalierung aktivieren, damit gleiche prozentuale Abstände visuell gleich groß dargestellt werden.\n* **Magnetfunktion (15:41):** Zeichenwerkzeuge (z. B. Fibonacci oder horizontale Strahlen) mit dem Magneten exakt an Dochten und Tiefs/Hochs einrasten lassen.\n\n### Häufige Fehler\n* Analyse von US-Aktien an deutschen Regionalbörsen in Euro mit abweichenden Handelszeiten und geringerer Liquidität.\n* Verwendung der linearen Skalierung bei langfristigen Wachstumsaktien, was vergangene Kursbewegungen optisch verzerrt.\n* Unübersichtliche Charts durch zu viele überlagerte Zeichnungen ohne Ordnerstruktur.\n\n### Unsicherheiten & Lohnende Stellen\n* **05:54:** Besonders lohnenswert ist der Vorher-Nachher-Vergleich bei der Aktivierung der Dividendenanpassung am Beispiel der Volkswagen-Aktie.\n* **13:46:** Sehr anschauliche Erklärung, warum die logarithmische Preisskala für langfristige Investoren essenziell ist.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-19T02:31:55.030344+00:00"
 }
