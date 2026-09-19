@@ -6,10 +6,60 @@
   "published": null,
   "channel": "TradingKompass",
   "handle": "@TradingKompass",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-18T18:01:20.169950+00:00",
-  "attempts": 5,
-  "last_attempt": "2026-09-18T23:32:44.733884+00:00",
+  "attempts": 6,
+  "last_attempt": "2026-09-19T01:01:20.804947+00:00",
+  "content_available": true,
+  "summary": "Kernaussage: Der Sprecher beurteilt die Netflix-Aktie trotz des jüngsten Kursrückgangs übergeordnet als stark bullisch und nutzt den Rücksetzer für Nachkäufe. Technisch befindet sich der Kurs in einer großflächigen Bullenflagge mit langfristigen Zielmarken zwischen 198 $ und 250 $. Kurzfristig muss die entscheidende Unterstützung im Bereich von 69 $ halten, um eine tiefere Korrektur zu vermeiden.\n\nTyp: Einzelaktie\n\n### Netflix (NFLX)\n- **Sprecherthese:** Die Aktie konsolidiert nach einer Impulsbewegung innerhalb einer bullischen Flaggenformation. Der jüngste Abverkauf bietet eine Kaufgelegenheit, da langfristig ein Ausbruch zu neuen Hochs erwartet wird (00:10, 05:50).\n- **Richtung:** Übergeordnet bullisch; kurzfristig korrektiv/neutral (05:50).\n- **Levels:** Widerstandszone bei 81,84 $ bis 92,19 $ (04:02); Welle-B-Widerstand bei 79,31 $ bis 82,60 $ (04:26) bzw. 87 $ bis max. 104 $ (08:39); Fibonacci-Unterstützungen bei 72,17 $ (61,8 %) und 69,05 $ (78,6 %) (05:00); untere Fib-Marke bei 51,32 $ (09:04); langfristige Aufwärtsziele bei 198 $, 229 $ und 250 $ (07:05).\n- **Trigger:** Ausbruch aus der Bullenflagge sowie die Rückeroberung der 200-Tage-Linie als Unterstützung (09:35).\n- **Invalidierung:** Ein Tagesschlusskurs unterhalb des 78,6 % Fibonacci-Retracements bei 69,00 $ beschädigt die Struktur der Bullenflagge (05:38); der vorherige Rutsch unter 67 $ invalidierte bereits ein altes Welle-4-Szenario (02:15).\n- **Zeithorizont:** Kurzfristig für den Abschluss der Konsolidierung; mittel- bis langfristig für das Erreichen der Ziele über 198 $ (05:50, 07:05).\n\n**Unsicherheiten & sehenswerte Stellen:**\nUnklar bleibt, ob der Boden der Welle X bereits bei 70,50 $ gefunden wurde oder ob sich erst eine bärische Welle B bis ca. 87 $–104 $ bildet, bevor eine Welle C nochmals in Richtung 51,32 $ abverkauft (08:20). Besonders sehenswert sind die Abschnitte ab 04:50 (Fibonacci-Zielzonen der Welle C) sowie 08:20 (Erklärung des bärischen Alternativszenarios W-X-Y).",
+  "evidence": [
+    {
+      "timestamp": "00:06",
+      "basis": "visual",
+      "observation": "Einblendung eines Investing.com-Artikels: Wells Fargo stuft Netflix auf 'Underweight' herab und senkt Kursziel von 80 $ auf 57 $."
+    },
+    {
+      "timestamp": "00:13",
+      "basis": "audio",
+      "observation": "Sprecher erklärt, eine Tranche im Bereich von 82 $ (Break-Even 81,58 $) verkauft und bei 70,50 $ nachgekauft zu haben."
+    },
+    {
+      "timestamp": "02:15",
+      "basis": "visual",
+      "observation": "Chart zeigt Beschriftung 'Invalidierung' unter dem Level von 67,00 $."
+    },
+    {
+      "timestamp": "04:02",
+      "basis": "visual",
+      "observation": "Widerstandszone im Chart eingezeichnet und mit 81,84 $ bis 92,19 $ beziffert."
+    },
+    {
+      "timestamp": "05:00",
+      "basis": "audio",
+      "observation": "Sprecher nennt Welle-C-Korrekturziel im Bereich zwischen 61,8 % (72,17 $) und 78,6 % (69,05 $) Fibonacci."
+    },
+    {
+      "timestamp": "07:05",
+      "basis": "visual",
+      "observation": "Langfristige Projektionslinien auf dem Chart bei 198,13 $, 229,19 $ und 250,15 $ eingeblendet."
+    },
+    {
+      "timestamp": "09:04",
+      "basis": "audio",
+      "observation": "Sprecher nennt das 61,8 % Fibonacci-Retracement der größeren Ebene bei 51,32 $ als tieferes Alternativziel."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "yO1zvUoM6js",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-19T01:01:54.120640+00:00",
+  "discord_chunks": [
+    "🎬 **TradingKompass**\n**NETFLIX - Hier startet die nächste Rally! 🤯 NFLX Analyse & Kursziele**\nhttps://www.youtube.com/watch?v=yO1zvUoM6js\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\nKernaussage: Der Sprecher beurteilt die Netflix-Aktie trotz des jüngsten Kursrückgangs übergeordnet als stark bullisch und nutzt den Rücksetzer für Nachkäufe. Technisch befindet sich der Kurs in einer großflächigen Bullenflagge mit langfristigen Zielmarken zwischen 198 $ und 250 $. Kurzfristig muss die entscheidende Unterstützung im Bereich von 69 $ halten, um eine tiefere Korrektur zu vermeiden.\n\nTyp: Einzelaktie\n\n### Netflix (NFLX)\n- **Sprecherthese:** Die Aktie konsolidiert nach einer Impulsbewegung innerhalb einer bullischen Flaggenformation. Der jüngste Abverkauf bietet eine Kaufgelegenheit, da langfristig ein Ausbruch zu neuen Hochs erwartet wird (00:10, 05:50).\n- **Richtung:** Übergeordnet bullisch; kurzfristig korrektiv/neutral (05:50).\n- **Levels:** Widerstandszone bei 81,84 $ bis 92,19 $ (04:02); Welle-B-Widerstand bei 79,31 $ bis 82,60 $ (04:26) bzw. 87 $ bis max. 104 $ (08:39); Fibonacci-Unterstützungen bei 72,17 $ (61,8 %) und 69,05 $ (78,6 %) (05:00); untere Fib-Marke bei 51,32 $ (09:04); langfristige Aufwärtsziele bei 198 $, 229 $ und 250 $ (07:05).\n- **Trigger:** Ausbruch aus der Bullenflagge sowie die Rückeroberung der 200-Tage-Linie als Unterstützung (09:35).\n- **Invalidierung:** Ein Tagesschlusskurs unterhalb des 78,6 % Fibonacci-Retracements bei 69,00 $ beschädigt die Struktur der Bullenflagge (05:38); der vorherige Rutsch unter 67 $ invalidierte bereits ein altes Welle-4-Szenario (02:15).\n- **Zeithorizont:** Kurzfristig für den Abschluss der Konsolidierung; mittel- bis langfristig für das Erreichen der Ziele über 198 $ (05:50, 07:05).\n\n**Uns",
+    "icherheiten & sehenswerte Stellen:**\nUnklar bleibt, ob der Boden der Welle X bereits bei 70,50 $ gefunden wurde oder ob sich erst eine bärische Welle B bis ca. 87 $–104 $ bildet, bevor eine Welle C nochmals in Richtung 51,32 $ abverkauft (08:20). Besonders sehenswert sind die Abschnitte ab 04:50 (Fibonacci-Zielzonen der Welle C) sowie 08:20 (Erklärung des bärischen Alternativszenarios W-X-Y).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-19T01:01:54.591392+00:00"
 }
