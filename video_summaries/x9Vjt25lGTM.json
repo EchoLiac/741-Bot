@@ -6,10 +6,61 @@
   "published": null,
   "channel": "10xTrading",
   "handle": "@1OxTrading",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-18T20:31:17.390157+00:00",
-  "attempts": 12,
-  "last_attempt": "2026-09-19T05:32:38.428794+00:00",
+  "attempts": 13,
+  "last_attempt": "2026-09-19T06:01:31.102054+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher analysiert am Quadruple-Witching-Freitag die aktuellen Marktbewegungen, wobei der verfallbedingte Druck auf WTI-Öl, der Zinsanstieg der 10-jährigen US-Staatsanleihen und die Krypto-Rallye im Fokus stehen. Trotz geldpolitischer Straffungen durch die BoJ und Fed halten sich die Aktienmärkte an wichtigen Trendlinien. Die kommende Handelswoche birgt nach dem Wegfall der Optionen-Sperrwände (Gex) und vor dem Gipfeltreffen zwischen Trump und Xi Jinping hohes Bewegungspotenzial (02:22, 10:12).\n\n**Typ:** Markt/Makro\n\n---\n\n### Markt- & Indexanalysen\n\n#### WTI Rohöl (Futures / Continuous)\n* **Sprecherthese & Richtung:** Der Kurseinbruch um rund 6 % auf ca. 95,65 $ resultiert primär aus einem Kontraktwechsel (Backwardation) und weniger aus geopolitischen Gründen; kurzfristig korrekturgefährdet, langfristig jedoch Kaufgelegenheit nach Backtest (00:44, 12:12).\n* **Belegte Levels:** Tiefstkurs im Tagesverlauf bei 94,90 $ (12:25), Erholung auf 98,00 $ (12:28), Pivot-Punkt/Invalidierung für Bären unter der 20-Tage-Linie bei 92,60 $ (13:18), kritische Marke unter 93,00 $ (12:38).\n* **Trigger:** Backtest der 100-Dollar-Marke von unten (01:46) bzw. Bruch der 93-Dollar-Unterstützung.\n* **Invalidierung:** Behauptung der Unterstützungszone über 92,60 $ (13:18).\n* **Zeithorizont:** Kommende Wochen (02:07).\n\n#### US 10-Year Treasury Yield\n* **Sprecherthese & Richtung:** Die Anleiherenditen steigen stark an und belasten die Märkte, da der Bondmarkt Zinsanhebungen einpreist (02:10, 04:00).\n* **Belegte Levels:** Kurzzeitig über 5,00 %, aktuell bei 4,996 % (02:15).\n* **Zeithorizont:** Nächste Wochen.\n\n#### Bitcoin (BTC/USDT)\n* **Sprecherthese & Richtung:** Starke Gegenbewegung ausgehend vom ABCD-Tief bei 75.000 $; aktuell Anstieg bis in den Bereich von 81.000 $ – 82.500 $, wo ein harmonisches Shark-Muster getriggert hat, das nun von den Bären verteidigt werden muss (13:42, 15:08).\n* **Belegte Levels:** Verlaufstief bei 75.000 $ (14:49), Widerstandszone bei 81.000 $ – 82.500 $ (15:08), obere Ausbruchsziele bei 92.000 $ bis 94.000 $ (14:24).\n* **Trigger:** Nachhaltiger Ausbruch über 82.500 $ schaltet Kurse Richtung 92.000–94.000 $ frei (14:24).\n* **Invalidierung:** Abverkauf unter die Unterstützungszone von 81.000 $.\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n#### S&P 500 Index\n* **Sprecherthese & Richtung:** Die Bären erzeugen Druck von oben (Shootingstar an der 20-Tage-Linie), zeigen aber an der 50-Tage-Linie und der 20-Wochen-Linie Schwäche; hält die Marke von 7.600 Punkten, bleibt das Setup bullisch (15:54, 16:51).\n* **Belegte Levels:** Unterstützung bei 7.600 Punkten (16:51), 50-Tage-Linie (15:43), 20-Wochen-Linie (16:27).\n* **Trigger:** Ausbleiben eines Bruchs der 7.600er-Marke nach dem Verfallstag (16:51).\n* **Invalidierung:** Tagesschlusskurs unter 7.600 Punkten.\n* **Zeithorizont:** Kommende Handelswoche.\n\n#### Nasdaq 100 Index\n* **Sprecherthese & Richtung:** Stößt an die obere Widerstandszone bei 29.700 Punkten; ein Ausbruch schaltet ein Cypher-Muster frei (17:15, 17:53).\n* **Belegte Levels:** Widerstand bei 29.700 / 29.680 Punkten (17:15, 17:47), Unterstützung an der 20-Wochen-Linie (17:32).\n* **Trigger:** Ausbruch über 29.700 Punkte (17:47).\n* **Invalidierung:** Rückfall unter die 20-Wochen-Linie.\n* **Zeithorizont:** Nächste Woche.\n\n#### Semiconductor ETF (SOXX / iShares)\n* **Sprecherthese & Richtung:** Doppelboden-Muster deutet auf langfristige Stärke hin; 60 % des erwarteten S&P-500-Gewinnwachstums für 2027 hängen am Halbleitertief/Sektor (18:41, 19:55).\n* **Belegte Levels:** Tranchen-Kaufzonen im Chart vorgegeben, Rücksetzerpotenzial von 10–15 % bis zur 200-Tage-Linie kalkulierbar (18:48, 18:56).\n* **Zeithorizont:** 1 Jahr / bis 2027 (19:12, 20:16).\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Unsicherheiten:** Hohe Intraday-Volatilität durch den Dreifachen/Vierfachen Optionsverfall (Quadruple Witching); politische Unwägbarkeiten durch Geopolitik (Iran) und das Trump-Xi-Gipfeltreffen am 24. September (10:12, 12:56).\n* **Lohnenswerte Stellen:**\n  * **12:00:** Detaillierte WTI-Ölchart-Analyse zum Kontraktwechsel.\n  * **13:33:** Bitcoin ABCD- bounce & Shark-Pattern Erklärung.\n  * **15:37:** S&P 500 Marken an der 20-Wochen-Linie.\n  * **17:09:** Nasdaq 100 Cypher-Muster & Ausbruchslevel.\n  * **19:55:** Fundamentaler Ausblick zu Halbleiterwerten und S&P 500 Gewinnwachstum.",
+  "evidence": [
+    {
+      "timestamp": "02:15",
+      "basis": "visual",
+      "observation": "Die Übersicht zeigt die 10Y-Treasury-Rendite bei 4,996 %."
+    },
+    {
+      "timestamp": "08:30",
+      "basis": "visual",
+      "observation": "Im Wirtschaftskalender wird die Leitzinsentscheidung der Bank of Japan (BoJ) am 18.09. mit einer Anhebung von 1,00 % auf 1,25 % aufgeführt."
+    },
+    {
+      "timestamp": "10:12",
+      "basis": "visual",
+      "observation": "Schlagzeile zu Reuters-Bericht wird eingeblendet: Trump und Xi Jinping planen zweiten persönlichen Gipfel am Donnerstag, 24. September 2026 in Washington D.C."
+    },
+    {
+      "timestamp": "12:12",
+      "basis": "visual",
+      "observation": "Im Chart CL1! Light Crude Oil Futures erscheint der Hinweis 'Kontraktwechsel: Oktober 2026 auf November 2026'."
+    },
+    {
+      "timestamp": "13:35",
+      "basis": "visual",
+      "observation": "Im Bitcoin-Chart (BTC/USDT) wird eine ABCD-Formationen am Verlaufstief sowie ein Shark-Pattern im oberen Kursbereich dargestellt."
+    },
+    {
+      "timestamp": "15:54",
+      "basis": "visual",
+      "observation": "Im S&P 500 Index Chart ist eine Kerze unterhalb der 20-Tage-Linie als 'Shooting Star' hervorgehoben."
+    },
+    {
+      "timestamp": "17:47",
+      "basis": "visual",
+      "observation": "Im Nasdaq 100 Chart ist ein Widerstandsniveau bei 29.700 Punkten eingezeichnet."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "x9Vjt25lGTM",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-19T06:02:23.414577+00:00",
+  "discord_chunks": [
+    "🎬 **10xTrading**\n**🚨 BITCOIN MONSTER RALLY – SO gehts jetzt weiter... 💥**\nhttps://www.youtube.com/watch?v=x9Vjt25lGTM\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher analysiert am Quadruple-Witching-Freitag die aktuellen Marktbewegungen, wobei der verfallbedingte Druck auf WTI-Öl, der Zinsanstieg der 10-jährigen US-Staatsanleihen und die Krypto-Rallye im Fokus stehen. Trotz geldpolitischer Straffungen durch die BoJ und Fed halten sich die Aktienmärkte an wichtigen Trendlinien. Die kommende Handelswoche birgt nach dem Wegfall der Optionen-Sperrwände (Gex) und vor dem Gipfeltreffen zwischen Trump und Xi Jinping hohes Bewegungspotenzial (02:22, 10:12).\n\n**Typ:** Markt/Makro\n\n---\n\n### Markt- & Indexanalysen\n\n#### WTI Rohöl (Futures / Continuous)\n* **Sprecherthese & Richtung:** Der Kurseinbruch um rund 6 % auf ca. 95,65 $ resultiert primär aus einem Kontraktwechsel (Backwardation) und weniger aus geopolitischen Gründen; kurzfristig korrekturgefährdet, langfristig jedoch Kaufgelegenheit nach Backtest (00:44, 12:12).\n* **Belegte Levels:** Tiefstkurs im Tagesverlauf bei 94,90 $ (12:25), Erholung auf 98,00 $ (12:28), Pivot-Punkt/Invalidierung für Bären unter der 20-Tage-Linie bei 92,60 $ (13:18), kritische Marke unter 93,00 $ (12:38).\n* **Trigger:** Backtest der 100-Dollar-Marke von unten (01:46) bzw. Bruch der 93-Dollar-Unterstützung.\n* **Invalidierung:** Behauptung der Unterstützungszone über 92,60 $ (13:18).\n* **Zeithorizont:** Kommende Wochen (02:07).\n\n#### US 10-Year Treasury Yield\n* **Sprecherthese & Richtung:** Die Anleiherenditen steigen stark an und belasten die Märkte, da der Bondmarkt Zinsanhebungen einpreist (02:10, 04:00).\n* **Belegte Levels:** Kurzzeitig über 5,00 %, aktuell bei 4,996 % (02:15).\n* **Zeithorizon",
+    "t:** Nächste Wochen.\n\n#### Bitcoin (BTC/USDT)\n* **Sprecherthese & Richtung:** Starke Gegenbewegung ausgehend vom ABCD-Tief bei 75.000 $; aktuell Anstieg bis in den Bereich von 81.000 $ – 82.500 $, wo ein harmonisches Shark-Muster getriggert hat, das nun von den Bären verteidigt werden muss (13:42, 15:08).\n* **Belegte Levels:** Verlaufstief bei 75.000 $ (14:49), Widerstandszone bei 81.000 $ – 82.500 $ (15:08), obere Ausbruchsziele bei 92.000 $ bis 94.000 $ (14:24).\n* **Trigger:** Nachhaltiger Ausbruch über 82.500 $ schaltet Kurse Richtung 92.000–94.000 $ frei (14:24).\n* **Invalidierung:** Abverkauf unter die Unterstützungszone von 81.000 $.\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n#### S&P 500 Index\n* **Sprecherthese & Richtung:** Die Bären erzeugen Druck von oben (Shootingstar an der 20-Tage-Linie), zeigen aber an der 50-Tage-Linie und der 20-Wochen-Linie Schwäche; hält die Marke von 7.600 Punkten, bleibt das Setup bullisch (15:54, 16:51).\n* **Belegte Levels:** Unterstützung bei 7.600 Punkten (16:51), 50-Tage-Linie (15:43), 20-Wochen-Linie (16:27).\n* **Trigger:** Ausbleiben eines Bruchs der 7.600er-Marke nach dem Verfallstag (16:51).\n* **Invalidierung:** Tagesschlusskurs unter 7.600 Punkten.\n* **Zeithorizont:** Kommende Handelswoche.\n\n#### Nasdaq 100 Index\n* **Sprecherthese & Richtung:** Stößt an die obere Widerstandszone bei 29.700 Punkten; ein Ausbruch schaltet ein Cypher-Muster frei (17:15, 17:53).\n* **Belegte Levels:** Widerstand bei 29.700 / 29.680 Punkten (17:15, 17:47), Unterstützung an der 20-Wochen-Linie (17:32).\n* **Trigger:** Ausbruch über 29.700 Punkte (17:47).\n* **Invalidierung:** Rückfall unter die 20-Wochen-Linie.\n* **Zeithorizont:** Nächste Woche.\n\n#### Semiconductor ETF (SOXX / iShares)\n* **Sprecherthese & Richtung:** Doppelboden-Muster deutet auf ",
+    "langfristige Stärke hin; 60 % des erwarteten S&P-500-Gewinnwachstums für 2027 hängen am Halbleitertief/Sektor (18:41, 19:55).\n* **Belegte Levels:** Tranchen-Kaufzonen im Chart vorgegeben, Rücksetzerpotenzial von 10–15 % bis zur 200-Tage-Linie kalkulierbar (18:48, 18:56).\n* **Zeithorizont:** 1 Jahr / bis 2027 (19:12, 20:16).\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Unsicherheiten:** Hohe Intraday-Volatilität durch den Dreifachen/Vierfachen Optionsverfall (Quadruple Witching); politische Unwägbarkeiten durch Geopolitik (Iran) und das Trump-Xi-Gipfeltreffen am 24. September (10:12, 12:56).\n* **Lohnenswerte Stellen:**\n  * **12:00:** Detaillierte WTI-Ölchart-Analyse zum Kontraktwechsel.\n  * **13:33:** Bitcoin ABCD- bounce & Shark-Pattern Erklärung.\n  * **15:37:** S&P 500 Marken an der 20-Wochen-Linie.\n  * **17:09:** Nasdaq 100 Cypher-Muster & Ausbruchslevel.\n  * **19:55:** Fundamentaler Ausblick zu Halbleiterwerten und S&P 500 Gewinnwachstum.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 3,
+  "discord_sent_at": "2026-09-19T06:02:24.652090+00:00"
 }
