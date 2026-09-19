@@ -6,10 +6,55 @@
   "published": null,
   "channel": "HKCM",
   "handle": "@hkcm",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-18T16:31:11.482351+00:00",
-  "attempts": 6,
-  "last_attempt": "2026-09-18T23:01:43.746425+00:00",
+  "attempts": 7,
+  "last_attempt": "2026-09-19T00:31:11.700192+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher analysiert die fundamentale und charttechnische Situation der Kryptowährung Chainlink (LINK) und sieht mittelnivelliert sowie langfristig erhebliches Aufholpotenzial (01:46). Kurzfristig wird nach dem ersten Anstieg eine Korrekturwelle 2 abgewartet, um eine neue Kauf- bzw. Nachkaufzone zu etablieren (04:31). Langfristig werden Zielmarken bei über 30 $ sowie bis zu 73.35 $ in Aussicht gestellt (05:18, 06:36).\n\n### Typ\nEinzelaktie / Kryptowährung\n\n### Chainlink (LINK)\n- **Sprecherthese**: Chainlink ist fundamental stark vernetzt (u. a. mit US-Politik und Institutionen) und weist im Vergleich zum Gesamtmarkt ein massives Aufholpotenzial auf (01:39, 03:10).\n- **Richtung**: Bullisch (mittelfristig und langfristig).\n- **Konkret belegte Levels**:\n  - Erstes Einstiegstief: 04. Juni (04:05)\n  - Widerstand: 14.99 $ (04:54)\n  - Mittelfristiges Ziel (Welle 5): 30.95 $ (05:18)\n  - Langfristiges Ziel (Welle B): 73.35 $ (06:36)\n  - Invalidierungslevel im Chart sichtbar: 4.77 $ (04:01, 06:29)\n  - Aktueller Kursbereich im Chart: ca. 11.50 $ bis 12.00 $ (06:43)\n- **Trigger**: Bestätigung des lokalen Hochs (Welle 1) und anschließender Rücksetzer in Welle 2 zur Generierung eines neuen Kaufsignals (05:33).\n- **Invalidierung**: Unterschreiten der Unterstützungsmarke bei 4.77 $ (im Chart rot markiert, 04:01).\n- **Zeithorizont**: Mittel- bis langfristig (Monate bis Jahre, 06:29).\n\n### Unsicherheiten & lohnenswerte Stellen\n- **Unsicherheiten**: Unklarheit, ob das Hoch der Welle 1 erst noch oberhalb von 15 $ ausgebaut wird oder bereits am 06. September erreicht wurde (Alternativszenario) (05:22).\n- **Sehenswerte Stellen**: Chartanalyse ab 04:01 (Tageschart) sowie ab 06:29 (Langfristchart auf Wochenbasis).",
+  "evidence": [
+    {
+      "timestamp": "01:46",
+      "basis": "audio",
+      "observation": "Der Sprecher erklärt, dass der LINK-Token aktuell 78 % unter seinem Allzeithoch notiert."
+    },
+    {
+      "timestamp": "02:43",
+      "basis": "visual",
+      "observation": "Anzeige von CoinMarketCap: Chainlink rangiert auf Platz 13 mit einer Marktkapitalisierung von ca. 8,92 Mrd. USD."
+    },
+    {
+      "timestamp": "04:05",
+      "basis": "audio",
+      "observation": "Am 4. Juni wurde die Kaufzone getroffen, worauf ein Anstieg von bis zu 97 % (aktuell 66 %) folgte."
+    },
+    {
+      "timestamp": "04:54",
+      "basis": "visual",
+      "observation": "Im Tageschart ist eine grüne Widerstandslinie bei 14.99 $ eingezeichnet."
+    },
+    {
+      "timestamp": "05:18",
+      "basis": "visual",
+      "observation": "Im Tageschart ist das primäre Ziel für Welle 5 bei 30.95 $ markiert."
+    },
+    {
+      "timestamp": "06:36",
+      "basis": "audio",
+      "observation": "Der Sprecher nennt auf Wochenbasis ein langfristiges Ziel für Welle B von 73.35 $ (ca. 530 % Potenzial vom aktuellen Niveau)."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "U5fp-wMPf18",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-19T00:31:27.550522+00:00",
+  "discord_chunks": [
+    "🎬 **HKCM**\n**Chainlink Could Become the Biggest Winner of the Next Cycle!**\nhttps://www.youtube.com/watch?v=U5fp-wMPf18\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher analysiert die fundamentale und charttechnische Situation der Kryptowährung Chainlink (LINK) und sieht mittelnivelliert sowie langfristig erhebliches Aufholpotenzial (01:46). Kurzfristig wird nach dem ersten Anstieg eine Korrekturwelle 2 abgewartet, um eine neue Kauf- bzw. Nachkaufzone zu etablieren (04:31). Langfristig werden Zielmarken bei über 30 $ sowie bis zu 73.35 $ in Aussicht gestellt (05:18, 06:36).\n\n### Typ\nEinzelaktie / Kryptowährung\n\n### Chainlink (LINK)\n- **Sprecherthese**: Chainlink ist fundamental stark vernetzt (u. a. mit US-Politik und Institutionen) und weist im Vergleich zum Gesamtmarkt ein massives Aufholpotenzial auf (01:39, 03:10).\n- **Richtung**: Bullisch (mittelfristig und langfristig).\n- **Konkret belegte Levels**:\n  - Erstes Einstiegstief: 04. Juni (04:05)\n  - Widerstand: 14.99 $ (04:54)\n  - Mittelfristiges Ziel (Welle 5): 30.95 $ (05:18)\n  - Langfristiges Ziel (Welle B): 73.35 $ (06:36)\n  - Invalidierungslevel im Chart sichtbar: 4.77 $ (04:01, 06:29)\n  - Aktueller Kursbereich im Chart: ca. 11.50 $ bis 12.00 $ (06:43)\n- **Trigger**: Bestätigung des lokalen Hochs (Welle 1) und anschließender Rücksetzer in Welle 2 zur Generierung eines neuen Kaufsignals (05:33).\n- **Invalidierung**: Unterschreiten der Unterstützungsmarke bei 4.77 $ (im Chart rot markiert, 04:01).\n- **Zeithorizont**: Mittel- bis langfristig (Monate bis Jahre, 06:29).\n\n### Unsicherheiten & lohnenswerte Stellen\n- **Unsicherheiten**: Unklarheit, ob das Hoch der Welle 1 erst noch oberhalb von 15 $ ausgebaut wird oder bereits am 06. September erreicht wurde (Alternat",
+    "ivszenario) (05:22).\n- **Sehenswerte Stellen**: Chartanalyse ab 04:01 (Tageschart) sowie ab 06:29 (Langfristchart auf Wochenbasis).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-19T00:31:28.064897+00:00"
 }
