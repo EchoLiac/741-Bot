@@ -6,10 +6,72 @@
   "published": null,
   "channel": "10xTrading",
   "handle": "@1OxTrading",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-19T17:31:10.090987+00:00",
-  "attempts": 7,
-  "last_attempt": "2026-09-19T21:01:39.377083+00:00",
+  "attempts": 8,
+  "last_attempt": "2026-09-19T22:01:36.887360+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDas Video analysiert zehn ausgewählte Aktien aus der 10X-Trading-Watchlist unter Verwendung technischer Chartanalysen und fundamentaler Eilmeldungen. Der Fokus liegt dabei auf Halbleiter-, Tech- und Raumfahrtwerten mit konkreten Ausbruchs- und Unterstützungsszenarien. Der Sprecher betont das Risikomanagement und warnt vor hoher Volatilität bei Einzelwerten. [00:08]\n\n**Typ:** mehrere Aktien\n\n---\n\n### SanDisk (SNDK)\n* **Sprecherthese:** Nach starken Q4-Zahlen (+372 % Umsatz) und S&P-100-Aufnahme steht die Aktie vor einem bullischen Breakout. [00:41]\n* **Richtung:** Bullisch [01:16]\n* **Konkret belegte Levels:** Unterstützung bei 1450–1480 USD (50-Tage-Linie) [01:08]; Zielzone bei ca. 2100 USD [01:25].\n* **Trigger:** Bullischer Ausbruch über 1850–1900 USD [01:36].\n* **Invalidierung:** Hard Reversal / Bruch der 50-Tage-Linie unter 1450 USD [01:31].\n* **Zeithorizont:** Kurz- bis mittelfristig [01:44].\n\n### Alibaba (BABA)\n* **Sprecherthese:** Die Aktie erholt sich vom Juni-Tief und könnte im Umfeld des China-Gipfels obere Zielzonen ansteuern. [02:44]\n* **Richtung:** Bullisch [03:10]\n* **Konkret belegte Levels:** Erste Zielzone 133–140 USD [03:15]; Zweite Zielzone 152–161 USD [03:20]; Tiefs/Testbereich bei ~90 USD [03:37].\n* **Trigger:** Anstieg über 120 USD [03:12].\n* **Invalidierung:** Schlusskurs unter der 200-Tage-Linie [03:28].\n* **Zeithorizont:** Kurz- bis mittelfristig [03:02].\n\n### Micron (MU)\n* **Sprecherthese:** Zeigt nach bullischen Divergenzen am Tief ein starkes Setup für eine Fortsetzung der Halbleiter-Rallye. [04:10]\n* **Richtung:** Bullisch [04:21]\n* **Konkret belegte Levels:** Marke über 1100 USD greift Allzeithochs an [04:27].\n* **Trigger:** Ausbruch über das Juni-Hoch / 1100 USD [04:25].\n* **Invalidierung:** nicht genannt\n* **Zeithorizont:** Mittelfristig [04:39].\n\n### Exxon Mobil (XOM)\n* **Sprecherthese:** Bei erneuter Ölpreis-Steigerung winkt ein Ausbruch über die Top-Formation, andernfalls droht eine Abwärtskorrektur. [05:46]\n* **Richtung:** Neutral bis Bullisch [05:55]\n* **Konkret belegte Levels:** Widerstand 164–166 USD [06:06]; Ziel bei Ausbruch 180–186 USD [05:58].\n* **Trigger:** Ausbruch über die Doppeltop-Struktur [05:55].\n* **Invalidierung:** Abverkauf unter die Kaufzone 164–166 USD [06:12].\n* **Zeithorizont:** Kurz- bis mittelfristig [06:01].\n\n### Lumentum (LITE)\n* **Sprecherthese:** Die Aktie konsolidiert über dem Algo-Trend, benötigt für höhere Ziele jedoch das Halten wichtiger Durchschnitte. [06:56]\n* **Richtung:** Neutral / Vorsichtig Bullisch [06:59]\n* **Konkret belegte Levels:** Alarm/Kriegsentscheidend an 50-Tage-Linie um 800 USD / 835 USD [07:02, 07:05]; Halten über 840 USD gefordert [08:02].\n* **Trigger:** Stabilisierung und Anstieg über 840 USD [08:02].\n* **Invalidierung:** Bruch der 50-Tage-Linie / Verlust des Supportbereichs [07:02, 07:49].\n* **Zeithorizont:** Mittelfristig [07:11].\n\n### Coherent (COHR)\n* **Sprecherthese:** Befindet sich in einer sauberen Akkumulationszone am Doppelboden der 50-Wochen-Linie. [08:24]\n* **Richtung:** Bullisch (Positionsswing) [08:20]\n* **Konkret belegte Levels:** Erste Zielzone 330–360 USD [09:08]; Übergeordnete Zielzone 480–520 USD [08:41].\n* **Trigger:** Nachweisen der Akkumulation oberhalb der 50-Wochen-Linie [09:23].\n* **Invalidierung:** Nachhaltiger Bruch der 50-Wochen-Linie nach unten [09:23].\n* **Zeithorizont:** Mittelfristig [08:21].\n\n### Netflix (NFLX)\n* **Sprecherthese:** Verbleibt in einem strukturellen Bärenmarkt und droht bei Untergreifen wichtiger Marken weiter einzubrechen. [10:02]\n* **Richtung:** Bärisch [10:02]\n* **Konkret belegte Levels:** Unterstützungszone bis 67 USD [09:52]; Alarmmarke bei 66 USD [10:48]; Abwärtsziel unter 60 USD [10:58].\n* **Trigger:** Bruch der Unterstützung bei 66 USD [11:24].\n* **Invalidierung:** nicht genannt\n* **Zeithorizont:** Kurz- bis mittelfristig [10:08].\n\n### Nebius (NBIS)\n* **Sprecherthese:** Hochvolatiler Wert mit verdopplungspotenzial, der jedoch nur in Tranchen und ohne Hebel gehandelt werden sollte. [12:30, 13:49]\n* **Richtung:** Bullisch (unter hoher Volatilität) [12:08]\n* **Konkret belegte Levels:** Aktueller Kurs ~220 USD [12:14]; Hauptziel 400–420 USD [11:54, 12:11]; Confluence-Support bei ~170 USD [13:16].\n* **Trigger:** Halten der Trancheneinstiegszonen / Rebound am Support [13:31].\n* **Invalidierung:** Bruch der Unterstützungszone um 170 USD [13:16].\n* **Zeithorizont:** Mittelfristig [12:08].\n\n### Rocket Lab (RKLB)\n* **Sprecherthese:** Steht exakt an der Make-or-Break-Zone des 61,8 % Fibonacci-Retracements; ein Bruch droht mit Abgaben Richtung 30 USD. [14:31, 15:55]\n* **Richtung:** Neutral / Risikobehaftet [14:22, 16:09]\n* **Konkret belegte Levels:** Support bei 56–56,70 USD [14:39, 15:28]; Paul-Level / Limit bei 53 USD [15:33]; Ziel nach unten bei 30 USD [15:55].\n* **Trigger:** Anstieg über die 50-Tage-Linie und den 8-Std.-Algo-Trend [15:10].\n* **Invalidierung:** Unterschreiten von 56 USD bzw. 53 USD [15:28, 15:33].\n* **Zeithorizont:** Kurz- bis mittelfristig [15:08].\n\n### Robinhood (HOOD)\n* **Sprecherthese:** Eines der stärksten Crypto-/Fintech-Plays mit Potenzial auf neue Allzeithochs trotz hoher Korrekturspannen. [16:38, 17:07]\n* **Richtung:** Bullisch [17:07]\n* **Konkret belegte Levels:** Kurze Zielzonen 130–135 USD bis 150 USD [18:36]; Ausbruchs-Trigger über 125 USD [18:51].\n* **Trigger:** Ausbruch über 125 USD [18:51].\n* **Invalidierung:** nicht genannt\n* **Zeithorizont:** Mittelfristig (1 bis 3 Jahre) [17:14].\n\n---\n\n### Unsicherheiten und sehenswerte Stellen\nBesonders aufmerksam sollten die Marken bei **Rocket Lab** um 53–56 USD [15:28] sowie **Netflix** bei 66 USD [11:25] beobachtet werden, da hier Schlüsselentscheidungen über Trendfortsetzung oder Absturz fallen. Bei **SanDisk** [01:36] und **Robinhood** [18:51] lohnt sich das genaue Hinsehen bei den jeweiligen Breakout-Triggern.",
+  "evidence": [
+    {
+      "timestamp": "00:43",
+      "basis": "audio",
+      "observation": "Der Sprecher nennt ein Kursplus bei SanDisk von bis zu 11 % im Vorfeld der S&P 100 Aufnahme und ein Umsatzplus von 372 % auf 8,97 Mrd. USD."
+    },
+    {
+      "timestamp": "01:25",
+      "basis": "visual",
+      "observation": "Im Chart von SanDisk ist ein erstes Ziel im Bereich von ca. 2100 USD eingezeichnet."
+    },
+    {
+      "timestamp": "03:15",
+      "basis": "audio",
+      "observation": "Bei Alibaba wird die erste Zielzone im Bereich 133 bis 140 USD und die zweite Zielzone bei 152 bis 161 USD genannt."
+    },
+    {
+      "timestamp": "04:27",
+      "basis": "audio",
+      "observation": "Für Micron nennt der Sprecher ein Level von über 1100 USD, bei dem Allzeithochs angegriffen werden können."
+    },
+    {
+      "timestamp": "05:58",
+      "basis": "audio",
+      "observation": "Bei Exxon Mobil nennt der Sprecher Zielkurse von 180 bis 186 USD im Falle eines bullischen Ausbruchs."
+    },
+    {
+      "timestamp": "09:52",
+      "basis": "audio",
+      "observation": "Bei Netflix wird der Bereich unter der 200-Wochen-Linie bis 67 USD als Unterstützungsebene besprochen."
+    },
+    {
+      "timestamp": "12:11",
+      "basis": "audio",
+      "observation": "Der Sprecher nennt für Nebius ein Kursziel von 400 bis 420 USD bei einem aktuellen Kurs von 220 USD."
+    },
+    {
+      "timestamp": "14:39",
+      "basis": "audio",
+      "observation": "Bei Rocket Lab wird das 61,8 % Fibonacci-Retracement exakt bei 56,70 USD als Doppelboden-Level hervorgehoben."
+    },
+    {
+      "timestamp": "18:36",
+      "basis": "audio",
+      "observation": "Für Robinhood werden kurzfristige Ziele von 130 bis 135 USD sowie bis 150 USD beziffert."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "w4TvyqaDPXM",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-19T22:02:20.362415+00:00",
+  "discord_chunks": [
+    "🎬 **10xTrading**\n**🚨 10 AKTIEN 💥 SanDisk Micron Netflix Alibaba Nebius Robinhood Coherent Exxon Lumentum Rocketlab**\nhttps://www.youtube.com/watch?v=w4TvyqaDPXM\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDas Video analysiert zehn ausgewählte Aktien aus der 10X-Trading-Watchlist unter Verwendung technischer Chartanalysen und fundamentaler Eilmeldungen. Der Fokus liegt dabei auf Halbleiter-, Tech- und Raumfahrtwerten mit konkreten Ausbruchs- und Unterstützungsszenarien. Der Sprecher betont das Risikomanagement und warnt vor hoher Volatilität bei Einzelwerten. [00:08]\n\n**Typ:** mehrere Aktien\n\n---\n\n### SanDisk (SNDK)\n* **Sprecherthese:** Nach starken Q4-Zahlen (+372 % Umsatz) und S&P-100-Aufnahme steht die Aktie vor einem bullischen Breakout. [00:41]\n* **Richtung:** Bullisch [01:16]\n* **Konkret belegte Levels:** Unterstützung bei 1450–1480 USD (50-Tage-Linie) [01:08]; Zielzone bei ca. 2100 USD [01:25].\n* **Trigger:** Bullischer Ausbruch über 1850–1900 USD [01:36].\n* **Invalidierung:** Hard Reversal / Bruch der 50-Tage-Linie unter 1450 USD [01:31].\n* **Zeithorizont:** Kurz- bis mittelfristig [01:44].\n\n### Alibaba (BABA)\n* **Sprecherthese:** Die Aktie erholt sich vom Juni-Tief und könnte im Umfeld des China-Gipfels obere Zielzonen ansteuern. [02:44]\n* **Richtung:** Bullisch [03:10]\n* **Konkret belegte Levels:** Erste Zielzone 133–140 USD [03:15]; Zweite Zielzone 152–161 USD [03:20]; Tiefs/Testbereich bei ~90 USD [03:37].\n* **Trigger:** Anstieg über 120 USD [03:12].\n* **Invalidierung:** Schlusskurs unter der 200-Tage-Linie [03:28].\n* **Zeithorizont:** Kurz- bis mittelfristig [03:02].\n\n### Micron (MU)\n* **Sprecherthese:** Zeigt nach bullischen Divergenzen am Tief ein starkes Setup für eine Fortsetzung der Halbleiter-Rallye. [04:10",
+    "]\n* **Richtung:** Bullisch [04:21]\n* **Konkret belegte Levels:** Marke über 1100 USD greift Allzeithochs an [04:27].\n* **Trigger:** Ausbruch über das Juni-Hoch / 1100 USD [04:25].\n* **Invalidierung:** nicht genannt\n* **Zeithorizont:** Mittelfristig [04:39].\n\n### Exxon Mobil (XOM)\n* **Sprecherthese:** Bei erneuter Ölpreis-Steigerung winkt ein Ausbruch über die Top-Formation, andernfalls droht eine Abwärtskorrektur. [05:46]\n* **Richtung:** Neutral bis Bullisch [05:55]\n* **Konkret belegte Levels:** Widerstand 164–166 USD [06:06]; Ziel bei Ausbruch 180–186 USD [05:58].\n* **Trigger:** Ausbruch über die Doppeltop-Struktur [05:55].\n* **Invalidierung:** Abverkauf unter die Kaufzone 164–166 USD [06:12].\n* **Zeithorizont:** Kurz- bis mittelfristig [06:01].\n\n### Lumentum (LITE)\n* **Sprecherthese:** Die Aktie konsolidiert über dem Algo-Trend, benötigt für höhere Ziele jedoch das Halten wichtiger Durchschnitte. [06:56]\n* **Richtung:** Neutral / Vorsichtig Bullisch [06:59]\n* **Konkret belegte Levels:** Alarm/Kriegsentscheidend an 50-Tage-Linie um 800 USD / 835 USD [07:02, 07:05]; Halten über 840 USD gefordert [08:02].\n* **Trigger:** Stabilisierung und Anstieg über 840 USD [08:02].\n* **Invalidierung:** Bruch der 50-Tage-Linie / Verlust des Supportbereichs [07:02, 07:49].\n* **Zeithorizont:** Mittelfristig [07:11].\n\n### Coherent (COHR)\n* **Sprecherthese:** Befindet sich in einer sauberen Akkumulationszone am Doppelboden der 50-Wochen-Linie. [08:24]\n* **Richtung:** Bullisch (Positionsswing) [08:20]\n* **Konkret belegte Levels:** Erste Zielzone 330–360 USD [09:08]; Übergeordnete Zielzone 480–520 USD [08:41].\n* **Trigger:** Nachweisen der Akkumulation oberhalb der 50-Wochen-Linie [09:23].\n* **Invalidierung:** Nachhaltiger Bruch der 50-Wochen-Linie nach unten [09:23].\n* **Zeithorizont:** Mit",
+    "telfristig [08:21].\n\n### Netflix (NFLX)\n* **Sprecherthese:** Verbleibt in einem strukturellen Bärenmarkt und droht bei Untergreifen wichtiger Marken weiter einzubrechen. [10:02]\n* **Richtung:** Bärisch [10:02]\n* **Konkret belegte Levels:** Unterstützungszone bis 67 USD [09:52]; Alarmmarke bei 66 USD [10:48]; Abwärtsziel unter 60 USD [10:58].\n* **Trigger:** Bruch der Unterstützung bei 66 USD [11:24].\n* **Invalidierung:** nicht genannt\n* **Zeithorizont:** Kurz- bis mittelfristig [10:08].\n\n### Nebius (NBIS)\n* **Sprecherthese:** Hochvolatiler Wert mit verdopplungspotenzial, der jedoch nur in Tranchen und ohne Hebel gehandelt werden sollte. [12:30, 13:49]\n* **Richtung:** Bullisch (unter hoher Volatilität) [12:08]\n* **Konkret belegte Levels:** Aktueller Kurs ~220 USD [12:14]; Hauptziel 400–420 USD [11:54, 12:11]; Confluence-Support bei ~170 USD [13:16].\n* **Trigger:** Halten der Trancheneinstiegszonen / Rebound am Support [13:31].\n* **Invalidierung:** Bruch der Unterstützungszone um 170 USD [13:16].\n* **Zeithorizont:** Mittelfristig [12:08].\n\n### Rocket Lab (RKLB)\n* **Sprecherthese:** Steht exakt an der Make-or-Break-Zone des 61,8 % Fibonacci-Retracements; ein Bruch droht mit Abgaben Richtung 30 USD. [14:31, 15:55]\n* **Richtung:** Neutral / Risikobehaftet [14:22, 16:09]\n* **Konkret belegte Levels:** Support bei 56–56,70 USD [14:39, 15:28]; Paul-Level / Limit bei 53 USD [15:33]; Ziel nach unten bei 30 USD [15:55].\n* **Trigger:** Anstieg über die 50-Tage-Linie und den 8-Std.-Algo-Trend [15:10].\n* **Invalidierung:** Unterschreiten von 56 USD bzw. 53 USD [15:28, 15:33].\n* **Zeithorizont:** Kurz- bis mittelfristig [15:08].\n\n### Robinhood (HOOD)\n* **Sprecherthese:** Eines der stärksten Crypto-/Fintech-Plays mit Potenzial auf neue Allzeithochs trotz hoher Korrekturspannen. [16:38, 1",
+    "7:07]\n* **Richtung:** Bullisch [17:07]\n* **Konkret belegte Levels:** Kurze Zielzonen 130–135 USD bis 150 USD [18:36]; Ausbruchs-Trigger über 125 USD [18:51].\n* **Trigger:** Ausbruch über 125 USD [18:51].\n* **Invalidierung:** nicht genannt\n* **Zeithorizont:** Mittelfristig (1 bis 3 Jahre) [17:14].\n\n---\n\n### Unsicherheiten und sehenswerte Stellen\nBesonders aufmerksam sollten die Marken bei **Rocket Lab** um 53–56 USD [15:28] sowie **Netflix** bei 66 USD [11:25] beobachtet werden, da hier Schlüsselentscheidungen über Trendfortsetzung oder Absturz fallen. Bei **SanDisk** [01:36] und **Robinhood** [18:51] lohnt sich das genaue Hinsehen bei den jeweiligen Breakout-Triggern.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 4,
+  "discord_sent_at": "2026-09-19T22:02:21.197642+00:00"
 }
