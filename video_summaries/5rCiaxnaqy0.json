@@ -8,8 +8,8 @@
   "handle": "@1OxTrading",
   "status": "analysis_failed",
   "discovered_at": "2026-09-19T20:01:11.202746+00:00",
-  "attempts": 4,
-  "last_attempt": "2026-09-19T23:02:25.155820+00:00",
+  "attempts": 5,
+  "last_attempt": "2026-09-19T23:31:29.319703+00:00",
   "video_id": "5rCiaxnaqy0",
   "scanner_version": "video-first-v3"
 }
