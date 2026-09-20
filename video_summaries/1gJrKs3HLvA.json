@@ -6,10 +6,71 @@
   "published": null,
   "channel": "TradingKompass",
   "handle": "@TradingKompass",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-20T15:31:21.916768+00:00",
-  "attempts": 1,
-  "last_attempt": "2026-09-20T15:32:28.671505+00:00",
+  "attempts": 2,
+  "last_attempt": "2026-09-20T16:01:23.563277+00:00",
+  "content_available": true,
+  "summary": "Der Sprecher analysiert den Kryptomarkt auf Basis von Elliott-Wellen sowie Fibonacci-Retracements und sieht trotz lokaler Konsolidierungsphasen übergeordnet ein starkes bullisches Potenzial. Bei Bitcoin sowie Altcoins wie Ethereum, Avalanche und XRP deutet die Rückeroberung wichtiger Unterstützungen und Gleitender Durchschnitte auf den Beginn neuer fünfwelliger Aufwärtsimpulse hin. Eine nachgebende Bitcoin-Dominanz spricht zudem mittelfristig für das Einsetzen einer Altcoin-Saison.\n\n### Bitcoin (BTC/USD) [00:52, 01:52, 03:51, 04:41]\n- **Sprecherthese:** Bitcoin konsolidiert knapp unter der Widerstandsmarke von 83.000 USD in einer Megafon-Formation, was die Wahrscheinlichkeit für einen Ausbruch nach oben hoch hält [00:52, 02:55].\n- **Richtung:** Bullisch.\n- **Konkret belegte Levels:** Widerstand/Mai-Hoch bei 83.000 USD [03:51]; Zielzone Welle B bei 85.378 USD bis 115.600 USD [01:52]; übergeordnete Welle-5-Ziele bei 164.000 USD, 210.000 USD bis 299.000 USD [01:52]; Support an der durchbrochenen 50-Wochen-Linie [04:41].\n- **Trigger:** Nachhaltiger Ausbruch über das Mai-Hoch bei 83.000 USD [03:51].\n- **Invalidierung:** Abfall unter das Juli-2026-Tief im Bärenmarktszenario [01:00].\n- **Zeithorizont:** Mittelfristig bis langfristig.\n\n### Market Caps & BTC-Dominanz [07:46, 09:20]\n- **Sprecherthese:** TOTAL2 (Marktkapitalisierung ohne BTC) hat am 50%-Fibonacci-Level einen Boden gebildet [07:46]. Das symmetrische Dreieck in der BTC-Dominanz deutet auf Umschichtungen in Altcoins hin [09:20].\n- **Richtung:** Bullisch für Altcoins.\n- **Konkret belegte Levels:** 50%-Fibonacci-Retracement als Support bei TOTAL2 [07:46].\n- **Trigger:** Abfall der BTC-Dominanz aus dem Dreieck nach unten [09:20].\n- **Invalidierung:** Ausbruch der Bitcoin-Dominanz nach oben [09:20].\n- **Zeithorizont:** Mittelfristig.\n\n### Ethereum (ETH/USD) [10:04, 10:22, 12:20]\n- **Sprecherthese:** ETH hat die Supportzone und 200-Tage-Linie verteidigt; der Ausbruch unter den Aufwärtstrend war ein Fakeout, sodass nun der Aufbau einer Welle 5 läuft [11:16].\n- **Richtung:** Bullisch.\n- **Konkret belegte Levels:** Support-/Korrekturzone Welle 4 bei 2.000 USD bis 2.330 USD [10:04]; Welle-1-Ziel/61,8%-Fib bei 3.142 USD [10:22]; Welle-5-Ziele bei 6.800 USD, 11.000 USD bis 20.000 USD [12:20].\n- **Trigger:** Fertigstellung des untergeordneten fünfwelligen Impulses [10:17].\n- **Invalidierung:** Sturz unter die Supportmarke bei 1.000 USD [12:31].\n- **Zeithorizont:** Langfristig.\n\n### Avalanche (AVAX/USD) [13:08, 14:05]\n- **Sprecherthese:** Der Ausbruch nach unten erwies sich am 61,8%-Fibonacci-Level als Fakeout; AVAX hat die 200-Tage-Linie zurückerobert [14:05].\n- **Richtung:** Bullisch.\n- **Konkret belegte Levels:** Support am 61,8%-Fib bei 6,09 USD [13:08]; Hürde/Widerstand bei 8,40 USD bis 10,50 USD [13:40].\n- **Trigger:** Bestätigender Anstieg über 10,50 USD [13:40].\n- **Invalidierung:** Erneutes Unterschreiten des Tiefs von 6,09 USD [13:08].\n- **Zeithorizont:** Mittel- bis langfristig.\n\n### Ripple (XRP/USD) [15:38, 15:56, 17:21]\n- **Sprecherthese:** XRP bildete bei 0,984 USD einen Boden und stieg um 70 %; nach Rücksetzer auf das 50%-Fib bei 1,29 USD setzt sich die Welle 2/3 fort [15:40, 16:05].\n- **Richtung:** Bullisch.\n- **Konkret belegte Levels:** Boden bei 0,984 USD [15:40]; Welle-2-Supportzone bei 1,04 USD bis 1,29 USD [15:56]; Widerstandszone bei 1,45 USD bis 1,64 USD [16:39]; Welle-3-Ziel bei 2,64 USD bis 3,00 USD [17:21, 17:26].\n- **Trigger:** Nachhaltiges Überschreiten der Marke von 1,70 USD [17:49].\n- **Invalidierung:** Fall in eine erweiterte WXY-Korrektur unter 1,04 USD [17:58].\n- **Zeithorizont:** Mittelfristig.\n\n### Unsicherheiten & sehenswerte Stellen\n- **Unsicherheiten:** Kurzfristige Zwischenkorrekturen (Welle 2) sind vor dem Antritt der impulsiven Welle 3 einzukalkulieren (insbesondere bei XRP als WXY möglich).\n- **Sehenswerte Stellen:** BTC-Zielzonen [01:52], BTC 50-Wochen-Linie [04:41], Altcoin-Marktkapitalisierung TOTAL2 [07:46], BTC-Dominanz [09:20], ETH-Fibonacci-Ziele [10:22], AVAX-Fakeout [14:05], XRP Welle-3-Erweiterung [17:21].",
+  "evidence": [
+    {
+      "timestamp": "01:52",
+      "basis": "visual",
+      "observation": "Im Chart BTC/USD 12H werden Zielzonen eingeblendet: B/50% bei 85.378,38 USD bis 115.600,00 USD sowie Welle (5) Ziele zwischen 164.334,21 USD und 210.363,86 USD."
+    },
+    {
+      "timestamp": "03:51",
+      "basis": "audio",
+      "observation": "Sprecher nennt das Mai-Hoch bei 83.000 USD als relevante Widerstandszone für einen Trendwechsel."
+    },
+    {
+      "timestamp": "04:41",
+      "basis": "visual",
+      "observation": "Sprecher blendet die gelb gestrichelte 50-Week Moving Average Linie im Chart ein, die nach oben durchbrochen wurde."
+    },
+    {
+      "timestamp": "07:46",
+      "basis": "visual",
+      "observation": "Im Chart TOTAL2 (Crypto Total Market Cap Excl. BTC) zeigt die Kerze eine punktgenaue Reaktion am 50%-Fibonacci-Retracement."
+    },
+    {
+      "timestamp": "09:20",
+      "basis": "visual",
+      "observation": "Der BTC Dominance Chart zeigt ein symmetrisches Dreieck mit Pfeilprojektion nach unten Richtung Altcoin-Stärke."
+    },
+    {
+      "timestamp": "10:22",
+      "basis": "visual",
+      "observation": "Im ETH/USD Chart wird das 61,8%-Fibonacci-Level bei 3.142,42 USD visualisiert."
+    },
+    {
+      "timestamp": "13:08",
+      "basis": "visual",
+      "observation": "Im AVAX/USD Chart liegt das 61,8%-Fibonacci-Retracement bei 6,091 USD."
+    },
+    {
+      "timestamp": "15:40",
+      "basis": "audio",
+      "observation": "Sprecher erwähnt die Bodenbildung von XRP bei 0,984 USD vor dem Anstieg um 70 %."
+    },
+    {
+      "timestamp": "17:21",
+      "basis": "visual",
+      "observation": "Im XRP/USD Chart ist die trendbasierte Fib-Erweiterung für Welle 3 bei 1,618 (2,64234 USD) und 1,75 (3,00203 USD) eingezeichnet."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "1gJrKs3HLvA",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-20T16:02:01.366626+00:00",
+  "discord_chunks": [
+    "🎬 **TradingKompass**\n**KRYPTO: Rally noch lange nicht vorbei? 🤯 Bitcoin XRP Avalanche AVAX Ethereum Analyse**\nhttps://www.youtube.com/watch?v=1gJrKs3HLvA\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\nDer Sprecher analysiert den Kryptomarkt auf Basis von Elliott-Wellen sowie Fibonacci-Retracements und sieht trotz lokaler Konsolidierungsphasen übergeordnet ein starkes bullisches Potenzial. Bei Bitcoin sowie Altcoins wie Ethereum, Avalanche und XRP deutet die Rückeroberung wichtiger Unterstützungen und Gleitender Durchschnitte auf den Beginn neuer fünfwelliger Aufwärtsimpulse hin. Eine nachgebende Bitcoin-Dominanz spricht zudem mittelfristig für das Einsetzen einer Altcoin-Saison.\n\n### Bitcoin (BTC/USD) [00:52, 01:52, 03:51, 04:41]\n- **Sprecherthese:** Bitcoin konsolidiert knapp unter der Widerstandsmarke von 83.000 USD in einer Megafon-Formation, was die Wahrscheinlichkeit für einen Ausbruch nach oben hoch hält [00:52, 02:55].\n- **Richtung:** Bullisch.\n- **Konkret belegte Levels:** Widerstand/Mai-Hoch bei 83.000 USD [03:51]; Zielzone Welle B bei 85.378 USD bis 115.600 USD [01:52]; übergeordnete Welle-5-Ziele bei 164.000 USD, 210.000 USD bis 299.000 USD [01:52]; Support an der durchbrochenen 50-Wochen-Linie [04:41].\n- **Trigger:** Nachhaltiger Ausbruch über das Mai-Hoch bei 83.000 USD [03:51].\n- **Invalidierung:** Abfall unter das Juli-2026-Tief im Bärenmarktszenario [01:00].\n- **Zeithorizont:** Mittelfristig bis langfristig.\n\n### Market Caps & BTC-Dominanz [07:46, 09:20]\n- **Sprecherthese:** TOTAL2 (Marktkapitalisierung ohne BTC) hat am 50%-Fibonacci-Level einen Boden gebildet [07:46]. Das symmetrische Dreieck in der BTC-Dominanz deutet auf Umschichtungen in Altcoins hin [09:20].\n- **Richtung:** Bullisch für Altcoins.\n- **Konkret belegte Levels",
+    ":** 50%-Fibonacci-Retracement als Support bei TOTAL2 [07:46].\n- **Trigger:** Abfall der BTC-Dominanz aus dem Dreieck nach unten [09:20].\n- **Invalidierung:** Ausbruch der Bitcoin-Dominanz nach oben [09:20].\n- **Zeithorizont:** Mittelfristig.\n\n### Ethereum (ETH/USD) [10:04, 10:22, 12:20]\n- **Sprecherthese:** ETH hat die Supportzone und 200-Tage-Linie verteidigt; der Ausbruch unter den Aufwärtstrend war ein Fakeout, sodass nun der Aufbau einer Welle 5 läuft [11:16].\n- **Richtung:** Bullisch.\n- **Konkret belegte Levels:** Support-/Korrekturzone Welle 4 bei 2.000 USD bis 2.330 USD [10:04]; Welle-1-Ziel/61,8%-Fib bei 3.142 USD [10:22]; Welle-5-Ziele bei 6.800 USD, 11.000 USD bis 20.000 USD [12:20].\n- **Trigger:** Fertigstellung des untergeordneten fünfwelligen Impulses [10:17].\n- **Invalidierung:** Sturz unter die Supportmarke bei 1.000 USD [12:31].\n- **Zeithorizont:** Langfristig.\n\n### Avalanche (AVAX/USD) [13:08, 14:05]\n- **Sprecherthese:** Der Ausbruch nach unten erwies sich am 61,8%-Fibonacci-Level als Fakeout; AVAX hat die 200-Tage-Linie zurückerobert [14:05].\n- **Richtung:** Bullisch.\n- **Konkret belegte Levels:** Support am 61,8%-Fib bei 6,09 USD [13:08]; Hürde/Widerstand bei 8,40 USD bis 10,50 USD [13:40].\n- **Trigger:** Bestätigender Anstieg über 10,50 USD [13:40].\n- **Invalidierung:** Erneutes Unterschreiten des Tiefs von 6,09 USD [13:08].\n- **Zeithorizont:** Mittel- bis langfristig.\n\n### Ripple (XRP/USD) [15:38, 15:56, 17:21]\n- **Sprecherthese:** XRP bildete bei 0,984 USD einen Boden und stieg um 70 %; nach Rücksetzer auf das 50%-Fib bei 1,29 USD setzt sich die Welle 2/3 fort [15:40, 16:05].\n- **Richtung:** Bullisch.\n- **Konkret belegte Levels:** Boden bei 0,984 USD [15:40]; Welle-2-Supportzone bei 1,04 USD bis 1,29 USD [15:56]; Widerstandszone bei 1,45 USD bis 1,",
+    "64 USD [16:39]; Welle-3-Ziel bei 2,64 USD bis 3,00 USD [17:21, 17:26].\n- **Trigger:** Nachhaltiges Überschreiten der Marke von 1,70 USD [17:49].\n- **Invalidierung:** Fall in eine erweiterte WXY-Korrektur unter 1,04 USD [17:58].\n- **Zeithorizont:** Mittelfristig.\n\n### Unsicherheiten & sehenswerte Stellen\n- **Unsicherheiten:** Kurzfristige Zwischenkorrekturen (Welle 2) sind vor dem Antritt der impulsiven Welle 3 einzukalkulieren (insbesondere bei XRP als WXY möglich).\n- **Sehenswerte Stellen:** BTC-Zielzonen [01:52], BTC 50-Wochen-Linie [04:41], Altcoin-Marktkapitalisierung TOTAL2 [07:46], BTC-Dominanz [09:20], ETH-Fibonacci-Ziele [10:22], AVAX-Fakeout [14:05], XRP Welle-3-Erweiterung [17:21].\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 3,
+  "discord_sent_at": "2026-09-20T16:02:02.279592+00:00"
 }
