@@ -6,10 +6,60 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-20T18:01:21.980265+00:00",
-  "attempts": 5,
-  "last_attempt": "2026-09-20T20:01:29.622416+00:00",
+  "attempts": 6,
+  "last_attempt": "2026-09-20T20:31:11.675252+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher analysiert ein bestehendes Anlegedepot im Wert von ca. 316.000 € mit 17 Positionen und bewertet dessen Zusammensetzung hinsichtlich Risikostreuung und Strategie (00:35). Es wird gezeigt, wie durch den Austausch von trendschwachen Werten und die Aufstockung auf 20 gleichgewichtete Positionen (u. a. Gesundheits- und Versorgerwerte) eine ausgewogenere Depotstruktur erreicht werden kann (06:18). Ziel der Depotoptimierung ist die langfristige finanzielle Unabhängigkeit innerhalb von etwa 25 bis 30 Jahren (09:06).\n\n### Typ\nMehrere Aktien / Depot-Analyse\n\n### Analysierte Aktien & Depot-Positionen\n\n#### AT&T (T)\n- **Sprecherthese**: Befindet sich langfristig in einer Seitwärtsbewegung (Range); der Sprecher würde trendstärkere Aktien vorziehen (05:03).\n- **Richtung**: Neutral\n- **Konkret belegte Levels**: Obere Widerstandszone im Chart bei ca. 31,00–33,00 USD sichtbar (05:12).\n- **Trigger**: Ausbruch aus der Seitwärtsrange nach oben (05:09).\n- **Invalidierung**: nicht genannt\n- **Zeithorizont**: Langfristig\n\n#### Allianz (ALV) & Münchener Rück (MUV2)\n- **Sprecherthese**: Beide zeigen saubere, intakte Aufwärtstrends (05:17), weisen jedoch untereinander eine hohe Korrelation auf, was den Diversifikationseffekt schwächt (04:46).\n- **Richtung**: Bullisch\n- **Konkret belegte Levels**: nicht genannt\n- **Trigger / Invalidierung / Zeithorizont**: nicht genannt\n\n#### Unilever (ULVR) & PepsiCo (PEP)\n- **Sprecherthese**: Unilever entwickelte sich zuletzt eher seitwärts/neutral (05:29); PepsiCo bietet trotz Makro-Korrektur das verlässlichere langfristige Trendmuster (05:40).\n- **Richtung**: Neutral bis verhalten bullisch\n- **Konkret belegte Levels / Trigger / Invalidierung**: nicht genannt\n\n#### Depot-Umschichtung & Ziel-Portfolio (u. a. Johnson & Johnson, Stryker, Equinix, Terna, Anta Sports)\n- **Sprecherthese**: Schwächere oder sehr kleine Positionen (wie Aptiv, WB Discovery, BASF) sollten durch qualitativ stärkere Werte aus bisher unterrepräsentierten Sektoren (Gesundheit, Versorger, Immobilien, Asia-Pacific) ersetzt werden (06:06, 06:18).\n- **Zielstruktur**: 20 Positionen mit ca. 5 % Gewichtung (~17.000 € pro Aktie bei 340.000 € Ziel-Kapital) (02:24, 06:18).\n\n### Unsicherheiten & sehenswerte Stellen\n- **Unsicherheiten**: Exakte persönliche Sparraten, steuerliche Gegebenheiten und individuelle Cashflow-Präferenzen des Anlegers sind im Detail nicht bekannt und beeinflussen die optimale Ausrichtung (04:05, 08:28).\n- **Sehenswerte Stellen**:\n  - **00:35**: Übersicht des Ausgangsdepots und der Kennzahlen.\n  - **04:41**: Korrelationsmatrix der enthaltenen Einzelaktien.\n  - **06:18**: Konkreter Vorschlag der Ziel-Portfolio-Struktur mit 20 Werten.\n  - **08:42**: Hochrechnung zur finanziellen Freiheit im Rechner.",
+  "evidence": [
+    {
+      "timestamp": "00:35",
+      "basis": "visual",
+      "observation": "Depotübersicht von 'Max Mustermann' zeigt ein Volumen von 316.187,95 €, 17 Positionen und den Schwerpunkt auf Dividenden/Cashflow."
+    },
+    {
+      "timestamp": "02:24",
+      "basis": "audio",
+      "observation": "Sprecher berechnet eine Ziel-Positionsgröße von ca. 17.000 € pro Wert bei Anstrebung von 20 Positionen."
+    },
+    {
+      "timestamp": "04:46",
+      "basis": "visual",
+      "observation": "Die Korrelationsmatrix zeigt eine hohe statistische Korrelation zwischen Allianz und Münchener Rück."
+    },
+    {
+      "timestamp": "05:09",
+      "basis": "visual",
+      "observation": "Monatschart von AT&T zeigt eine langjährige Seitwärtsspanne mit einer eingezeichneten Widerstandslinie um 31-33 USD."
+    },
+    {
+      "timestamp": "05:29",
+      "basis": "visual",
+      "observation": "Monatschart von Unilever PLC zeigt nach langjährigem Anstieg eine Konsolidierung in den letzten Jahren."
+    },
+    {
+      "timestamp": "06:18",
+      "basis": "visual",
+      "observation": "Übersicht des Ziel-Portfolios mit 20 gleichgewichteten Titeln inklusive Neuzugängen wie Johnson & Johnson, Stryker, Equinix und Terna."
+    },
+    {
+      "timestamp": "08:42",
+      "basis": "visual",
+      "observation": "Rechner zur finanziellen Freiheit simuliert bei 316.200 € Startkapital und 1.000 € monatlicher Sparrate den Vermögensaufbau über 30 Jahre."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "9hwJhNzVhBU",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-20T20:31:38.925895+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Mit diesem Depot kannst du finanziell frei werden**\nhttps://www.youtube.com/watch?v=9hwJhNzVhBU\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher analysiert ein bestehendes Anlegedepot im Wert von ca. 316.000 € mit 17 Positionen und bewertet dessen Zusammensetzung hinsichtlich Risikostreuung und Strategie (00:35). Es wird gezeigt, wie durch den Austausch von trendschwachen Werten und die Aufstockung auf 20 gleichgewichtete Positionen (u. a. Gesundheits- und Versorgerwerte) eine ausgewogenere Depotstruktur erreicht werden kann (06:18). Ziel der Depotoptimierung ist die langfristige finanzielle Unabhängigkeit innerhalb von etwa 25 bis 30 Jahren (09:06).\n\n### Typ\nMehrere Aktien / Depot-Analyse\n\n### Analysierte Aktien & Depot-Positionen\n\n#### AT&T (T)\n- **Sprecherthese**: Befindet sich langfristig in einer Seitwärtsbewegung (Range); der Sprecher würde trendstärkere Aktien vorziehen (05:03).\n- **Richtung**: Neutral\n- **Konkret belegte Levels**: Obere Widerstandszone im Chart bei ca. 31,00–33,00 USD sichtbar (05:12).\n- **Trigger**: Ausbruch aus der Seitwärtsrange nach oben (05:09).\n- **Invalidierung**: nicht genannt\n- **Zeithorizont**: Langfristig\n\n#### Allianz (ALV) & Münchener Rück (MUV2)\n- **Sprecherthese**: Beide zeigen saubere, intakte Aufwärtstrends (05:17), weisen jedoch untereinander eine hohe Korrelation auf, was den Diversifikationseffekt schwächt (04:46).\n- **Richtung**: Bullisch\n- **Konkret belegte Levels**: nicht genannt\n- **Trigger / Invalidierung / Zeithorizont**: nicht genannt\n\n#### Unilever (ULVR) & PepsiCo (PEP)\n- **Sprecherthese**: Unilever entwickelte sich zuletzt eher seitwärts/neutral (05:29); PepsiCo bietet trotz Makro-Korrektur das verlässlichere langfristige Trendmuster (05",
+    ":40).\n- **Richtung**: Neutral bis verhalten bullisch\n- **Konkret belegte Levels / Trigger / Invalidierung**: nicht genannt\n\n#### Depot-Umschichtung & Ziel-Portfolio (u. a. Johnson & Johnson, Stryker, Equinix, Terna, Anta Sports)\n- **Sprecherthese**: Schwächere oder sehr kleine Positionen (wie Aptiv, WB Discovery, BASF) sollten durch qualitativ stärkere Werte aus bisher unterrepräsentierten Sektoren (Gesundheit, Versorger, Immobilien, Asia-Pacific) ersetzt werden (06:06, 06:18).\n- **Zielstruktur**: 20 Positionen mit ca. 5 % Gewichtung (~17.000 € pro Aktie bei 340.000 € Ziel-Kapital) (02:24, 06:18).\n\n### Unsicherheiten & sehenswerte Stellen\n- **Unsicherheiten**: Exakte persönliche Sparraten, steuerliche Gegebenheiten und individuelle Cashflow-Präferenzen des Anlegers sind im Detail nicht bekannt und beeinflussen die optimale Ausrichtung (04:05, 08:28).\n- **Sehenswerte Stellen**:\n  - **00:35**: Übersicht des Ausgangsdepots und der Kennzahlen.\n  - **04:41**: Korrelationsmatrix der enthaltenen Einzelaktien.\n  - **06:18**: Konkreter Vorschlag der Ziel-Portfolio-Struktur mit 20 Werten.\n  - **08:42**: Hochrechnung zur finanziellen Freiheit im Rechner.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-20T20:31:39.302451+00:00"
 }
