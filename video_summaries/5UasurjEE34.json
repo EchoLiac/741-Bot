@@ -1,0 +1,55 @@
+{
+  "id": "5UasurjEE34",
+  "title": "SIXT: Because your portfolio doesn't need politeness, it needs performance!",
+  "url": "https://www.youtube.com/watch?v=5UasurjEE34",
+  "duration": 1624,
+  "published": null,
+  "channel": "Charts & Cars",
+  "handle": "@ChartsCarsbyPhilipKlinkmüller",
+  "status": "complete",
+  "discovered_at": "2026-09-20T08:01:35.738369+00:00",
+  "attempts": 1,
+  "last_attempt": "2026-09-20T08:01:38.608535+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nIn diesem Video analysiert Philip Klinkmüller primär die Stammaktie der Sixt SE (SIX2) sowie in einem kurzen Update die NuScale Power Corporation (06:55). Für Sixt wird trotz eines langfristig intakten Aufwärtsimpulses kurz- bis mittelfristig ein weiterer Abverkauf in die Korrekturzone zwischen 36,00 EUR und 40,00 EUR prognostiziert (17:25). Erst nach Verfestigung dieser Zone bietet sich laut Sprecher ein hochattraktives Einstiegsszenario für weit höhere Kurse über 300,00 EUR (20:05).\n\n### Typ\nMehrere Aktien\n\n### NuScale Power Corporation (SMR)\n- **Sprecherthese:** Die Gegenbewegung nach dem Ausbruch aus dem Aufwärtstrend ist sehr heftig ausgefallen; die Aktie steht vor entscheidenden Unterstützungen (07:18).\n- **Richtung:** Abwärts / Neutral.\n- **Konkret belegte Levels:** Fib-Retracements bei 8,10 USD (78.6%) und 7,68 USD (88.7%) (06:55, 07:23).\n- **Trigger:** Reagiert der Kurs nicht an der Zone 8,10 USD – 7,68 USD, drohen unmittelbar neue Tiefs (07:35).\n- **Invalidierung:** Schnelle, kräftige Erholung zurück nach oben (07:47).\n- **Zeithorizont:** Kurzfristig / imminent (07:33).\n\n### Sixt SE (SIX2 - Stammaktie)\n- **Sprecherthese:** Die Aktie hat seit 2000 einen 5-teiligen Großimpuls bis zum Allzeithoch von 170,30 EUR abgeschlossen und befindet sich in der Korrekturwelle (II) (14:30). Die bisherige Korrektur reicht noch nicht aus, um einen verlässlichen Boden zu bestätigen (17:03).\n- **Richtung:** Kurz- bis mittelfristig abwärts; langfristig sehr stark bullisch.\n- **Konkret belegte Levels:**\n  - Aktueller Kurs: ca. 68,50 EUR (08:51).\n  - Tiefziel der Welle (II) / Zielzone: **36,00 EUR bis 40,00 EUR** (Konfluenz aus 78.6% Fib-Retracements bei 36,44 EUR und 100%-Fib-Expansion bei ca. 40,20 EUR) (17:25, 18:12).\n  - Langfristiges Ziel Welle (III): **315,00 EUR bis 344,00 EUR** (20:05–20:08).\n  - Übergeordneter Widerstand / Alternativhürde: ca. 210,00 EUR (20:42).\n- **Trigger:** Erreichen und Ausbilden einer Bodenstruktur in der Zone 36,00–40,00 EUR (19:16, 25:37).\n- **Invalidierung:** Direkter Durchbruch über 210,00 EUR hebelt das bärische Zwischenszenario aus (20:42).\n- **Zeithorizont:** Mittel- bis langfristig.\n\n### Unsicherheiten und lohnenswerte Stellen\n- **Sehenswerte Stellen:** 06:55–07:37 (NuScale Chartmarken), 17:15–18:25 (Sixt Fibonacci-Konfluenzbereich 36–40 EUR) und 21:45–22:40 (Indikatorenanalyse auf Monatsbasis).\n- **Unsicherheiten:** Die Zählung des Tiefs im Corona-Crash als Welle 4 ist aufgrund des extrem tiefen Rücksetzers weit unter das 61.8%-Fibonacci-Level grenzwertig, wird aber mangels regeltreuer Alternativen beibehalten (10:12, 11:30). Die technischen Indikatoren im Monatschart zeigen zwar erste leichte Divergenzen, liefern jedoch noch kein klares Kaufsignal (22:12, 24:30).",
+  "evidence": [
+    {
+      "timestamp": "06:55",
+      "basis": "visual",
+      "observation": "Tageschart der NuScale Power Corporation zeigt Fib-Retracements bei 38.2% (9.78 USD), 50.0% (9.29 USD), 61.8% (8.80 USD), 78.6% (8.10 USD) und 88.7% (7.68 USD)."
+    },
+    {
+      "timestamp": "07:35",
+      "basis": "audio",
+      "observation": "Sprecher erklärt zu NuScale, dass beim Nicht-Halten des Bereichs 8.10 USD bis 7.68 USD übergeordnet neue Tiefs drohen."
+    },
+    {
+      "timestamp": "15:47",
+      "basis": "visual",
+      "observation": "Monatschart von Sixt SE (SIX2) zeigt Allzeithoch bei 170.30 EUR und Fib-Levels: 38.2% (105.20 EUR), 50.0% (85.15 EUR), 61.8% (65.05 EUR), 78.6% (36.44 EUR)."
+    },
+    {
+      "timestamp": "17:25",
+      "basis": "audio",
+      "observation": "Sprecher nennt das Korrekturziel für Sixt im Bereich zwischen 36.00 EUR und 40.00 EUR als absolut realistisch."
+    },
+    {
+      "timestamp": "20:05",
+      "basis": "audio",
+      "observation": "Sprecher nennt das übergeordnete Ziel einer Welle III bei Sixt im Bereich 315.00 EUR bis 344.00 EUR."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
+  "video_id": "5UasurjEE34",
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-20T08:02:14.633163+00:00",
+  "discord_chunks": [
+    "🎬 **Charts & Cars**\n**SIXT: Because your portfolio doesn't need politeness, it needs performance!**\nhttps://www.youtube.com/watch?v=5UasurjEE34\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nIn diesem Video analysiert Philip Klinkmüller primär die Stammaktie der Sixt SE (SIX2) sowie in einem kurzen Update die NuScale Power Corporation (06:55). Für Sixt wird trotz eines langfristig intakten Aufwärtsimpulses kurz- bis mittelfristig ein weiterer Abverkauf in die Korrekturzone zwischen 36,00 EUR und 40,00 EUR prognostiziert (17:25). Erst nach Verfestigung dieser Zone bietet sich laut Sprecher ein hochattraktives Einstiegsszenario für weit höhere Kurse über 300,00 EUR (20:05).\n\n### Typ\nMehrere Aktien\n\n### NuScale Power Corporation (SMR)\n- **Sprecherthese:** Die Gegenbewegung nach dem Ausbruch aus dem Aufwärtstrend ist sehr heftig ausgefallen; die Aktie steht vor entscheidenden Unterstützungen (07:18).\n- **Richtung:** Abwärts / Neutral.\n- **Konkret belegte Levels:** Fib-Retracements bei 8,10 USD (78.6%) und 7,68 USD (88.7%) (06:55, 07:23).\n- **Trigger:** Reagiert der Kurs nicht an der Zone 8,10 USD – 7,68 USD, drohen unmittelbar neue Tiefs (07:35).\n- **Invalidierung:** Schnelle, kräftige Erholung zurück nach oben (07:47).\n- **Zeithorizont:** Kurzfristig / imminent (07:33).\n\n### Sixt SE (SIX2 - Stammaktie)\n- **Sprecherthese:** Die Aktie hat seit 2000 einen 5-teiligen Großimpuls bis zum Allzeithoch von 170,30 EUR abgeschlossen und befindet sich in der Korrekturwelle (II) (14:30). Die bisherige Korrektur reicht noch nicht aus, um einen verlässlichen Boden zu bestätigen (17:03).\n- **Richtung:** Kurz- bis mittelfristig abwärts; langfristig sehr stark bullisch.\n- **Konkret belegte Levels:**\n  - Aktueller Kurs: ca. 68,50 EUR (08:51).\n  - Ti",
+    "efziel der Welle (II) / Zielzone: **36,00 EUR bis 40,00 EUR** (Konfluenz aus 78.6% Fib-Retracements bei 36,44 EUR und 100%-Fib-Expansion bei ca. 40,20 EUR) (17:25, 18:12).\n  - Langfristiges Ziel Welle (III): **315,00 EUR bis 344,00 EUR** (20:05–20:08).\n  - Übergeordneter Widerstand / Alternativhürde: ca. 210,00 EUR (20:42).\n- **Trigger:** Erreichen und Ausbilden einer Bodenstruktur in der Zone 36,00–40,00 EUR (19:16, 25:37).\n- **Invalidierung:** Direkter Durchbruch über 210,00 EUR hebelt das bärische Zwischenszenario aus (20:42).\n- **Zeithorizont:** Mittel- bis langfristig.\n\n### Unsicherheiten und lohnenswerte Stellen\n- **Sehenswerte Stellen:** 06:55–07:37 (NuScale Chartmarken), 17:15–18:25 (Sixt Fibonacci-Konfluenzbereich 36–40 EUR) und 21:45–22:40 (Indikatorenanalyse auf Monatsbasis).\n- **Unsicherheiten:** Die Zählung des Tiefs im Corona-Crash als Welle 4 ist aufgrund des extrem tiefen Rücksetzers weit unter das 61.8%-Fibonacci-Level grenzwertig, wird aber mangels regeltreuer Alternativen beibehalten (10:12, 11:30). Die technischen Indikatoren im Monatschart zeigen zwar erste leichte Divergenzen, liefern jedoch noch kein klares Kaufsignal (22:12, 24:30).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-20T08:02:15.174115+00:00"
+}
