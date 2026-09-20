@@ -6,10 +6,117 @@
   "published": null,
   "channel": "10xTrading",
   "handle": "@1OxTrading",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-19T20:01:11.202746+00:00",
-  "attempts": 17,
-  "last_attempt": "2026-09-20T06:31:35.984153+00:00",
+  "attempts": 18,
+  "last_attempt": "2026-09-20T07:01:33.407437+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nIn diesem Video präsentiert der Sprecher eine technische Chartanalyse für 10 ausgewählte Tech-, Halbleiter- und Krypto-Aktien anhand von Harmonic-Pattern-Scannern, Gleitenden Durchschnitten und Unterstützungszonen. Für viele Werte werden spezifische Einstiegs- und Trigger-Levels, Kursziele sowie Stop-Invalidierungsbereiche herausgearbeitet. Neben klaren Trendfortsetzungen wird bei spekulativen High-Beta-Titeln ausdrücklich vor Risiken bei Support-Brüchen gewarnt.\n\n**Typ:** mehrere Aktien\n\n---\n\n### Broadcom Inc. (AVGO)\n- **Sprecherthese:** Die Aktie hat zuletzt gut am Unterstützungsspektrum reagiert, könnte jedoch vor einem größeren Ausbruch nochmals leicht tiefer konsolidieren.\n- **Richtung:** Bullisch / Konsolidierend (00:41)\n- **Levels:** Support-Zone 320 $ – 350 $ (00:52 / 01:14); Max-Pain-Level 315 $ (01:18); Übergeordneter Trigger 430 $ (01:04).\n- **Trigger:** Ausbruch über den Abwärtstrend bzw. Übersteigen der Marke von 430 $ (01:04).\n- **Invalidierung:** Bruch unter die Support-Zone / 315 $ (01:18).\n- **Zeithorizont:** Mittelfristig (ca. 1 Jahr) (01:23).\n\n### CrowdStrike Holdings, Inc. (CRWD)\n- **Sprecherthese:** Reines Momentum-Play nach starkem Anstieg vom Tief bei 95 $ auf 237 $. Gewinne sollten aktiv gemanagt werden, da Strukturbewahrungszonen eingehalten werden müssen.\n- **Richtung:** Bullisch (Momentum) (02:35)\n- **Levels:** Tiefst-Kaufmarke 95 $ (02:18); aktueller Kurs 237 $ (02:23); Untere Toleranzgrenze 222 $ (03:01); Zielzone 270 $ – 280 $ (03:10).\n- **Trigger:** Halten der 20-Tage-Linie / fortgesetztes Momentum (03:31).\n- **Invalidierung:** Rückfall unter 222 $ (03:01).\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Advanced Micro Devices, Inc. (AMD)\n- **Sprecherthese:** Technisch extrem präzises Verhalten nach Ausspielen diverser Harmonic-Muster (Shark, 5-0, ABCD). Bei einem erfolgreichen Test des Levels um 525 $ ist der Weg frei für eine Welle 5 in Richtung Allzeithoch.\n- **Richtung:** Bullisch (04:24)\n- **Levels:** Support / Reality-Check 525 $ (04:43); Zielbereich Allzeithoch ca. 600 $ (05:01).\n- **Trigger:** Erneuter Rücksetzer/Bestätigung auf 525 $ (04:42).\n- **Invalidierung:** Bruch unter 525 $ (04:47).\n- **Zeithorizont:** Nicht genannt.\n\n### Oracle Corporation (ORCL)\n- **Sprecherthese:** Die Aktie steckt fest zwischen 200-Tage-/Wochen-Gleitdurchschnitten. Fällt der Support, droht ein SKS-Muster bis 110 $; bricht sie nach oben aus, winkt ein Ziel von 180 $.\n- **Richtung:** Neutral / Warten auf Breakout (05:18)\n- **Levels:** SKS-Abwärtsziel ca. 110 $ (06:29); Ausbruchstrigger 153 $ (06:41) bis 163 $ (06:43); ABC-Oberziel ca. 180 $ (05:52); Bat-Pattern-Ziel ca. 240 $ (06:00).\n- **Trigger:** Wochenausbruch über 153 $ bzw. 163 $ (06:40).\n- **Invalidierung:** Bruch der Nackenlinie/Support-Zone unterhalb der 200-Wochen-Linie (06:23).\n- **Zeithorizont:** Nächste Woche bis mittelfristig (06:40).\n\n### Coinbase Global, Inc. (COIN)\n- **Sprecherthese:** Notiert am Widerstand eines Megafon-Musters. Bei einem bullischen Verlauf darf die Aktie nicht unter 180 $ fallen; andernfalls droht ein Rücksetzer in die Akkumulationszone.\n- **Richtung:** Neutral / Abwartend (08:25)\n- **Levels:** Schranke 180 $ / Alarm 182 $ (08:15 / 08:50); Akkumulationszone 130 $ – 170 $ (08:37).\n- **Trigger:** Ausbruch über die abwärtsgerichtete Trendlinie (09:16).\n- **Invalidierung:** Rückfall unter 180 $ (08:15).\n- **Zeithorizont:** Bis Ende des Jahres / Krypto-Zyklus (09:13).\n\n### MicroStrategy / Strategy Inc. (MSTR)\n- **Sprecherthese:** Aktie liegt aktuell ungünstig unter den 50- und 200-Wochen-Linien. Für Trading-Einstiege wird ein Ausbruch über 180 $ mit Retest oder ein schärferer Rücksetzer abgewartet.\n- **Richtung:** Abwartend / Mittelfristig bullisch (10:00)\n- **Levels:** Ziel 1: 320 $ (10:33); Ziel 2: 500 $ (10:36); Ziel 3: 830 $ (11:06); Max-Ziel: 1000 $ (11:09); Rücksetzbereich 105 $ – 108 $ (11:47); Ausbruchstrigger 180 $ (12:13); Backtest-Kaufzone 155 $ (12:16).\n- **Trigger:** Ausbruch über 180 $ (12:13).\n- **Invalidierung:** Einstieg direkt unter den Gleitenden Durchschnitten ohne Bestätigung (12:03).\n- **Zeithorizont:** Krypto-Bullrun / Mittelfristig.\n\n### Palantir Technologies Inc. (PLTR)\n- **Sprecherthese:** Reagiert verlässlich an Support-Marken und bewegt sich im 61,8%-Fibonacci-Retracementsbereich. Solange 165–170 $ halten, ist der Weg in Richtung 180–195 $ geebnet.\n- **Richtung:** Bullisch (12:35)\n- **Levels:** Unterer Support 165 $ – 170 $ (13:36 / 13:39); Ausbruchsmarke 180 $ (14:10); Zielbereich 190 $ – 195 $ (14:31).\n- **Trigger:** Ausbruch über 180 $ (14:10).\n- **Invalidierung:** Bruch unter 165 $ – 170 $ (13:36).\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n### IonQ, Inc. (IONQ)\n- **Sprecherthese:** Starkes Quantencomputing-Wachstum, aber sehr hohe Bewertung. Solange der Support um 33 $ hält, bleiben ambitionierte Kursziele von 93 $ bis 115 $ valide.\n- **Richtung:** Spekulativ bullisch (14:36)\n- **Levels:** Fallback-Support/Preisalarm 33 $ (17:10); Zielzone 93 $ – 115 $ (17:23).\n- **Trigger:** Halten der Struktur oberhalb von 33 $ bzw. der 200-Wochen-Linie (17:15).\n- **Invalidierung:** Bruch der 200-Wochen-Linie / Fall unter 33 $ (16:16 / 17:00).\n- **Zeithorizont:** Mittelfristig.\n\n### NuScale Power Corporation (SMR)\n- **Sprecherthese:** Spekulativer High-Beta-Titel im Nuklearsektor. Bei Halten der 7-$-Marke winkt ein Doppelboden-Setup, bei Bruch droht ein tiefer Sturz auf 4,50 $.\n- **Richtung:** Spekulativ bullisch / Bedingt (19:07)\n- **Levels:** Supportschwellenwert > 7 $ (19:15); Preisalarm < 7 $ (19:21); Tiefziel bei Bruch 4,50 $ (19:04).\n- **Trigger:** Bestätigung des Doppelbodens oberhalb von 7 $ (19:01).\n- **Invalidierung:** Bruch unter 7 $ (19:21).\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Intel Corporation (INTC)\n- **Sprecherthese:** Erholung nach Doppelboden läuft nach Plan. Bleibt der Kurs über 100 $, liegt das nächste primäre Ziel bei 125–130 $.\n- **Richtung:** Bullisch (20:05)\n- **Levels:** Preisalarm/Schranke unter 100 $ (21:44); Zielbereich 125 $ – 130 $ (21:22).\n- **Trigger:** Halten oberhalb der 100-$-Marke (21:45).\n- **Invalidierung:** Rückfall in den zweistelligen Bereich (< 100 $) (21:45).\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n---\n\n### Unsicherheiten & lohnenswerte Videostellen\n- **Unsicherheiten:** Bei Werten wie Oracle, MicroStrategy oder NuScale entscheiden minimale Preisgrenzen über einen bullischen Breakout oder einen tiefen Abverkauf. Zudem hängen die Krypto-Aktien stark von der Entwicklung des Bitcoin-Zyklus ab.\n- **Sehenswerte Stellen:**\n  - **03:43 – 05:10:** Detaillierte Herleitung der Harmonic-Muster (Shark, 5-0, ABCD) bei AMD.\n  - **05:10 – 06:53:** Oracle Chartanalyse mit der Gegenüberstellung von SKS-Gefahr und Bullen-Breakout.\n  - **17:35 – 19:56:** NuScale Power und Erklärung der Einstellungen des Harmonic Scanners.",
+  "evidence": [
+    {
+      "timestamp": "00:52",
+      "basis": "audio",
+      "observation": "Sprecher nennt Kaufzone für Broadcom zwischen 320 $ und 350 $."
+    },
+    {
+      "timestamp": "01:04",
+      "basis": "audio",
+      "observation": "Sprecher nennt 430 $ als großen Trigger für Broadcom."
+    },
+    {
+      "timestamp": "02:18",
+      "basis": "audio",
+      "observation": "Sprecher verweist auf Kaufgelegenheit bei CrowdStrike bei 95 $ im Vergleich zu aktuellen 237 $."
+    },
+    {
+      "timestamp": "03:01",
+      "basis": "audio",
+      "observation": "Sprecher nennt Untergrenze von 222 $ für CrowdStrike."
+    },
+    {
+      "timestamp": "03:10",
+      "basis": "audio",
+      "observation": "Sprecher nennt Zielzone 270 $ bis 280 $ für CrowdStrike."
+    },
+    {
+      "timestamp": "04:43",
+      "basis": "audio",
+      "observation": "Sprecher nennt Rücksetzer-Support bei 525 $ für AMD."
+    },
+    {
+      "timestamp": "05:01",
+      "basis": "audio",
+      "observation": "Sprecher nennt Allzeithoch-Zielbereich um 600 $ für AMD."
+    },
+    {
+      "timestamp": "06:29",
+      "basis": "audio",
+      "observation": "Sprecher nennt rechnerisches SKS-Abwärtsziel von ca. 110 $ bei Oracle."
+    },
+    {
+      "timestamp": "06:40",
+      "basis": "audio",
+      "observation": "Sprecher setzt Breakout-Trigger über 153 $ bzw. 163 $ bei Oracle."
+    },
+    {
+      "timestamp": "08:15",
+      "basis": "audio",
+      "observation": "Sprecher betont, bei Coinbase keine Kurse unter 180 $ sehen zu wollen."
+    },
+    {
+      "timestamp": "10:33",
+      "basis": "audio",
+      "observation": "Sprecher nennt erstes übergeordnetes Ziel bei MicroStrategy von 320 $ und mittelfristig ca. 500 $."
+    },
+    {
+      "timestamp": "12:13",
+      "basis": "audio",
+      "observation": "Sprecher nennt Ausbruchstrigger bei 180 $ und Backtest-Kaufzone bei 155 $ für MicroStrategy."
+    },
+    {
+      "timestamp": "13:36",
+      "basis": "audio",
+      "observation": "Sprecher nennt kurzfristige Untergrenze von 165 $ bis 170 $ für Palantir."
+    },
+    {
+      "timestamp": "14:31",
+      "basis": "audio",
+      "observation": "Sprecher nennt Hauptzielzone bei 190 $ bis 195 $ für Palantir."
+    },
+    {
+      "timestamp": "17:10",
+      "basis": "audio",
+      "observation": "Sprecher setzt Preisalarm bei IonQ bei ca. 33 $ und nennt Zielzone von 93 $ bis 115 $."
+    },
+    {
+      "timestamp": "19:04",
+      "basis": "audio",
+      "observation": "Sprecher warnt bei NuScale vor Absturz auf 4,50 $, falls die Marke von 7 $ bricht."
+    },
+    {
+      "timestamp": "21:22",
+      "basis": "audio",
+      "observation": "Sprecher nennt Kursziel von 125 $ bis 130 $ für Intel."
+    },
+    {
+      "timestamp": "21:44",
+      "basis": "visual",
+      "observation": "Sprecher setzt Preisalarm unter 100 $ im Chart von Intel."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "5rCiaxnaqy0",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-20T07:02:30.269133+00:00",
+  "discord_chunks": [
+    "🎬 **10xTrading**\n**🚨 10 AKTIEN 💥 Broadcom Crowdstrike AMD Oracle Coinbase Palantir Intel Strategy IonQ NuScale Power**\nhttps://www.youtube.com/watch?v=5rCiaxnaqy0\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nIn diesem Video präsentiert der Sprecher eine technische Chartanalyse für 10 ausgewählte Tech-, Halbleiter- und Krypto-Aktien anhand von Harmonic-Pattern-Scannern, Gleitenden Durchschnitten und Unterstützungszonen. Für viele Werte werden spezifische Einstiegs- und Trigger-Levels, Kursziele sowie Stop-Invalidierungsbereiche herausgearbeitet. Neben klaren Trendfortsetzungen wird bei spekulativen High-Beta-Titeln ausdrücklich vor Risiken bei Support-Brüchen gewarnt.\n\n**Typ:** mehrere Aktien\n\n---\n\n### Broadcom Inc. (AVGO)\n- **Sprecherthese:** Die Aktie hat zuletzt gut am Unterstützungsspektrum reagiert, könnte jedoch vor einem größeren Ausbruch nochmals leicht tiefer konsolidieren.\n- **Richtung:** Bullisch / Konsolidierend (00:41)\n- **Levels:** Support-Zone 320 $ – 350 $ (00:52 / 01:14); Max-Pain-Level 315 $ (01:18); Übergeordneter Trigger 430 $ (01:04).\n- **Trigger:** Ausbruch über den Abwärtstrend bzw. Übersteigen der Marke von 430 $ (01:04).\n- **Invalidierung:** Bruch unter die Support-Zone / 315 $ (01:18).\n- **Zeithorizont:** Mittelfristig (ca. 1 Jahr) (01:23).\n\n### CrowdStrike Holdings, Inc. (CRWD)\n- **Sprecherthese:** Reines Momentum-Play nach starkem Anstieg vom Tief bei 95 $ auf 237 $. Gewinne sollten aktiv gemanagt werden, da Strukturbewahrungszonen eingehalten werden müssen.\n- **Richtung:** Bullisch (Momentum) (02:35)\n- **Levels:** Tiefst-Kaufmarke 95 $ (02:18); aktueller Kurs 237 $ (02:23); Untere Toleranzgrenze 222 $ (03:01); Zielzone 270 $ – 280 $ (03:10).\n- **Trigger:** Halten der 20-Tage-Linie / fortgesetztes M",
+    "omentum (03:31).\n- **Invalidierung:** Rückfall unter 222 $ (03:01).\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Advanced Micro Devices, Inc. (AMD)\n- **Sprecherthese:** Technisch extrem präzises Verhalten nach Ausspielen diverser Harmonic-Muster (Shark, 5-0, ABCD). Bei einem erfolgreichen Test des Levels um 525 $ ist der Weg frei für eine Welle 5 in Richtung Allzeithoch.\n- **Richtung:** Bullisch (04:24)\n- **Levels:** Support / Reality-Check 525 $ (04:43); Zielbereich Allzeithoch ca. 600 $ (05:01).\n- **Trigger:** Erneuter Rücksetzer/Bestätigung auf 525 $ (04:42).\n- **Invalidierung:** Bruch unter 525 $ (04:47).\n- **Zeithorizont:** Nicht genannt.\n\n### Oracle Corporation (ORCL)\n- **Sprecherthese:** Die Aktie steckt fest zwischen 200-Tage-/Wochen-Gleitdurchschnitten. Fällt der Support, droht ein SKS-Muster bis 110 $; bricht sie nach oben aus, winkt ein Ziel von 180 $.\n- **Richtung:** Neutral / Warten auf Breakout (05:18)\n- **Levels:** SKS-Abwärtsziel ca. 110 $ (06:29); Ausbruchstrigger 153 $ (06:41) bis 163 $ (06:43); ABC-Oberziel ca. 180 $ (05:52); Bat-Pattern-Ziel ca. 240 $ (06:00).\n- **Trigger:** Wochenausbruch über 153 $ bzw. 163 $ (06:40).\n- **Invalidierung:** Bruch der Nackenlinie/Support-Zone unterhalb der 200-Wochen-Linie (06:23).\n- **Zeithorizont:** Nächste Woche bis mittelfristig (06:40).\n\n### Coinbase Global, Inc. (COIN)\n- **Sprecherthese:** Notiert am Widerstand eines Megafon-Musters. Bei einem bullischen Verlauf darf die Aktie nicht unter 180 $ fallen; andernfalls droht ein Rücksetzer in die Akkumulationszone.\n- **Richtung:** Neutral / Abwartend (08:25)\n- **Levels:** Schranke 180 $ / Alarm 182 $ (08:15 / 08:50); Akkumulationszone 130 $ – 170 $ (08:37).\n- **Trigger:** Ausbruch über die abwärtsgerichtete Trendlinie (09:16).\n- **Invalidierung:** Rückfall unter",
+    " 180 $ (08:15).\n- **Zeithorizont:** Bis Ende des Jahres / Krypto-Zyklus (09:13).\n\n### MicroStrategy / Strategy Inc. (MSTR)\n- **Sprecherthese:** Aktie liegt aktuell ungünstig unter den 50- und 200-Wochen-Linien. Für Trading-Einstiege wird ein Ausbruch über 180 $ mit Retest oder ein schärferer Rücksetzer abgewartet.\n- **Richtung:** Abwartend / Mittelfristig bullisch (10:00)\n- **Levels:** Ziel 1: 320 $ (10:33); Ziel 2: 500 $ (10:36); Ziel 3: 830 $ (11:06); Max-Ziel: 1000 $ (11:09); Rücksetzbereich 105 $ – 108 $ (11:47); Ausbruchstrigger 180 $ (12:13); Backtest-Kaufzone 155 $ (12:16).\n- **Trigger:** Ausbruch über 180 $ (12:13).\n- **Invalidierung:** Einstieg direkt unter den Gleitenden Durchschnitten ohne Bestätigung (12:03).\n- **Zeithorizont:** Krypto-Bullrun / Mittelfristig.\n\n### Palantir Technologies Inc. (PLTR)\n- **Sprecherthese:** Reagiert verlässlich an Support-Marken und bewegt sich im 61,8%-Fibonacci-Retracementsbereich. Solange 165–170 $ halten, ist der Weg in Richtung 180–195 $ geebnet.\n- **Richtung:** Bullisch (12:35)\n- **Levels:** Unterer Support 165 $ – 170 $ (13:36 / 13:39); Ausbruchsmarke 180 $ (14:10); Zielbereich 190 $ – 195 $ (14:31).\n- **Trigger:** Ausbruch über 180 $ (14:10).\n- **Invalidierung:** Bruch unter 165 $ – 170 $ (13:36).\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n### IonQ, Inc. (IONQ)\n- **Sprecherthese:** Starkes Quantencomputing-Wachstum, aber sehr hohe Bewertung. Solange der Support um 33 $ hält, bleiben ambitionierte Kursziele von 93 $ bis 115 $ valide.\n- **Richtung:** Spekulativ bullisch (14:36)\n- **Levels:** Fallback-Support/Preisalarm 33 $ (17:10); Zielzone 93 $ – 115 $ (17:23).\n- **Trigger:** Halten der Struktur oberhalb von 33 $ bzw. der 200-Wochen-Linie (17:15).\n- **Invalidierung:** Bruch der 200-Wochen-Linie / Fall unter 33 $ (16:16",
+    " / 17:00).\n- **Zeithorizont:** Mittelfristig.\n\n### NuScale Power Corporation (SMR)\n- **Sprecherthese:** Spekulativer High-Beta-Titel im Nuklearsektor. Bei Halten der 7-$-Marke winkt ein Doppelboden-Setup, bei Bruch droht ein tiefer Sturz auf 4,50 $.\n- **Richtung:** Spekulativ bullisch / Bedingt (19:07)\n- **Levels:** Supportschwellenwert > 7 $ (19:15); Preisalarm < 7 $ (19:21); Tiefziel bei Bruch 4,50 $ (19:04).\n- **Trigger:** Bestätigung des Doppelbodens oberhalb von 7 $ (19:01).\n- **Invalidierung:** Bruch unter 7 $ (19:21).\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Intel Corporation (INTC)\n- **Sprecherthese:** Erholung nach Doppelboden läuft nach Plan. Bleibt der Kurs über 100 $, liegt das nächste primäre Ziel bei 125–130 $.\n- **Richtung:** Bullisch (20:05)\n- **Levels:** Preisalarm/Schranke unter 100 $ (21:44); Zielbereich 125 $ – 130 $ (21:22).\n- **Trigger:** Halten oberhalb der 100-$-Marke (21:45).\n- **Invalidierung:** Rückfall in den zweistelligen Bereich (< 100 $) (21:45).\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n---\n\n### Unsicherheiten & lohnenswerte Videostellen\n- **Unsicherheiten:** Bei Werten wie Oracle, MicroStrategy oder NuScale entscheiden minimale Preisgrenzen über einen bullischen Breakout oder einen tiefen Abverkauf. Zudem hängen die Krypto-Aktien stark von der Entwicklung des Bitcoin-Zyklus ab.\n- **Sehenswerte Stellen:**\n  - **03:43 – 05:10:** Detaillierte Herleitung der Harmonic-Muster (Shark, 5-0, ABCD) bei AMD.\n  - **05:10 – 06:53:** Oracle Chartanalyse mit der Gegenüberstellung von SKS-Gefahr und Bullen-Breakout.\n  - **17:35 – 19:56:** NuScale Power und Erklärung der Einstellungen des Harmonic Scanners.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 4,
+  "discord_sent_at": "2026-09-20T07:02:31.798021+00:00"
 }
