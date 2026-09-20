@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-20T15:01:17.346497+00:00",
-    "@wir-lieben-aktien": "2026-09-20T15:01:17.931246+00:00",
-    "@chartsekte": "2026-09-20T15:01:18.427823+00:00",
-    "@hkcm": "2026-09-20T15:01:19.034074+00:00",
-    "@phantombyhkcm": "2026-09-20T15:01:19.778540+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-20T15:01:20.285251+00:00",
-    "@aktien4future": "2026-09-20T15:01:20.869095+00:00",
-    "@Finanzbaer": "2026-09-20T15:01:21.474826+00:00",
-    "@Finanzwiesel": "2026-09-20T15:01:21.984083+00:00",
-    "@TradingKompass": "2026-09-20T15:01:22.540837+00:00",
-    "@TomVorwald": "2026-09-20T15:01:23.152325+00:00"
+    "@1OxTrading": "2026-09-20T15:31:16.788366+00:00",
+    "@wir-lieben-aktien": "2026-09-20T15:31:17.321927+00:00",
+    "@chartsekte": "2026-09-20T15:31:17.857909+00:00",
+    "@hkcm": "2026-09-20T15:31:18.447949+00:00",
+    "@phantombyhkcm": "2026-09-20T15:31:19.108558+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-20T15:31:19.612250+00:00",
+    "@aktien4future": "2026-09-20T15:31:20.184196+00:00",
+    "@Finanzbaer": "2026-09-20T15:31:20.797848+00:00",
+    "@Finanzwiesel": "2026-09-20T15:31:21.368513+00:00",
+    "@TradingKompass": "2026-09-20T15:31:21.916794+00:00",
+    "@TomVorwald": "2026-09-20T15:31:22.498481+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 185,
-    "last_attempt": "2026-09-20T15:01:23.210364+00:00"
+    "attempts": 186,
+    "last_attempt": "2026-09-20T15:32:28.675842+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -5028,5 +5028,18 @@
     "attempts": 1,
     "last_attempt": "2026-09-20T08:01:38.608535+00:00",
     "scraped_at": "2026-09-20T08:02:15.175198+00:00"
+  },
+  "1gJrKs3HLvA": {
+    "id": "1gJrKs3HLvA",
+    "title": "KRYPTO: Rally noch lange nicht vorbei? 🤯 Bitcoin XRP Avalanche AVAX Ethereum Analyse",
+    "url": "https://www.youtube.com/watch?v=1gJrKs3HLvA",
+    "duration": 1136,
+    "published": null,
+    "channel": "TradingKompass",
+    "handle": "@TradingKompass",
+    "status": "pending",
+    "discovered_at": "2026-09-20T15:31:21.916768+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-20T15:31:22.564337+00:00"
   }
 }
