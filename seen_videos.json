@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-20T08:01:33.021948+00:00",
-    "@wir-lieben-aktien": "2026-09-20T08:01:33.568851+00:00",
-    "@chartsekte": "2026-09-20T08:01:34.051160+00:00",
-    "@hkcm": "2026-09-20T08:01:34.618735+00:00",
-    "@phantombyhkcm": "2026-09-20T08:01:35.140244+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-20T08:01:35.738387+00:00",
-    "@aktien4future": "2026-09-20T08:01:36.365901+00:00",
-    "@Finanzbaer": "2026-09-20T08:01:36.938268+00:00",
-    "@Finanzwiesel": "2026-09-20T08:01:37.453138+00:00",
-    "@TradingKompass": "2026-09-20T08:01:37.986825+00:00",
-    "@TomVorwald": "2026-09-20T08:01:38.551748+00:00"
+    "@1OxTrading": "2026-09-20T08:31:08.556050+00:00",
+    "@wir-lieben-aktien": "2026-09-20T08:31:09.023653+00:00",
+    "@chartsekte": "2026-09-20T08:31:09.461115+00:00",
+    "@hkcm": "2026-09-20T08:31:09.931330+00:00",
+    "@phantombyhkcm": "2026-09-20T08:31:10.443395+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-20T08:31:10.890536+00:00",
+    "@aktien4future": "2026-09-20T08:31:11.374103+00:00",
+    "@Finanzbaer": "2026-09-20T08:31:11.852506+00:00",
+    "@Finanzwiesel": "2026-09-20T08:31:12.336869+00:00",
+    "@TradingKompass": "2026-09-20T08:31:12.805884+00:00",
+    "@TomVorwald": "2026-09-20T08:31:13.276544+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 171,
-    "last_attempt": "2026-09-20T08:02:40.468193+00:00"
+    "attempts": 172,
+    "last_attempt": "2026-09-20T08:31:43.471800+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -4981,10 +4981,11 @@
     "published": null,
     "channel": "Phantom by HKCM",
     "handle": "@phantombyhkcm",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-19T20:01:13.505722+00:00",
-    "attempts": 19,
-    "last_attempt": "2026-09-20T08:02:15.179349+00:00"
+    "attempts": 20,
+    "last_attempt": "2026-09-20T08:31:13.334390+00:00",
+    "scraped_at": "2026-09-20T08:31:43.467664+00:00"
   },
   "R6syf_N-hno": {
     "id": "R6syf_N-hno",

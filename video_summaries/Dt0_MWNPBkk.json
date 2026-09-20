@@ -6,10 +6,101 @@
   "published": null,
   "channel": "Phantom by HKCM",
   "handle": "@phantombyhkcm",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-19T20:01:13.505722+00:00",
-  "attempts": 19,
-  "last_attempt": "2026-09-20T08:02:40.463653+00:00",
+  "attempts": 20,
+  "last_attempt": "2026-09-20T08:31:13.334390+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher analysiert den Kryptomarkt und vertritt die These, dass viele Altcoins nach langwierigen Korrekturphasen ihren Zyklusboden erreicht haben oder kurz davor stehen. Trotz politischer Dämpfer und diffuser Marktstimmung zeigen die technischen Charts zunehmend impulsive Aufwärtsstrukturen. Im Fokus stehen neben der Gesamtmarktkapitalisierung (TOTAL3) und der Bitcoin-Dominanz die Altcoins XRP, AVAX, Polygon und Solana (00:52).\n\n### Typ\nMehrere Kryptowährungen / Markt\n\n### Markt- & Coin-Analysen\n\n#### Gesamtmarkt & BTC-Dominanz (04:25 - 07:34)\n* **Sprecherthese:** Eine nachhaltige Altcoin-Rallye erfordert das Sinken der Bitcoin-Dominanz unter die 57%-Marke (06:23).\n* **Richtung:** Neutral bis mittel- bis langfristig positiv für Altcoins.\n* **Levels:** Schlüsselmarke Bitcoin-Dominanz bei 57% (06:23); Welle-D-Ziel für Ethereum/Bitcoin-Verhältnis bei ca. 0,05 (07:25).\n* **Trigger:** Unterschreiten der 57%-Marke bei der BTC-Dominanz.\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittelfristig.\n\n#### XRP (08:55 - 11:36)\n* **Sprecherthese:** XRP hat nach der Korrektur auf das 61,8%-Retracement in der Zielzone positiv reagiert und weist Kurspotenzial auf (10:37).\n* **Richtung:** Kurzfristig konsolidierend, übergeordnet bullisch.\n* **Levels:** Support/Kaufzone bei ca. 1,19 USD (10:37); Invalidation-Marke bei 0,38 USD (10:23); kurzfristiges Expansionsziel Welle 3 bei 2,40 USD bis 3,10 USD (11:01); langfristiges Y-Wellen-Ziel bei 5,88 USD bis 6,00 USD (10:08).\n* **Trigger:** Ausbruch über das Hoch der X-Welle (10:51).\n* **Invalidierung:** Unterschreiten des lokalen Tiefs bei ca. 0,38 USD (10:23).\n* **Zeithorizont:** Mittel- bis langfristig.\n\n#### Avalanche / AVAX (11:38 - 14:28)\n* **Sprecherthese:** Der Zyklusboden in der langfristigen Einstiegszone ist mit hoher Wahrscheinlichkeit ausgebildet (14:07).\n* **Richtung:** Bullisch.\n* **Levels:** Einstiegszone 2,35 USD bis 12,61 USD (11:44); Zwischenhürde bei 10,45 USD / 10,71 USD (13:17, 14:02); Welle-1-Ziel über 35,82 USD (14:21); Langfristziel über 151,22 USD (14:15).\n* **Trigger:** Nachhaltiger Ausbruch über 10,45 USD zur Bestätigung des Sekundärszenarios (13:21).\n* **Invalidierung:** Bruch der tiefen Einstiegszone / neues Tief unter 2,35 USD (11:44).\n* **Zeithorizont:** Mittel- bis langfristig.\n\n#### Polygon / POL (14:29 - 16:42)\n* **Sprecherthese:** Polygon hat nach einer 88%-Erholung gute Chancen auf eine Zyklusbodenbestätigung, sofern die 0,07 USD-Marke hält (15:09, 15:28).\n* **Richtung:** Kurzfristig Korrektur/Rücksetzer erwartet, danach bullisch.\n* **Levels:** Unterstützung bei 0,07 USD (15:28); Erholungshoch bei 0,12 USD (15:09, 16:24); Widerstände bei 0,19 USD (16:36) und 0,30 USD (16:40).\n* **Trigger:** Ausbruch über die 0,12 USD-Marke zur Beschleunigung der Aufwärtsdynamik (16:24).\n* **Invalidierung:** Bruch der Schlüsselunterstützung bei 0,07 USD führt zu neuem Zyklustief (15:49).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n#### Solana / SOL (16:43 - 18:36)\n* **Sprecherthese:** Solana zeigt eine extrem starke fünfwellige Impulsstruktur und hat den Zyklusboden beim 78,6%-Retracement um 70 USD bestätigt (17:04, 18:08).\n* **Richtung:** Bullisch.\n* **Levels:** Zyklusboden bei 70 USD (18:08); Welle-3-Mindestziel bei 109 USD bis 120 USD (17:25); langfristige Expansionszielzone bei 524 USD bis 810 USD (18:25).\n* **Trigger:** Fortsetzung der laufenden Welle-5- bzw. Welle-3-Expansion (17:39).\n* **Invalidierung:** Rückfall unter den Zyklusboden bei 70 USD (18:08).\n* **Zeithorizont:** Langfristig.\n\n### Unsicherheiten & sehenswerte Stellen\n* **Unsicherheiten:** Anhaltend negatives sentimentales Marktumfeld (\"Disbelief-Rallye\") sowie politische Verzögerungen (z. B. Veto/Scheitern des Clarity Acts, 00:29).\n* **Sehenswerte Stellen:** \n  * 04:45 - Übersicht TOTAL3 und Erholung aus den Kaufzielzonen.\n  * 10:35 - Punktgenaue XRP-Reaktion an der Oberkante der Zielzone.\n  * 13:15 - Avalanche Truncation-Diskussion und Projektion.\n  * 16:00 - Polygon 78,6%-Retracement und 0,07-USD-Schlüsselmarke.\n  * 18:05 - Solana Langzeit-Retracement und Expansionszielzone bis 810 USD.",
+  "evidence": [
+    {
+      "timestamp": "00:29",
+      "basis": "audio",
+      "observation": "Sprecher erwähnt das voraussichtliche Scheitern des Clarity Acts in diesem Jahr wegen der Gegenstimmen der Demokraten sowie eine Zinssenkung der US-Notenbank um 25 Basispunkte."
+    },
+    {
+      "timestamp": "04:45",
+      "basis": "visual",
+      "observation": "Im Chart 'Crypto Total Market Cap Excluding BTC & ETH' wird der Ausbruch nach oben aus der grünen Kaufzielzone gezeigt."
+    },
+    {
+      "timestamp": "06:23",
+      "basis": "visual",
+      "observation": "Chart zur Bitcoin-Dominanz zeigt eine horizontale Linie bei 57,00% als entscheidende Marke."
+    },
+    {
+      "timestamp": "10:08",
+      "basis": "visual",
+      "observation": "Im XRP-Chart wird eine grüne Projektionszone für Welle [Y] zwischen 5,88 USD und 6,00 USD eingeblendet."
+    },
+    {
+      "timestamp": "10:37",
+      "basis": "visual",
+      "observation": "XRP-Chart zeigt den Rücksetzer an das 61,8%-Retracement an der Oberkante der Kaufzielzone mit anschließender Erholung von +16%."
+    },
+    {
+      "timestamp": "11:01",
+      "basis": "audio",
+      "observation": "Sprecher nennt für XRP ein kurzfristiges Expansionsziel der Welle 3 von 162% bis 262% (entspricht 2,40 USD bis 3,10 USD)."
+    },
+    {
+      "timestamp": "11:44",
+      "basis": "visual",
+      "observation": "Im AVAX-Chart wird die 'Long-Term Entry'-Box im Bereich von 12,61 USD bis 2,35 USD angezeigt."
+    },
+    {
+      "timestamp": "13:17",
+      "basis": "visual",
+      "observation": "Im AVAX-Chart ist die Marke von 10,45 USD als grünes Level / Ziel der Welle 3 hervorgehoben."
+    },
+    {
+      "timestamp": "14:15",
+      "basis": "visual",
+      "observation": "AVAX-Chart zeigt langfristige grüne Zielmarken bei 35,82 USD und 151,22 USD."
+    },
+    {
+      "timestamp": "15:09",
+      "basis": "visual",
+      "observation": "Polygon/POL-Chart zeigt einen Anstieg vom lokalen Tief um +88% bis auf 0,12 USD."
+    },
+    {
+      "timestamp": "15:28",
+      "basis": "audio",
+      "observation": "Sprecher betont, dass Polygon die 7-Cent-Marke (0,07 USD) halten muss, um das Tief als Zyklusboden zu bestätigen."
+    },
+    {
+      "timestamp": "16:24",
+      "basis": "audio",
+      "observation": "Sprecher erklärt, dass bei einem Übersteigen der 12-Cent-Marke bei Polygon ein Ausbruch über 0,19 USD bis 0,30 USD eingeleitet wird."
+    },
+    {
+      "timestamp": "17:25",
+      "basis": "visual",
+      "observation": "Solana-Chart zeigt das Erreichen des 161,8%-Mindestzielbereichs für Welle (3) bei ca. 109 USD bis 120 USD."
+    },
+    {
+      "timestamp": "18:08",
+      "basis": "visual",
+      "observation": "Im langfristigen Solana-Chart wird das 78,6%-Retracement exakt bei 70 USD gezeigt."
+    },
+    {
+      "timestamp": "18:25",
+      "basis": "visual",
+      "observation": "Solana-Chart zeigt eine blaue Zielzone für die langfristige Expansion zwischen 524 USD und 810 USD."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "Dt0_MWNPBkk",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-20T08:31:42.889909+00:00",
+  "discord_chunks": [
+    "🎬 **Phantom by HKCM**\n**Die meisten Anleger werden verpassen was hier bevorsteht**\nhttps://www.youtube.com/watch?v=Dt0_MWNPBkk\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher analysiert den Kryptomarkt und vertritt die These, dass viele Altcoins nach langwierigen Korrekturphasen ihren Zyklusboden erreicht haben oder kurz davor stehen. Trotz politischer Dämpfer und diffuser Marktstimmung zeigen die technischen Charts zunehmend impulsive Aufwärtsstrukturen. Im Fokus stehen neben der Gesamtmarktkapitalisierung (TOTAL3) und der Bitcoin-Dominanz die Altcoins XRP, AVAX, Polygon und Solana (00:52).\n\n### Typ\nMehrere Kryptowährungen / Markt\n\n### Markt- & Coin-Analysen\n\n#### Gesamtmarkt & BTC-Dominanz (04:25 - 07:34)\n* **Sprecherthese:** Eine nachhaltige Altcoin-Rallye erfordert das Sinken der Bitcoin-Dominanz unter die 57%-Marke (06:23).\n* **Richtung:** Neutral bis mittel- bis langfristig positiv für Altcoins.\n* **Levels:** Schlüsselmarke Bitcoin-Dominanz bei 57% (06:23); Welle-D-Ziel für Ethereum/Bitcoin-Verhältnis bei ca. 0,05 (07:25).\n* **Trigger:** Unterschreiten der 57%-Marke bei der BTC-Dominanz.\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittelfristig.\n\n#### XRP (08:55 - 11:36)\n* **Sprecherthese:** XRP hat nach der Korrektur auf das 61,8%-Retracement in der Zielzone positiv reagiert und weist Kurspotenzial auf (10:37).\n* **Richtung:** Kurzfristig konsolidierend, übergeordnet bullisch.\n* **Levels:** Support/Kaufzone bei ca. 1,19 USD (10:37); Invalidation-Marke bei 0,38 USD (10:23); kurzfristiges Expansionsziel Welle 3 bei 2,40 USD bis 3,10 USD (11:01); langfristiges Y-Wellen-Ziel bei 5,88 USD bis 6,00 USD (10:08).\n* **Trigger:** Ausbruch über das Hoch der X-Welle (10:51).\n* **Invalidierung:** Unterschreite",
+    "n des lokalen Tiefs bei ca. 0,38 USD (10:23).\n* **Zeithorizont:** Mittel- bis langfristig.\n\n#### Avalanche / AVAX (11:38 - 14:28)\n* **Sprecherthese:** Der Zyklusboden in der langfristigen Einstiegszone ist mit hoher Wahrscheinlichkeit ausgebildet (14:07).\n* **Richtung:** Bullisch.\n* **Levels:** Einstiegszone 2,35 USD bis 12,61 USD (11:44); Zwischenhürde bei 10,45 USD / 10,71 USD (13:17, 14:02); Welle-1-Ziel über 35,82 USD (14:21); Langfristziel über 151,22 USD (14:15).\n* **Trigger:** Nachhaltiger Ausbruch über 10,45 USD zur Bestätigung des Sekundärszenarios (13:21).\n* **Invalidierung:** Bruch der tiefen Einstiegszone / neues Tief unter 2,35 USD (11:44).\n* **Zeithorizont:** Mittel- bis langfristig.\n\n#### Polygon / POL (14:29 - 16:42)\n* **Sprecherthese:** Polygon hat nach einer 88%-Erholung gute Chancen auf eine Zyklusbodenbestätigung, sofern die 0,07 USD-Marke hält (15:09, 15:28).\n* **Richtung:** Kurzfristig Korrektur/Rücksetzer erwartet, danach bullisch.\n* **Levels:** Unterstützung bei 0,07 USD (15:28); Erholungshoch bei 0,12 USD (15:09, 16:24); Widerstände bei 0,19 USD (16:36) und 0,30 USD (16:40).\n* **Trigger:** Ausbruch über die 0,12 USD-Marke zur Beschleunigung der Aufwärtsdynamik (16:24).\n* **Invalidierung:** Bruch der Schlüsselunterstützung bei 0,07 USD führt zu neuem Zyklustief (15:49).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n#### Solana / SOL (16:43 - 18:36)\n* **Sprecherthese:** Solana zeigt eine extrem starke fünfwellige Impulsstruktur und hat den Zyklusboden beim 78,6%-Retracement um 70 USD bestätigt (17:04, 18:08).\n* **Richtung:** Bullisch.\n* **Levels:** Zyklusboden bei 70 USD (18:08); Welle-3-Mindestziel bei 109 USD bis 120 USD (17:25); langfristige Expansionszielzone bei 524 USD bis 810 USD (18:25).\n* **Trigger:** Fortsetzung der laufenden Welle-5- bz",
+    "w. Welle-3-Expansion (17:39).\n* **Invalidierung:** Rückfall unter den Zyklusboden bei 70 USD (18:08).\n* **Zeithorizont:** Langfristig.\n\n### Unsicherheiten & sehenswerte Stellen\n* **Unsicherheiten:** Anhaltend negatives sentimentales Marktumfeld (\"Disbelief-Rallye\") sowie politische Verzögerungen (z. B. Veto/Scheitern des Clarity Acts, 00:29).\n* **Sehenswerte Stellen:** \n  * 04:45 - Übersicht TOTAL3 und Erholung aus den Kaufzielzonen.\n  * 10:35 - Punktgenaue XRP-Reaktion an der Oberkante der Zielzone.\n  * 13:15 - Avalanche Truncation-Diskussion und Projektion.\n  * 16:00 - Polygon 78,6%-Retracement und 0,07-USD-Schlüsselmarke.\n  * 18:05 - Solana Langzeit-Retracement und Expansionszielzone bis 810 USD.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 3,
+  "discord_sent_at": "2026-09-20T08:31:43.466565+00:00"
 }
