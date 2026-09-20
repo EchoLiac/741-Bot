@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-20T02:31:12.748488+00:00",
-    "@wir-lieben-aktien": "2026-09-20T02:31:13.242111+00:00",
-    "@chartsekte": "2026-09-20T02:31:13.720712+00:00",
-    "@hkcm": "2026-09-20T02:31:14.170458+00:00",
-    "@phantombyhkcm": "2026-09-20T02:31:14.607560+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-20T02:31:15.124043+00:00",
-    "@aktien4future": "2026-09-20T02:31:15.615535+00:00",
-    "@Finanzbaer": "2026-09-20T02:31:16.057728+00:00",
-    "@Finanzwiesel": "2026-09-20T02:31:16.483508+00:00",
-    "@TradingKompass": "2026-09-20T02:31:16.959209+00:00",
-    "@TomVorwald": "2026-09-20T02:31:17.538392+00:00"
+    "@1OxTrading": "2026-09-20T03:01:13.450245+00:00",
+    "@wir-lieben-aktien": "2026-09-20T03:01:13.889840+00:00",
+    "@chartsekte": "2026-09-20T03:01:14.316763+00:00",
+    "@hkcm": "2026-09-20T03:01:14.812618+00:00",
+    "@phantombyhkcm": "2026-09-20T03:01:15.294281+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-20T03:01:15.735425+00:00",
+    "@aktien4future": "2026-09-20T03:01:16.246722+00:00",
+    "@Finanzbaer": "2026-09-20T03:01:16.738721+00:00",
+    "@Finanzwiesel": "2026-09-20T03:01:17.205981+00:00",
+    "@TradingKompass": "2026-09-20T03:01:17.754251+00:00",
+    "@TomVorwald": "2026-09-20T03:01:18.369551+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 160,
-    "last_attempt": "2026-09-20T02:31:54.063741+00:00"
+    "attempts": 161,
+    "last_attempt": "2026-09-20T03:01:24.497378+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -4969,8 +4969,8 @@
     "handle": "@1OxTrading",
     "status": "pending",
     "discovered_at": "2026-09-19T20:01:11.202746+00:00",
-    "attempts": 9,
-    "last_attempt": "2026-09-20T02:32:00.145993+00:00"
+    "attempts": 10,
+    "last_attempt": "2026-09-20T03:01:30.780363+00:00"
   },
   "Dt0_MWNPBkk": {
     "id": "Dt0_MWNPBkk",
@@ -4982,8 +4982,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-19T20:01:13.505722+00:00",
-    "attempts": 8,
-    "last_attempt": "2026-09-20T02:02:09.687640+00:00"
+    "attempts": 9,
+    "last_attempt": "2026-09-20T03:01:18.427409+00:00"
   },
   "R6syf_N-hno": {
     "id": "R6syf_N-hno",
