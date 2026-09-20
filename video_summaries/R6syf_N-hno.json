@@ -6,10 +6,60 @@
   "published": null,
   "channel": "TradingKompass",
   "handle": "@TradingKompass",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-19T20:31:10.764895+00:00",
-  "attempts": 5,
-  "last_attempt": "2026-09-20T00:01:44.880389+00:00",
+  "attempts": 6,
+  "last_attempt": "2026-09-20T01:01:17.084110+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher analysiert die PayPal-Aktie mithilfe der Elliott-Wellen-Theorie und stuft ein weiteres Tief als sein primäres Szenario ein. Zwar bouncte der Kurs zuletzt an der 200-Tage-Linie und dem 50%-Fibonacci-Retracement, jedoch deuten eine 5-teilige Abwärtsstruktur, offene Gaps und ein \"Ascending Broadening Wedge\" auf erneuten Abwärtsdruck hin. Erst ein nachhaltiger Ausbruch über 64,00 USD würde das bärische Szenario invalidieren und eine größere Aufwärtswelle freischalten.\n\n### Typ\nEinzelaktie\n\n### PayPal (NASDAQ: PYPL)\n- **Sprecherthese**: Trotz einer möglichen kurzfristigen Erholung um 8 bis 19 % spricht die impulsiv-bärische Struktur überwiegend für einen erneuten Abverkauf in einer übergeordneten Welle 5 in Richtung der 35,00-USD-Marke.\n- **Richtung**: Bärisch (Primärszenario) / Bullisch (Sekundärszenario bei Ausbruch)\n- **Konkret belegte Levels**:\n  - Supportzone: 49,00 USD bis 54,00 USD (00:03, 01:06)\n  - 50 % Fibonacci-Retracement: 52,16 USD (01:25)\n  - Offenes Gap oben / Erholungsziel: 61,39 USD (06:57)\n  - Offene Gaps unten: 47,00 USD bis 49,45 USD (05:02)\n  - Untergeordnetes Welle-3-Ziel (1,618-Fibonacci): ca. 42,00 USD (07:33)\n  - Haupt-Kursziel (Welle 5 / 88,7 % Fibonacci): 34,92 USD / ca. 35,00 USD (03:07, 07:58)\n  - Welle-4-Hoch / Welle-C-Top: 62,80 USD (02:48)\n  - Invalidierung/Widerstand: 64,00 USD (00:11, 01:56)\n- **Trigger**: Ein Abbrechen der Gegenbewegung an der Widerstandszone (unter 64,00 USD) und ein Rutsch unter die 200-Tage-Linie bzw. das Schließen der unteren Gaps bei 47,00 USD bis 49,45 USD stützt den Abverkauf Richtung 34,92 USD.\n- **Invalidierung**:\n  - Primäres (bärisches) Szenario: Nachhaltiger Ausbruch über 64,00 USD (01:56, 08:21).\n  - Alternative (bullische) Welle-4-Korrektur: Unterschreiten von 49,45 USD (05:52).\n- **Zeithorizont**: Kurzfristige Erholung in den nächsten Tagen; übergeordnetes Welle-5-Ziel in den kommenden Wochen bis Monaten (03:04, 07:10).\n\n### Unsicherheiten und sehenswerte Stellen\n- **Unsicherheiten**: Unklar ist, ob die kurzfristige Erholung (Welle 2) bis zum Gap-Close bei 61,39 USD verläuft, bevor der Abverkauf startet, oder ob die Supportzone bei 49–54 USD direkt nach unten durchbrochen wird.\n- **Sehenswerte Stellen**:\n  - **01:20 – 01:45**: Chartdarstellung der Kursreaktion am 50%-Fibonacci-Level (52,16 USD) und der 200-Tage-Linie.\n  - **04:30 – 05:15**: Erklärung der Bärenflaggen-Struktur (\"Ascending Broadening Wedge\") und der zwei offenen Gaps im unteren Bereich.\n  - **06:20 – 07:58**: Detaillierte Zählung der 5-teiligen Abwärtssequenz und Herleitung des Zielbereichs bei 34,92 USD.",
+  "evidence": [
+    {
+      "timestamp": "00:03",
+      "basis": "audio",
+      "observation": "Der Sprecher nennt eine Supportzone zwischen 49,00 USD und 54,00 USD für die PayPal-Aktie."
+    },
+    {
+      "timestamp": "01:25",
+      "basis": "visual",
+      "observation": "Im Chart wird die Kursreaktion am 50%-Fibonacci-Retracement bei 52,16 USD angezeigt."
+    },
+    {
+      "timestamp": "01:56",
+      "basis": "audio",
+      "observation": "Der Ausbruch über 64,00 USD wird als Bedingung für die Invalidierung des bärischen Szenarios benannt."
+    },
+    {
+      "timestamp": "04:33",
+      "basis": "visual",
+      "observation": "Eine Keilformation ('Ascending Broadening Wedge') wird im Chart eingezeichnet."
+    },
+    {
+      "timestamp": "05:02",
+      "basis": "audio",
+      "observation": "Der Sprecher weist auf zwei offene Gaps hin, die erst im Bereich von 47,00 USD geschlossen wären."
+    },
+    {
+      "timestamp": "06:57",
+      "basis": "audio",
+      "observation": "Ein oberes offenes Gap bei 61,39 USD wird als mögliches Erholungsziel genannt."
+    },
+    {
+      "timestamp": "07:58",
+      "basis": "visual",
+      "observation": "Das 88,7%-Fibonacci-Retracement und übergeordnete Welle-5-Ziel wird bei 34,92 USD im Chart eingeblendet."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "R6syf_N-hno",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-20T01:01:38.444578+00:00",
+  "discord_chunks": [
+    "🎬 **TradingKompass**\n**PAYPAL am Support! Haben die Bullen eine Chance? 🤔 Analyse & Kursziele**\nhttps://www.youtube.com/watch?v=R6syf_N-hno\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher analysiert die PayPal-Aktie mithilfe der Elliott-Wellen-Theorie und stuft ein weiteres Tief als sein primäres Szenario ein. Zwar bouncte der Kurs zuletzt an der 200-Tage-Linie und dem 50%-Fibonacci-Retracement, jedoch deuten eine 5-teilige Abwärtsstruktur, offene Gaps und ein \"Ascending Broadening Wedge\" auf erneuten Abwärtsdruck hin. Erst ein nachhaltiger Ausbruch über 64,00 USD würde das bärische Szenario invalidieren und eine größere Aufwärtswelle freischalten.\n\n### Typ\nEinzelaktie\n\n### PayPal (NASDAQ: PYPL)\n- **Sprecherthese**: Trotz einer möglichen kurzfristigen Erholung um 8 bis 19 % spricht die impulsiv-bärische Struktur überwiegend für einen erneuten Abverkauf in einer übergeordneten Welle 5 in Richtung der 35,00-USD-Marke.\n- **Richtung**: Bärisch (Primärszenario) / Bullisch (Sekundärszenario bei Ausbruch)\n- **Konkret belegte Levels**:\n  - Supportzone: 49,00 USD bis 54,00 USD (00:03, 01:06)\n  - 50 % Fibonacci-Retracement: 52,16 USD (01:25)\n  - Offenes Gap oben / Erholungsziel: 61,39 USD (06:57)\n  - Offene Gaps unten: 47,00 USD bis 49,45 USD (05:02)\n  - Untergeordnetes Welle-3-Ziel (1,618-Fibonacci): ca. 42,00 USD (07:33)\n  - Haupt-Kursziel (Welle 5 / 88,7 % Fibonacci): 34,92 USD / ca. 35,00 USD (03:07, 07:58)\n  - Welle-4-Hoch / Welle-C-Top: 62,80 USD (02:48)\n  - Invalidierung/Widerstand: 64,00 USD (00:11, 01:56)\n- **Trigger**: Ein Abbrechen der Gegenbewegung an der Widerstandszone (unter 64,00 USD) und ein Rutsch unter die 200-Tage-Linie bzw. das Schließen der unteren Gaps bei 47,00 USD bis 49,45 USD stützt den Abverkauf Ri",
+    "chtung 34,92 USD.\n- **Invalidierung**:\n  - Primäres (bärisches) Szenario: Nachhaltiger Ausbruch über 64,00 USD (01:56, 08:21).\n  - Alternative (bullische) Welle-4-Korrektur: Unterschreiten von 49,45 USD (05:52).\n- **Zeithorizont**: Kurzfristige Erholung in den nächsten Tagen; übergeordnetes Welle-5-Ziel in den kommenden Wochen bis Monaten (03:04, 07:10).\n\n### Unsicherheiten und sehenswerte Stellen\n- **Unsicherheiten**: Unklar ist, ob die kurzfristige Erholung (Welle 2) bis zum Gap-Close bei 61,39 USD verläuft, bevor der Abverkauf startet, oder ob die Supportzone bei 49–54 USD direkt nach unten durchbrochen wird.\n- **Sehenswerte Stellen**:\n  - **01:20 – 01:45**: Chartdarstellung der Kursreaktion am 50%-Fibonacci-Level (52,16 USD) und der 200-Tage-Linie.\n  - **04:30 – 05:15**: Erklärung der Bärenflaggen-Struktur (\"Ascending Broadening Wedge\") und der zwei offenen Gaps im unteren Bereich.\n  - **06:20 – 07:58**: Detaillierte Zählung der 5-teiligen Abwärtssequenz und Herleitung des Zielbereichs bei 34,92 USD.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-20T01:01:39.580918+00:00"
 }
