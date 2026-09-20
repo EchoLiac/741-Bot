@@ -6,10 +6,76 @@
   "published": null,
   "channel": "aktien4future",
   "handle": "@aktien4future",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-20T17:31:10.496720+00:00",
-  "attempts": 1,
-  "last_attempt": "2026-09-20T17:31:49.311979+00:00",
+  "attempts": 2,
+  "last_attempt": "2026-09-20T18:01:35.235858+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDas Video analysiert sechs breit gestreute Welt-Aktien-ETFs für das ab 1. Januar 2027 startende deutsche Altersvorsorgedepot anhand von sechs spezifischen Kriterien (00:02, 13:00). Als Gesamtsieger gehen der Vanguard FTSE All-World UCITS ETF (Platz 1) und der Vanguard FTSE Global All-Cap UCITS ETF (Platz 2) hervor (17:24). Der Sprecher betont, dass die genaue Produktauswahl gegenüber Sparbeginn, Ausschöpfung der Förderung und Disziplin im Crash untergeordnet ist (18:48).\n\n### Typ\nBildung / ETF-Vergleich\n\n### Methode / Regeln / Rahmenbedingungen (Bildung)\n- **Gesetzliche Rahmenbedingungen (03:42 - 06:05)**: Keine Beitragsgarantie, steuerfreie Ansparphase (keine Abgeltungsteuer oder Vorabpauschale), jedoch nachgelagerte Besteuerung zum persönlichen Steuersatz im Ruhestand (ab 65 Jahren). Zugelassen sind nur Fonds bis maximal Risikoklasse 5 (PRIIPs/SRI). Einzelaktien, Krypto und Hebel-ETFs sind ausgeschlossen.\n- **Förderung (03:55 - 04:15)**: Bis zu 1.800 € Eigenbeitrag pro Jahr werden mit bis zu 540 € Grundzulage gefördert, plus 300 € pro Kind sowie einmalig 200 € Berufseinsteigerbonus (vor dem 25. Geburtstag).\n- **Vergleichskriterien für ETFs (09:44 - 12:45)**: Echtes Streuungsausmaß, Sicherheitsabstand zur Risikoklassengrenze 5, reale Kosten (Tracking Difference statt nur TER), Fondsgröße/Historie, Verfügbarkeit im Sparplan sowie Kombination aus Thesaurierung und Fondsdomizil Irland (US-Quellensteuervorteil von 15 % statt 30 %).\n- **Verglichene ETFs (13:00 - 18:19)**:\n  - **Vanguard FTSE All-World UCITS ETF (IE00BK5BQT80)** [17:24]: TER 0,14 %, ~75 Mrd. USD Volumen, seit 2019, physisch, thesaurierend, Irland. Deckt ~90 % der Weltmarktkapitalisierung ab. **Platz 1** wegen hoher Liquidität, Historie und universeller Sparplanverfügbarkeit.\n  - **Vanguard FTSE Global All-Cap UCITS ETF (IE000VAHTST0)** [17:27]: TER 0,07 %, ~500 Mio. EUR Volumen, Auflage 08/2026, über 10.000 Titel (~98 % des investierbaren Marktes inkl. Small Caps). **Platz 2** wegen maximaler Diversifikation und sehr niedriger TER bei noch kurzer Historie.\n  - **SPDR MSCI ACWI IMI UCITS ETF (IE00B3YLTY66)** [18:05]: TER 0,17 %, ~7,5 Mrd. EUR, seit 2011, **Platz 3** mit ca. 4.967 Titeln inkl. Small Caps.\n  - **Xtrackers FTSE All-World UCITS ETF (IE0006L2KMMC4)** [16:56]: TER 0,07 %, ca. 78 Mio. EUR, sehr günstig, jedoch erst seit 04/2026 am Markt.\n  - **iShares Core MSCI World UCITS ETF (IE00B4L5Y983)** [13:51]: TER 0,20 %, >120 Mrd. USD, bewährt und liquide, beschränkt sich jedoch rein auf Industrieländer.\n  - **Invesco MSCI World UCITS ETF (IE00B06SX394)** [14:14]: TER 0,05 % (niedrigste TER), synthetisch/Swap. Wegen Kontrahentenrisiko und fehlenden Schwellenländern/Small Caps nicht erste Wahl für 40 Jahre Vorsorge.\n- **Anlegerfehler (18:48 - 19:12)**: Zu spätzustarten, die geförderten 1.800 € (150 €/Monat) nicht voll auszuschöpfen und in Markt-Crashes panisch zu verkaufen.\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten**: Die genaue Rechtsverordnung zur Ausgestaltung selbstverwalteter Altersvorsorgedepots lag zum Redaktionsstand (24. August 2026) noch nicht vor (06:56). Die genaue Abwicklung bei automatischen Umschichtungen bei Risikoklassenwechseln im Eigenregie-Depot bleibt offen.\n- **Sehenswerte Stellen**: Erläuterung der Steuerlogik und Zulagen (03:42 - 05:45) sowie die detaillierte Kriterienanalyse und Gegenüberstellung der sechs ETFs (09:30 - 18:20).",
+  "evidence": [
+    {
+      "timestamp": "00:02",
+      "basis": "audio",
+      "observation": "Sprecher erklärt, dass in etwas mehr als 3 Monaten das Altersvorsorgedepot in Deutschland startet (Nachfolger der Riester-Rente)."
+    },
+    {
+      "timestamp": "03:42",
+      "basis": "visual",
+      "observation": "Einblendung Text Quelle Bundesfinanzministerium: Die neuen Altersvorsorgeprodukte können ab 1. Januar 2027 angeboten werden."
+    },
+    {
+      "timestamp": "03:55",
+      "basis": "audio",
+      "observation": "Sprecher nennt Förderdaten: Eigenbeiträge bis 1.800 €/Jahr, bis zu 540 € Grundzulage, 300 € pro Kind, 200 € Berufseinsteigerbonus vor dem 25. Geburtstag."
+    },
+    {
+      "timestamp": "05:31",
+      "basis": "visual",
+      "observation": "Einblendung Finanztip-Text: Beim neuen Altersvorsorgedepot gibt es keine Teilfreistellung für Aktien-ETFs; Besteuerung erfolgt nachgelagert mit dem individuellen Steuersatz."
+    },
+    {
+      "timestamp": "06:05",
+      "basis": "visual",
+      "observation": "Einblendung Text: Gesetzgeber lässt für das geförderte Modell Produkte bis maximal Risikoklasse 5 (PRIIPs) zu."
+    },
+    {
+      "timestamp": "07:40",
+      "basis": "audio",
+      "observation": "Sprecher stellt Werbepartner Trading 212 vor: 4,2 % Zinsen für die ersten 4 Monate auf Euro-Guthaben (effektiv 3,27 % p.a. auf 12 Monate)."
+    },
+    {
+      "timestamp": "13:14",
+      "basis": "visual",
+      "observation": "Tabelle zeigt TER der 6 ETFs: Invesco MSCI World (0,05 %), Vanguard FTSE Global All-Cap (0,07 %), Xtrackers FTSE All-World (0,07 %), Vanguard FTSE All-World (0,14 %), SPDR MSCI ACWI IMI (0,17 %), iShares Core MSCI World (0,20 %)."
+    },
+    {
+      "timestamp": "15:20",
+      "basis": "visual",
+      "observation": "Tabelle zeigt gehaltene Titanzahl: SPDR MSCI ACWI IMI hält 4.967 von 8.170 Titeln; Vanguard FTSE Global All-Cap hält über 10.000 Titel."
+    },
+    {
+      "timestamp": "17:24",
+      "basis": "visual",
+      "observation": "Tabelle zeigt Ranking für das Altersvorsorgedepot: Platz 1 für Vanguard FTSE All-World (IE00BK5BQT80), Platz 2 für Vanguard FTSE Global All-Cap (IE000VAHTST0), Platz 3 für SPDR MSCI ACWI IMI (IE00B3YLTY66)."
+    },
+    {
+      "timestamp": "18:48",
+      "basis": "audio",
+      "observation": "Sprecher betont 3 wichtigere Entscheidungen als die ETF-Wahl: Wann man anfängt zu sparen, ob man die 1.800 € im Jahr ausschöpft (150 €/Monat) und ob man im Crash weiterkauft statt panisch zu verkaufen."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "Qleqv5bNQ-Y",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-20T18:02:10.830981+00:00",
+  "discord_chunks": [
+    "🎬 **aktien4future**\n**Der beste ETF fürs Altersvorsorgedepot 2027! (Ich habe sie alle verglichen)**\nhttps://www.youtube.com/watch?v=Qleqv5bNQ-Y\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDas Video analysiert sechs breit gestreute Welt-Aktien-ETFs für das ab 1. Januar 2027 startende deutsche Altersvorsorgedepot anhand von sechs spezifischen Kriterien (00:02, 13:00). Als Gesamtsieger gehen der Vanguard FTSE All-World UCITS ETF (Platz 1) und der Vanguard FTSE Global All-Cap UCITS ETF (Platz 2) hervor (17:24). Der Sprecher betont, dass die genaue Produktauswahl gegenüber Sparbeginn, Ausschöpfung der Förderung und Disziplin im Crash untergeordnet ist (18:48).\n\n### Typ\nBildung / ETF-Vergleich\n\n### Methode / Regeln / Rahmenbedingungen (Bildung)\n- **Gesetzliche Rahmenbedingungen (03:42 - 06:05)**: Keine Beitragsgarantie, steuerfreie Ansparphase (keine Abgeltungsteuer oder Vorabpauschale), jedoch nachgelagerte Besteuerung zum persönlichen Steuersatz im Ruhestand (ab 65 Jahren). Zugelassen sind nur Fonds bis maximal Risikoklasse 5 (PRIIPs/SRI). Einzelaktien, Krypto und Hebel-ETFs sind ausgeschlossen.\n- **Förderung (03:55 - 04:15)**: Bis zu 1.800 € Eigenbeitrag pro Jahr werden mit bis zu 540 € Grundzulage gefördert, plus 300 € pro Kind sowie einmalig 200 € Berufseinsteigerbonus (vor dem 25. Geburtstag).\n- **Vergleichskriterien für ETFs (09:44 - 12:45)**: Echtes Streuungsausmaß, Sicherheitsabstand zur Risikoklassengrenze 5, reale Kosten (Tracking Difference statt nur TER), Fondsgröße/Historie, Verfügbarkeit im Sparplan sowie Kombination aus Thesaurierung und Fondsdomizil Irland (US-Quellensteuervorteil von 15 % statt 30 %).\n- **Verglichene ETFs (13:00 - 18:19)**:\n  - **Vanguard FTSE All-World UCITS ETF (IE00BK5BQT80)** [17:24]: TER 0,1",
+    "4 %, ~75 Mrd. USD Volumen, seit 2019, physisch, thesaurierend, Irland. Deckt ~90 % der Weltmarktkapitalisierung ab. **Platz 1** wegen hoher Liquidität, Historie und universeller Sparplanverfügbarkeit.\n  - **Vanguard FTSE Global All-Cap UCITS ETF (IE000VAHTST0)** [17:27]: TER 0,07 %, ~500 Mio. EUR Volumen, Auflage 08/2026, über 10.000 Titel (~98 % des investierbaren Marktes inkl. Small Caps). **Platz 2** wegen maximaler Diversifikation und sehr niedriger TER bei noch kurzer Historie.\n  - **SPDR MSCI ACWI IMI UCITS ETF (IE00B3YLTY66)** [18:05]: TER 0,17 %, ~7,5 Mrd. EUR, seit 2011, **Platz 3** mit ca. 4.967 Titeln inkl. Small Caps.\n  - **Xtrackers FTSE All-World UCITS ETF (IE0006L2KMMC4)** [16:56]: TER 0,07 %, ca. 78 Mio. EUR, sehr günstig, jedoch erst seit 04/2026 am Markt.\n  - **iShares Core MSCI World UCITS ETF (IE00B4L5Y983)** [13:51]: TER 0,20 %, >120 Mrd. USD, bewährt und liquide, beschränkt sich jedoch rein auf Industrieländer.\n  - **Invesco MSCI World UCITS ETF (IE00B06SX394)** [14:14]: TER 0,05 % (niedrigste TER), synthetisch/Swap. Wegen Kontrahentenrisiko und fehlenden Schwellenländern/Small Caps nicht erste Wahl für 40 Jahre Vorsorge.\n- **Anlegerfehler (18:48 - 19:12)**: Zu spätzustarten, die geförderten 1.800 € (150 €/Monat) nicht voll auszuschöpfen und in Markt-Crashes panisch zu verkaufen.\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten**: Die genaue Rechtsverordnung zur Ausgestaltung selbstverwalteter Altersvorsorgedepots lag zum Redaktionsstand (24. August 2026) noch nicht vor (06:56). Die genaue Abwicklung bei automatischen Umschichtungen bei Risikoklassenwechseln im Eigenregie-Depot bleibt offen.\n- **Sehenswerte Stellen**: Erläuterung der Steuerlogik und Zulagen (03:42 - 05:45) sowie die detaillierte Kriterienanalyse und Gegenüberstellung de",
+    "r sechs ETFs (09:30 - 18:20).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 3,
+  "discord_sent_at": "2026-09-20T18:02:11.687270+00:00"
 }
