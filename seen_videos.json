@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-20T17:01:22.139500+00:00",
-    "@wir-lieben-aktien": "2026-09-20T17:01:22.689233+00:00",
-    "@chartsekte": "2026-09-20T17:01:23.175260+00:00",
-    "@hkcm": "2026-09-20T17:01:23.680723+00:00",
-    "@phantombyhkcm": "2026-09-20T17:01:24.136136+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-20T17:01:24.548859+00:00",
-    "@aktien4future": "2026-09-20T17:01:25.064412+00:00",
-    "@Finanzbaer": "2026-09-20T17:01:25.701110+00:00",
-    "@Finanzwiesel": "2026-09-20T17:01:26.154547+00:00",
-    "@TradingKompass": "2026-09-20T17:01:26.813038+00:00",
-    "@TomVorwald": "2026-09-20T17:01:27.274111+00:00"
+    "@1OxTrading": "2026-09-20T17:31:07.432789+00:00",
+    "@wir-lieben-aktien": "2026-09-20T17:31:07.891590+00:00",
+    "@chartsekte": "2026-09-20T17:31:08.453510+00:00",
+    "@hkcm": "2026-09-20T17:31:08.961247+00:00",
+    "@phantombyhkcm": "2026-09-20T17:31:09.415163+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-20T17:31:09.916936+00:00",
+    "@aktien4future": "2026-09-20T17:31:10.496743+00:00",
+    "@Finanzbaer": "2026-09-20T17:31:11.043789+00:00",
+    "@Finanzwiesel": "2026-09-20T17:31:11.575998+00:00",
+    "@TradingKompass": "2026-09-20T17:31:12.051473+00:00",
+    "@TomVorwald": "2026-09-20T17:31:12.593744+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 189,
-    "last_attempt": "2026-09-20T17:01:27.312584+00:00"
+    "attempts": 190,
+    "last_attempt": "2026-09-20T17:31:49.315657+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -5042,5 +5042,18 @@
     "attempts": 2,
     "last_attempt": "2026-09-20T16:01:23.563277+00:00",
     "scraped_at": "2026-09-20T16:02:02.280627+00:00"
+  },
+  "Qleqv5bNQ-Y": {
+    "id": "Qleqv5bNQ-Y",
+    "title": "Der beste ETF fürs Altersvorsorgedepot 2027! (Ich habe sie alle verglichen)",
+    "url": "https://www.youtube.com/watch?v=Qleqv5bNQ-Y",
+    "duration": 1246,
+    "published": null,
+    "channel": "aktien4future",
+    "handle": "@aktien4future",
+    "status": "pending",
+    "discovered_at": "2026-09-20T17:31:10.496720+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-20T17:31:12.677301+00:00"
   }
 }
