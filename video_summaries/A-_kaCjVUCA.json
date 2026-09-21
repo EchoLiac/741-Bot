@@ -6,10 +6,50 @@
   "published": null,
   "channel": "HKCM",
   "handle": "@hkcm",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-21T16:31:10.791427+00:00",
-  "attempts": 5,
-  "last_attempt": "2026-09-21T19:31:25.099739+00:00",
+  "attempts": 6,
+  "last_attempt": "2026-09-21T20:02:26.913495+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nIm Interview argumentiert Dr. Stephan Ritiker, Präsident der Organisation Pro Schweiz, eindringlich für die Beibehaltung und Stärkung der bewaffneten Schweizer Neutralität sowie der politischen Eigenständigkeit [00:23]. Er warnt davor, dass die schrittweise Übernahme von EU-Sanktionen und die Angleichung an ausländische Vorgaben die Souveränität, die Glaubwürdigkeit und den wirtschaftlichen Status der Schweiz als sicherer Hafen gefährden [12:43]. Um die militärische Handlungsfähigkeit zu sichern, fordert er zudem den Wiederaufbau einer eigenständigen Schweizer Rüstungsindustrie [15:38].\n\n**Typ:** Markt/Makro\n\n### Geopolitik / Schweiz (Neutralität & Wirtschaftspolitik)\n- **Sprecherthese:** Die schleichende Aufweichung der Neutralität und die Übernahme fremder Sanktionen schaden dem Vertrauen internationaler Partner und bedrohen die Schweizer Souveränität sowie den Wirtschafts- und Bankenplatz [12:43]. Die anstehende Neutralitätsinitiative soll dem Bundesrat verbindliche Leitplanken setzen, um diese Entwicklung zu stoppen [17:45].\n- **Richtung:** Konservativ / Neutralitätsorientiert\n- **Konkret belegte Levels:** Nicht genannt\n- **Trigger:** Volksabstimmung über die Neutralitätsinitiative am 27. September [01:27]\n- **Invalidierung:** Nicht genannt\n- **Zeithorizont:** Mittel- bis langfristig\n\n### Unsicherheiten und sehenswerte Stellen\n- **Unsicherheiten:** Die künftige Berechenbarkeit der USA als Sicherheitspartner [13:40] sowie der genaue Ausgang der Volksabstimmungen zur Neutralität und zum Kriegsmaterialgesetz [20:30].\n- **Sehenswerte Stellen:**\n  - [01:27] Erwähnung der Neutralitätsinitiative und des Abstimmungsdatums.\n  - [07:08] Ritiker über die Notwendigkeit von Mut und Rückgrat in der Neutralitätspolitik.\n  - [12:43] Erklärung zur Bedeutung der Neutralität für den Schweizer Finanzplatz und das internationale Vertrauen.\n  - [15:18] Argumentation für den Ausbau einer eigenen, innovativen Rüstungsproduktion in der Schweiz.\n  - [20:10] Abschließender Appell an die Schweizer Bevölkerung für den Erhalt einer souveränen Schweiz.",
+  "evidence": [
+    {
+      "timestamp": "00:23",
+      "basis": "audio",
+      "observation": "Philip Hopf hinterfragt, ob die Unabhängigkeit der Schweiz schrittweise von der EU vereinnahmt wird."
+    },
+    {
+      "timestamp": "01:27",
+      "basis": "audio",
+      "observation": "Philip Hopf verweist auf die Abstimmung zur Neutralitätsinitiative am 27. September."
+    },
+    {
+      "timestamp": "07:08",
+      "basis": "audio",
+      "observation": "Dr. Stephan Ritiker führt aus, dass Neutralität Rückgrat und Courage verlangt."
+    },
+    {
+      "timestamp": "12:43",
+      "basis": "audio",
+      "observation": "Dr. Ritiker hebt hervor, dass die Schweizer Neutralität entscheidend ist, um als wirtschaftlicher 'Safe Haven' zu gelten."
+    },
+    {
+      "timestamp": "15:18",
+      "basis": "audio",
+      "observation": "Dr. Ritiker plädiert für den Aufbau eigener innovativer Waffensysteme (wie Drohnen und Luftabwehr), um die Abhängigkeit vom Ausland zu reduzieren."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "A-_kaCjVUCA",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-21T20:03:06.435595+00:00",
+  "discord_chunks": [
+    "🎬 **HKCM**\n**Pro Schweiz Präsident warnt vor gefährlichen Entwicklungen in Bern**\nhttps://www.youtube.com/watch?v=A-_kaCjVUCA\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nIm Interview argumentiert Dr. Stephan Ritiker, Präsident der Organisation Pro Schweiz, eindringlich für die Beibehaltung und Stärkung der bewaffneten Schweizer Neutralität sowie der politischen Eigenständigkeit [00:23]. Er warnt davor, dass die schrittweise Übernahme von EU-Sanktionen und die Angleichung an ausländische Vorgaben die Souveränität, die Glaubwürdigkeit und den wirtschaftlichen Status der Schweiz als sicherer Hafen gefährden [12:43]. Um die militärische Handlungsfähigkeit zu sichern, fordert er zudem den Wiederaufbau einer eigenständigen Schweizer Rüstungsindustrie [15:38].\n\n**Typ:** Markt/Makro\n\n### Geopolitik / Schweiz (Neutralität & Wirtschaftspolitik)\n- **Sprecherthese:** Die schleichende Aufweichung der Neutralität und die Übernahme fremder Sanktionen schaden dem Vertrauen internationaler Partner und bedrohen die Schweizer Souveränität sowie den Wirtschafts- und Bankenplatz [12:43]. Die anstehende Neutralitätsinitiative soll dem Bundesrat verbindliche Leitplanken setzen, um diese Entwicklung zu stoppen [17:45].\n- **Richtung:** Konservativ / Neutralitätsorientiert\n- **Konkret belegte Levels:** Nicht genannt\n- **Trigger:** Volksabstimmung über die Neutralitätsinitiative am 27. September [01:27]\n- **Invalidierung:** Nicht genannt\n- **Zeithorizont:** Mittel- bis langfristig\n\n### Unsicherheiten und sehenswerte Stellen\n- **Unsicherheiten:** Die künftige Berechenbarkeit der USA als Sicherheitspartner [13:40] sowie der genaue Ausgang der Volksabstimmungen zur Neutralität und zum Kriegsmaterialgesetz [20:30].\n- **Sehenswerte Stellen:**\n  - [01:27] E",
+    "rwähnung der Neutralitätsinitiative und des Abstimmungsdatums.\n  - [07:08] Ritiker über die Notwendigkeit von Mut und Rückgrat in der Neutralitätspolitik.\n  - [12:43] Erklärung zur Bedeutung der Neutralität für den Schweizer Finanzplatz und das internationale Vertrauen.\n  - [15:18] Argumentation für den Ausbau einer eigenen, innovativen Rüstungsproduktion in der Schweiz.\n  - [20:10] Abschließender Appell an die Schweizer Bevölkerung für den Erhalt einer souveränen Schweiz.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-21T20:03:06.948076+00:00"
 }
