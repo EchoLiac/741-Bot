@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-21T02:31:12.213327+00:00",
-    "@wir-lieben-aktien": "2026-09-21T02:31:12.742996+00:00",
-    "@chartsekte": "2026-09-21T02:31:13.285474+00:00",
-    "@hkcm": "2026-09-21T02:31:13.743502+00:00",
-    "@phantombyhkcm": "2026-09-21T02:31:14.209325+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-21T02:31:14.647142+00:00",
-    "@aktien4future": "2026-09-21T02:31:15.122872+00:00",
-    "@Finanzbaer": "2026-09-21T02:31:15.677049+00:00",
-    "@Finanzwiesel": "2026-09-21T02:31:16.131569+00:00",
-    "@TradingKompass": "2026-09-21T02:31:16.562262+00:00",
-    "@TomVorwald": "2026-09-21T02:31:17.049365+00:00"
+    "@1OxTrading": "2026-09-21T03:01:19.270188+00:00",
+    "@wir-lieben-aktien": "2026-09-21T03:01:19.770533+00:00",
+    "@chartsekte": "2026-09-21T03:01:20.328137+00:00",
+    "@hkcm": "2026-09-21T03:01:20.910942+00:00",
+    "@phantombyhkcm": "2026-09-21T03:01:21.384438+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-21T03:01:21.850204+00:00",
+    "@aktien4future": "2026-09-21T03:01:22.338461+00:00",
+    "@Finanzbaer": "2026-09-21T03:01:22.886931+00:00",
+    "@Finanzwiesel": "2026-09-21T03:01:23.357939+00:00",
+    "@TradingKompass": "2026-09-21T03:01:23.876200+00:00",
+    "@TomVorwald": "2026-09-21T03:01:24.406151+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 208,
-    "last_attempt": "2026-09-21T02:31:17.082975+00:00"
+    "attempts": 209,
+    "last_attempt": "2026-09-21T03:01:30.735213+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -5098,5 +5098,18 @@
     "attempts": 1,
     "last_attempt": "2026-09-20T21:01:17.973996+00:00",
     "scraped_at": "2026-09-20T21:02:10.132969+00:00"
+  },
+  "8h5Z3-GkhMc": {
+    "id": "8h5Z3-GkhMc",
+    "title": "🗓️ The Fed is raising interest rates – 12:0",
+    "url": "https://www.youtube.com/watch?v=8h5Z3-GkhMc",
+    "duration": 1024,
+    "published": null,
+    "channel": "Wir Lieben Aktien",
+    "handle": "@wir-lieben-aktien",
+    "status": "pending",
+    "discovered_at": "2026-09-21T03:01:19.770511+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-21T03:01:24.461144+00:00"
   }
 }
