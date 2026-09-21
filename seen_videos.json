@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-21T22:01:25.941842+00:00",
-    "@wir-lieben-aktien": "2026-09-21T22:01:26.472488+00:00",
-    "@chartsekte": "2026-09-21T22:01:26.999413+00:00",
-    "@hkcm": "2026-09-21T22:01:27.549681+00:00",
-    "@phantombyhkcm": "2026-09-21T22:01:28.177717+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-21T22:01:28.732096+00:00",
-    "@aktien4future": "2026-09-21T22:01:29.294255+00:00",
-    "@Finanzbaer": "2026-09-21T22:01:29.853020+00:00",
-    "@Finanzwiesel": "2026-09-21T22:01:30.435218+00:00",
-    "@TradingKompass": "2026-09-21T22:01:30.961382+00:00",
-    "@TomVorwald": "2026-09-21T22:01:31.543554+00:00"
+    "@1OxTrading": "2026-09-21T22:31:04.162553+00:00",
+    "@wir-lieben-aktien": "2026-09-21T22:31:04.640756+00:00",
+    "@chartsekte": "2026-09-21T22:31:05.161005+00:00",
+    "@hkcm": "2026-09-21T22:31:05.678957+00:00",
+    "@phantombyhkcm": "2026-09-21T22:31:06.176448+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-21T22:31:06.784927+00:00",
+    "@aktien4future": "2026-09-21T22:31:07.270419+00:00",
+    "@Finanzbaer": "2026-09-21T22:31:07.854285+00:00",
+    "@Finanzwiesel": "2026-09-21T22:31:09.286898+00:00",
+    "@TradingKompass": "2026-09-21T22:31:09.736593+00:00",
+    "@TomVorwald": "2026-09-21T22:31:10.249215+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 242,
-    "last_attempt": "2026-09-21T21:31:45.143691+00:00"
+    "attempts": 243,
+    "last_attempt": "2026-09-21T22:31:10.302203+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -5150,8 +5150,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-21T17:01:22.760578+00:00",
-    "attempts": 7,
-    "last_attempt": "2026-09-21T21:31:51.110967+00:00"
+    "attempts": 8,
+    "last_attempt": "2026-09-21T22:31:16.383076+00:00"
   },
   "YEkGtRzGzSU": {
     "id": "YEkGtRzGzSU",
@@ -5163,8 +5163,8 @@
     "handle": "@1OxTrading",
     "status": "pending",
     "discovered_at": "2026-09-21T18:31:11.497384+00:00",
-    "attempts": 5,
-    "last_attempt": "2026-09-21T22:01:31.601742+00:00"
+    "attempts": 6,
+    "last_attempt": "2026-09-21T22:31:23.029803+00:00"
   },
   "meyry6eE6Ac": {
     "id": "meyry6eE6Ac",
