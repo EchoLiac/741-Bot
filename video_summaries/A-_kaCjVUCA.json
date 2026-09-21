@@ -8,8 +8,8 @@
   "handle": "@hkcm",
   "status": "analysis_failed",
   "discovered_at": "2026-09-21T16:31:10.791427+00:00",
-  "attempts": 3,
-  "last_attempt": "2026-09-21T17:31:36.630898+00:00",
+  "attempts": 4,
+  "last_attempt": "2026-09-21T18:33:11.361408+00:00",
   "video_id": "A-_kaCjVUCA",
   "scanner_version": "video-first-v3"
 }
