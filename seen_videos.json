@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-21T20:01:22.337151+00:00",
-    "@wir-lieben-aktien": "2026-09-21T20:01:22.871581+00:00",
-    "@chartsekte": "2026-09-21T20:01:23.404764+00:00",
-    "@hkcm": "2026-09-21T20:01:24.031319+00:00",
-    "@phantombyhkcm": "2026-09-21T20:01:24.627931+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-21T20:01:25.158726+00:00",
-    "@aktien4future": "2026-09-21T20:01:25.577321+00:00",
-    "@Finanzbaer": "2026-09-21T20:01:26.256998+00:00",
-    "@Finanzwiesel": "2026-09-21T20:01:26.756277+00:00",
-    "@TradingKompass": "2026-09-21T20:01:27.341932+00:00",
-    "@TomVorwald": "2026-09-21T20:01:27.807266+00:00"
+    "@1OxTrading": "2026-09-21T20:31:06.954369+00:00",
+    "@wir-lieben-aktien": "2026-09-21T20:31:07.469146+00:00",
+    "@chartsekte": "2026-09-21T20:31:07.952577+00:00",
+    "@hkcm": "2026-09-21T20:31:08.399942+00:00",
+    "@phantombyhkcm": "2026-09-21T20:31:08.916530+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-21T20:31:09.419001+00:00",
+    "@aktien4future": "2026-09-21T20:31:09.912381+00:00",
+    "@Finanzbaer": "2026-09-21T20:31:10.396555+00:00",
+    "@Finanzwiesel": "2026-09-21T20:31:10.939644+00:00",
+    "@TradingKompass": "2026-09-21T20:31:11.470190+00:00",
+    "@TomVorwald": "2026-09-21T20:31:12.002520+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 240,
-    "last_attempt": "2026-09-21T19:31:31.182483+00:00"
+    "attempts": 241,
+    "last_attempt": "2026-09-21T20:31:24.438728+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -5123,8 +5123,8 @@
     "handle": "@TradingKompass",
     "status": "pending",
     "discovered_at": "2026-09-21T14:01:25.054313+00:00",
-    "attempts": 10,
-    "last_attempt": "2026-09-21T19:31:25.104618+00:00"
+    "attempts": 11,
+    "last_attempt": "2026-09-21T20:31:18.367659+00:00"
   },
   "A-_kaCjVUCA": {
     "id": "A-_kaCjVUCA",
@@ -5165,5 +5165,18 @@
     "discovered_at": "2026-09-21T18:31:11.497384+00:00",
     "attempts": 3,
     "last_attempt": "2026-09-21T20:01:46.529587+00:00"
+  },
+  "meyry6eE6Ac": {
+    "id": "meyry6eE6Ac",
+    "title": "🚨 AKTIEN EXPLODIEREN! AMD knackt 1 BILLION $ – Wall Street dreht auf 💥",
+    "url": "https://www.youtube.com/watch?v=meyry6eE6Ac",
+    "duration": 1536,
+    "published": null,
+    "channel": "10xTrading",
+    "handle": "@1OxTrading",
+    "status": "pending",
+    "discovered_at": "2026-09-21T20:31:06.954317+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-21T20:31:12.059915+00:00"
   }
 }
