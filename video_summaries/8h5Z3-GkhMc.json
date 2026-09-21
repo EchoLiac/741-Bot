@@ -6,10 +6,85 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-21T03:01:19.770511+00:00",
-  "attempts": 3,
-  "last_attempt": "2026-09-21T04:01:28.333827+00:00",
+  "attempts": 4,
+  "last_attempt": "2026-09-21T04:31:15.779493+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nIm Wochenbriefing analysiert der Sprecher die Zinsentscheidungen der Fed (01:50), der Bank of Japan (07:42) und der Bank of England (08:06) sowie die Entwicklung der US-Anleiherenditen auf 5 % (05:14). Zudem werden Unternehmensmeldungen wie das Apple-Event (08:44), die Zinsbelastung bei Hyperscalern (10:50) sowie anstehende Makrodaten und Quartalszahlen (14:25) besprochen.\n\n### Typ\nMarkt/Makro und mehrere Aktien\n\n### Markt & Makro\n* **Sprecherthese:** Die Straffungen der Notenbanken und 5 % Rendite bei 10-jährigen US-Staatsanleihen setzen kapitalintensive Sektoren unter Druck, während der breite US-Markt vorerst in einer kurzfristigen Konsolidierung verweilt (07:02).\n* **Richtung:** Konsolidierend / Neutral.\n* **Belegte Levels:** S&P 500 Tief/Haltemarke bei 7.313,92 Punkten (07:19); 10-jährige US-Staatsanleihen bei 5,000 % (05:25); Fed-Leitzins bei 3,75–4,00 % (01:58); BoJ-Leitzins bei 1,25 % (07:49); BoE-Leitzins bei 3,75 % (08:10); Ölpreis (WTI/Brent) über 100 USD (04:37).\n* **Trigger:** Veröffentlichung der PCE-Inflationsdaten am Freitag (14:36); Treffen von Trump mit Xi Jinping (13:05).\n* **Invalidierung:** Bruch des Tiefs von 7.313,92 Punkten im S&P 500 (07:19).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Apple (AAPL)\n* **Sprecherthese:** Das iPhone-Event brachte kaum wesentliche Innovationen und die Aktie ist mit einem KGV von über 38 historisch hoch bewertet, sodass erst eine deutliche Korrektur Einstiegschancen bietet (10:38).\n* **Richtung:** Abwärts / Konsolidierung.\n* **Belegte Levels:** KGV 38,63 (10:38); ca. 2,5 % unter Allzeithoch von Juli (10:32); Nötiger Korrekturbedarf von 25–35 % für Attraktivität (10:42).\n* **Trigger:** Nicht genannt.\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig (10:41).\n\n### Weitere Einzelaktien / Branchen\n* **Hyperscaler (Meta, Alphabet, Oracle):** Hohe Schuldenmengen zur Investitionsfinanzierung führen bei gestiegenen Zinsen zu höherer Zinslast und Kursrückgängen (10:50–11:55).\n* **Halbleiter (SOX-ETF):** Am Freitag +2 %, der Sektor konsolidiert seit rund einem Monat seitwärts (12:08–12:29).\n* **Quartalszahlen-Termine:** AutoZone (Dienstag vorbörslich, 15:20), General Mills & Cintas (Mittwoch vorbörslich, 15:52), Costco (Donnerstag nachbörslich, 16:10).\n\n### Unsicherheiten und sehenswerte Stellen\n* **Unsicherheiten:** Ausfall der PCE-Inflationsdaten am Freitag – fallen sie höher aus als erwartet, könnte dies weitere Zinsschritte im Oktoberzementieren (14:48). Unklar ist auch der Ausgang politischer Gespräche zwischen Trump und Xi Jinping bezüglich des Iran-Konflikts (13:18).\n* **Sehenswerte Stellen:** Erläuterung der Fed-Zinsentscheidung und des Dot Plots (01:50–03:58), Analyse der 5%-Marke bei den US-Anleiherenditen (05:14–06:05), Bewertung und Kritik am Apple-Event (08:44–10:48).",
+  "evidence": [
+    {
+      "timestamp": "01:58",
+      "basis": "audio",
+      "observation": "Die Fed hat die Zinsen einstimmig um 25 Basispunkte auf 3,75 bis 4,00 % angehoben."
+    },
+    {
+      "timestamp": "02:35",
+      "basis": "audio",
+      "observation": "Auf Wochensicht stieg der Nasdaq um 0,7 %, der S&P 500 verlor 0,1 % und der Dow Jones fiel um 1,7 %."
+    },
+    {
+      "timestamp": "03:58",
+      "basis": "audio",
+      "observation": "Der Dot Plot der Fed zeigt einen Median-Zins von 4,1 % für das Jahresende."
+    },
+    {
+      "timestamp": "05:25",
+      "basis": "audio",
+      "observation": "Die Rendite der 10-jährigen US-Staatsanleihen schloss am Freitag bei exakt 5,000 %."
+    },
+    {
+      "timestamp": "07:19",
+      "basis": "audio",
+      "observation": "Der kurzfristige Aufwärtstrend im S&P 500 ist oberhalb von 7.313,92 Punkten intakt."
+    },
+    {
+      "timestamp": "07:49",
+      "basis": "audio",
+      "observation": "Die Bank of Japan erhöhte den Leitzins um 25 Basispunkte auf 1,25 %."
+    },
+    {
+      "timestamp": "08:10",
+      "basis": "audio",
+      "observation": "Die Bank of England beließ den Leitzins unverändert bei 3,75 % mit einer Stimmenverteilung von 6 zu 3."
+    },
+    {
+      "timestamp": "09:18",
+      "basis": "audio",
+      "observation": "Apple stellte das iPhone 18 sowie das faltbare iPhone Duo mit einem Startpreis von über 2.000 USD vor."
+    },
+    {
+      "timestamp": "10:38",
+      "basis": "audio",
+      "observation": "Das Kurs-Gewinn-Verhältnis der Apple-Aktie liegt bei 38,63."
+    },
+    {
+      "timestamp": "12:18",
+      "basis": "audio",
+      "observation": "Der SOX-ETF für US-Halbleiter verzeichnete am Freitag ein Plus von 2 %."
+    },
+    {
+      "timestamp": "14:36",
+      "basis": "audio",
+      "observation": "Am Freitag werden die US-PCE-Inflationsdaten veröffentlicht."
+    },
+    {
+      "timestamp": "15:20",
+      "basis": "audio",
+      "observation": "AutoZone meldet am Dienstag vorbörslich Quartalszahlen."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "8h5Z3-GkhMc",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-21T04:31:50.946545+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**🗓️ The Fed is raising interest rates – 12:0**\nhttps://www.youtube.com/watch?v=8h5Z3-GkhMc\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nIm Wochenbriefing analysiert der Sprecher die Zinsentscheidungen der Fed (01:50), der Bank of Japan (07:42) und der Bank of England (08:06) sowie die Entwicklung der US-Anleiherenditen auf 5 % (05:14). Zudem werden Unternehmensmeldungen wie das Apple-Event (08:44), die Zinsbelastung bei Hyperscalern (10:50) sowie anstehende Makrodaten und Quartalszahlen (14:25) besprochen.\n\n### Typ\nMarkt/Makro und mehrere Aktien\n\n### Markt & Makro\n* **Sprecherthese:** Die Straffungen der Notenbanken und 5 % Rendite bei 10-jährigen US-Staatsanleihen setzen kapitalintensive Sektoren unter Druck, während der breite US-Markt vorerst in einer kurzfristigen Konsolidierung verweilt (07:02).\n* **Richtung:** Konsolidierend / Neutral.\n* **Belegte Levels:** S&P 500 Tief/Haltemarke bei 7.313,92 Punkten (07:19); 10-jährige US-Staatsanleihen bei 5,000 % (05:25); Fed-Leitzins bei 3,75–4,00 % (01:58); BoJ-Leitzins bei 1,25 % (07:49); BoE-Leitzins bei 3,75 % (08:10); Ölpreis (WTI/Brent) über 100 USD (04:37).\n* **Trigger:** Veröffentlichung der PCE-Inflationsdaten am Freitag (14:36); Treffen von Trump mit Xi Jinping (13:05).\n* **Invalidierung:** Bruch des Tiefs von 7.313,92 Punkten im S&P 500 (07:19).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Apple (AAPL)\n* **Sprecherthese:** Das iPhone-Event brachte kaum wesentliche Innovationen und die Aktie ist mit einem KGV von über 38 historisch hoch bewertet, sodass erst eine deutliche Korrektur Einstiegschancen bietet (10:38).\n* **Richtung:** Abwärts / Konsolidierung.\n* **Belegte Levels:** KGV 38,63 (10:38); ca. 2,5 % unter Allzeithoch von Juli (10:32); ",
+    "Nötiger Korrekturbedarf von 25–35 % für Attraktivität (10:42).\n* **Trigger:** Nicht genannt.\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig (10:41).\n\n### Weitere Einzelaktien / Branchen\n* **Hyperscaler (Meta, Alphabet, Oracle):** Hohe Schuldenmengen zur Investitionsfinanzierung führen bei gestiegenen Zinsen zu höherer Zinslast und Kursrückgängen (10:50–11:55).\n* **Halbleiter (SOX-ETF):** Am Freitag +2 %, der Sektor konsolidiert seit rund einem Monat seitwärts (12:08–12:29).\n* **Quartalszahlen-Termine:** AutoZone (Dienstag vorbörslich, 15:20), General Mills & Cintas (Mittwoch vorbörslich, 15:52), Costco (Donnerstag nachbörslich, 16:10).\n\n### Unsicherheiten und sehenswerte Stellen\n* **Unsicherheiten:** Ausfall der PCE-Inflationsdaten am Freitag – fallen sie höher aus als erwartet, könnte dies weitere Zinsschritte im Oktoberzementieren (14:48). Unklar ist auch der Ausgang politischer Gespräche zwischen Trump und Xi Jinping bezüglich des Iran-Konflikts (13:18).\n* **Sehenswerte Stellen:** Erläuterung der Fed-Zinsentscheidung und des Dot Plots (01:50–03:58), Analyse der 5%-Marke bei den US-Anleiherenditen (05:14–06:05), Bewertung und Kritik am Apple-Event (08:44–10:48).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-21T04:31:51.447205+00:00"
 }

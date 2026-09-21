@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-21T04:01:08.310802+00:00",
-    "@wir-lieben-aktien": "2026-09-21T04:01:08.715101+00:00",
-    "@chartsekte": "2026-09-21T04:01:09.077307+00:00",
-    "@hkcm": "2026-09-21T04:01:09.454072+00:00",
-    "@phantombyhkcm": "2026-09-21T04:01:09.834848+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-21T04:01:10.227115+00:00",
-    "@aktien4future": "2026-09-21T04:01:10.685112+00:00",
-    "@Finanzbaer": "2026-09-21T04:01:11.159899+00:00",
-    "@Finanzwiesel": "2026-09-21T04:01:11.522215+00:00",
-    "@TradingKompass": "2026-09-21T04:01:11.851364+00:00",
-    "@TomVorwald": "2026-09-21T04:01:12.261105+00:00"
+    "@1OxTrading": "2026-09-21T04:31:10.174932+00:00",
+    "@wir-lieben-aktien": "2026-09-21T04:31:10.710568+00:00",
+    "@chartsekte": "2026-09-21T04:31:11.214344+00:00",
+    "@hkcm": "2026-09-21T04:31:11.777280+00:00",
+    "@phantombyhkcm": "2026-09-21T04:31:12.341424+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-21T04:31:12.891772+00:00",
+    "@aktien4future": "2026-09-21T04:31:13.485490+00:00",
+    "@Finanzbaer": "2026-09-21T04:31:14.112760+00:00",
+    "@Finanzwiesel": "2026-09-21T04:31:14.632162+00:00",
+    "@TradingKompass": "2026-09-21T04:31:15.167245+00:00",
+    "@TomVorwald": "2026-09-21T04:31:15.720854+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 211,
-    "last_attempt": "2026-09-21T04:01:28.336738+00:00"
+    "attempts": 212,
+    "last_attempt": "2026-09-21T04:31:51.452382+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -5107,9 +5107,10 @@
     "published": null,
     "channel": "Wir Lieben Aktien",
     "handle": "@wir-lieben-aktien",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-21T03:01:19.770511+00:00",
-    "attempts": 3,
-    "last_attempt": "2026-09-21T04:01:12.295725+00:00"
+    "attempts": 4,
+    "last_attempt": "2026-09-21T04:31:15.779493+00:00",
+    "scraped_at": "2026-09-21T04:31:51.448270+00:00"
   }
 }
