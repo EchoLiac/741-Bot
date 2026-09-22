@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-22T14:31:13.829207+00:00",
-    "@wir-lieben-aktien": "2026-09-22T14:31:14.419367+00:00",
-    "@chartsekte": "2026-09-22T14:31:15.049515+00:00",
-    "@hkcm": "2026-09-22T14:31:15.623612+00:00",
-    "@phantombyhkcm": "2026-09-22T14:31:16.180848+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-22T14:31:16.749117+00:00",
-    "@aktien4future": "2026-09-22T14:31:17.292990+00:00",
-    "@Finanzbaer": "2026-09-22T14:31:17.833143+00:00",
-    "@Finanzwiesel": "2026-09-22T14:31:18.405645+00:00",
-    "@TradingKompass": "2026-09-22T14:31:18.965795+00:00",
-    "@TomVorwald": "2026-09-22T14:31:19.494217+00:00"
+    "@1OxTrading": "2026-09-22T15:01:17.344737+00:00",
+    "@wir-lieben-aktien": "2026-09-22T15:01:17.834145+00:00",
+    "@chartsekte": "2026-09-22T15:01:18.288276+00:00",
+    "@hkcm": "2026-09-22T15:01:18.913158+00:00",
+    "@phantombyhkcm": "2026-09-22T15:01:19.366794+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-22T15:01:19.822096+00:00",
+    "@aktien4future": "2026-09-22T15:01:20.277132+00:00",
+    "@Finanzbaer": "2026-09-22T15:01:20.827738+00:00",
+    "@Finanzwiesel": "2026-09-22T15:01:21.380854+00:00",
+    "@TradingKompass": "2026-09-22T15:01:21.825179+00:00",
+    "@TomVorwald": "2026-09-22T15:01:22.434380+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 271,
-    "last_attempt": "2026-09-22T14:33:23.661599+00:00"
+    "attempts": 272,
+    "last_attempt": "2026-09-22T15:01:34.763020+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -5207,7 +5207,20 @@
     "handle": "@TradingKompass",
     "status": "pending",
     "discovered_at": "2026-09-22T13:31:16.688644+00:00",
-    "attempts": 3,
-    "last_attempt": "2026-09-22T14:31:19.549870+00:00"
+    "attempts": 4,
+    "last_attempt": "2026-09-22T15:01:28.670852+00:00"
+  },
+  "-Y9O-VOwzKU": {
+    "id": "-Y9O-VOwzKU",
+    "title": "Wann ist der richtige Zeitpunkt, Gewinne mitzunehmen?",
+    "url": "https://www.youtube.com/watch?v=-Y9O-VOwzKU",
+    "duration": 599,
+    "published": null,
+    "channel": "Chartsekte",
+    "handle": "@chartsekte",
+    "status": "pending",
+    "discovered_at": "2026-09-22T15:01:18.288258+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-22T15:01:22.472244+00:00"
   }
 }
