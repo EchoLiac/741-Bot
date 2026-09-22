@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-22T13:01:27.788557+00:00",
-    "@wir-lieben-aktien": "2026-09-22T13:01:28.330329+00:00",
-    "@chartsekte": "2026-09-22T13:01:28.866682+00:00",
-    "@hkcm": "2026-09-22T13:01:29.502341+00:00",
-    "@phantombyhkcm": "2026-09-22T13:01:30.018594+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-22T13:01:30.547393+00:00",
-    "@aktien4future": "2026-09-22T13:01:31.136767+00:00",
-    "@Finanzbaer": "2026-09-22T13:01:31.635728+00:00",
-    "@Finanzwiesel": "2026-09-22T13:01:32.172327+00:00",
-    "@TradingKompass": "2026-09-22T13:01:32.683131+00:00",
-    "@TomVorwald": "2026-09-22T13:01:33.249448+00:00"
+    "@1OxTrading": "2026-09-22T13:31:11.997589+00:00",
+    "@wir-lieben-aktien": "2026-09-22T13:31:12.618648+00:00",
+    "@chartsekte": "2026-09-22T13:31:13.109858+00:00",
+    "@hkcm": "2026-09-22T13:31:13.636653+00:00",
+    "@phantombyhkcm": "2026-09-22T13:31:14.111330+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-22T13:31:14.615980+00:00",
+    "@aktien4future": "2026-09-22T13:31:15.111320+00:00",
+    "@Finanzbaer": "2026-09-22T13:31:15.660626+00:00",
+    "@Finanzwiesel": "2026-09-22T13:31:16.175072+00:00",
+    "@TradingKompass": "2026-09-22T13:31:16.688664+00:00",
+    "@TomVorwald": "2026-09-22T13:31:17.281062+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 268,
-    "last_attempt": "2026-09-22T13:01:33.302064+00:00"
+    "attempts": 269,
+    "last_attempt": "2026-09-22T13:31:29.318128+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -5196,5 +5196,18 @@
     "attempts": 4,
     "last_attempt": "2026-09-22T09:31:21.337542+00:00",
     "scraped_at": "2026-09-22T09:31:52.671343+00:00"
+  },
+  "AXDZL67gesA": {
+    "id": "AXDZL67gesA",
+    "title": "Wird das Potenzial massiv unterschätzt? 👀 META Analyse & Kursziele",
+    "url": "https://www.youtube.com/watch?v=AXDZL67gesA",
+    "duration": 418,
+    "published": null,
+    "channel": "TradingKompass",
+    "handle": "@TradingKompass",
+    "status": "pending",
+    "discovered_at": "2026-09-22T13:31:16.688644+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-22T13:31:17.338712+00:00"
   }
 }
