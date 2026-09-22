@@ -6,10 +6,62 @@
   "published": null,
   "channel": "10xTrading",
   "handle": "@1OxTrading",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-21T20:31:06.954317+00:00",
-  "attempts": 10,
-  "last_attempt": "2026-09-22T03:32:01.781533+00:00",
+  "attempts": 11,
+  "last_attempt": "2026-09-22T04:01:34.461716+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDas Video bietet einen umfassenden Marktrückblick und technische Analysen zu wichtigen Indizes, Rohstoffen und US-Technologieaktien an einem stark bullischen Handelstag [00:28]. Der S&P 500 und der Nasdaq 100 stehen knapp vor neuen Ausbrüchen auf Allzeithochs [12:28, 13:20], während Rohstoffe wie Öl korrigieren [06:58] und Bitcoin neue Jahreshöchststände anpeilt [10:31]. Zudem werden Einzelwerte wie Nvidia, CrowdStrike, ServiceNow und Tesla mit konkreten Chart-Marken besprochen [17:18].\n\n### Typ\nMarkt/Makro sowie mehrere Einzelaktien\n\n---\n\n### Markt- & Aktienanalysen\n\n#### Öl (CL1! / Light Crude Oil Futures)\n* **Sprecherthese/Richtung**: Kurzfristig wird ein kleiner Bounce erwartet, übergeordnet überwiegt jedoch Verkaufsdruck bei Anstiegen („Sell the Rip“) [07:30, 07:45].\n* **Konkret belegte Levels**: Support am 38,2 % Fibonacci-Retracement [07:18]; Alarm/Trigger für Rebound bei 94 USD [07:30]; Widerstand durch Abwärtstrendlinie und 100 USD-Gap [07:03, 07:33].\n* **Trigger**: Preis-Alarm bei 94 USD für Gegenbewegung [07:30].\n* **Invalidierung**: Nachhaltiger Ausbruch über die blaue Abwärtstrendlinie [07:34].\n* **Zeithorizont**: Kurzfristig für Bounce, mittelfristig abwärts gerichtet [07:50].\n\n#### S&P 500 (SP500)\n* **Sprecherthese/Richtung**: Bullischer Ausbruch aus einer Bull-Flag-Formation nach erfolgreichem Test der 20-Wochen-Linie [11:51, 11:58].\n* **Konkret belegte Levels**: Support bei 7.780 Punkten (88,6 % Fibonacci) [11:46]; Zielzone bei 8.000 Punkten [12:17].\n* **Trigger**: Ausbruch über die obere Begrenzung der Flagge [11:50].\n* **Invalidierung**: Rückfall unter die 20-Wochen-Linie [11:55].\n* **Zeithorizont**: Mittelfristig [12:10].\n\n#### Nasdaq 100 (NAS100)\n* **Sprecherthese/Richtung**: Starker Short-Squeeze treibt den Index in Richtung neuer Allzeithochs [12:52, 13:20].\n* **Konkret belegte Levels**: Tief/Support bei 28.800 Punkten [12:47]; Zielzone am 161,8 % Fibonacci-Level bei ca. 33.250 Punkten [13:51].\n* **Trigger**: Überschreiten der lokalen Zwischenhochs [13:20].\n* **Invalidierung**: Bruch des Supports bei 28.800 Punkten [12:47].\n* **Zeithorizont**: Mittelfristig [13:58].\n\n#### Bitcoin (BTCUSD)\n* **Sprecherthese/Richtung**: Bullisch im laufenden Zyklus mit Ziel auf neue Höchststände unterhalb der 100.000 USD-Marke [09:12, 10:42].\n* **Konkret belegte Levels**: Aktueller Kurs ~86.000–87.000 USD [09:12, 10:31]; Zielzonen bei 90.000 USD sowie 94.000–97.000 USD [10:36, 10:40].\n* **Trigger**: Stabilisierung oberhalb von 87.000 USD [10:31].\n* **Invalidierung**: Tieferer Rückfall unter die Akkumulationszone um 57.000–58.000 USD [10:01].\n* **Zeithorizont**: Mittel- bis langfristig [09:34].\n\n#### Nvidia (NVDA)\n* **Sprecherthese/Richtung**: Übergeordnet bullisch durch höhere Tiefs, hinkt dem Gesamtmarkt aktuell noch knapp 5 % hinterher [18:27, 18:55].\n* **Konkret belegte Levels**: Support bei 212 USD [17:24]; Zielzone bei 240 bis 300 USD [17:35].\n* **Trigger**: Ausbruch aus der aktuellen Konsolidierung [18:38].\n* **Invalidierung**: Unterschreiten der Aufwärtstrendlinie [18:36].\n* **Zeithorizont**: Mittelfristig [18:38].\n\n#### CrowdStrike (CRWD)\n* **Sprecherthese/Richtung**: Bullisch mit extrem starken Dip-Käufen, erreicht jedoch geplante Zielzonen für Gewinnmitnahmen [19:04, 20:38].\n* **Konkret belegte Levels**: Support bei 250 USD [19:55]; Zielzone bei 270 bis 280 USD [20:08].\n* **Trigger**: Halten der Ausbruchslinie bei 250 USD [19:55].\n* **Invalidierung**: Bruch des Aufwärtstrends [20:02].\n* **Zeithorizont**: Kurz- bis mittelfristig [20:40].\n\n#### ServiceNow (NOW)\n* **Sprecherthese/Richtung**: An einer kritischen Entscheidungskante; Gefahr eines deutlichen Rücksetzers bei Bruch der Unterstützungen [21:12, 22:38].\n* **Konkret belegte Levels**: Gap-Schluss-Ziel bei 170 USD [21:16]; Support bei 138 USD [21:46] und tiefer bei 118 USD [22:23, 22:40].\n* **Trigger**: Fall unter 138 USD aktiviert bärisches Abwärtsszenario bis 118 USD [22:38].\n* **Invalidierung**: Nachhaltiger Ausbruch über den primären Abwärtstrend [21:12].\n* **Zeithorizont**: Kurz- bis mittelfristig [22:30].\n\n#### Tesla (TSLA)\n* **Sprecherthese/Richtung**: Eher neutral bis bärisch an der Widerstandszone; ein direkter Durchmarsch wird als eher unwahrscheinlich eingestuft (~30–35 % Chance) [23:33, 24:08].\n* **Konkret belegte Levels**: Widerstand/Ausbruchsmarke bei 440 USD [23:26]; Abwärtsziele bei 340 USD und 300 USD [23:40, 23:43].\n* **Trigger**: Ausbruch über 440 USD für ein bullisches Szenario [23:25].\n* **Invalidierung**: Bruch der 20-Tage-Linie verstärkt den Abverkaufsdruck [23:46].\n* **Zeithorizont**: Kurz- bis mittelfristig [24:12].\n\n---\n\n### Unsicherheiten & sehenswerte Videostellen\n* **Unsicherheiten**: Geopolitische Entwicklungen im Nahen Osten (Auswirkungen auf den Ölpreis) [05:19] sowie politische Treffen (China-Gipfel) [05:25] bergen kurzfristige Marktrisiken.\n* **Lohnende Videostellen**:\n  * **06:54–07:53**: Chartanalyse zum Ölpreis inklusive Fibonacci-Levels.\n  * **11:16–13:58**: Ausbruchsmarken und Zielprojektionen für S&P 500 und Nasdaq 100.\n  * **17:18–20:50**: Detaillierte Einzelaktienanalysen zu Nvidia und CrowdStrike.",
+  "evidence": [
+    {
+      "timestamp": "00:43",
+      "basis": "audio",
+      "observation": "Sprecher nennt Tagesplus im Nasdaq von fast 3 % und im S&P 500 von 1,5 %."
+    },
+    {
+      "timestamp": "06:58",
+      "basis": "visual",
+      "observation": "Chart von CL1! (Light Crude Oil Futures) mit Fibonacci-Levels und eingezeichneter Abwärtstrendlinie wird gezeigt."
+    },
+    {
+      "timestamp": "07:30",
+      "basis": "audio",
+      "observation": "Sprecher setzt Preisalarm bei 94 USD im Öl-Futures-Chart für eine mögliche Gegenbewegung."
+    },
+    {
+      "timestamp": "11:27",
+      "basis": "visual",
+      "observation": "Chart des S&P 500 Index zeigt Rebound am 88,6 % Fibonacci-Retracement bei ca. 7.780 Punkten."
+    },
+    {
+      "timestamp": "12:35",
+      "basis": "visual",
+      "observation": "Chart des Nasdaq 100 Index mit eingezeichneter Ausbruchslinie und Zielprojektion auf 33.250 Punkte."
+    },
+    {
+      "timestamp": "17:24",
+      "basis": "audio",
+      "observation": "Sprecher erläutert den gehaltenen Support-Bereich von Nvidia bei 212 USD."
+    },
+    {
+      "timestamp": "19:55",
+      "basis": "audio",
+      "observation": "Sprecher erklärt das knapp erreichte Allzeithoch bei CrowdStrike bei ca. 250,31 USD."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "meyry6eE6Ac",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-22T04:02:32.378282+00:00",
+  "discord_chunks": [
+    "🎬 **10xTrading**\n**🚨 AKTIEN EXPLODIEREN! AMD knackt 1 BILLION $ – Wall Street dreht auf 💥**\nhttps://www.youtube.com/watch?v=meyry6eE6Ac\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDas Video bietet einen umfassenden Marktrückblick und technische Analysen zu wichtigen Indizes, Rohstoffen und US-Technologieaktien an einem stark bullischen Handelstag [00:28]. Der S&P 500 und der Nasdaq 100 stehen knapp vor neuen Ausbrüchen auf Allzeithochs [12:28, 13:20], während Rohstoffe wie Öl korrigieren [06:58] und Bitcoin neue Jahreshöchststände anpeilt [10:31]. Zudem werden Einzelwerte wie Nvidia, CrowdStrike, ServiceNow und Tesla mit konkreten Chart-Marken besprochen [17:18].\n\n### Typ\nMarkt/Makro sowie mehrere Einzelaktien\n\n---\n\n### Markt- & Aktienanalysen\n\n#### Öl (CL1! / Light Crude Oil Futures)\n* **Sprecherthese/Richtung**: Kurzfristig wird ein kleiner Bounce erwartet, übergeordnet überwiegt jedoch Verkaufsdruck bei Anstiegen („Sell the Rip“) [07:30, 07:45].\n* **Konkret belegte Levels**: Support am 38,2 % Fibonacci-Retracement [07:18]; Alarm/Trigger für Rebound bei 94 USD [07:30]; Widerstand durch Abwärtstrendlinie und 100 USD-Gap [07:03, 07:33].\n* **Trigger**: Preis-Alarm bei 94 USD für Gegenbewegung [07:30].\n* **Invalidierung**: Nachhaltiger Ausbruch über die blaue Abwärtstrendlinie [07:34].\n* **Zeithorizont**: Kurzfristig für Bounce, mittelfristig abwärts gerichtet [07:50].\n\n#### S&P 500 (SP500)\n* **Sprecherthese/Richtung**: Bullischer Ausbruch aus einer Bull-Flag-Formation nach erfolgreichem Test der 20-Wochen-Linie [11:51, 11:58].\n* **Konkret belegte Levels**: Support bei 7.780 Punkten (88,6 % Fibonacci) [11:46]; Zielzone bei 8.000 Punkten [12:17].\n* **Trigger**: Ausbruch über die obere Begrenzung der Flagge [11:50].\n* **Invalidi",
+    "erung**: Rückfall unter die 20-Wochen-Linie [11:55].\n* **Zeithorizont**: Mittelfristig [12:10].\n\n#### Nasdaq 100 (NAS100)\n* **Sprecherthese/Richtung**: Starker Short-Squeeze treibt den Index in Richtung neuer Allzeithochs [12:52, 13:20].\n* **Konkret belegte Levels**: Tief/Support bei 28.800 Punkten [12:47]; Zielzone am 161,8 % Fibonacci-Level bei ca. 33.250 Punkten [13:51].\n* **Trigger**: Überschreiten der lokalen Zwischenhochs [13:20].\n* **Invalidierung**: Bruch des Supports bei 28.800 Punkten [12:47].\n* **Zeithorizont**: Mittelfristig [13:58].\n\n#### Bitcoin (BTCUSD)\n* **Sprecherthese/Richtung**: Bullisch im laufenden Zyklus mit Ziel auf neue Höchststände unterhalb der 100.000 USD-Marke [09:12, 10:42].\n* **Konkret belegte Levels**: Aktueller Kurs ~86.000–87.000 USD [09:12, 10:31]; Zielzonen bei 90.000 USD sowie 94.000–97.000 USD [10:36, 10:40].\n* **Trigger**: Stabilisierung oberhalb von 87.000 USD [10:31].\n* **Invalidierung**: Tieferer Rückfall unter die Akkumulationszone um 57.000–58.000 USD [10:01].\n* **Zeithorizont**: Mittel- bis langfristig [09:34].\n\n#### Nvidia (NVDA)\n* **Sprecherthese/Richtung**: Übergeordnet bullisch durch höhere Tiefs, hinkt dem Gesamtmarkt aktuell noch knapp 5 % hinterher [18:27, 18:55].\n* **Konkret belegte Levels**: Support bei 212 USD [17:24]; Zielzone bei 240 bis 300 USD [17:35].\n* **Trigger**: Ausbruch aus der aktuellen Konsolidierung [18:38].\n* **Invalidierung**: Unterschreiten der Aufwärtstrendlinie [18:36].\n* **Zeithorizont**: Mittelfristig [18:38].\n\n#### CrowdStrike (CRWD)\n* **Sprecherthese/Richtung**: Bullisch mit extrem starken Dip-Käufen, erreicht jedoch geplante Zielzonen für Gewinnmitnahmen [19:04, 20:38].\n* **Konkret belegte Levels**: Support bei 250 USD [19:55]; Zielzone bei 270 bis 280 USD [20:08].\n* **Trigger**: Halten der Aus",
+    "bruchslinie bei 250 USD [19:55].\n* **Invalidierung**: Bruch des Aufwärtstrends [20:02].\n* **Zeithorizont**: Kurz- bis mittelfristig [20:40].\n\n#### ServiceNow (NOW)\n* **Sprecherthese/Richtung**: An einer kritischen Entscheidungskante; Gefahr eines deutlichen Rücksetzers bei Bruch der Unterstützungen [21:12, 22:38].\n* **Konkret belegte Levels**: Gap-Schluss-Ziel bei 170 USD [21:16]; Support bei 138 USD [21:46] und tiefer bei 118 USD [22:23, 22:40].\n* **Trigger**: Fall unter 138 USD aktiviert bärisches Abwärtsszenario bis 118 USD [22:38].\n* **Invalidierung**: Nachhaltiger Ausbruch über den primären Abwärtstrend [21:12].\n* **Zeithorizont**: Kurz- bis mittelfristig [22:30].\n\n#### Tesla (TSLA)\n* **Sprecherthese/Richtung**: Eher neutral bis bärisch an der Widerstandszone; ein direkter Durchmarsch wird als eher unwahrscheinlich eingestuft (~30–35 % Chance) [23:33, 24:08].\n* **Konkret belegte Levels**: Widerstand/Ausbruchsmarke bei 440 USD [23:26]; Abwärtsziele bei 340 USD und 300 USD [23:40, 23:43].\n* **Trigger**: Ausbruch über 440 USD für ein bullisches Szenario [23:25].\n* **Invalidierung**: Bruch der 20-Tage-Linie verstärkt den Abverkaufsdruck [23:46].\n* **Zeithorizont**: Kurz- bis mittelfristig [24:12].\n\n---\n\n### Unsicherheiten & sehenswerte Videostellen\n* **Unsicherheiten**: Geopolitische Entwicklungen im Nahen Osten (Auswirkungen auf den Ölpreis) [05:19] sowie politische Treffen (China-Gipfel) [05:25] bergen kurzfristige Marktrisiken.\n* **Lohnende Videostellen**:\n  * **06:54–07:53**: Chartanalyse zum Ölpreis inklusive Fibonacci-Levels.\n  * **11:16–13:58**: Ausbruchsmarken und Zielprojektionen für S&P 500 und Nasdaq 100.\n  * **17:18–20:50**: Detaillierte Einzelaktienanalysen zu Nvidia und CrowdStrike.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssign",
+    "ale."
+  ],
+  "discord_next_chunk": 4,
+  "discord_sent_at": "2026-09-22T04:02:33.555569+00:00"
 }
