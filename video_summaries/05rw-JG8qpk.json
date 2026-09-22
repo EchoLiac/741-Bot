@@ -6,10 +6,71 @@
   "published": null,
   "channel": "Finanzwiesel",
   "handle": "@Finanzwiesel",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-22T08:01:24.558165+00:00",
-  "attempts": 3,
-  "last_attempt": "2026-09-22T09:02:36.963790+00:00",
+  "attempts": 4,
+  "last_attempt": "2026-09-22T09:31:21.337542+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nUm den Gesamtmarkt langfristig zu schlagen, empfiehlt der Sprecher die gezielte Auswahl von Unternehmen aus strukturellen Zukunftssektoren mit starkem Branchenrückenwind. Anhand eines Bewertungsmodells vergleicht er die langfristigen Ertragsaussichten von Amazon, Tesla und Nike. Während Amazon aufgrund seiner Dominanz und Bewertung als kaufenswert eingestuft wird, bleibt der Sprecher bei Tesla abwartend und bei Nike skeptisch hinsichtlich einer dauerhaften Outperformance.\n\n### Typ\nMehrere Aktien / Bildung\n\n### Amazon (AMZN)\n- **Sprecherthese**: Amazon ist Marktführer in mehreren Wachstumsfeldern (E-Commerce, AWS Cloud, digitale Werbung) und besitzt durch hohe Cashflows die Fähigkeit zur Reinvestition, was die Aktie langfristig hochattraktiv macht [10:02, 10:35, 13:36].\n- **Richtung**: Bullisch (im Portfolio des Sprechers enthalten) [13:41].\n- **Konkret belegte Levels**: Marktkapitalisierung 2.700 Mrd. $ [11:20], Ziel-Multiple 20x [11:31], Ziel-Earnings 135 Mrd. $ (aktuell 114 Mrd. $) [11:20], Ziel-Nettomarge 17 % [12:40], geforderter Umsatz 794 Mrd. $ vs. heutige 846 Mrd. $ [12:59, 13:05].\n- **Trigger**: Nicht genannt.\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Langfristig (5 bis 10 Jahre) [16:07].\n\n### Tesla (TSLA)\n- **Sprecherthese**: Tesla ist führend bei Elektrofahrzeugen, Batterien und Robotik, jedoch erfordert die aktuelle Bewertung eine Verzehnfachung der Gewinne, weshalb die Erwartungen bereits sehr hoch angesetzt sind [13:52, 14:26, 15:18].\n- **Richtung**: Neutral / Abwartend (derzeit kein Investment) [15:12].\n- **Konkret belegte Levels**: Marktkapitalisierung 1.400 Mrd. $ [14:11], Ziel-Multiple 20x [14:15], Ziel-Earnings 70 Mrd. $ (aktuell 6,6 Mrd. $) [14:19], geschätzte Nettomarge 15 % [14:30], geforderter Umsatz 466 Mrd. $ vs. aktuell 108 Mrd. $ [14:35, 14:40].\n- **Trigger**: Signifikante Verbesserung der Nettomargen [15:25].\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Mehrere Jahre [15:09].\n\n### Nike (NKE)\n- **Sprecherthese**: Nach einem deutlichen Kurssturz bietet Nike eventuell eine kurzfristige Erholungschance, gehört aber zu einer gesättigten Branche ohne starkes Umsatzwachstum, weshalb eine jahrzehntelange Outperformance unwahrscheinlich ist [07:52, 08:40, 09:47].\n- **Richtung**: Neutral / Skeptisch [09:50].\n- **Konkret belegte Levels**: Hoch 2021 bei ~173 USD [07:55], Korrektur-Tief bei ~36 USD [07:59], aktueller Kurs 32,04 € [08:19], Analysten-Kursziel 47,94 $ [08:20].\n- **Trigger**: Nicht genannt.\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Langfristig (10 bis 20 Jahre) [09:47].\n\n### Bildung / Methode\n- **Methode & Regeln**: Nutzung der McKinsey-Studie zu Zukunftsbranchen („Arenas of tomorrow“: E-Commerce, KI/Software, Cloud, Halbleiter, EV, Robotik) [04:05, 05:26]. Bewertungsmethode: Rückrechnung der Marktkapitalisierung über ein Ziel-KGV (Ziel-Multiple von 20) auf die nötigen Ziel-Earnings und anschließender Abgleich des erforderlichen Umsatzes (bei unterstellter Reifemarge) mit den heutigen Ist-Zahlen [11:15, 14:09].\n- **Typische Fehler**: Kauf von Aktien gesättigter Branchen nur wegen eines optisch günstigen Kursverfalls (Turnaround-Falle), ohne auf strukturellen Rückenwind der Gesamtbranche zu achten [08:28, 09:43].\n\n### Unsicherheiten & Sehenswerte Videostellen\n- **Unsicherheiten**: Annahmen zu künftigen Nettomargen, Ziel-Multiples und Umsatzwachstumsraten basieren auf Schätzungen; unerwartete technologische Verschiebungen können Prognosen beeinträchtigen.\n- **Empfohlene Videostellen**:\n  - 04:05–06:15: Übersicht der McKinsey-Zukunftssektoren und jährlichen Wachstumsraten (CAGR).\n  - 11:15–13:40: Erklärung des Bewertungsmodells am Beispiel von Amazon.\n  - 14:09–15:35: Bewertungsrechnung und Fundamentalanalyse zu Tesla.",
+  "evidence": [
+    {
+      "timestamp": "01:13",
+      "basis": "visual",
+      "observation": "McKinsey-Studie eingeblendet: Arenas of today vs. other industries."
+    },
+    {
+      "timestamp": "04:05",
+      "basis": "visual",
+      "observation": "Übersicht Zukunftsfelder: Digitization, Electrification, New bio-frontiers, Hard tech."
+    },
+    {
+      "timestamp": "05:26",
+      "basis": "visual",
+      "observation": "Tabelle '12 potential arenas of tomorrow' mit Umsatzschätzungen für 2040 und CAGR-Raten."
+    },
+    {
+      "timestamp": "07:47",
+      "basis": "visual",
+      "observation": "Nike Chart auf TradingView: Hoch bei 173.38 USD (Nov 2021) und Tief bei ca. 36 USD eingeblendet."
+    },
+    {
+      "timestamp": "08:19",
+      "basis": "visual",
+      "observation": "aktien.guide Anzeige für Nike: Kurs 32,04 €, Analysten-Kursziel 47,94 $."
+    },
+    {
+      "timestamp": "11:15",
+      "basis": "visual",
+      "observation": "Folie 'Der faire Wert von Amazon': Marktkapitalisierung 2.700 Mrd. $, Ziel Multiple 20x, Ziel-Earnings 135 Mrd. $, Nettomarge 17%, Ziel-Umsatz 794 Mrd. $ vs. heute 846 Mrd. $."
+    },
+    {
+      "timestamp": "13:52",
+      "basis": "visual",
+      "observation": "aktien.guide Anzeige für Tesla: Kurs 310,85 €, Kursziel 414,63 $."
+    },
+    {
+      "timestamp": "14:09",
+      "basis": "visual",
+      "observation": "Folie 'Der faire Wert von Tesla': Marktkapitalisierung 1.400 Mrd. $, Ziel Multiple 20x, Ziel-Earnings 70 Mrd. $ (heute 6,6 Mrd. $), Nettomarge 15%, Ziel-Umsatz 466 Mrd. $ vs. heute 108 Mrd. $."
+    },
+    {
+      "timestamp": "15:41",
+      "basis": "visual",
+      "observation": "Amazon-Wochenchart auf TradingView mit langfristigem Aufwärtstrend."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "05rw-JG8qpk",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-22T09:31:52.128233+00:00",
+  "discord_chunks": [
+    "🎬 **Finanzwiesel**\n**Die nächsten Gewinneraktien: In diesen Zukunftssektoren liegen die Chancen**\nhttps://www.youtube.com/watch?v=05rw-JG8qpk\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nUm den Gesamtmarkt langfristig zu schlagen, empfiehlt der Sprecher die gezielte Auswahl von Unternehmen aus strukturellen Zukunftssektoren mit starkem Branchenrückenwind. Anhand eines Bewertungsmodells vergleicht er die langfristigen Ertragsaussichten von Amazon, Tesla und Nike. Während Amazon aufgrund seiner Dominanz und Bewertung als kaufenswert eingestuft wird, bleibt der Sprecher bei Tesla abwartend und bei Nike skeptisch hinsichtlich einer dauerhaften Outperformance.\n\n### Typ\nMehrere Aktien / Bildung\n\n### Amazon (AMZN)\n- **Sprecherthese**: Amazon ist Marktführer in mehreren Wachstumsfeldern (E-Commerce, AWS Cloud, digitale Werbung) und besitzt durch hohe Cashflows die Fähigkeit zur Reinvestition, was die Aktie langfristig hochattraktiv macht [10:02, 10:35, 13:36].\n- **Richtung**: Bullisch (im Portfolio des Sprechers enthalten) [13:41].\n- **Konkret belegte Levels**: Marktkapitalisierung 2.700 Mrd. $ [11:20], Ziel-Multiple 20x [11:31], Ziel-Earnings 135 Mrd. $ (aktuell 114 Mrd. $) [11:20], Ziel-Nettomarge 17 % [12:40], geforderter Umsatz 794 Mrd. $ vs. heutige 846 Mrd. $ [12:59, 13:05].\n- **Trigger**: Nicht genannt.\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Langfristig (5 bis 10 Jahre) [16:07].\n\n### Tesla (TSLA)\n- **Sprecherthese**: Tesla ist führend bei Elektrofahrzeugen, Batterien und Robotik, jedoch erfordert die aktuelle Bewertung eine Verzehnfachung der Gewinne, weshalb die Erwartungen bereits sehr hoch angesetzt sind [13:52, 14:26, 15:18].\n- **Richtung**: Neutral / Abwartend (derzeit kein Investment) [15:12].\n- **Konkre",
+    "t belegte Levels**: Marktkapitalisierung 1.400 Mrd. $ [14:11], Ziel-Multiple 20x [14:15], Ziel-Earnings 70 Mrd. $ (aktuell 6,6 Mrd. $) [14:19], geschätzte Nettomarge 15 % [14:30], geforderter Umsatz 466 Mrd. $ vs. aktuell 108 Mrd. $ [14:35, 14:40].\n- **Trigger**: Signifikante Verbesserung der Nettomargen [15:25].\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Mehrere Jahre [15:09].\n\n### Nike (NKE)\n- **Sprecherthese**: Nach einem deutlichen Kurssturz bietet Nike eventuell eine kurzfristige Erholungschance, gehört aber zu einer gesättigten Branche ohne starkes Umsatzwachstum, weshalb eine jahrzehntelange Outperformance unwahrscheinlich ist [07:52, 08:40, 09:47].\n- **Richtung**: Neutral / Skeptisch [09:50].\n- **Konkret belegte Levels**: Hoch 2021 bei ~173 USD [07:55], Korrektur-Tief bei ~36 USD [07:59], aktueller Kurs 32,04 € [08:19], Analysten-Kursziel 47,94 $ [08:20].\n- **Trigger**: Nicht genannt.\n- **Invalidierung**: Nicht genannt.\n- **Zeithorizont**: Langfristig (10 bis 20 Jahre) [09:47].\n\n### Bildung / Methode\n- **Methode & Regeln**: Nutzung der McKinsey-Studie zu Zukunftsbranchen („Arenas of tomorrow“: E-Commerce, KI/Software, Cloud, Halbleiter, EV, Robotik) [04:05, 05:26]. Bewertungsmethode: Rückrechnung der Marktkapitalisierung über ein Ziel-KGV (Ziel-Multiple von 20) auf die nötigen Ziel-Earnings und anschließender Abgleich des erforderlichen Umsatzes (bei unterstellter Reifemarge) mit den heutigen Ist-Zahlen [11:15, 14:09].\n- **Typische Fehler**: Kauf von Aktien gesättigter Branchen nur wegen eines optisch günstigen Kursverfalls (Turnaround-Falle), ohne auf strukturellen Rückenwind der Gesamtbranche zu achten [08:28, 09:43].\n\n### Unsicherheiten & Sehenswerte Videostellen\n- **Unsicherheiten**: Annahmen zu künftigen Nettomargen, Ziel-Multiples und Umsatzwa",
+    "chstumsraten basieren auf Schätzungen; unerwartete technologische Verschiebungen können Prognosen beeinträchtigen.\n- **Empfohlene Videostellen**:\n  - 04:05–06:15: Übersicht der McKinsey-Zukunftssektoren und jährlichen Wachstumsraten (CAGR).\n  - 11:15–13:40: Erklärung des Bewertungsmodells am Beispiel von Amazon.\n  - 14:09–15:35: Bewertungsrechnung und Fundamentalanalyse zu Tesla.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 3,
+  "discord_sent_at": "2026-09-22T09:31:52.670389+00:00"
 }
