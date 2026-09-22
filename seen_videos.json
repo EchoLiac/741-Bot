@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-22T07:31:14.499209+00:00",
-    "@wir-lieben-aktien": "2026-09-22T07:31:15.043303+00:00",
-    "@chartsekte": "2026-09-22T07:31:15.588559+00:00",
-    "@hkcm": "2026-09-22T07:31:16.205432+00:00",
-    "@phantombyhkcm": "2026-09-22T07:31:16.782433+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-22T07:31:17.324285+00:00",
-    "@aktien4future": "2026-09-22T07:31:17.881586+00:00",
-    "@Finanzbaer": "2026-09-22T07:31:18.449056+00:00",
-    "@Finanzwiesel": "2026-09-22T07:31:18.962572+00:00",
-    "@TradingKompass": "2026-09-22T07:31:19.520375+00:00",
-    "@TomVorwald": "2026-09-22T07:31:20.130541+00:00"
+    "@1OxTrading": "2026-09-22T08:01:20.723814+00:00",
+    "@wir-lieben-aktien": "2026-09-22T08:01:21.175461+00:00",
+    "@chartsekte": "2026-09-22T08:01:21.640766+00:00",
+    "@hkcm": "2026-09-22T08:01:22.093712+00:00",
+    "@phantombyhkcm": "2026-09-22T08:01:22.605196+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-22T08:01:23.121520+00:00",
+    "@aktien4future": "2026-09-22T08:01:23.582442+00:00",
+    "@Finanzbaer": "2026-09-22T08:01:24.103849+00:00",
+    "@Finanzwiesel": "2026-09-22T08:01:24.558183+00:00",
+    "@TradingKompass": "2026-09-22T08:01:25.013640+00:00",
+    "@TomVorwald": "2026-09-22T08:01:25.500886+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 257,
-    "last_attempt": "2026-09-22T07:31:20.191094+00:00"
+    "attempts": 258,
+    "last_attempt": "2026-09-22T08:01:59.071723+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -5123,8 +5123,8 @@
     "handle": "@TradingKompass",
     "status": "pending",
     "discovered_at": "2026-09-21T14:01:25.054313+00:00",
-    "attempts": 28,
-    "last_attempt": "2026-09-22T07:31:26.420407+00:00"
+    "attempts": 29,
+    "last_attempt": "2026-09-22T08:02:05.415047+00:00"
   },
   "A-_kaCjVUCA": {
     "id": "A-_kaCjVUCA",
@@ -5181,5 +5181,18 @@
     "attempts": 11,
     "last_attempt": "2026-09-22T04:01:34.461716+00:00",
     "scraped_at": "2026-09-22T04:02:33.556613+00:00"
+  },
+  "05rw-JG8qpk": {
+    "id": "05rw-JG8qpk",
+    "title": "Die nächsten Gewinneraktien: In diesen Zukunftssektoren liegen die Chancen",
+    "url": "https://www.youtube.com/watch?v=05rw-JG8qpk",
+    "duration": 1013,
+    "published": null,
+    "channel": "Finanzwiesel",
+    "handle": "@Finanzwiesel",
+    "status": "pending",
+    "discovered_at": "2026-09-22T08:01:24.558165+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-22T08:01:25.558295+00:00"
   }
 }
