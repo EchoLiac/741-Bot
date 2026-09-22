@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-22T15:31:16.268692+00:00",
-    "@wir-lieben-aktien": "2026-09-22T15:31:16.851904+00:00",
-    "@chartsekte": "2026-09-22T15:31:17.398922+00:00",
-    "@hkcm": "2026-09-22T15:31:18.073922+00:00",
-    "@phantombyhkcm": "2026-09-22T15:31:18.676303+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-22T15:31:19.299156+00:00",
-    "@aktien4future": "2026-09-22T15:31:19.862639+00:00",
-    "@Finanzbaer": "2026-09-22T15:31:20.474325+00:00",
-    "@Finanzwiesel": "2026-09-22T15:31:21.037037+00:00",
-    "@TradingKompass": "2026-09-22T15:31:21.619581+00:00",
-    "@TomVorwald": "2026-09-22T15:31:22.289018+00:00"
+    "@1OxTrading": "2026-09-22T16:01:24.638487+00:00",
+    "@wir-lieben-aktien": "2026-09-22T16:01:25.131928+00:00",
+    "@chartsekte": "2026-09-22T16:01:25.644138+00:00",
+    "@hkcm": "2026-09-22T16:01:26.198059+00:00",
+    "@phantombyhkcm": "2026-09-22T16:01:26.732082+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-22T16:01:27.224346+00:00",
+    "@aktien4future": "2026-09-22T16:01:27.782245+00:00",
+    "@Finanzbaer": "2026-09-22T16:01:28.350860+00:00",
+    "@Finanzwiesel": "2026-09-22T16:01:28.887748+00:00",
+    "@TradingKompass": "2026-09-22T16:01:29.344500+00:00",
+    "@TomVorwald": "2026-09-22T16:01:29.902115+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -5207,8 +5207,8 @@
     "handle": "@TradingKompass",
     "status": "pending",
     "discovered_at": "2026-09-22T13:31:16.688644+00:00",
-    "attempts": 5,
-    "last_attempt": "2026-09-22T15:32:38.547548+00:00"
+    "attempts": 6,
+    "last_attempt": "2026-09-22T16:02:30.814212+00:00"
   },
   "-Y9O-VOwzKU": {
     "id": "-Y9O-VOwzKU",
@@ -5220,7 +5220,20 @@
     "handle": "@chartsekte",
     "status": "pending",
     "discovered_at": "2026-09-22T15:01:18.288258+00:00",
-    "attempts": 2,
-    "last_attempt": "2026-09-22T15:31:22.348127+00:00"
+    "attempts": 3,
+    "last_attempt": "2026-09-22T16:02:24.648838+00:00"
+  },
+  "O-G7zThDSHY": {
+    "id": "O-G7zThDSHY",
+    "title": "Welche DAX-Aktie ist wirklich die beste? Meine klare Nummer 1",
+    "url": "https://www.youtube.com/watch?v=O-G7zThDSHY",
+    "duration": 724,
+    "published": null,
+    "channel": "Wir Lieben Aktien",
+    "handle": "@wir-lieben-aktien",
+    "status": "pending",
+    "discovered_at": "2026-09-22T16:01:25.131907+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-22T16:01:29.959821+00:00"
   }
 }
