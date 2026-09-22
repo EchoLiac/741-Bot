@@ -6,10 +6,70 @@
   "published": null,
   "channel": "Phantom by HKCM",
   "handle": "@phantombyhkcm",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-21T17:01:22.760578+00:00",
-  "attempts": 11,
-  "last_attempt": "2026-09-22T01:01:35.371457+00:00",
+  "attempts": 12,
+  "last_attempt": "2026-09-22T02:01:23.261101+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher analysiert die UnitedHealth-Aktie und stellt zwei bullische Elliott-Wellen-Szenarien vor, da die bisherige bärische Zählung einer internen Welle 4 durch den aktuellen Kursanstieg regelwidrig entkräftet wurde (05:24). Neben dem Primärszenario einer überschießenden B-Welle mit anschließender finaler Korrekturwelle C wird ein Hyper-Bull-Szenario mit bereits etabliertem Zyklusboden diskutiert (06:45, 10:18). Eine bestehende Long-Position im HKCM-Portfolio liegt aktuell über 30 % im Plus (05:04).\n\n### Typ\nEinzelaktie (UnitedHealth Group / UNH)\n\n### UnitedHealth Group (UNH)\n* **Sprecherthese:** Der starke Kursanstieg hat das Preisterritorium der internen Welle 1 geschnitten, wodurch eine direkte Fortsetzung des Abverkaufs über eine interne Welle 4 ausgeschlossen ist (05:24). Erwartet wird primär eine überschießende B-Welle, bevor eine Welle C zu einem homogenen Zyklusabschluss führt (07:05, 08:52).\n* **Richtung:** Kurz- bis mittelfristig bullisch/aufwärts; anschließend mittelfristig korrektiv/abwärts (07:05, 07:30).\n* **Konkret belegte Levels:**\n  * **Bestehender Portfolio-Einstieg:** $288.70 (05:01)\n  * **Aktueller Kurs / Performance im Chart:** $376.87 / +30.54 % (05:04)\n  * **Zielbereich überschießende Welle b (124 % – 138 % Expansion):** 635 $ bis 682 $ (im Chart $635.28 – $682.37) (07:18)\n  * **Invalidierung / Widerstand der B-Welle:** $762.66 (07:25)\n  * **Langfristige Zielzone Welle C (61.8 % – 78.6 % Retracement / Long-Term Entry):** $213.19 bis $119.43 (07:37)\n  * **50 % Fibonacci-Mindestkorrekturlevel:** $278.82 / ~$278 (09:39)\n* **Trigger:** Das Überschreiten/Schneiden des Hochs der internen Welle 1 hat das bärische Szenario einer internen Welle 4 ungültig gemacht (05:24, 05:53).\n* **Invalidierung:** Ein nachhaltiger Ausbruch über die Schlüsselmarke von $762.66 würde das B-Wellen-Abverkaufsszenario aufheben und das Hyper-Bull-Szenario direkt bestätigen (07:25, 10:18).\n* **Zeithorizont:** Ca. 2 bis 3 Jahre für den vollständigen Abschluss der übergeordneten Korrekturwelle 2 (09:04).\n\n### Unsicherheiten und sehenswerte Stellen\n* **Unsicherheiten:** Auf den aktuellen Niveaus fehlen noch eindeutige, mehrfache 1-2-Subwellenstrukturen mit klarem Impuls-Momentum, um das Hyper-Bull-Szenario bereits jetzt als bestätigt anzusehen (10:48 – 11:08).\n* **Sehenswerte Stellen:**\n  * **05:20 – 06:25:** Detaillierte Herleitung des Elliott-Wellen-Regelbruchs (Welle 1 / Welle 4 Überschneidung).\n  * **07:05 – 07:45:** Chartdarstellung des B-Wellen-Ziels ($635–$682) und der langfristigen Kaufzone ($213.19–$119.43).\n  * **09:15 – 09:45:** Anlegen des Fibonacci-Retracements über die gesamte Historie ab der Null-Koordinate.",
+  "evidence": [
+    {
+      "timestamp": "00:03",
+      "basis": "visual",
+      "observation": "Chart-Einblendung zeigt zwei grüne/rote Szenarienpfade mit Welle b, alt.c, alt.[II] und Long-Term Entry Zone."
+    },
+    {
+      "timestamp": "00:57",
+      "basis": "audio",
+      "observation": "Sprecher kündigt ein Update zur UnitedHealth-Aktie aus dem US-Titans-Paket an."
+    },
+    {
+      "timestamp": "05:01",
+      "basis": "visual",
+      "observation": "HKCM-Dashboard zeigt eine offene Long-Position in UnitedHealth Group mit Einstieg bei $288.70, Kurs $376.87 und Performance +30.54 %."
+    },
+    {
+      "timestamp": "05:24",
+      "basis": "audio",
+      "observation": "Sprecher erklärt, dass das Preisterritorium der internen Welle 1 geschnitten wurde, weshalb eine interne Welle 4 ausgeschlossen ist."
+    },
+    {
+      "timestamp": "07:18",
+      "basis": "audio",
+      "observation": "Sprecher nennt das Expansionskursziel der B-Welle in Richtung 635 bis 682 US-Dollar (124 % bis 138 % Expansion)."
+    },
+    {
+      "timestamp": "07:25",
+      "basis": "audio",
+      "observation": "Sprecher nennt die Marke von 762 US-Dollar (im Chart $762.66), die zur Oberseite verteidigt werden muss."
+    },
+    {
+      "timestamp": "07:37",
+      "basis": "audio",
+      "observation": "Sprecher nennt die C-Wellen-Zielrange zwischen 213 und 119 US-Dollar (61.8 % bis 78.6 % Retracement)."
+    },
+    {
+      "timestamp": "09:04",
+      "basis": "audio",
+      "observation": "Sprecher spricht von einem Zeithorizont von etwa 2 bis 3 Jahren für den Abschluss der Welle 2."
+    },
+    {
+      "timestamp": "09:39",
+      "basis": "visual",
+      "observation": "Chart zeigt 50.00 % Fibonacci-Level bei $278.82."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "FuoO0jDMeuU",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-22T02:01:59.937155+00:00",
+  "discord_chunks": [
+    "🎬 **Phantom by HKCM**\n**This stock belongs in every portfolio as a core investment!**\nhttps://www.youtube.com/watch?v=FuoO0jDMeuU\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher analysiert die UnitedHealth-Aktie und stellt zwei bullische Elliott-Wellen-Szenarien vor, da die bisherige bärische Zählung einer internen Welle 4 durch den aktuellen Kursanstieg regelwidrig entkräftet wurde (05:24). Neben dem Primärszenario einer überschießenden B-Welle mit anschließender finaler Korrekturwelle C wird ein Hyper-Bull-Szenario mit bereits etabliertem Zyklusboden diskutiert (06:45, 10:18). Eine bestehende Long-Position im HKCM-Portfolio liegt aktuell über 30 % im Plus (05:04).\n\n### Typ\nEinzelaktie (UnitedHealth Group / UNH)\n\n### UnitedHealth Group (UNH)\n* **Sprecherthese:** Der starke Kursanstieg hat das Preisterritorium der internen Welle 1 geschnitten, wodurch eine direkte Fortsetzung des Abverkaufs über eine interne Welle 4 ausgeschlossen ist (05:24). Erwartet wird primär eine überschießende B-Welle, bevor eine Welle C zu einem homogenen Zyklusabschluss führt (07:05, 08:52).\n* **Richtung:** Kurz- bis mittelfristig bullisch/aufwärts; anschließend mittelfristig korrektiv/abwärts (07:05, 07:30).\n* **Konkret belegte Levels:**\n  * **Bestehender Portfolio-Einstieg:** $288.70 (05:01)\n  * **Aktueller Kurs / Performance im Chart:** $376.87 / +30.54 % (05:04)\n  * **Zielbereich überschießende Welle b (124 % – 138 % Expansion):** 635 $ bis 682 $ (im Chart $635.28 – $682.37) (07:18)\n  * **Invalidierung / Widerstand der B-Welle:** $762.66 (07:25)\n  * **Langfristige Zielzone Welle C (61.8 % – 78.6 % Retracement / Long-Term Entry):** $213.19 bis $119.43 (07:37)\n  * **50 % Fibonacci-Mindestkorrekturlevel:** $278.82 / ~$278 (09:39)\n* **Trigg",
+    "er:** Das Überschreiten/Schneiden des Hochs der internen Welle 1 hat das bärische Szenario einer internen Welle 4 ungültig gemacht (05:24, 05:53).\n* **Invalidierung:** Ein nachhaltiger Ausbruch über die Schlüsselmarke von $762.66 würde das B-Wellen-Abverkaufsszenario aufheben und das Hyper-Bull-Szenario direkt bestätigen (07:25, 10:18).\n* **Zeithorizont:** Ca. 2 bis 3 Jahre für den vollständigen Abschluss der übergeordneten Korrekturwelle 2 (09:04).\n\n### Unsicherheiten und sehenswerte Stellen\n* **Unsicherheiten:** Auf den aktuellen Niveaus fehlen noch eindeutige, mehrfache 1-2-Subwellenstrukturen mit klarem Impuls-Momentum, um das Hyper-Bull-Szenario bereits jetzt als bestätigt anzusehen (10:48 – 11:08).\n* **Sehenswerte Stellen:**\n  * **05:20 – 06:25:** Detaillierte Herleitung des Elliott-Wellen-Regelbruchs (Welle 1 / Welle 4 Überschneidung).\n  * **07:05 – 07:45:** Chartdarstellung des B-Wellen-Ziels ($635–$682) und der langfristigen Kaufzone ($213.19–$119.43).\n  * **09:15 – 09:45:** Anlegen des Fibonacci-Retracements über die gesamte Historie ab der Null-Koordinate.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-22T02:02:00.397505+00:00"
 }
