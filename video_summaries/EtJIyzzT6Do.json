@@ -8,8 +8,8 @@
   "handle": "@TradingKompass",
   "status": "analysis_failed",
   "discovered_at": "2026-09-21T14:01:25.054313+00:00",
-  "attempts": 26,
-  "last_attempt": "2026-09-22T06:31:26.779390+00:00",
+  "attempts": 27,
+  "last_attempt": "2026-09-22T07:03:36.576190+00:00",
   "video_id": "EtJIyzzT6Do",
   "scanner_version": "video-first-v3"
 }
