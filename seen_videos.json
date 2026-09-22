@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-22T08:01:20.723814+00:00",
-    "@wir-lieben-aktien": "2026-09-22T08:01:21.175461+00:00",
-    "@chartsekte": "2026-09-22T08:01:21.640766+00:00",
-    "@hkcm": "2026-09-22T08:01:22.093712+00:00",
-    "@phantombyhkcm": "2026-09-22T08:01:22.605196+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-22T08:01:23.121520+00:00",
-    "@aktien4future": "2026-09-22T08:01:23.582442+00:00",
-    "@Finanzbaer": "2026-09-22T08:01:24.103849+00:00",
-    "@Finanzwiesel": "2026-09-22T08:01:24.558183+00:00",
-    "@TradingKompass": "2026-09-22T08:01:25.013640+00:00",
-    "@TomVorwald": "2026-09-22T08:01:25.500886+00:00"
+    "@1OxTrading": "2026-09-22T08:31:13.299104+00:00",
+    "@wir-lieben-aktien": "2026-09-22T08:31:13.748232+00:00",
+    "@chartsekte": "2026-09-22T08:31:14.179882+00:00",
+    "@hkcm": "2026-09-22T08:31:14.673535+00:00",
+    "@phantombyhkcm": "2026-09-22T08:31:15.102435+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-22T08:31:15.525030+00:00",
+    "@aktien4future": "2026-09-22T08:31:15.954400+00:00",
+    "@Finanzbaer": "2026-09-22T08:31:16.439554+00:00",
+    "@Finanzwiesel": "2026-09-22T08:31:16.935681+00:00",
+    "@TradingKompass": "2026-09-22T08:31:17.424559+00:00",
+    "@TomVorwald": "2026-09-22T08:31:17.912248+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 258,
-    "last_attempt": "2026-09-22T08:01:59.071723+00:00"
+    "attempts": 259,
+    "last_attempt": "2026-09-22T08:32:02.861874+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -5121,10 +5121,11 @@
     "published": null,
     "channel": "TradingKompass",
     "handle": "@TradingKompass",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-21T14:01:25.054313+00:00",
-    "attempts": 29,
-    "last_attempt": "2026-09-22T08:02:05.415047+00:00"
+    "attempts": 30,
+    "last_attempt": "2026-09-22T08:32:08.796164+00:00",
+    "scraped_at": "2026-09-22T08:32:30.708964+00:00"
   },
   "A-_kaCjVUCA": {
     "id": "A-_kaCjVUCA",
@@ -5192,7 +5193,7 @@
     "handle": "@Finanzwiesel",
     "status": "pending",
     "discovered_at": "2026-09-22T08:01:24.558165+00:00",
-    "attempts": 1,
-    "last_attempt": "2026-09-22T08:01:25.558295+00:00"
+    "attempts": 2,
+    "last_attempt": "2026-09-22T08:31:17.969421+00:00"
   }
 }

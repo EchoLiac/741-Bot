@@ -6,10 +6,60 @@
   "published": null,
   "channel": "TradingKompass",
   "handle": "@TradingKompass",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-21T14:01:25.054313+00:00",
-  "attempts": 29,
-  "last_attempt": "2026-09-22T08:02:36.899007+00:00",
+  "attempts": 30,
+  "last_attempt": "2026-09-22T08:32:08.796164+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nNovo Nordisk hat nach einer dreiteiligen Korrektur das 100%-Fibonacci-Extensionslevel der Welle C bei 262,35 DKK sowie das 61,8%-Retracement erreicht, womit die Mindestanforderungen für einen Boden der Welle 2 erfüllt sind (01:36, 02:22). Der Sprecher sieht mittel- bis langfristig ein attraktives Chance-Risiko-Verhältnis für eine Aufwärtswelle 3 oder eine korrektive Welle B mit Kurszielen zwischen 443 DKK und bis zu 860 DKK (02:55, 04:20). Ein Restrisiko besteht in einer tieferen Korrektur auf 221 DKK oder dem erneuten Test der langfristigen Aufwärtstrendlinie seit 2009 (05:48, 06:29).\n\n### Typ\nEinzelaktie\n\n### Novo Nordisk A/S (NOVO_B.DK / NVO)\n- **Sprecherthese:** Die Korrekturwelle 2 könnte im Bereich von 262,35 DKK ihren Tiefpunkt abgeschlossen haben und eine impulsive Welle 3 bzw. eine Fünf-Wellen-Erholung (Welle B) einleiten (01:36, 02:25, 04:15).\n- **Richtung:** Bullisch / Aufwärts (02:45, 05:20).\n- **Konkret belegte Levels:**\n  - Korrektur- & Support-Levels: 100%-C-Extension bei 262,35 DKK (02:22); 78,6%-Fibonacci bei 248,70 DKK (01:21); Welle-1-Tief bei 224 DKK (06:26); übergeordnetes 78,6%-Fibonacci bei 221 DKK (06:29).\n  - Kursziele Aufwärtsbewegung: 200-Tage-Linie & 300 DKK als erste Bestätigung (02:34); 1,618-Extension der Welle 3 bei 443 DKK (+65% Potenzial) (02:55); 2,618-Extension bei ca. 555 DKK (+107% Potenzial) (03:10); Welle-B-Ziele bei 533 DKK, 629 DKK, 724 DKK und 860 DKK (04:20 - 04:27).\n- **Trigger:** Nachhaltiger Anstieg über die 200-Tage-Linie, die Marke von 300 DKK sowie das Hoch der Welle 1 (02:31 - 02:39).\n- **Invalidierung:** Untergang unter das Welle-1-Tief bei 224 DKK bzw. ein Bruch der langfristigen Aufwärtstrendlinie unterhalb von 200 DKK (04:47, 06:23).\n- **Zeithorizont:** Mittel- bis langfristig (00:43, 04:00, 05:20).\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Risiko von Stop-Outs:** Bei 05:48 bis 06:45 wird aufgezeigt, dass das Tief der Welle 1 bei 224 DKK knapp über dem 78,6%-Fibonacci-Retracement (221 DKK) liegt; wer dort einen engen Stop-Loss setzt, riskiert ein unglückliches Ausstoppen vor dem eigentlichen Trendstart.\n- **Ungetestete Trendlinie:** Die seit 2009 bestehende langfristige Trendlinie wurde beim bisherigen Tief um ca. 2–3 % verfehlt (05:48 - 06:05).\n- **Disclaimershinweis:** Der Sprecher stellt klar, dass seine persönliche Strategie (ohne Stop-Loss einzusteigen) ausdrücklich keine Anlageberatung darstellt (07:08).",
+  "evidence": [
+    {
+      "timestamp": "00:34",
+      "basis": "audio",
+      "observation": "Der Sprecher erklärt, dass Novo Nordisk vom letzten Hoch um insgesamt 23 % in einer dreiteiligen Abwärtsbewegung korrigiert hat."
+    },
+    {
+      "timestamp": "01:21",
+      "basis": "visual",
+      "observation": "Im Chart ist das 78,6%-Fibonacci-Retracement der Welle 2 bei 248,70 DKK eingezeichnet."
+    },
+    {
+      "timestamp": "02:22",
+      "basis": "visual",
+      "observation": "Die 100%-Fibonacci-Extension der Welle C wird exakt bei 262,35 DKK auf dem Chart markiert."
+    },
+    {
+      "timestamp": "02:55",
+      "basis": "visual",
+      "observation": "Das 1,618-Fibonacci-Extensionsziel der Welle 3 liegt bei 443 DKK, was einem Potenzial von ca. 65 % entspricht."
+    },
+    {
+      "timestamp": "04:20",
+      "basis": "visual",
+      "observation": "Für das korrektive Welle-B-Szenario werden Etappen-Kursziele bei 533 DKK, 629 DKK, 724 DKK und 860 DKK eingeblendet."
+    },
+    {
+      "timestamp": "06:26",
+      "basis": "audio",
+      "observation": "Sprecher nennt das Tief der Welle 1 bei 224 DKK und vergleicht es mit dem 78,6%-Fibonacci-Level bei 221 DKK."
+    },
+    {
+      "timestamp": "07:08",
+      "basis": "audio",
+      "observation": "Der Sprecher betont, dass sein Vorgehen ohne Stop-Loss keine Anlageberatung darstellt."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "EtJIyzzT6Do",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-22T08:32:30.150522+00:00",
+  "discord_chunks": [
+    "🎬 **TradingKompass**\n**NOVO NORDISK - Letzte Kaufchance JETZT!? 👀 Analyse & Kurszie**\nhttps://www.youtube.com/watch?v=EtJIyzzT6Do\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nNovo Nordisk hat nach einer dreiteiligen Korrektur das 100%-Fibonacci-Extensionslevel der Welle C bei 262,35 DKK sowie das 61,8%-Retracement erreicht, womit die Mindestanforderungen für einen Boden der Welle 2 erfüllt sind (01:36, 02:22). Der Sprecher sieht mittel- bis langfristig ein attraktives Chance-Risiko-Verhältnis für eine Aufwärtswelle 3 oder eine korrektive Welle B mit Kurszielen zwischen 443 DKK und bis zu 860 DKK (02:55, 04:20). Ein Restrisiko besteht in einer tieferen Korrektur auf 221 DKK oder dem erneuten Test der langfristigen Aufwärtstrendlinie seit 2009 (05:48, 06:29).\n\n### Typ\nEinzelaktie\n\n### Novo Nordisk A/S (NOVO_B.DK / NVO)\n- **Sprecherthese:** Die Korrekturwelle 2 könnte im Bereich von 262,35 DKK ihren Tiefpunkt abgeschlossen haben und eine impulsive Welle 3 bzw. eine Fünf-Wellen-Erholung (Welle B) einleiten (01:36, 02:25, 04:15).\n- **Richtung:** Bullisch / Aufwärts (02:45, 05:20).\n- **Konkret belegte Levels:**\n  - Korrektur- & Support-Levels: 100%-C-Extension bei 262,35 DKK (02:22); 78,6%-Fibonacci bei 248,70 DKK (01:21); Welle-1-Tief bei 224 DKK (06:26); übergeordnetes 78,6%-Fibonacci bei 221 DKK (06:29).\n  - Kursziele Aufwärtsbewegung: 200-Tage-Linie & 300 DKK als erste Bestätigung (02:34); 1,618-Extension der Welle 3 bei 443 DKK (+65% Potenzial) (02:55); 2,618-Extension bei ca. 555 DKK (+107% Potenzial) (03:10); Welle-B-Ziele bei 533 DKK, 629 DKK, 724 DKK und 860 DKK (04:20 - 04:27).\n- **Trigger:** Nachhaltiger Anstieg über die 200-Tage-Linie, die Marke von 300 DKK sowie das Hoch der Welle 1 (02:31 - 02:39).\n- **Invalidierung:*",
+    "* Untergang unter das Welle-1-Tief bei 224 DKK bzw. ein Bruch der langfristigen Aufwärtstrendlinie unterhalb von 200 DKK (04:47, 06:23).\n- **Zeithorizont:** Mittel- bis langfristig (00:43, 04:00, 05:20).\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Risiko von Stop-Outs:** Bei 05:48 bis 06:45 wird aufgezeigt, dass das Tief der Welle 1 bei 224 DKK knapp über dem 78,6%-Fibonacci-Retracement (221 DKK) liegt; wer dort einen engen Stop-Loss setzt, riskiert ein unglückliches Ausstoppen vor dem eigentlichen Trendstart.\n- **Ungetestete Trendlinie:** Die seit 2009 bestehende langfristige Trendlinie wurde beim bisherigen Tief um ca. 2–3 % verfehlt (05:48 - 06:05).\n- **Disclaimershinweis:** Der Sprecher stellt klar, dass seine persönliche Strategie (ohne Stop-Loss einzusteigen) ausdrücklich keine Anlageberatung darstellt (07:08).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-22T08:32:30.708049+00:00"
 }
