@@ -6,10 +6,112 @@
   "published": null,
   "channel": "10xTrading",
   "handle": "@1OxTrading",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-21T18:31:11.497384+00:00",
-  "attempts": 11,
-  "last_attempt": "2026-09-22T02:31:39.021615+00:00",
+  "attempts": 12,
+  "last_attempt": "2026-09-22T03:31:16.539881+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDas Video bietet eine technische Chartanalyse für zehn verschiedene US-Aktien aus den Bereichen Halbleiter, Tech, Raumfahrt/Verteidigung, Pharma und Energie. Der Sprecher beleuchtet dabei marktaktuelle Ausbrüche, harmonische Chartmuster (Setups) sowie maßgebliche Unterstützungslinien und Widerstandszonen. Besondere Aufmerksamkeit wird den Dynamiken bei Chip- und Tech-Werten sowie Wendezonen bei Energie- und Pharmaaktien gewidmet.\n\n**Typ:** Mehrere Aktien\n\n---\n\n### Arm Holdings (ARM)\n* **Sprecherthese:** Die Aktie verzeichnete einen starken Anstieg (+15 %) und befindet sich nach der Bestätigung eines Doppelbodens/Gartley-Musters auf dem Weg zu höheren Zielen (00:32, 00:43).\n* **Richtung:** Bullisch (00:41)\n* **Konkret belegte Levels:** Take-Profit-Zone 1 bei 325–355 USD (01:15); Take-Profit-Zone 2 / übergeordnetes Ziel bei 400–420 USD (01:01, 01:21); möglicher Dip-Support bei 295 USD (01:27).\n* **Trigger:** Impulsiver Ausbruch aus der B-Welle des harmonischen Setups (01:05).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Nicht genannt.\n\n### SanDisk (SNDK)\n* **Sprecherthese:** Nach einem aggressiven Schub steht die Aktie an einer dreifachen 61,8-%-Fibonacci-Widerstandszone und muss diese zwingend durchbrechen (01:45, 02:08).\n* **Richtung:** Neutral bis bullisch bei Ausbruch (01:49)\n* **Konkret belegte Levels:** Widerstandszone bei 1850–1900 USD (02:13); Kursziele bei 2070–2200 USD (01:52); Support an der 20-Wochen-Linie bei 1650 USD (02:26).\n* **Trigger:** Ausbruch über 1850–1900 USD (02:12).\n* **Invalidierung:** Tagesschlusskurs unter der 20-Wochen-Linie bei 1650 USD (02:26).\n* **Zeithorizont:** Nicht genannt.\n\n### Intel (INTC)\n* **Sprecherthese:** Ein sogenanntes Dragon-Setup mit Abwärtstrend-Breakout führte zu einem regelrechten Gap-Up von ca. 15 % (03:32, 03:52, 03:58).\n* **Richtung:** Bullisch (03:30)\n* **Konkret belegte Levels:** Zielbereich bei 130–135 USD (04:16); Support/Gap-Backtest bei 115 USD (04:27).\n* **Trigger:** Breakout über B (03:54).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Nicht genannt.\n\n### AMD (AMD)\n* **Sprecherthese:** Nach Ausführen eines Shark-Setups und Überschreiten von 1 Billion USD Marktkapitalisierung erreicht die Aktie höhere Zielmarken und geht in eine Gewinnmitnahmezone über (04:50, 05:14, 05:48).\n* **Richtung:** Übergeordnet bullisch, kurzfristig konsolidierend (05:48)\n* **Konkret belegte Levels:** Zielzone 1 bei 650 USD (05:27); Zielzone 2 (Crab Pattern) bei 690 USD (05:31); Pullback-Support bei 550–560 USD (05:52).\n* **Trigger:** Breakout aus dem Abwärtstrend / 5-0 Rücksetzer (04:54).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Nicht genannt.\n\n### Meta Platforms (META)\n* **Sprecherthese:** Mit einem 10-%-Schub durchbrach die Aktie wichtige horizontale Hürden und testet nun eine massive Widerstandszone nahe dem Allzeithoch (05:58, 06:24, 06:38).\n* **Richtung:** Bullisch mit Konsolidierungsrisiko am Widerstand (07:38)\n* **Konkret belegte Levels:** Durchbrochenes Niveau bei 690 USD (06:24); Widerstandszone bei 740–750 USD (06:38, 06:51); Allzeithoch-Ziel bei 800 USD (07:30); Rücksetzer-Support bei 690 USD (07:42).\n* **Trigger:** Ausbruch über 750 USD (07:29, 07:50).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Nicht genannt.\n\n### Rocket Lab (RKLB)\n* **Sprecherthese:** Ein technisch hochgradig attraktives Setup am Allzeit-61,8-%-Fibonacci-Support eröffnet Potenzial für eine größere Gegenbewegung (08:10, 08:37).\n* **Richtung:** Bullisch (spekulativ) (08:52)\n* **Konkret belegte Levels:** Supportbereich am 61,8-%-Fibonacci-Retreacement / 200-Wochen-Linie (08:37, 08:50); Zwischenziel bei 100 USD (09:06).\n* **Trigger:** Ausbruch über das vorherige Hoch der linken Seite (09:00).\n* **Invalidierung:** Fall auf neue Tiefs Richtung 200-Wochen-Linie (08:48).\n* **Zeithorizont:** Nicht genannt.\n\n### Redwire (RDW)\n* **Sprecherthese:** Zeigt ein höheres Tief auf der 61,8-%-Fibonacci-Korrektur und zählt zu den favorisierten Setups im Aerospace-Sektor (09:32, 09:46, 10:44).\n* **Richtung:** Bullisch (09:34)\n* **Konkret belegte Levels:** Erstes Breakout-Level bei 13,10 USD (10:00, 10:39); Kursziel (ABCD-Pattern) bei ca. 17 USD (09:40); Support an der 50-Wochen- und 200-Tage-Linie (10:28, 10:33).\n* **Trigger:** Anstieg und Preisalarm über 13,10 USD (10:00, 10:39).\n* **Invalidierung:** Abfall unter die Unterkante der ABC-Formation Richtung tieferer Zielzone (10:15).\n* **Zeithorizont:** Nicht genannt.\n\n### Novo Nordisk (NVO)\n* **Sprecherthese:** Nach einem deutlichen Tagesverlust von knapp 10 % befindet sich die Aktie in einer ausgeprägten Abwärtskorrektur und steuert tiefere Harmonics-Zonen an (10:57, 11:24).\n* **Richtung:** Bärisch / Sucht Support (11:24)\n* **Konkret belegte Levels:** Hochs bei ca. 43 USD (11:03); Cypher-Zielzone / Support bei 37–38 USD (12:08, 12:14); tiefes Shark-Ziel bei ca. 30 USD (11:46).\n* **Trigger:** Bruch der Marke von 37 USD aktiviert tiefere Verfallstiefs (12:14).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Nicht genannt.\n\n### ExxonMobil (XOM)\n* **Sprecherthese:** Im Ölsektor zeigt sich derzeit ein „Sell the Rip“-Verhalten; die Aktie steht direkt an einer kritischen Support-Zone (12:39, 13:00).\n* **Richtung:** Bärisch / Konsolidierend (12:39)\n* **Konkret belegte Levels:** Make-or-Break Support bei 155 USD (13:03); tieferer Cypher-Target-Support an der 50-Wochen-Linie (13:09).\n* **Trigger:** Unterschreiten von 155 USD (13:06).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Nicht genannt.\n\n### Oklo (OKLO)\n* **Sprecherthese:** Die Aktie testet die 200-Wochen-Linie und bildet ein Falling-Wedge-Muster aus, das als Einstiegsgelegenheit für das kommende Jahr dienen kann (14:24, 15:11, 15:50).\n* **Richtung:** Neutral bis potenziell bullisch (15:11)\n* **Konkret belegte Levels:** Ausbruchstrigger über 45 USD (15:40); Supportbereich an der 200-Wochen-Linie (14:15, 14:24).\n* **Trigger:** Anstieg über 45 USD (15:40).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Ausrichtung auf das nächste Jahr (15:50).\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Unsicherheiten:** Die Sprechermeinungen stellen keine Anlageberatung dar. Starke Volatilität in den Tech- und Halbleitersektoren kann zu Fehlausbrüchen führen. Bei ExxonMobil und Novo Nordisk besteht das Risiko eines Durchbruchs nach unten, falls die zentralen Unterstützungen nicht halten.\n* **Sehenswerte Stellen:**\n  * **01:05** (Arm Holdings: Breakout aus der B-Welle)\n  * **03:54** (Intel: Gap Up und Ausbruch aus Dragon-Setup)\n  * **04:54** (AMD: Shark-Setup und Ausbruch)\n  * **07:30** (Meta: Test der Widerstandszone bei 750 USD)\n  * **08:37** (Rocket Lab: Allzeit-61,8-%-Fibonacci-Support)\n  * **13:03** (ExxonMobil: Test des Make-or-Break-Supports bei 155 USD)\n  * **15:40** (Oklo: Falling-Wedge-Formation und 45-USD-Trigger)",
+  "evidence": [
+    {
+      "timestamp": "00:32",
+      "basis": "audio",
+      "observation": "Sprecher erwähnt 15 % Anstieg bei Arm Holdings in der ersten 8-Stunden-Kerze."
+    },
+    {
+      "timestamp": "01:15",
+      "basis": "audio",
+      "observation": "Sprecher nennt Take-Profit-Zone 1 für Arm Holdings bei 325 bis 355 USD."
+    },
+    {
+      "timestamp": "01:52",
+      "basis": "audio",
+      "observation": "Sprecher nennt Kurszielbereich für SanDisk zwischen 2070 und 2200 USD."
+    },
+    {
+      "timestamp": "02:13",
+      "basis": "audio",
+      "observation": "Sprecher bezeichnet 1850 bis 1900 USD als Widerstandszone für SanDisk."
+    },
+    {
+      "timestamp": "03:58",
+      "basis": "audio",
+      "observation": "Sprecher erwähnt 15 % Gap-Up bei Intel direkt zum Handelsstart."
+    },
+    {
+      "timestamp": "04:16",
+      "basis": "audio",
+      "observation": "Sprecher nennt Kursziel bei Intel zwischen 130 und 135 USD."
+    },
+    {
+      "timestamp": "05:14",
+      "basis": "audio",
+      "observation": "Sprecher hebt hervor, dass AMD erstmals eine Marktkapitalisierung von 1 Billion USD überschritten hat."
+    },
+    {
+      "timestamp": "05:27",
+      "basis": "audio",
+      "observation": "Sprecher nennt Zielenbereich bei AMD um 650 USD und Crab-Pattern bei 690 USD."
+    },
+    {
+      "timestamp": "05:58",
+      "basis": "audio",
+      "observation": "Sprecher erwähnt 10 % Push bei Meta Platforms."
+    },
+    {
+      "timestamp": "06:38",
+      "basis": "audio",
+      "observation": "Sprecher nennt 740 bis 750 USD als wichtiges Widerstandsniveau bei Meta Platforms."
+    },
+    {
+      "timestamp": "08:37",
+      "basis": "audio",
+      "observation": "Sprecher nennt Allzeit-61,8-%-Fibonacci-Level als Support bei Rocket Lab."
+    },
+    {
+      "timestamp": "09:40",
+      "basis": "audio",
+      "observation": "Sprecher nennt Kursziel um 17 USD für Redwire."
+    },
+    {
+      "timestamp": "11:00",
+      "basis": "audio",
+      "observation": "Sprecher berichtet von knapp 10 % Tagesverlust bei Novo Nordisk ab den Hochs um 43 USD."
+    },
+    {
+      "timestamp": "12:08",
+      "basis": "audio",
+      "observation": "Sprecher nennt 37 bis 38 USD als Cypher-Zielzone bei Novo Nordisk."
+    },
+    {
+      "timestamp": "13:03",
+      "basis": "audio",
+      "observation": "Sprecher benennt 155 USD als Make-or-Break Support bei ExxonMobil."
+    },
+    {
+      "timestamp": "14:24",
+      "basis": "audio",
+      "observation": "Sprecher erklärt, dass Oklo die 200-Wochen-Linie testet."
+    },
+    {
+      "timestamp": "15:40",
+      "basis": "audio",
+      "observation": "Sprecher setzt einen Preisalarm für Oklo über 45 USD als Ausbruchssignal."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "YEkGtRzGzSU",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-22T03:31:53.700080+00:00",
+  "discord_chunks": [
+    "🎬 **10xTrading**\n**🚨 10 AKTIEN 💥 AMD Meta SanDisk Intel Arm Novo Nordisk ExxonMobile RocketLab Oklo Redwire**\nhttps://www.youtube.com/watch?v=YEkGtRzGzSU\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDas Video bietet eine technische Chartanalyse für zehn verschiedene US-Aktien aus den Bereichen Halbleiter, Tech, Raumfahrt/Verteidigung, Pharma und Energie. Der Sprecher beleuchtet dabei marktaktuelle Ausbrüche, harmonische Chartmuster (Setups) sowie maßgebliche Unterstützungslinien und Widerstandszonen. Besondere Aufmerksamkeit wird den Dynamiken bei Chip- und Tech-Werten sowie Wendezonen bei Energie- und Pharmaaktien gewidmet.\n\n**Typ:** Mehrere Aktien\n\n---\n\n### Arm Holdings (ARM)\n* **Sprecherthese:** Die Aktie verzeichnete einen starken Anstieg (+15 %) und befindet sich nach der Bestätigung eines Doppelbodens/Gartley-Musters auf dem Weg zu höheren Zielen (00:32, 00:43).\n* **Richtung:** Bullisch (00:41)\n* **Konkret belegte Levels:** Take-Profit-Zone 1 bei 325–355 USD (01:15); Take-Profit-Zone 2 / übergeordnetes Ziel bei 400–420 USD (01:01, 01:21); möglicher Dip-Support bei 295 USD (01:27).\n* **Trigger:** Impulsiver Ausbruch aus der B-Welle des harmonischen Setups (01:05).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Nicht genannt.\n\n### SanDisk (SNDK)\n* **Sprecherthese:** Nach einem aggressiven Schub steht die Aktie an einer dreifachen 61,8-%-Fibonacci-Widerstandszone und muss diese zwingend durchbrechen (01:45, 02:08).\n* **Richtung:** Neutral bis bullisch bei Ausbruch (01:49)\n* **Konkret belegte Levels:** Widerstandszone bei 1850–1900 USD (02:13); Kursziele bei 2070–2200 USD (01:52); Support an der 20-Wochen-Linie bei 1650 USD (02:26).\n* **Trigger:** Ausbruch über 1850–1900 USD (02:12).\n* **Invalidierung:** Tagesschlu",
+    "sskurs unter der 20-Wochen-Linie bei 1650 USD (02:26).\n* **Zeithorizont:** Nicht genannt.\n\n### Intel (INTC)\n* **Sprecherthese:** Ein sogenanntes Dragon-Setup mit Abwärtstrend-Breakout führte zu einem regelrechten Gap-Up von ca. 15 % (03:32, 03:52, 03:58).\n* **Richtung:** Bullisch (03:30)\n* **Konkret belegte Levels:** Zielbereich bei 130–135 USD (04:16); Support/Gap-Backtest bei 115 USD (04:27).\n* **Trigger:** Breakout über B (03:54).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Nicht genannt.\n\n### AMD (AMD)\n* **Sprecherthese:** Nach Ausführen eines Shark-Setups und Überschreiten von 1 Billion USD Marktkapitalisierung erreicht die Aktie höhere Zielmarken und geht in eine Gewinnmitnahmezone über (04:50, 05:14, 05:48).\n* **Richtung:** Übergeordnet bullisch, kurzfristig konsolidierend (05:48)\n* **Konkret belegte Levels:** Zielzone 1 bei 650 USD (05:27); Zielzone 2 (Crab Pattern) bei 690 USD (05:31); Pullback-Support bei 550–560 USD (05:52).\n* **Trigger:** Breakout aus dem Abwärtstrend / 5-0 Rücksetzer (04:54).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Nicht genannt.\n\n### Meta Platforms (META)\n* **Sprecherthese:** Mit einem 10-%-Schub durchbrach die Aktie wichtige horizontale Hürden und testet nun eine massive Widerstandszone nahe dem Allzeithoch (05:58, 06:24, 06:38).\n* **Richtung:** Bullisch mit Konsolidierungsrisiko am Widerstand (07:38)\n* **Konkret belegte Levels:** Durchbrochenes Niveau bei 690 USD (06:24); Widerstandszone bei 740–750 USD (06:38, 06:51); Allzeithoch-Ziel bei 800 USD (07:30); Rücksetzer-Support bei 690 USD (07:42).\n* **Trigger:** Ausbruch über 750 USD (07:29, 07:50).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Nicht genannt.\n\n### Rocket Lab (RKLB)\n* **Sprecherthese:** Ein technisch hochgradig attraktives Setup am Allz",
+    "eit-61,8-%-Fibonacci-Support eröffnet Potenzial für eine größere Gegenbewegung (08:10, 08:37).\n* **Richtung:** Bullisch (spekulativ) (08:52)\n* **Konkret belegte Levels:** Supportbereich am 61,8-%-Fibonacci-Retreacement / 200-Wochen-Linie (08:37, 08:50); Zwischenziel bei 100 USD (09:06).\n* **Trigger:** Ausbruch über das vorherige Hoch der linken Seite (09:00).\n* **Invalidierung:** Fall auf neue Tiefs Richtung 200-Wochen-Linie (08:48).\n* **Zeithorizont:** Nicht genannt.\n\n### Redwire (RDW)\n* **Sprecherthese:** Zeigt ein höheres Tief auf der 61,8-%-Fibonacci-Korrektur und zählt zu den favorisierten Setups im Aerospace-Sektor (09:32, 09:46, 10:44).\n* **Richtung:** Bullisch (09:34)\n* **Konkret belegte Levels:** Erstes Breakout-Level bei 13,10 USD (10:00, 10:39); Kursziel (ABCD-Pattern) bei ca. 17 USD (09:40); Support an der 50-Wochen- und 200-Tage-Linie (10:28, 10:33).\n* **Trigger:** Anstieg und Preisalarm über 13,10 USD (10:00, 10:39).\n* **Invalidierung:** Abfall unter die Unterkante der ABC-Formation Richtung tieferer Zielzone (10:15).\n* **Zeithorizont:** Nicht genannt.\n\n### Novo Nordisk (NVO)\n* **Sprecherthese:** Nach einem deutlichen Tagesverlust von knapp 10 % befindet sich die Aktie in einer ausgeprägten Abwärtskorrektur und steuert tiefere Harmonics-Zonen an (10:57, 11:24).\n* **Richtung:** Bärisch / Sucht Support (11:24)\n* **Konkret belegte Levels:** Hochs bei ca. 43 USD (11:03); Cypher-Zielzone / Support bei 37–38 USD (12:08, 12:14); tiefes Shark-Ziel bei ca. 30 USD (11:46).\n* **Trigger:** Bruch der Marke von 37 USD aktiviert tiefere Verfallstiefs (12:14).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Nicht genannt.\n\n### ExxonMobil (XOM)\n* **Sprecherthese:** Im Ölsektor zeigt sich derzeit ein „Sell the Rip“-Verhalten; die Aktie steht direkt an einer kritisch",
+    "en Support-Zone (12:39, 13:00).\n* **Richtung:** Bärisch / Konsolidierend (12:39)\n* **Konkret belegte Levels:** Make-or-Break Support bei 155 USD (13:03); tieferer Cypher-Target-Support an der 50-Wochen-Linie (13:09).\n* **Trigger:** Unterschreiten von 155 USD (13:06).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Nicht genannt.\n\n### Oklo (OKLO)\n* **Sprecherthese:** Die Aktie testet die 200-Wochen-Linie und bildet ein Falling-Wedge-Muster aus, das als Einstiegsgelegenheit für das kommende Jahr dienen kann (14:24, 15:11, 15:50).\n* **Richtung:** Neutral bis potenziell bullisch (15:11)\n* **Konkret belegte Levels:** Ausbruchstrigger über 45 USD (15:40); Supportbereich an der 200-Wochen-Linie (14:15, 14:24).\n* **Trigger:** Anstieg über 45 USD (15:40).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Ausrichtung auf das nächste Jahr (15:50).\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Unsicherheiten:** Die Sprechermeinungen stellen keine Anlageberatung dar. Starke Volatilität in den Tech- und Halbleitersektoren kann zu Fehlausbrüchen führen. Bei ExxonMobil und Novo Nordisk besteht das Risiko eines Durchbruchs nach unten, falls die zentralen Unterstützungen nicht halten.\n* **Sehenswerte Stellen:**\n  * **01:05** (Arm Holdings: Breakout aus der B-Welle)\n  * **03:54** (Intel: Gap Up und Ausbruch aus Dragon-Setup)\n  * **04:54** (AMD: Shark-Setup und Ausbruch)\n  * **07:30** (Meta: Test der Widerstandszone bei 750 USD)\n  * **08:37** (Rocket Lab: Allzeit-61,8-%-Fibonacci-Support)\n  * **13:03** (ExxonMobil: Test des Make-or-Break-Supports bei 155 USD)\n  * **15:40** (Oklo: Falling-Wedge-Formation und 45-USD-Trigger)\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 4,
+  "discord_sent_at": "2026-09-22T03:31:55.509479+00:00"
 }
