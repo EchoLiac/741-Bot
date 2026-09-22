@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-22T17:31:17.686867+00:00",
-    "@wir-lieben-aktien": "2026-09-22T17:31:18.301702+00:00",
-    "@chartsekte": "2026-09-22T17:31:18.854923+00:00",
-    "@hkcm": "2026-09-22T17:31:19.416519+00:00",
-    "@phantombyhkcm": "2026-09-22T17:31:19.953324+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-22T17:31:20.480568+00:00",
-    "@aktien4future": "2026-09-22T17:31:21.004357+00:00",
-    "@Finanzbaer": "2026-09-22T17:31:21.595571+00:00",
-    "@Finanzwiesel": "2026-09-22T17:31:22.097212+00:00",
-    "@TradingKompass": "2026-09-22T17:31:22.657475+00:00",
-    "@TomVorwald": "2026-09-22T17:31:23.230091+00:00"
+    "@1OxTrading": "2026-09-22T18:01:25.527163+00:00",
+    "@wir-lieben-aktien": "2026-09-22T18:01:26.094243+00:00",
+    "@chartsekte": "2026-09-22T18:01:26.578007+00:00",
+    "@hkcm": "2026-09-22T18:01:27.156346+00:00",
+    "@phantombyhkcm": "2026-09-22T18:01:27.779955+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-22T18:01:28.298293+00:00",
+    "@aktien4future": "2026-09-22T18:01:28.829852+00:00",
+    "@Finanzbaer": "2026-09-22T18:01:29.401426+00:00",
+    "@Finanzwiesel": "2026-09-22T18:01:31.067510+00:00",
+    "@TradingKompass": "2026-09-22T18:01:31.632103+00:00",
+    "@TomVorwald": "2026-09-22T18:01:32.173815+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 274,
-    "last_attempt": "2026-09-22T16:34:33.466060+00:00"
+    "attempts": 275,
+    "last_attempt": "2026-09-22T18:04:10.261000+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -5259,8 +5259,8 @@
     "handle": "@ChartsCarsbyPhilipKlinkmüller",
     "status": "pending",
     "discovered_at": "2026-09-22T16:31:20.345114+00:00",
-    "attempts": 1,
-    "last_attempt": "2026-09-22T16:33:27.409819+00:00"
+    "attempts": 2,
+    "last_attempt": "2026-09-22T18:03:04.153590+00:00"
   },
   "CiT_a_Skxi4": {
     "id": "CiT_a_Skxi4",
@@ -5287,5 +5287,18 @@
     "discovered_at": "2026-09-22T17:31:21.004338+00:00",
     "attempts": 1,
     "last_attempt": "2026-09-22T17:31:23.287926+00:00"
+  },
+  "Coqi3xfqSDA": {
+    "id": "Coqi3xfqSDA",
+    "title": "Meine Trading-Strategie mit der höchsten Trefferquote! (Über 80%)",
+    "url": "https://www.youtube.com/watch?v=Coqi3xfqSDA",
+    "duration": 709,
+    "published": null,
+    "channel": "Tom Vorwald",
+    "handle": "@TomVorwald",
+    "status": "pending",
+    "discovered_at": "2026-09-22T18:01:32.173791+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-22T18:01:32.229236+00:00"
   }
 }
