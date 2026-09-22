@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-22T18:01:25.527163+00:00",
-    "@wir-lieben-aktien": "2026-09-22T18:01:26.094243+00:00",
-    "@chartsekte": "2026-09-22T18:01:26.578007+00:00",
-    "@hkcm": "2026-09-22T18:01:27.156346+00:00",
-    "@phantombyhkcm": "2026-09-22T18:01:27.779955+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-22T18:01:28.298293+00:00",
-    "@aktien4future": "2026-09-22T18:01:28.829852+00:00",
-    "@Finanzbaer": "2026-09-22T18:01:29.401426+00:00",
-    "@Finanzwiesel": "2026-09-22T18:01:31.067510+00:00",
-    "@TradingKompass": "2026-09-22T18:01:31.632103+00:00",
-    "@TomVorwald": "2026-09-22T18:01:32.173815+00:00"
+    "@1OxTrading": "2026-09-22T18:31:07.341072+00:00",
+    "@wir-lieben-aktien": "2026-09-22T18:31:07.891383+00:00",
+    "@chartsekte": "2026-09-22T18:31:08.319447+00:00",
+    "@hkcm": "2026-09-22T18:31:08.825940+00:00",
+    "@phantombyhkcm": "2026-09-22T18:31:09.307180+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-22T18:31:09.779931+00:00",
+    "@aktien4future": "2026-09-22T18:31:10.286174+00:00",
+    "@Finanzbaer": "2026-09-22T18:31:10.790207+00:00",
+    "@Finanzwiesel": "2026-09-22T18:31:11.322636+00:00",
+    "@TradingKompass": "2026-09-22T18:31:11.834808+00:00",
+    "@TomVorwald": "2026-09-22T18:31:12.289166+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -5233,8 +5233,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-22T16:01:25.131907+00:00",
-    "attempts": 2,
-    "last_attempt": "2026-09-22T17:01:30.036404+00:00"
+    "attempts": 3,
+    "last_attempt": "2026-09-22T18:32:34.189604+00:00"
   },
   "okkWL5vG-Yg": {
     "id": "okkWL5vG-Yg",
@@ -5270,10 +5270,11 @@
     "published": null,
     "channel": "Phantom by HKCM",
     "handle": "@phantombyhkcm",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-22T17:01:20.861972+00:00",
-    "attempts": 1,
-    "last_attempt": "2026-09-22T17:01:23.914324+00:00"
+    "attempts": 2,
+    "last_attempt": "2026-09-22T18:31:56.931031+00:00",
+    "scraped_at": "2026-09-22T18:32:34.186083+00:00"
   },
   "pSP7G0RdNNA": {
     "id": "pSP7G0RdNNA",
@@ -5300,5 +5301,18 @@
     "discovered_at": "2026-09-22T18:01:32.173791+00:00",
     "attempts": 1,
     "last_attempt": "2026-09-22T18:01:32.229236+00:00"
+  },
+  "LLrwovWjp8k": {
+    "id": "LLrwovWjp8k",
+    "title": "🚨 10 AKTIEN 💥 Amazon Meta Alphabet Micron Oracle Crowdstrike ServiceNow Coherent Nebius Iren",
+    "url": "https://www.youtube.com/watch?v=LLrwovWjp8k",
+    "duration": 1115,
+    "published": null,
+    "channel": "10xTrading",
+    "handle": "@1OxTrading",
+    "status": "pending",
+    "discovered_at": "2026-09-22T18:31:07.341029+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-22T18:31:12.335011+00:00"
   }
 }

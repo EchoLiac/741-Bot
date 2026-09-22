@@ -6,10 +6,50 @@
   "published": null,
   "channel": "Phantom by HKCM",
   "handle": "@phantombyhkcm",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-22T17:01:20.861972+00:00",
-  "attempts": 1,
-  "last_attempt": "2026-09-22T17:01:30.031856+00:00",
+  "attempts": 2,
+  "last_attempt": "2026-09-22T18:31:56.931031+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher analysiert die Makrolage des Kryptomarktes anhand historischer Verhältnischarts (Ratio-Charts), Elliott-Wellen-Mustern und RSI-Indikatoren, um zu bewerten, ob Altcoins ihren Zyklusboden erreicht haben (02:08). Trotz bärischer makroökonomischer Umfeldfaktoren zeigt der Sektor eine relative Stärke gegenüber traditionellen Märkten wie dem Nasdaq und Gold (04:15, 17:20). Die Analysen deuten laut Sprecher überwiegend auf ein Überwiegen bullischer Potenziale bei Altcoins und Ethereum hin (12:50, 15:30).\n\n### Typ\nMarkt/Makro\n\n### Krypto-Makroanalyse & Altcoins\n- **Sprecherthese:** Der Kryptomarkt sowie Altcoins befinden sich auf makroökonomischer Ebene an oder nahe einem bedeutenden Bodenniveau, von dem aus eine verstärkte Kapitalrotation in Altcoins (Altcoin Season) einsetzen könnte (12:50, 15:30).\n- **Richtung:** Tendenziell bullisch für Altcoins/Krypto, mit kurzfristigen Korrekturvorbehalten bei Ethereum (22:05).\n- **Konkret belegte Levels:**\n  - **BTC/NDQ Ratio:** Bodenbildung in der Zone zwischen 78.6 % und 88.7 % Retracement (08:15).\n  - **Bitcoin-Dominanz (BTC.D):** Zyklustop unter 63.5 %; Trigger für Altcoin-Saison ist ein Abfall unter 57.18 % (11:42, 12:50).\n  - **ETH/BTC Ratio:** Reagiert in der Unterstützungszone zwischen 61.8 % und 78.6 % Retracement bei ca. 0.03191 (12:20).\n  - **OTHERS (Market Cap ohne Top 10):** Boden in der Zielzone beim 78.6 % Retracement (ca. 151.0 Mrd. USD) angetestet (14:23).\n  - **BTC/Gold (BTC/XAU):** Zielzone beim 78.6 % (3.16B) bis 88.7 % (1.66B) Retracement; RSI unter 30 Punkte historisch überverkauft (16:58, 17:20).\n  - **ETH/USD:** RSI-Überverkauft-Signal um 30 Punkte auf dem Wochenchart (21:18).\n- **Trigger:** Durchbrechen der Bitcoin-Dominanz unter 57.18 % leitet eine dynamische Altcoin-Rotation ein (12:50).\n- **Invalidierung:** Bruch des jeweiligen Zyklustiefs bzw. Verfehlen der Retracement-Unterstützungen (10:32, 15:20).\n- **Zeithorizont:** Mittelfristig bis langfristig (2025–2027 laut Chart-Einblendungen, 11:55, 14:05).\n\n### Unsicherheiten & sehenswerte Stellen\n- **Unsicherheiten:** Geopolitische Spannungen und die globale Makrolage sprechen vordergründig gegen ein Risk-On-Umfeld (18:15). Zudem könnte Ethereum vor einem Hyper-Bullenmarkt noch einen Rücksetzer („Black Swan“) vollziehen (21:50, 22:15).\n- **Sehenswerte Stellen:** 08:15 (BTC vs. Nasdaq Ratio-Analyse), 12:45 (Bitcoin-Dominanz Trigger-Niveau) sowie 17:20 (BTC/Gold RSI-Extremwert).",
+  "evidence": [
+    {
+      "timestamp": "00:34",
+      "basis": "audio",
+      "observation": "Sprecher erwähnt eine Zinsanhebung der US-Notenbank Fed um 25 Basispunkte."
+    },
+    {
+      "timestamp": "04:27",
+      "basis": "visual",
+      "observation": "Eingeblendeter Chart 'BTCUSD/NDQ' zeigt eine Outperformance von Bitcoin gegenüber dem Nasdaq von 46 %."
+    },
+    {
+      "timestamp": "11:42",
+      "basis": "visual",
+      "observation": "Chart 'Market Cap BTC Dominance, %' zeigt Widerstandszone bei ca. 63.5 % und Unterstützungslinie bei 57.18 %."
+    },
+    {
+      "timestamp": "14:23",
+      "basis": "visual",
+      "observation": "Chart 'Crypto Total Market Cap Excluding Top 10' (OTHERS) zeigt Zielzone mit 61.8% (214.8B) und 78.6% (151.0B) Retracement."
+    },
+    {
+      "timestamp": "17:20",
+      "basis": "visual",
+      "observation": "Chart 'BTC/XAU' zeigt den RSI bei 31.65 Punkten nahe der 30er-Marke."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "CiT_a_Skxi4",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-22T18:32:32.950324+00:00",
+  "discord_chunks": [
+    "🎬 **Phantom by HKCM**\n**Das einzige Altcoin Video das du JETZT brauchst!**\nhttps://www.youtube.com/watch?v=CiT_a_Skxi4\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher analysiert die Makrolage des Kryptomarktes anhand historischer Verhältnischarts (Ratio-Charts), Elliott-Wellen-Mustern und RSI-Indikatoren, um zu bewerten, ob Altcoins ihren Zyklusboden erreicht haben (02:08). Trotz bärischer makroökonomischer Umfeldfaktoren zeigt der Sektor eine relative Stärke gegenüber traditionellen Märkten wie dem Nasdaq und Gold (04:15, 17:20). Die Analysen deuten laut Sprecher überwiegend auf ein Überwiegen bullischer Potenziale bei Altcoins und Ethereum hin (12:50, 15:30).\n\n### Typ\nMarkt/Makro\n\n### Krypto-Makroanalyse & Altcoins\n- **Sprecherthese:** Der Kryptomarkt sowie Altcoins befinden sich auf makroökonomischer Ebene an oder nahe einem bedeutenden Bodenniveau, von dem aus eine verstärkte Kapitalrotation in Altcoins (Altcoin Season) einsetzen könnte (12:50, 15:30).\n- **Richtung:** Tendenziell bullisch für Altcoins/Krypto, mit kurzfristigen Korrekturvorbehalten bei Ethereum (22:05).\n- **Konkret belegte Levels:**\n  - **BTC/NDQ Ratio:** Bodenbildung in der Zone zwischen 78.6 % und 88.7 % Retracement (08:15).\n  - **Bitcoin-Dominanz (BTC.D):** Zyklustop unter 63.5 %; Trigger für Altcoin-Saison ist ein Abfall unter 57.18 % (11:42, 12:50).\n  - **ETH/BTC Ratio:** Reagiert in der Unterstützungszone zwischen 61.8 % und 78.6 % Retracement bei ca. 0.03191 (12:20).\n  - **OTHERS (Market Cap ohne Top 10):** Boden in der Zielzone beim 78.6 % Retracement (ca. 151.0 Mrd. USD) angetestet (14:23).\n  - **BTC/Gold (BTC/XAU):** Zielzone beim 78.6 % (3.16B) bis 88.7 % (1.66B) Retracement; RSI unter 30 Punkte historisch überverkauft (16:58, 17:20).\n",
+    "  - **ETH/USD:** RSI-Überverkauft-Signal um 30 Punkte auf dem Wochenchart (21:18).\n- **Trigger:** Durchbrechen der Bitcoin-Dominanz unter 57.18 % leitet eine dynamische Altcoin-Rotation ein (12:50).\n- **Invalidierung:** Bruch des jeweiligen Zyklustiefs bzw. Verfehlen der Retracement-Unterstützungen (10:32, 15:20).\n- **Zeithorizont:** Mittelfristig bis langfristig (2025–2027 laut Chart-Einblendungen, 11:55, 14:05).\n\n### Unsicherheiten & sehenswerte Stellen\n- **Unsicherheiten:** Geopolitische Spannungen und die globale Makrolage sprechen vordergründig gegen ein Risk-On-Umfeld (18:15). Zudem könnte Ethereum vor einem Hyper-Bullenmarkt noch einen Rücksetzer („Black Swan“) vollziehen (21:50, 22:15).\n- **Sehenswerte Stellen:** 08:15 (BTC vs. Nasdaq Ratio-Analyse), 12:45 (Bitcoin-Dominanz Trigger-Niveau) sowie 17:20 (BTC/Gold RSI-Extremwert).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-22T18:32:34.185257+00:00"
 }
