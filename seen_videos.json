@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-22T16:31:17.670869+00:00",
-    "@wir-lieben-aktien": "2026-09-22T16:31:18.117522+00:00",
-    "@chartsekte": "2026-09-22T16:31:18.542093+00:00",
-    "@hkcm": "2026-09-22T16:31:19.054710+00:00",
-    "@phantombyhkcm": "2026-09-22T16:31:19.788728+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-22T16:31:20.345133+00:00",
-    "@aktien4future": "2026-09-22T16:31:21.081134+00:00",
-    "@Finanzbaer": "2026-09-22T16:31:21.509223+00:00",
-    "@Finanzwiesel": "2026-09-22T16:31:21.941631+00:00",
-    "@TradingKompass": "2026-09-22T16:31:22.443218+00:00",
-    "@TomVorwald": "2026-09-22T16:31:22.989585+00:00"
+    "@1OxTrading": "2026-09-22T17:01:18.897578+00:00",
+    "@wir-lieben-aktien": "2026-09-22T17:01:19.374500+00:00",
+    "@chartsekte": "2026-09-22T17:01:19.810515+00:00",
+    "@hkcm": "2026-09-22T17:01:20.345907+00:00",
+    "@phantombyhkcm": "2026-09-22T17:01:20.861993+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-22T17:01:21.339280+00:00",
+    "@aktien4future": "2026-09-22T17:01:21.880012+00:00",
+    "@Finanzbaer": "2026-09-22T17:01:22.408917+00:00",
+    "@Finanzwiesel": "2026-09-22T17:01:22.897624+00:00",
+    "@TradingKompass": "2026-09-22T17:01:23.393922+00:00",
+    "@TomVorwald": "2026-09-22T17:01:23.859492+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -5220,8 +5220,8 @@
     "handle": "@chartsekte",
     "status": "pending",
     "discovered_at": "2026-09-22T15:01:18.288258+00:00",
-    "attempts": 3,
-    "last_attempt": "2026-09-22T16:02:24.648838+00:00"
+    "attempts": 4,
+    "last_attempt": "2026-09-22T17:01:36.247272+00:00"
   },
   "O-G7zThDSHY": {
     "id": "O-G7zThDSHY",
@@ -5233,8 +5233,8 @@
     "handle": "@wir-lieben-aktien",
     "status": "pending",
     "discovered_at": "2026-09-22T16:01:25.131907+00:00",
-    "attempts": 1,
-    "last_attempt": "2026-09-22T16:01:29.959821+00:00"
+    "attempts": 2,
+    "last_attempt": "2026-09-22T17:01:30.036404+00:00"
   },
   "okkWL5vG-Yg": {
     "id": "okkWL5vG-Yg",
@@ -5261,5 +5261,18 @@
     "discovered_at": "2026-09-22T16:31:20.345114+00:00",
     "attempts": 1,
     "last_attempt": "2026-09-22T16:33:27.409819+00:00"
+  },
+  "CiT_a_Skxi4": {
+    "id": "CiT_a_Skxi4",
+    "title": "Das einzige Altcoin Video das du JETZT brauchst!",
+    "url": "https://www.youtube.com/watch?v=CiT_a_Skxi4",
+    "duration": 1391,
+    "published": null,
+    "channel": "Phantom by HKCM",
+    "handle": "@phantombyhkcm",
+    "status": "pending",
+    "discovered_at": "2026-09-22T17:01:20.861972+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-22T17:01:23.914324+00:00"
   }
 }
