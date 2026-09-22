@@ -6,10 +6,87 @@
   "published": null,
   "channel": "10xTrading",
   "handle": "@1OxTrading",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-22T18:31:07.341029+00:00",
-  "attempts": 2,
-  "last_attempt": "2026-09-22T20:01:38.185779+00:00",
+  "attempts": 3,
+  "last_attempt": "2026-09-22T21:31:29.467628+00:00",
+  "content_available": true,
+  "summary": "Das Video behandelt eine technische Marktanalyse von zehn Tech- und KI-Aktien aus der 10X-Watchlist. Während Werte wie Micron, Meta, Amazon, Crowdstrike, Nebius und Iren vor oder in bullischen Ausbrüchen stehen, zeigen sich bei ServiceNow und Oracle charttechnische Schwächen und Korrekturrisiken. Der Fokus liegt auf der Ermittlung konkreter Unterstützungen, Zielzonen und Breakout-Level anhand technischer Indikatoren.\n\nTyp: Mehrere Aktien\n\n### Micron Technology (MU) (00:21 - 02:03)\n- **Sprecherthese:** Steht nach einem neuen Verlaufshoch kurz vor einem maßgeblichen Breakout.\n- **Richtung:** Bullisch.\n- **Belegte Levels:** Breakout-Zone bei 1.090 $ bis 1.100 $ (00:34), 0,886-Fibonacci-Level bei 1.200 $ (01:29).\n- **Trigger:** Ausbruch über die Zone von 1.090 $ bis 1.100 $.\n- **Invalidierung:** Rückfall unter das Support-/Make-or-Break-Level im unteren Chartbereich.\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Coherent Corp. (COHR) (02:04 - 03:14)\n- **Sprecherthese:** Befindet sich in einem erwarteten Rücksetzer, der als Korrektur vor einem erneuten Anstieg genutzt werden kann.\n- **Richtung:** Neutral bis bullisch (auf ein höheres Tief wartend).\n- **Belegte Levels:** 50-Tage-Linie bei 296 $ (02:45), Support-Zone bei 290 $ bis 300 $ (03:07).\n- **Trigger:** Abfederung und Stabilisierung in der Zone von 290 $ bis 300 $.\n- **Invalidierung:** Nachhaltiger Bruch der 200-Tage-Linie nach unten.\n- **Zeithorizont:** Kurzfristig.\n\n### Meta Platforms Inc. (META) (03:15 - 04:38)\n- **Sprecherthese:** Ausbruch aus dem neutralen Dreieck geglückt, KI-News treiben die Rallye in Richtung neuer Allzeithochs an.\n- **Richtung:** Bullisch.\n- **Belegte Levels:** Widerstand/Re-Test bei 725 $ (04:08), Preisalarm bei 733 $ (04:21), Rücksetzer-Level bei 690 $ / 695 $ (04:18, 04:25), Zielrichtung 800 $ / Allzeithoch (04:30).\n- **Trigger:** Bestätigter Backtest oberhalb von 690 $ bis 725 $.\n- **Invalidierung:** Abverkauf unter 690 $.\n- **Zeithorizont:** Mittel- bis langfristig.\n\n### Alphabet Inc. (GOOGL) (04:39 - 06:23)\n- **Sprecherthese:** Hat im Wochenverlauf Ziele abgearbeitet und korrigiert kurzfristig, bleibt übergeordnet jedoch in einem neutralen Dreieck konstruktiv.\n- **Richtung:** Neutral bis leicht bullisch.\n- **Belegte Levels:** Halte-/Dip-Zone bei 335 $ bis 340 $ (05:36), langfristiges Upside-Ziel bei 400 $ bis 420 $ (05:49).\n- **Trigger:** Erneutes Eindrehen nach oben aus der Dip-Zone über 340 $.\n- **Invalidierung:** Schlusskurs unterhalb von 340 $ (Worst Case).\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Amazon.com Inc. (AMZN) (06:24 - 07:47)\n- **Sprecherthese:** Ausbruch aus dem Abwärtstrend ist erfolgt; nach einem technischen Rücksetzer bleibt die Aufwärtsbewegung intakt.\n- **Richtung:** Bullisch.\n- **Belegte Levels:** 38,2 % Fibonacci-Retracement (07:29), erste Zielzone bei 265 $ bis 270 $ (07:39), Untergrenze bei 250 $ (07:45).\n- **Trigger:** Rebound nach dem Rücksetzer am Ausbruchslevel.\n- **Invalidierung:** Fall unter 250 $.\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n### CrowdStrike Holdings Inc. (CRWD) (07:48 - 09:39)\n- **Sprecherthese:** Starkes Momentum treibt den Kurs weiter hoch, weshalb in der Zielzone Skalierungen/Teilverkäufe geplant werden.\n- **Richtung:** Bullisch (mit bevorstehender Gewinnmitnahme).\n- **Belegte Levels:** Zielzone für Verkäufe bei 270 $ bis 300 $ (09:01), parabolische Spitze um 300 $ (08:39), anschließendes Korrekturpotenzial unter 200 $ (08:42).\n- **Trigger:** Erreichen der Zielzone bei 270 $ bis 300 $.\n- **Invalidierung:** Plötzlicher Sektor-Abverkauf vor Erreichen des Ziels.\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Nebius Group (NBIS) (09:40 - 11:14)\n- **Sprecherthese:** Steckt im neutralen Dreieck fest, zeigt aber ein klares Primärszenario für einen Ausbruch nach oben.\n- **Richtung:** Bullisch.\n- **Belegte Levels:** Support/Abstoß bei 227 $ (10:58), Zwischenziel bei 266 $ (10:44), übergeordnete Ziele bei 400 $ bis 500 $ (09:58).\n- **Trigger:** Ausbruch aus dem Dreieck und Halten des blauen Aufwärtstrends.\n- **Invalidierung:** Bruch des Aufwärtstrends nach unten.\n- **Zeithorizont:** Mittelfristig.\n\n### Iren / Iris Energy Ltd (IREN) (11:15 - 13:11)\n- **Sprecherthese:** Chartbild zeigt bereits zwei höhere Tiefs und steht unmittelbar vor einer dynamischen Aufwärtsbewegung.\n- **Richtung:** Stark bullisch.\n- **Belegte Levels:** Erstes Ziel bei 60 $ (12:51).\n- **Trigger:** Ausbruch über die aktuelle Konsolidierung.\n- **Invalidierung:** Unterschreiten des jüngsten höheren Tiefs.\n- **Zeithorizont:** Mittelfristig.\n\n### ServiceNow Inc. (NOW) (13:12 - 15:19)\n- **Sprecherthese:** Zeigt keinen impulsiven Anstieg und scheitert wiederholt an wichtigen Hürden, weshalb weitere Rücksetzer drohen.\n- **Richtung:** Bärisch / Skeptisch.\n- **Belegte Levels:** 200-Wochen-Linie als Hürde (14:24), Zwischenmarke 140 $ (14:27), Niveau um 200 $ (13:38), Korrekturpotenzial von 10 % bis 12 % (14:56).\n- **Trigger:** Erst ein Ausbruch über die 200-Wochen-Linie würde das Bild aufhellen.\n- **Invalidierung:** Abweisung an der 200-Wochen-Linie (bestätigt Abwärtstrend).\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Oracle Corp. (ORCL) (15:20 - 17:58)\n- **Sprecherthese:** Klares Sorgenkind ohne Dynamik; Verharren auf alten Niveaus erhöht das Risiko einer Schulter-Kopf-Schulter-Formation.\n- **Richtung:** Bärisch.\n- **Belegte Levels:** Alarm bei 153 $ (17:31), Ausbruchslevel bei 155 $ (17:56), SKS-Korrekturziel bei 120 $ (17:50).\n- **Trigger:** Nötig wären nachhaltige Schlusskurse über 155 $ und der 200-Wochen-Linie.\n- **Invalidierung:** Unterschreiten der Neckline führt zum Ziel von 120 $.\n- **Zeithorizont:** Mittelfristig.\n\n### Unsicherheiten und empfehlenswerte Video-Stellen\n- **Unsicherheiten:** Skepsis des Sprechers bei Werten wie ServiceNow und Oracle bezüglich des Durchbrechens der 200-Wochen-Linie.\n- **Sehenswerte Stellen:**\n  - 00:21–01:50: Micron Breakout-Analyse & Fibonacci-Ziele.\n  - 03:15–04:38: Metas Ausbruch aus dem Dreieck samt Intraday-Backtest.\n  - 07:48–09:39: CrowdStrike Momentum-Analyse mit Skalierungszonen.\n  - 14:00–15:19: ServiceNow-Bedenken und Widerstände.\n  - 17:25–17:58: Erklärung der SKS-Gefahr bei Oracle.",
+  "evidence": [
+    {
+      "timestamp": "00:34",
+      "basis": "audio",
+      "observation": "Sprecher nennt Breakout-Level über 1090 bis 1100 US-Dollar bei Micron Technology."
+    },
+    {
+      "timestamp": "01:29",
+      "basis": "audio",
+      "observation": "Sprecher nennt 0,886 Fibonacci bei 1200 US-Dollar für Micron Technology."
+    },
+    {
+      "timestamp": "02:45",
+      "basis": "audio",
+      "observation": "Sprecher nennt die 50-Tage-Linie bei 296 US-Dollar für Coherent Corp."
+    },
+    {
+      "timestamp": "04:08",
+      "basis": "audio",
+      "observation": "Sprecher erklärt das Niveau von 725 US-Dollar für Meta Platforms."
+    },
+    {
+      "timestamp": "04:21",
+      "basis": "visual",
+      "observation": "Preisalarm-Einstellungsfenster bei Meta Platforms für 733,33 US-Dollar eingeblendet."
+    },
+    {
+      "timestamp": "05:36",
+      "basis": "audio",
+      "observation": "Sprecher nennt Haltemarken bei 335 bis 340 US-Dollar für Alphabet Inc."
+    },
+    {
+      "timestamp": "07:39",
+      "basis": "audio",
+      "observation": "Sprecher nennt erste Zielzone bei 265 bis 270 US-Dollar bei Amazon."
+    },
+    {
+      "timestamp": "09:01",
+      "basis": "audio",
+      "observation": "Sprecher nennt Gewinnmitnahme- / Skalierungszone bei 270 bis 300 US-Dollar für CrowdStrike."
+    },
+    {
+      "timestamp": "10:58",
+      "basis": "audio",
+      "observation": "Sprecher spricht über das Abstoßen vom Niveau 227 bei Nebius Group."
+    },
+    {
+      "timestamp": "12:51",
+      "basis": "audio",
+      "observation": "Sprecher nennt erstes Kursziel von 60 Dollar bei Iren."
+    },
+    {
+      "timestamp": "14:24",
+      "basis": "audio",
+      "observation": "Sprecher nennt Hürde an der 200-Wochen-Linie und 140 Dollar bei ServiceNow."
+    },
+    {
+      "timestamp": "17:31",
+      "basis": "audio",
+      "observation": "Sprecher erwähnt Preisalarm bei 153 Dollar und verlangt Ausbruch über 155 Dollar bei Oracle."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "LLrwovWjp8k",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-22T21:32:17.816246+00:00",
+  "discord_chunks": [
+    "🎬 **10xTrading**\n**🚨 10 AKTIEN 💥 Amazon Meta Alphabet Micron Oracle Crowdstrike ServiceNow Coherent Nebius Iren**\nhttps://www.youtube.com/watch?v=LLrwovWjp8k\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\nDas Video behandelt eine technische Marktanalyse von zehn Tech- und KI-Aktien aus der 10X-Watchlist. Während Werte wie Micron, Meta, Amazon, Crowdstrike, Nebius und Iren vor oder in bullischen Ausbrüchen stehen, zeigen sich bei ServiceNow und Oracle charttechnische Schwächen und Korrekturrisiken. Der Fokus liegt auf der Ermittlung konkreter Unterstützungen, Zielzonen und Breakout-Level anhand technischer Indikatoren.\n\nTyp: Mehrere Aktien\n\n### Micron Technology (MU) (00:21 - 02:03)\n- **Sprecherthese:** Steht nach einem neuen Verlaufshoch kurz vor einem maßgeblichen Breakout.\n- **Richtung:** Bullisch.\n- **Belegte Levels:** Breakout-Zone bei 1.090 $ bis 1.100 $ (00:34), 0,886-Fibonacci-Level bei 1.200 $ (01:29).\n- **Trigger:** Ausbruch über die Zone von 1.090 $ bis 1.100 $.\n- **Invalidierung:** Rückfall unter das Support-/Make-or-Break-Level im unteren Chartbereich.\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Coherent Corp. (COHR) (02:04 - 03:14)\n- **Sprecherthese:** Befindet sich in einem erwarteten Rücksetzer, der als Korrektur vor einem erneuten Anstieg genutzt werden kann.\n- **Richtung:** Neutral bis bullisch (auf ein höheres Tief wartend).\n- **Belegte Levels:** 50-Tage-Linie bei 296 $ (02:45), Support-Zone bei 290 $ bis 300 $ (03:07).\n- **Trigger:** Abfederung und Stabilisierung in der Zone von 290 $ bis 300 $.\n- **Invalidierung:** Nachhaltiger Bruch der 200-Tage-Linie nach unten.\n- **Zeithorizont:** Kurzfristig.\n\n### Meta Platforms Inc. (META) (03:15 - 04:38)\n- **Sprecherthese:** Ausbruch aus dem neutralen Dreieck geglückt, KI-News t",
+    "reiben die Rallye in Richtung neuer Allzeithochs an.\n- **Richtung:** Bullisch.\n- **Belegte Levels:** Widerstand/Re-Test bei 725 $ (04:08), Preisalarm bei 733 $ (04:21), Rücksetzer-Level bei 690 $ / 695 $ (04:18, 04:25), Zielrichtung 800 $ / Allzeithoch (04:30).\n- **Trigger:** Bestätigter Backtest oberhalb von 690 $ bis 725 $.\n- **Invalidierung:** Abverkauf unter 690 $.\n- **Zeithorizont:** Mittel- bis langfristig.\n\n### Alphabet Inc. (GOOGL) (04:39 - 06:23)\n- **Sprecherthese:** Hat im Wochenverlauf Ziele abgearbeitet und korrigiert kurzfristig, bleibt übergeordnet jedoch in einem neutralen Dreieck konstruktiv.\n- **Richtung:** Neutral bis leicht bullisch.\n- **Belegte Levels:** Halte-/Dip-Zone bei 335 $ bis 340 $ (05:36), langfristiges Upside-Ziel bei 400 $ bis 420 $ (05:49).\n- **Trigger:** Erneutes Eindrehen nach oben aus der Dip-Zone über 340 $.\n- **Invalidierung:** Schlusskurs unterhalb von 340 $ (Worst Case).\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Amazon.com Inc. (AMZN) (06:24 - 07:47)\n- **Sprecherthese:** Ausbruch aus dem Abwärtstrend ist erfolgt; nach einem technischen Rücksetzer bleibt die Aufwärtsbewegung intakt.\n- **Richtung:** Bullisch.\n- **Belegte Levels:** 38,2 % Fibonacci-Retracement (07:29), erste Zielzone bei 265 $ bis 270 $ (07:39), Untergrenze bei 250 $ (07:45).\n- **Trigger:** Rebound nach dem Rücksetzer am Ausbruchslevel.\n- **Invalidierung:** Fall unter 250 $.\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n### CrowdStrike Holdings Inc. (CRWD) (07:48 - 09:39)\n- **Sprecherthese:** Starkes Momentum treibt den Kurs weiter hoch, weshalb in der Zielzone Skalierungen/Teilverkäufe geplant werden.\n- **Richtung:** Bullisch (mit bevorstehender Gewinnmitnahme).\n- **Belegte Levels:** Zielzone für Verkäufe bei 270 $ bis 300 $ (09:01), parabolische Spitze um 30",
+    "0 $ (08:39), anschließendes Korrekturpotenzial unter 200 $ (08:42).\n- **Trigger:** Erreichen der Zielzone bei 270 $ bis 300 $.\n- **Invalidierung:** Plötzlicher Sektor-Abverkauf vor Erreichen des Ziels.\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Nebius Group (NBIS) (09:40 - 11:14)\n- **Sprecherthese:** Steckt im neutralen Dreieck fest, zeigt aber ein klares Primärszenario für einen Ausbruch nach oben.\n- **Richtung:** Bullisch.\n- **Belegte Levels:** Support/Abstoß bei 227 $ (10:58), Zwischenziel bei 266 $ (10:44), übergeordnete Ziele bei 400 $ bis 500 $ (09:58).\n- **Trigger:** Ausbruch aus dem Dreieck und Halten des blauen Aufwärtstrends.\n- **Invalidierung:** Bruch des Aufwärtstrends nach unten.\n- **Zeithorizont:** Mittelfristig.\n\n### Iren / Iris Energy Ltd (IREN) (11:15 - 13:11)\n- **Sprecherthese:** Chartbild zeigt bereits zwei höhere Tiefs und steht unmittelbar vor einer dynamischen Aufwärtsbewegung.\n- **Richtung:** Stark bullisch.\n- **Belegte Levels:** Erstes Ziel bei 60 $ (12:51).\n- **Trigger:** Ausbruch über die aktuelle Konsolidierung.\n- **Invalidierung:** Unterschreiten des jüngsten höheren Tiefs.\n- **Zeithorizont:** Mittelfristig.\n\n### ServiceNow Inc. (NOW) (13:12 - 15:19)\n- **Sprecherthese:** Zeigt keinen impulsiven Anstieg und scheitert wiederholt an wichtigen Hürden, weshalb weitere Rücksetzer drohen.\n- **Richtung:** Bärisch / Skeptisch.\n- **Belegte Levels:** 200-Wochen-Linie als Hürde (14:24), Zwischenmarke 140 $ (14:27), Niveau um 200 $ (13:38), Korrekturpotenzial von 10 % bis 12 % (14:56).\n- **Trigger:** Erst ein Ausbruch über die 200-Wochen-Linie würde das Bild aufhellen.\n- **Invalidierung:** Abweisung an der 200-Wochen-Linie (bestätigt Abwärtstrend).\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n### Oracle Corp. (ORCL) (15:20 - 17:58)\n- **Sprecherthe",
+    "se:** Klares Sorgenkind ohne Dynamik; Verharren auf alten Niveaus erhöht das Risiko einer Schulter-Kopf-Schulter-Formation.\n- **Richtung:** Bärisch.\n- **Belegte Levels:** Alarm bei 153 $ (17:31), Ausbruchslevel bei 155 $ (17:56), SKS-Korrekturziel bei 120 $ (17:50).\n- **Trigger:** Nötig wären nachhaltige Schlusskurse über 155 $ und der 200-Wochen-Linie.\n- **Invalidierung:** Unterschreiten der Neckline führt zum Ziel von 120 $.\n- **Zeithorizont:** Mittelfristig.\n\n### Unsicherheiten und empfehlenswerte Video-Stellen\n- **Unsicherheiten:** Skepsis des Sprechers bei Werten wie ServiceNow und Oracle bezüglich des Durchbrechens der 200-Wochen-Linie.\n- **Sehenswerte Stellen:**\n  - 00:21–01:50: Micron Breakout-Analyse & Fibonacci-Ziele.\n  - 03:15–04:38: Metas Ausbruch aus dem Dreieck samt Intraday-Backtest.\n  - 07:48–09:39: CrowdStrike Momentum-Analyse mit Skalierungszonen.\n  - 14:00–15:19: ServiceNow-Bedenken und Widerstände.\n  - 17:25–17:58: Erklärung der SKS-Gefahr bei Oracle.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 4,
+  "discord_sent_at": "2026-09-22T21:32:18.891649+00:00"
 }
