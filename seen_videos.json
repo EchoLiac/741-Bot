@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-23T16:31:08.426306+00:00",
-    "@wir-lieben-aktien": "2026-09-23T16:31:09.061859+00:00",
-    "@chartsekte": "2026-09-23T16:31:09.627873+00:00",
-    "@hkcm": "2026-09-23T16:31:10.232267+00:00",
-    "@phantombyhkcm": "2026-09-23T16:31:10.917698+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-23T16:31:11.434481+00:00",
-    "@aktien4future": "2026-09-23T16:31:11.941967+00:00",
-    "@Finanzbaer": "2026-09-23T16:31:12.526705+00:00",
-    "@Finanzwiesel": "2026-09-23T16:31:12.977035+00:00",
-    "@TradingKompass": "2026-09-23T16:31:13.467657+00:00",
-    "@TomVorwald": "2026-09-23T16:31:14.044446+00:00"
+    "@1OxTrading": "2026-09-23T17:01:25.431280+00:00",
+    "@wir-lieben-aktien": "2026-09-23T17:01:25.971300+00:00",
+    "@chartsekte": "2026-09-23T17:01:26.534202+00:00",
+    "@hkcm": "2026-09-23T17:01:27.162349+00:00",
+    "@phantombyhkcm": "2026-09-23T17:01:27.738407+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-23T17:01:28.344079+00:00",
+    "@aktien4future": "2026-09-23T17:01:28.860068+00:00",
+    "@Finanzbaer": "2026-09-23T17:01:29.534112+00:00",
+    "@Finanzwiesel": "2026-09-23T17:01:30.078988+00:00",
+    "@TradingKompass": "2026-09-23T17:01:30.563869+00:00",
+    "@TomVorwald": "2026-09-23T17:01:31.100179+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -5247,8 +5247,8 @@
     "handle": "@hkcm",
     "status": "pending",
     "discovered_at": "2026-09-22T16:31:19.054691+00:00",
-    "attempts": 18,
-    "last_attempt": "2026-09-23T15:32:01.399879+00:00"
+    "attempts": 19,
+    "last_attempt": "2026-09-23T17:01:37.651134+00:00"
   },
   "7ezROYN41Zc": {
     "id": "7ezROYN41Zc",
@@ -5301,8 +5301,8 @@
     "handle": "@TomVorwald",
     "status": "pending",
     "discovered_at": "2026-09-22T18:01:32.173791+00:00",
-    "attempts": 17,
-    "last_attempt": "2026-09-23T15:32:07.919379+00:00"
+    "attempts": 18,
+    "last_attempt": "2026-09-23T17:01:44.005645+00:00"
   },
   "LLrwovWjp8k": {
     "id": "LLrwovWjp8k",
@@ -5371,5 +5371,18 @@
     "discovered_at": "2026-09-23T16:31:11.434462+00:00",
     "attempts": 1,
     "last_attempt": "2026-09-23T16:31:14.102626+00:00"
+  },
+  "ns8PRHk4eow": {
+    "id": "ns8PRHk4eow",
+    "title": "DAS ist eine Aktie für die Ewigkeit!",
+    "url": "https://www.youtube.com/watch?v=ns8PRHk4eow",
+    "duration": 1280,
+    "published": null,
+    "channel": "Phantom by HKCM",
+    "handle": "@phantombyhkcm",
+    "status": "pending",
+    "discovered_at": "2026-09-23T17:01:27.738383+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-23T17:01:31.157157+00:00"
   }
 }
