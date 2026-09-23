@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-23T17:31:08.858381+00:00",
-    "@wir-lieben-aktien": "2026-09-23T17:31:09.449191+00:00",
-    "@chartsekte": "2026-09-23T17:31:09.998971+00:00",
-    "@hkcm": "2026-09-23T17:31:10.563260+00:00",
-    "@phantombyhkcm": "2026-09-23T17:31:11.125296+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-23T17:31:11.621778+00:00",
-    "@aktien4future": "2026-09-23T17:31:12.263616+00:00",
-    "@Finanzbaer": "2026-09-23T17:31:12.904216+00:00",
-    "@Finanzwiesel": "2026-09-23T17:31:13.585786+00:00",
-    "@TradingKompass": "2026-09-23T17:31:14.128645+00:00",
-    "@TomVorwald": "2026-09-23T17:31:14.751946+00:00"
+    "@1OxTrading": "2026-09-23T18:01:54.218268+00:00",
+    "@wir-lieben-aktien": "2026-09-23T18:01:54.728886+00:00",
+    "@chartsekte": "2026-09-23T18:01:55.243887+00:00",
+    "@hkcm": "2026-09-23T18:01:55.779749+00:00",
+    "@phantombyhkcm": "2026-09-23T18:01:56.304886+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-23T18:01:56.827961+00:00",
+    "@aktien4future": "2026-09-23T18:01:57.343134+00:00",
+    "@Finanzbaer": "2026-09-23T18:01:57.886566+00:00",
+    "@Finanzwiesel": "2026-09-23T18:01:58.360176+00:00",
+    "@TradingKompass": "2026-09-23T18:01:58.868010+00:00",
+    "@TomVorwald": "2026-09-23T18:01:59.418846+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -5369,8 +5369,8 @@
     "handle": "@ChartsCarsbyPhilipKlinkmüller",
     "status": "pending",
     "discovered_at": "2026-09-23T16:31:11.434462+00:00",
-    "attempts": 1,
-    "last_attempt": "2026-09-23T16:31:14.102626+00:00"
+    "attempts": 2,
+    "last_attempt": "2026-09-23T18:02:48.638075+00:00"
   },
   "ns8PRHk4eow": {
     "id": "ns8PRHk4eow",
@@ -5384,5 +5384,32 @@
     "discovered_at": "2026-09-23T17:01:27.738383+00:00",
     "attempts": 1,
     "last_attempt": "2026-09-23T17:01:31.157157+00:00"
+  },
+  "anQ0Dcj1HO4": {
+    "id": "anQ0Dcj1HO4",
+    "title": "Deutschlands politischer Irrweg schiebt die Wähler nach rechts",
+    "url": "https://www.youtube.com/watch?v=anQ0Dcj1HO4",
+    "duration": 3821,
+    "published": null,
+    "channel": "HKCM",
+    "handle": "@hkcm",
+    "status": "complete",
+    "discovered_at": "2026-09-23T18:01:55.779732+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-23T18:01:59.476160+00:00",
+    "scraped_at": "2026-09-23T18:02:42.676698+00:00"
+  },
+  "tiBwKQQUclg": {
+    "id": "tiBwKQQUclg",
+    "title": "McDonald’s Crash: Die Chance des Jahrzehnts? 😱 MCD Analyse & Kursziele",
+    "url": "https://www.youtube.com/watch?v=tiBwKQQUclg",
+    "duration": 487,
+    "published": null,
+    "channel": "TradingKompass",
+    "handle": "@TradingKompass",
+    "status": "pending",
+    "discovered_at": "2026-09-23T18:01:58.867994+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-23T18:02:42.681206+00:00"
   }
 }
