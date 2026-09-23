@@ -6,10 +6,56 @@
   "published": null,
   "channel": "10xTrading",
   "handle": "@1OxTrading",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-22T20:31:14.299680+00:00",
-  "attempts": 8,
-  "last_attempt": "2026-09-23T06:31:47.879527+00:00",
+  "attempts": 9,
+  "last_attempt": "2026-09-23T08:02:20.733578+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher analysiert Makrodaten, Rohstoffe, Krypto sowie die Indizes Nasdaq, S&P 500 und DAX, gefolgt von detaillierten Chart-Updates zu Nvidia, AMD, JPMorgan und Alibaba. Trotz geringer Marktbreite treiben ausgewählte Tech- und Halbleiterwerte die Märkte nahe an neue Allzeithochs. Für Rohstoffe, Kryptowährungen und Einzelaktien werden konkrete Schlüsselzonen, harmonische Muster und Einstiegsszenarien dargestellt (00:21–24:25).\n\n### Typ\nMarkt/Makro und mehrere Aktien\n\n### Markt & Indizes\n* **WTI Öl (02:05, 07:05)**: Der Sprecher sieht nach einem Rückgang von 16 % vom Verlaufshoch ($106) unter $90 USD eine mögliche Bounce-Chance. Richtung: Neutral bis kurzfristig bullish. Belegte Levels: Unterstützung an der 50-Tage-Linie, $93 USD Retest. Trigger/Invalidierung/Zeithorizont: Nicht genannt.\n* **Bitcoin (08:20)**: Bullishe Haltung durch aktivierte Cypher- und Shark-Harmonic-Muster. Richtung: Bullish. Belegte Levels: $85.000 USD, bärischer Orderblock bei $90.000 USD, 61,8%-Fibonacci-Zielzone bei $100.000 USD. Trigger: Ausbruch über $90.000 USD. Invalidierung/Zeithorizont: Nicht genannt.\n* **Nasdaq 100 & S&P 500 (12:50, 14:10)**: Erwartet wird ein Ausbruch über das Allzeithoch. Richtung: Bullish. Belegte Levels: Nasdaq Allzeithoch-Test bei 30.758 Punkten (laut Sprecheranzeige), S&P 500 Zielzone $5.700+. Trigger: Halten über dem 88,6%-Retracement. Invalidierung/Zeithorizont: Nicht genannt / kurz- bis mittelfristig.\n* **DAX / GER40 (14:30)**: „Bat Pattern“ und Doppelboden auf der 20-Wochen-Linie signalisieren Aufwärtspotenzial. Richtung: Bullish. Belegte Levels: Ziel 27.500 Punkte, Widerstand 25.900 Punkte. Trigger: Ausbruch über 25.900 Punkte. Invalidierung/Zeithorizont: Nicht genannt.\n\n### Aktien-Updates\n* **NVIDIA (NVDA) (17:52)**:\n  - Sprecherthese: Aktie verzeichnet +10 % in 8 Tagen und stößt an ein Mehrfachtop im neutralen Dreieck.\n  - Richtung: Neutral / Konsolidierung.\n  - Konkret belegte Levels: Unterstützung bei $212 USD (20-Wochen-Linie).\n  - Trigger: Ausbruch über die obere Dreieckstrendlinie.\n  - Invalidierung: Bruch der $212 USD Unterstützung.\n  - Zeithorizont: Kurzfristig.\n* **AMD (AMD) (19:35)**:\n  - Sprecherthese: Starke Erholung nach 50%-Korrektur aus dem 5-0/Shark-Muster führt zu neuem Momentum.\n  - Richtung: Bullish.\n  - Konkret belegte Levels: Erweiterungszielzone bei $680–$700 USD (Crab-Muster / 161,8%-Extension).\n  - Trigger: Erfolgter Backtest der Algo-Trendlinie.\n  - Invalidierung: Nicht genannt.\n  - Zeithorizont: Kurz- bis mittelfristig.\n* **JPMorgan Chase (JPM) (21:20)**:\n  - Sprecherthese: Rücksetzer vor dem Start der Berichtssaison am 13. Oktober bieten Nachkaufchancen.\n  - Richtung: Bullish auf Sicht der Quartalszahlen.\n  - Konkret belegte Levels: Unterstützungszone bei $320–$337 USD sowie 200-Tage-Linie.\n  - Trigger: Test der $320 USD Marke / 20-Wochen-Linie.\n  - Invalidierung: Nicht genannt.\n  - Zeithorizont: Mittelfristig (ab 13. Oktober).\n* **Alibaba (BABA) (23:23)**:\n  - Sprecherthese: Stößt an den Schlüsselwiderstand bei $120 USD (50-Tage-Linie) und könnte kurzfristig konsolidieren.\n  - Richtung: Neutral (kurzfristiger Rücksetzer), über $122 USD bullish.\n  - Konkret belegte Levels: Widerstand $120 USD, Rücksetzerziel $112–$113 USD, mittelfristige Ziele $130 USD und $150 USD.\n  - Trigger: Nachhaltiger Tagesschluss über $122 USD.\n  - Invalidierung: Nicht genannt.\n  - Zeithorizont: Kurz- bis mittelfristig.\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten**: Sehr schmale Marktbreite (nur ca. 30 % der S&P 500-Aktien über der 50-Tage-Linie), geopolitische Einflüsse auf den Ölpreis sowie Risiken rund um den Start der Banken-Berichtssaison ab dem 13. Oktober.\n- **Lohnenswerte Stellen**:\n  - `02:05`: Ausführungen zur geringen Marktbreite und WTI-Ölpreis.\n  - `08:20`: Bitcoin Chartanalyse mit Cypher- und Shark-Pattern.\n  - `17:52`: Nvidia Multi-Top-Struktur und 20-Wochen-Linie.\n  - `19:35`: AMD Zielzonenbestimmung via Harmonic-Muster.\n  - `23:23`: Alibaba Schlüsselwiderstand bei $120 USD.",
+  "evidence": [
+    {
+      "timestamp": "02:05",
+      "basis": "audio",
+      "observation": "Sprecher erklärt, dass der WTI-Ölpreis zeitweise unter die Marke von 90 USD gefallen ist."
+    },
+    {
+      "timestamp": "08:20",
+      "basis": "visual",
+      "observation": "Im Chart von BTCUSD wird eine Zielzone zwischen 85.000 USD und 100.000 USD mit getriggertem Cypher-Pattern gezeigt."
+    },
+    {
+      "timestamp": "17:52",
+      "basis": "audio",
+      "observation": "Sprecher nennt für Nvidia einen Anstieg von 10 % innerhalb von 8 Tagen und verweist auf die Unterstützung bei 212 USD."
+    },
+    {
+      "timestamp": "19:35",
+      "basis": "visual",
+      "observation": "AMD-Chart zeigt den Anstieg nach dem 5-0 / Shark Pattern mit Zielbereich zwischen 680 USD und 700 USD."
+    },
+    {
+      "timestamp": "21:20",
+      "basis": "audio",
+      "observation": "Sprecher nennt den 13. Oktober als Beginn der Berichtssaison für JPMorgan Chase und nennt die Unterstützungszone von 320 bis 337 USD."
+    },
+    {
+      "timestamp": "23:23",
+      "basis": "visual",
+      "observation": "Chart von Alibaba zeigt den Widerstand bei 120 USD sowie eingezeichnete Zielzonen bei 130 USD und 150 USD."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "mNYK5DmX0Pk",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-23T08:03:03.710159+00:00",
+  "discord_chunks": [
+    "🎬 **10xTrading**\n**🚨 DIE AI RALLY IST ZURÜCK – Chips und Meta dominieren die Wall Street 💥**\nhttps://www.youtube.com/watch?v=mNYK5DmX0Pk\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher analysiert Makrodaten, Rohstoffe, Krypto sowie die Indizes Nasdaq, S&P 500 und DAX, gefolgt von detaillierten Chart-Updates zu Nvidia, AMD, JPMorgan und Alibaba. Trotz geringer Marktbreite treiben ausgewählte Tech- und Halbleiterwerte die Märkte nahe an neue Allzeithochs. Für Rohstoffe, Kryptowährungen und Einzelaktien werden konkrete Schlüsselzonen, harmonische Muster und Einstiegsszenarien dargestellt (00:21–24:25).\n\n### Typ\nMarkt/Makro und mehrere Aktien\n\n### Markt & Indizes\n* **WTI Öl (02:05, 07:05)**: Der Sprecher sieht nach einem Rückgang von 16 % vom Verlaufshoch ($106) unter $90 USD eine mögliche Bounce-Chance. Richtung: Neutral bis kurzfristig bullish. Belegte Levels: Unterstützung an der 50-Tage-Linie, $93 USD Retest. Trigger/Invalidierung/Zeithorizont: Nicht genannt.\n* **Bitcoin (08:20)**: Bullishe Haltung durch aktivierte Cypher- und Shark-Harmonic-Muster. Richtung: Bullish. Belegte Levels: $85.000 USD, bärischer Orderblock bei $90.000 USD, 61,8%-Fibonacci-Zielzone bei $100.000 USD. Trigger: Ausbruch über $90.000 USD. Invalidierung/Zeithorizont: Nicht genannt.\n* **Nasdaq 100 & S&P 500 (12:50, 14:10)**: Erwartet wird ein Ausbruch über das Allzeithoch. Richtung: Bullish. Belegte Levels: Nasdaq Allzeithoch-Test bei 30.758 Punkten (laut Sprecheranzeige), S&P 500 Zielzone $5.700+. Trigger: Halten über dem 88,6%-Retracement. Invalidierung/Zeithorizont: Nicht genannt / kurz- bis mittelfristig.\n* **DAX / GER40 (14:30)**: „Bat Pattern“ und Doppelboden auf der 20-Wochen-Linie signalisieren Aufwärtspotenzial. Richtung: Bullish. Beleg",
+    "te Levels: Ziel 27.500 Punkte, Widerstand 25.900 Punkte. Trigger: Ausbruch über 25.900 Punkte. Invalidierung/Zeithorizont: Nicht genannt.\n\n### Aktien-Updates\n* **NVIDIA (NVDA) (17:52)**:\n  - Sprecherthese: Aktie verzeichnet +10 % in 8 Tagen und stößt an ein Mehrfachtop im neutralen Dreieck.\n  - Richtung: Neutral / Konsolidierung.\n  - Konkret belegte Levels: Unterstützung bei $212 USD (20-Wochen-Linie).\n  - Trigger: Ausbruch über die obere Dreieckstrendlinie.\n  - Invalidierung: Bruch der $212 USD Unterstützung.\n  - Zeithorizont: Kurzfristig.\n* **AMD (AMD) (19:35)**:\n  - Sprecherthese: Starke Erholung nach 50%-Korrektur aus dem 5-0/Shark-Muster führt zu neuem Momentum.\n  - Richtung: Bullish.\n  - Konkret belegte Levels: Erweiterungszielzone bei $680–$700 USD (Crab-Muster / 161,8%-Extension).\n  - Trigger: Erfolgter Backtest der Algo-Trendlinie.\n  - Invalidierung: Nicht genannt.\n  - Zeithorizont: Kurz- bis mittelfristig.\n* **JPMorgan Chase (JPM) (21:20)**:\n  - Sprecherthese: Rücksetzer vor dem Start der Berichtssaison am 13. Oktober bieten Nachkaufchancen.\n  - Richtung: Bullish auf Sicht der Quartalszahlen.\n  - Konkret belegte Levels: Unterstützungszone bei $320–$337 USD sowie 200-Tage-Linie.\n  - Trigger: Test der $320 USD Marke / 20-Wochen-Linie.\n  - Invalidierung: Nicht genannt.\n  - Zeithorizont: Mittelfristig (ab 13. Oktober).\n* **Alibaba (BABA) (23:23)**:\n  - Sprecherthese: Stößt an den Schlüsselwiderstand bei $120 USD (50-Tage-Linie) und könnte kurzfristig konsolidieren.\n  - Richtung: Neutral (kurzfristiger Rücksetzer), über $122 USD bullish.\n  - Konkret belegte Levels: Widerstand $120 USD, Rücksetzerziel $112–$113 USD, mittelfristige Ziele $130 USD und $150 USD.\n  - Trigger: Nachhaltiger Tagesschluss über $122 USD.\n  - Invalidierung: Nicht genannt.\n  - Zeithorizont: Ku",
+    "rz- bis mittelfristig.\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten**: Sehr schmale Marktbreite (nur ca. 30 % der S&P 500-Aktien über der 50-Tage-Linie), geopolitische Einflüsse auf den Ölpreis sowie Risiken rund um den Start der Banken-Berichtssaison ab dem 13. Oktober.\n- **Lohnenswerte Stellen**:\n  - `02:05`: Ausführungen zur geringen Marktbreite und WTI-Ölpreis.\n  - `08:20`: Bitcoin Chartanalyse mit Cypher- und Shark-Pattern.\n  - `17:52`: Nvidia Multi-Top-Struktur und 20-Wochen-Linie.\n  - `19:35`: AMD Zielzonenbestimmung via Harmonic-Muster.\n  - `23:23`: Alibaba Schlüsselwiderstand bei $120 USD.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 3,
+  "discord_sent_at": "2026-09-23T08:03:04.605879+00:00"
 }
