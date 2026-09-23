@@ -6,10 +6,50 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-22T16:01:25.131907+00:00",
-  "attempts": 13,
-  "last_attempt": "2026-09-23T09:01:42.125323+00:00",
+  "attempts": 14,
+  "last_attempt": "2026-09-23T10:32:00.800021+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher analysiert die 40 DAX-Aktien nach einer Kombination aus technischer Marktsymmetrie und Fundamentaldaten, um die am besten einschätzbaren Langfristinvestments zu ermitteln (00:53). In die engere Auswahl schaffen es vor allem Airbus, Deutsche Börse und Hannover Rück, da sie stabile Aufwärtstrends mit verlässlichen Korrekturmustern aufweisen (07:51). Als persönlicher Gesamtfavorit wird die Deutsche Börse hervorgehoben (10:54).\n\n### Typ\nMehrere Aktien (DAX-Screening)\n\n### Analysierte Werte\n\n#### Deutsche Börse AG (Favorit)\n* **Sprecherthese:** Bietet den saubersten und stabilsten Langfristtrend im DAX mit hochgradig symmetrischen Korrekturen (03:52). Fundamental schwächt sich das Umsatzwachstum zwar etwas ab, wird aber durch steigende Margen kompensiert (09:20).\n* **Richtung:** Bullisch (Langfristig), kurzfristig Abwarten.\n* **Belegte Levels:** KCV aktuell bei 25,42x (09:31).\n* **Trigger:** Erneuter Abschluss einer Trendkorrektur hin zum Symmetrieniveau (09:56).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig (03:54).\n\n#### Hannover Rück SE\n* **Sprecherthese:** Solider Rückversicherer mit stabilem Trend, attraktiver Bewertung sowie höherer Dividendenrendite (10:15). Befindet sich aktuell in einer gut einschätzbaren Korrekturphase auf einem spannenden Kaufniveau (10:40).\n* **Richtung:** Bullisch.\n* **Belegte Levels:** KGV aktuell bei 11,50x (10:12).\n* **Trigger:** Aktuelles Korrekturniveau für Trendfortsetzung nutzen (10:40).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig (10:32).\n\n#### Airbus SE\n* **Sprecherthese:** Überzeugende operative Entwicklung trotz zyklischen Umfelds, profitiert zusätzlich vom Rüstungssektor (08:35, 08:44). Technisch sehr guter Aufwärtstrend, aber aktuell nach dem jüngsten Anstieg mit einem KGV von 26,54x zu teuer für Neueinstiege (08:55).\n* **Richtung:** Bullisch (Langfristig), aktuell Abwarten.\n* **Belegte Levels:** KGV aktuell bei 26,54x (08:55).\n* **Trigger:** Warten auf die nächste ausgeprägte Trendkorrektur (08:58).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig (08:50).\n\n### Unsicherheiten und lohnenswerte Videostellen\n* **Unsicherheiten:** Konkrete Stop-Loss-Marken oder exakte Preisniveaus werden nicht genannt; die Einstiegskriterien basieren rein auf relativen Bewertungskennzahlen (KGV/KCV) sowie visuellen Korrektur-Musterzonen.\n* **Lohnenswerte Stellen:**\n  * **00:53 - 01:50:** Erklärung der Methodik (Kombination aus technischer Marktsymmetrie und Fundamentalanalyse).\n  * **03:50 - 04:05 & 09:18 - 09:59:** Chart- und Kennzahlenanalyse der Deutschen Börse.\n  * **08:33 - 09:13:** Fundamentale Einordnung und KGV-Bewertung von Airbus.\n  * **10:00 - 10:51:** Bewertungsvergleich und Einstiegsüberlegung zu Hannover Rück.",
+  "evidence": [
+    {
+      "timestamp": "00:53",
+      "basis": "audio",
+      "observation": "Sprecher erklärt das Vorgehen: Kombination aus technischer Marktsymmetrie (Korrekturverhalten) und fundamentaler Analyse."
+    },
+    {
+      "timestamp": "03:52",
+      "basis": "visual",
+      "observation": "Einblendung Monatschart Deutsche Börse AG (XETR) mit schrittweiser Trendanzeige und wiederkehrenden Korrektur-Symmetrieniveaus."
+    },
+    {
+      "timestamp": "08:55",
+      "basis": "visual",
+      "observation": "Einblendung Grafik 'Airbus - KGV (2016-2028e)' mit aktuellem KGV-Wert von 26,54x."
+    },
+    {
+      "timestamp": "09:31",
+      "basis": "visual",
+      "observation": "Einblendung Grafik 'Deutsche Börse - KCV (2016-2028e)' mit aktuellem KCV-Wert von 25,42x."
+    },
+    {
+      "timestamp": "10:12",
+      "basis": "visual",
+      "observation": "Einblendung Grafik 'Hannover Rück - KGV (2016-2028e)' mit aktuellem KGV-Wert von 11,50x."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "O-G7zThDSHY",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-23T10:32:42.056399+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Welche DAX-Aktie ist wirklich die beste? Meine klare Nummer 1**\nhttps://www.youtube.com/watch?v=O-G7zThDSHY\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher analysiert die 40 DAX-Aktien nach einer Kombination aus technischer Marktsymmetrie und Fundamentaldaten, um die am besten einschätzbaren Langfristinvestments zu ermitteln (00:53). In die engere Auswahl schaffen es vor allem Airbus, Deutsche Börse und Hannover Rück, da sie stabile Aufwärtstrends mit verlässlichen Korrekturmustern aufweisen (07:51). Als persönlicher Gesamtfavorit wird die Deutsche Börse hervorgehoben (10:54).\n\n### Typ\nMehrere Aktien (DAX-Screening)\n\n### Analysierte Werte\n\n#### Deutsche Börse AG (Favorit)\n* **Sprecherthese:** Bietet den saubersten und stabilsten Langfristtrend im DAX mit hochgradig symmetrischen Korrekturen (03:52). Fundamental schwächt sich das Umsatzwachstum zwar etwas ab, wird aber durch steigende Margen kompensiert (09:20).\n* **Richtung:** Bullisch (Langfristig), kurzfristig Abwarten.\n* **Belegte Levels:** KCV aktuell bei 25,42x (09:31).\n* **Trigger:** Erneuter Abschluss einer Trendkorrektur hin zum Symmetrieniveau (09:56).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig (03:54).\n\n#### Hannover Rück SE\n* **Sprecherthese:** Solider Rückversicherer mit stabilem Trend, attraktiver Bewertung sowie höherer Dividendenrendite (10:15). Befindet sich aktuell in einer gut einschätzbaren Korrekturphase auf einem spannenden Kaufniveau (10:40).\n* **Richtung:** Bullisch.\n* **Belegte Levels:** KGV aktuell bei 11,50x (10:12).\n* **Trigger:** Aktuelles Korrekturniveau für Trendfortsetzung nutzen (10:40).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig (10:32).\n\n#### Airbus SE\n* **S",
+    "precherthese:** Überzeugende operative Entwicklung trotz zyklischen Umfelds, profitiert zusätzlich vom Rüstungssektor (08:35, 08:44). Technisch sehr guter Aufwärtstrend, aber aktuell nach dem jüngsten Anstieg mit einem KGV von 26,54x zu teuer für Neueinstiege (08:55).\n* **Richtung:** Bullisch (Langfristig), aktuell Abwarten.\n* **Belegte Levels:** KGV aktuell bei 26,54x (08:55).\n* **Trigger:** Warten auf die nächste ausgeprägte Trendkorrektur (08:58).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig (08:50).\n\n### Unsicherheiten und lohnenswerte Videostellen\n* **Unsicherheiten:** Konkrete Stop-Loss-Marken oder exakte Preisniveaus werden nicht genannt; die Einstiegskriterien basieren rein auf relativen Bewertungskennzahlen (KGV/KCV) sowie visuellen Korrektur-Musterzonen.\n* **Lohnenswerte Stellen:**\n  * **00:53 - 01:50:** Erklärung der Methodik (Kombination aus technischer Marktsymmetrie und Fundamentalanalyse).\n  * **03:50 - 04:05 & 09:18 - 09:59:** Chart- und Kennzahlenanalyse der Deutschen Börse.\n  * **08:33 - 09:13:** Fundamentale Einordnung und KGV-Bewertung von Airbus.\n  * **10:00 - 10:51:** Bewertungsvergleich und Einstiegsüberlegung zu Hannover Rück.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-23T10:32:42.660684+00:00"
 }
