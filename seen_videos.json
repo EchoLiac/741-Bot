@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-23T00:01:23.849203+00:00",
-    "@wir-lieben-aktien": "2026-09-23T00:01:24.329957+00:00",
-    "@chartsekte": "2026-09-23T00:01:24.859175+00:00",
-    "@hkcm": "2026-09-23T00:01:25.378746+00:00",
-    "@phantombyhkcm": "2026-09-23T00:01:25.929016+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-23T00:01:26.643802+00:00",
-    "@aktien4future": "2026-09-23T00:01:27.200717+00:00",
-    "@Finanzbaer": "2026-09-23T00:01:27.771731+00:00",
-    "@Finanzwiesel": "2026-09-23T00:01:28.372751+00:00",
-    "@TradingKompass": "2026-09-23T00:01:28.883695+00:00",
-    "@TomVorwald": "2026-09-23T00:01:29.426290+00:00"
+    "@1OxTrading": "2026-09-23T00:31:09.046288+00:00",
+    "@wir-lieben-aktien": "2026-09-23T00:31:09.522606+00:00",
+    "@chartsekte": "2026-09-23T00:31:10.003107+00:00",
+    "@hkcm": "2026-09-23T00:31:10.639024+00:00",
+    "@phantombyhkcm": "2026-09-23T00:31:11.155409+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-23T00:31:11.666553+00:00",
+    "@aktien4future": "2026-09-23T00:31:12.200959+00:00",
+    "@Finanzbaer": "2026-09-23T00:31:12.706232+00:00",
+    "@Finanzwiesel": "2026-09-23T00:31:13.354273+00:00",
+    "@TradingKompass": "2026-09-23T00:31:13.893097+00:00",
+    "@TomVorwald": "2026-09-23T00:31:14.594332+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 278,
-    "last_attempt": "2026-09-22T23:02:05.043190+00:00"
+    "attempts": 279,
+    "last_attempt": "2026-09-23T00:31:26.710940+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -5259,8 +5259,8 @@
     "handle": "@ChartsCarsbyPhilipKlinkmüller",
     "status": "pending",
     "discovered_at": "2026-09-22T16:31:20.345114+00:00",
-    "attempts": 5,
-    "last_attempt": "2026-09-22T23:01:59.100805+00:00"
+    "attempts": 6,
+    "last_attempt": "2026-09-23T00:31:20.788691+00:00"
   },
   "CiT_a_Skxi4": {
     "id": "CiT_a_Skxi4",
@@ -5299,8 +5299,8 @@
     "handle": "@TomVorwald",
     "status": "pending",
     "discovered_at": "2026-09-22T18:01:32.173791+00:00",
-    "attempts": 4,
-    "last_attempt": "2026-09-22T23:01:22.083176+00:00"
+    "attempts": 5,
+    "last_attempt": "2026-09-23T00:31:14.651695+00:00"
   },
   "LLrwovWjp8k": {
     "id": "LLrwovWjp8k",
