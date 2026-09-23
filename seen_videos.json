@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-23T07:01:21.739629+00:00",
-    "@wir-lieben-aktien": "2026-09-23T07:01:22.214770+00:00",
-    "@chartsekte": "2026-09-23T07:01:22.685543+00:00",
-    "@hkcm": "2026-09-23T07:01:23.175819+00:00",
-    "@phantombyhkcm": "2026-09-23T07:01:23.670248+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-23T07:01:24.115692+00:00",
-    "@aktien4future": "2026-09-23T07:01:24.676164+00:00",
-    "@Finanzbaer": "2026-09-23T07:01:25.235818+00:00",
-    "@Finanzwiesel": "2026-09-23T07:01:25.706880+00:00",
-    "@TradingKompass": "2026-09-23T07:01:26.200629+00:00",
-    "@TomVorwald": "2026-09-23T07:01:26.708191+00:00"
+    "@1OxTrading": "2026-09-23T07:31:10.939271+00:00",
+    "@wir-lieben-aktien": "2026-09-23T07:31:11.490456+00:00",
+    "@chartsekte": "2026-09-23T07:31:11.939052+00:00",
+    "@hkcm": "2026-09-23T07:31:12.424058+00:00",
+    "@phantombyhkcm": "2026-09-23T07:31:12.866034+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-23T07:31:13.465417+00:00",
+    "@aktien4future": "2026-09-23T07:31:13.962126+00:00",
+    "@Finanzbaer": "2026-09-23T07:31:14.548045+00:00",
+    "@Finanzwiesel": "2026-09-23T07:31:15.016686+00:00",
+    "@TradingKompass": "2026-09-23T07:31:15.483958+00:00",
+    "@TomVorwald": "2026-09-23T07:31:16.019685+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 283,
-    "last_attempt": "2026-09-23T06:31:21.880903+00:00"
+    "attempts": 284,
+    "last_attempt": "2026-09-23T07:32:38.897058+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -5246,8 +5246,8 @@
     "handle": "@hkcm",
     "status": "pending",
     "discovered_at": "2026-09-22T16:31:19.054691+00:00",
-    "attempts": 10,
-    "last_attempt": "2026-09-23T06:01:36.247828+00:00"
+    "attempts": 11,
+    "last_attempt": "2026-09-23T07:31:16.077896+00:00"
   },
   "7ezROYN41Zc": {
     "id": "7ezROYN41Zc",
@@ -5300,8 +5300,8 @@
     "handle": "@TomVorwald",
     "status": "pending",
     "discovered_at": "2026-09-22T18:01:32.173791+00:00",
-    "attempts": 9,
-    "last_attempt": "2026-09-23T06:01:42.449811+00:00"
+    "attempts": 10,
+    "last_attempt": "2026-09-23T07:31:36.844790+00:00"
   },
   "LLrwovWjp8k": {
     "id": "LLrwovWjp8k",
