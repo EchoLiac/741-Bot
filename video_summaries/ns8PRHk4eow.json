@@ -6,10 +6,65 @@
   "published": null,
   "channel": "Phantom by HKCM",
   "handle": "@phantombyhkcm",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-23T17:01:27.738383+00:00",
-  "attempts": 3,
-  "last_attempt": "2026-09-23T21:01:28.484356+00:00",
+  "attempts": 4,
+  "last_attempt": "2026-09-23T23:01:26.255753+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher analysiert die SpaceX-Aktie auf Basis der Elliott-Wellen-Theorie und stellt ein primäres Korrekturszenario sowie ein bullisches Alternativszenario vor (07:30, 18:41). Langfristig (5–10 Jahre) erwartet er eine starke Welle-3-Expansion mit erheblichen Kurspotenzialen (17:48, 18:13). Er selbst bespart die Aktie regelmäßig über einen Sparplan unabhängig vom Marktzyklus (06:38, 21:03).\n\n### Typ\nEinzelaktie (mit Bildungsanteil zu Elliott-Wellen-Regeln)\n\n### SpaceX (SPCX)\n- **Sprecherthese:** SpaceX ist ein langfristiges Investment und Herzensprojekt, das nach der Welle-2-Korrektur vor einer enormen Welle-3-Aufwärtsbewegung steht (03:52, 17:38).\n- **Richtung:** Kurz-/mittelfristig präferiert korrektiv (Welle B/C), langfristig stark bullisch (15:20, 17:40).\n- **Konkret belegte Levels:**\n  - Allzeithoch / Welle (1): $225.61 (07:38)\n  - Erwartetes Hoch der Welle B (50 % bis 78.6 % Retracement): $165.00 bis $200.00 (14:35–14:40)\n  - Zielbereich Welle C / Abschluss übergeordnete Welle 2 (Primärszenario): $86.18 bis $25.49 mit Tiefpunkt bei $48.28 (15:17–15:20, 18:07)\n  - Mindest- und Maximalziel Welle 3 (Primärszenario, 5–10 Jahre): $412.08 (161.8 %) bis $638.30 (261.8 %) mit Renditepotenzial 737 % bis 1195 % (18:13–18:34)\n  - Alternativszenario (30 % Wahrscheinlichkeit, Welle 2 bei $104.85 abgeschlossen): Welle-3-Ziel bei $469.89 bis $695.80 (17:00, 20:09–20:13)\n- **Trigger:** nicht genannt\n- **Invalidierung:** nicht genannt\n- **Zeithorizont:** Kurz-/mittelfristig für Korrekturstruktur; 5–10 Jahre für die Welle-3-Expansion (17:48).\n\n### Bildung / Methodik (Elliott-Wellen bei IPOs)\n- **Methode/Regeln:** Eine Welle 2 direkt nach einem IPO darf das ursprüngliche Einstandsniveau/IPO-Niveau untersteigen, ohne als Invalidierung der übergeordneten Zählung zu gelten (gezeigt am Beispiel Siemens Energy auf S. 95–96 des Buches) (10:07, 11:30–11:47).\n- **Fehler:** Annehmen, dass ein Durchbrechen des IPO-Preises das Elliott-Wellen-Setup zerstört, was zum verfrühten Ausstieg oder Verpassen der Welle 3 führen kann (10:28, 12:03).\n\n### Unsicherheiten und sehenswerte Stellen\nUnklar bleibt, ob die Welle 2 bereits beim Zwischentief von $104.85 abgeschlossen wurde (Alternativszenario) oder ob noch der tiefere C-Wellen-Abverkauf Richtung $48.28 folgt. Lohnenswerte Abschnitte im Video: **14:28–15:20** (Herleitung B/C-Wellen-Bereiche), **17:45–18:35** (Langfristige Welle-3-Projektion) sowie **18:41–20:15** (Alternativszenario bei bereits laufender Welle 3).",
+  "evidence": [
+    {
+      "timestamp": "00:35",
+      "basis": "visual",
+      "observation": "Chart zeigt IPO-Ausschlag mit Hoch bei $225.61 und Einstandsniveau-Linie bei $104.85."
+    },
+    {
+      "timestamp": "07:38",
+      "basis": "visual",
+      "observation": "Grüne Widerstandslinie für Welle (1) liegt exakt bei $225.61."
+    },
+    {
+      "timestamp": "10:07",
+      "basis": "visual",
+      "observation": "Buchseiten 95 und 96 werden eingeblendet (Thema Welle 1 und Welle 2 nach Börsengang)."
+    },
+    {
+      "timestamp": "14:35",
+      "basis": "audio",
+      "observation": "Sprecher nennt Kursrange zwischen $165.00 und $200.00 für die B-Welle."
+    },
+    {
+      "timestamp": "15:18",
+      "basis": "audio",
+      "observation": "Sprecher nennt C-Wellen-Komplettierung zwischen $86.00 und $25.00 USD."
+    },
+    {
+      "timestamp": "18:13",
+      "basis": "visual",
+      "observation": "Chart zeigt Welle-3-Erweiterungsziele von 161.80% ($412.08) bis 261.80% ($638.30)."
+    },
+    {
+      "timestamp": "18:32",
+      "basis": "audio",
+      "observation": "Sprecher nennt Renditespanne von 737% bis 1195% basierend auf Buy-in bei $48.00."
+    },
+    {
+      "timestamp": "20:09",
+      "basis": "visual",
+      "observation": "Alternativszenario-Erweiterung zeigt Welle-3-Ziele von 161.80% ($469.89) bis 261.80% ($695.80)."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "ns8PRHk4eow",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-23T23:03:03.596246+00:00",
+  "discord_chunks": [
+    "🎬 **Phantom by HKCM**\n**DAS ist eine Aktie für die Ewigkeit!**\nhttps://www.youtube.com/watch?v=ns8PRHk4eow\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher analysiert die SpaceX-Aktie auf Basis der Elliott-Wellen-Theorie und stellt ein primäres Korrekturszenario sowie ein bullisches Alternativszenario vor (07:30, 18:41). Langfristig (5–10 Jahre) erwartet er eine starke Welle-3-Expansion mit erheblichen Kurspotenzialen (17:48, 18:13). Er selbst bespart die Aktie regelmäßig über einen Sparplan unabhängig vom Marktzyklus (06:38, 21:03).\n\n### Typ\nEinzelaktie (mit Bildungsanteil zu Elliott-Wellen-Regeln)\n\n### SpaceX (SPCX)\n- **Sprecherthese:** SpaceX ist ein langfristiges Investment und Herzensprojekt, das nach der Welle-2-Korrektur vor einer enormen Welle-3-Aufwärtsbewegung steht (03:52, 17:38).\n- **Richtung:** Kurz-/mittelfristig präferiert korrektiv (Welle B/C), langfristig stark bullisch (15:20, 17:40).\n- **Konkret belegte Levels:**\n  - Allzeithoch / Welle (1): $225.61 (07:38)\n  - Erwartetes Hoch der Welle B (50 % bis 78.6 % Retracement): $165.00 bis $200.00 (14:35–14:40)\n  - Zielbereich Welle C / Abschluss übergeordnete Welle 2 (Primärszenario): $86.18 bis $25.49 mit Tiefpunkt bei $48.28 (15:17–15:20, 18:07)\n  - Mindest- und Maximalziel Welle 3 (Primärszenario, 5–10 Jahre): $412.08 (161.8 %) bis $638.30 (261.8 %) mit Renditepotenzial 737 % bis 1195 % (18:13–18:34)\n  - Alternativszenario (30 % Wahrscheinlichkeit, Welle 2 bei $104.85 abgeschlossen): Welle-3-Ziel bei $469.89 bis $695.80 (17:00, 20:09–20:13)\n- **Trigger:** nicht genannt\n- **Invalidierung:** nicht genannt\n- **Zeithorizont:** Kurz-/mittelfristig für Korrekturstruktur; 5–10 Jahre für die Welle-3-Expansion (17:48).\n\n### Bildung / Methodik (Elliott-Wellen bei",
+    " IPOs)\n- **Methode/Regeln:** Eine Welle 2 direkt nach einem IPO darf das ursprüngliche Einstandsniveau/IPO-Niveau untersteigen, ohne als Invalidierung der übergeordneten Zählung zu gelten (gezeigt am Beispiel Siemens Energy auf S. 95–96 des Buches) (10:07, 11:30–11:47).\n- **Fehler:** Annehmen, dass ein Durchbrechen des IPO-Preises das Elliott-Wellen-Setup zerstört, was zum verfrühten Ausstieg oder Verpassen der Welle 3 führen kann (10:28, 12:03).\n\n### Unsicherheiten und sehenswerte Stellen\nUnklar bleibt, ob die Welle 2 bereits beim Zwischentief von $104.85 abgeschlossen wurde (Alternativszenario) oder ob noch der tiefere C-Wellen-Abverkauf Richtung $48.28 folgt. Lohnenswerte Abschnitte im Video: **14:28–15:20** (Herleitung B/C-Wellen-Bereiche), **17:45–18:35** (Langfristige Welle-3-Projektion) sowie **18:41–20:15** (Alternativszenario bei bereits laufender Welle 3).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-23T23:03:04.374774+00:00"
 }
