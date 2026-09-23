@@ -8,8 +8,8 @@
   "handle": "@chartsekte",
   "status": "analysis_failed",
   "discovered_at": "2026-09-22T15:01:18.288258+00:00",
-  "attempts": 19,
-  "last_attempt": "2026-09-23T14:01:37.698709+00:00",
+  "attempts": 20,
+  "last_attempt": "2026-09-23T15:01:55.846951+00:00",
   "video_id": "-Y9O-VOwzKU",
   "scanner_version": "video-first-v3"
 }
