@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-23T16:01:25.243071+00:00",
-    "@wir-lieben-aktien": "2026-09-23T16:01:25.908411+00:00",
-    "@chartsekte": "2026-09-23T16:01:26.473402+00:00",
-    "@hkcm": "2026-09-23T16:01:27.129430+00:00",
-    "@phantombyhkcm": "2026-09-23T16:01:27.697281+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-23T16:01:28.267803+00:00",
-    "@aktien4future": "2026-09-23T16:01:28.824510+00:00",
-    "@Finanzbaer": "2026-09-23T16:01:29.470645+00:00",
-    "@Finanzwiesel": "2026-09-23T16:01:29.988610+00:00",
-    "@TradingKompass": "2026-09-23T16:01:30.538478+00:00",
-    "@TomVorwald": "2026-09-23T16:01:31.175150+00:00"
+    "@1OxTrading": "2026-09-23T16:31:08.426306+00:00",
+    "@wir-lieben-aktien": "2026-09-23T16:31:09.061859+00:00",
+    "@chartsekte": "2026-09-23T16:31:09.627873+00:00",
+    "@hkcm": "2026-09-23T16:31:10.232267+00:00",
+    "@phantombyhkcm": "2026-09-23T16:31:10.917698+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-23T16:31:11.434481+00:00",
+    "@aktien4future": "2026-09-23T16:31:11.941967+00:00",
+    "@Finanzbaer": "2026-09-23T16:31:12.526705+00:00",
+    "@Finanzwiesel": "2026-09-23T16:31:12.977035+00:00",
+    "@TradingKompass": "2026-09-23T16:31:13.467657+00:00",
+    "@TomVorwald": "2026-09-23T16:31:14.044446+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -5207,8 +5207,8 @@
     "handle": "@TradingKompass",
     "status": "pending",
     "discovered_at": "2026-09-22T13:31:16.688644+00:00",
-    "attempts": 23,
-    "last_attempt": "2026-09-23T15:31:21.705140+00:00"
+    "attempts": 24,
+    "last_attempt": "2026-09-23T16:31:26.407191+00:00"
   },
   "-Y9O-VOwzKU": {
     "id": "-Y9O-VOwzKU",
@@ -5288,8 +5288,8 @@
     "handle": "@aktien4future",
     "status": "pending",
     "discovered_at": "2026-09-22T17:31:21.004338+00:00",
-    "attempts": 17,
-    "last_attempt": "2026-09-23T15:01:55.850234+00:00"
+    "attempts": 18,
+    "last_attempt": "2026-09-23T16:31:20.199842+00:00"
   },
   "Coqi3xfqSDA": {
     "id": "Coqi3xfqSDA",
@@ -5358,5 +5358,18 @@
     "discovered_at": "2026-09-23T16:01:25.908391+00:00",
     "attempts": 1,
     "last_attempt": "2026-09-23T16:01:31.233582+00:00"
+  },
+  "5SG1DyFkGf0": {
+    "id": "5SG1DyFkGf0",
+    "title": "We urgently need to resolve this divergence!",
+    "url": "https://www.youtube.com/watch?v=5SG1DyFkGf0",
+    "duration": 1314,
+    "published": null,
+    "channel": "Charts & Cars",
+    "handle": "@ChartsCarsbyPhilipKlinkmüller",
+    "status": "pending",
+    "discovered_at": "2026-09-23T16:31:11.434462+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-23T16:31:14.102626+00:00"
   }
 }
