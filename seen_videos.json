@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-23T20:01:20.819979+00:00",
-    "@wir-lieben-aktien": "2026-09-23T20:01:21.363791+00:00",
-    "@chartsekte": "2026-09-23T20:01:21.958628+00:00",
-    "@hkcm": "2026-09-23T20:01:22.707385+00:00",
-    "@phantombyhkcm": "2026-09-23T20:01:23.294402+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-23T20:01:23.822947+00:00",
-    "@aktien4future": "2026-09-23T20:01:24.369214+00:00",
-    "@Finanzbaer": "2026-09-23T20:01:25.116222+00:00",
-    "@Finanzwiesel": "2026-09-23T20:01:25.630169+00:00",
-    "@TradingKompass": "2026-09-23T20:01:26.230447+00:00",
-    "@TomVorwald": "2026-09-23T20:01:26.835221+00:00"
+    "@1OxTrading": "2026-09-23T20:31:07.390186+00:00",
+    "@wir-lieben-aktien": "2026-09-23T20:31:07.971549+00:00",
+    "@chartsekte": "2026-09-23T20:31:08.455863+00:00",
+    "@hkcm": "2026-09-23T20:31:08.977104+00:00",
+    "@phantombyhkcm": "2026-09-23T20:31:09.462119+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-23T20:31:10.019082+00:00",
+    "@aktien4future": "2026-09-23T20:31:10.513691+00:00",
+    "@Finanzbaer": "2026-09-23T20:31:11.093952+00:00",
+    "@Finanzwiesel": "2026-09-23T20:31:11.611652+00:00",
+    "@TradingKompass": "2026-09-23T20:31:12.150589+00:00",
+    "@TomVorwald": "2026-09-23T20:31:12.664808+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -5207,8 +5207,8 @@
     "handle": "@TradingKompass",
     "status": "pending",
     "discovered_at": "2026-09-22T13:31:16.688644+00:00",
-    "attempts": 25,
-    "last_attempt": "2026-09-23T18:31:33.123140+00:00"
+    "attempts": 26,
+    "last_attempt": "2026-09-23T20:32:49.687089+00:00"
   },
   "-Y9O-VOwzKU": {
     "id": "-Y9O-VOwzKU",
@@ -5288,8 +5288,8 @@
     "handle": "@aktien4future",
     "status": "pending",
     "discovered_at": "2026-09-22T17:31:21.004338+00:00",
-    "attempts": 19,
-    "last_attempt": "2026-09-23T18:31:27.118537+00:00"
+    "attempts": 20,
+    "last_attempt": "2026-09-23T20:32:18.752029+00:00"
   },
   "Coqi3xfqSDA": {
     "id": "Coqi3xfqSDA",
@@ -5424,5 +5424,18 @@
     "discovered_at": "2026-09-23T18:31:15.655596+00:00",
     "attempts": 2,
     "last_attempt": "2026-09-23T20:01:39.010974+00:00"
+  },
+  "kbfk4gamGwI": {
+    "id": "kbfk4gamGwI",
+    "title": "🚨 BOND-CRASH: US-Renditen über 5 % – JETZT kippt der Tech-Trade 💥",
+    "url": "https://www.youtube.com/watch?v=kbfk4gamGwI",
+    "duration": 1366,
+    "published": null,
+    "channel": "10xTrading",
+    "handle": "@1OxTrading",
+    "status": "pending",
+    "discovered_at": "2026-09-23T20:31:07.390156+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-23T20:31:12.708254+00:00"
   }
 }
