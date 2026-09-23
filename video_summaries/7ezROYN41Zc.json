@@ -6,10 +6,55 @@
   "published": null,
   "channel": "Charts & Cars",
   "handle": "@ChartsCarsbyPhilipKlinkmüller",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-22T16:31:20.345114+00:00",
-  "attempts": 7,
-  "last_attempt": "2026-09-23T02:01:47.874690+00:00",
+  "attempts": 8,
+  "last_attempt": "2026-09-23T03:31:57.487668+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher sieht im Rohölmarkt weiterhin Potenzial für steigende Preise, da fundamentale Belastungsfaktoren und Indikatoren auf Monatsbasis keine Anzeichen einer Topbildung zeigen (14:35). Die hohen Kraftstoffpreise an deutschen Tankstellen werden im Video vorrangig auf den hohen Steuer- und Abgabenanteil von über 50 % zurückgeführt (03:55). Ein nachhaltiger Preisrückgang wird mittelfristig nicht erwartet (13:12).\n\n### Typ\nMarkt/Makro\n\n### Ölmarkt (Brent / WTI)\n- **Sprecherthese:** Der Ölpreis befindet sich in einem intakten Aufwärtstrend mit Potenzial für weitere Hochs; geopolitische Spannungen und Versorgungsengpässe stützen die Preise zusätzlich (07:05, 09:52, 14:45).\n- **Richtung:** Bullisch (aufwärts) (07:05, 10:20).\n- **Konkret belegte Levels:**\n  - Brent primäres Ziel: $119,50 / Barrel (07:33).\n  - Brent langfristiges Chartziel / Allzeithoch-Niveau: $148,41 / Barrel (08:05).\n  - Brent Untergrenze/Rote Linie im 4h-Chart: $95,96 / Barrel (07:17).\n  - Brent Long-Term Entry Box (Wochenchart): $42,33 – $29,90 / Barrel (08:00).\n  - WTI WTI-Preis 2008 (historisches Hoch): über $140,00 / Barrel (02:27).\n- **Trigger:** Fortsetzung der Aufwärtsdynamik nach Abschluss der aktuellen Gegenbewegung (07:05, 13:10).\n- **Invalidierung:** Nicht explizit numerisch benannt (Chart zeigt $95,96 als kritische rote Unterstützung im 4h-Chart) (07:17).\n- **Zeithorizont:** Mittelfristig bis langfristig (mehrere Monate) (13:36).\n\n### Unsicherheiten & lohnende Stellen\n- **Unsicherheiten:** Geopolitische ungelöste Konflikte (Houthi-Rebellen, Ausfall von Lieferungen nach Europa durch Saudi Aramco) sowie fehlende stabile Korrelationen zum Aktienmarkt (S&P 500) oder Kupfer (09:47, 10:48, 12:38).\n- **Lohnende Stellen im Video:**\n  - **03:47–05:13:** Aufschlüsselung der Diesel-Tankstellenpreise und der Abgabenquote in Deutschland.\n  - **07:03–08:06:** Chartanalyse zu Brent Crude Oil mit Zielen bei $119,50 und $148,41.\n  - **14:04–14:31:** Indikatorenanalyse auf Monatsbasis gegen eine Topbildung im Rohöl.",
+  "evidence": [
+    {
+      "timestamp": "02:22",
+      "basis": "visual",
+      "observation": "WTI Crude Oil Futures Chart zeigt den Preisverlauf seit vor 2008 mit Peak über $140."
+    },
+    {
+      "timestamp": "03:47",
+      "basis": "visual",
+      "observation": "Grafik der en2x zeigt, dass 49%-52% des Tankstellenpreises bei Diesel aus Steuern und regulierungsbedingten Kosten bestehen."
+    },
+    {
+      "timestamp": "07:33",
+      "basis": "audio",
+      "observation": "Sprecher nennt primär ein Preisziel von über $119,50 pro Barrel bei Brent Crude Oil."
+    },
+    {
+      "timestamp": "08:05",
+      "basis": "visual",
+      "observation": "Brent Crude Futures Wochenchart blendet ein Ziel/Hoch bei $148,41 und eine Long-Term Entry Box bei $42,33 - $29,90 ein."
+    },
+    {
+      "timestamp": "11:34",
+      "basis": "visual",
+      "observation": "Eingabe des Symbols CBOE:SPX (S&P 500 Index) im Indicator Correlation Coefficient unter dem WTI-Chart."
+    },
+    {
+      "timestamp": "14:04",
+      "basis": "visual",
+      "observation": "Monatschart der Light Crude Oil Futures mit Oszillatoren/Indikatoren (RSI, MACD) in der unteren Hälfe."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "7ezROYN41Zc",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-23T03:32:27.715848+00:00",
+  "discord_chunks": [
+    "🎬 **Charts & Cars**\n**Warum ich bei Öl weiter steigende Preise erwarte**\nhttps://www.youtube.com/watch?v=7ezROYN41Zc\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher sieht im Rohölmarkt weiterhin Potenzial für steigende Preise, da fundamentale Belastungsfaktoren und Indikatoren auf Monatsbasis keine Anzeichen einer Topbildung zeigen (14:35). Die hohen Kraftstoffpreise an deutschen Tankstellen werden im Video vorrangig auf den hohen Steuer- und Abgabenanteil von über 50 % zurückgeführt (03:55). Ein nachhaltiger Preisrückgang wird mittelfristig nicht erwartet (13:12).\n\n### Typ\nMarkt/Makro\n\n### Ölmarkt (Brent / WTI)\n- **Sprecherthese:** Der Ölpreis befindet sich in einem intakten Aufwärtstrend mit Potenzial für weitere Hochs; geopolitische Spannungen und Versorgungsengpässe stützen die Preise zusätzlich (07:05, 09:52, 14:45).\n- **Richtung:** Bullisch (aufwärts) (07:05, 10:20).\n- **Konkret belegte Levels:**\n  - Brent primäres Ziel: $119,50 / Barrel (07:33).\n  - Brent langfristiges Chartziel / Allzeithoch-Niveau: $148,41 / Barrel (08:05).\n  - Brent Untergrenze/Rote Linie im 4h-Chart: $95,96 / Barrel (07:17).\n  - Brent Long-Term Entry Box (Wochenchart): $42,33 – $29,90 / Barrel (08:00).\n  - WTI WTI-Preis 2008 (historisches Hoch): über $140,00 / Barrel (02:27).\n- **Trigger:** Fortsetzung der Aufwärtsdynamik nach Abschluss der aktuellen Gegenbewegung (07:05, 13:10).\n- **Invalidierung:** Nicht explizit numerisch benannt (Chart zeigt $95,96 als kritische rote Unterstützung im 4h-Chart) (07:17).\n- **Zeithorizont:** Mittelfristig bis langfristig (mehrere Monate) (13:36).\n\n### Unsicherheiten & lohnende Stellen\n- **Unsicherheiten:** Geopolitische ungelöste Konflikte (Houthi-Rebellen, Ausfall von Lieferungen nach Europa durch Saudi",
+    " Aramco) sowie fehlende stabile Korrelationen zum Aktienmarkt (S&P 500) oder Kupfer (09:47, 10:48, 12:38).\n- **Lohnende Stellen im Video:**\n  - **03:47–05:13:** Aufschlüsselung der Diesel-Tankstellenpreise und der Abgabenquote in Deutschland.\n  - **07:03–08:06:** Chartanalyse zu Brent Crude Oil mit Zielen bei $119,50 und $148,41.\n  - **14:04–14:31:** Indikatorenanalyse auf Monatsbasis gegen eine Topbildung im Rohöl.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-23T03:32:28.428304+00:00"
 }
