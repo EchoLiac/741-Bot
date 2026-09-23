@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-23T18:01:54.218268+00:00",
-    "@wir-lieben-aktien": "2026-09-23T18:01:54.728886+00:00",
-    "@chartsekte": "2026-09-23T18:01:55.243887+00:00",
-    "@hkcm": "2026-09-23T18:01:55.779749+00:00",
-    "@phantombyhkcm": "2026-09-23T18:01:56.304886+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-23T18:01:56.827961+00:00",
-    "@aktien4future": "2026-09-23T18:01:57.343134+00:00",
-    "@Finanzbaer": "2026-09-23T18:01:57.886566+00:00",
-    "@Finanzwiesel": "2026-09-23T18:01:58.360176+00:00",
-    "@TradingKompass": "2026-09-23T18:01:58.868010+00:00",
-    "@TomVorwald": "2026-09-23T18:01:59.418846+00:00"
+    "@1OxTrading": "2026-09-23T18:31:15.655628+00:00",
+    "@wir-lieben-aktien": "2026-09-23T18:31:16.184012+00:00",
+    "@chartsekte": "2026-09-23T18:31:16.722119+00:00",
+    "@hkcm": "2026-09-23T18:31:17.221830+00:00",
+    "@phantombyhkcm": "2026-09-23T18:31:17.678978+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-23T18:31:18.193302+00:00",
+    "@aktien4future": "2026-09-23T18:31:18.768735+00:00",
+    "@Finanzbaer": "2026-09-23T18:31:19.362322+00:00",
+    "@Finanzwiesel": "2026-09-23T18:31:19.874162+00:00",
+    "@TradingKompass": "2026-09-23T18:31:20.437861+00:00",
+    "@TomVorwald": "2026-09-23T18:31:20.923788+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -5207,8 +5207,8 @@
     "handle": "@TradingKompass",
     "status": "pending",
     "discovered_at": "2026-09-22T13:31:16.688644+00:00",
-    "attempts": 24,
-    "last_attempt": "2026-09-23T16:31:26.407191+00:00"
+    "attempts": 25,
+    "last_attempt": "2026-09-23T18:31:33.123140+00:00"
   },
   "-Y9O-VOwzKU": {
     "id": "-Y9O-VOwzKU",
@@ -5288,8 +5288,8 @@
     "handle": "@aktien4future",
     "status": "pending",
     "discovered_at": "2026-09-22T17:31:21.004338+00:00",
-    "attempts": 18,
-    "last_attempt": "2026-09-23T16:31:20.199842+00:00"
+    "attempts": 19,
+    "last_attempt": "2026-09-23T18:31:27.118537+00:00"
   },
   "Coqi3xfqSDA": {
     "id": "Coqi3xfqSDA",
@@ -5411,5 +5411,18 @@
     "discovered_at": "2026-09-23T18:01:58.867994+00:00",
     "attempts": 1,
     "last_attempt": "2026-09-23T18:02:42.681206+00:00"
+  },
+  "R5M6vdf76b8": {
+    "id": "R5M6vdf76b8",
+    "title": "🚨 10 AKTIEN 💥 Crowdstrike Meta Palantir Broadcom McDonalds Robinhood Alibaba Xiaomi SoFi PaloAlto",
+    "url": "https://www.youtube.com/watch?v=R5M6vdf76b8",
+    "duration": 1105,
+    "published": null,
+    "channel": "10xTrading",
+    "handle": "@1OxTrading",
+    "status": "pending",
+    "discovered_at": "2026-09-23T18:31:15.655596+00:00",
+    "attempts": 1,
+    "last_attempt": "2026-09-23T18:31:20.983406+00:00"
   }
 }
