@@ -6,10 +6,50 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-23T10:01:18.881786+00:00",
-  "attempts": 2,
-  "last_attempt": "2026-09-23T11:01:57.445137+00:00",
+  "attempts": 3,
+  "last_attempt": "2026-09-23T12:31:17.283317+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Beitrag beschreibt eine kombinierte Methodik aus technischer und fundamentaler Analyse zur Identifikation unterbewerteter Qualitätsaktien (00:06). Die technische Analyse dient dabei primär als Filtermethode für antizyklische Einstiege in bestehende Langfristtrends, während die fundamentale Bewertung historische Korridore und Zukunftsaussichten berücksichtigt (12:00, 28:15). Antizyklisches Investieren erfordert das Akzeptieren temporärer Buchverluste zugunsten langfristigen Zinseszins-Wachstums (14:05, 19:35).\n\n### Typ\nBildung (mit der Aktie ASML als Fallbeispiel)\n\n### Methodik, Regeln & Fehler\n- **Technische Methode**: Bestimmung des langfristigen Aufwärtstrends über mehrere Zeitebenen und logarithmische Charts (30:55); Abwarten von Korrekturphasen und Erreichen von Cluster-Unterstützungszonen für den antizyklischen Einstieg (12:00).\n- **Fundamentale Methode**: Bewertung von Zukunftskennzahlen (Forward-KGV) im Verhältnis zum historischen Korridor des Unternehmens (28:15); Prüfung von Umsatz- und Gewinnwachstum, Gewinnspannen, Bilanz und Burggraben (24:05).\n- **Häufige Fehler**:\n  - Ein niedriges KGV (z. B. KGV 5) pauschal als Unterbewertung interpretieren, obwohl oft fundamentale Probleme vorliegen („Value Trap“) (22:15, 23:05).\n  - Beschränkung auf einfache Tages-Liniencharts bei Brokern statt der Analyse höherer Timeframes (31:00).\n  - Unwille, kurzfristige Drawdowns (z. B. 25 % über Monate) während einer antizyklischen Bodenbildung auszuhalten (14:05, 18:20).\n\n### Fallbeispiel: ASML (13:00)\n- **Sprecherthese & Richtung**: Antizyklische Kaufgelegenheit in einer langfristigen Korrekturphase eines intakten Aufwärtstrends.\n- **Konkret belegte Levels**: Kaufkurse im Beispiel bei 685,40 € (13:45) bzw. 495,70 € im Depotkauf (20:25); Steigerung auf ca. 1.488 € (13:49) (+118 % bzw. +200 % Rendite).\n- **Trigger & Invalidierung**: Einstiegstrigger bei Erreichen des unteren KGV-Korridors (~23 Forward-KGV) und technischer Trendunterstützung (28:50).\n- **Zeithorizont**: Langfristig (mehrere Jahre bis Jahrzehnte).\n\n### Unsicherheiten & sehenswerte Stellen\n- **Unsicherheiten**: Beim antizyklischen Einstieg lässt sich der tiefste Punkt nicht exakt timen; temporäre Weiterführung der Korrektur muss einkalkuliert werden (14:05).\n- **Sehenswerte Stellen**: \n  - 13:00 - 15:00: ASML-Case-Study und Erklärung zur Drawdown-Toleranz.\n  - 28:00 - 29:30: Praktische Erklärung des historischen KGV-Korridors und Forward-KGVs.",
+  "evidence": [
+    {
+      "timestamp": "07:34",
+      "basis": "audio",
+      "observation": "Sprecher nennt Nvidia als Beispiel für eine Aktie, die technisch in einer Seitwärtsphase ist, während die fundamentale Bewertung mit 2019 verglichen wird."
+    },
+    {
+      "timestamp": "13:05",
+      "basis": "audio",
+      "observation": "Erläuterung des Kaufbeispiels ASML mit Kauf zu 685,40 € und Anstieg auf ca. 1.488 € (+118 % Rendite)."
+    },
+    {
+      "timestamp": "14:05",
+      "basis": "audio",
+      "observation": "Erklärung, dass beim antizyklischen Investieren temporäre Drawdowns von 25 % über mehrere Monate akzeptiert werden müssen."
+    },
+    {
+      "timestamp": "22:15",
+      "basis": "audio",
+      "observation": "Warnung vor der Value Trap: Ein KGV von 5 ist häufig ein Warnsignal für nachlassendes Wachstum statt einer echten Unterbewertung."
+    },
+    {
+      "timestamp": "28:15",
+      "basis": "audio",
+      "observation": "Erklärung des KGV-Korridors bei ASML zwischen 23 (Boden) und 65 (Deckel) sowie des Einstiegs bei einem Forward-KGV von 23,2."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "t2ydVW7CG9E",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-23T12:32:11.376859+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**Wie finde ich unterbewertete Aktien? Unsere Methode!**\nhttps://www.youtube.com/watch?v=t2ydVW7CG9E\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Beitrag beschreibt eine kombinierte Methodik aus technischer und fundamentaler Analyse zur Identifikation unterbewerteter Qualitätsaktien (00:06). Die technische Analyse dient dabei primär als Filtermethode für antizyklische Einstiege in bestehende Langfristtrends, während die fundamentale Bewertung historische Korridore und Zukunftsaussichten berücksichtigt (12:00, 28:15). Antizyklisches Investieren erfordert das Akzeptieren temporärer Buchverluste zugunsten langfristigen Zinseszins-Wachstums (14:05, 19:35).\n\n### Typ\nBildung (mit der Aktie ASML als Fallbeispiel)\n\n### Methodik, Regeln & Fehler\n- **Technische Methode**: Bestimmung des langfristigen Aufwärtstrends über mehrere Zeitebenen und logarithmische Charts (30:55); Abwarten von Korrekturphasen und Erreichen von Cluster-Unterstützungszonen für den antizyklischen Einstieg (12:00).\n- **Fundamentale Methode**: Bewertung von Zukunftskennzahlen (Forward-KGV) im Verhältnis zum historischen Korridor des Unternehmens (28:15); Prüfung von Umsatz- und Gewinnwachstum, Gewinnspannen, Bilanz und Burggraben (24:05).\n- **Häufige Fehler**:\n  - Ein niedriges KGV (z. B. KGV 5) pauschal als Unterbewertung interpretieren, obwohl oft fundamentale Probleme vorliegen („Value Trap“) (22:15, 23:05).\n  - Beschränkung auf einfache Tages-Liniencharts bei Brokern statt der Analyse höherer Timeframes (31:00).\n  - Unwille, kurzfristige Drawdowns (z. B. 25 % über Monate) während einer antizyklischen Bodenbildung auszuhalten (14:05, 18:20).\n\n### Fallbeispiel: ASML (13:00)\n- **Sprecherthese & Richtung**: Antizyklische Kaufgelegenheit ",
+    "in einer langfristigen Korrekturphase eines intakten Aufwärtstrends.\n- **Konkret belegte Levels**: Kaufkurse im Beispiel bei 685,40 € (13:45) bzw. 495,70 € im Depotkauf (20:25); Steigerung auf ca. 1.488 € (13:49) (+118 % bzw. +200 % Rendite).\n- **Trigger & Invalidierung**: Einstiegstrigger bei Erreichen des unteren KGV-Korridors (~23 Forward-KGV) und technischer Trendunterstützung (28:50).\n- **Zeithorizont**: Langfristig (mehrere Jahre bis Jahrzehnte).\n\n### Unsicherheiten & sehenswerte Stellen\n- **Unsicherheiten**: Beim antizyklischen Einstieg lässt sich der tiefste Punkt nicht exakt timen; temporäre Weiterführung der Korrektur muss einkalkuliert werden (14:05).\n- **Sehenswerte Stellen**: \n  - 13:00 - 15:00: ASML-Case-Study und Erklärung zur Drawdown-Toleranz.\n  - 28:00 - 29:30: Praktische Erklärung des historischen KGV-Korridors und Forward-KGVs.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-23T12:32:11.820927+00:00"
 }
