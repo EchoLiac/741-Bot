@@ -6,10 +6,60 @@
   "published": null,
   "channel": "HKCM",
   "handle": "@hkcm",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-22T16:31:19.054691+00:00",
-  "attempts": 22,
-  "last_attempt": "2026-09-23T23:03:10.412311+00:00",
+  "attempts": 23,
+  "last_attempt": "2026-09-24T01:01:22.343322+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nSolana steht kurz vor dem Abschluss einer Impulswelle 3 und erwartet eine Korrekturwelle 4 von ca. 30 %, die für neue Einstiege oder Nachkäufe genutzt werden soll. Im Anschluss wird eine Aufwärtsbewegung in Richtung 140 $ bis 180 $ und langfristig im primären Szenario über 500 $ erwartet (03:30, 04:32, 12:26).\n\n### Typ\nEinzelaktie / Kryptowährung (Solana / SOL)\n\n### Solana (SOL)\n- **Sprecherthese:** Nach dem erfolgreichen Anlaufen der langfristigen Einstiegszone bei 60.37 $ bildet Solana derzeit das Hoch der Welle 3 aus. Die bevorstehende Welle-4-Gegenbewegung bietet eine Einstiegsgelegenheit für die Welle 5 (02:20, 04:13, 10:03).\n- **Richtung:** Bullisch (mittel- bis langfristig) mit kurzfristig anstehender Korrektur (03:35, 11:45).\n- **Konkret belegte Levels:**\n  - Einstiegs-Tiefzone: 60.37 $ (02:48, 08:44)\n  - Ausdehnung Welle 3: bis ca. 138 $ (03:46)\n  - Korrekturziel Welle 4: ca. 30 % Rücksetzer (10:03)\n  - Zwischenziele Welle 5: 140 $ bis 180 $ (04:32) sowie über 200 $ (06:54)\n  - Widerstandslinien: 191.06 $ (11:53) und Allzeithoch bei 295.31 $ (11:59)\n  - Langfristiges Kursziel (Welle 3 im Hauptszenario): über 500 $ (12:26)\n- **Trigger:** Abschluss der Welle 3 und Ausbildung des Tiefs der Welle 4 (03:53, 04:25).\n- **Invalidierung:** Allgemeines System: 1 % unter der Unterkante der Zonen (05:54). Ein spezifischer Invalidierungskurs für das übergeordnete Gesamtszenario wird nicht genannt.\n- **Zeithorizont:** Mittel- bis langfristig (Betrachtung über 4-Tages-, 2-Tages- und Monatscharts) (07:04, 08:51, 11:07).\n\n### Unsicherheiten und sehenswerte Stellen\n- **Unsicherheiten:** Das genaue Hoch der Welle 3 steht noch nicht fest und kann sich noch etwas weiter nach oben ausdehnen (03:48). Zudem existiert ein alternatives Szenario (alt. a / alt. Y) mit 35 % Wahrscheinlichkeit, das im Bereich von ca. 360 $ eine tiefere A-Korrektur vorsieht (12:07, 12:18).\n- **Sehenswerte Stellen:**\n  - **02:20:** Analyse der Elliott-Wellen-Struktur auf dem 4-Stunden-Chart.\n  - **07:00:** Indikatorenanalyse auf dem Monatschart (MACD- und RSI-Kaufsignale).\n  - **11:07:** Langfristiger 2-Tages-Chart mit den Schlüsselwiderständen bei 191.06 $, 295.31 $ und dem Fernziel über 500 $.",
+  "evidence": [
+    {
+      "timestamp": "00:05",
+      "basis": "audio",
+      "observation": "Sprecher nennt Solana als seine größte Altcoin-Position neben Ethereum."
+    },
+    {
+      "timestamp": "02:20",
+      "basis": "visual",
+      "observation": "Chart zeigt Solana (SOL/USD) im 4-Stunden-Chart mit eingezeichneter blauer Kaufzone und Tief bei $60.37."
+    },
+    {
+      "timestamp": "03:46",
+      "basis": "audio",
+      "observation": "Sprecher erklärt, dass die Welle 3 noch bis ca. $138 ansteigen kann."
+    },
+    {
+      "timestamp": "04:32",
+      "basis": "audio",
+      "observation": "Die Welle 5 soll nach der Welle-4-Korrektur in den Bereich von $140 bis $180 führen."
+    },
+    {
+      "timestamp": "10:03",
+      "basis": "visual",
+      "observation": "Ein eingezeichneter Korrekturblock misst eine Gegenbewegung von ca. 30 % (-30.17 %)."
+    },
+    {
+      "timestamp": "11:53",
+      "basis": "visual",
+      "observation": "Im 2-Tages-Chart sind zwei grüne Widerstandslinien bei $191.06 und $295.31 zu sehen."
+    },
+    {
+      "timestamp": "12:26",
+      "basis": "audio",
+      "observation": "Sprecher nennt ein langfristiges primäres Bullenmarkt-Ziel von deutlich über $500."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "okkWL5vG-Yg",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-24T01:01:47.124287+00:00",
+  "discord_chunks": [
+    "🎬 **HKCM**\n**Solana: Now we're preparing for the next entry**\nhttps://www.youtube.com/watch?v=okkWL5vG-Yg\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nSolana steht kurz vor dem Abschluss einer Impulswelle 3 und erwartet eine Korrekturwelle 4 von ca. 30 %, die für neue Einstiege oder Nachkäufe genutzt werden soll. Im Anschluss wird eine Aufwärtsbewegung in Richtung 140 $ bis 180 $ und langfristig im primären Szenario über 500 $ erwartet (03:30, 04:32, 12:26).\n\n### Typ\nEinzelaktie / Kryptowährung (Solana / SOL)\n\n### Solana (SOL)\n- **Sprecherthese:** Nach dem erfolgreichen Anlaufen der langfristigen Einstiegszone bei 60.37 $ bildet Solana derzeit das Hoch der Welle 3 aus. Die bevorstehende Welle-4-Gegenbewegung bietet eine Einstiegsgelegenheit für die Welle 5 (02:20, 04:13, 10:03).\n- **Richtung:** Bullisch (mittel- bis langfristig) mit kurzfristig anstehender Korrektur (03:35, 11:45).\n- **Konkret belegte Levels:**\n  - Einstiegs-Tiefzone: 60.37 $ (02:48, 08:44)\n  - Ausdehnung Welle 3: bis ca. 138 $ (03:46)\n  - Korrekturziel Welle 4: ca. 30 % Rücksetzer (10:03)\n  - Zwischenziele Welle 5: 140 $ bis 180 $ (04:32) sowie über 200 $ (06:54)\n  - Widerstandslinien: 191.06 $ (11:53) und Allzeithoch bei 295.31 $ (11:59)\n  - Langfristiges Kursziel (Welle 3 im Hauptszenario): über 500 $ (12:26)\n- **Trigger:** Abschluss der Welle 3 und Ausbildung des Tiefs der Welle 4 (03:53, 04:25).\n- **Invalidierung:** Allgemeines System: 1 % unter der Unterkante der Zonen (05:54). Ein spezifischer Invalidierungskurs für das übergeordnete Gesamtszenario wird nicht genannt.\n- **Zeithorizont:** Mittel- bis langfristig (Betrachtung über 4-Tages-, 2-Tages- und Monatscharts) (07:04, 08:51, 11:07).\n\n### Unsicherheiten und sehenswerte Stellen\n- **Unsicherheiten:**",
+    " Das genaue Hoch der Welle 3 steht noch nicht fest und kann sich noch etwas weiter nach oben ausdehnen (03:48). Zudem existiert ein alternatives Szenario (alt. a / alt. Y) mit 35 % Wahrscheinlichkeit, das im Bereich von ca. 360 $ eine tiefere A-Korrektur vorsieht (12:07, 12:18).\n- **Sehenswerte Stellen:**\n  - **02:20:** Analyse der Elliott-Wellen-Struktur auf dem 4-Stunden-Chart.\n  - **07:00:** Indikatorenanalyse auf dem Monatschart (MACD- und RSI-Kaufsignale).\n  - **11:07:** Langfristiger 2-Tages-Chart mit den Schlüsselwiderständen bei 191.06 $, 295.31 $ und dem Fernziel über 500 $.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-24T01:01:49.304807+00:00"
 }

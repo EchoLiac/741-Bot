@@ -6,10 +6,111 @@
   "published": null,
   "channel": "Wir Lieben Aktien",
   "handle": "@wir-lieben-aktien",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-23T16:01:25.908391+00:00",
-  "attempts": 5,
-  "last_attempt": "2026-09-23T23:31:30.088448+00:00",
+  "attempts": 6,
+  "last_attempt": "2026-09-24T01:02:55.311719+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDas Video analysiert zehn ausgewählte Dividendenkönige (Unternehmen mit mindestens 50 Jahren ununterbrochener Dividendensteigerung) auf Basis von Bewertung (KGV) und Charttechnik (00:10). Der Sprecher betont, dass historische Dividendensteigerungen keine Zukunftsgarantie bieten und aktuell nicht alle Titel auf einem attraktiven Kaufniveau stehen (01:32). Für einige Werte wie Procter & Gamble und Carlisle werden konkrete charttechnische Ausbruchsmarken genannt, während bei anderen Werte tiefere Korrekturen abgewartet werden sollen.\n\n### Typ\nMehrere Aktien\n\n### Aktienanalysen\n\n#### American States Water (AWR)\n* **Sprecherthese:** Wasserversorger mit gut geschütztem Burggraben und historisch günstiger Bewertung (01:45).\n* **Richtung:** Bullisch (langfristig) (02:45).\n* **Levels:** Aktuelles KGV ~24,60x (02:02); Zielbereich/Allzeithochs bei ca. 119 USD (02:46).\n* **Trigger:** Test des Bodens bei ~70–75 USD als Nachkaufchance (02:42).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig.\n\n#### Dover Corporation (DOV)\n* **Sprecherthese:** Langfristiger Industriewert mit gebremstem Dividendenwachstum, aber erwarteten Gewinnsteigerungen (02:55).\n* **Richtung:** Neutral bis bullisch (Watchlist) (04:06).\n* **Levels:** Aktuelles KGV ~23,00x (03:00).\n* **Trigger:** Nächste größere Korrektur abwarten (04:04).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittelfristig bis langfristig.\n\n#### Procter & Gamble (PG)\n* **Sprecherthese:** Robuster Konsumgüterkonzern und Stabilitätsanker mit historisch günstiger Bewertung (04:09).\n* **Richtung:** Bullisch bei Ausbruch (05:27).\n* **Levels:** Aktuelles KGV ~21,21x (04:18); Trigger-Marke bei 155 USD (05:21).\n* **Trigger:** Ausbruch über 155 USD löst Kaufsignal aus (05:21).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittelfristig.\n\n#### Parker-Hannifin (PH)\n* **Sprecherthese:** Hohes Dividendenwachstum, jedoch aktuell historisch hoch bewertet (05:36).\n* **Richtung:** Neutral / Korrekturbedarf (05:54).\n* **Levels:** Aktuelles KGV ~33,26x (05:38).\n* **Trigger:** Deutliche Korrektur abwarten (06:11).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig.\n\n#### Johnson & Johnson (JNJ)\n* **Sprecherthese:** Pharma-Riese zur Risikoreduzierung im Depot, derzeit aber optisch teuer (06:22).\n* **Richtung:** Neutral / Abwartend (07:05).\n* **Levels:** Aktuelles KGV ~31,53x (06:24); Korrekturpotenzial ~30% (07:18).\n* **Trigger:** Größere Korrektur abwarten (07:09).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig.\n\n#### Colgate-Palmolive (CL)\n* **Sprecherthese:** Stabile Konsumaktie mit wenig Volatilität (07:32).\n* **Richtung:** Bullisch bei Ausbruch (08:38).\n* **Levels:** Aktuelles KGV ~34,72x (07:41); Widerstand/Trigger bei 96 USD (08:33).\n* **Trigger:** Ausbruch über 96 USD auf neue Hochs (08:33).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittelfristig.\n\n#### Coca-Cola (KO)\n* **Sprecherthese:** Bekannter Getränkekonzern auf Allzeithoch-Niveau, aktuell kein akuter Kauf (09:12).\n* **Richtung:** Neutral / Abwartend (09:34).\n* **Levels:** Aktuelles KGV ~26,47x (09:15); Einstiegs-Zielbereich um 75 USD (09:51).\n* **Trigger:** Korrektur Richtung 75 USD (09:51).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittelfristig.\n\n#### Illinois Tool Works (ITW)\n* **Sprecherthese:** Industriewert mit starkem Dividendenwachstum, liegt derzeit im fairen historischen Mittelbereich (09:59).\n* **Richtung:** Abwartend (10:39).\n* **Levels:** Aktuelles KGV ~24,09x (10:02).\n* **Trigger:** Tiefere Korrektur abwarten (10:35).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig.\n\n#### Carlisle Companies (CSL)\n* **Sprecherthese:** Favorit des Sprechers mit sehr hoher Trenddynamik und starkem Dividendenwachstum (10:47).\n* **Richtung:** Bullisch (11:34).\n* **Levels:** Aktuelles KGV ~19,09x (10:52); Trigger-Marke 400 USD (11:31).\n* **Trigger:** Ausbruch über 400 USD startet neue Rallye (11:31).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n#### Fortis (FTS)\n* **Sprecherthese:** Kanadischer Energieversorger mit stetigem Trend, aber aktuell am Bewertungs-Peak (11:39).\n* **Richtung:** Abwartend (11:51).\n* **Levels:** Aktuelles KGV ~21,53x (11:41); Kaufzone bei 60–65 CAD (12:19).\n* **Trigger:** Korrektur auf 60–65 CAD (12:19).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittelfristig.\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Unsicherheiten:** Die Bewertung basiert teilweise auf Analystenschätzungen für künftige Gewinne; historische Dividendenkontinuität ist keine Garantie für zukünftige Erhöhungen (01:32).\n* **Sehenswerte Stellen:** Procter & Gamble bei 05:21 (konkreter Trigger 155 USD) und Carlisle Companies bei 11:31 (Ausbruchsmarke 400 USD).",
+  "evidence": [
+    {
+      "timestamp": "00:10",
+      "basis": "audio",
+      "observation": "Sprecher definiert Dividendenkönige als Aktien, die seit mindestens 50 Jahren ununterbrochen ihre Dividende anheben."
+    },
+    {
+      "timestamp": "02:02",
+      "basis": "visual",
+      "observation": "American States Water (AWR): Aktuelles KGV wird auf Folie mit 24,60x angegeben."
+    },
+    {
+      "timestamp": "02:46",
+      "basis": "visual",
+      "observation": "AWR Chart zeigt eine Zielprojektion auf neue Allzeithochs bei ca. 119,26 USD."
+    },
+    {
+      "timestamp": "03:00",
+      "basis": "visual",
+      "observation": "Dover (DOV): KGV von 23,00x eingeblendet."
+    },
+    {
+      "timestamp": "04:18",
+      "basis": "visual",
+      "observation": "Procter & Gamble (PG): KGV von 21,21x eingeblendet."
+    },
+    {
+      "timestamp": "05:21",
+      "basis": "audio",
+      "observation": "Sprecher nennt als Trigger für ein Kaufsignal bei PG einen Ausbruch über 155 US-Dollar."
+    },
+    {
+      "timestamp": "05:38",
+      "basis": "visual",
+      "observation": "Parker-Hannifin (PH): KGV von 33,26x eingeblendet."
+    },
+    {
+      "timestamp": "06:24",
+      "basis": "visual",
+      "observation": "Johnson & Johnson (JNJ): KGV von 31,53x eingeblendet."
+    },
+    {
+      "timestamp": "07:41",
+      "basis": "visual",
+      "observation": "Colgate-Palmolive (CL): KGV von 34,72x eingeblendet."
+    },
+    {
+      "timestamp": "08:33",
+      "basis": "audio",
+      "observation": "Sprecher nennt für Colgate-Palmolive eine Ausbruchsmarke über 96 US-Dollar."
+    },
+    {
+      "timestamp": "09:15",
+      "basis": "visual",
+      "observation": "Coca-Cola (KO): KGV von 26,47x eingeblendet."
+    },
+    {
+      "timestamp": "09:51",
+      "basis": "audio",
+      "observation": "Sprecher nennt bei KO eine mögliche Korrektur Richtung 75 US-Dollar als interessantes Niveau."
+    },
+    {
+      "timestamp": "10:02",
+      "basis": "visual",
+      "observation": "Illinois Tool Works (ITW): KGV von 24,09x eingeblendet."
+    },
+    {
+      "timestamp": "10:52",
+      "basis": "visual",
+      "observation": "Carlisle Companies (CSL): KGV von 19,09x eingeblendet."
+    },
+    {
+      "timestamp": "11:31",
+      "basis": "audio",
+      "observation": "Sprecher nennt für CSL einen kurzfristigen Ausbruch über 400 US-Dollar als Trigger."
+    },
+    {
+      "timestamp": "11:41",
+      "basis": "visual",
+      "observation": "Fortis (FTS): KGV von 21,53x eingeblendet."
+    },
+    {
+      "timestamp": "12:19",
+      "basis": "audio",
+      "observation": "Sprecher nennt bei Fortis den Bereich um 60 bis 65 kanadische Dollar als interessante Watchlist-Zone im Falle einer Korrektur."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "owWv2pimZBs",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-24T01:03:41.859292+00:00",
+  "discord_chunks": [
+    "🎬 **Wir Lieben Aktien**\n**10 Dividend Kings Reviewed: Which Stocks Are Actually Worth It?**\nhttps://www.youtube.com/watch?v=owWv2pimZBs\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDas Video analysiert zehn ausgewählte Dividendenkönige (Unternehmen mit mindestens 50 Jahren ununterbrochener Dividendensteigerung) auf Basis von Bewertung (KGV) und Charttechnik (00:10). Der Sprecher betont, dass historische Dividendensteigerungen keine Zukunftsgarantie bieten und aktuell nicht alle Titel auf einem attraktiven Kaufniveau stehen (01:32). Für einige Werte wie Procter & Gamble und Carlisle werden konkrete charttechnische Ausbruchsmarken genannt, während bei anderen Werte tiefere Korrekturen abgewartet werden sollen.\n\n### Typ\nMehrere Aktien\n\n### Aktienanalysen\n\n#### American States Water (AWR)\n* **Sprecherthese:** Wasserversorger mit gut geschütztem Burggraben und historisch günstiger Bewertung (01:45).\n* **Richtung:** Bullisch (langfristig) (02:45).\n* **Levels:** Aktuelles KGV ~24,60x (02:02); Zielbereich/Allzeithochs bei ca. 119 USD (02:46).\n* **Trigger:** Test des Bodens bei ~70–75 USD als Nachkaufchance (02:42).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig.\n\n#### Dover Corporation (DOV)\n* **Sprecherthese:** Langfristiger Industriewert mit gebremstem Dividendenwachstum, aber erwarteten Gewinnsteigerungen (02:55).\n* **Richtung:** Neutral bis bullisch (Watchlist) (04:06).\n* **Levels:** Aktuelles KGV ~23,00x (03:00).\n* **Trigger:** Nächste größere Korrektur abwarten (04:04).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittelfristig bis langfristig.\n\n#### Procter & Gamble (PG)\n* **Sprecherthese:** Robuster Konsumgüterkonzern und Stabilitätsanker mit historisch günstiger Bewertung (04:09).\n* **Richtung",
+    ":** Bullisch bei Ausbruch (05:27).\n* **Levels:** Aktuelles KGV ~21,21x (04:18); Trigger-Marke bei 155 USD (05:21).\n* **Trigger:** Ausbruch über 155 USD löst Kaufsignal aus (05:21).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittelfristig.\n\n#### Parker-Hannifin (PH)\n* **Sprecherthese:** Hohes Dividendenwachstum, jedoch aktuell historisch hoch bewertet (05:36).\n* **Richtung:** Neutral / Korrekturbedarf (05:54).\n* **Levels:** Aktuelles KGV ~33,26x (05:38).\n* **Trigger:** Deutliche Korrektur abwarten (06:11).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig.\n\n#### Johnson & Johnson (JNJ)\n* **Sprecherthese:** Pharma-Riese zur Risikoreduzierung im Depot, derzeit aber optisch teuer (06:22).\n* **Richtung:** Neutral / Abwartend (07:05).\n* **Levels:** Aktuelles KGV ~31,53x (06:24); Korrekturpotenzial ~30% (07:18).\n* **Trigger:** Größere Korrektur abwarten (07:09).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig.\n\n#### Colgate-Palmolive (CL)\n* **Sprecherthese:** Stabile Konsumaktie mit wenig Volatilität (07:32).\n* **Richtung:** Bullisch bei Ausbruch (08:38).\n* **Levels:** Aktuelles KGV ~34,72x (07:41); Widerstand/Trigger bei 96 USD (08:33).\n* **Trigger:** Ausbruch über 96 USD auf neue Hochs (08:33).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittelfristig.\n\n#### Coca-Cola (KO)\n* **Sprecherthese:** Bekannter Getränkekonzern auf Allzeithoch-Niveau, aktuell kein akuter Kauf (09:12).\n* **Richtung:** Neutral / Abwartend (09:34).\n* **Levels:** Aktuelles KGV ~26,47x (09:15); Einstiegs-Zielbereich um 75 USD (09:51).\n* **Trigger:** Korrektur Richtung 75 USD (09:51).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittelfristig.\n\n#### Illinois Tool Works (ITW)\n* **Sprecherthese:** Industriewert mit starkem Dividendenwa",
+    "chstum, liegt derzeit im fairen historischen Mittelbereich (09:59).\n* **Richtung:** Abwartend (10:39).\n* **Levels:** Aktuelles KGV ~24,09x (10:02).\n* **Trigger:** Tiefere Korrektur abwarten (10:35).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig.\n\n#### Carlisle Companies (CSL)\n* **Sprecherthese:** Favorit des Sprechers mit sehr hoher Trenddynamik und starkem Dividendenwachstum (10:47).\n* **Richtung:** Bullisch (11:34).\n* **Levels:** Aktuelles KGV ~19,09x (10:52); Trigger-Marke 400 USD (11:31).\n* **Trigger:** Ausbruch über 400 USD startet neue Rallye (11:31).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n#### Fortis (FTS)\n* **Sprecherthese:** Kanadischer Energieversorger mit stetigem Trend, aber aktuell am Bewertungs-Peak (11:39).\n* **Richtung:** Abwartend (11:51).\n* **Levels:** Aktuelles KGV ~21,53x (11:41); Kaufzone bei 60–65 CAD (12:19).\n* **Trigger:** Korrektur auf 60–65 CAD (12:19).\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Mittelfristig.\n\n### Unsicherheiten & Sehenswerte Stellen\n* **Unsicherheiten:** Die Bewertung basiert teilweise auf Analystenschätzungen für künftige Gewinne; historische Dividendenkontinuität ist keine Garantie für zukünftige Erhöhungen (01:32).\n* **Sehenswerte Stellen:** Procter & Gamble bei 05:21 (konkreter Trigger 155 USD) und Carlisle Companies bei 11:31 (Ausbruchsmarke 400 USD).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 3,
+  "discord_sent_at": "2026-09-24T01:03:42.921778+00:00"
 }
