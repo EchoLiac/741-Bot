@@ -6,10 +6,55 @@
   "published": null,
   "channel": "Charts & Cars",
   "handle": "@ChartsCarsbyPhilipKlinkmüller",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-23T16:31:11.434462+00:00",
-  "attempts": 5,
-  "last_attempt": "2026-09-24T00:01:38.008296+00:00",
+  "attempts": 6,
+  "last_attempt": "2026-09-24T02:01:27.618307+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer US-Aktienmarkt zeigt eine historische Divergenz zwischen steigenden Indizes (wie Nasdaq 100 und S&P 500) und einer extrem schwachen Marktbreite, da die Kursgewinne primär von wenigen Tech-Schwergewichten getrieben werden (00:35, 06:30, 08:35). Trotz der Chance auf finale Allzeithochs im Nasdaq warnt der Sprecher vor einem instabilen Fundament und bereitet sich auf ein mittelfristiges Short-Setup vor (00:52, 15:48, 21:10).\n\n**Typ:** Markt/Makro\n\n---\n\n### Analysierte Märkte & Indizes\n\n#### S&P 500 / Marktbreite & Sektoren\n- **Sprecherthese:** In einer gesunden Bullenphase müssten über zwei Drittel (66 %) aller Aktien über ihren 50-, 100- und 200-Tage-Durchschnitten liegen (03:40–04:12). Aktuell ist der Markt davon weit entfernt, während gleichgewichtete Indizes (Equal Weight) und breit gefächerte Sektoren gegenüber dem marktgewichteten S&P 500 deutlich unterperformen (10:50, 13:52).\n- **Richtung:** Neutral bis mittelfristig bärisch.\n- **Konkret belegte Levels:** 66 %-Schwelle für S&P 500-Aktien über den gleitenden Durchschnitten (03:58).\n- **Trigger:** nicht genannt.\n- **Invalidierung:** nicht genannt.\n- **Zeithorizont:** Mittelfristig bis langfristig.\n\n#### Nasdaq 100 (E-mini Futures)\n- **Sprecherthese:** Der Nasdaq wird von wenigen KI- und Tech-Titeln getrieben und könnte kurzfristig noch ein neues Allzeithoch erreichen bzw. die obere Short-Zone anlaufen, ehe bei einem Abreißen der Schwergewichte eine deutliche Korrektur droht (00:52, 15:25, 19:40).\n- **Richtung:** Kurzfristig bullisch (Restbewegung), anschließend bärisch (Short-Erwartung).\n- **Konkret belegte Levels:** Zwischenhochs bei 30 696,50 Punkten (15:36) und 30 975,00 Punkten (15:38); Kursstand im Chart bei ca. 30 761,25 Punkten (05:31, 07:35).\n- **Trigger:** Erreichen der oberen Short-Zone oder Ausbildung klarer Divergenzen/Trendbrüche gegenüber anderen Indizes (21:10–21:25).\n- **Invalidierung:** nicht genannt.\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n#### Dow Jones (E-mini Futures)\n- **Sprecherthese:** Der Dow Jones spiegelt eher klassische/defensive Industriewerte wider und hinkt dem Nasdaq hinterher, da er nach wie vor spürbar unter seinen bisherigen Hochs notiert (10:18–10:25).\n- **Richtung:** Neutral / verhalten.\n- **Konkret belegte Levels:** Notierung ca. 4 % bis 5 % unterhalb des Allzeithochs (10:20); Chartwert bei ~52 663 Punkten (10:15).\n- **Trigger:** nicht genannt.\n- **Invalidierung:** nicht genannt.\n- **Zeithorizont:** Mittelfristig.\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten:** Es bleibt unklar, wie lange das von wenigen Großkonzernen getragene \"Geldkarussell\" die Indizes noch auf neue Hochs treiben kann und wann der exakte Wendepunkt (Break-Point) eintritt (19:12, 21:05).\n- **Lohnende Stellen:** \n  - **03:40–04:15:** Erläuterung der 66 %-Regel zur Beurteilung einer gesunden Marktbreite.\n  - **06:07–06:25:** Analyse des Value Line Geometric Index (Gleichgewichtung über 5 Jahre).\n  - **10:50–12:00:** Sektorvergleich (Offensiv, Sensitiv, Defensiv) relativ zum S&P 500.\n  - **15:25–16:20 & 21:00–21:25:** Strategische Einordnung des Nasdaq-Trends und Überlegungen zum Short-Einstieg.",
+  "evidence": [
+    {
+      "timestamp": "03:40",
+      "basis": "audio",
+      "observation": "Sprecher erklärt, dass in einer gesunden Marktphase über 66 % der Aktien im S&P 500 über ihren 50-, 100- und 200-Tage-Durchschnitten notieren sollten."
+    },
+    {
+      "timestamp": "05:31",
+      "basis": "visual",
+      "observation": "Im Chart 'NASDAQ100 E-mini Futures 1D' wird ein Kursstand von 30 761,25 Punkten angezeigt."
+    },
+    {
+      "timestamp": "06:08",
+      "basis": "visual",
+      "observation": "Im Chart des 'Value Line Geometric Index' wird das Hoch aus November 2021 bei ca. 695 Punkten gezeigt."
+    },
+    {
+      "timestamp": "10:20",
+      "basis": "audio",
+      "observation": "Sprecher erwähnt, dass der Dow Jones aktuell rund 4 % bis 5 % unter seinen Allzeithochs notiert."
+    },
+    {
+      "timestamp": "13:52",
+      "basis": "visual",
+      "observation": "Im Chartvergleich zeigt der Invesco S&P 500 Equal Weight ETF (RSP) eine deutliche Unterperformance gegenüber dem marktgewichteten S&P 500."
+    },
+    {
+      "timestamp": "15:36",
+      "basis": "audio",
+      "observation": "Sprecher nennt das Hoch im Nasdaq bei 30 696,50 Punkten sowie das vorherige Hoch bei 30 975,00 Punkten."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "5SG1DyFkGf0",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-24T02:02:09.080195+00:00",
+  "discord_chunks": [
+    "🎬 **Charts & Cars**\n**We urgently need to resolve this divergence!**\nhttps://www.youtube.com/watch?v=5SG1DyFkGf0\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer US-Aktienmarkt zeigt eine historische Divergenz zwischen steigenden Indizes (wie Nasdaq 100 und S&P 500) und einer extrem schwachen Marktbreite, da die Kursgewinne primär von wenigen Tech-Schwergewichten getrieben werden (00:35, 06:30, 08:35). Trotz der Chance auf finale Allzeithochs im Nasdaq warnt der Sprecher vor einem instabilen Fundament und bereitet sich auf ein mittelfristiges Short-Setup vor (00:52, 15:48, 21:10).\n\n**Typ:** Markt/Makro\n\n---\n\n### Analysierte Märkte & Indizes\n\n#### S&P 500 / Marktbreite & Sektoren\n- **Sprecherthese:** In einer gesunden Bullenphase müssten über zwei Drittel (66 %) aller Aktien über ihren 50-, 100- und 200-Tage-Durchschnitten liegen (03:40–04:12). Aktuell ist der Markt davon weit entfernt, während gleichgewichtete Indizes (Equal Weight) und breit gefächerte Sektoren gegenüber dem marktgewichteten S&P 500 deutlich unterperformen (10:50, 13:52).\n- **Richtung:** Neutral bis mittelfristig bärisch.\n- **Konkret belegte Levels:** 66 %-Schwelle für S&P 500-Aktien über den gleitenden Durchschnitten (03:58).\n- **Trigger:** nicht genannt.\n- **Invalidierung:** nicht genannt.\n- **Zeithorizont:** Mittelfristig bis langfristig.\n\n#### Nasdaq 100 (E-mini Futures)\n- **Sprecherthese:** Der Nasdaq wird von wenigen KI- und Tech-Titeln getrieben und könnte kurzfristig noch ein neues Allzeithoch erreichen bzw. die obere Short-Zone anlaufen, ehe bei einem Abreißen der Schwergewichte eine deutliche Korrektur droht (00:52, 15:25, 19:40).\n- **Richtung:** Kurzfristig bullisch (Restbewegung), anschließend bärisch (Short-Erwartung).\n- **Konkret belegte Levels",
+    ":** Zwischenhochs bei 30 696,50 Punkten (15:36) und 30 975,00 Punkten (15:38); Kursstand im Chart bei ca. 30 761,25 Punkten (05:31, 07:35).\n- **Trigger:** Erreichen der oberen Short-Zone oder Ausbildung klarer Divergenzen/Trendbrüche gegenüber anderen Indizes (21:10–21:25).\n- **Invalidierung:** nicht genannt.\n- **Zeithorizont:** Kurz- bis mittelfristig.\n\n#### Dow Jones (E-mini Futures)\n- **Sprecherthese:** Der Dow Jones spiegelt eher klassische/defensive Industriewerte wider und hinkt dem Nasdaq hinterher, da er nach wie vor spürbar unter seinen bisherigen Hochs notiert (10:18–10:25).\n- **Richtung:** Neutral / verhalten.\n- **Konkret belegte Levels:** Notierung ca. 4 % bis 5 % unterhalb des Allzeithochs (10:20); Chartwert bei ~52 663 Punkten (10:15).\n- **Trigger:** nicht genannt.\n- **Invalidierung:** nicht genannt.\n- **Zeithorizont:** Mittelfristig.\n\n---\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten:** Es bleibt unklar, wie lange das von wenigen Großkonzernen getragene \"Geldkarussell\" die Indizes noch auf neue Hochs treiben kann und wann der exakte Wendepunkt (Break-Point) eintritt (19:12, 21:05).\n- **Lohnende Stellen:** \n  - **03:40–04:15:** Erläuterung der 66 %-Regel zur Beurteilung einer gesunden Marktbreite.\n  - **06:07–06:25:** Analyse des Value Line Geometric Index (Gleichgewichtung über 5 Jahre).\n  - **10:50–12:00:** Sektorvergleich (Offensiv, Sensitiv, Defensiv) relativ zum S&P 500.\n  - **15:25–16:20 & 21:00–21:25:** Strategische Einordnung des Nasdaq-Trends und Überlegungen zum Short-Einstieg.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-24T02:02:09.724351+00:00"
 }
