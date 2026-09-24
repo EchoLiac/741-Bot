@@ -6,10 +6,45 @@
   "published": null,
   "channel": "Tom Vorwald",
   "handle": "@TomVorwald",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-22T18:01:32.173791+00:00",
-  "attempts": 24,
-  "last_attempt": "2026-09-24T04:01:37.046379+00:00",
+  "attempts": 25,
+  "last_attempt": "2026-09-24T05:31:13.761518+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDas Video erklärt eine Trading-Strategie auf Basis von sogenannten \"Outside Days\" in der Cash-Session, mit der laut Sprecher sehr hohe Trefferquoten erzielt werden können (00:18). Die Strategie nutzt emotionale Fehlausbrüche und Ungleichgewichte am Markt aus, wenn sowohl das Hoch als auch das Tief des Vortages durchbrochen werden (01:48). Unterschreitet der Kurs nach einer kurzen Konsolidierung erneut das getestete Vortagestief, entsteht ein dynamischer Impuls für einen schnellen Breakout-Trade (10:05).\n\n### Typ\nBildung\n\n### Methode / Regeln / Fehler\n- **Definition Outside Day (01:48):** Eine Kerze bzw. Handelsperiode, die sowohl über das Hoch als auch unter das Tief der vorherigen Cash-Session-Periode reicht.\n- **Schritt 1 – Hoch-Durchbruch (04:55):** Der Markt steigt zunächst über das Vortageshoch und etabliert dort kurzzeitig Akzeptanz für höhere Preise.\n- **Schritt 2 – Tief-Test (05:08, 08:21):** Der Kurs dreht dynamisch um, fällt unter das Vortagestief (im Beispiel-Chart bei ca. 7643,75) und zeigt dort eine erste Reaktion / kurze Konsolidierung.\n- **Schritt 3 – Trigger / Einstieg (09:03, 09:55):** Sobald der Markt den getesteten Tief-Bereich nach dem Pullback erneut nach unten durchbricht, wird die Short-Position eröffnet.\n- **Zielsetzung (10:18):** Es geht nicht um das Halten riesiger Gewinnstrecken, sondern um das Ausnutzen der schnellen, impulsiven Bewegung, wenn gefangene Käufer ihre Positionen auflösen müssen.\n- **Typische Fehler (05:41):** Blindes Setzen von Sell-Stop-Orders direkt am Vortagestief ohne Bestätigung durch den erneuten Ausbruch, da hier das Risiko einer reinen Konsolidierung hoch ist.\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten:** Die vom Sprecher genannte Trefferquote von über 80 % ist eine persönliche Behauptung und wird im Video nicht durch statistische Backtest-Daten belegt. Einige Zahlenwerte auf den Chartachsen sind aufgrund der Auflösung nur eingeschränkt lesbar.\n- **Sehenswerte Stellen:** 03:12–05:25 (Erklärung der Volumens- und Market-Profile-Logik in der Cash-Session) sowie 08:08–10:20 (Schritt-für-Schritt-Ausführung des Setups im 5-Minuten-Chart).",
+  "evidence": [
+    {
+      "timestamp": "00:18",
+      "basis": "audio",
+      "observation": "Sprecher erklärt, dass Trefferquoten von über 80 % bei korrekter Anwendung der Strategie möglich sind."
+    },
+    {
+      "timestamp": "01:48",
+      "basis": "visual",
+      "observation": "Ein eingeblendeter Candlestick-Chart verdeutlicht die Struktur eines Outside Days (Überhandeln des Vortageshochs und -tiefs)."
+    },
+    {
+      "timestamp": "04:45",
+      "basis": "visual",
+      "observation": "Im Market Profile wird das Vortagestief im Bereich von 7643,75 markiert."
+    },
+    {
+      "timestamp": "08:08",
+      "basis": "visual",
+      "observation": "Im 5-Minuten-Chart zeigt der Sprecher Schritt 1 (Ausbruch über Hoch), Schritt 2 (Test des Tiefs) und Schritt 3 (Start des Abwärts-Momentums)."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "Coqi3xfqSDA",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-24T05:31:38.555161+00:00",
+  "discord_chunks": [
+    "🎬 **Tom Vorwald**\n**Meine Trading-Strategie mit der höchsten Trefferquote! (Über 80%)**\nhttps://www.youtube.com/watch?v=Coqi3xfqSDA\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDas Video erklärt eine Trading-Strategie auf Basis von sogenannten \"Outside Days\" in der Cash-Session, mit der laut Sprecher sehr hohe Trefferquoten erzielt werden können (00:18). Die Strategie nutzt emotionale Fehlausbrüche und Ungleichgewichte am Markt aus, wenn sowohl das Hoch als auch das Tief des Vortages durchbrochen werden (01:48). Unterschreitet der Kurs nach einer kurzen Konsolidierung erneut das getestete Vortagestief, entsteht ein dynamischer Impuls für einen schnellen Breakout-Trade (10:05).\n\n### Typ\nBildung\n\n### Methode / Regeln / Fehler\n- **Definition Outside Day (01:48):** Eine Kerze bzw. Handelsperiode, die sowohl über das Hoch als auch unter das Tief der vorherigen Cash-Session-Periode reicht.\n- **Schritt 1 – Hoch-Durchbruch (04:55):** Der Markt steigt zunächst über das Vortageshoch und etabliert dort kurzzeitig Akzeptanz für höhere Preise.\n- **Schritt 2 – Tief-Test (05:08, 08:21):** Der Kurs dreht dynamisch um, fällt unter das Vortagestief (im Beispiel-Chart bei ca. 7643,75) und zeigt dort eine erste Reaktion / kurze Konsolidierung.\n- **Schritt 3 – Trigger / Einstieg (09:03, 09:55):** Sobald der Markt den getesteten Tief-Bereich nach dem Pullback erneut nach unten durchbricht, wird die Short-Position eröffnet.\n- **Zielsetzung (10:18):** Es geht nicht um das Halten riesiger Gewinnstrecken, sondern um das Ausnutzen der schnellen, impulsiven Bewegung, wenn gefangene Käufer ihre Positionen auflösen müssen.\n- **Typische Fehler (05:41):** Blindes Setzen von Sell-Stop-Orders direkt am Vortagestief ohne Bestätigung durch den erneuten Ausbruch",
+    ", da hier das Risiko einer reinen Konsolidierung hoch ist.\n\n### Unsicherheiten & Sehenswerte Stellen\n- **Unsicherheiten:** Die vom Sprecher genannte Trefferquote von über 80 % ist eine persönliche Behauptung und wird im Video nicht durch statistische Backtest-Daten belegt. Einige Zahlenwerte auf den Chartachsen sind aufgrund der Auflösung nur eingeschränkt lesbar.\n- **Sehenswerte Stellen:** 03:12–05:25 (Erklärung der Volumens- und Market-Profile-Logik in der Cash-Session) sowie 08:08–10:20 (Schritt-für-Schritt-Ausführung des Setups im 5-Minuten-Chart).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-24T05:31:38.952320+00:00"
 }
