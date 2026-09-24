@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-24T11:01:22.479454+00:00",
-    "@wir-lieben-aktien": "2026-09-24T11:01:23.158282+00:00",
-    "@chartsekte": "2026-09-24T11:01:23.666235+00:00",
-    "@hkcm": "2026-09-24T11:01:24.109582+00:00",
-    "@phantombyhkcm": "2026-09-24T11:01:24.625420+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-24T11:01:25.073978+00:00",
-    "@aktien4future": "2026-09-24T11:01:25.563150+00:00",
-    "@Finanzbaer": "2026-09-24T11:01:26.087728+00:00",
-    "@Finanzwiesel": "2026-09-24T11:01:26.584143+00:00",
-    "@TradingKompass": "2026-09-24T11:01:27.111856+00:00",
-    "@TomVorwald": "2026-09-24T11:01:27.588691+00:00"
+    "@1OxTrading": "2026-09-24T11:31:11.872008+00:00",
+    "@wir-lieben-aktien": "2026-09-24T11:31:12.312976+00:00",
+    "@chartsekte": "2026-09-24T11:31:12.743884+00:00",
+    "@hkcm": "2026-09-24T11:31:13.227948+00:00",
+    "@phantombyhkcm": "2026-09-24T11:31:13.688910+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-24T11:31:14.148959+00:00",
+    "@aktien4future": "2026-09-24T11:31:14.609184+00:00",
+    "@Finanzbaer": "2026-09-24T11:31:15.160160+00:00",
+    "@Finanzwiesel": "2026-09-24T11:31:15.587222+00:00",
+    "@TradingKompass": "2026-09-24T11:31:16.030865+00:00",
+    "@TomVorwald": "2026-09-24T11:31:16.567856+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 306,
-    "last_attempt": "2026-09-24T11:01:37.212624+00:00"
+    "attempts": 307,
+    "last_attempt": "2026-09-24T11:31:28.742747+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -5207,8 +5207,8 @@
     "handle": "@TradingKompass",
     "status": "pending",
     "discovered_at": "2026-09-22T13:31:16.688644+00:00",
-    "attempts": 38,
-    "last_attempt": "2026-09-24T11:01:27.646412+00:00"
+    "attempts": 39,
+    "last_attempt": "2026-09-24T11:31:22.790127+00:00"
   },
   "-Y9O-VOwzKU": {
     "id": "-Y9O-VOwzKU",
@@ -5289,8 +5289,8 @@
     "handle": "@aktien4future",
     "status": "pending",
     "discovered_at": "2026-09-22T17:31:21.004338+00:00",
-    "attempts": 32,
-    "last_attempt": "2026-09-24T10:31:29.494205+00:00"
+    "attempts": 33,
+    "last_attempt": "2026-09-24T11:31:16.623577+00:00"
   },
   "Coqi3xfqSDA": {
     "id": "Coqi3xfqSDA",
