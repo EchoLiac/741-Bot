@@ -6,10 +6,51 @@
   "published": null,
   "channel": "10xTrading",
   "handle": "@1OxTrading",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-23T20:31:07.390156+00:00",
-  "attempts": 6,
-  "last_attempt": "2026-09-24T05:02:24.018517+00:00",
+  "attempts": 7,
+  "last_attempt": "2026-09-24T06:02:06.095156+00:00",
+  "content_available": true,
+  "summary": "Der Markt verzeichnete nach starken US-Einkaufsmanagerindizes und Äußerungen von Fed-Vertretern einen deutlichen Anstieg der US-Anleiherenditen sowie eine erhöhte Zinserhöhungserwartung für Oktober (00:42, 05:10). Trotz des Renditedrucks zeigen sich Tech-Indizes wie der Nasdaq 100 auf neuen Rekordständen relativ robust, während eine massive Short-Positionierung im Bond-Markt Squeeze-Potenzial birgt (07:16, 15:59). Die Analyse beleuchtet Makrodaten sowie die technische Lage von Öl, Bitcoin, Aktienindizes und Sektor-ETFs.\n\nTyp: Markt/Makro\n\n### US-Anleihen & Zinsmarkt\n- **Sprecherthese**: Extrem hohe Renditen (2-Jährige bei 4,9 %, 10-Jährige über 5,11 %) belasten die Märkte, bieten jedoch wegen historisch hoher Short-Positionierungen (171 Mrd. USD DV01) Squeeze-Potenzial, falls die Renditen stagnieren oder fallen (01:12, 07:16).\n- **Richtung**: Neutral bis Bullisch für Anleihen (fallende Renditen).\n- **Konkret belegte Levels**: 2-Jahres-Rendite 4,9 %, 10-Jahres-Rendite 5,11 % (01:12, 01:27).\n- **Trigger**: Nachlassen des Öldrucks oder schwächere Inflationsdaten (08:45).\n- **Invalidierung**: Fundamental unkontrollierter Ausbruch der Renditen nach oben (08:58).\n- **Zeithorizont**: Mittelfristig/Strukturell (10:28).\n\n### WTI Ölpreis (CL1!)\n- **Sprecherthese**: Der Ölpreis zeigt einen Bounce an der 50-Tage-Linie; ein Ausbruch über 93,50 USD könnte einen weiteren Anstieg Richtung 100 USD bringen, während ein Bruch der 85 USD Abwärtspotenzial bis 79 USD freisetzt (12:05, 13:06).\n- **Richtung**: Neutral / Konsolidierend.\n- **Konkret belegte Levels**: Widerstand 93,50 USD, 95 USD, 100 USD; Unterstützung 85 USD, Ziel 79 USD (12:13, 12:41, 13:06).\n- **Trigger**: Ausbruch über 93,50 USD (bullisch) oder Bruch der 85 USD (bärisch) (12:13, 13:06).\n- **Invalidierung**: nicht genannt.\n- **Zeithorizont**: Kurzfristig (12:45).\n\n### Bitcoin (BTCUSD)\n- **Sprecherthese**: Zeigt trotz des Renditedrucks am Anleihemarkt bemerkenswerte Stärke und hält sich oberhalb wichtiger Supportzonen (13:20).\n- **Richtung**: Bullisch.\n- **Konkret belegte Levels**: Unterstützung 82.800 USD, tiefere Zone 76.000 USD (13:29, 13:54).\n- **Trigger**: nicht genannt.\n- **Invalidierung**: nachhaltiger Bruch unter 82.800 USD bzw. 76.000 USD (13:50).\n- **Zeithorizont**: Kurz- bis mittelfristig.\n\n### S&P 500 (US500)\n- **Sprecherthese**: Prallte am 0.886 Fibonacci-Level ab und testet das 0.618 Fib; schwache Marktbreite (nur 30 % der Aktien über 50-Tage-Linie) mahnt zur Vorsicht (14:18, 15:18).\n- **Richtung**: Neutral / Konsolidierend.\n- **Konkret belegte Levels**: 0.886 Fib (Widerstand), 0.618 Fib (Unterstützung) (14:18, 14:25).\n- **Trigger**: nicht genannt.\n- **Invalidierung**: Strukturbrüche unter tiefere Hochs/Tiefs (15:00).\n- **Zeithorizont**: Kurzfristig.\n\n### Nasdaq 100 (NAS100 / US100)\n- **Sprecherthese**: Reagierte nach neuem Allzeithoch bei 30.799 Punkten am 0.886 Fib/Fair Value Gap positiv; oberhalb von 30.300 Punkten bleibt ein steiles Aufwärtsszenario intakt (15:59, 17:25).\n- **Richtung**: Bullisch.\n- **Konkret belegte Levels**: Allzeithoch 30.799 Punkte, Unterstützung 30.350 / 30.200 Punkte, Fernziel ca. 33.000 Punkte (15:59, 16:28, 17:25, 17:31).\n- **Trigger**: Halten der 30.300/30.350-Punkte-Marke (17:25).\n- **Invalidierung**: Bruch unter 30.000 Punkte (17:27).\n- **Zeithorizont**: Kurz- bis mittelfristig (17:45).\n\n### IGV (Software ETF) & SOXX (Semiconductor ETF)\n- **Sprecherthese**: IGV hält die 20-Tage-Linie unterhalb des 111-USD-Widerstands; SOXX reagierte am Doppelboden / 0.618 Fib, nähert sich aber kurzfristigen Widerständen (18:57, 19:07, 21:59).\n- **Richtung**: Neutral bis Bullisch.\n- **Konkret belegte Levels**: IGV Widerstand 111 USD (18:57); SOXX 0.618 Fib (21:59).\n- **Trigger**: nicht genannt.\n- **Invalidierung**: nicht genannt.\n- **Zeithorizont**: Kurzfristig.\n\n### Unsicherheiten & sehenswerte Stellen\n- **Unsicherheiten**: Entwicklung der Nahost-Geopolitik (Ölpreisschocks) und weitere Inflations- und Zinsschritte der US-Notenbank (02:21, 04:05).\n- **Sehenswerte Stellen**:\n  - 01:12 - 01:27: Übersicht der Anleiherenditen.\n  - 07:13 - 10:48: Makro-Herleitung des Bond-Short-Squeeze.\n  - 11:51 - 13:10: Technische Analyse WTI Ölpreis.\n  - 15:55 - 18:00: Allzeithoch und Ausbruchsstruktur im Nasdaq 100.",
+  "evidence": [
+    {
+      "timestamp": "01:12",
+      "basis": "audio",
+      "observation": "Sprecher nennt Anstieg der 2-jährigen US-Staatsanleihen auf 4,9 % und der 10-jährigen auf über 5 % (5,11 %)."
+    },
+    {
+      "timestamp": "04:43",
+      "basis": "visual",
+      "observation": "CME FedWatch Tool zeigt eine Wahrscheinlichkeit von 68,6 % für eine Zinsanhebung der Fed im Oktober an."
+    },
+    {
+      "timestamp": "07:13",
+      "basis": "visual",
+      "observation": "Folie 'Bond shorts are loaded' von Goldman Sachs zeigt historische Short-Positionierung der CTAs/Trendfolger."
+    },
+    {
+      "timestamp": "12:13",
+      "basis": "visual",
+      "observation": "Chart 'Light Crude Oil Futures' zeigt Unterstützung bei der 50-Tage-Linie und eingezeichnete Marke bei 93,50 USD."
+    },
+    {
+      "timestamp": "15:59",
+      "basis": "audio",
+      "observation": "Sprecher erwähnt neues Allzeithoch im Nasdaq 100 bei 30.799 Punkten."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "kbfk4gamGwI",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-24T06:03:02.282107+00:00",
+  "discord_chunks": [
+    "🎬 **10xTrading**\n**🚨 BOND-CRASH: US-Renditen über 5 % – JETZT kippt der Tech-Trade 💥**\nhttps://www.youtube.com/watch?v=kbfk4gamGwI\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\nDer Markt verzeichnete nach starken US-Einkaufsmanagerindizes und Äußerungen von Fed-Vertretern einen deutlichen Anstieg der US-Anleiherenditen sowie eine erhöhte Zinserhöhungserwartung für Oktober (00:42, 05:10). Trotz des Renditedrucks zeigen sich Tech-Indizes wie der Nasdaq 100 auf neuen Rekordständen relativ robust, während eine massive Short-Positionierung im Bond-Markt Squeeze-Potenzial birgt (07:16, 15:59). Die Analyse beleuchtet Makrodaten sowie die technische Lage von Öl, Bitcoin, Aktienindizes und Sektor-ETFs.\n\nTyp: Markt/Makro\n\n### US-Anleihen & Zinsmarkt\n- **Sprecherthese**: Extrem hohe Renditen (2-Jährige bei 4,9 %, 10-Jährige über 5,11 %) belasten die Märkte, bieten jedoch wegen historisch hoher Short-Positionierungen (171 Mrd. USD DV01) Squeeze-Potenzial, falls die Renditen stagnieren oder fallen (01:12, 07:16).\n- **Richtung**: Neutral bis Bullisch für Anleihen (fallende Renditen).\n- **Konkret belegte Levels**: 2-Jahres-Rendite 4,9 %, 10-Jahres-Rendite 5,11 % (01:12, 01:27).\n- **Trigger**: Nachlassen des Öldrucks oder schwächere Inflationsdaten (08:45).\n- **Invalidierung**: Fundamental unkontrollierter Ausbruch der Renditen nach oben (08:58).\n- **Zeithorizont**: Mittelfristig/Strukturell (10:28).\n\n### WTI Ölpreis (CL1!)\n- **Sprecherthese**: Der Ölpreis zeigt einen Bounce an der 50-Tage-Linie; ein Ausbruch über 93,50 USD könnte einen weiteren Anstieg Richtung 100 USD bringen, während ein Bruch der 85 USD Abwärtspotenzial bis 79 USD freisetzt (12:05, 13:06).\n- **Richtung**: Neutral / Konsolidierend.\n- **Konkret belegte Levels**: Widerstand 93,50 USD, 95 US",
+    "D, 100 USD; Unterstützung 85 USD, Ziel 79 USD (12:13, 12:41, 13:06).\n- **Trigger**: Ausbruch über 93,50 USD (bullisch) oder Bruch der 85 USD (bärisch) (12:13, 13:06).\n- **Invalidierung**: nicht genannt.\n- **Zeithorizont**: Kurzfristig (12:45).\n\n### Bitcoin (BTCUSD)\n- **Sprecherthese**: Zeigt trotz des Renditedrucks am Anleihemarkt bemerkenswerte Stärke und hält sich oberhalb wichtiger Supportzonen (13:20).\n- **Richtung**: Bullisch.\n- **Konkret belegte Levels**: Unterstützung 82.800 USD, tiefere Zone 76.000 USD (13:29, 13:54).\n- **Trigger**: nicht genannt.\n- **Invalidierung**: nachhaltiger Bruch unter 82.800 USD bzw. 76.000 USD (13:50).\n- **Zeithorizont**: Kurz- bis mittelfristig.\n\n### S&P 500 (US500)\n- **Sprecherthese**: Prallte am 0.886 Fibonacci-Level ab und testet das 0.618 Fib; schwache Marktbreite (nur 30 % der Aktien über 50-Tage-Linie) mahnt zur Vorsicht (14:18, 15:18).\n- **Richtung**: Neutral / Konsolidierend.\n- **Konkret belegte Levels**: 0.886 Fib (Widerstand), 0.618 Fib (Unterstützung) (14:18, 14:25).\n- **Trigger**: nicht genannt.\n- **Invalidierung**: Strukturbrüche unter tiefere Hochs/Tiefs (15:00).\n- **Zeithorizont**: Kurzfristig.\n\n### Nasdaq 100 (NAS100 / US100)\n- **Sprecherthese**: Reagierte nach neuem Allzeithoch bei 30.799 Punkten am 0.886 Fib/Fair Value Gap positiv; oberhalb von 30.300 Punkten bleibt ein steiles Aufwärtsszenario intakt (15:59, 17:25).\n- **Richtung**: Bullisch.\n- **Konkret belegte Levels**: Allzeithoch 30.799 Punkte, Unterstützung 30.350 / 30.200 Punkte, Fernziel ca. 33.000 Punkte (15:59, 16:28, 17:25, 17:31).\n- **Trigger**: Halten der 30.300/30.350-Punkte-Marke (17:25).\n- **Invalidierung**: Bruch unter 30.000 Punkte (17:27).\n- **Zeithorizont**: Kurz- bis mittelfristig (17:45).\n\n### IGV (Software ETF) & SOXX (Semiconductor ETF)\n- **Spre",
+    "cherthese**: IGV hält die 20-Tage-Linie unterhalb des 111-USD-Widerstands; SOXX reagierte am Doppelboden / 0.618 Fib, nähert sich aber kurzfristigen Widerständen (18:57, 19:07, 21:59).\n- **Richtung**: Neutral bis Bullisch.\n- **Konkret belegte Levels**: IGV Widerstand 111 USD (18:57); SOXX 0.618 Fib (21:59).\n- **Trigger**: nicht genannt.\n- **Invalidierung**: nicht genannt.\n- **Zeithorizont**: Kurzfristig.\n\n### Unsicherheiten & sehenswerte Stellen\n- **Unsicherheiten**: Entwicklung der Nahost-Geopolitik (Ölpreisschocks) und weitere Inflations- und Zinsschritte der US-Notenbank (02:21, 04:05).\n- **Sehenswerte Stellen**:\n  - 01:12 - 01:27: Übersicht der Anleiherenditen.\n  - 07:13 - 10:48: Makro-Herleitung des Bond-Short-Squeeze.\n  - 11:51 - 13:10: Technische Analyse WTI Ölpreis.\n  - 15:55 - 18:00: Allzeithoch und Ausbruchsstruktur im Nasdaq 100.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 3,
+  "discord_sent_at": "2026-09-24T06:03:03.037317+00:00"
 }

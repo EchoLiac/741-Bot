@@ -6,10 +6,45 @@
   "published": null,
   "channel": "TradingKompass",
   "handle": "@TradingKompass",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-23T18:01:58.867994+00:00",
-  "attempts": 7,
-  "last_attempt": "2026-09-24T04:31:28.419439+00:00",
+  "attempts": 8,
+  "last_attempt": "2026-09-24T06:01:28.077965+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDie McDonald's-Aktie befindet sich nach ihrem Allzeithoch in einer übergeordneten Elliott-Wellen-Korrektur (Welle 2) und zeigt derzeit noch kein Bodensignal. Kurz- bis mittelfristig drohen weitere Kursrücksetzer, ehe eine temporäre Erholung (Welle B) und ein anschließender Finalabverkauf (Welle C) folgen dürften. Langfristig bietet dieser mehrstufige Korrekturzyklus gestaffelte Einstiegschancen für Investoren.\n\n### Typ\nEinzelaktie\n\n### McDonald's (Ticker: MCD)\n* **Sprecherthese:** Nach Abschluss der großen Welle 5 am Allzeithoch befindet sich die Aktie in einer dreiteiligen Korrekturwelle 2 (A-B-C). Aktuell läuft die Welle A nach unten, worauf eine korrektive Erholungswelle B und ein anschließender Abverkauf in Welle C folgen sollten (02:25, 04:44).\n* **Richtung:** Kurz- bis mittelfristig bärisch / seitwärts-abwärts; langfristig nach Abschluss der Korrektur bullisch (Welle 3) (01:32, 07:12).\n* **Konkret belegte Levels:**\n  * Allzeithoch: 341,75 $ (00:40)\n  * Aktueller Kurs: ca. 236 $ (01:27)\n  * Support-Zone / Welle-A-Ziele: 233 $ bis 207 $ (01:38, 03:10); 38,2 % Fibonacci-Retracement bei 211,20 $ (02:32, 03:40); 50 % Fibonacci-Retracement bei 170,90 $ (02:35, 03:55)\n  * Weitere Korrekturziele (Welle C): 61,8 % Fib bei 130,60 $ (02:37) und 78,6 % Fib bei 73,00 $ (02:44, 06:58)\n  * Kurserholungsziel Welle B: Wiederanstieg um 40 % bis 80 % in die Widerstandszone zwischen 236 $ und 305 $ (04:32)\n  * Dividendenrendite: 3,08 % (05:58)\n* **Trigger & Invalidierung:**\n  * Kurzfristiger Trading-Trigger für Welle B: Warten auf ein erstes \"1-2 Setup\" (fünfteilige Aufwärtsbewegung gefolgt von dreiteiligem Rücksetzer) im Bereich um 211 $ (05:11).\n  * Invalidierung / Auslöser für tiefere Ziele: Ein nachhaltiger Bruch der Marke von 206 $ signalisiert ein Anlaufen der 170-$-Marke (04:14).\n* **Zeithorizont:** Die übergeordnete Korrektur erstreckt sich über mehrere Monate bis Jahre; das Halten nach dem finalen Einstieg ist auf 10 bis 20 Jahre angelegt (02:48, 07:08).\n\n### Unsicherheiten und sehenswerte Stellen\n* **Unsicherheiten:** Die genaue Welle-A-Bodenbildung ist unklar (Bodenbildung bei 211 $ oder Weiterfall auf 170 $ möglich); ohne bestätigtes Bodensignal bleibt die Aktie im \"freien Fall\" (01:35, 06:01).\n* **Sehenswerte Stellen:**\n  * **01:48 - 02:50:** Herleitung der langfristigen Elliott-Wellen-Zählung seit 2003 und Vorstellung der Fibonacci-Korrekturmarken.\n  * **04:08 - 04:55:** Skizzierung des A-B-C-Verlaufs mit prozentualen Erholungschancen in Welle B.\n  * **05:10 - 06:40:** Konkreter Handels- und Sparplanansatz (Tranchenkäufe/Staffelung).",
+  "evidence": [
+    {
+      "timestamp": "00:40",
+      "basis": "audio",
+      "observation": "Sprecher nennt das Allzeithoch der McDonald's-Aktie bei 341,75 USD im März."
+    },
+    {
+      "timestamp": "01:38",
+      "basis": "visual",
+      "observation": "Im Chart wird eine Support-Zone zwischen 233 USD und 207 USD eingeblendet."
+    },
+    {
+      "timestamp": "02:32",
+      "basis": "audio",
+      "observation": "Sprecher nennt Fibonacci-Korrekturlevel bei 211,20 USD (38,2%), 170,90 USD (50%), 130,60 USD (61,8%) und 73,00 USD (78,6%)."
+    },
+    {
+      "timestamp": "05:58",
+      "basis": "visual",
+      "observation": "Einblendung von Schlüsseldaten der McDonald's-Aktie mit einer indizierten Dividendenrendite von 3,08 %."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "tiBwKQQUclg",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-24T06:01:52.156291+00:00",
+  "discord_chunks": [
+    "🎬 **TradingKompass**\n**McDonald’s Crash: Die Chance des Jahrzehnts? 😱 MCD Analyse & Kursziele**\nhttps://www.youtube.com/watch?v=tiBwKQQUclg\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDie McDonald's-Aktie befindet sich nach ihrem Allzeithoch in einer übergeordneten Elliott-Wellen-Korrektur (Welle 2) und zeigt derzeit noch kein Bodensignal. Kurz- bis mittelfristig drohen weitere Kursrücksetzer, ehe eine temporäre Erholung (Welle B) und ein anschließender Finalabverkauf (Welle C) folgen dürften. Langfristig bietet dieser mehrstufige Korrekturzyklus gestaffelte Einstiegschancen für Investoren.\n\n### Typ\nEinzelaktie\n\n### McDonald's (Ticker: MCD)\n* **Sprecherthese:** Nach Abschluss der großen Welle 5 am Allzeithoch befindet sich die Aktie in einer dreiteiligen Korrekturwelle 2 (A-B-C). Aktuell läuft die Welle A nach unten, worauf eine korrektive Erholungswelle B und ein anschließender Abverkauf in Welle C folgen sollten (02:25, 04:44).\n* **Richtung:** Kurz- bis mittelfristig bärisch / seitwärts-abwärts; langfristig nach Abschluss der Korrektur bullisch (Welle 3) (01:32, 07:12).\n* **Konkret belegte Levels:**\n  * Allzeithoch: 341,75 $ (00:40)\n  * Aktueller Kurs: ca. 236 $ (01:27)\n  * Support-Zone / Welle-A-Ziele: 233 $ bis 207 $ (01:38, 03:10); 38,2 % Fibonacci-Retracement bei 211,20 $ (02:32, 03:40); 50 % Fibonacci-Retracement bei 170,90 $ (02:35, 03:55)\n  * Weitere Korrekturziele (Welle C): 61,8 % Fib bei 130,60 $ (02:37) und 78,6 % Fib bei 73,00 $ (02:44, 06:58)\n  * Kurserholungsziel Welle B: Wiederanstieg um 40 % bis 80 % in die Widerstandszone zwischen 236 $ und 305 $ (04:32)\n  * Dividendenrendite: 3,08 % (05:58)\n* **Trigger & Invalidierung:**\n  * Kurzfristiger Trading-Trigger für Welle B: Warten auf ein erstes \"1-2 Setup\" (fün",
+    "fteilige Aufwärtsbewegung gefolgt von dreiteiligem Rücksetzer) im Bereich um 211 $ (05:11).\n  * Invalidierung / Auslöser für tiefere Ziele: Ein nachhaltiger Bruch der Marke von 206 $ signalisiert ein Anlaufen der 170-$-Marke (04:14).\n* **Zeithorizont:** Die übergeordnete Korrektur erstreckt sich über mehrere Monate bis Jahre; das Halten nach dem finalen Einstieg ist auf 10 bis 20 Jahre angelegt (02:48, 07:08).\n\n### Unsicherheiten und sehenswerte Stellen\n* **Unsicherheiten:** Die genaue Welle-A-Bodenbildung ist unklar (Bodenbildung bei 211 $ oder Weiterfall auf 170 $ möglich); ohne bestätigtes Bodensignal bleibt die Aktie im \"freien Fall\" (01:35, 06:01).\n* **Sehenswerte Stellen:**\n  * **01:48 - 02:50:** Herleitung der langfristigen Elliott-Wellen-Zählung seit 2003 und Vorstellung der Fibonacci-Korrekturmarken.\n  * **04:08 - 04:55:** Skizzierung des A-B-C-Verlaufs mit prozentualen Erholungschancen in Welle B.\n  * **05:10 - 06:40:** Konkreter Handels- und Sparplanansatz (Tranchenkäufe/Staffelung).\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-24T06:01:54.052199+00:00"
 }

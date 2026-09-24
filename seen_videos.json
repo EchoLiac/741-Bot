@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-24T05:31:08.855838+00:00",
-    "@wir-lieben-aktien": "2026-09-24T05:31:09.324865+00:00",
-    "@chartsekte": "2026-09-24T05:31:09.842270+00:00",
-    "@hkcm": "2026-09-24T05:31:10.352482+00:00",
-    "@phantombyhkcm": "2026-09-24T05:31:10.759300+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-24T05:31:11.241913+00:00",
-    "@aktien4future": "2026-09-24T05:31:11.734867+00:00",
-    "@Finanzbaer": "2026-09-24T05:31:12.323438+00:00",
-    "@Finanzwiesel": "2026-09-24T05:31:12.760376+00:00",
-    "@TradingKompass": "2026-09-24T05:31:13.220957+00:00",
-    "@TomVorwald": "2026-09-24T05:31:13.705601+00:00"
+    "@1OxTrading": "2026-09-24T06:01:23.160288+00:00",
+    "@wir-lieben-aktien": "2026-09-24T06:01:23.675363+00:00",
+    "@chartsekte": "2026-09-24T06:01:24.121494+00:00",
+    "@hkcm": "2026-09-24T06:01:24.632843+00:00",
+    "@phantombyhkcm": "2026-09-24T06:01:25.066344+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-24T06:01:25.516495+00:00",
+    "@aktien4future": "2026-09-24T06:01:26.066209+00:00",
+    "@Finanzbaer": "2026-09-24T06:01:26.551410+00:00",
+    "@Finanzwiesel": "2026-09-24T06:01:27.040094+00:00",
+    "@TradingKompass": "2026-09-24T06:01:27.514982+00:00",
+    "@TomVorwald": "2026-09-24T06:01:28.019666+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -5412,10 +5412,11 @@
     "published": null,
     "channel": "TradingKompass",
     "handle": "@TradingKompass",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-23T18:01:58.867994+00:00",
-    "attempts": 7,
-    "last_attempt": "2026-09-24T04:31:22.398389+00:00"
+    "attempts": 8,
+    "last_attempt": "2026-09-24T06:01:28.077965+00:00",
+    "scraped_at": "2026-09-24T06:01:54.053216+00:00"
   },
   "R5M6vdf76b8": {
     "id": "R5M6vdf76b8",
@@ -5427,8 +5428,8 @@
     "handle": "@1OxTrading",
     "status": "pending",
     "discovered_at": "2026-09-23T18:31:15.655596+00:00",
-    "attempts": 7,
-    "last_attempt": "2026-09-24T04:31:28.436238+00:00"
+    "attempts": 8,
+    "last_attempt": "2026-09-24T06:01:54.057608+00:00"
   },
   "kbfk4gamGwI": {
     "id": "kbfk4gamGwI",
@@ -5438,9 +5439,10 @@
     "published": null,
     "channel": "10xTrading",
     "handle": "@1OxTrading",
-    "status": "pending",
+    "status": "complete",
     "discovered_at": "2026-09-23T20:31:07.390156+00:00",
-    "attempts": 6,
-    "last_attempt": "2026-09-24T05:01:23.897063+00:00"
+    "attempts": 7,
+    "last_attempt": "2026-09-24T06:02:06.095156+00:00",
+    "scraped_at": "2026-09-24T06:03:03.038383+00:00"
   }
 }
