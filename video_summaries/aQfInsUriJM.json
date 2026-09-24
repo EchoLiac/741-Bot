@@ -1,0 +1,70 @@
+{
+  "id": "aQfInsUriJM",
+  "title": "VONOVIA - Hält der Dreifachboden? 🤔 VNA Analyse & Kursziele",
+  "url": "https://www.youtube.com/watch?v=aQfInsUriJM",
+  "duration": 845,
+  "published": null,
+  "channel": "TradingKompass",
+  "handle": "@TradingKompass",
+  "status": "complete",
+  "discovered_at": "2026-09-24T14:01:27.169980+00:00",
+  "attempts": 1,
+  "last_attempt": "2026-09-24T14:01:27.801363+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDie Vonovia SE-Aktie notiert nahe ihrem langjährigen Unterstützungstief im Bereich von ca. 17,26 € und zeigt Potenzial zur Ausbildung eines Dreifachbodens [00:31, 01:29]. Ausgehend von dieser Zone ergeben sich nach Elliott-Wellen-Analyse mittelfristige Erholungschancen von über 100 % mit primären Kurszielen ab 35,84 € [03:54, 07:58]. Ein nachhaltiger Bruch der Hauptunterstützung bei 15,16 € invalidiert das bullische Setup und öffnet den Weg für tiefere Korrekturziele [02:33, 05:16].\n\n### Typ\nEinzelaktie\n\n### Vonovia SE (VNA)\n- **Sprecherthese:** Die Aktie steht knapp über ihrem Allzeittief vor dem Abschluss einer komplexen Korrekturstruktur und bietet daher ein sehr günstiges Chance-Risiko-Verhältnis für eine starke Erholungsbewegung oder einen neuen Aufwärtsimpuls [01:29, 06:03, 06:51].\n- **Richtung:** Bullisch / Erholung [03:44]\n- **Konkret belegte Levels:**\n  - Aktueller Kurs: 17,26 € [00:31]\n  - Hauptunterstützung / Invalidierung: 15,16 € bzw. 15,26 € [05:16, 06:56]\n  - Kurzfristiges Tief der Restabwärtswelle: 15,46 € [06:45]\n  - Kurzfristiges Erholungsziel (Welle 4): ca. 19,00 € [06:35]\n  - Erstes Hauptkursziel (100 % Extension): 35,84 € (+108 %) [07:58, 08:26]\n  - Weitere Fibonacci-Erholungsziele: 44,20 € (61,8 %) [08:38] sowie bis zu 51,80 € [04:03, 08:42]\n  - Langfristiges Ziel bei neuem Allzeithoch: über 58,00 € (+245 %) [04:23]\n  - Bärische Alternativziele bei Tiefbruch: 12,58 € bis 6,64 € [02:33]\n  - Dividende: 1,25 € je Aktie (entspricht ca. 7,26 % Dividendenrendite p.a. bei 17,21 €) [10:12, 10:38]\n- **Trigger:** Ein erstes technisches Bodenbestätigungssignal entsteht bei einem Anstieg über die Marke von 20,24 € [12:43]. Ein übergeordnetes Bestätigungssignal liegt beim Ausbruch über 28,88 € [12:53].\n- **Invalidierung:** Ein Tagesschlusskurs oder Rutsch unter das bisherige Tief bei 15,16 € hebt das direkte Long-Szenario auf [05:16, 06:56].\n- **Zeithorizont:** Mittel- bis langfristig (mehrere Monate bis Jahre) [04:17, 07:22, 09:08].\n\n### Unsicherheiten & lohnende Chartstellen\nKurzfristig fehlen noch klare Bestätigungssignale für eine vollendete Bodenbildung; ein letzter untergeordneter Dips in Richtung 15,46 € bleibt möglich [06:10, 06:45]. Es lohnt sich, die Entwicklung an der Invalidierungsmarke bei 15,16 € [06:56] sowie den Trigger bei 20,24 € [12:43] im Blick zu behalten.",
+  "evidence": [
+    {
+      "timestamp": "00:31",
+      "basis": "audio",
+      "observation": "Sprecher nennt den aktuellen Vonovia-Kurs bei 17 Euro und 26 Cent."
+    },
+    {
+      "timestamp": "01:29",
+      "basis": "visual",
+      "observation": "Chart zeigt die mögliche Ausbildung eines Dreifachbodens auf Höhe des Tiefs von 2013 und April 2023."
+    },
+    {
+      "timestamp": "02:33",
+      "basis": "audio",
+      "observation": "Sprecher nennt tiefere Zielmarken einer erweiterten Welle 2 zwischen 12,58 € und 6,64 €."
+    },
+    {
+      "timestamp": "05:16",
+      "basis": "audio",
+      "observation": "Sprecher nennt 15,26 € als das relevante Tief, das für das direkte 1-2-Setup nicht unterschritten werden darf."
+    },
+    {
+      "timestamp": "06:45",
+      "basis": "visual",
+      "observation": "Untergeordnetes Zielniveau bei 15,46 € in Welle Y auf dem Tageschart eingeblendet."
+    },
+    {
+      "timestamp": "07:58",
+      "basis": "visual",
+      "observation": "Chart zeigt die 100%-Fibonacci-Extension bei 35,84 € als erstes Ausbruchsziel."
+    },
+    {
+      "timestamp": "10:38",
+      "basis": "visual",
+      "observation": "Ein Taschenrechner berechnet die Dividendenrendite: 1,25 € / 17,21 € * 100 = 7,26 % p.a."
+    },
+    {
+      "timestamp": "12:43",
+      "basis": "visual",
+      "observation": "Sprecher platziert einen Preisalarm bei 20,24 € im Broker-Chart zur Bodenbestätigung."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
+  "video_id": "aQfInsUriJM",
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-24T14:02:17.627604+00:00",
+  "discord_chunks": [
+    "🎬 **TradingKompass**\n**VONOVIA - Hält der Dreifachboden? 🤔 VNA Analyse & Kursziele**\nhttps://www.youtube.com/watch?v=aQfInsUriJM\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDie Vonovia SE-Aktie notiert nahe ihrem langjährigen Unterstützungstief im Bereich von ca. 17,26 € und zeigt Potenzial zur Ausbildung eines Dreifachbodens [00:31, 01:29]. Ausgehend von dieser Zone ergeben sich nach Elliott-Wellen-Analyse mittelfristige Erholungschancen von über 100 % mit primären Kurszielen ab 35,84 € [03:54, 07:58]. Ein nachhaltiger Bruch der Hauptunterstützung bei 15,16 € invalidiert das bullische Setup und öffnet den Weg für tiefere Korrekturziele [02:33, 05:16].\n\n### Typ\nEinzelaktie\n\n### Vonovia SE (VNA)\n- **Sprecherthese:** Die Aktie steht knapp über ihrem Allzeittief vor dem Abschluss einer komplexen Korrekturstruktur und bietet daher ein sehr günstiges Chance-Risiko-Verhältnis für eine starke Erholungsbewegung oder einen neuen Aufwärtsimpuls [01:29, 06:03, 06:51].\n- **Richtung:** Bullisch / Erholung [03:44]\n- **Konkret belegte Levels:**\n  - Aktueller Kurs: 17,26 € [00:31]\n  - Hauptunterstützung / Invalidierung: 15,16 € bzw. 15,26 € [05:16, 06:56]\n  - Kurzfristiges Tief der Restabwärtswelle: 15,46 € [06:45]\n  - Kurzfristiges Erholungsziel (Welle 4): ca. 19,00 € [06:35]\n  - Erstes Hauptkursziel (100 % Extension): 35,84 € (+108 %) [07:58, 08:26]\n  - Weitere Fibonacci-Erholungsziele: 44,20 € (61,8 %) [08:38] sowie bis zu 51,80 € [04:03, 08:42]\n  - Langfristiges Ziel bei neuem Allzeithoch: über 58,00 € (+245 %) [04:23]\n  - Bärische Alternativziele bei Tiefbruch: 12,58 € bis 6,64 € [02:33]\n  - Dividende: 1,25 € je Aktie (entspricht ca. 7,26 % Dividendenrendite p.a. bei 17,21 €) [10:12, 10:38]\n- **Trigger:** Ein erstes technisches Bodenbe",
+    "stätigungssignal entsteht bei einem Anstieg über die Marke von 20,24 € [12:43]. Ein übergeordnetes Bestätigungssignal liegt beim Ausbruch über 28,88 € [12:53].\n- **Invalidierung:** Ein Tagesschlusskurs oder Rutsch unter das bisherige Tief bei 15,16 € hebt das direkte Long-Szenario auf [05:16, 06:56].\n- **Zeithorizont:** Mittel- bis langfristig (mehrere Monate bis Jahre) [04:17, 07:22, 09:08].\n\n### Unsicherheiten & lohnende Chartstellen\nKurzfristig fehlen noch klare Bestätigungssignale für eine vollendete Bodenbildung; ein letzter untergeordneter Dips in Richtung 15,46 € bleibt möglich [06:10, 06:45]. Es lohnt sich, die Entwicklung an der Invalidierungsmarke bei 15,16 € [06:56] sowie den Trigger bei 20,24 € [12:43] im Blick zu behalten.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 2,
+  "discord_sent_at": "2026-09-24T14:02:18.153715+00:00"
+}
