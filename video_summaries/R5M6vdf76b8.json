@@ -6,10 +6,77 @@
   "published": null,
   "channel": "10xTrading",
   "handle": "@1OxTrading",
-  "status": "analysis_failed",
+  "status": "complete",
   "discovered_at": "2026-09-23T18:31:15.655596+00:00",
-  "attempts": 9,
-  "last_attempt": "2026-09-24T07:03:40.407311+00:00",
+  "attempts": 10,
+  "last_attempt": "2026-09-24T08:01:26.207517+00:00",
+  "content_available": true,
+  "summary": "### Kernaussage\nDer Sprecher analysiert zehn Einzeltitel aus den Bereichen Tech, Cybersecurity, Konsum und China-Tech. Während Werte wie Crowdstrike, Robinhood und Meta kurz vor wichtigen Ziel- und Gewinnmitnahmezonen stehen, bieten Titel wie McDonald's, SoFi und Xiaomi antizyklische Einstiegs- oder Nachkaufchancen. Bei Alibaba und Broadcom warnen wichtige Support-Level vor weiteren Abwärtsrisiken.\n\n**Typ:** mehrere Aktien\n\n---\n\n### Crowdstrike Holdings (CRWD) [00:22]\n* **Sprecherthese:** Die Aktie bricht aus übergeordneten Strukturen stetig nach oben aus und zeigt starkes Momentum.\n* **Richtung:** Bullisch\n* **Levels:** Gewinnmitnahmezone bei 270–300 USD (bzw. 265–300 USD) [01:01, 01:29].\n* **Trigger:** Nicht genannt.\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Kurzer bis mittlerer Zeithorizont (Gewinnmitnahme im Zielbereich geplant).\n\n### Palo Alto Networks (PANW) [02:12]\n* **Sprecherthese:** Bildet ein höheres Tief auf der 50-Tage-Linie aus, leidet jedoch unter tiefen Hochs / multiplen Hochs.\n* **Richtung:** Neutral bis bullisch\n* **Levels:** Zielzone bei ~420 USD [02:22]; Unterstützung auf der 50-Tage-Linie [03:02].\n* **Trigger:** Ausbruch über bisherige Verlaufshochs / Allzeithoch [03:08].\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Nicht genannt.\n\n### Palantir Technologies (PLTR) [03:17]\n* **Sprecherthese:** Aktie hat obere Zielzone berührt; Chance-Risiko-Verhältnis auf aktuellem Niveau unattraktiv.\n* **Richtung:** Konsolidierend / Rücksetzer erwartet\n* **Levels:** Zonen bei 215–225 USD (Shark/Cypher Pattern) [03:48]; Backtest-Unterstützung bei 125 USD [04:03].\n* **Trigger:** Greifen der Zielzone löst Gewinnmitnahmen aus [04:28].\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Nicht genannt.\n\n### Robinhood Markets (HOOD) [04:39]\n* **Sprecherthese:** Technisch sehr sauber; erfolgreicher Backtest des Abwärtstrends eröffnet weiteres Kurspotenzial.\n* **Richtung:** Bullisch\n* **Levels:** 20-Tage-Linie bei 113 USD [06:02]; Widerstand bei ~127 USD [06:17]; übergeordnetes Kursziel bei 140–145 USD (bzw. 143 USD) [05:48, 06:06].\n* **Trigger:** Nachhaltiges Rausnehmen der Widerstandszone bei 127 USD [06:17].\n* **Invalidierung:** Bruch der 113 USD Marke (20-Tage-Linie).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### McDonald's Corporation (MCD) [06:23]\n* **Sprecherthese:** Massiv überverkauft in Wochen- und Monatscharts; erste antizyklische Tranche als langfristiger Tagesgeldersatz gekauft.\n* **Richtung:** Antizyklisch bullisch (langfristig)\n* **Levels:** Kauf der 1. Tranche auf aktuellem Niveau [07:26]; geplante 2. Tranche bei ~200 USD [07:43]; Wochen-RSI bei 24, Monats-RSI bei 34 [07:19].\n* **Trigger:** Nicht genannt.\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig.\n\n### Meta Platforms (META) [08:45]\n* **Sprecherthese:** Konsolidiert seitwärts; Ausbruch aus dem 740 USD Level ebnet den Weg zum Testen neuer Hochs.\n* **Richtung:** Bullisch\n* **Levels:** Ausbruchslevel bei 740 USD [09:24]; Crab-Pattern-Zielzone bei 790–800 USD [09:07].\n* **Trigger:** Erreichen des 740 USD Niveaus [09:24].\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### SoFi Technologies (SOFI) [10:13]\n* **Sprecherthese:** Verweilt in einer Seitwärtskonsolidierung nahe einer übergeordneten Kaufzone.\n* **Richtung:** Neutral mit langfristigem Akkumulationsinteresse\n* **Levels:** Erster Support bei 15,00–15,50 USD [12:01]; Make-or-Break-Support bei 12,80–13,60 USD [12:05]; 78,6% Fibonacci-Level [11:16].\n* **Trigger:** Ein erneuter Rücksetzer unter 15 USD dient als Kauf-/Aufstockungstrigger [11:20].\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig.\n\n### Alibaba Group Holding (BABA) [12:08]\n* **Sprecherthese:** Am Widerstand bei 120 USD abgewiesen; Entscheidung fällt an der 200-Wochen-Linie.\n* **Richtung:** Neutral bis bärisch gefährdet\n* **Levels:** Widerstand bei 120 USD [12:28]; obere Ziele bei 130–140 USD [12:38]; Support an der 200-Wochen-Linie bei 105 USD [13:16, 13:41]; Abwärtsziel bei 92 USD [13:44].\n* **Trigger / Invalidierung:** Bruch des Supports unter 105 USD / 200-Wochen-Linie leitet Rutsch auf ~92 USD ein [13:41].\n* **Zeithorizont:** Mittelfristig.\n\n### Xiaomi Corporation (XIAOMI / 1810) [13:46]\n* **Sprecherthese:** Befindet sich in einer volatilen Bodenbildung (Gartley-Muster) und ist langfristig attraktiv.\n* **Richtung:** Antizyklisch bullisch\n* **Levels:** Support-Zone um 25 HKD [15:00]; lokales Ziel / Gartley-Zone bei 23,50 HKD [15:03].\n* **Trigger:** Nicht genannt.\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig.\n\n### Broadcom (AVGO) [15:25]\n* **Sprecherthese:** Fehlende Impulsivität und Dynamik; verharrt im Bereich der 200-Tage-Linie.\n* **Richtung:** Neutral bis bärisch gefährdet\n* **Levels:** Wichtige Bullen-Marke bei 350 USD [17:19]; tieferes Abwärtsziel bei 315–320 USD [17:35].\n* **Trigger / Invalidierung:** Ein Verbleib unter 350 USD erhöht die Gefahr eines Abverkaufs in Richtung 315–320 USD [17:21].\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n---\n\n### Unsicherheiten & Sehenswerte Videostellen\n* **Wichtige Stellen im Video:**\n  * **06:23 – 08:44:** McDonald's Chart und Ausführungen zur langfristigen Tranchen-Strategie.\n  * **12:08 – 13:45:** Alibaba Chart mit Betonung der kritischen 200-Wochen-Linie bei 105 USD.\n  * **15:25 – 17:47:** Broadcom Analyse bezüglich fehlendem Momentum im Vergleich zu anderen Chipwerten.\n* **Unsicherheiten:** Bei Werten wie Palo Alto Networks und Broadcom fehlen klare Trendimpulse, weshalb Rücksetzer einkalkuliert werden müssen. Zudem sind makroökonomische Faktoren (z. B. politische Impulse in China bei Alibaba/Xiaomi) vom Sprecher nicht exakt planbar.",
+  "evidence": [
+    {
+      "timestamp": "01:01",
+      "basis": "audio",
+      "observation": "Sprecher nennt für Crowdstrike eine Gewinnmitnahmezone von 270 bis 300 USD."
+    },
+    {
+      "timestamp": "02:22",
+      "basis": "audio",
+      "observation": "Sprecher verortet bei Palo Alto Networks die Zielzone im Bereich um 420 USD."
+    },
+    {
+      "timestamp": "03:48",
+      "basis": "visual",
+      "observation": "Im Chart von Palantir wird eine Shark-Zielzone im Bereich 215–225 USD eingeblendet."
+    },
+    {
+      "timestamp": "05:48",
+      "basis": "audio",
+      "observation": "Für Robinhood wird ein übergeordnetes Ziel von 140–145 USD angegeben."
+    },
+    {
+      "timestamp": "07:19",
+      "basis": "audio",
+      "observation": "Sprecher erwähnt für McDonald's einen Wochen-RSI von 24 und einen Monats-RSI von 34."
+    },
+    {
+      "timestamp": "09:07",
+      "basis": "audio",
+      "observation": "Sprecher benennt bei Meta eine Crab-Pattern-Zielzone bei 790–800 USD."
+    },
+    {
+      "timestamp": "12:01",
+      "basis": "audio",
+      "observation": "Sprecher nennt bei SoFi zwei Support-Zonen: 15,00–15,50 USD und 12,80–13,60 USD."
+    },
+    {
+      "timestamp": "13:41",
+      "basis": "audio",
+      "observation": "Bei Alibaba droht bei einem Bruch der 105 USD Marke (200-Wochen-Linie) ein Rutsch auf ca. 92 USD."
+    },
+    {
+      "timestamp": "15:03",
+      "basis": "visual",
+      "observation": "Bei Xiaomi zeigt das Chart-Muster eine lokale Zielzone bei 23,50 HKD und Support bei 25 HKD."
+    },
+    {
+      "timestamp": "17:35",
+      "basis": "audio",
+      "observation": "Sprecher nennt für Broadcom ein tieferes Kursziel von 315–320 USD, falls die Aktie unter 350 USD bleibt."
+    }
+  ],
+  "analysis_mode": "video",
+  "transcript": null,
+  "transcript_truncated": false,
   "video_id": "R5M6vdf76b8",
-  "scanner_version": "video-first-v3"
+  "scanner_version": "video-first-v3",
+  "model": "gemini-3.6-flash",
+  "analyzed_at": "2026-09-24T08:02:01.054961+00:00",
+  "discord_chunks": [
+    "🎬 **10xTrading**\n**🚨 10 AKTIEN 💥 Crowdstrike Meta Palantir Broadcom McDonalds Robinhood Alibaba Xiaomi SoFi PaloAlto**\nhttps://www.youtube.com/watch?v=R5M6vdf76b8\nGrundlage: Videoeingabe (Bild/Ton); KI-Auswertung, nicht manuell geprüft\n\n### Kernaussage\nDer Sprecher analysiert zehn Einzeltitel aus den Bereichen Tech, Cybersecurity, Konsum und China-Tech. Während Werte wie Crowdstrike, Robinhood und Meta kurz vor wichtigen Ziel- und Gewinnmitnahmezonen stehen, bieten Titel wie McDonald's, SoFi und Xiaomi antizyklische Einstiegs- oder Nachkaufchancen. Bei Alibaba und Broadcom warnen wichtige Support-Level vor weiteren Abwärtsrisiken.\n\n**Typ:** mehrere Aktien\n\n---\n\n### Crowdstrike Holdings (CRWD) [00:22]\n* **Sprecherthese:** Die Aktie bricht aus übergeordneten Strukturen stetig nach oben aus und zeigt starkes Momentum.\n* **Richtung:** Bullisch\n* **Levels:** Gewinnmitnahmezone bei 270–300 USD (bzw. 265–300 USD) [01:01, 01:29].\n* **Trigger:** Nicht genannt.\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Kurzer bis mittlerer Zeithorizont (Gewinnmitnahme im Zielbereich geplant).\n\n### Palo Alto Networks (PANW) [02:12]\n* **Sprecherthese:** Bildet ein höheres Tief auf der 50-Tage-Linie aus, leidet jedoch unter tiefen Hochs / multiplen Hochs.\n* **Richtung:** Neutral bis bullisch\n* **Levels:** Zielzone bei ~420 USD [02:22]; Unterstützung auf der 50-Tage-Linie [03:02].\n* **Trigger:** Ausbruch über bisherige Verlaufshochs / Allzeithoch [03:08].\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Nicht genannt.\n\n### Palantir Technologies (PLTR) [03:17]\n* **Sprecherthese:** Aktie hat obere Zielzone berührt; Chance-Risiko-Verhältnis auf aktuellem Niveau unattraktiv.\n* **Richtung:** Konsolidierend / Rücksetzer erwartet\n* **Levels:** Zonen bei 215–225 USD (Shark/Cypher Pattern",
+    ") [03:48]; Backtest-Unterstützung bei 125 USD [04:03].\n* **Trigger:** Greifen der Zielzone löst Gewinnmitnahmen aus [04:28].\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Nicht genannt.\n\n### Robinhood Markets (HOOD) [04:39]\n* **Sprecherthese:** Technisch sehr sauber; erfolgreicher Backtest des Abwärtstrends eröffnet weiteres Kurspotenzial.\n* **Richtung:** Bullisch\n* **Levels:** 20-Tage-Linie bei 113 USD [06:02]; Widerstand bei ~127 USD [06:17]; übergeordnetes Kursziel bei 140–145 USD (bzw. 143 USD) [05:48, 06:06].\n* **Trigger:** Nachhaltiges Rausnehmen der Widerstandszone bei 127 USD [06:17].\n* **Invalidierung:** Bruch der 113 USD Marke (20-Tage-Linie).\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### McDonald's Corporation (MCD) [06:23]\n* **Sprecherthese:** Massiv überverkauft in Wochen- und Monatscharts; erste antizyklische Tranche als langfristiger Tagesgeldersatz gekauft.\n* **Richtung:** Antizyklisch bullisch (langfristig)\n* **Levels:** Kauf der 1. Tranche auf aktuellem Niveau [07:26]; geplante 2. Tranche bei ~200 USD [07:43]; Wochen-RSI bei 24, Monats-RSI bei 34 [07:19].\n* **Trigger:** Nicht genannt.\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig.\n\n### Meta Platforms (META) [08:45]\n* **Sprecherthese:** Konsolidiert seitwärts; Ausbruch aus dem 740 USD Level ebnet den Weg zum Testen neuer Hochs.\n* **Richtung:** Bullisch\n* **Levels:** Ausbruchslevel bei 740 USD [09:24]; Crab-Pattern-Zielzone bei 790–800 USD [09:07].\n* **Trigger:** Erreichen des 740 USD Niveaus [09:24].\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n### SoFi Technologies (SOFI) [10:13]\n* **Sprecherthese:** Verweilt in einer Seitwärtskonsolidierung nahe einer übergeordneten Kaufzone.\n* **Richtung:** Neutral mit langfristigem Akkumulation",
+    "sinteresse\n* **Levels:** Erster Support bei 15,00–15,50 USD [12:01]; Make-or-Break-Support bei 12,80–13,60 USD [12:05]; 78,6% Fibonacci-Level [11:16].\n* **Trigger:** Ein erneuter Rücksetzer unter 15 USD dient als Kauf-/Aufstockungstrigger [11:20].\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig.\n\n### Alibaba Group Holding (BABA) [12:08]\n* **Sprecherthese:** Am Widerstand bei 120 USD abgewiesen; Entscheidung fällt an der 200-Wochen-Linie.\n* **Richtung:** Neutral bis bärisch gefährdet\n* **Levels:** Widerstand bei 120 USD [12:28]; obere Ziele bei 130–140 USD [12:38]; Support an der 200-Wochen-Linie bei 105 USD [13:16, 13:41]; Abwärtsziel bei 92 USD [13:44].\n* **Trigger / Invalidierung:** Bruch des Supports unter 105 USD / 200-Wochen-Linie leitet Rutsch auf ~92 USD ein [13:41].\n* **Zeithorizont:** Mittelfristig.\n\n### Xiaomi Corporation (XIAOMI / 1810) [13:46]\n* **Sprecherthese:** Befindet sich in einer volatilen Bodenbildung (Gartley-Muster) und ist langfristig attraktiv.\n* **Richtung:** Antizyklisch bullisch\n* **Levels:** Support-Zone um 25 HKD [15:00]; lokales Ziel / Gartley-Zone bei 23,50 HKD [15:03].\n* **Trigger:** Nicht genannt.\n* **Invalidierung:** Nicht genannt.\n* **Zeithorizont:** Langfristig.\n\n### Broadcom (AVGO) [15:25]\n* **Sprecherthese:** Fehlende Impulsivität und Dynamik; verharrt im Bereich der 200-Tage-Linie.\n* **Richtung:** Neutral bis bärisch gefährdet\n* **Levels:** Wichtige Bullen-Marke bei 350 USD [17:19]; tieferes Abwärtsziel bei 315–320 USD [17:35].\n* **Trigger / Invalidierung:** Ein Verbleib unter 350 USD erhöht die Gefahr eines Abverkaufs in Richtung 315–320 USD [17:21].\n* **Zeithorizont:** Kurz- bis mittelfristig.\n\n---\n\n### Unsicherheiten & Sehenswerte Videostellen\n* **Wichtige Stellen im Video:**\n  * **06:23 – 08:44:** McDonald's",
+    " Chart und Ausführungen zur langfristigen Tranchen-Strategie.\n  * **12:08 – 13:45:** Alibaba Chart mit Betonung der kritischen 200-Wochen-Linie bei 105 USD.\n  * **15:25 – 17:47:** Broadcom Analyse bezüglich fehlendem Momentum im Vergleich zu anderen Chipwerten.\n* **Unsicherheiten:** Bei Werten wie Palo Alto Networks und Broadcom fehlen klare Trendimpulse, weshalb Rücksetzer einkalkuliert werden müssen. Zudem sind makroökonomische Faktoren (z. B. politische Impulse in China bei Alibaba/Xiaomi) vom Sprecher nicht exakt planbar.\n\nQuellenmeinung zum Videozeitpunkt; keine geprüften aktuellen Handelssignale."
+  ],
+  "discord_next_chunk": 4,
+  "discord_sent_at": "2026-09-24T08:02:02.068047+00:00"
 }
