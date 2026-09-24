@@ -1,16 +1,16 @@
 {
   "__channels__": {
-    "@1OxTrading": "2026-09-24T14:31:16.564354+00:00",
-    "@wir-lieben-aktien": "2026-09-24T14:31:17.134079+00:00",
-    "@chartsekte": "2026-09-24T14:31:17.615752+00:00",
-    "@hkcm": "2026-09-24T14:31:18.171526+00:00",
-    "@phantombyhkcm": "2026-09-24T14:31:18.875244+00:00",
-    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-24T14:31:19.393299+00:00",
-    "@aktien4future": "2026-09-24T14:31:19.855059+00:00",
-    "@Finanzbaer": "2026-09-24T14:31:20.383249+00:00",
-    "@Finanzwiesel": "2026-09-24T14:31:20.856869+00:00",
-    "@TradingKompass": "2026-09-24T14:31:21.580050+00:00",
-    "@TomVorwald": "2026-09-24T14:31:22.090699+00:00"
+    "@1OxTrading": "2026-09-24T15:01:32.451749+00:00",
+    "@wir-lieben-aktien": "2026-09-24T15:01:32.969729+00:00",
+    "@chartsekte": "2026-09-24T15:01:33.422477+00:00",
+    "@hkcm": "2026-09-24T15:01:33.986172+00:00",
+    "@phantombyhkcm": "2026-09-24T15:01:34.783393+00:00",
+    "@ChartsCarsbyPhilipKlinkmüller": "2026-09-24T15:01:35.335027+00:00",
+    "@aktien4future": "2026-09-24T15:01:35.846756+00:00",
+    "@Finanzbaer": "2026-09-24T15:01:36.476881+00:00",
+    "@Finanzwiesel": "2026-09-24T15:01:36.991461+00:00",
+    "@TradingKompass": "2026-09-24T15:01:37.479999+00:00",
+    "@TomVorwald": "2026-09-24T15:01:38.088536+00:00"
   },
   "Ju_xFNPQYt0": {
     "id": "Ju_xFNPQYt0",
@@ -1470,8 +1470,8 @@
     "handle": "@phantombyhkcm",
     "status": "pending",
     "discovered_at": "2026-09-13T20:34:18.082220+00:00",
-    "attempts": 310,
-    "last_attempt": "2026-09-24T14:31:22.133931+00:00"
+    "attempts": 311,
+    "last_attempt": "2026-09-24T15:01:44.692649+00:00"
   },
   "YyShCc_g3t0": {
     "id": "YyShCc_g3t0",
@@ -5207,8 +5207,8 @@
     "handle": "@TradingKompass",
     "status": "pending",
     "discovered_at": "2026-09-22T13:31:16.688644+00:00",
-    "attempts": 42,
-    "last_attempt": "2026-09-24T14:02:46.135530+00:00"
+    "attempts": 43,
+    "last_attempt": "2026-09-24T15:01:38.132350+00:00"
   },
   "-Y9O-VOwzKU": {
     "id": "-Y9O-VOwzKU",
@@ -5220,8 +5220,8 @@
     "handle": "@chartsekte",
     "status": "pending",
     "discovered_at": "2026-09-22T15:01:18.288258+00:00",
-    "attempts": 40,
-    "last_attempt": "2026-09-24T14:31:28.453580+00:00"
+    "attempts": 41,
+    "last_attempt": "2026-09-24T15:01:51.027559+00:00"
   },
   "O-G7zThDSHY": {
     "id": "O-G7zThDSHY",
